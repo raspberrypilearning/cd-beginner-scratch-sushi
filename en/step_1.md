@@ -1,6 +1,6 @@
 ## Introduction
 
-Add project description here. What will learners be making?
+These Sushi Cards are going to help you learn to create computer programs in Scratch.
 
 ### What you will make
 

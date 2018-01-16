@@ -12,5 +12,10 @@ technologies: "electronics, sense-hat, physical computing, html/css, scratch, py
 site_areas:
 steps:
   - title: Introduction
-  - title: What you will need
-  - title: Step title
+  - title: Getting Setup
+  - title: Adding & removing code
+  - title: Moving things around
+  - title: Looking cool
+  - title: All the sprites
+  - title: Remote control fish
+  - title: Fishing!
