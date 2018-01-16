@@ -2,7 +2,7 @@
 
 Great! You’ve written your first Scratch program. Time to learn a little more about gettng code in and out of Scratch! Scratch code is made up of **blocks** that you snap together to make programs. 
 
-![])(images/code1.png)
+![](images/code1.png)
 
 These blocks come from the **Code Blocks Pallet** where they are broken up into different categories. 
 

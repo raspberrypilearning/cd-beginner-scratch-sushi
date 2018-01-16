@@ -17,7 +17,7 @@ This screen has a few parts you’ll need to remember. They are highlighted in t
 
 There are a few words from that picture that need explaining:
 
-### The Stage**
+### The Stage
 
    This is where your Scratch Programs run. It has
 
@@ -35,7 +35,7 @@ There are a few words from that picture that need explaining:
 
    The **current sprite** is the one that's selected in the **sprite list**.
 
-## Code Blocks
+### Code Blocks
 
    Code in Scratch comes as blocks, that you click together to make programs. You choose blocks from the **code blocks palette** and drag them into the **current sprite panel**, then click them together.  
    There are 10 categories of blocks, which are colour coded, and you can select each category from the list at the top of the **code blocks palette**.
