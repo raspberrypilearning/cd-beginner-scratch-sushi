@@ -12,7 +12,7 @@ First, you need to know if the fish is touching the shark. For this, you'll need
 
 ```blocks
     if on edge, bounce
-    if <touching Sprite1 v ?> then
+    if <touching [Sprite1 v] ?> then
     end
 ```
 
@@ -21,7 +21,7 @@ Of course, you’ve just added an `if... then`{:class="blockcontrol"} with no th
 + You can make the fish vanish, as if the shark ate it by using the `hide`{:class="blocklooks"} block you can find in **looks** inside the `if... then`{:class="blockcontrol"}. 
 
 ```blocks
-    if <touching Sprite1 v ?> then
+    if <touching [Sprite1 v] ?> then
         hide
     end
 ```
@@ -31,7 +31,7 @@ Now once the shark catches the fish it disappears for good. That’s not great.
 + Put the `show`{:class="blocklooks"} block, also from **looks** in at the very start of the fish code, so you can reset the game. 
 
 ```blocks
-    when green flag clcked
+    when green flag clicked
     show
     set rotation style [left-right v]
     forever
@@ -43,7 +43,7 @@ Better, but you don’t want the player restarting every time they catch one fis
 
 ```blocks
     if on edge, bounce
-    if <touching Sprite1 v ?> then
+    if <touching [Sprite1 v] ?> then
         hide
         wait (1) secs
         go to x: (pick random (-240) to (240)) y: (pick random (-180) to (180))
