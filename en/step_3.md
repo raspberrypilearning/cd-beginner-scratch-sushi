@@ -38,21 +38,28 @@ Be careful though! **You will delete all the blocks connected to the one you cli
 
 Now you know how to move code around and make things happen, time to try a simple program: Making the Scratch Cat walk in a circle!
 
-+ Make sure you have the cat selected in the sprite list and then drag these blocks together. You’ll find them in **events** and **motion**. 
++ Make sure you have the cat selected in the sprite list and then drag these blocks together. You’ll find them in **events** and **motion**:
 
-![](images/code7.png)
+```blocks
+    when green flag clicked
+    move [10] steps
+``` 
 
 + Then, click on the green flag above the **stage**. If you click too many times and the cat walks away, you can drag it back! 
 
-![](images/code8.png)
+![](images/code7.png)
 
 That’s a cat walking in a straight line... not exactly what you want. 
 
 + Snap this block to the end to make it walk in a circle. It’s in **motion** too. 
 
-![](images/code9.png)
+```blocks
+    turn cw (15) degrees
+```
 
 This block makes the cat turn 15 degrees of the full 360 degrees that make up a circle. You can change that number, and the number of steps, by clicking on the number and typing a new value.
+
+![](images/code9.png)
 
 + Now save your work! You do this by going to the **file** menu and clicking **save**. 
 

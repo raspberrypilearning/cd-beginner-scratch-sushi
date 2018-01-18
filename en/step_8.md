@@ -10,25 +10,46 @@ First, you need to know if the fish is touching the shark. For this, you'll need
 
 + You can add this into the `forever`{:class="blockcontrol"} loop on the fish, after the `if on edge bounce`{:class="blockmotion"}: 
 
-![](images/catch1.png)
+```blocks
+    if on edge, bounce
+    if <touching Sprite1 v ?> then
+    end
+```
 
 Of course, you’ve just added an `if... then`{:class="blockcontrol"} with no then. 
 
 + You can make the fish vanish, as if the shark ate it by using the `hide`{:class="blocklooks"} block you can find in **looks** inside the `if... then`{:class="blockcontrol"}. 
 
-![](images/catch2.png)
+```blocks
+    if <touching Sprite1 v ?> then
+        hide
+    end
+```
 
 Now once the shark catches the fish it disappears for good. That’s not great. 
 
 + Put the `show`{:class="blocklooks"} block, also from **looks** in at the very start of the fish code, so you can reset the game. 
 
-![](images/catch3.png)
+```blocks
+    when green flag clcked
+    show
+    set rotation style [left-right v]
+    forever
+```
 
 Better, but you don’t want the player restarting every time they catch one fish! 
 
 + You can be clever here — when the fish is hidden, wait, move it, then show it again. It looks like lots of fish, but it’s that one sprite moving around! 
 
-![](images/catch4.png)
+```blocks
+    if on edge, bounce
+    if <touching Sprite1 v ?> then
+        hide
+        wait (1) secs
+        go to x: (pick random (-240) to (240)) y: (pick random (-180) to (180))
+        show
+    end
+```
 
 That’s a game! There’s no way to keep score, though... or to win. You can fix that too! To keep score, you’ll need somewhere to store the score, a way of adding to it and a way of resetting it when the game is restarted.
 
