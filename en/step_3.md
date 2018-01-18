@@ -22,7 +22,7 @@ Normally, you want your blocks to run automatically, when something happens. Thi
 
 The code blocks connected to this block will run after the **green flag** is clicked
 
-Code blocks run from top to bottom, so the order you snap your code together in matters. In this example, the sprite will `say` `Hello!` before it will `play` the `meow` sound. 
+Code blocks run from top to bottom, so the order you snap your code together in matters. In this example, the sprite will `say` {:class="blocklooks"} `Hello!` before it will `play` {:class="blocksound"} the `meow` sound. 
 
 ![](images/code4.png)
 
@@ -30,7 +30,7 @@ Code blocks run from top to bottom, so the order you snap your code together in 
 
 ![](images/code5.png)
 
-Be careful though! **You will delete all the blocks connected to the one you click on**. If you do this by accident and want to get your code back, you can use the `**edit**` menu and click on `**undelete**`. 
+Be careful though! **You will delete all the blocks connected to the one you click on**. If you do this by accident and want to get your code back, you can use the **edit** menu and click on **undelete**. 
 
 + Try adding, deleting, and undeleting some code blocks now! 
 
@@ -54,10 +54,10 @@ That’s a cat walking in a straight line... not exactly what you want.
 
 This block makes the cat turn 15 degrees of the full 360 degrees that make up a circle. You can change that number, and the number of steps, by clicking on the number and typing a new value.
 
-+ Now save your work! You do this by going to the `**file**` menu and clicking `**save**`. 
++ Now save your work! You do this by going to the **file** menu and clicking **save**. 
 
 ![](images/code10.png)
 
 + Remember to save regularly as you work!
 
-+ You can also use `**save as**` to save a copy of your program with a new name.
++ You can also use **save as** to save a copy of your program with a new name.

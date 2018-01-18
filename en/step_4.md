@@ -6,11 +6,11 @@ Now your scratch cat moves, but wouldn’t it be more fun to control it with the
 
 ![](images/moving1.png)
 
-+ If you click the little arrow (▼) beside “space” you’ll get a list of all the keys on your keyboard to pick from. You’re going to need four of these blocks and you can connect them to **motion** blocks like this: 
++ If you click the little arrow (▼) beside `space` you’ll get a list of all the keys on your keyboard to pick from. You’re going to need four of these blocks and you can connect them to **motion** blocks like this: 
 
 ![](images/moving2.png)
 
-The four blocks you'll need are for "left arrow", "right arrow", "up arrow" and "down arrow"
+The four blocks you'll need are for `left arrow`, `right arrow`, `up arrow` and `down arrow`
 -10 means: **go back 10 steps**
 
 
@@ -22,7 +22,7 @@ When programmers need to talk about the positions of objects, like sprites, we o
 
 A sprite can be located by the coordinates of its centre, written something like (15, -27) where 15 is the **x** position and -27 is the **y** position.
 
-+ To get a feel for how this actually works, take the `**go to**` block from motion and drop it onto your **sprite panel**. You don’t need to connect it to anything. 
++ To get a feel for how this actually works, take the `go to` {:class="blockmotion"} block from motion and drop it onto your **sprite panel**. You don’t need to connect it to anything. 
 
 ![](images/moving4.png)
 
@@ -38,4 +38,4 @@ The cat moves all over the screen, but imagine this is a game: How do you restar
 
 That’s actually pretty easy! The centre of the stage is (0,0) in **x** and **y** coordinates. 
 
-+ So all you need is an **event** block for that green flag and the **go to** block you’re already using. Set the `**go to**` to (0,0) and then snap it to the flag event block. ![](images/moving6.png)
++ So all you need is an **event** block for that green flag and the **go to** block you’re already using. Set the `go to` {:class="blockmotion"} to `(0,0)` and then snap it to the flag event block. ![](images/moving6.png)

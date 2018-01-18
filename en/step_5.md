@@ -8,7 +8,7 @@ So your cat moves up and down, as well as left to right. You should probably put
 
 ![](images/cool1a.png)
 
-+ Click the icon to "Choose backdrop from library". 
++ Click the icon to **Choose backdrop from library**. 
 
 ![](images/cool1b.png)
  
