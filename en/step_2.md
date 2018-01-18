@@ -42,9 +42,9 @@ There are a few words from that picture that need explaining:
 
 + Time to get coding! Go back to Scratch and click on the Scratch Cat in the sprite list. The cat is now the current sprite.  
    
-+ Go to the **Events** category in the **code blocks palette** and choose the `“when [flag symbol] clicked”` event, then drag it onto the **current sprite panel**.  
++ Go to the **Events** category in the **code blocks palette** and choose the `when [flag symbol] clicked`{:class="blockevents"} event, then drag it onto the **current sprite panel**.  
 
-+ Then go to **Looks** in the **code blocks palette** and choose the `“say [Hello!] for [2] secs”` block and drag it onto the **current sprite panel**, connecting it to the end of the other block, like this: 
++ Then go to **Looks** in the **code blocks palette** and choose the `say [Hello!] for [2] secs`{:class="blocklooks"} block and drag it onto the **current sprite panel**, connecting it to the end of the other block, like this: 
 
 ![](images/setup3.png)
 

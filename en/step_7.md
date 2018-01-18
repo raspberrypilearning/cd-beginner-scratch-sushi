@@ -2,11 +2,11 @@
 
 1Ok, now it's time to make the fish swim on its own. To do this, you’re going to need a new kind of block: a **control** block. These let you do things a certain number of times, or under certain conditions.
 
-+ Select your fish sprite and drag a `when green flag clicked` {:class="blockevents"} **event** block, a `forever` {:class="blockcontrol"} **control** block and a `move 10 steps` {:class="blockmotion"} **motion** block into the **sprite panel** like this: 
++ Select your fish sprite and drag a `when green flag clicked`{:class="blockevents"} **event** block, a `forever`{:class="blockcontrol"} **control** block and a `move 10 steps`{:class="blockmotion"} **motion** block into the **sprite panel** like this: 
 
 ![](images/fish1.png)
 
-The fish does whatever is in the `forever` {:class="blockcontrol"} block over and over again, forever. Once it has reached the end it goes back to the top of the block and starts again. Now click the green flag and watch what happens!
+The fish does whatever is in the `forever`{:class="blockcontrol"} block over and over again, forever. Once it has reached the end it goes back to the top of the block and starts again. Now click the green flag and watch what happens!
 
 Well, that fish just crashed into the side of the **stage**, and it was moving far too fast for your shark to catch. First, you need to slow it down. That’s actually pretty easy, you just need it to wait for a little while after it moves those 10 steps.
 
@@ -21,7 +21,7 @@ Well, that fish just crashed into the side of the **stage**, and it was moving f
 
 The fish moves now, but you need it to bounce off the edge too. 
 
-+ Yet again, there’s a **motion** block for this! It’s the `if touching edge bounce` {:class="blockmotion"} block. It checks if the sprite is touching the edge and, if it is, turns left, right, up or down as appropriate. Of course, this will lead to an upside-down fish, so you need `set rotation style` {:class="blockmotion"} again. 
++ Yet again, there’s a **motion** block for this! It’s the `if touching edge bounce`{:class="blockmotion"} block. It checks if the sprite is touching the edge and, if it is, turns left, right, up or down as appropriate. Of course, this will lead to an upside-down fish, so you need `set rotation style`{:class="blockmotion"} again. 
 
 ![](images/fish4.png)
 
@@ -38,7 +38,7 @@ It’s better, but there’s still too much of a pattern. It needs to be more ra
 
 ![](images/fish6.png)
 
-+ You need the `pick random` {:class="blockoperators"} **operator** block, and you need to plug it into the `turn degrees` {:class="blockmotion"} **motion** block by clicking and dragging it into the field where you set the number of degrees. You can change the minimum and maximum numbers it will pick, but the default values (1 and 10) are pretty good for this game, so you can just leave them.
++ You need the `pick random`{:class="blockoperators"} **operator** block, and you need to plug it into the `turn degrees`{:class="blockmotion"} **motion** block by clicking and dragging it into the field where you set the number of degrees. You can change the minimum and maximum numbers it will pick, but the default values (1 and 10) are pretty good for this game, so you can just leave them.
 
 + Update the fish code to this and then run it by clicking the green flag: 
 

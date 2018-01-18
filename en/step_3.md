@@ -22,7 +22,7 @@ Normally, you want your blocks to run automatically, when something happens. Thi
 
 The code blocks connected to this block will run after the **green flag** is clicked
 
-Code blocks run from top to bottom, so the order you snap your code together in matters. In this example, the sprite will `say` {:class="blocklooks"} `Hello!` before it will `play` {:class="blocksound"} the `meow` sound. 
+Code blocks run from top to bottom, so the order you snap your code together in matters. In this example, the sprite will `say`{:class="blocklooks"} `Hello!` before it will `play`{:class="blocksound"} the `meow` sound. 
 
 ![](images/code4.png)
 
