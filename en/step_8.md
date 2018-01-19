@@ -53,18 +53,19 @@ Better, but you don’t want the player restarting every time they catch one fis
 
 That’s a game! There’s no way to keep score, though... or to win. You can fix that too! To keep score, you’ll need somewhere to store the score, a way of adding to it and a way of resetting it when the game is restarted.
 
-+ First: Storing it. When you want to store information in a program, you use something called a variable. Think of it like a box with a label on it: you can put something in it, check what’s in it and change what’s in it. You’ll find variables under **data**, but you need to create one first! 
-
-![](images/catch5.png)
+First: Storing it. When you want to store information in a program, you use something called a variable. Think of it like a box with a label on it: you can put something in it, check what’s in it and change what’s in it. You’ll find variables under **data**, but you need to create one first! 
 
 + Click **Make a Variable**.
 
-![](images/catch6.png)
+![](images/catch5.png)
 
 + Enter `Score` as the name. 
 
-![](images/catch7.png)
+![](images/catch6.png)
 
+Check out your new variable and the blocks for it!
+
+![](images/catch7.png)
 
 Now you need to update the variable whenever a fish is eaten, and to reset it when the game is restarted. Those are both pretty easy:
 
