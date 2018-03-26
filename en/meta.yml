@@ -1,0 +1,25 @@
+title: cd-beginner-scratch-sushi
+hero_image: images/banner.png
+description: cd-beginner-scratch-sushi description
+theme: red # possible values: blue, green, navy, orange, red, turquoise, violet, yellow
+duration: 2
+listed: false
+ingredient: false
+copyedit: false
+curriculum: 0, design-0, programming-0, phys-comp-0, manufacture-0, community-0
+interests: animals, art, humour, space, photography, outdoors, music, games
+technologies: electronic-components, sense-hat, html-css-javascript, scratch, python
+site_areas: coderdojo
+hardware: electronic-components, sense-hat
+software: html-css-javascript, scratch, python
+version: 3
+last_tested: 2017-01-01
+steps: 
+- title: Introduction
+- title: Getting Setup
+- title: Adding & removing code
+- title: Moving things around
+- title: Looking cool
+- title: All the sprites
+- title: Remote control fish
+- title: Fishing!
