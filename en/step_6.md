@@ -1,8 +1,8 @@
 ## Moving things around
 
-Right now your parrot moves in a circle, but wouldn’t it be more fun to control it with the arrow keys? On this card, you’re going learn how to do that!
+Right now your shark moves in a circle, but wouldn’t it be more fun to control it with the arrow keys? On this card, you’re going learn how to do that!
 
-+ Start by deleting any code that you have for the parrot.
++ Start by deleting any code that you have for the shark.
 
 As you’ve probably guessed, you’re going to need **event** and **motion** blocks again! 
 
@@ -38,7 +38,7 @@ You’re going to need four of these blocks and you can connect them to **motion
 
 + Add the blocks above to your program and click the green flag to test out your code.
 
-Your parrot moves back and forwards now, which is pretty cool, but it doesn’t move up or down. Also, if you look through the **motion** blocks, you’ll see there are no blocks for 'up' or 'down'. There are a whole bunch of them related to **x** and **y** though — let's try those!
+Your shark moves back and forwards now, which is pretty cool, but it doesn’t move up or down. Also, if you look through the **motion** blocks, you’ll see there are no blocks for 'up' or 'down'. There are a whole bunch of them related to **x** and **y** though — let's try those!
 
 + Grab two `change y by`{:class="blockmotion"} blocks and update your code like this: 
 
@@ -62,7 +62,7 @@ Your parrot moves back and forwards now, which is pretty cool, but it doesn’t 
     change y by (-10)
 ```
 
-Now when the arrows are pressed, the parrot can move all over the stage!
+Now when the arrows are pressed, the shark can move all over the stage!
 
 --- collapse ---
 ---
@@ -81,13 +81,13 @@ A sprite can be located by the coordinates of its centre, written for example li
     go to x: (15) y: (-27)
 ```
 
-+ Next, pick some values for `x` and `y`, fill them in, and double-click on the block. Try different sets of values to see where the parrot goes! In Scratch, **x** goes from `-240` to `240`, and **y** goes from `-180` to `180`.
++ Next, pick some values for `x` and `y`, fill them in, and double-click on the block. Try different sets of values to see where the shark goes! In Scratch, **x** goes from `-240` to `240`, and **y** goes from `-180` to `180`.
 
 --- /collapse ---
 
 ### Restarting the game
 
-The parrot moves all over the screen, but imagine this is a game: how do you restart it? You need to get the parrot back to its original location when the player starts the game. They'll start this game by clicking on the green flag, so you need to change the parrot’s `x` and `y` coordinates when that happens.
+The shark moves all over the screen, but imagine this is a game: how do you restart it? You need to get the shark back to its original location when the player starts the game. They'll start this game by clicking on the green flag, so you need to change the shark's `x` and `y` coordinates when that happens.
 
 That’s actually pretty easy! The centre of the stage is `(0,0)` in `x` and `y` coordinates. 
 
@@ -108,4 +108,4 @@ So all you need is an **event** block for that green flag and the **go to** bloc
 
 + Set the both the `x` and the `y` to `0` in the `go to`{:class="blockmotion"} block if they are not already `0`. 
 
-+ Now click the green flag, and you should see the parrot return to the centre of the stage.
++ Now click the green flag, and you should see the shark return to the centre of the stage.

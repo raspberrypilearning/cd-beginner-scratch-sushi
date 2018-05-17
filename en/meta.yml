@@ -7,10 +7,9 @@ listed: false
 ingredient: false
 copyedit: false
 curriculum: 0, design-0, programming-0, phys-comp-0, manufacture-0, community-0
-interests: animals, art, humour, space, photography, outdoors, music, games
+interests: animals, humour, outdoors, games
 technologies: scratch
 site_areas: coderdojo
-hardware: electronic-components, sense-hat
 software: scratch
 version: 1
 last_tested: 2017-01-01
@@ -22,6 +21,6 @@ steps:
 - title: Setting the scene
 - title: Moving things around
 - title: All the sprites
-- title: Remote-control mosquito
-- title: Let's catch some flies!
+- title: Remote-control fish
+- title: Fishing!
 - title: Keeping score

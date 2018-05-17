@@ -26,11 +26,11 @@ When you want to store information in a program, you use something called a **va
 --- /collapse ---
 
 
-Now you need to update the variable whenever a mosquito is eaten, and to reset it when the game is restarted. Those are both pretty easy:
+Now you need to update the variable whenever a fish is eaten, and to reset it when the game is restarted. Those are both pretty easy:
 
 + From the **Data** section, take the `set Score to 0`{:class="blockdata"} and `change Score by 1`{:class="blockdata"} blocks and put them into your program: 
 
-### Code for the parrot
+### Code for the shark
 
 ```blocks
     when green flag clicked
@@ -39,7 +39,7 @@ Now you need to update the variable whenever a mosquito is eaten, and to reset i
     go to x: (0) y: (0)
 ```
 
-### Code for the mosquito
+### Code for the fish
 
 ```blocks
     if <touching [Sprite1 v] ?> then
@@ -53,24 +53,11 @@ Now you need to update the variable whenever a mosquito is eaten, and to reset i
 
 Cool! Now you’ve got a score and everything. 
 
-+ Finally, and add this code to make the parrot introduce the game:
-
-```blocks
-    when green flag clicked
-    set [Score v] to [0]
-    set rotation style [left-right v]
-    go to x: (0) y: (0)
-    say [Hello! I need your help.] for (3) secs
-    say [Can you help me catch of all the mosquitos? Use the arrow keys.] for (4) secs
-    say [Mosquitos are small flies that spread dangerous diseases like malaria.] for (5) secs
-    say [Please help me catch them and protect my friends!] for (3) secs
-```
-
 --- challenge ---
 
 ## Challenge: winning the game
 
-+ Pick a score at which the player wins, and make something cool happen. Maybe the parrot congratulates them, or a "You win!" sprite appears, or music plays, or...you get the idea!
++ Pick a score at which the player wins, and make something cool happen. Maybe the shark congratulates them, or a "You win!" sprite appears, or music plays, or...you get the idea!
 
 --- /challenge ---
 
