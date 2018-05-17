@@ -1,25 +1,26 @@
 ## Introduction
 
-These Sushi Cards are going to help you learn to create computer programs in Scratch.
+These Sushi Cards are going to help you learn to create computer programs in Scratch!
 
 ### What you will make
 
-Add something here to showcase here, for example:
+You will make a game where you protect people from malaria by making a parrot catch mosquitoes.
 
+Here's an example of how the finished game might look:
+    
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/215534725/?autostart=false" frameborder="0"></iframe>
 </div>
 
-Add instructions here. These should explain either how the finished project will work, or explain how to interact with the content above.
+Press the green flag to run the project above. Use the arrow keys to move the parrot around and try to catch the mosquitoes.
 
 ### What you will learn
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
-
-+ [Add curriculum strand/level description.](https://www.raspberrypi.org/curriculum/strand/level){:target="_blank"}
-
-### Additional information for educators
-
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/project-name/print){:target="_blank"}.
-
-Use the link in the footer to access the GitHub repository for this project, which contains all resources (including an example finished project) in the 'en/resources' folder.
+* Adding and deleting code blocks
+* Basic motion:  move in steps, and turn by degrees
+* Using keyboard controls
+* Using x/y coordinates to position sprites
+* Changing the look of the Stage and of sprites with costumes and show/hide
+* Multiple sprites on screen
+* Forever loops
+* Detecting when sprites are touching

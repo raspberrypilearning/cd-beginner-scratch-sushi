@@ -1,92 +1,67 @@
-## Remote control fish
+## All the sprites
 
-1Ok, now it's time to make the fish swim on its own. To do this, you’re going to need a new kind of block: a **control** block. These let you do things a certain number of times, or under certain conditions.
+Now you have a parrot that you can move around using the arrow keys. Nice! Time to add some mosquitos for it to catch!
 
-+ Select your fish sprite and drag a `when green flag clicked`{:class="blockevents"} **event** block, a `forever`{:class="blockcontrol"} **control** block and a `move 10 steps`{:class="blockmotion"} **motion** block into the **sprite panel** like this: 
++ Click the **New sprite** button. Scratch doesn't have any ready-made mosquito costumes, so you are going to draw one!
 
-```blocks
-    when green flag clicked
-    forever
-        move (10) steps
-    end
-```
+![](images/spritesPaintNew.png)
 
-The fish does whatever is in the `forever`{:class="blockcontrol"} block over and over again, forever. Once it has reached the end it goes back to the top of the block and starts again. Now click the green flag and watch what happens!
+If your mosquito is a bit big compared to your parrot, you can use the **grow** and **shrink** buttons to make both sprites the right size. 
 
-Well, that fish just crashed into the side of the **stage**, and it was moving far too fast for your shark to catch. First, you need to slow it down. That’s actually pretty easy, you just need it to wait for a little while after it moves those 10 steps.
+![](images/sprites2.png)
 
-+ There’s a **control** block that can help you here: 
++ Click on **grow** or **shrink** and then click on one of the sprites to make it bigger or smaller.
 
-```blocks
-    wait (1) secs
-```
+Nice! Later, you're going to add some code to make the mosquito move around on its own, without help from the player. Your player will be the parrot, trying to catch the mosquito.
 
-+ You can set how many **seconds** you want the fish to wait. For now, try half a second `(0.5)`. You can test out different values later, to see which is the best for the game. Remember you can change the number of steps too! 
+--- collapse ---
+---
+title: What about the backwards parrot?
+---
 
-```blocks
-    when green flag clicked
-    forever
-        move (10) steps
-        wait (0.5) secs
-    end
-```
+It does look a little funny to have that parrot flying backwards. Just like you’d usually turn around rather than walking backwards, the parrot would turn around rather than flying backwards. Luckily for you, Scratch has a block for this!
 
+The `point in direction`{:class="blockmotion"} block lets you pick the direction your sprite is pointing in. You’ll find it in the **Motion** blocks section. You can type in any number, but the block comes with the four directions you'll need most already in it: `up`, `down`, `left`, and `right`.
 
-The fish moves now, but you need it to bounce off the edge too. 
+--- /collapse ---
 
-+ Yet again, there’s a **motion** block for this! It’s the `if touching edge bounce`{:class="blockmotion"} block. It checks if the sprite is touching the edge and, if it is, turns left, right, up or down as appropriate. Of course, this will lead to an upside-down fish, so you need `set rotation style`{:class="blockmotion"} again. 
++ Grab a couple of `point in direction`{:class="blockmotion"} block from the **Motion** list and connect them to your parrot’s code, like this: 
 
 ```blocks
-    when green flag clicked
-    set rotation style [left-right v]
-    forever
-        move (10) steps
-        wait (0.5) secs
-        if on edge, bounce
-    end
+    when [left arrow v] key pressed
+    point in direction (-90)
+    move (10) steps
 ```
-
-The fish moves back and forward now, but only in a straight line. That's going to be a bit too easy for the player to catch with the shark. You need to make the fish swim more unpredictably.
-
-+ You already know from Card 2 how to make a sprite turn, so start there: Add a turn into the fish’s swimming and click the green flag. 
 
 ```blocks
-    when green flag clicked
-    set rotation style [left-right v]
-    forever
-        move (10) steps
-        turn cw (10) degrees
-        wait (0.5) secs
-        if on edge, bounce
-    end
+    when [right arrow v] key pressed
+    point in direction (90)
+    move (10) steps
 ```
 
-It’s better, but there’s still too much of a pattern. It needs to be more random. Luckily, Scratch can do random for you! You’ll just need a new kind of block, called an **operator** block.
++ Change the steps in the `move`{:class="blockmotion"} block from `-10` to `10`.
 
-**Operators** take in one or more values (numbers, text, true/false values) and give back a single value. You can tell the kind of value it will give back by the shape of the block: round ends give numbers or text, pointy ends give true/false. 
+If you tried moving the parrot around after you added the `point in direction`{:class="blockmotion"} blocks, you might have noticed something a little strange happening. The parrot may not be turning quite right! 
 
-```blocks
-    (() + ())
+![Upside down parrot](images/spritesUpsideDown.png)
 
-    (join [hello ] [world])
+--- collapse ---
+---
+title: Why does it go upside down?
+---
 
-    <[] = []>
-```
+The problem here is that the parrot sprite started, as all sprites do, with the 'all around' **rotation style**, and what you need it to have is the 'left-right' style.
 
-+ You need the `pick random`{:class="blockoperators"} **operator** block, and you need to plug it into the `turn degrees`{:class="blockmotion"} **motion** block by clicking and dragging it into the field where you set the number of degrees. You can change the minimum and maximum numbers it will pick, but the default values (1 and 10) are pretty good for this game, so you can just leave them.
+As usual, there’s a block for that, and it’s in **Motion**! 
 
-+ Update the fish code to this and then run it by clicking the green flag: 
+--- /collapse ---
+
++ Look in the **Motion** category for the block `set rotation style`{:class="blockmotion"}.
+
++ Add the block to your reset code from earlier and set the rotation style to `left-right`, like this: 
 
 ```blocks
     when green flag clicked
     set rotation style [left-right v]
-    forever 
-        move (10) steps
-        turn cw (pick random (1) to (10)) degrees
-        wait (0.5) secs
-        if on edge, bounce
-    end
+    go to x: (0) y: (0)
 ```
- 
-#### Next: Catching that fish!
-

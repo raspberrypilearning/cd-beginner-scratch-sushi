@@ -1,35 +1,39 @@
-## Looking cool
+## Setting the scene
 
-So your cat moves up and down, as well as left to right. You should probably put it somewhere sensible for that... like under water! Scratch has a library of backgrounds and sprites for you to use to make your project look awesome.
+Scratch has a library of backgrounds and sprites for you to use to make your project look awesome.
 
 + Select the stage.
 
+![Selecting the stage](images/looksSelectStage.png)
+
 + Click on **Backdrops**.
 
-![](images/cool1a.png)
+![The Backdrops tab](images/looksBackdrops.png)
 
 + Click the icon to **Choose backdrop from library**. 
 
-![](images/cool1b.png)
+![The Choose backdrop icon](images/looksChooseBg.png)
  
-+ Then pick your favourite underwater background!
++ Then pick your favourite outdoor background! 
 
-Great! Of course, now you have a cat underwater. Cats aren’t usually big fans of that, but you can fix that. You can turn the cat into a shark!
+![A lake scene](images/looksLake.png)
 
-+ First, select the cat and click on the **Costumes** tab 
+Great! Now let's turn the cat into a parrot!
+
++ First, select the cat and click on the **Costumes** tab.
 
 ![](images/cool2.png)
 
-+ Then, click on **Choose Costume from Library** 
++ Then, click on **Choose costume from Library** 
 
 ![](images/cool3.png)
 
-+ Pick this shark 
++ Select a parrot and click **OK**. 
 
-![](images/cool4.png)
+![The parrot costume](images/looksParrot.png)
 
-+ Now remove the cat costumes by selecting each of them and clicking on the **x** 
++ Now remove the cat costumes by selecting each of them and clicking on the **x**.
 
-![](images/cool5.png)
+![](images/coolDeleteCostumes.png)
 
-Now you have a shark!
+Great! You have a parrot!
