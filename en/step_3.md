@@ -29,9 +29,9 @@ This is where your Scratch programs run. It has:
 title: What is a sprite?
 ---
 
-Any object that goes on the Stage is a **sprite**.  
+Any item you can add on the Stage is a **sprite**.  
 
-The sprite includes:
+A sprite includes:
 * The **image** on the Stage
 * Any extra **costumes** \(looks\) it has
 * Any **sounds** associated with it
@@ -48,7 +48,7 @@ The sprite includes:
 title: Code blocks
 ---
 
-Code in Scratch comes in the form of blocks that you connect together to make programs. You choose blocks from the **code blocks palette**, drag them into the **current sprite panel**, and then connect them to each other.
+Code in Scratch comes in the form of blocks that you connect to make programs. You choose blocks from the **code blocks palette**, drag them into the **current sprite panel**, and then connect them to each other.
 
 There are ten categories of blocks. They are colour-coded, and you can choose between them in the list at the top of the **code blocks palette**.
 
