@@ -2,7 +2,7 @@
 
 Scratch has a library of backgrounds and sprites for you to use to make your project look awesome.
 
-+ Select the stage.
++ Select the Stage.
 
 ![Selecting the stage](images/looksSelectStage.png)
 
@@ -10,7 +10,7 @@ Scratch has a library of backgrounds and sprites for you to use to make your pro
 
 ![The Backdrops tab](images/looksBackdrops.png)
 
-+ Click the icon to **Choose backdrop from library**. 
++ Click the **Choose backdrop from library** icon.
 
 ![The Choose backdrop icon](images/looksChooseBg.png)
  
@@ -18,9 +18,9 @@ Scratch has a library of backgrounds and sprites for you to use to make your pro
 
 ![An underwater scene](images/looksUnderwater.png)
 
-Great! Of course, now you have a cat underwater. Cats aren't usually big fans of that, but you can fix that. You can turn the cat into a shark!
+Great! Of course, now you have a cat underwater, and cats aren't usually big fans of that. But you can fix that, because you can turn the cat into a shark!
 
-+ First, select the cat and click on the **Costumes** tab.
++ First, select the cat sprite and click on the **Costumes** tab.
 
 ![](images/cool2.png)
 
@@ -28,7 +28,7 @@ Great! Of course, now you have a cat underwater. Cats aren't usually big fans of
 
 ![](images/cool3.png)
 
-+ Select this shark and click **OK**. 
++ Select this shark image and click **OK**. 
 
 ![The shark costume](images/looksShark.png)
 
@@ -36,4 +36,4 @@ Great! Of course, now you have a cat underwater. Cats aren't usually big fans of
 
 ![](images/coolDeleteCostumes.png)
 
-Great! You have a shark!
+Now you have a shark – excellent!
