@@ -1,21 +1,21 @@
-## Adding & removing code
+## Adding and removing code
 
-Great! You’ve written your first Scratch program. Time to learn a little more about getting code in and out of Scratch! Scratch code is made up of **blocks** that you snap together, such as these:
+Great! You’ve written your very first Scratch program. Time to learn a little more about getting code in and out of Scratch! Scratch code is made up of **blocks** such as these:
 
 ![](images/code1.png)
 
-You will find all blocks in the **code blocks palette**,where they are broken up into different categories. 
+You will find all blocks in the **code blocks palette**, sorted into different categories according to what they do.
 
 --- collapse ---
 ---
 title: Using blocks from the different categories
 ---
 
-Clicking on a category name to see the blocks in that category. Here, the **Motion** category is selected. 
+Click on a category name to see the blocks in that category. Here, the **Motion** category is selected:
 
 ![](images/code2a.png)
 
-All of the blocks in the selected category are shown in a list. You can pick the one you want, click on it, hold down the mouse button, and then just drag it onto the **current sprite panel** and let go. 
+All of the blocks in the category you've clicked are shown in a list. You can pick the one you want, click on it, hold down the mouse button, and then just drag it into the **current sprite panel** and let go. 
 
 Once the block is in the **current sprite panel**, you can move it around and connect it to other blocks.
 
