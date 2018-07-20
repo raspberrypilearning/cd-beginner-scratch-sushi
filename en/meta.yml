@@ -1,6 +1,6 @@
 title: Beginner Scratch Sushi Cards
 hero_image: images/banner.png
-description: Make your first Scratch program!
+description: Make a fun game in your first Scratch program!
 theme: orange # possible values: blue, green, navy, orange, red, turquoise, violet, yellow
 duration: 2
 listed: false
@@ -17,7 +17,7 @@ steps:
 - title: Introduction
 - title: What you will need
 - title: Getting set up
-- title: Adding & removing code
+- title: Adding and removing code blocks
 - title: Setting the scene
 - title: Moving things around
 - title: All the sprites
