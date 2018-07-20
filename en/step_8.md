@@ -1,10 +1,10 @@
 ## Remote-control fish
 
-Ok, now it's time to make the fish swim on its own. To do this, you’re going to need a new kind of block: a **control** block. 
+Ok, now it's time to make the fish swim on its own. To do this, you’re going to need a new kind of block: a **Control** block. 
 
 + First, select your fish sprite!
 
-+ Drag a `when green flag clicked`{:class="blockevents"} **event** block, a `forever`{:class="blockcontrol"} **control** block, and a `move 10 steps`{:class="blockmotion"} **motion** block into the **sprite panel**, like this: 
++ Drag a `when green flag clicked`{:class="blockevents"} **Event** block, a `forever`{:class="blockcontrol"} **Control** block, and a `move 10 steps`{:class="blockmotion"} **Motion** block into the **sprite panel**, like this: 
 
 ```blocks
     when green flag clicked
@@ -28,7 +28,7 @@ Here, the fish does whatever is inside the `forever`{:class="blockcontrol"} bloc
 
 Well, that fish just crashed into the side of the Stage, and it was moving far too fast for your shark to catch. 
 
-First, you need to slow the fish down. That’s actually pretty easy, you just need it to wait for a little while after it moves those 10 steps. There’s a **control** block that will help you here: 
+First, you need to slow the fish down. That’s actually pretty easy, you just need it to wait for a little while after it moves those 10 steps. There’s a **Control** block that will help you here: 
 
 ```blocks
     wait (1) secs
@@ -57,7 +57,7 @@ You can test out different values to see which is the best for the game. And rem
 
 --- /collapse ---
 
-The fish moves now, but you need it to bounce off the edge of the Stage too. Yet again, there’s a **motion** block for this! 
+The fish moves now, but you need it to bounce off the edge of the Stage too. Yet again, there’s a **Motion** block for this! 
 
 + Find the `if on edge bounce`{:class="blockmotion"} block, and add it in after the `wait`{:class="blockcontrol"} block.
 
@@ -120,7 +120,7 @@ title: What's an operator?
 
 --- /collapse ---
 
-+ Find the `pick random`{:class="blockoperators"} **operator** block, and plug it into the `turn degrees`{:class="blockmotion"} **motion** block by clicking it and dragging it into the field where you set the number of degrees. 
++ Find the `pick random`{:class="blockoperators"} **operator** block, and plug it into the `turn degrees`{:class="blockmotion"} **Motion** block by clicking it and dragging it into the field where you set the number of degrees. 
 
 ```blocks
     when green flag clicked
