@@ -136,6 +136,20 @@ title: What's an operator?
 **Note**: you can change the minimum and maximum numbers it will pick, but the default values (`1` and `10`) are pretty good for this game, so you can just leave them.
 
 + Then click the green flag to run the code!
+
+--- collapse ---
+---
+title: So what does the forever block do now?
+---
+
+The forever block now makes the fish sprite do four things in order:
+1. Move forward
+1. Turn a little bit
+1. Wait briefly
+1. Check whether it's at the edge of the Stage
+Once the sprite has done the check, it will start at the beginning of the loop again and move, turn, wait, check, for as long as you let your Scratch program run.
  
-**Next up: catching that fish!**
+ --- /collapse ---
+ 
+Cool! Next up: catching that fish!
 
