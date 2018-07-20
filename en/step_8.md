@@ -147,6 +147,7 @@ The forever block now makes the fish sprite do four things in order:
 1. Turn a little bit
 1. Wait briefly
 1. Check whether it's at the edge of the Stage
+
 Once the sprite has done the check, it will start at the beginning of the loop again and move, turn, wait, check, for as long as you let your Scratch program run.
  
  --- /collapse ---
