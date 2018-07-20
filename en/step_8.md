@@ -108,7 +108,7 @@ It’s better, but there’s still too much of a pattern. It needs to be more ra
 title: What's an operator?
 ---
 
-**Operators** take in one or more values (like numbers, text, or true/false values) and give back a single value. You can tell the kind of value it will give back by the shape of the block: round ends give numbers or text, pointy ends give true/false. 
+**Operators** take in one or more values (like numbers, text, or `True/False` values) and give back a single value. You can tell the kind of value it will give back by the shape of the block: round ends give numbers or text, pointy ends give `True/False`. 
 
 ```blocks
     (() + ())
