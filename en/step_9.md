@@ -2,9 +2,9 @@
 
 The shark moves, the fish swims, but they don’t interact: if the fish swims right into the shark's mouth, nothing happens. Time to change that!
 
-First, you need to know if the fish is touching the shark. For this, you'll need a **control** block and a **sensing** block. 
+First, you need to know if the fish is touching the shark. For this, you'll need a **Control** block and a **Sensing** block. 
 
-+ Add the `if...then`{:class="blockcontrol"} **control** block into the `forever`{:class="blockcontrol"} loop on the fish, below the `if on edge bounce`{:class="blockmotion"} block.
++ Add the `if...then`{:class="blockcontrol"} **Control** block inside the `forever`{:class="blockcontrol"} loop of the fish sprite, below the `if on edge bounce`{:class="blockmotion"} block.
 
 + Drag the `touching...`{:class="blocksensing"} block into the space at the top of the `if...then`{:class="blockcontrol"} block, and click the little triangle to pick the shark sprite's name. If you haven’t changed it, it'll be 'Sprite1'.
 
@@ -19,7 +19,7 @@ First, you need to know if the fish is touching the shark. For this, you'll need
 title: How does it work?
 ---
 
-The `if...then`{:class="blockcontrol"} **control** block needs to be given a `True/False` value. 
+The `if...then`{:class="blockcontrol"} **Control** block needs to be given a `True/False` value. 
 
 **Sensing** blocks collect information, like where the sprite is, what it’s touching, etc. You're using the block
 
