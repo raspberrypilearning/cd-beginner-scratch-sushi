@@ -39,7 +39,7 @@ The `point in direction`{:class="blockmotion"} block lets you pick the direction
     move (10) steps
 ```
 
-+ Change the number of steps in the `move`{:class="blockmotion"} block from `-10` to `10`.
++ Change the number of steps in the `move`{:class="blockmotion"} blocks from `-10` to `10`.
 
 If you try moving the shark around now after you've added the `point in direction`{:class="blockmotion"} blocks, you might notice something a little strange happening. The shark may not be turning quite right! 
 
