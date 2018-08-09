@@ -3,10 +3,10 @@ hero_image: images/banner.png
 description: Make a fun game in your first Scratch program!
 theme: orange # possible values: blue, green, navy, orange, red, turquoise, violet, yellow
 duration: 2
-listed: false
-ingredient: true
+listed: true
+ingredient: false
 copyedit: true
-curriculum: 0, design-0, programming-0, phys-comp-0, manufacture-0, community-0
+curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
 interests: animals, humour, outdoors, games
 technologies: scratch
 site_areas: coderdojo
