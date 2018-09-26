@@ -1,100 +1,39 @@
-## Adding and removing code blocks
+## Setting the scene
 
-Great! You’ve written your very first Scratch program. Time to learn a little more about getting code in and out of Scratch! Scratch code is made up of **blocks** such as these:
+Scratch has a library of backgrounds and sprites for you to use to make your project look awesome.
 
-![](images/code1.png)
++ Select the Stage.
 
-You will find all blocks in the **code blocks palette**, sorted into different categories according to what they do.
+![Selecting the stage](images/looksSelectStage.png)
 
---- collapse ---
----
-title: Using blocks from the different categories
----
++ Click on **Backdrops**.
 
-Click on a category name to see the blocks in that category. Here, the **Motion** category is selected:
+![The Backdrops tab](images/looksBackdrops.png)
 
-![](images/code2a.png)
++ Click the **Choose backdrop from library** icon.
 
-All of the blocks in the category you've clicked are shown in a list:
+![The Choose backdrop icon](images/looksChooseBg.png)
+ 
++ Then pick your favourite underwater background! 
 
-![](images/code2b.png)
+![An underwater scene](images/looksUnderwater.png)
 
-You can click on the blcok you want, and then just drag it into the current sprite panel and let go. Once it's in the panel, you can move it around and connect it to other blocks.
+Great! Of course, now you have a cat underwater, and cats aren't usually big fans of that. But you can fix that, because you can turn the cat into a shark!
 
---- /collapse --- 
++ First, select the cat sprite and click on the **Costumes** tab.
 
-If you want to see what a block does, you can double-click on it to make it run!
+![](images/cool2.png)
 
-+ Try double-clicking on some of the blocks to see what they do.
++ Then, click on **Choose costume from Library** 
 
---- collapse ---
----
-title: Running the code
----
+![](images/cool3.png)
 
-Usually, you want your code to run automatically whenever something specific happens. This is why many of your programs will start with a block from the **Events** category, most often this one: 
++ Select this shark image and click **OK**. 
 
-```blocks
-    when green flag clicked
-```
+![The shark costume](images/looksShark.png)
 
-The code blocks connected to this block will run after the **green flag** is clicked.
++ Now remove the cat costumes by selecting each of them and clicking on the **x**.
 
-Code blocks run from top to bottom, so the order in which you snap your blocks together matters. In this example, the sprite will `say`{:class="blocklooks"} `Hello!` before it will `play`{:class="blocksound"} the `meow` sound. 
+![](images/coolDeleteCostumes.png)
 
-![](images/code4.png)
-
---- /collapse ---
-
-Removing or deleting code blocks you don’t want in your program is easy! Just click on the **scissors** icon, and then click on the block you want to remove.
-
-![](images/code5.png)
-
-**Be careful:** using the scissors tool will delete all the blocks connected to the block you click on, so make sure to separate code blocks you want to keep from those you want to remove. If you delete some code blocks by accident and want to get them back, you can just go to the the **Edit** menu and click on **Undelete** to get everything back.
-
-![](images/code6.png)
-
-+ Try adding, deleting, and undeleting some code blocks! 
-
-### Putting it all together
-
-Now you know how to move code around and make things happen, it's time for you to create a program to make the Scratch Cat walk in a circle!
-
-+ Make sure you have the cat sprite selected in the sprite list, and then drag the following blocks into the sprite panel and connect them. You’ll find them in the **Events** and **Motion** lists.
-
-```blocks
-    when green flag clicked
-    move [10] steps
-``` 
-
-+ Then, click on the green flag above the Stage. 
-
-![](images/code7.png)
-
-You should see the cat walking in a straight line...not exactly what you want, right?
-
-Note: If you click th flag too many times and the cat walks away, you can drag it back!  
-
-+ Snap this block to the end to make the cat sprite walk in a circle. It’s in the **Motion** list too. 
-
-```blocks
-    turn cw (15) degrees
-```
-
---- collapse ---
----
-title: How does turning work?
----
-
-This block makes the sprite turn 15 degrees of the full 360 degrees that make up a circle. You can change that number, and the number of steps, by clicking on the number and typing in a new value.
-
-![](images/code9.png)
-
---- /collapse ---
-
-+ Now save your work! You do this by going to the **File** menu and clicking **Save**. Remember to save your program regularly while you code!
-
-![](images/code10.png)
-
-### Top tip
-You can also click **Save as** to save a copy of your program under a different name.
+Now you have a shark – excellent!
