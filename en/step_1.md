@@ -25,7 +25,7 @@ title: What you will learn
 * Using (x, y) coordinates to position sprites
 * Changing the look of the Stage and of sprites with costumes and show/hide commands
 * Having multiple sprites on screen
-* Using `Forever` loops
+* Using `forever`{:class="blockcontrol"} loops
 * Detecting when sprites are touching
 
 --- /collapse ---
