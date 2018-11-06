@@ -43,3 +43,5 @@ You’re going to need **Scratch**, so do one of the following:
 Once you’re set up, you can move on to the next step!
 
 --- /collapse ---
+
+![Tracking pixel](http://code.org/api/hour/coderdojo_sushi.png)
