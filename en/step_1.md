@@ -44,4 +44,4 @@ Once you’re set up, you can move on to the next step!
 
 --- /collapse ---
 
-![Tracking pixel](http://code.org/api/hour/coderdojo_sushi.png)
+![Tracking pixel](http://code.org/api/hour/begin_coderdojo_sushi.png)
