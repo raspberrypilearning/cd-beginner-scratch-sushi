@@ -24,7 +24,7 @@ Great! Of course, now you have a cat underwater, and cats aren't usually big fan
 
 ![](images/cool2.png)
 
-+ Then, click on **Choose costume from Library** 
++ Then, click on **Choose costume from Library**
 
 ![](images/cool3.png)
 

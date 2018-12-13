@@ -73,15 +73,15 @@ Time to get coding!
 
 + In the sprite list, click on the Scratch Cat. The cat is now the current sprite.  
    
-+ Choose the **Events** category in the code blocks palette, click the `when flag clicked`{:class="blockevents"} block, and drag it into the current sprite panel.  
++ Choose the **Events** category in the code blocks palette, click the `when flag clicked`{:class="block3events"} block, and drag it into the current sprite panel.  
 
-```blocks
+```blocks3
     when green flag clicked
 ```
 
 + Then go to **Looks** in the code blocks palette and find this block:
 
-```blocks
+```blocks3
     say [Hello!] for (2) secs
 ```
 + Click on it, hold down the mouse button, and then just drag it into the current sprite panel and let go of the button.

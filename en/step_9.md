@@ -27,11 +27,11 @@ When you want to store information in a program, you use something called a **va
 
 Now you need to update the variable whenever the shark eats a fish, and to reset it when the game is restarted. Doing both is pretty easy:
 
-+ From the **Data** section, take the `set Score to 0`{:class="blockdata"} and `change Score by 1`{:class="blockdata"} blocks and put them into your program: 
++ From the **Data** section, take the `set Score to 0`{:class="block3variables"} and `change Score by 1`{:class="block3variables"} blocks and put them into your program: 
 
 ### Code for the shark
 
-```blocks
+```blocks3
     when green flag clicked
     set [Score v] to [0]
     set rotation style [left-right v]
@@ -40,7 +40,7 @@ Now you need to update the variable whenever the shark eats a fish, and to reset
 
 ### Code for the fish
 
-```blocks
+```blocks3
     if <touching [Sprite1 v] ?> then
         change [Score v] by [1]
         hide

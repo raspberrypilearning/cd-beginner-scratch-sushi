@@ -34,13 +34,13 @@ title: Running the code
 
 Usually, you want your code to run automatically whenever something specific happens. This is why many of your programs will start with a block from the **Events** category, most often this one: 
 
-```blocks
+```blocks3
     when green flag clicked
 ```
 
 The code blocks connected to this block will run after the **green flag** is clicked.
 
-Code blocks run from top to bottom, so the order in which you snap your blocks together matters. In this example, the sprite will `say`{:class="blocklooks"} `Hello!` before it will `play`{:class="blocksound"} the `meow` sound. 
+Code blocks run from top to bottom, so the order in which you snap your blocks together matters. In this example, the sprite will `say`{:class="block3looks"} `Hello!` before it will `play`{:class="block3sound"} the `meow` sound. 
 
 ![](images/code4.png)
 
@@ -62,7 +62,7 @@ Now you know how to move code around and make things happen, it's time for you t
 
 + Make sure you have the cat sprite selected in the sprite list, and then drag the following blocks into the sprite panel and connect them. You’ll find them in the **Events** and **Motion** lists.
 
-```blocks
+```blocks3
     when green flag clicked
     move [10] steps
 ``` 
@@ -77,7 +77,7 @@ Note: If you click th flag too many times and the cat walks away, you can drag i
 
 + Snap this block to the end to make the cat sprite walk in a circle. It’s in the **Motion** list too. 
 
-```blocks
+```blocks3
     turn cw (15) degrees
 ```
 
