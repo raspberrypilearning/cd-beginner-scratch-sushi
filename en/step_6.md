@@ -6,9 +6,9 @@ Now you have a shark that you can move around using the arrow keys. Nice! Time t
 
 ![The New sprite button](images/spritesNewFromLibrary.png)
 
-If your fish is a bit big compared to your shark, you can use the **grow** and **shrink** buttons to make both sprites the right size!
+If your fish is a bit big compared to your shark, you can use the size control to make both sprites the right size!
 
-![Grow and shrink buttons](images/sprites2.png)
+![Sprite size control](images/sprites2.png)
 
 + Click on **grow** or **shrink**, and then click on one of the sprites to make it bigger or smaller.
 

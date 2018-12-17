@@ -2,7 +2,7 @@
 
 To keep score of how many fish the player catches, you’ll need somewhere to store the score, a way of adding to it, and a way of resetting it when the game is restarted.
 
-+ First: storing the score! Go to the **Data** blocks category and click **Make a Variable**.
++ First: storing the score! Go to the **Variables** blocks category and click **Make a Variable**.
 
 ![](images/catch5.png)
 
@@ -10,24 +10,22 @@ To keep score of how many fish the player catches, you’ll need somewhere to st
 
 ![](images/catch6.png)
 
-Check out your new variable and the blocks for it!
+Check out your new variable!
 
 ![The Score variable is displayed on the stage](images/scoreVariableStage.png)
-![The blocks for the Score variable](images/scoreVariableBlocks.png)
-
 
 --- collapse ---
 ---
 title: What are variables?
 ---
 
-When you want to store information in a program, you use something called a **variable**. Think of it like a box with a label on it: you can put something in it, check what’s in it, and change what’s in it. You’ll find variables in the **Data** section, but you need to create them first for them to show up there! 
+When you want to store information in a program, you use something called a **variable**. Think of it like a box with a label on it: you can put something in it, check what’s in it, and change what’s in it. You’ll find variables in the **Variables** section, but you need to create them first for them to show up there! 
 
 --- /collapse ---
 
 Now you need to update the variable whenever the shark eats a fish, and to reset it when the game is restarted. Doing both is pretty easy:
 
-+ From the **Data** section, take the `set Score to 0`{:class="block3variables"} and `change Score by 1`{:class="block3variables"} blocks and put them into your program: 
++ From the **Variables** section, take the `set [my variable v] to [0]`{:class="block3variables"} and `change [my variable v] by [1]`{:class="block3variables"} blocks, click on the little arrows and then choose `score` from the list, and put them into your program: 
 
 ### Code for the shark
 

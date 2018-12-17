@@ -43,16 +43,6 @@ Now your shark moves back and forwards, which is pretty cool, but it doesn’t m
 + Grab two `change y by`{:class="block3motion"} blocks, and update your code like this: 
 
 ```blocks3
-    when [left arrow v] key pressed
-    move (-10) steps
-```
-
-```blocks3
-    when [right arrow v] key pressed
-    move (10) steps
-```
-
-```blocks3
     when [up arrow v] key pressed
     change y by (10)
 ```
@@ -75,13 +65,11 @@ To talk about the positions of objects, such as sprites, we often use x- and y-c
 
 A sprite can be located by the coordinates of its centre, for example `(15, -27)`, where `15` is its position along the x-axis , and `-27` its position along the y-axis.
 
-+ To get a feel for how this actually works, drag the `go to`{:class="block3motion"} block from the **Motion** list into the current sprite panel. You don’t need to connect it to anything. 
++ To get a feel for how this actually works, select a sprite and use the `x` and `y` controls to move it around the stage by setting different values for the coordinates.
 
-```blocks3
-    go to x: (15) y: (-27)
-```
+![](images/xycoords.png)
 
-+ Next, click on the numbers for `x` and `y`, fill them in with different numbers, and then double-click on the block. Try different pairs values to see where the shark goes! In Scratch, the x-axis goes from `-240` to `240`, and the y-axis goes from `-180` to `180`.
++ Try different pairs values to see where the sprite goes! In Scratch, the x-axis goes from `-240` to `240`, and the y-axis goes from `-180` to `180`.
 
 --- /collapse ---
 
