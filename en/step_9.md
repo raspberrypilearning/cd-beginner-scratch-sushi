@@ -2,11 +2,11 @@
 
 To keep score of how many fish the player catches, you’ll need somewhere to store the score, a way of adding to it, and a way of resetting it when the game is restarted.
 
-+ First: storing the score! Go to the **Variables** blocks category and click **Make a Variable**.
++ First: storing the score! Go to the **Variables** blocks category and click on **Make a Variable**.
 
 ![](images/catch5.png)
 
-+ Enter `Score` as the name. 
++ Enter `score` as the name. 
 
 ![](images/catch6.png)
 
@@ -25,13 +25,13 @@ When you want to store information in a program, you use something called a **va
 
 Now you need to update the variable whenever the shark eats a fish, and to reset it when the game is restarted. Doing both is pretty easy:
 
-+ From the **Variables** section, take the `set [my variable v] to [0]`{:class="block3variables"} and `change [my variable v] by [1]`{:class="block3variables"} blocks, click on the little arrows and then choose `score` from the list, and put them into your program: 
++ From the **Variables** section, take the `set [my variable v] to [0]`{:class="block3variables"} and `change [my variable v] by [1]`{:class="block3variables"} blocks. Click on the little arrows in the blocks, choose `score` from the list, and then put the blocks into your program: 
 
 ### Code for the shark
 
 ```blocks3
     when green flag clicked
-    set [Score v] to [0]
+    set [score v] to [0]
     set rotation style [left-right v]
     go to x: (0) y: (0)
 ```
@@ -40,7 +40,7 @@ Now you need to update the variable whenever the shark eats a fish, and to reset
 
 ```blocks3
     if <touching [Sprite1 v] ?> then
-        change [Score v] by [1]
+        change [score v] by [1]
         hide
         wait (1) secs
         go to x: (pick random (-240) to (240)) y: (pick random (-180) to (180))
