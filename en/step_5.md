@@ -65,11 +65,11 @@ To talk about the positions of objects, such as sprites, we often use x- and y-c
 
 A sprite can be located by the coordinates of its centre, for example `(15, -27)`, where `15` is its position along the x-axis , and `-27` its position along the y-axis.
 
-+ To get a feel for how this actually works, select a sprite and use the `x` and `y` controls to move it around the stage by setting different values for the coordinates.
++ To get a feel for how this actually works, select a sprite and use the **x** and **y** controls to move it around the stage by setting different values for the coordinates.
 
 ![](images/xycoords.png)
 
-+ Try different pairs values to see where the sprite goes! In Scratch, the x-axis goes from `-240` to `240`, and the y-axis goes from `-180` to `180`.
++ Try different pairs of values to see where the sprite goes! In Scratch, the x-axis goes from `-240` to `240`, and the y-axis goes from `-180` to `180`.
 
 --- /collapse ---
 
