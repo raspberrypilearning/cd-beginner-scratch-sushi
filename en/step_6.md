@@ -27,17 +27,9 @@ The `point in direction`{:class="block3motion"} block lets you pick the directio
 
 + Grab a couple of copies of the `point in direction`{:class="block3motion"} block from the **Motion** list and connect them to your shark's code, like this: 
 
-```blocks3
-    when [left arrow v] key pressed
-    point in direction (-90)
-    move (10) steps
-```
+![blocks_1546293843_497814](images/blocks_1546293843_497814.png)
 
-```blocks3
-    when [right arrow v] key pressed
-    point in direction (90)
-    move (10) steps
-```
+![blocks_1546293844_584624](images/blocks_1546293844_584624.png)
 
 + Change the number of steps in the `move`{:class="block3motion"} blocks from `-10` to `10`.
 
@@ -60,8 +52,4 @@ As usual, there’s a block for that, and it’s in **Motion**!
 
 + Add the block to your reset code from earlier, and set the rotation style to `left-right`, like this: 
 
-```blocks3
-    when green flag clicked
-    set rotation style [left-right v]
-    go to x: (0) y: (0)
-```
+![blocks_1546293845_665328](images/blocks_1546293845_665328.png)

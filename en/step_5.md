@@ -8,31 +8,19 @@ As you’ve probably guessed, you’re going to need **Event** and **Motion** bl
 
 + This time, look for this block and drag it into the current sprite panel:
 
-```blocks3
-    when [space v] key pressed
-```
+![blocks_1546293833_827639](images/blocks_1546293833_827639.png)
 
 + Click the little arrow (▼) beside `space`. You will see a list of all your keyboard keys that you can pick from. 
 
 You’re going to need four of the `when key pressed` blocks — one for each of your arrow keys. To make your shark move, you'll need to connect these blocks to **Motion** blocks like this: 
 
-```blocks3
-    when [left arrow v] key pressed
-    move (-10) steps
-```
+![blocks_1546293834_891756](images/blocks_1546293834_891756.png)
 
-```blocks3
-    when [right arrow v] key pressed
-    move (10) steps
-```
+![blocks_1546293835_966614](images/blocks_1546293835_966614.png)
 
-```blocks3
-    when [up arrow v] key pressed
-```
+![blocks_1546293837_0432189](images/blocks_1546293837_0432189.png)
 
-```blocks3
-    when [down arrow v] key pressed
-```
+![blocks_1546293838_107585](images/blocks_1546293838_107585.png)
 
 **Note**: `-10` means 'go back 10 steps'.
 
@@ -42,15 +30,9 @@ Now your shark moves back and forwards, which is pretty cool, but it doesn’t m
 
 + Grab two `change y by`{:class="block3motion"} blocks, and update your code like this: 
 
-```blocks3
-    when [up arrow v] key pressed
-    change y by (10)
-```
+![blocks_1546293839_1829472](images/blocks_1546293839_1829472.png)
 
-```blocks3
-    when [down arrow v] key pressed
-    change y by (-10)
-```
+![blocks_1546293840_257306](images/blocks_1546293840_257306.png)
 
 Now when you press the arrows keys, the shark moves all over the stage!
 
@@ -85,16 +67,11 @@ So all you need is an **Event** block for that green flag, and the **go to** blo
 
 + Drag a `when green flag clicked`{:class="blockevent"} **Event** block onto the current sprite panel.
 
-```blocks3
-    when green flag clicked
-```
+![blocks_1546293841_331873](images/blocks_1546293841_331873.png)
 
 + Then find the `go to`{:class="block3motion"} **Motion** block, and attach it to your flag **Event** block.
 
-```blocks3
-    when green flag clicked
-    go to x: (0) y: (0)
-```
+![blocks_1546293842_396384](images/blocks_1546293842_396384.png)
 
 + Set the both the `x` and the `y` coordinate to `0` in the `go to`{:class="block3motion"} block if they are not already `0`. 
 

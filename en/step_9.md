@@ -29,24 +29,11 @@ Now you need to update the variable whenever the shark eats a fish, and to reset
 
 ### Code for the shark
 
-```blocks3
-    when green flag clicked
-    set [score v] to [0]
-    set rotation style [left-right v]
-    go to x: (0) y: (0)
-```
+![blocks_1546293859_7947898](images/blocks_1546293859_7947898.png)
 
 ### Code for the fish
 
-```blocks3
-    if <touching [Sprite1 v] ?> then
-        change [score v] by [1]
-        hide
-        wait (1) secs
-        go to x: (pick random (-240) to (240)) y: (pick random (-180) to (180))
-        show
-    end
-```
+![blocks_1546293860_870661](images/blocks_1546293860_870661.png)
 
 Cool! Now you’ve got a score and everything. 
 

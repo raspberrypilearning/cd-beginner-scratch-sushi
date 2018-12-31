@@ -6,12 +6,7 @@ Ok, now it's time to make the fish swim on its own. To do this, you’re going t
 
 + Drag a `when green flag clicked`{:class="block3events"} **Event** block, a `forever`{:class="block3control"} **Control** block, and a `move 10 steps`{:class="block3motion"} **Motion** block into the **sprite panel**, like this: 
 
-```blocks3
-    when green flag clicked
-    forever
-        move (10) steps
-    end
-```
+![blocks_1546293846_740606](images/blocks_1546293846_740606.png)
 
 --- collapse ---
 ---
@@ -30,20 +25,12 @@ Well, that fish just crashed into the side of the Stage, and it was moving far t
 
 First, you need to slow the fish down. That’s actually pretty easy, you just need it to wait for a little while after it moves those 10 steps. There’s a **Control** block that will help you here: 
 
-```blocks3
-    wait (1) secs
-```
+![blocks_1546293847_803969](images/blocks_1546293847_803969.png)
 
 + Add the `wait`{:class="block3control"} block into your code inside the `forever`{:class="block3control"} block, and change the number to `0.5`, like this:
 
 
-```blocks3
-    when green flag clicked
-    forever
-        move (10) steps
-        wait (0.5) secs
-    end
-```
+![blocks_1546293848_8748748](images/blocks_1546293848_8748748.png)
 
 
 --- collapse ---
@@ -74,15 +61,7 @@ Of course, this will lead to an upside-down fish, so you need a `set rotation st
 
 + Update your code to set the rotation style of the fish to `left-right` at the beginning of the sprite's script:
 
-```blocks3
-    when green flag clicked
-    set rotation style [left-right v]
-    forever
-        move (10) steps
-        wait (0.5) secs
-        if on edge, bounce
-    end
-```
+![blocks_1546293849_9492722](images/blocks_1546293849_9492722.png)
 
 The fish moves backwards and forwards now, but only in a straight line — a bit too easy for the player to catch with the shark! You need to make the fish less predictable.
 
@@ -90,16 +69,7 @@ You already know from a previous step how to make a sprite turn, so start there!
 
 + Add a turn into the fish's swimming instructions, and click the green flag. 
 
-```blocks3
-    when green flag clicked
-    set rotation style [left-right v]
-    forever
-        move (10) steps
-        turn cw (10) degrees
-        wait (0.5) secs
-        if on edge, bounce
-    end
-```
+![blocks_1546293851_0542212](images/blocks_1546293851_0542212.png)
 
 It’s better, but there’s still too much of a pattern. It needs to be more random. Luckily, Scratch can do random for you! You’ll just need a new kind of block, called an **operator** block.
 
@@ -110,28 +80,13 @@ title: What's an operator?
 
 **Operators** take in one or more values (like numbers, text, or `True/False` values) and give back a single value. You can tell the kind of value it will give back by the shape of the block: round ends give numbers or text, pointy ends give `True/False`. 
 
-```blocks3
-    (() + ())
-
-    (join [hello ] [world])
-
-    <[] = []>
-```
+![blocks_1546293852_15441](images/blocks_1546293852_15441.png)
 
 --- /collapse ---
 
 + Find the `pick random`{:class="block3operators"} **operator** block, and plug it into the `turn degrees`{:class="block3motion"} **Motion** block by clicking it and dragging it into the field where you set the number of degrees. 
 
-```blocks3
-    when green flag clicked
-    set rotation style [left-right v]
-    forever 
-        move (10) steps
-        turn cw (pick random (1) to (10)) degrees
-        wait (0.5) secs
-        if on edge, bounce
-    end
-```
+![blocks_1546293853_228864](images/blocks_1546293853_228864.png)
 
 **Note**: you can change the minimum and maximum numbers it will pick, but the default values (`1` and `10`) are pretty good for this game, so you can just leave them.
 
