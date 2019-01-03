@@ -73,17 +73,13 @@ Time to get coding!
 
 + In the sprite list, click on the Scratch Cat. The cat is now the current sprite.  
    
-+ Choose the **Events** category in the code blocks palette, click the `when flag clicked`{:class="blockevents"} block, and drag it into the current sprite panel.  
++ Choose the **Events** category in the code blocks palette, click the `when flag clicked`{:class="block3events"} block, and drag it into the current sprite panel.  
 
-```blocks
-    when green flag clicked
-```
+![blocks_1546293825_975826](images/blocks_1546293825_975826.png)
 
 + Then go to **Looks** in the code blocks palette and find this block:
 
-```blocks
-    say [Hello!] for (2) secs
-```
+![blocks_1546293828_4999511](images/blocks_1546293828_4999511.png)
 + Click on it, hold down the mouse button, and then just drag it into the current sprite panel and let go of the button.
 
 + Now that the second block is in the current sprite panel, connect it to the bottom of the first block by clicking and dragging it again to move it below the other block until they snap together, like this: 

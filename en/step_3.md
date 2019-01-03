@@ -34,23 +34,19 @@ title: Running the code
 
 Usually, you want your code to run automatically whenever something specific happens. This is why many of your programs will start with a block from the **Events** category, most often this one: 
 
-```blocks
-    when green flag clicked
-```
+![blocks_1546293829_558252](images/blocks_1546293829_558252.png)
 
 The code blocks connected to this block will run after the **green flag** is clicked.
 
-Code blocks run from top to bottom, so the order in which you snap your blocks together matters. In this example, the sprite will `say`{:class="blocklooks"} `Hello!` before it will `play`{:class="blocksound"} the `meow` sound. 
+Code blocks run from top to bottom, so the order in which you snap your blocks together matters. In this example, the sprite will `say`{:class="block3looks"} `Hello!` before it will `play`{:class="block3sound"} the `meow` sound. 
 
-![](images/code4.png)
+![blocks_1546293830_614812](images/blocks_1546293830_614812.png)
 
 --- /collapse ---
 
-Removing or deleting code blocks you don’t want in your program is easy! Just click on the **scissors** icon, and then click on the block you want to remove.
+Removing or deleting code blocks you don’t want in your program is easy! Just drag them back into the code blocks palette.
 
-![](images/code5.png)
-
-**Be careful:** using the scissors tool will delete all the blocks connected to the block you click on, so make sure to separate code blocks you want to keep from those you want to remove. If you delete some code blocks by accident and want to get them back, you can just go to the the **Edit** menu and click on **Undelete** to get everything back.
+**Be careful:** dragging them into the code blocks pallette will delete all the blocks connected to the block you drag, so make sure to separate code blocks you want to keep from those you want to remove. If you delete some code blocks by accident and want to get them back, right-click and then click on the **undo** option to get everything back.
 
 ![](images/code6.png)
 
@@ -62,10 +58,7 @@ Now you know how to move code around and make things happen, it's time for you t
 
 + Make sure you have the cat sprite selected in the sprite list, and then drag the following blocks into the sprite panel and connect them. You’ll find them in the **Events** and **Motion** lists.
 
-```blocks
-    when green flag clicked
-    move [10] steps
-``` 
+![blocks_1546293831_686992](images/blocks_1546293831_686992.png)
 
 + Then, click on the green flag above the Stage. 
 
@@ -77,9 +70,7 @@ Note: If you click th flag too many times and the cat walks away, you can drag i
 
 + Snap this block to the end to make the cat sprite walk in a circle. It’s in the **Motion** list too. 
 
-```blocks
-    turn cw (15) degrees
-```
+![blocks_1546293832_76944](images/blocks_1546293832_76944.png)
 
 --- collapse ---
 ---
@@ -92,9 +83,4 @@ This block makes the sprite turn 15 degrees of the full 360 degrees that make up
 
 --- /collapse ---
 
-+ Now save your work! You do this by going to the **File** menu and clicking **Save**. Remember to save your program regularly while you code!
-
-![](images/code10.png)
-
-### Top tip
-You can also click **Save as** to save a copy of your program under a different name.
++ Now save your work!
