@@ -8,7 +8,7 @@ First, you need to know if the fish is touching the shark. For this, you'll need
 
 + Drag the `touching...`{:class="block3sensing"} block into the space at the top of the `if...then`{:class="block3control"} block, and click the little triangle to select the shark sprite's name. If you haven’t changed it, it'll be 'Sprite1'.
 
-![blocks_1546293854_37919](images/blocks_1546293854_37919.png)
+![blocks_1546569185_4512188](images/blocks_1546569185_4512188.png)
 
 --- collapse ---
 ---
@@ -19,7 +19,7 @@ The `if...then`{:class="block3control"} **Control** block needs to be given a `T
 
 **Sensing** blocks collect information, like where the sprite is, what it’s touching, etc. You're using this block:
 
-![blocks_1546293855_4620621](images/blocks_1546293855_4620621.png)
+![blocks_1546569186_5458062](images/blocks_1546569186_5458062.png)
 
 From this block's pointy ends, you can tell it’s going to give you the `True/False` value that the `if...then`{:class="block3control"} block needs.
 
@@ -31,19 +31,19 @@ You can make the fish disappear, as if the shark ate it, by using the `hide`{:cl
 
 + Find the `hide`{:class="block3looks"} block in the **Looks** list, and put it inside the `if...then`{:class="block3control"} block, like so: 
 
-![blocks_1546293856_523359](images/blocks_1546293856_523359.png)
+![blocks_1546569187_615252](images/blocks_1546569187_615252.png)
 
 Now once the shark catches the fish, the fish disappears for good. That’s not great.
 
 + Put the `show`{:class="block3looks"} block from **Looks** in at the very start of the fish code, so you can reset the game. 
 
-![blocks_1546293857_597837](images/blocks_1546293857_597837.png)
+![blocks_1546569188_695355](images/blocks_1546569188_695355.png)
 
 That's already better, but you don’t want the player to have to restart the game every time they catch a single fish! 
 
 + Update the code inside your `if...then`{:class="block3control"} block to look like this:
 
-![blocks_1546293858_677724](images/blocks_1546293858_677724.png)
+![blocks_1546569189_772684](images/blocks_1546569189_772684.png)
 
 --- collapse ---
 ---

@@ -29,11 +29,11 @@ Now you need to update the variable whenever the shark eats a fish, and to reset
 
 ### Code for the shark
 
-![blocks_1546293859_7947898](images/blocks_1546293859_7947898.png)
+![blocks_1546569190_9005241](images/blocks_1546569190_9005241.png)
 
 ### Code for the fish
 
-![blocks_1546293860_870661](images/blocks_1546293860_870661.png)
+![blocks_1546569191_975879](images/blocks_1546569191_975879.png)
 
 Cool! Now you’ve got a score and everything. 
 

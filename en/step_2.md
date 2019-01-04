@@ -75,11 +75,11 @@ Time to get coding!
    
 + Choose the **Events** category in the code blocks palette, click the `when flag clicked`{:class="block3events"} block, and drag it into the current sprite panel.  
 
-![blocks_1546293825_975826](images/blocks_1546293825_975826.png)
+![blocks_1546569156_389366](images/blocks_1546569156_389366.png)
 
 + Then go to **Looks** in the code blocks palette and find this block:
 
-![blocks_1546293828_4999511](images/blocks_1546293828_4999511.png)
+![blocks_1546569159_4564118](images/blocks_1546569159_4564118.png)
 + Click on it, hold down the mouse button, and then just drag it into the current sprite panel and let go of the button.
 
 + Now that the second block is in the current sprite panel, connect it to the bottom of the first block by clicking and dragging it again to move it below the other block until they snap together, like this: 

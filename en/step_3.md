@@ -34,13 +34,13 @@ title: Running the code
 
 Usually, you want your code to run automatically whenever something specific happens. This is why many of your programs will start with a block from the **Events** category, most often this one: 
 
-![blocks_1546293829_558252](images/blocks_1546293829_558252.png)
+![blocks_1546569160_528637](images/blocks_1546569160_528637.png)
 
 The code blocks connected to this block will run after the **green flag** is clicked.
 
 Code blocks run from top to bottom, so the order in which you snap your blocks together matters. In this example, the sprite will `say`{:class="block3looks"} `Hello!` before it will `play`{:class="block3sound"} the `meow` sound. 
 
-![blocks_1546293830_614812](images/blocks_1546293830_614812.png)
+![blocks_1546569161_587133](images/blocks_1546569161_587133.png)
 
 --- /collapse ---
 
@@ -58,7 +58,7 @@ Now you know how to move code around and make things happen, it's time for you t
 
 + Make sure you have the cat sprite selected in the sprite list, and then drag the following blocks into the sprite panel and connect them. You’ll find them in the **Events** and **Motion** lists.
 
-![blocks_1546293831_686992](images/blocks_1546293831_686992.png)
+![blocks_1546569162_663829](images/blocks_1546569162_663829.png)
 
 + Then, click on the green flag above the Stage. 
 
@@ -70,7 +70,7 @@ Note: If you click th flag too many times and the cat walks away, you can drag i
 
 + Snap this block to the end to make the cat sprite walk in a circle. It’s in the **Motion** list too. 
 
-![blocks_1546293832_76944](images/blocks_1546293832_76944.png)
+![blocks_1546569163_729716](images/blocks_1546569163_729716.png)
 
 --- collapse ---
 ---

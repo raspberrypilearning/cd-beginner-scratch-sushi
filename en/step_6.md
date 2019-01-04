@@ -21,15 +21,14 @@ title: What about the backwards shark?
 
 It does look a little funny to have that shark swimming backwards. Just like you’d usually turn around rather than walking backwards, the shark would turn around rather than swimming backwards. Luckily for you, Scratch has a block for this!
 
-The `point in direction`{:class="block3motion"} block lets you pick the direction your sprite is pointing in. You’ll find it in the **Motion** blocks section. You can type in any number, but the block comes with the four directions you'll need most: `up`, `down`, `left`, and `right`.
-
+The `point in direction`{:class="block3motion"} block lets you pick the direction your sprite is pointing in. You’ll find it in the **Motion** blocks section. You can type in any number of degrees, to point the sprite wherever you want.
 --- /collapse ---
 
 + Grab a couple of copies of the `point in direction`{:class="block3motion"} block from the **Motion** list and connect them to your shark's code, like this: 
 
-![blocks_1546293843_497814](images/blocks_1546293843_497814.png)
+![blocks_1546569174_458087](images/blocks_1546569174_458087.png)
 
-![blocks_1546293844_584624](images/blocks_1546293844_584624.png)
+![blocks_1546569175_55649](images/blocks_1546569175_55649.png)
 
 + Change the number of steps in the `move`{:class="block3motion"} blocks from `-10` to `10`.
 
@@ -50,6 +49,6 @@ As usual, there’s a block for that, and it’s in **Motion**!
 
 + Look in the **Motion** category for the block `set rotation style`{:class="block3motion"}.
 
-+ Add the block to your reset code from earlier, and set the rotation style to `left-right`, like this: 
++ Add the block to your reset code from earlier, and set the rotation style to `left-right`{:class="block3motion"}, like this: 
 
-![blocks_1546293845_665328](images/blocks_1546293845_665328.png)
+![blocks_1546569176_649717](images/blocks_1546569176_649717.png)
