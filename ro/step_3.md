@@ -1,86 +1,86 @@
-## Adding and removing code blocks
+## Adaugarea si stergerea blocurilor de cod
 
-Great! You’ve written your very first Scratch program. Time to learn a little more about getting code in and out of Scratch! Scratch code is made up of **blocks** such as these:
+Minunat! Ai scris primul tau program Scratch! Timpul sa inveti mai multe despre cum sa adaugi si sa stergi cod in Scratch. Codul Scratch este facut din **blocuri** ca astea:
 
 ![](images/code1.png)
 
-You will find all blocks in the **code blocks palette**, sorted into different categories according to what they do.
+O sa gasesti toate blocurile in **meniul de blocuri de cod**, sortate in diferite categori in functie de ce fac.
 
 --- collapse ---
 ---
-title: Using blocks from the different categories
+title: Folosirea blocurilor din mai multe categori
 ---
 
-Click on a category name to see the blocks in that category. Here, the **Motion** category is selected:
+Apasa pe o categorie ca sa vezi blocurile din acea categorie. Aici, categoria **Miscare** este selectata:
 
 ![](images/code2a.png)
 
-All of the blocks in the category you've clicked are shown in a list:
+Toate blocurile din categoria pe care ai apasat apar intr-o lista:
 
 ![](images/code2b.png)
 
-You can click on the blcok you want, and then just drag it into the current sprite panel and let go. Once it's in the panel, you can move it around and connect it to other blocks.
+Apasa pe blocul pe care il vrei, si trage-l in spriteul curent. Odata ce e acolo, il poti aranja si conecta cu alte blocuri.
 
 --- /collapse --- 
 
-If you want to see what a block does, you can double-click on it to make it run!
+Daca vrei sa vezi ce face un bloc poti sa dai dublu-click pe el ca sa ruleze!
 
-+ Try double-clicking on some of the blocks to see what they do.
++ Incearca sa dai dublu-click pe cateva blocuri ca sa vezi ce fac.
 
 --- collapse ---
 ---
-title: Running the code
+title: Rularea codului
 ---
 
-Usually, you want your code to run automatically whenever something specific happens. This is why many of your programs will start with a block from the **Events** category, most often this one: 
+De obicei codul tau ruleaza automat odata ce un anume lucru se intampla. De aceea multe dintre programele tale or sa inceapa cu un bloc din categoria **Evenimente**, adesea acesta:
 
 ![blocks_1546569160_528637](images/blocks_1546569160_528637.png)
 
-The code blocks connected to this block will run after the **green flag** is clicked.
+Blocurile de cod conectate la acest bloc vor rula dupa ce **steagul verde** este apasat.
 
-Code blocks run from top to bottom, so the order in which you snap your blocks together matters. In this example, the sprite will `say`{:class="block3looks"} `Hello!` before it will `play`{:class="block3sound"} the `meow` sound. 
+Blocurile de cod ruleaza de sus in jos, asa ca **ordinea** in care sunt puse **conteaza**. In acest exemplu, spriteul va `zice`{:class="block3looks"} `Hello!` inainte sa `pronunte`{:class="block3sound"} sunetul `meow`.
 
 ![blocks_1546569161_587133](images/blocks_1546569161_587133.png)
 
 --- /collapse ---
 
-Removing or deleting code blocks you don’t want in your program is easy! Just drag them back into the code blocks palette.
+Stergerea blocurilor de cod din program este usoara! Doar trage-le inapoi in meniu.
 
-**Be careful:** dragging them into the code blocks pallette will delete all the blocks connected to the block you drag, so make sure to separate code blocks you want to keep from those you want to remove. If you delete some code blocks by accident and want to get them back, right-click and then click on the **undo** option to get everything back.
+**Ai grija:** daca stergi un bloc, o sa stergi si toate blocurile conecte prin el. Asa ca asigura-te ca separi blocurile pe care vrei sa le pastrezi. Daca ai sters din gresala niste blocuri si le vrei inapoi, da click-dreapta si selecteaza **undo**. 
 
 ![](images/code6.png)
 
 + Try adding, deleting, and undeleting some code blocks! 
++ Incearca sa adaugi, stergi, si sa dai **undo** la cateva blocuri de cod!
 
-### Putting it all together
+### Pune totul laolalta
 
-Now you know how to move code around and make things happen, it's time for you to create a program to make the Scratch Cat walk in a circle!
+Acum sti cum sa manevrezi codul si sa faci lucruri sa se intample, este timpul ca tu sa faci Pisica sa mearga in cercuri!
 
-+ Make sure you have the cat sprite selected in the sprite list, and then drag the following blocks into the sprite panel and connect them. You’ll find them in the **Events** and **Motion** lists.
++ Asigura-te ca ai spriteul cu Pisica selectat, dupa care trage aceste blocuri si conecteaza-le. O sa le gasesti in listele de **Evenimente** si de **Miscare**.
 
 ![blocks_1546569162_663829](images/blocks_1546569162_663829.png)
 
-+ Then, click on the green flag above the Stage. 
++ Dupa care apasa pe steagul verde de deasupra Scenei. 
 
 ![](images/code7.png)
 
-You should see the cat walking in a straight line...not exactly what you want, right?
+Ar trebui sa vezi Pisica mergand in linie dreapta... nu chiar ce am vrut, nu?
 
-Note: If you click th flag too many times and the cat walks away, you can drag it back!  
+Daca apesi de prea multe ori pe steag si Pisica o ia la fuga, poti sa o tragi inapoi!
 
-+ Snap this block to the end to make the cat sprite walk in a circle. It’s in the **Motion** list too. 
++ Adauga acest bloc la sfarsit ca sa faci Pisica sa mearga in cercuri. Este tot in lista de **Miscare**.
 
 ![blocks_1546569163_729716](images/blocks_1546569163_729716.png)
 
 --- collapse ---
 ---
-title: How does turning work?
+title: Cum functioneaza rasucirea?
 ---
 
-This block makes the sprite turn 15 degrees of the full 360 degrees that make up a circle. You can change that number, and the number of steps, by clicking on the number and typing in a new value.
-
+Acest bloc face spriteul sa se resuceasca 15 grade din cele 360 care formeaza un cerc. Poti schimba acest numar, daca apesi pe el si scri o noua valoare. 
 ![](images/code9.png)
 
 --- /collapse ---
 
-+ Now save your work!
++ Acum salveaza ce ai facut!
