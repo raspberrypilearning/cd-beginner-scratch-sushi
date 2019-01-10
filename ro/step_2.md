@@ -1,89 +1,89 @@
-## Getting set up
+## Pregatirea
 
-Once you open Scratch, you’ll see a window like the one below.
+Odata ce deschizi Scratch, o sa vezi o fereastra ca cea de mai jos.
 
-+ Look for each of the following areas and remember where they are.
++ Uita-te dupa fiecare din urmatoarele zone si retine unde este.
 
-### The Stage
+### Scena
 
  ![Scratch window with the stage highlighted](images/hlStage.png)
 
 --- collapse ---
 ---
-title: What is the Stage?
+title: Ce este Scena?
 ---
-This is where your Scratch programs run. It has:
+Aici ruleaza programele tale Scratch. Contine:
 
-* One or more **backgrounds** \(images on the background of the screen\)
+* Una sau mai multe **imagini de fundal**
 
-* Any **code blocks** associated with it \(we’ll get to this\)
+* Orice **bloc de cod** asociat cu el \(o sa ajungem si la asta\) 
 
 --- /collapse ---
 
-### The sprite list
+### Lista de spriteuri
 
  ![Scratch window with the sprite list highlighted](images/hlSpriteList.png)
 
 --- collapse ---
 ---
-title: What is a sprite?
+title: Ce este un sprite?
 ---
 
-Any item you can add on the Stage is a **sprite**.  
+Orice obiect pe care il poti adauga pe Scena se cheama **sprite**.  
 
-A sprite includes:
-* The **image** on the Stage
-* Any extra **costumes** \(looks\) it has
-* Any **sounds** associated with it
-* Any **code blocks** associated with it ![](images/setup2.png)
+Sprite include:
+* **Imaginea** de pe Scena
+* Orice extra **costume** mai are
+* Orice **sunete** asociate cu el
+* Orice **blocuri de cod** asociate cu el ![](images/setup2.png)
 
 --- /collapse ---
 
-### The code blocks palette
+### Meniul blocurilor de cod
 
  ![Scratch window with the blocks pallet highlighted](images/hlBlocksPalette.png)
  
 --- collapse ---
 ---
-title: Code blocks
+title: Blocuri de cod
 ---
 
-Code in Scratch comes in the form of blocks that you connect to make programs. You choose blocks from the **code blocks palette**, drag them into the **current sprite panel**, and then connect them to each other.
+Codul in Scratch este sub forma blocurilor care se conecteaza pentru a forma un program. Alegi blocuri din **meniul de blocuri de cod**, le tragi in **panoul cu spriteul curent**, dupa care le conectezi cu celelalte.
 
-There are ten categories of blocks. They are colour-coded, and you can choose between them by clicking on the items in the list at the top of the **code blocks palette**.
+Sunt 10 categori de blocuri, grupate pe culori. Poti alege dintre ele apasand pe obiectele din lista de la inceputul **meniului de blocuri de cod**.
 
 --- /collapse ---
 
-### The current sprite panel
+### Panoul spriteul curent 
 
  ![Scratch window with the current sprite panel highlighted](images/hlCurrentSpritePanel.png)
 
 --- collapse ---
 ---
-title: What is the current sprite?
+title: Care este spriteul curent?
 ---
 
-The **current sprite** is the one that's selected in the **sprite list**.
+**Spriteul curent** este cel selectat in **lista de spriteuri**.
 
-The **current sprite panel** is where you can see the code, costumes, and sounds for the selected sprite.
+**Panoul spriteului curent** este unde poti vedea codul, costumele, si sunetele spriteului selectat.
 
 --- /collapse ---
 
-Time to get coding!
+Timpul sa trecem la codat!
 
-+ In the sprite list, click on the Scratch Cat. The cat is now the current sprite.  
++ In lista de spriteuri, apasa pe Pisica. Pisica este acum spriteul curent.  
    
-+ Choose the **Events** category in the code blocks palette, click the `when flag clicked`{:class="block3events"} block, and drag it into the current sprite panel.  
++ Alege categoria de **Evenimente** din meniul de blocuri de cod, apasa blocul `cand se apasa steagul`{:class="block3events"}, si tragel in panoul spriteului curent.  
 
 ![blocks_1546569156_389366](images/blocks_1546569156_389366.png)
 
-+ Then go to **Looks** in the code blocks palette and find this block:
++ Acum du-te la **Aspecte** in meniul de blocuri de cod si gaseste-l pe asta:
 
 ![blocks_1546569159_4564118](images/blocks_1546569159_4564118.png)
-+ Click on it, hold down the mouse button, and then just drag it into the current sprite panel and let go of the button.
++ Apasa pe el si trage-l in panoul spriteului curent.
 
-+ Now that the second block is in the current sprite panel, connect it to the bottom of the first block by clicking and dragging it again to move it below the other block until they snap together, like this: 
++ Acum ca al doilea block este in spriteul curent conecteaza-l la primul bloc, asa:
 
 ![](images/setup3.png)
 
-+ Now click the **Start Program** button and watch what happens!
++ Acum apasa pe **Porneste Programul** si vezi ce se intampla!
