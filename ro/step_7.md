@@ -43,7 +43,7 @@ Poţi încerca cu mai multe valori și vezi care se potrivește mai bine pentru 
 
 Peștele se mișcă acum, dar vrei să se și întoarcă când atinge marginea Scenei. Ce noroc că ai un bloc de **Mișcare** pentru asta!
 
-+ Găsește blocul `dacă atingi marginea întoarce-te`{:class="block3motion"} și adauga-l după blocul `așteaptă`{:class="block3control"}.
++ Găsește blocul `dacă atingi marginea întoarce-te`{:class="block3motion"} și adăuga-l după blocul `așteaptă`{:class="block3control"}.
 
 --- collapse ---
 ---

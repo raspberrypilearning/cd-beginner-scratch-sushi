@@ -1,8 +1,8 @@
-## Pregatirea
+﻿## Pregatirea
 
-Odata ce deschizi Scratch, o sa vezi o fereastra ca cea de mai jos.
+Odată ce deschizi Scratch, o să vezi o fereastră ca cea de mai jos.
 
-+ Uita-te dupa fiecare din urmatoarele zone si retine unde este.
++ Uită-te după fiecare din următoarele zone și reține unde este.
 
 ### Scena
 
@@ -12,27 +12,27 @@ Odata ce deschizi Scratch, o sa vezi o fereastra ca cea de mai jos.
 ---
 title: Ce este Scena?
 ---
-Aici ruleaza programele tale Scratch. Contine:
+Aici ruleaza programele tale Scratch. Conține:
 
 * Una sau mai multe **imagini de fundal**
 
-* Orice **bloc de cod** asociat cu el \(o sa ajungem si la asta\) 
+* Orice **bloc de cod** asociat cu el \(o să ajungem și la asta\) 
 
 --- /collapse ---
 
-### Lista de spriteuri
+### Lista de personaje
 
  ![Scratch window with the sprite list highlighted](images/hlSpriteList.png)
 
 --- collapse ---
 ---
-title: Ce este un sprite?
+title: Ce este un personaj?
 ---
 
-Orice obiect pe care il poti adauga pe Scena se cheama **sprite**.  
+Orice obiect pe care îl poți adăuga pe Scena se cheama **personaj**.  
 
-Sprite include:
-* **Imaginea** de pe Scena
+Personajul include:
+* **Imaginea** care îl reprezintă pe Scena
 * Orice extra **costume** mai are
 * Orice **sunete** asociate cu el
 * Orice **blocuri de cod** asociate cu el ![](images/setup2.png)
@@ -48,42 +48,42 @@ Sprite include:
 title: Blocuri de cod
 ---
 
-Codul in Scratch este sub forma blocurilor care se conecteaza pentru a forma un program. Alegi blocuri din **meniul de blocuri de cod**, le tragi in **panoul cu spriteul curent**, dupa care le conectezi cu celelalte.
+Codul în Scratch este sub forma blocurilor care se conectează pentru a forma un program. Alegi blocuri din **meniul de blocuri de cod**, le tragi în **panoul cu personajul curent**, după care le conectezi cu celelalte.
 
-Sunt 10 categori de blocuri, grupate pe culori. Poti alege dintre ele apasand pe obiectele din lista de la inceputul **meniului de blocuri de cod**.
+Sunt 10 categori de blocuri, grupate pe culori. Poţi alege dintre ele apăsând pe obiectele din lista de la începutul **meniului de blocuri de cod**.
 
 --- /collapse ---
 
-### Panoul spriteul curent 
+### Panoul personajului curent 
 
  ![Scratch window with the current sprite panel highlighted](images/hlCurrentSpritePanel.png)
 
 --- collapse ---
 ---
-title: Care este spriteul curent?
+title: Care este personajul curent?
 ---
 
-**Spriteul curent** este cel selectat in **lista de spriteuri**.
+**Personajul curent** este cel selectat în **lista de personaje**.
 
-**Panoul spriteului curent** este unde poti vedea codul, costumele, si sunetele spriteului selectat.
+**Panoul personajului curent** este unde poți vedea codul, costumele, și sunetele personajului selectat.
 
 --- /collapse ---
 
-Timpul sa trecem la codat!
+Timpul să trecem la codat!
 
-+ In lista de spriteuri, apasa pe Pisica. Pisica este acum spriteul curent.  
++ În lista de personaje, apasă pe Pisică. Pisica este acum personajul curent.  
    
-+ Alege categoria de **Evenimente** din meniul de blocuri de cod, apasa blocul `cand se apasa steagul`{:class="block3events"}, si tragel in panoul spriteului curent.  
++ Alege categoria de **Evenimente** din meniul de blocuri de cod, apasă blocul `când se apasă steagul`{:class="block3events"}, și trage-l în panoul personajului curent.  
 
 ![blocks_1546569156_389366](images/blocks_1546569156_389366.png)
 
-+ Acum du-te la **Aspecte** in meniul de blocuri de cod si gaseste-l pe asta:
++ Acum du-te la **Aspecte** în meniul de blocuri de cod și gasește-l pe ăsta:
 
 ![blocks_1546569159_4564118](images/blocks_1546569159_4564118.png)
-+ Apasa pe el si trage-l in panoul spriteului curent.
++ Apasă pe el și trage-l în panoul personajului curent.
 
-+ Acum ca al doilea block este in spriteul curent conecteaza-l la primul bloc, asa:
++ Acum că al doilea bloc este în panoul personajului curent conectează-l la primul bloc, așa:
 
 ![](images/setup3.png)
 
-+ Acum apasa pe **Porneste Programul** si vezi ce se intampla!
++ Acum apasă pe **Porneste Programul** și vezi ce se întâmplă!
