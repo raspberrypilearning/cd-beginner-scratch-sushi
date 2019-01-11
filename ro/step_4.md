@@ -1,39 +1,39 @@
-## Setting the scene
+## Stabilirea decorului
 
-Scratch has a library of backgrounds and sprites for you to use to make your project look awesome.
+Scratch are o colecție de decoruri și personaje cu care poți să-ți faci proiectul să arate excelent. 
 
-+ Select the Stage.
++ Selectează Scena.
 
-![Selecting the stage](images/looksSelectStage.png)
+![Selectând scena](images/looksSelectStage.png)
 
-+ Click on **Backdrops**.
++ Click pe tabul **Decoruri**.
 
-![The Backdrops tab](images/looksBackdrops.png)
+![Tabul Decoruri](images/looksBackdrops.png)
 
-+ Click the **Choose backdrop from library** icon.
++ Click pe butonul **Alege un decor**.
 
-![The Choose backdrop icon](images/looksChooseBg.png)
+![Alegerea decorului](images/looksChooseBg.png)
  
-+ Then pick your favourite underwater background! 
++ Acum alege-ți decorul subacvatic preferat! 
 
-![An underwater scene](images/looksUnderwater.png)
+![Decor subacvatic](images/looksUnderwater.png)
 
-Great! Of course, now you have a cat underwater, and cats aren't usually big fans of that. But you can fix that, because you can turn the cat into a shark!
+Excelent! Acum ai o pisică sub apă, iar pisicilor nu le place apa. Putem schimba asta, transformând pisica in rechin.
 
-+ First, select the cat sprite and click on the **Costumes** tab.
++ Prima oară selectează pisica din personaje, iar apoi slectează tabul **Costume**.
 
 ![](images/cool2.png)
 
-+ Then, click on **Choose costume from Library**
++ Apoi, click pe butonul **Alege un costum**
 
 ![](images/cool3.png)
 
-+ Select this shark image and click **OK**. 
++ Selecteaza rechinul din această imagine. 
 
-![The shark costume](images/looksShark.png)
+![Costumul rechinului](images/looksShark.png)
 
-+ Now remove the cat costumes by selecting each of them and clicking on the **x**.
++ Acum șterge costumele pisicilor. Selectează fiecare costum, iar apoi apasă butonul **x**.
 
 ![](images/coolDeleteCostumes.png)
 
-Now you have a shark – excellent!
+Excelent, acum ai un rechin!
