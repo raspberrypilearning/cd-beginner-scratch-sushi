@@ -105,9 +105,3 @@ Când personajul termină de făcut verificarea, o să înceapă de la capătul 
  
 Cool! Urmează: să prinzi peștele!
 
-
-â Â
-ă Ă
-î Î
-ș
-
