@@ -2,7 +2,9 @@
 
 Once you open Scratch, you’ll see a window like the one below.
 
-+ Look for each of the following areas and remember where they are.
+--- task ---
+Look for each of the following areas and remember where they are.
+--- /task ---
 
 ### The Stage
 
