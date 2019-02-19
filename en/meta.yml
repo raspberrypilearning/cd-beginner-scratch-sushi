@@ -23,3 +23,5 @@ steps:
 - title: Remote-control fish
 - title: Fishing!
 - title: Keeping score
+- title: "Challenge: winning the game"
+  challenge: true

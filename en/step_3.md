@@ -25,7 +25,9 @@ You can click on the blcok you want, and then just drag it into the current spri
 
 If you want to see what a block does, you can double-click on it to make it run!
 
-+ Try double-clicking on some of the blocks to see what they do.
+--- task ---
+Try double-clicking on some of the blocks to see what they do.
+--- /task ---
 
 --- collapse ---
 ---
@@ -34,13 +36,19 @@ title: Running the code
 
 Usually, you want your code to run automatically whenever something specific happens. This is why many of your programs will start with a block from the **Events** category, most often this one: 
 
-![blocks_1546569160_528637](images/blocks_1546569160_528637.png)
+```blocks3
+    when green flag clicked
+```
 
 The code blocks connected to this block will run after the **green flag** is clicked.
 
 Code blocks run from top to bottom, so the order in which you snap your blocks together matters. In this example, the sprite will `say`{:class="block3looks"} `Hello!` before it will `play`{:class="block3sound"} the `meow` sound. 
 
-![blocks_1546569161_587133](images/blocks_1546569161_587133.png)
+```blocks3
+    when green flag clicked
+    say [Hello]
+    play sound [meow v]
+```
 
 --- /collapse ---
 
@@ -50,27 +58,42 @@ Removing or deleting code blocks you don’t want in your program is easy! Just 
 
 ![](images/code6.png)
 
-+ Try adding, deleting, and undeleting some code blocks! 
+--- task ---
+Try adding, deleting, and undeleting some code blocks! 
+--- /task ---
 
 ### Putting it all together
 
 Now you know how to move code around and make things happen, it's time for you to create a program to make the Scratch Cat walk in a circle!
 
-+ Make sure you have the cat sprite selected in the sprite list, and then drag the following blocks into the sprite panel and connect them. You’ll find them in the **Events** and **Motion** lists.
+--- task ---
+Make sure you have the cat sprite selected in the sprite list, and then drag the following blocks into the sprite panel and connect them. You’ll find them in the **Events** and **Motion** lists.
 
-![blocks_1546569162_663829](images/blocks_1546569162_663829.png)
+```blocks3
+    when green flag clicked
+    move [10] steps
+``` 
+--- /task ---
 
-+ Then, click on the green flag above the Stage. 
+--- task ---
+Now, click on the green flag above the Stage. 
 
 ![](images/code7.png)
+--- /task ---
 
 You should see the cat walking in a straight line...not exactly what you want, right?
 
 Note: If you click th flag too many times and the cat walks away, you can drag it back!  
 
-+ Snap this block to the end to make the cat sprite walk in a circle. It’s in the **Motion** list too. 
+--- task ---
+Snap the turn block to the end to make the cat sprite walk in a circle. It’s in the **Motion** list too. 
 
-![blocks_1546569163_729716](images/blocks_1546569163_729716.png)
+```blocks3
+    when green flag clicked
+    move [10] steps
++    turn cw (15) degrees
+```
+--- /task ---
 
 --- collapse ---
 ---
@@ -83,4 +106,6 @@ This block makes the sprite turn 15 degrees of the full 360 degrees that make up
 
 --- /collapse ---
 
-+ Now save your work!
+--- task ---
+Now save your work!
+--- /task ---
