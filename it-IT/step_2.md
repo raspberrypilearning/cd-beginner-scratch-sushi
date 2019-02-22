@@ -2,7 +2,7 @@
 
 Once you open Scratch, you’ll see a window like the one below.
 
-+ Look for each of the following areas and remember where they are.
+\--- task \--- Look for each of the following areas and remember where they are. \--- /task \---
 
 ### The Stage
 
@@ -14,9 +14,9 @@ Once you open Scratch, you’ll see a window like the one below.
 
 This is where your Scratch programs run. It has:
 
-+ One or more **backgrounds** \(images on the background of the screen\)
+* One or more **backgrounds** \(images on the background of the screen\)
 
-+ Any **code blocks** associated with it \(we’ll get to this\)
+* Any **code blocks** associated with it \(we’ll get to this\)
 
 \--- /collapse \---
 
@@ -32,10 +32,10 @@ Any item you can add on the Stage is a **sprite**.
 
 A sprite includes:
 
-+ The **image** on the Stage
-+ Any extra **costumes** \(looks\) it has
-+ Any **sounds** associated with it
-+ Any **code blocks** associated with it ![](images/setup2.png)
+* The **image** on the Stage
+* Any extra **costumes** \(looks\) it has
+* Any **sounds** associated with it
+* Any **code blocks** associated with it ![](images/setup2.png)
 
 \--- /collapse \---
 
@@ -69,24 +69,28 @@ The **current sprite panel** is where you can see the code, costumes, and sounds
 
 Time to get coding!
 
-+ In the sprite list, click on the Scratch Cat. The cat is now the current sprite.
+\--- task \--- In the sprite list, click on the Scratch Cat. The cat is now the current sprite.
 
-+ Choose the **Events** category in the code blocks palette, click the `when flag clicked`{:class="blockevents"} block, and drag it into the current sprite panel.
+Choose the **Events** category in the code blocks palette, click the `when flag clicked`{:class="block3events"} block, and drag it into the current sprite panel.
 
-```blocks
+```blocks3
     when green flag clicked
 ```
 
-+ Then go to **Looks** in the code blocks palette and find this block:
+\--- /task \---
 
-```blocks
+\--- task \--- Then go to **Looks** in the code blocks palette and find this block:
+
+```blocks3
     say [Hello!] for (2) secs
 ```
 
-+ Click on it, hold down the mouse button, and then just drag it into the current sprite panel and let go of the button.
+Click on it, hold down the mouse button, and then just drag it into the current sprite panel and let go of the button.
 
-+ Now that the second block is in the current sprite panel, connect it to the bottom of the first block by clicking and dragging it again to move it below the other block until they snap together, like this:
+\--- /task \---
 
-![](images/setup3.png)
+\--- task \--- Now that the second block is in the current sprite panel, connect it to the bottom of the first block by clicking and dragging it again to move it below the other block until they snap together, like this:
 
-+ Now click the **Start Program** button and watch what happens!
+![](images/setup3.png) \--- /task \---
+
+\--- task \--- Now click the **Start Program** button and watch what happens! \--- /task \---
