@@ -30,13 +30,13 @@ Het `richt naar graden`{:class="block3motion"} blok laat je de richting bepalen 
 --- task --- Gebruik een paar `richt naar graden`{:class="block3motion"} blokken uit de **Beweging** lijst en voeg ze als volgt aan de haaicode toe:
 
 ```blocks3
-    wanneer [pijltje links v] is ingedrukt
+    wanneer [pijltje links v] is ingedrukt :: events hat
 +   ga naar (-90) graden
 neem (10) stappen
 ```
 
 ```blocks3
-    wanneer [pijltje rechts v] is ingedrukt
+    wanneer [pijltje rechts v] is ingedrukt :: events hat
 +   ga naar (90) graden
 neem (10) stappen
 ```
@@ -67,7 +67,7 @@ Zoals altijd is daar een blok voor in **Beweging**!
 Voeg dit blok toe aan de herstartcode van de haai, en maak als volgt de draaistijl `links-rechts`{:class="block3motion"}:
 
 ```blocks3
-    wanneer op de groene vlag wordt geklikt
+    wanneer op de groene vlag wordt geklikt :: events hat
 +   maak draaistijl [links-rechts v]
 ga naar x: (0) y: (0)
 ```

@@ -35,7 +35,7 @@ title: De code uitvoeren
 Meestal wil je dat je code automatisch wordt uitgevoerd wanneer er iets specifieks gebeurt. Daarom beginnen veel van je programma's met een blok uit de **gebeurtenissen** categorie, meestal deze:
 
 ```blocks3
-    wanneer op groene vlag wordt geklikt
+    wanneer groene vlag wordt aangeklikt
 ```
 
 De codeblokken die zijn aangesloten op dit blok wordt uitgevoerd nadat op de **groene vlag** is geklikt.
@@ -43,9 +43,9 @@ De codeblokken die zijn aangesloten op dit blok wordt uitgevoerd nadat op de **g
 Codeblokken lopen van boven naar beneden, dus de volgorde waarin je de blokken samenvoegt, is van belang. In dit voorbeeld zal de sprite `Hallo!` `zeggen` voordat het het `meow` geluid `afspeelt`{:class="block3sound"}.
 
 ```blocks3
-    wanneer op de groene vlag wordt geklikt
+    wanneer groene vlag wordt aangeklikt
   zeg [Hallo]
-  speel geluid [meow v] af
+  start geluid [meow v] :: sound
 ```
 
 --- /collapse ---
@@ -65,7 +65,7 @@ Nu je weet hoe je code kunt verplaatsen en dingen kunt laten gebeuren, is het ti
 --- task --- Zorg dat je de kat sprite geselecteerd hebt in de spritelijst, en sleep dan de volgende blokken in het sprite paneel en verbindt ze met elkaar. Je vindt ze in de **Gebeurtenissen** en **Beweging** categorieën.
 
 ```blocks3
-    wanneer op groene vlag wordt geklikt
+    wanneer op groene vlag wordt geklikt :: events hat
     neem [10] stappen
 ```
 
@@ -79,10 +79,10 @@ Je zou de kat in een rechte lijn moeten zien lopen... niet precies wat je wilt, 
 
 Opmerking: als je te vaak op de vlag klikt en de kat loopt uit beeld, dan kun je hem terug slepen!
 
---- opdracht --- Zet het draai blok aan het eind zodat de kat in een rondje kan lopen. Het zit ook in de **Beweging** categorie.
+--- task --- Zet het draai blok aan het eind zodat de kat in een rondje kan lopen. Het zit ook in de **Beweging** categorie.
 
 ```blocks3
-    wanneer op groene vlag wordt geklikt
+    wanneer groene vlag wordt aangeklikt
    neem [10] stappen
 +    draai cw (15) graden
 ```

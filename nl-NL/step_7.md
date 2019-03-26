@@ -7,7 +7,7 @@ Oké, hoog tijd om de vis zelfstandig te laten zwemmen. Hiervoor heb je een nieu
 Sleep een `wanneer op de groene vlag wordt geklikt`{:class="block3events"} **Gebeurtenissen** blok, een `herhaal`{:class="block3motion"} **Besturen** blok en een `neem 10 stappen`{:class="block3motion"} **Beweging** blok naar het **sprite paneel**:
 
 ```blocks3
-    wanneer op de groene vlag wordt geklikt
+    wanneer op de groene vlag wordt geklikt :: events hat
 herhaal
 neem (10) stappen
 einde
@@ -39,7 +39,7 @@ Eerst moet je de vis langzamer laten gaan. Dat is vrij simpel, je moet een pauze
 --- task --- Voeg het `wacht`{:class="block3control"} blok toe aan je code binnen het `herhaal`{:class="block3control"} blok, en verander het getal naar `0.5`:
 
 ```blocks3
-    wanneer op de groene vlag wordt geklikt
+    wanneer op de groene vlag wordt geklikt :: events hat
 herhaal
 neem (10) stappen
 + wacht (0.5) sec
@@ -77,7 +77,7 @@ Natuurlijk betekent dit dat je vis ondersteboven gaat zwemmen, dus heb je weer e
 --- task --- Werk je code bij door de draaistijl van de vis `links-rechts`{:class="block3motion"} aan het begin van de sprite code toe te voegen:
 
 ```blocks3
-    wanneer op de groene vlag wordt geklikt
+    wanneer op de groene vlag wordt geklikt :: events hat
 + maak draaistijl [links-rechts v]
 herhaal
 neem (10) stappen
@@ -95,7 +95,7 @@ Je weet van een vorige stap al hoe je een sprite kunt laten draaien, dus daar be
 --- task --- Voeg een draai toe aan de zweminstructies van de vis, en klik op de groene vlag.
 
 ```blocks3
-    wanneer op de groene vlag wordt geklikt
+    wanneer op de groene vlag wordt geklikt :: events hat
 maak draaistijl [links-rechts v]
 herhaal
 neem (10) stappen

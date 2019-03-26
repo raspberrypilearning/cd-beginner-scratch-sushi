@@ -9,7 +9,7 @@ Eerst moet je weten of de vis de haai aanraakt. Hiervoor heb je een **Besturen**
 Sleep het `raak ik`{:class="block3sensing"} blok boven in het vlakje van het `als...dan`{;class="block3control"} blok, en klik op het kleine driehoekje om de naam van de haai sprite te selecteren. Als je die naam niet verandert hebt, zal dat 'Sprite1' zijn.
 
 ```blocks3
-    wanneer op de groene vlag wordt geklikt
+    wanneer op de groene vlag wordt geklikt :: events hat
 maak draaistijl [links-rechts v]
 herhaal
 neem (10) stappen
@@ -58,7 +58,7 @@ Als de haai nu de vis pakt, verdwijnt de vis definitief. Dat is niet zo mooi.
 --- task --- Zet het `verschijn`{:class="block3looks"} blok uit **Uiterlijken** helemaal aan het begin van de vis code, zodat je het spel kunt hervatten.
 
 ```blocks3
-    wanneer op de groene vlag wordt geklikt
+    wanneer op de groene vlag wordt geklikt :: events hat
 + verschijn
 maak draaistijl [links-rechts v]
 herhaal

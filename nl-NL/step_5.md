@@ -9,7 +9,7 @@ Zoals je vast al geraden hebt, heb je de **Gebeurtenissen** en **Beweging** blok
 --- task --- Zoek deze keer dit blok op en sleep het naar het huidige sprite paneel:
 
 ```blocks3
-    wanneer [spatiebalk v] is ingedrukt
+    wanneer [spatiebalk v] is ingedrukt :: events hat
 ```
 
 Klik op de kleine pijl (â–¼) naast `spatie`. Je ziet nu een lijst met alle toetsen waaruit je kunt kiezen. --- /task ---
@@ -19,21 +19,21 @@ Je hebt vier van de `wanneer toets is ingedrukt`{:class="block3events"} blokken 
 --- task --- Om je haai te laten bewegen, verbindt je deze blokken op de volgende manier aan de **beweging** blokken:
 
 ```blocks3
-    wanneer [pijltje links v] is ingedrukt
+    wanneer [pijltje links v] is ingedrukt :: events hat
 neem (-10) stappen
 ```
 
 ```blocks3
-    wanneer [pijltje rechts] is ingedrukt
+    wanneer [pijltje rechts] is ingedrukt :: events hat
 neem (10) stappen
 ```
 
 ```blocks3
-    wanneer [pijltje omhoog] is ingedrukt
+    wanneer [pijltje omhoog] is ingedrukt :: events hat
 ```
 
 ```blocks3
-    wanneer [pijltje omlaag] is ingedrukt
+    wanneer [pijltje omlaag] is ingedrukt :: events hat
 ```
 
 --- /task ---
@@ -47,12 +47,12 @@ Nu beweegt je haai naar voren en naar achteren, wat heel gaaf is, maar hij gaat 
 --- task--- Neem twee `verander y met`{:class="block3motion"} blokken en werk je code als volgt bij:
 
 ```blocks3
-    wanneer [pijltje omhoog] is ingedrukt
+    wanneer [pijltje omhoog] is ingedrukt :: events hat
 +    verander y met (10)
 ```
 
 ```blocks3
-    wanneer [pijltje omlaag] is ingedrukt
+    wanneer [pijltje omlaag] is ingedrukt :: events hat
 +   verander y met (-10)
 ```
 
@@ -89,16 +89,16 @@ Dat is best wel simpel! Het midden van het speelveld is `(0, 0)` in `(x, y)` coÃ
 
 Je hebt alleen een **Gebeurtenissen** blok nodig voor de groene vlag, en het **ga naar** blok uit **Beweging**.
 
---- task --- Sleep een `wanneer groene vlag is ingedrukt`{:class="block3events"}, **Gebeurtenis** blok naar het huidige sprite paneel.
+--- task --- Sleep een `wanneer groene vlag is ingedrukt :: events hat`{:class="block3events"}, **Gebeurtenis** blok naar het huidige sprite paneel.
 
 ```blocks3
-    wanneer op de groene vlag wordt geklikt
+    wanneer op de groene vlag wordt geklikt :: events hat
 ```
 
 Zoek dan het `ga naar`{:class="block3motion"} **beweging** blok en zet het vast aan je vlag **Gebeurtenissen** blok.
 
 ```blocks3
-    wanneer groene vlag is ingedrukt
+    wanneer groene vlag is ingedrukt :: events hat
 +  ga naar x: (0) y: (0)
 ```
 
