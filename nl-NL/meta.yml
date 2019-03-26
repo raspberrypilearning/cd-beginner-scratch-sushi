@@ -1,0 +1,38 @@
+---
+title: Beginner Scratch Sushi kaarten
+hero_image: afbeeldingen / banner.png
+description: Maak een leuk spel in je eerste Scratch-programma!
+theme: orange
+duration: 2
+listed: true
+ingredient: false
+copyedit: true
+curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
+interests: animals, humour, outdoors, games
+technologies: scratch
+site_areas: coderDojo
+software: scratch
+version: 3
+last_tested: 2017-01-01
+steps:
+  - 
+    title: Inleiding
+  - 
+    title: Opstarten
+  - 
+    title: Toevoegen en verwijderen van codeblokken
+  - 
+    title: Het opzetten van de scene
+  - 
+    title: Beweeg dingen in het rond
+  - 
+    title: Alle sprites
+  - 
+    title: Vis op afstand bestuurbaar
+  - 
+    title: Vissen!
+  - 
+    title: Score bijhouden
+  - 
+    title: "Uitdaging: het spel winnen"
+    challenge: true
