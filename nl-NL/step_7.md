@@ -46,7 +46,7 @@ neem (10) stappen
 einde
 ```
 
--- /task ---
+--- /task ---
 
 --- collapse ---
 ---
@@ -100,7 +100,7 @@ maak draaistijl [links-rechts v]
 herhaal
 neem (10) stappen
 + draai (10) graden naar rechts
-wacht (0.5) sec
+wacht (0.5) sec.
 keer om aan de rand
 einde
 ```

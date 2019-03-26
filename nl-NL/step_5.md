@@ -89,7 +89,7 @@ Dat is best wel simpel! Het midden van het speelveld is `(0, 0)` in `(x, y)` coÃ
 
 Je hebt alleen een **Gebeurtenissen** blok nodig voor de groene vlag, en het **ga naar** blok uit **Beweging**.
 
---- task --- Sleep een `wanneer groene vlag is ingedrukt :: events hat`{:class="block3events"}, **Gebeurtenis** blok naar het huidige sprite paneel.
+--- task --- Sleep een `wanneer groene vlag is ingedrukt`{:class="block3events"}, **Gebeurtenis** blok naar het huidige sprite paneel.
 
 ```blocks3
     wanneer op de groene vlag wordt geklikt :: events hat
