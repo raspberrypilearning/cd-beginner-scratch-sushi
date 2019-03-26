@@ -1,3 +1,3 @@
-## Challenge: winning the game
+## Uitdaging: het spel winnen
 
-Pick a score at which the player wins, and make something cool happen when they have that many points. Maybe the shark congratulates them, or a 'You win!' sprite appears, or music plays!
+Kies een score waarbij de speler wint, en laat iets leuks gebeuren als ze die score halen. Laat de haai de speler feliciteren, laat een 'Jij wint!' sprite te voorschijn komen, of speel muziek af!
