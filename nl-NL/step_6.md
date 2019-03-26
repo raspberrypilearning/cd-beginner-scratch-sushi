@@ -1,73 +1,73 @@
-## All the sprites
+## Alle sprites
 
-Now you have a shark that you can move around using the arrow keys. Nice! Time to add some fish for it to catch.
+Nu heb je een haai die je kunt laten bewegen met de pijltjestoetsen. Gaaf! Hoog tijd om wat vissen toe te voegen die hij kan vangen.
 
 \--- task \---
 
-Click the **New sprite** button, and on the screen that opens, choose a fish.
+Klik op de **Kies een sprite** knop en kies een vis uit het scherm dat geopend wordt.
 
-![The New sprite button](images/spritesNewFromLibrary.png)
+![De Kies een sprite knop](images/spritesNewFromLibrary.png)
 
-If your fish is a bit big compared to your shark, you can use the size control to make both sprites the right size!
+Als je vis een beetje groot is vergeleken met je haar, dan kun je Grootte gebruiken om beide sprites het juiste formaat te geven!
 
-![Sprite size control](images/sprites2.png)
+![Sprite grootte](images/sprites2.png)
 
-Change the number in the size control to make the spirte bigger or smaller.
+Verander het getal achter Grootte om de sprite groter of kleiner te maken.
 
 \--- /task \---
 
-Great! Later, you're going to add some code to make the fish move around on its own, without help from the player. Your player will move the shark and try to catch the fish.
+Geweldig! Later zul je code toevoegen om de vis zelfstandig te laten bewegen, zonder dat de speler helpt. Je speler zal de haai aansturen om te proberen de vis te vangen.
 
 ## \--- collapse \---
 
-## title: What about the backwards shark?
+## title: Hoe zit het met de achterstevoren haai?
 
-It does look a little funny to have that shark swimming backwards. Just like you’d usually turn around rather than walking backwards, the shark would turn around rather than swimming backwards. Luckily for you, Scratch has a block for this!
+Het ziet er een beetje gek uit om de haai achterstevoren te laten zwemmen. Net zoals jij je liever omdraait in plaats van achteruit te lopen, wil de haai zich ook omdraaien in plaats van achterstevoren te zwemmen. Gelukkig heeft Scratch hier een blok voor!
 
-The `point in direction`{:class="block3motion"} block lets you pick the direction your sprite is pointing in. You’ll find it in the **Motion** blocks section. You can type in any number of degrees, to point the sprite wherever you want. \--- /collapse \---
+Het `richt naar graden`{:class="block3motion"} blok laat je de richting bepalen waarnaar je sprite wijst. Je vindt het in de **Beweging** blokken categorie. Je kunt zelf het aantal graden bepalen om de sprite in de juiste richting te laten wijzen. \--- /collapse \---
 
-\--- task \--- Grab a couple of copies of the `point in direction`{:class="block3motion"} block from the **Motion** list and connect them to your shark's code, like this:
+\--- task \--- Gebruik een paar `richt naar graden`{:class="block3motion"} blokken uit de **Beweging** lijst en voeg ze als volgt aan de haaicode toe:
 
 ```blocks3
-    when [left arrow v] key pressed
-+     point in direction (-90)
-    move (10) steps
+    wanneer [pijltje links v] is ingedrukt
++   ga naar (-90) graden
+neem (10) stappen
 ```
 
 ```blocks3
-    when [right arrow v] key pressed
-+     point in direction (90)
-    move (10) steps
+    wanneer [pijltje rechts v] is ingedrukt
++   ga naar (90) graden
+neem (10) stappen
 ```
 
 \--- /task \---
 
-\--- task \--- Change the number of steps in the `move`{:class="block3motion"} blocks from `-10` to `10`.
+\--- task \--- Verander het aantal stappen in de `beweging`{:class="block3motion"} blokken van `-10` tot `10`.
 
-If you try moving the shark around now after you've added the `point in direction`{:class="block3motion"} blocks, you might notice something a little strange happening. The shark may not be turning quite right!
+Als je de haai beweegt nu je de `ga naar graden`{:class="block3motion"} blokken hebt toegevoegd, zul je iets raars zien. De haai draait niet helemaal goed!
 
-![Upside down shark](images/spritesUpsideDown.png)
+![Ondersteboven haai](images/spritesUpsideDown.png)
 
 \--- /task \---
 
 ## \--- collapse \---
 
-## title: Why does it go upside down?
+## title: Waarom draait de haai ondersteboven?
 
-The problem here is that the shark sprite started, as all sprites do, with the 'all around' **rotation style**, and what you need it to have is the 'left-right' style.
+Het probleem is dat de haai begon, zoals alle sprites doen, met de 'helemaal rond' **draaistijl**, en wat je nodig hebt is de 'links-rechts' stijl.
 
-As usual, there’s a block for that, and it’s in **Motion**!
+Zoals altijd is daar een blok voor in **Beweging**!
 
 \--- /collapse \---
 
-\--- task \--- Look in the **Motion** category for the block `set rotation style`{:class="block3motion"}.
+\--- task \--- Zoek in de **Beweging** categorie naar het blok `maak draaistijl`{:class="block3motion"}.
 
-Add the block to your shark reset code from earlier, and set the rotation style to `left-right`{:class="block3motion"}, like this:
+Voeg dit blok toe aan de herstartcode van de haai, en maak als volgt de draaistijl `links-rechts`{:class="block3motion"}:
 
 ```blocks3
-    when green flag clicked
-+     set rotation style [left-right v]
-    go to x: (0) y: (0)
+    wanneer op de groene vlag wordt geklikt
++   maak draaistijl [links-rechts v]
+ga naar x: (0) y: (0)
 ```
 
 \--- /task \---
