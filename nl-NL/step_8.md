@@ -6,15 +6,15 @@ Eerst moet je weten of de vis de haai aanraakt. Hiervoor heb je een **Besturen**
 
 --- task --- Voeg het `als...dan`{:class="block3control"} **Besturen** blok toe aan de `herhaal`{:class="block3control"} lus van de vis sprite, onder het `keer om aan de rand`{:class="block3motion"} blok.
 
-Sleep het `raak ik`{:class="block3sensing"} blok boven in het vlakje van het `als...dan`{;class="block3control"} blok, en klik op het kleine driehoekje om de naam van de haai sprite te selecteren. Als je die naam niet verandert hebt, zal dat 'Sprite1' zijn.
+Sleep het `raak ik`{:class="block3sensing"} blok boven in het vlakje van het `als...dan`{:class="block3control"} blok, en klik op het kleine driehoekje om de naam van de haai sprite te selecteren. Als je die naam niet verandert hebt, zal dat 'Sprite1' zijn.
 
 ```blocks3
     wanneer op de groene vlag wordt geklikt :: events hat
 maak draaistijl [links-rechts v]
 herhaal
 neem (10) stappen
-draai cw (willekeurig getal tussen (1) en (10)) graden
-wacht (0.5) sec
+draai (willekeurig getal tussen (1) en (10) :: operators) graden naar rechts
+wacht (0.5) sec. :: control
 keer om aan de rand
 + als <touching [Sprite1 v] ?> dan
 einde
@@ -43,12 +43,11 @@ Uiteraard heb je net een `als...dan`{:class="block3control"} blok toegevoegd zon
 
 Je kunt de vis laten verdwijnen, alsof de haai hem heeft opgegeten, door het `verdwijn`{:class="blocks3looks"} blok te gebruiken.
 
---- task --- Zoek het `verdwijn`{:class="block3looks"} blok in **Uiterlijken** en zet het in het `als...dan` blok{:class="block3control"} blok:
+--- task --- Zoek het `verdwijn`{:class="block3looks"} blok in **Uiterlijken** en zet het in het `als...dan`{:class="block3control"} blok:
 
 ```blocks3
     als <touching [Sprite1 v] ?> dan
 + verdwijn
-einden
 ```
 
 --- /task ---
@@ -74,7 +73,7 @@ Dat is al beter, maar je wil niet dat de speler het spel moet herstarten zodra e
     keer om aan de rand
 als <touching [Sprite1 v] ?> dan
 verdwijn
-+ wacht (1) sec
++ wacht (1) sec. :: control
 + ga naar x: (willekeurig getal tussen (-240) en (240)) y: (willekeurig getal tussen (-180) en (180))
 + verschijn
 einde

@@ -33,7 +33,7 @@ Tjonge, die vis botste tegen de zijkant van het Speelveld en ging véél te snel
 Eerst moet je de vis langzamer laten gaan. Dat is vrij simpel, je moet een pauze inlassen als de vis 10 stappen genomen heeft. Er is een **Besturen** blok dat je hierbij helpt:
 
 ```blocks3
-    wacht (1) sec
+    wacht (1) sec. :: control
 ```
 
 --- task --- Voeg het `wacht`{:class="block3control"} blok toe aan je code binnen het `herhaal`{:class="block3control"} blok, en verander het getal naar `0.5`:
@@ -42,7 +42,7 @@ Eerst moet je de vis langzamer laten gaan. Dat is vrij simpel, je moet een pauze
     wanneer op de groene vlag wordt geklikt :: events hat
 herhaal
 neem (10) stappen
-+ wacht (0.5) sec
++ wacht (0.5) sec. :: control
 einde
 ```
 
@@ -81,7 +81,7 @@ Natuurlijk betekent dit dat je vis ondersteboven gaat zwemmen, dus heb je weer e
 + maak draaistijl [links-rechts v]
 herhaal
 neem (10) stappen
-wacht (0.5) sec
+wacht (0.5) sec. :: control
 keer om aan de rand
 einde
 ```
@@ -99,7 +99,7 @@ Je weet van een vorige stap al hoe je een sprite kunt laten draaien, dus daar be
 maak draaistijl [links-rechts v]
 herhaal
 neem (10) stappen
-+ draai cw (10) graden
++ draai (10) graden naar rechts
 wacht (0.5) sec
 keer om aan de rand
 einde
@@ -129,12 +129,12 @@ title: Wat is een functie?
 --- task --- Zoek het `willekeurig getal tussen`{:class=block3operators"] **Functies** blok, en stop het in het `draai graden`{:class="block3motion"} **Beweging** blok door erop te klikken en het in het getalvakje van de graden te slepen.
 
 ```blocks3
-    wanneer op de groene vlag wordt gedrukt
+    wanneer op de groene vlag wordt geklikt :: events hat
 maak draaistijl [links-rechts v]
 herhaal
 neem (10) stappen
-+ draai cw (willekeurig getal tussen (1) en (10)) graden
-wacht (0.5) sec
++ draai (willekeurig getal tussen (1) en (10) :: operators) graden naar rechts
+wacht (0.5) sec. :: control
 keer om aan de rand
 einde
 ```

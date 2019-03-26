@@ -31,13 +31,13 @@ Het `richt naar graden`{:class="block3motion"} blok laat je de richting bepalen 
 
 ```blocks3
     wanneer [pijltje links v] is ingedrukt :: events hat
-+   ga naar (-90) graden
++   richt naar (-90) graden :: motion
 neem (10) stappen
 ```
 
 ```blocks3
     wanneer [pijltje rechts v] is ingedrukt :: events hat
-+   ga naar (90) graden
++   richt naar (90) graden :: motion
 neem (10) stappen
 ```
 

@@ -32,7 +32,7 @@ Nu moet de variabele elke keer bijgewerkt worden als de haai een vis pakt, en op
 ### Code voor de haai
 
 ```blocks3
-    wanneer op de groene vlag wordt gedrukt
+    wanneer op de groene vlag wordt gedrukt :: events hat
 + maak [score v] [0]
 maak draaistijl [links-rechts v]
 ga naar x: (0) y: (0)
@@ -44,7 +44,7 @@ ga naar x: (0) y: (0)
     als <touching [Sprite1 v] ?> dan
 + verander [score v] met [1]
 verdwijn
-wacht (1) sec
+wacht (1) sec.
 ga naar x: (willekeurig getal tussen (-240) en (240)) y: (willekeurig getal tussen (-180) en (180))
 verschijn
 einde

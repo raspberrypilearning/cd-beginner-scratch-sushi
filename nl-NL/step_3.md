@@ -84,7 +84,7 @@ Opmerking: als je te vaak op de vlag klikt en de kat loopt uit beeld, dan kun je
 ```blocks3
     wanneer groene vlag wordt aangeklikt
    neem [10] stappen
-+    draai cw (15) graden
++    draai (15) graden naar rechts
 ```
 
 --- /task ---
