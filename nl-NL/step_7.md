@@ -117,7 +117,7 @@ title: Wat is een functie?
 **Functies** nemen één of meer waarden (zoals getallen, tekst, of `Waar/Niet waar` waarden) en geven daar een enkele waarde voor terug. Je kunt zien wat voor waarde het terug zal geven door de vorm van het blok: afgeronde blokken geven getallen of tekst, puntige blokken geven `Waar/Niet waar`.
 
 ```blocks3
-    (() + 9))
+    (() + ())
 
 (voeg [hallo ] en [wereld] samen)
 
