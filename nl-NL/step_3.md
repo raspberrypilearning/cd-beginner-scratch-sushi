@@ -1,6 +1,6 @@
 ## Toevoegen en verwijderen van codeblokken
 
-Geweldig! Je hebt je allereerste Scratch programma geschreven. Tijd om wat meer te leren over hoe je code in en uit Scratch kunt zetten! Scratch code bestaat uit **blokken** zoals deze:
+Geweldig! Je hebt je allereerste Scratch programma geschreven. Tijd om wat meer te leren over hoe je code in en uit Scratch kunt krijgen! Scratch code bestaat uit **blokken** zoals deze:
 
 ![](images/code1.png)
 
@@ -38,7 +38,7 @@ Meestal wil je dat je code automatisch wordt uitgevoerd wanneer er iets specifie
 
 De codeblokken die zijn aangesloten op dit blok wordt uitgevoerd nadat op de **groene vlag** is geklikt.
 
-Codeblokken lopen van boven naar beneden, dus de volgorde waarin je de blokken samenvoegt, is van belang. In dit voorbeeld zal de sprite `Hallo!` `zeggen` voordat het het `meow` geluid `afspeelt`{:class="block3sound"}.
+Codeblokken lopen van boven naar beneden, dus de volgorde waarin je de blokken samenvoegt, is van belang. In dit voorbeeld zal de sprite `Hallo!` `zeggen`{:class="block3looks"} voordat het het `meow` geluid `afspeelt`{:class="block3sound"}.
 
 ```blocks3
     wanneer op de groene vlag wordt geklikt
@@ -50,7 +50,7 @@ Codeblokken lopen van boven naar beneden, dus de volgorde waarin je de blokken s
 
 Het verwijderen van codeblokken die je niet wilt gebruiken in je programma is eenvoudig! Sleep ze gewoon terug naar het palet met codeblokken.
 
-**Pas op:** door je blok naar het codeblok paneel te slepen, worden alle blokken die aan dat blok hangen ook verwijdert. Zorg er dus voor dat de blokken die je wilt houden losgekoppeld zijn van het blok dat je wilt verwijderen. Als je per ongeluk blokken hebt verwijdert en ze terug wilt halen, klik dan met je rechtermuisknop en vervolgens op de **Ongedaan maken** optie om alles weer terug te krijgen.
+**Pas op:** door je blok naar het codeblok paneel te slepen, worden alle blokken die onder dat blok hangen ook verwijderd. Zorg er dus voor dat de blokken die je wilt houden losgekoppeld zijn van het blok dat je wilt verwijderen. Als je per ongeluk blokken hebt verwijderd en ze terug wilt halen, klik dan met je rechtermuisknop en vervolgens op de **Ongedaan maken** optie om alles weer terug te krijgen.
 
 ![](images/code6.png)
 
