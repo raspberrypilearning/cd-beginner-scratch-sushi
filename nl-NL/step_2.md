@@ -89,7 +89,7 @@ Klik erop, houd de muisknop ingedrukt en sleep hem naar het huidige sprite panee
 
 \--- /task \---
 
-\--- task \--- Nu het tweede blok ook in het huidige sprite paneel staat, verbindt je het aan de onderkant van het eerste blok door erop te klikken en het onder het eerste blok te slepen zodat ze aan elkaar vastklikken, zoals dit:
+\--- task \--- Nu het tweede blok ook in het huidige sprite paneel staat, verbind je het aan de onderkant van het eerste blok door erop te klikken en het onder het eerste blok te slepen zodat ze aan elkaar vastklikken, zoals dit:
 
 ![](images/setup3.png) \--- /task \---
 
