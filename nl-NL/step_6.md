@@ -8,7 +8,7 @@ Klik op de **Kies een sprite** knop en kies een vis uit het scherm dat geopend w
 
 ![De Kies een sprite knop](images/spritesNewFromLibrary.png)
 
-Als je vis een beetje groot is vergeleken met je haar, dan kun je Grootte gebruiken om beide sprites het juiste formaat te geven!
+Als je vis een beetje groot is vergeleken met je haai, dan kun je Grootte gebruiken om beide sprites het juiste formaat te geven!
 
 ![Sprite grootte](images/sprites2.png)
 
