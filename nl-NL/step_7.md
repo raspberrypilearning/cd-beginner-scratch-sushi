@@ -4,7 +4,7 @@ Oké, hoog tijd om de vis zelfstandig te laten zwemmen. Hiervoor heb je een nieu
 
 \--- task \--- Selecteer je vis sprite.
 
-Sleep een `wanneer op de groene vlag wordt geklikt`{:class="block3events"} **Gebeurtenissen** blok, een `herhaal`{:class="block3motion"} **Besturen** blok en een `neem 10 stappen`{:class="block3motion"} **Beweging** blok naar het **sprite paneel**:
+Sleep een `wanneer op de groene vlag wordt geklikt`{:class="block3events"} **Gebeurtenissen** blok, een `herhaal`{:class="block3control"} **Besturen** blok en een `neem 10 stappen`{:class="block3motion"} **Beweging** blok naar het **sprite paneel**:
 
 ```blocks3
     wanneer op de groene vlag wordt geklikt
@@ -51,7 +51,7 @@ einde
 
 ## title: Aanpassingen maken
 
-Het getal dat je ingevoerd hebt in het `wacht`{:class="block3control"} blok verteld hoeveel **seconden** jij wilt dat de vis moet wachten. `0.5` is een halve seconde.
+Het getal dat je ingevoerd hebt in het `wacht`{:class="block3control"} blok vertelt hoeveel **seconden** jij wilt dat de vis moet wachten. `0.5` is een halve seconde.
 
 Je kunt verschillende getallen invoeren om uit te zoeken wat het beste bij het spel past. En onthoud dat je het aantal stappen binnen het `neem stappen`{:class="block3motion"} blok ook kunt veranderen!
 
@@ -65,7 +65,7 @@ De vis beweegt nu, maar je wilt ook dat hij omdraait aan de rand van het Speelve
 
 ## title: Wat doet dit nieuwe blok?
 
-Het `keer om aan de rand` blok controleert of de sprite de rand van het Speelveld raakt, en zo ja, zorgt dat de sprite al naar gelang naar links, rechts, boven of beneden draait.
+Het `keer om aan de rand`{:class="block3motion"} blok controleert of de sprite de rand van het Speelveld raakt, en zo ja, zorgt dat de sprite al naar gelang naar links, rechts, boven of beneden draait.
 
 \--- /collapse \---
 
