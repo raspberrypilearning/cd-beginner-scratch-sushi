@@ -12,7 +12,7 @@ Zoals je vast al geraden hebt, heb je de **Gebeurtenissen** en **Beweging** blok
     wanneer [spatiebalk v] is ingedrukt
 ```
 
-Klik op de kleine pijl (▼) naast `spatie`. Je ziet nu een lijst met alle toetsen waaruit je kunt kiezen. \--- /task \---
+Klik op de kleine pijl (▼) naast `spatiebalk`. Je ziet nu een lijst met alle toetsen waaruit je kunt kiezen. \--- /task \---
 
 Je hebt vier van de `wanneer toets is ingedrukt`{:class="block3events"} blokken nodig - één voor elk van je pijltjestoetsen.
 
@@ -88,7 +88,7 @@ Dat is best wel simpel! Het midden van het speelveld is `(0, 0)` in `(x, y)` co�
 
 Je hebt alleen een **Gebeurtenissen** blok nodig voor de groene vlag, en het **ga naar** blok uit **Beweging**.
 
-\--- task \--- Sleep een `wanneer groene vlag is ingedrukt`{:class="block3events"}, **Gebeurtenis** blok naar het huidige sprite paneel.
+\--- task \--- Sleep een `wanneer op groene vlag wordt geklikt`{:class="block3events"}, **Gebeurtenis** blok naar het huidige sprite paneel.
 
 ```blocks3
     wanneer op de groene vlag wordt geklikt
