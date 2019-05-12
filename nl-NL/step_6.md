@@ -30,13 +30,13 @@ Het `richt naar graden`{:class="block3motion"} blok laat je de richting bepalen 
 
 ```blocks3
     wanneer [pijltje links v] is ingedrukt
-+   ga naar (-90) graden
++   richt naar (-90) graden
 neem (10) stappen
 ```
 
 ```blocks3
     wanneer [pijltje rechts v] is ingedrukt
-+   ga naar (90) graden
++   richt naar (90) graden
 neem (10) stappen
 ```
 
@@ -44,7 +44,7 @@ neem (10) stappen
 
 \--- task \--- Verander het aantal stappen in de `beweging`{:class="block3motion"} blokken van `-10` tot `10`.
 
-Als je de haai beweegt nu je de `ga naar graden`{:class="block3motion"} blokken hebt toegevoegd, zul je iets raars zien. De haai draait niet helemaal goed!
+Als je de haai beweegt nu je de `richt naar graden`{:class="block3motion"} blokken hebt toegevoegd, zul je iets raars zien. De haai draait niet helemaal goed!
 
 ![Ondersteboven haai](images/spritesUpsideDown.png)
 
