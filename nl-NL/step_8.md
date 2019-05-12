@@ -31,7 +31,7 @@ Het `als...dan`{:class="block3control"} **Besturen** blok heeft een `Waar/Niet w
 **Waarnemen** blokken verzamelen informatie, zoals waar de sprite is, wat hij aanraakt, etc. Je gebruikt dit blok:
 
 ```blocks3
-    <toets [ v] ingedrukt?>&lt;touching [Sprite1 v] ?&gt;
+    <touching [Sprite1 v] ?>
 ```
 
 Door de puntige hoeken van dit blok, weet je dat het je een `Waar/Niet waar` waarde zal geven dat het `als...dan`{:class="block3control"} blok nodig heeft.
@@ -40,14 +40,14 @@ Door de puntige hoeken van dit blok, weet je dat het je een `Waar/Niet waar` waa
 
 Uiteraard heb je net een `als...dan`{:class="block3control"} blok toegevoegd zonder iets voor het 'dan' gedeelte te zetten. Dus nu controleert je code of de vis de haai aanraakt, maar gebeurt er verder helemaal niets.
 
-Je kunt de vis laten verdwijnen, alsof de haai hem heeft opgegeten, door het `verdwijn`{:class="blocks3looks"} blok te gebruiken.
+Je kunt de vis laten verdwijnen, alsof de haai hem heeft opgegeten, door het `verdwijn`{:class="block3looks"} blok te gebruiken.
 
 \--- task \--- Zoek het `verdwijn`{:class="block3looks"} blok in **Uiterlijken** en zet het in het `als...dan` blok{:class="block3control"} blok:
 
 ```blocks3
     als <touching [Sprite1 v] ?> dan
 + verdwijn
-einden
+einde
 ```
 
 \--- /task \---
@@ -65,7 +65,7 @@ herhaal
 
 \--- /task \---
 
-Dat is al beter, maar je wil niet dat de speler het spel moet herstarten zodra er een vis is gevangen!
+Dat is al beter, maar je wilt niet dat de speler het spel moet herstarten zodra er een vis is gevangen!
 
 \--- task \--- Werk je code bij in het `als...dan`{:class="block3control"} blok om het er zo uit te laten zien:
 
