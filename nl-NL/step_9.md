@@ -31,7 +31,7 @@ Nu moet de variabele elke keer bijgewerkt worden als de haai een vis pakt, en op
 ### Code voor de haai
 
 ```blocks3
-    wanneer op de groene vlag wordt gedrukt
+    wanneer op groene vlag wordt gedrukt
 + maak [score v] [0]
 maak draaistijl [links-rechts v]
 ga naar x: (0) y: (0)
