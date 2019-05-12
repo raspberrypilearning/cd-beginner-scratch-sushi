@@ -4,10 +4,10 @@ Oké, hoog tijd om de vis zelfstandig te laten zwemmen. Hiervoor heb je een nieu
 
 \--- task \--- Selecteer je vis sprite.
 
-Sleep een `wanneer op de groene vlag wordt geklikt`{:class="block3events"} **Gebeurtenissen** blok, een `herhaal`{:class="block3control"} **Besturen** blok en een `neem 10 stappen`{:class="block3motion"} **Beweging** blok naar het **sprite paneel**:
+Sleep een `wanneer op groene vlag wordt geklikt`{:class="block3events"} **Gebeurtenissen** blok, een `herhaal`{:class="block3control"} **Besturen** blok en een `neem 10 stappen`{:class="block3motion"} **Beweging** blok naar het **sprite paneel**:
 
 ```blocks3
-    wanneer op de groene vlag wordt geklikt
+    wanneer op groene vlag wordt geklikt
 herhaal
 neem (10) stappen
 einde
@@ -38,7 +38,7 @@ Eerst moet je de vis langzamer laten gaan. Dat is vrij simpel, je moet een pauze
 \--- task \--- Voeg het `wacht`{:class="block3control"} blok toe aan je code binnen het `herhaal`{:class="block3control"} blok, en verander het getal naar `0.5`:
 
 ```blocks3
-    wanneer op de groene vlag wordt geklikt
+    wanneer op groene vlag wordt geklikt
 herhaal
 neem (10) stappen
 + wacht (0.5) sec
@@ -74,7 +74,7 @@ Natuurlijk betekent dit dat je vis ondersteboven gaat zwemmen, dus heb je weer e
 \--- task \--- Werk je code bij door de draaistijl van de vis `links-rechts`{:class="block3motion"} aan het begin van de sprite code toe te voegen:
 
 ```blocks3
-    wanneer op de groene vlag wordt geklikt
+    wanneer op groene vlag wordt geklikt
 + maak draaistijl [links-rechts v]
 herhaal
 neem (10) stappen
@@ -92,7 +92,7 @@ Je weet van een vorige stap al hoe je een sprite kunt laten draaien, dus daar be
 \--- task \--- Voeg een draai toe aan de zweminstructies van de vis, en klik op de groene vlag.
 
 ```blocks3
-    wanneer op de groene vlag wordt geklikt
+    wanneer op groene vlag wordt geklikt
 maak draaistijl [links-rechts v]
 herhaal
 neem (10) stappen
@@ -113,7 +113,7 @@ Al beter, maar nog steeds te voorspelbaar. Het moet willekeuriger worden. Gelukk
 **Functies** nemen één of meer waarden (zoals getallen, tekst, of `Waar/Niet waar` waarden) en geven daar een enkele waarde voor terug. Je kunt zien wat voor waarde het terug zal geven door de vorm van het blok: afgeronde blokken geven getallen of tekst, puntige blokken geven `Waar/Niet waar`.
 
 ```blocks3
-    (() + 9))
+    (() + ())
 
 (voeg [hallo ] en [wereld] samen)
 
@@ -125,7 +125,7 @@ Al beter, maar nog steeds te voorspelbaar. Het moet willekeuriger worden. Gelukk
 \--- task \--- Zoek het `willekeurig getal tussen`{:class=block3operators"] **Functies** blok, en stop het in het `draai graden`{:class="block3motion"} **Beweging** blok door erop te klikken en het in het getalvakje van de graden te slepen.
 
 ```blocks3
-    wanneer op de groene vlag wordt gedrukt
+    wanneer op groene vlag wordt gedrukt
 maak draaistijl [links-rechts v]
 herhaal
 neem (10) stappen
