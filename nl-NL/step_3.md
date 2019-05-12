@@ -41,9 +41,9 @@ De codeblokken die zijn aangesloten op dit blok wordt uitgevoerd nadat op de **g
 Codeblokken lopen van boven naar beneden, dus de volgorde waarin je de blokken samenvoegt, is van belang. In dit voorbeeld zal de sprite `Hallo!` `zeggen`{:class="block3looks"} voordat het het `meow` geluid `afspeelt`{:class="block3sound"}.
 
 ```blocks3
-    wanneer op de groene vlag wordt geklikt
+    wanneer op groene vlag wordt geklikt
   zeg [Hallo]
-  speel geluid [meow v] af
+  start geluid [meow v]
 ```
 
 \--- /collapse \---
