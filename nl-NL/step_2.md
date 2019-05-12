@@ -74,7 +74,7 @@ Tijd om te gaan programmeren!
 Kies de **Gebeurtenissen** categorie in het code blokken palet, klik op het `wanneer op groene vlag wordt geklikt`{:class="block3events"} blok, en sleep het naar het huidige sprite paneel.
 
 ```blocks3
-    wanneer op de groene vlag wordt geklikt
+    wanneer op groene vlag wordt geklikt
 ```
 
 \--- /task \---
