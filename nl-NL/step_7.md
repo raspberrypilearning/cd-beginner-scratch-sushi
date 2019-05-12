@@ -152,7 +152,7 @@ Het herhaalblok laat de vis vier dingen in deze volgorde doen:
 3. Wacht even
 4. Controleer of het aan de rand van het Speelveld is
 
-Zodra de sprite gecontroleerd heeft, zal het, zolang je het Scratch programma uitvoert, weer teruggaan naar het begin van de loop en bewegen, draaien, wachten, controleren.
+Zodra de sprite de controle gedaan heeft, zal het, zolang je het Scratch programma uitvoert, weer teruggaan naar het begin van de lus en bewegen, draaien, wachten, controleren.
 
 \--- /collapse \---
 
