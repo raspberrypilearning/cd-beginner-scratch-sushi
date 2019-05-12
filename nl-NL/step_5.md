@@ -16,7 +16,7 @@ Klik op de kleine pijl (▼) naast `spatiebalk`. Je ziet nu een lijst met alle t
 
 Je hebt vier van de `wanneer toets is ingedrukt`{:class="block3events"} blokken nodig - één voor elk van je pijltjestoetsen.
 
-\--- task \--- Om je haai te laten bewegen, verbindt je deze blokken op de volgende manier aan de **beweging** blokken:
+\--- task \--- Om je haai te laten bewegen, verbind je deze blokken op de volgende manier aan de **beweging** blokken:
 
 ```blocks3
     wanneer [pijltje links v] is ingedrukt
