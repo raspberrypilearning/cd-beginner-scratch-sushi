@@ -64,7 +64,7 @@ Als je nu op de pijltjestoetsen klikt, beweegt je haai over het hele speelveld!
 
 ## title: Hoe werken x- en y-coördinaten?
 
-Als we het hebben over de positie van dingen, zoals sprites, dan gebruiken we vaak x- en y-coördinaten. De **x-as** van het Speelveld coördinaten systeem loopt van **links naar rechts**, en de **y-as** van **beneden naar boven**.
+Als we het hebben over de positie van dingen, zoals sprites, dan gebruiken we vaak x- en y-coördinaten. De **x-as** van het Speelveld-coördinatensysteem loopt van **links naar rechts**, en de **y-as** van **beneden naar boven**.
 
 ![](images/moving3.png)
 
@@ -91,7 +91,7 @@ Je hebt alleen een **Gebeurtenissen** blok nodig voor de groene vlag, en het **g
 \--- task \--- Sleep een `wanneer op groene vlag wordt geklikt`{:class="block3events"}, **Gebeurtenis** blok naar het huidige sprite paneel.
 
 ```blocks3
-    wanneer op de groene vlag wordt geklikt
+    wanneer op groene vlag wordt geklikt
 ```
 
 Zoek dan het `ga naar`{:class="block3motion"} **beweging** blok en zet het vast aan je vlag **Gebeurtenissen** blok.
