@@ -2,12 +2,14 @@
 
 Oké, hoog tijd om de vis zelfstandig te laten zwemmen. Hiervoor heb je een nieuw soort blok nodig: een **Besturen** blok.
 
---- task --- Selecteer je vis sprite.
+--- task --- 
 
-Sleep een `wanneer op de groene vlag wordt geklikt`{:class="block3events"} **Gebeurtenissen** blok, een `herhaal`{:class="block3motion"} **Besturen** blok en een `neem 10 stappen`{:class="block3motion"} **Beweging** blok naar het **sprite paneel**:
+Selecteer je vis sprite.
+
+Sleep een `wanneer op groene vlag wordt geklikt`{:class="block3events"} **Gebeurtenissen** blok, een `herhaal`{:class="block3control"} **Besturen** blok en een `neem 10 stappen`{:class="block3motion"} **Beweging** blok naar het **sprite paneel**:
 
 ```blocks3
-    wanneer op de groene vlag wordt geklikt :: events hat
+    wanneer op groene vlag wordt geklikt
 herhaal
 neem (10) stappen
 einde
@@ -26,34 +28,40 @@ Hier herhaalt de vis alles wat in het `herhaal`{:class="block3control"} blok sta
 
 --- /collapse ---
 
---- task --- Klik nu op de groene vlag en kijk wat er gebeurt! --- /task ---
+--- task --- 
+
+Klik nu op de groene vlag en kijk wat er gebeurt! 
+
+--- /task ---
 
 Tjonge, die vis botste tegen de zijkant van het Speelveld en ging véél te snel voor je haai.
 
 Eerst moet je de vis langzamer laten gaan. Dat is vrij simpel, je moet een pauze inlassen als de vis 10 stappen genomen heeft. Er is een **Besturen** blok dat je hierbij helpt:
 
 ```blocks3
-    wacht (1) sec. :: control
+    wacht (1) sec
 ```
 
---- task --- Voeg het `wacht`{:class="block3control"} blok toe aan je code binnen het `herhaal`{:class="block3control"} blok, en verander het getal naar `0.5`:
+--- task --- 
+
+Voeg het `wacht`{:class="block3control"} blok toe aan je code binnen het `herhaal`{:class="block3control"} blok, en verander het getal naar `0.5`:
 
 ```blocks3
-    wanneer op de groene vlag wordt geklikt :: events hat
+    wanneer op groene vlag wordt geklikt
 herhaal
 neem (10) stappen
-+ wacht (0.5) sec. :: control
++ wacht (0.5) sec
 einde
 ```
 
---- /task ---
+-- /task ---
 
 --- collapse ---
 ---
 title: Aanpassingen maken
 ---
 
-Het getal dat je ingevoerd hebt in het `wacht`{:class="block3control"} blok verteld hoeveel **seconden** jij wilt dat de vis moet wachten. `0.5` is een halve seconde.
+Het getal dat je ingevoerd hebt in het `wacht`{:class="block3control"} blok vertelt hoeveel **seconden** jij wilt dat de vis moet wachten. `0.5` is een halve seconde.
 
 Je kunt verschillende getallen invoeren om uit te zoeken wat het beste bij het spel past. En onthoud dat je het aantal stappen binnen het `neem stappen`{:class="block3motion"} blok ook kunt veranderen!
 
@@ -61,27 +69,33 @@ Je kunt verschillende getallen invoeren om uit te zoeken wat het beste bij het s
 
 De vis beweegt nu, maar je wilt ook dat hij omdraait aan de rand van het Speelveld. Ook hier is een **Beweging** blok voor!
 
---- task --- Zoek het `keer om aan de rand`{:class="block3motion"} blok en zet het onder het `wacht`{:class="block3control"} blok. --- /task ---
+--- task --- 
+
+Zoek het `keer om aan de rand`{:class="block3motion"} blok en zet het onder het `wacht`{:class="block3control"} blok. 
+
+--- /task ---
 
 --- collapse ---
 ---
 title: Wat doet dit nieuwe blok?
 ---
 
-Het `keer om aan de rand` blok controleert of de sprite de rand van het Speelveld raakt, en zo ja, zorgt dat de sprite al naar gelang naar links, rechts, boven of beneden draait.
+Het `keer om aan de rand`{:class="block3motion"} blok controleert of de sprite de rand van het Speelveld raakt, en zo ja, zorgt dat de sprite al naar gelang naar links, rechts, boven of beneden draait.
 
 --- /collapse ---
 
 Natuurlijk betekent dit dat je vis ondersteboven gaat zwemmen, dus heb je weer een `maak draaistijl`{:class="block3motion"} nodig.
 
---- task --- Werk je code bij door de draaistijl van de vis `links-rechts`{:class="block3motion"} aan het begin van de sprite code toe te voegen:
+--- task --- 
+
+Werk je code bij door de draaistijl van de vis `links-rechts`{:class="block3motion"} aan het begin van de sprite code toe te voegen:
 
 ```blocks3
-    wanneer op de groene vlag wordt geklikt :: events hat
+    wanneer op groene vlag wordt geklikt
 + maak draaistijl [links-rechts v]
 herhaal
 neem (10) stappen
-wacht (0.5) sec. :: control
+wacht (0.5) sec
 keer om aan de rand
 einde
 ```
@@ -92,15 +106,17 @@ De vis beweegt nu vooruit en achteruit, maar alleen in een rechte lijn - de spel
 
 Je weet van een vorige stap al hoe je een sprite kunt laten draaien, dus daar begin je mee.
 
---- task --- Voeg een draai toe aan de zweminstructies van de vis, en klik op de groene vlag.
+--- task --- 
+
+Voeg een draai toe aan de zweminstructies van de vis, en klik op de groene vlag.
 
 ```blocks3
-    wanneer op de groene vlag wordt geklikt :: events hat
+    wanneer op groene vlag wordt geklikt
 maak draaistijl [links-rechts v]
 herhaal
 neem (10) stappen
-+ draai (10) graden naar rechts
-wacht (0.5) sec.
++ draai cw (10) graden
+wacht (0.5) sec
 keer om aan de rand
 einde
 ```
@@ -126,15 +142,17 @@ title: Wat is een functie?
 
 --- /collapse ---
 
---- task --- Zoek het `willekeurig getal tussen`{:class=block3operators"] **Functies** blok, en stop het in het `draai graden`{:class="block3motion"} **Beweging** blok door erop te klikken en het in het getalvakje van de graden te slepen.
+--- task --- 
+
+Zoek het `willekeurig getal tussen`{:class=block3operators"] **Functies** blok, en stop het in het `draai graden`{:class="block3motion"} **Beweging** blok door erop te klikken en het in het getalvakje van de graden te slepen.
 
 ```blocks3
-    wanneer op de groene vlag wordt geklikt :: events hat
+    wanneer op groene vlag wordt gedrukt
 maak draaistijl [links-rechts v]
 herhaal
 neem (10) stappen
-+ draai (willekeurig getal tussen (1) en (10) :: operators) graden naar rechts
-wacht (0.5) sec. :: control
++ draai cw (willekeurig getal tussen (1) en (10)) graden
+wacht (0.5) sec
 keer om aan de rand
 einde
 ```
@@ -143,7 +161,11 @@ einde
 
 **Let op**: je kan het laagste en hoogste getal veranderen dat gekozen moet worden, maar de standaard waarden (`1` en `10`) zijn zeer geschikt voor dit spel, dus je mag ze ook laten staan.
 
---- task --- Klik op de groene vlag om de code uit te voeren! --- /task ---
+--- task --- 
+
+Klik op de groene vlag om de code uit te voeren! 
+
+--- /task ---
 
 --- collapse ---
 ---
@@ -157,7 +179,7 @@ Het herhaalblok laat de vis vier dingen in deze volgorde doen:
 3. Wacht even
 4. Controleer of het aan de rand van het Speelveld is
 
-Zodra de sprite gecontroleerd heeft, zal het, zolang je het Scratch programma uitvoert, weer teruggaan naar het begin van de loop en bewegen, draaien, wachten, controleren.
+Zodra de sprite de controle gedaan heeft, zal het, zolang je het Scratch programma uitvoert, weer teruggaan naar het begin van de lus en bewegen, draaien, wachten, controleren.
 
 --- /collapse ---
 
