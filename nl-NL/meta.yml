@@ -1,6 +1,6 @@
 ---
 title: Beginner Scratch Sushi kaarten
-hero_image: images/banner.png
+hero_image: afbeeldingen/banner.png
 description: Maak een leuk spel in je eerste Scratch-programma!
 theme: orange
 duration: 2
@@ -16,10 +16,10 @@ version: 3
 last_tested: 2017-01-01
 steps:
   - title: Inleiding
-  - title: Beginnen
+  - title: Opstarten
   - title: Toevoegen en verwijderen van codeblokken
-  - title: Het instellen van de scène
-  - title: Dingen verplaatsen
+  - title: Het opzetten van de scene
+  - title: Beweeg dingen in het rond
   - title: Alle sprites
   - title: Vis op afstand bestuurbaar
   - title: Vissen!

@@ -4,7 +4,9 @@ Om bij te houden hoeveel vissen de speler vangt, moet je iets hebben om de score
 
 Ten eerste: de scoren opslaan!
 
---- task --- Ga naar de **Variabelen** blokken categorie en klik op **Maak een variabele**.
+--- task --- 
+
+Ga naar de **Variabelen** blokken categorie en klik op **Maak een variabele**.
 
 ![](images/catch5.png)
 
@@ -14,7 +16,9 @@ Type `score` als de naam.
 
 Bekijk je nieuwe variabele!
 
-![De Score variabele wordt weergegeven in het speelveld](images/scoreVariableStage.png) --- /task ---
+![De Score variabele wordt weergegeven in het speelveld](images/scoreVariableStage.png) 
+
+--- /task ---
 
 --- collapse ---
 ---
@@ -27,12 +31,14 @@ Als je informatie wilt opslaan in een programma, dan gebruik je iets dat **varia
 
 Nu moet de variabele elke keer bijgewerkt worden als de haai een vis pakt, en opnieuw beginnen als het spel wordt herstart. Beide zijn vrij simpel om te doen:
 
---- task --- Pak uit de **Variabelen** categorie de `maak [mijn variabele v] [0]`{:class="block3variables"} en `verander [mijn variabele v] met [1]`{:class="block3variables"} blokken. Klik op de kleine pijltjes in de blokken, kies `score` uit de lijst, en zet de blokken in je programma:
+--- task --- 
+
+Pak uit de **Variabelen** categorie de `maak [mijn variabele v] [0]`{:class="block3variables"} en `verander [mijn variabele v] met [1]`{:class="block3variables"} blokken. Klik op de kleine pijltjes in de blokken, kies `score` uit de lijst, en zet de blokken in je programma:
 
 ### Code voor de haai
 
 ```blocks3
-    wanneer op de groene vlag wordt gedrukt :: events hat
+    wanneer op groene vlag wordt gedrukt
 + maak [score v] [0]
 maak draaistijl [links-rechts v]
 ga naar x: (0) y: (0)
@@ -44,7 +50,7 @@ ga naar x: (0) y: (0)
     als <touching [Sprite1 v] ?> dan
 + verander [score v] met [1]
 verdwijn
-wacht (1) sec.
+wacht (1) sec
 ga naar x: (willekeurig getal tussen (-240) en (240)) y: (willekeurig getal tussen (-180) en (180))
 verschijn
 einde
