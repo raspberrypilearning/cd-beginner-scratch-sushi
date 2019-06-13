@@ -31,7 +31,7 @@ Het `als...dan`{:class="block3control"} **Besturen** blok heeft een `Waar/Niet w
 **Waarnemen** blokken verzamelen informatie, zoals waar de sprite is, wat hij aanraakt, etc. Je gebruikt dit blok:
 
 ```blocks3
-    <touching [Sprite1 v] ?>
+    <raak ik [Sprite1 v]>
 ```
 
 Door de puntige hoeken van dit blok, weet je dat het je een `Waar/Niet waar` waarde zal geven dat het `als...dan`{:class="block3control"} blok nodig heeft.
