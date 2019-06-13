@@ -40,7 +40,7 @@ ga naar x: (0) y: (0)
 ### Code voor de vis
 
 ```blocks3
-    als <touching [Sprite1 v] ?> dan
+    als <raak ik [Sprite1 v]> dan
 + verander [score v] met [1]
 verdwijn
 wacht (1) sec
