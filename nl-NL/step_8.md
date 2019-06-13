@@ -45,7 +45,7 @@ Je kunt de vis laten verdwijnen, alsof de haai hem heeft opgegeten, door het `ve
 \--- task \--- Zoek het `verdwijn`{:class="block3looks"} blok in **Uiterlijken** en zet het in het `als...dan` blok{:class="block3control"} blok:
 
 ```blocks3
-    als <touching [Sprite1 v] ?> dan
+    als <raak ik [Sprite1 v]> dan
 + verdwijn
 einde
 ```
