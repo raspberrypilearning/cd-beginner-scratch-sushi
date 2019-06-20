@@ -54,7 +54,7 @@ neem (10) stappen
 einde
 ```
 
--- /task ---
+--- /task ---
 
 --- collapse ---
 ---
