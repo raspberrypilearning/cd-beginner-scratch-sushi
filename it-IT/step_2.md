@@ -33,45 +33,45 @@ Qualsiasi elemento che puoi aggiungere sullo stage è uno **sprite**.
 Uno sprite include:
 
 * L' **immagine** sullo stage
-* Any extra **costumes** \(looks\) it has
-* Any **sounds** associated with it
-* Any **code blocks** associated with it ![](images/setup2.png)
+* Ogni **costume in più** \ (sembra \) avere
+* Qualsiasi **suoni** associato ad esso
+* Qualsiasi **blocchi di codice** associati ad esso ![](images/setup2.png)
 
 \--- /collapse \---
 
-### The code blocks palette
+### La tavolozza dei blocchi di codice
 
-![Scratch window with the blocks pallet highlighted](images/hlBlocksPalette.png)
+![Finestra di scratch con il pannello dei blocchi evidenziato](images/hlBlocksPalette.png)
 
 ## \--- collapse \---
 
-## title: Code blocks
+## title: blocchi di codice
 
-Code in Scratch comes in the form of blocks that you connect to make programs. You choose blocks from the **code blocks palette**, drag them into the **current sprite panel**, and then connect them to each other.
+Il codice in Scratch si presenta sotto forma di blocchi che si connettono per creare programmi. Potete scegliere i blocchi dalla tavolozza dei </strong>blocchi di codice **, trascinarli nel **pannello sprite corrente**e quindi collegarli tra loro.</p> 
 
-There are ten categories of blocks. They are colour-coded, and you can choose between them by clicking on the items in the list at the top of the **code blocks palette**.
+Esistono dieci categorie di blocchi. Sono codificati a colori e puoi scegliere tra questi facendo clic sugli elementi nell'elenco in cima alla tavolozza dei blocchi di codice ****.
 
 \--- /collapse \---
 
-### The current sprite panel
+### Il pannello dello sprite corrente
 
-![Scratch window with the current sprite panel highlighted](images/hlCurrentSpritePanel.png)
+![Finestra Scratch con il pannello dello sprite corrente evidenziato](images/hlCurrentSpritePanel.png)
 
 ## \--- collapse \---
 
-## title: What is the current sprite?
+## title: qual è lo sprite corrente?
 
-The **current sprite** is the one that's selected in the **sprite list**.
+Lo **sprite corrente** è quello selezionato nella **lista sprite**.
 
-The **current sprite panel** is where you can see the code, costumes, and sounds for the selected sprite.
+Il pannello **dello sprite corrente** è dove puoi vedere il codice, i costumi e i suoni per lo sprite selezionato.
 
 \--- /collapse \---
 
-Time to get coding!
+È tempo di coding!
 
-\--- task \--- In the sprite list, click on the Scratch Cat. The cat is now the current sprite.
+\--- task \--- Nell'elenco degli sprite, fare clic su Scratch Cat. Il gatto è ora lo sprite attuale.
 
-Choose the **Events** category in the code blocks palette, click the `when flag clicked`{:class="block3events"} block, and drag it into the current sprite panel.
+Scegli la categoria **Eventi** nella palette dei blocchi di codice, fai clic sul `quando il flag fa clic sul blocco`{: class = "block3events"} e trascinalo nel pannello dello sprite corrente.
 
 ```blocks3
     when green flag clicked
@@ -79,7 +79,7 @@ Choose the **Events** category in the code blocks palette, click the `when flag 
 
 \--- /task \---
 
-\--- task \--- Then go to **Looks** in the code blocks palette and find this block:
+\--- task \--- Quindi scegli **Aspetto** nella tavolozza dei blocchi di codice e cerca questo blocco:
 
 ```blocks3
     say [Hello!] for (2) secs
