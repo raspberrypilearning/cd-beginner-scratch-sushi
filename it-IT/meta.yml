@@ -16,7 +16,7 @@ version: 4.0.0
 last_tested: 2017-01-01
 steps:
   - 
-    title: Introduction
+    title: Introduzione
   - 
     title: Prepararsi
   - 
@@ -30,9 +30,9 @@ steps:
   - 
     title: Pesce telecomandato
   - 
-    title: Fishing!
+    title: A pesca!
   - 
-    title: Keeping score
+    title: Tenere il punteggio
   - 
     title: "Sfida: vincere la partita"
     challenge: true
