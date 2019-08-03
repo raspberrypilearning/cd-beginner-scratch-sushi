@@ -1,38 +1,38 @@
-## Getting set up
+## Prepararsi
 
-Once you open Scratch, you’ll see a window like the one below.
+Una volta aperto Scratch, vedrai una finestra come quella qui sotto.
 
-\--- task \--- Look for each of the following areas and remember where they are. \--- /task \---
+\--- task \--- Cerca ognuna delle seguenti aree e ricorda dove si trovano. \--- /task \---
 
-### The Stage
+### Lo Stage
 
-![Scratch window with the stage highlighted](images/hlStage.png)
+![Finestra Scratch con il palco evidenziato](images/hlStage.png)
 
 ## \--- collapse \---
 
-## title: What is the Stage?
+## title: qual è il palcoscenico?
 
-This is where your Scratch programs run. It has:
+Qui è dove vengono eseguiti i tuoi programmi Scratch. Esso ha:
 
-* One or more **backgrounds** \(images on the background of the screen\)
+* Uno o più **sfondi** \ (immagini sullo sfondo dello schermo \)
 
-* Any **code blocks** associated with it \(we’ll get to this\)
+* Qualsiasi **blocchi di codice** associati ad esso \ (ci arriveremo a questo \)
 
 \--- /collapse \---
 
-### The sprite list
+### La lista degli sprite
 
-![Scratch window with the sprite list highlighted](images/hlSpriteList.png)
+![Finestra di Scratch con l'elenco degli sprite evidenziato](images/hlSpriteList.png)
 
 ## \--- collapse \---
 
-## title: What is a sprite?
+## title: Cos'è uno sprite?
 
-Any item you can add on the Stage is a **sprite**.
+Qualsiasi elemento che puoi aggiungere sullo stage è uno **sprite**.
 
-A sprite includes:
+Uno sprite include:
 
-* The **image** on the Stage
+* L' **immagine** sullo stage
 * Any extra **costumes** \(looks\) it has
 * Any **sounds** associated with it
 * Any **code blocks** associated with it ![](images/setup2.png)
