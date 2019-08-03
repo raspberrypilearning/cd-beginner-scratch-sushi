@@ -1,51 +1,51 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/cd-beginner-scratch-sushi-scratch2).
+Questa è la versione **Scratch 3** del progetto. C'è anche una versione [Scratch 2 del progetto](https://projects.raspberrypi.org/en/projects/cd-beginner-scratch-sushi-scratch2).
 
 \--- /no-print \---
 
-## Introduction
+## Introduzione
 
-These Sushi Cards are going to help you learn to create computer programs in Scratch!
+Queste Sushi Cards ti aiuteranno a imparare a creare programmi per computer in Scratch!
 
-### What you will make
+### Cosa creerai
 
-You will make a game where you move a shark around to try and catch fish.
+Farai un gioco in cui muovi uno squalo per cercare di catturare il pesce.
 
-Here's an example of how your finished game might look:
+Ecco un esempio di come potrebbe apparire il tuo gioco finito:
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/205355052/?autostart=false" frameborder="0"></iframe>
 </div>
 
-Press the green flag to start the game. Use the arrow keys to move the shark around and catch the fish.
+Premi la bandiera verde per iniziare il gioco. Usa i tasti freccia per spostare lo squalo e catturare il pesce.
 
 ## \--- collapse \---
 
-## title: What you will learn
+## title: Cosa imparerai
 
-+ Adding and deleting code blocks
-+ Basic motion: move in steps, and turn by degrees
-+ Using keyboard controls
-+ Using (x, y) coordinates to position sprites
-+ Changing the look of the Stage and of sprites with costumes and show/hide commands
-+ Having multiple sprites on screen
-+ Using `forever`{:class="block3control"} loops
-+ Detecting when sprites are touching
++ Aggiunta ed eliminazione di blocchi di codice
++ Movimento base: muovi a passi e ruota per gradi
++ Utilizzo dei controlli da tastiera
++ Usare le coordinate (x, y) per posizionare gli sprite
++ Cambiare l'aspetto dello stage e degli sprite con i costumi e mostrare/nascondere i comandi
++ Avere più sprite sullo schermo
++ Usando i cicli `per forever`{: class = "block3control"}
++ Rilevare quando gli sprite si toccano
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: Di cosa avrai bisogno
 
-You’re going to need **Scratch**, so do one of the following:
+Avrai bisogno di **Scratch**, quindi esegui una delle seguenti azioni:
 
-+ Download Scratch and install it on your computer by going to [dojo.soy/downloadscratch](http://dojo.soy/downloadscratch)
-+ Use Scratch in your web browser by going to [dojo.soy/usescratch](http://dojo.soy/usescratch)
++ Scarica Scratch e installalo sul tuo computer andando su [dojo.soy/downloadscratch](http://dojo.soy/downloadscratch)
++ Usa Scratch nel tuo browser andando su [dojo.soy/usescratch](http://dojo.soy/usescratch)
 
-Once you’re set up, you can move on to the next step!
+Quando sei pronto, puoi passare al prossimo punto!
 
 \--- /collapse \---
 
-![Tracking pixel](http://code.org/api/hour/begin_coderdojo_sushi.png)
+![Tracciamento dei pixel](http://code.org/api/hour/begin_coderdojo_sushi.png)
