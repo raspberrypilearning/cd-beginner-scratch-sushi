@@ -82,15 +82,15 @@ Scegli la categoria **Eventi** nella palette dei blocchi di codice, fai clic sul
 \--- task \--- Quindi scegli **Aspetto** nella tavolozza dei blocchi di codice e cerca questo blocco:
 
 ```blocks3
-    say [Hello!] for (2) secs
+    dire [Ciao!] per (2) secondi
 ```
 
-Click on it, hold down the mouse button, and then just drag it into the current sprite panel and let go of the button.
+Cliccalo, tienilo premuto con il pulsante destro del mouse, trascinalo nel pannello Sprite corrente e rilascia il pulsante.
 
 \--- /task \---
 
-\--- task \--- Now that the second block is in the current sprite panel, connect it to the bottom of the first block by clicking and dragging it again to move it below the other block until they snap together, like this:
+\--- task \--- Ora che il secondo blocco si trova nel pannello sprite corrente, collegalo alla parte inferiore del primo blocco cliccando e trascinando di nuovo per spostarlo sotto l'altro blocco fino a quando non si agganciano insieme, in questo modo:
 
 ![](images/setup3.png) \--- /task \---
 
-\--- task \--- Now click the **Start Program** button and watch what happens! \--- /task \---
+\--- task \--- Ora fai clic sul pulsante **Avvia programma** e guarda cosa succede! \--- /task \---
