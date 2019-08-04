@@ -1,4 +1,4 @@
-## Fishing!
+## A pesca!
 
 Lo squalo si muove, il pesce nuota, ma non interagiscon: se il pesce nuota direttamente nella bocca dello squalo, non succede nulla. È ora di cambiarlo!
 
@@ -87,10 +87,10 @@ end
 
 ## title: Come funziona?
 
-You are being clever here: when the fish is hidden, it waits, moves, and then shows up again.
+Devi stare attento qui: quando il pesce è nascosto, aspetta, si muove e poi si mostra di nuovo.
 
-It looks like lots of fish keep appearing, but it’s that one sprite moving around!
+Sembra che molti pesci continuino ad apparire, ma è uno solo lo sprite che si muove!
 
 \--- /collapse \---
 
-That’s a game! But there’s no way to keep score yet, or to win. You can fix that too — on the next card!
+Questo è un gioco! Ma non c'è modo di tenere traccia del punteggio ancora, o di vincere. Puoi sistemarlo tu - con la prossima scheda!
