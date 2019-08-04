@@ -33,32 +33,32 @@ Se vuoi vedere cosa fa un blocco, puoi fare doppio clic su di esso per farlo fun
 Di solito, vuoi che il tuo codice venga eseguito automaticamente ogni volta che accade qualcosa di specifico. Questo è il motivo per cui molti dei tuoi programmi inizieranno con un blocco della categoria **Situazioni**, quasi sempre questo:
 
 ```blocks3
-    when green flag clicked
+    quando si clicca sulla bandiera verde
 ```
 
-The code blocks connected to this block will run after the **green flag** is clicked.
+I blocchi di codice connessi a questo blocco verranno eseguiti dopo che si è fatto clic sulla **bandiera verde**.
 
-Code blocks run from top to bottom, so the order in which you snap your blocks together matters. In this example, the sprite will `say`{:class="block3looks"} `Hello!` before it will `play`{:class="block3sound"} the `meow` sound.
+I blocchi di codice vengono eseguiti dall'alto verso il basso, quindi l'ordine in cui si agganciano i blocchi è importante. In questo esempio, lo sprite `dirà`{: class = "block3looks"} `Hello!` prima di riprodurre ``{: class = "block3sound"} il suono di `meow`.
 
 ```blocks3
     when green flag clicked
-    say [Hello]
-    play sound [meow v]
+say [Hello]
+play sound [meow v]
 ```
 
 \--- /collapse \---
 
-Removing or deleting code blocks you don’t want in your program is easy! Just drag them back into the code blocks palette.
+Rimuovere o eliminare blocchi di codice che non vuoi nel tuo programma è facile! Basta trascinarli di nuovo nella tavolozza dei blocchi di codice.
 
-**Be careful:** dragging them into the code blocks pallette will delete all the blocks connected to the block you drag, so make sure to separate code blocks you want to keep from those you want to remove. If you delete some code blocks by accident and want to get them back, right-click and then click on the **undo** option to get everything back.
+**Fai attenzione:** trascinandoli sopra la tavolozza, tutti i blocchi collegati al blocco che trascini verranno cancellati, quindi assicurati di separare i blocchi di codice che vuoi tenere da quelli che vuoi rimuovere. Se si eliminano alcuni blocchi di codice per errore e si desidera ripristinarli, fare clic con il pulsante destro del mouse e quindi fare clic sull'opzione **annulla** per recuperare tutto.
 
 ![](images/code6.png)
 
-\--- task \--- Try adding, deleting, and undeleting some code blocks! \--- /task \---
+\--- task \--- Prova ad aggiungere, eliminare e annullare l'eliminazione di alcuni blocchi di codice! \--- /task \---
 
-### Putting it all together
+### Mettere tutto insieme
 
-Now you know how to move code around and make things happen, it's time for you to create a program to make the Scratch Cat walk in a circle!
+Ora sai come spostare il codice e fare in modo che le cose accadano, è il momento per te di creare un programma per far sì che Scratch Cat faccia il girotondo!
 
 \--- task \--- Make sure you have the cat sprite selected in the sprite list, and then drag the following blocks into the sprite panel and connect them. You’ll find them in the **Events** and **Motion** lists.
 
