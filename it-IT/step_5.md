@@ -74,24 +74,24 @@ Uno sprite può essere individuato dalle coordinate del suo centro, ad esempio `
 
 ![](images/xycoords.png)
 
-+ Try different pairs of values to see where the sprite goes! In Scratch, the x-axis goes from `-240` to `240`, and the y-axis goes from `-180` to `180`.
++ Prova diverse coppie di valori per vedere dove si sposta lo sprite! In Scratch, l'asse x va da `-240` a `240` e l'asse y da `-180` a `180`.
 
-\--- /collapse \---
+\--- / chiudi \---
 
-### Restarting the game
+### Riavvio del gioco
 
-The shark moves all over the screen now, but imagine this is a game: how do you restart it, and what happens at the start of each game?
+Lo squalo si muove su tutto lo schermo ora, ma immagina che questo sia un gioco: come lo riavvii e cosa succede all'inizio di ogni partita?
 
-You need to get the shark to its original location when the player starts the game. They'll start this game by clicking on the green flag, so you need to change the shark sprite's x- and y-coordinates when that happens.
+Devi portare lo squalo nella sua posizione originale quando il giocatore inizia la partita. Avvieranno questo gioco facendo clic sulla bandiera verde, quindi è necessario modificare le coordinate x e y dello sprite squalo quando ciò accade.
 
-That’s actually pretty easy! The centre of the stage is `(0, 0)` in `(x, y)` coordinates.
+Questo è in realtà piuttosto facile! Il centro dello stage è `(0, 0)` in coordinate `(x, y)`.
 
-So all you need is an **Event** block for that green flag, and the **go to** block from **Motion**.
+Quindi tutto ciò che serve è un blocco **Situazioni** per la bandiera verde, e un blocco **vai a** da **Movimento**.
 
-\--- task \--- Drag a `when green flag clicked`{:class="block3events"} **Event** block onto the current sprite panel.
+\--- task \--- Trascina un `quando si clicca sulla bandiera verde`{: class = "block3events"} **dall'elenco Situazioni** sul pannello dello sprite corrente.
 
 ```blocks3
-    when green flag clicked
+    quando si clicca sulla bandiera verde
 ```
 
 Then find the `go to`{:class="block3motion"} **Motion** block, and attach it to your flag **Event** block.
