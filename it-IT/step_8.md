@@ -1,32 +1,33 @@
 ## Fishing!
 
-The shark moves, the fish swims, but they don’t interact: if the fish swims right into the shark's mouth, nothing happens. Time to change that!
+Lo squalo si muove, il pesce nuota, ma non interagiscon: se il pesce nuota direttamente nella bocca dello squalo, non succede nulla. È ora di cambiarlo!
 
-First, you need to know if the fish is touching the shark. For this, you'll need a **Control** block and a **Sensing** block.
+Per prima cosa, devi verificare se il pesce sta toccando lo squalo. Per questo, avrai bisogno di un blocco **Controllo** e un blocco **Sensori**.
 
-\--- task \--- Add the `if...then`{:class="block3control"} **Control** block inside the `forever`{:class="block3control"} loop of the fish sprite, below the `if on edge bounce`{:class="block3motion"} block.
+\--- task \--- Aggiungi il blocco **Controllo** `se... allora`{:class="block3control"} all'interno del ciclo `per sempre`{:class="block3control"} dello sprite del pesce, sotto il blocco `rimbalza quando tocchi il bordo`{:class="block3motion"}.
 
-Drag the `touching...`{:class="block3sensing"} block into the space at the top of the `if...then`{:class="block3control"} block, and click the little triangle to select the shark sprite's name. If you haven’t changed it, it'll be 'Sprite1'.
+Trascina il blocco `sto toccando...`{:class="block3sensing"} dentro lo spazio nella parte superiore del blocco `se... allora`{:class="block3control"}, quindi fai clic sul piccolo triangolo per selezionare il nome dello sprite dello squalo. Se non lo hai cambiato, sarà "Sprite1".
 
 ```blocks3
-    when green flag clicked
-    set rotation style [left-right v]
-    forever 
-        move (10) steps
-        turn cw (pick random (1) to (10)) degrees
-        wait (0.5) secs
-        if on edge, bounce
-+        if <touching [Sprite1 v] ?> then
-    end
+    quando si clicca sulla bandiera verde
+usa stile rotazione [left-right v]
+per sempre 
+  fai (10) passi
+  ruota in senso orario di (numero a caso tra (1) e (10)) gradi
+  attendi (0.5) secondi
+  rimbalza quando tocchi il bordo
+  + se <touching [Sprite1 v] ?> allora
+  + end
+end
 ```
 
 \--- /task \---
 
 ## \--- collapse \---
 
-## title: How does it work?
+## title: Come funziona?
 
-The `if...then`{:class="block3control"} **Control** block needs to be given a `True/False` value.
+Il blocco **Controllo** `se... allora`{:class="block3control"} ha bisonog di ricevere un valore `True/False`.
 
 **Sensing** blocks collect information, like where the sprite is, what it’s touching, etc. You're using this block:
 
