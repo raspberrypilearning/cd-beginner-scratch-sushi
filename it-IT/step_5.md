@@ -1,4 +1,4 @@
-## Moving things around
+## Spostare le cose
 
 In questo momento il tuo squalo si muove in circolo, e sarebbe molto più divertente controllarlo con i tasti freccia. Con questa scheda, imparerai come farlo!
 
@@ -58,7 +58,7 @@ Ora il tuo squalo si muove avanti e indietro, il che è abbastanza bello, ma non
 
 \--- /task \---
 
-Ora quando premi i tasti freccia, lo squalo si muove per tutto il palco!
+Ora quando premi i tasti freccia, lo squalo si muove per tutta la scena!
 
 ## \--- collapse \---
 
@@ -94,15 +94,15 @@ Quindi tutto ciò che serve è un blocco **Situazioni** per la bandiera verde, e
     quando si clicca sulla bandiera verde
 ```
 
-Then find the `go to`{:class="block3motion"} **Motion** block, and attach it to your flag **Event** block.
+Quindi trova il `vai a`{: class = "block3motion"} **dall'elenco Movimento** e collegalo al tuo blocco bandiera preso da **Situazioni**.
 
 ```blocks3
-    when green flag clicked
-+     go to x: (0) y: (0)
+    quando si clicca sulla bandiera verde
++ vai a x: (0) y: (0)
 ```
 
-Set the both the `x` and the `y` coordinate to `0` in the `go to`{:class="block3motion"} block if they are not already `0`.
+Imposta la coordinata `x` e `y` al valore `0` nel blocco `vai a`{: class = "block3motion"} se già non valgono `0`.
 
 \--- /task \---
 
-\--- task \--- Now click the green flag: you should see the shark return to the centre of the stage! \--- /task \---
+\--- task \--- Ora fai clic sulla bandiera verde: dovresti vedere lo squalo tornare al centro della scena! \--- /task \---
