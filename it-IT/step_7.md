@@ -53,53 +53,53 @@ end
 
 Il numero impostato nel blocco `aspetta`{:class="block3control"} indica quanti **secondi** vuoi che il pesce attenda. `0,5` è mezzo secondo.
 
-Puoi provare diversi valori per vedere qual è il migliore per il gioco. And remember that you can change the number of steps inside the `move`{:class="block3motion"} block too!
+Puoi provare diversi valori per vedere qual è il migliore per il gioco. E ricorda che puoi modificare anche il numero di passi all'interno del blocco `fai`{:class="block3motion"}!
 
 \--- /collapse \---
 
-The fish moves now, but you need it to bounce off the edge of the Stage too. Yet again, there’s a **Motion** block for this!
+Il pesce si sposta ora, ma è necessario che rimbalzi anche sul bordo della scena. Ancora una volta, c'è un blocco **Movimento** per questo!
 
-\--- task \--- Find the `if on edge bounce`{:class="block3motion"} block, and add it in after the `wait`{:class="block3control"} block. \--- /task \---
+\--- task \--- Trova il blocco `rimbalza quando tocchi il bordo`{:class="block3motion"} e aggiungilo dopo il blocco `attendi`{:class="block3control"}. \--- /task \---
 
 ## \--- collapse \---
 
-## title: What does the new block do?
+## title: Cosa fa il nuovo blocco?
 
-The `if on edge bounce`{:class="block3motion"} block checks if the sprite is touching the edge of the Stage and, if it is, it turns left, right, up, or down as appropriate.
+Il blocco `rimbalza quando tocchi il bordo`{:class="block3motion"} controlla se lo sprite sta toccando il bordo della scena e, se succede, gira a sinistra, a destra, in alto o in basso a seconda dei casi.
 
 \--- /collapse \---
 
-Of course, this will lead to an upside-down fish, so you need a `set rotation style`{:class="block3motion"} block again.
+Ovviamente, questo porterà a un pesce capovolto, quindi è necessario un blocco `usa stile di rotazione`{:class="block3motion"} di nuovo.
 
-\--- task \--- Update your code to set the rotation style of the fish to `left-right`{:class="block3motion"} at the beginning of the sprite's script:
+\--- task \--- Aggiorna il tuo codice per impostare lo stile di rotazione del fish su `sinistra-destra`{:class="block3motion"} all'inizio dello script dello sprite:
 
 ```blocks3
-    when green flag clicked
-+    set rotation style [left-right v]
-    forever
-        move (10) steps
-        wait (0.5) secs
-        if on edge, bounce
-    end
+    quando si clicca sulla bandiera verde
++ usa stile rotazione [left-right v]
+per sempre 
+  fai (10) passi
+  attendi (0.5) secondi
+  rimbalza quando tocchi il bordo
+end
 ```
 
 \--- /task \---
 
-The fish moves backwards and forwards now, but only in a straight line — a bit too easy for the player to catch with the shark! You need to make the fish less predictable.
+Il pesce si muove avanti e indietro ora, ma solo in linea retta - catturarlo è un po' troppo facile per il giocatore squalo! Devi rendere il pesce meno prevedibile.
 
-You already know from a previous step how to make a sprite turn, so start there.
+Sai già, da una fase precedente, come fare in modo che lo sprite curvi, quindi inizia da lì.
 
-\--- task \--- Add a turn into the fish's swimming instructions, and click the green flag.
+\--- task \--- Aggiungi un ruota alle istruzioni di nuoto del pesce e clicca sulla bandiera verde.
 
 ```blocks3
-    when green flag clicked
-    set rotation style [left-right v]
-    forever
-        move (10) steps
-+        turn cw (10) degrees
-        wait (0.5) secs
-        if on edge, bounce
-    end
+    quando si clicca sulla bandiera verde
+usa stile rotazione [left-right v]
+per sempre 
+  fai (10) passi
+  + ruota in senso orario di (10) gradi
+  attendi (0.5) secondi
+  rimbalza quando tocchi il bordo
+end
 ```
 
 \--- /task \---
