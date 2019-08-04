@@ -1,15 +1,15 @@
 ## Moving things around
 
-Right now your shark moves in a circle, and it would be much more fun to control it with the arrow keys. On this card, you’re going learn how to do that!
+In questo momento il tuo squalo si muove in circolo, e sarebbe molto più divertente controllarlo con i tasti freccia. Con questa scheda, imparerai come farlo!
 
-\--- task \--- Start by deleting all code that you have for the shark. \--- /task \---
+\--- task \--- Inizia cancellando tutto il codice che hai per lo squalo. \--- /task \---
 
-As you’ve probably guessed, you’re going to need **Event** and **Motion** blocks again!
+Come probabilmente hai intuito, avrai di nuovo bisogno di **blocchi Situazioni** e **Movimento**!
 
-\--- task \--- This time, look for this block and drag it into the current sprite panel:
+\--- task \--- Questa volta, cerca questo blocco e trascinalo nel pannello dello sprite corrente:
 
 ```blocks3
-    when [space v] key pressed
+    quando si preme il tasto [space v]
 ```
 
 Click the little arrow (▼) beside `space`. You will see a list of all your keyboard keys that you can pick from. \--- /task \---
