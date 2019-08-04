@@ -1,22 +1,22 @@
-## All the sprites
+## Tutti gli sprite
 
-Now you have a shark that you can move around using the arrow keys. Nice! Time to add some fish for it to catch.
+Ora hai uno squalo che puoi muovere usando i tasti freccia. Bello! È ora di aggiungere del pesce da prendere.
 
 \--- task \---
 
-Click the **New sprite** button, and on the screen that opens, choose a fish.
+Fai clic sul pulsante **Scegli uno sprite** e, dalla schermata che apparirà, scegli un pesce.
 
-![The New sprite button](images/spritesNewFromLibrary.png)
+![Il pulsante Scegli uno sprite](images/spritesNewFromLibrary.png)
 
-If your fish is a bit big compared to your shark, you can use the size control to make both sprites the right size!
+Se il tuo pesce è un po' grande rispetto al tuo squalo, puoi usare il controllo delle dimensioni per rendere entrambi gli sprite della giusta misura!
 
-![Sprite size control](images/sprites2.png)
+![Controllo delle dimensioni dello sprite](images/sprites2.png)
 
-Change the number in the size control to make the spirte bigger or smaller.
+Modificare il numero nel controllo della dimensione per rendere lo sprite più grande o più piccolo.
 
 \--- /task \---
 
-Great! Later, you're going to add some code to make the fish move around on its own, without help from the player. Your player will move the shark and try to catch the fish.
+Grande! Successivamente, aggiungerai del codice per far muovere il pesce da solo, senza l'intervento del giocatore. Il tuo giocatore muoverà lo squalo e cercherà di catturare il pesce.
 
 ## \--- collapse \---
 
