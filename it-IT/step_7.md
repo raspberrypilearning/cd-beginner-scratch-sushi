@@ -19,41 +19,41 @@ end
 
 ## title: Cosa fa il nuovo blocco?
 
-**Control** blocks make your program do things a certain number of times, or under certain conditions.
+I blocchi **controllo** fanno in modo che il programma esegua le operazioni un certo numero di volte o in determinate condizioni.
 
-Here, the fish does whatever is inside the `forever`{:class="block3control"} block over and over again on a loop, forever. So once it has done the last thing (block) inside the `forever`{:class="block3control"} block, it starts over at the top and does everything again, and so on.
+Qui, il pesce fa tutto ciò che si trova all'interno del blocco `per sempre`{:class="block3control"} all'infinito in modo ciclioco, per sempre. Quindi, una volta eseguita l'ultima cosa (blocco) all'interno del blocco `per sempre`{:class="block3control"}, ricomincia da capo e fa di nuovo tutto, e così via.
 
 \--- /collapse \---
 
-\--- task \--- Now click the green flag and watch what happens! \--- /task \---
+\--- task \--- Ora clicca sulla bandiera verde e guarda cosa succede! \--- /task \---
 
-Well, that fish just crashed into the side of the Stage, and it was moving far too fast for your shark to catch.
+Bene, quel pesce si è schiantato sul lato della scena e si stava muovendo troppo velocemente perché il tuo squalo lo potesse catturare.
 
-First, you need to slow the fish down. That’s actually pretty easy, you just need it to wait for a little while after it moves those 10 steps. There’s a **Control** block that will help you here:
+Per prima cosa, devi rallentare il pesce. In realtà è piuttosto semplice, ti basta solo aspettare un po' dopo averlo spostato di quei 10 passi. C'è un blocco **Controllo** che ti aiuterà in questo:
 
 ```blocks3
-    wait (1) secs
+    attendi (1) secondi
 ```
 
-\--- task \--- Add the `wait`{:class="block3control"} block into your code inside the `forever`{:class="block3control"} block, and change the number to `0.5`, like this:
+\--- task \--- Aggiungi il blocco `attendi`{:class="block3control"} nel codice all'interno del blocco `per sempre`{:class="block3control"}, e modifica il numero a `0,5`, in questo modo:
 
 ```blocks3
-    when green flag clicked
-    forever
-        move (10) steps
-+      wait (0.5) secs
-    end
+    quando si clicca sulla bandiera verde
+per sempre 
+  fai (10) passi
+  + attendi (0.5) secondi
+end
 ```
 
 \--- /task \---
 
 ## \--- collapse \---
 
-## title: Making adjustments
+## title: Apportare modifiche
 
-The number you set in the `wait`{:class="block3control"} block says how many **seconds** you want the fish to wait. `0.5` is half a second.
+Il numero impostato nel blocco `aspetta`{:class="block3control"} indica quanti **secondi** vuoi che il pesce attenda. `0,5` è mezzo secondo.
 
-You can test out different values to see which is the best for the game. And remember that you can change the number of steps inside the `move`{:class="block3motion"} block too!
+Puoi provare diversi valori per vedere qual è il migliore per il gioco. And remember that you can change the number of steps inside the `move`{:class="block3motion"} block too!
 
 \--- /collapse \---
 
