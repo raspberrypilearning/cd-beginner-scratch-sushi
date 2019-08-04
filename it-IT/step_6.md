@@ -54,20 +54,20 @@ Se provi a muovere lo squalo ora dopo aver aggiunto il blocco `punta in direzion
 
 ## title: Perché va sottosopra?
 
-The problem here is that the shark sprite started, as all sprites do, with the 'all around' **rotation style**, and what you need it to have is the 'left-right' style.
+Il problema qui è che lo sprite squalo è, come tutti gli sprite, creato con lo **stile di rotazione** 'può ruotare', mentre quello che ti serve è lo stile 'sinistra-destra'.
 
-As usual, there’s a block for that, and it’s in **Motion**!
+Come al solito, c'è un blocco per questo, ed è in **Movimento**!
 
 \--- /collapse \---
 
-\--- task \--- Look in the **Motion** category for the block `set rotation style`{:class="block3motion"}.
+\--- task \--- Cerca nella categoria **Movimento** il blocco `usa stile rotazione`{:class="block3motion"}.
 
-Add the block to your shark reset code from earlier, and set the rotation style to `left-right`{:class="block3motion"}, like this:
+Aggiungi il blocco al tuo codice di ripristino dello squali, creato poco fa, e imposta lo stile di rotazione su `sinistra-destra`{:class="block3motion"}, in questo modo:
 
 ```blocks3
-    when green flag clicked
-+     set rotation style [left-right v]
-    go to x: (0) y: (0)
+    quando si clicca sulla bandiera verde
++ usa stile rotazione [left-right v]
+vai a x: (0) y: (0)
 ```
 
 \--- /task \---
