@@ -27,64 +27,65 @@ end
 
 ## title: Come funziona?
 
-Il blocco **Controllo** `se... allora`{:class="block3control"} ha bisonog di ricevere un valore `True/False`.
+Il blocco **Controllo** `se... allora`{:class="block3control"} deve ricevere un valore `True/False`.
 
-**Sensing** blocks collect information, like where the sprite is, what it’s touching, etc. You're using this block:
+I blocchi **Sensori** raccolgono informazioni, come per esempio dove si trova lo sprite, che cosa sta toccando, ecc. Stai usando questo blocco:
 
 ```blocks3
     <touching [Sprite1 v] ?>
 ```
 
-From this block's pointy ends, you can tell it’s going to give you the `True/False` value that the `if...then`{:class="block3control"} block needs.
+Dall'aspetto a punta delle estremità di questo blocco, puoi capire subito che ti restituirà il valore `Vero/Falso` di cui ha bisogno il blocco `se... allora`{:class="block3control"}.
 
 \--- /collapse \---
 
-Of course, you’ve just added an `if...then`{:class="block3control"} block without adding anything for the 'then' part. So at the moment your script is checking whether the fish sprite is touching the shark sprite, but it's not making anything happen in response.
+Naturalmente, hai appena aggiunto un blocco `se... allora`{:class="block3control"} senza aggiungere nulla per la parte "allora". Quindi al momento il tuo codice sta controllando se lo sprite pesce sta toccando lo sprite squalo, ma non sta fa accadere nulla in risposta.
 
-You can make the fish disappear, as if the shark ate it, by using the `hide`{:class="block3looks"} block.
+Puoi far sparire il pesce, come se lo squalo lo mangiasse, usando il blocco `nascondi`{:class="block3looks"}.
 
-\--- task \--- Find the `hide`{:class="block3looks"} block in the **Looks** list, and put it inside the `if...then`{:class="block3control"} block, like so:
+\--- task \--- Cerca il blocco `nascondi`{: class = "block3looks"} nell'elenco **Aspetto** e inseriscilo all'interno del blocco `se... allora`{:class="block3control"}, in questo modo:
 
 ```blocks3
-    if <touching [Sprite1 v] ?> then
-+        hide
-    end
+    se <touching [Sprite1 v] ?> allora 
+  + nascondi
+end
 ```
 
 \--- /task \---
 
-Now once the shark catches the fish, the fish disappears for good. That’s not great.
+Ora, una volta che lo squalo cattura il pesce, il pesce scompare per sempre. Non è grandioso.
 
-\--- task \--- Put the `show`{:class="block3looks"} block from **Looks** in at the very start of the fish code, so you can reset the game.
+\--- task \--- Metti il blocco `mostra`{:class="block3looks"} da **Aspetto** all'inizio del codice fish, in modo da poter resettare il gioco.
 
 ```blocks3
-    when green flag clicked
-+    show
-    set rotation style [left-right v]
-    forever
+    quando si clicca sulla bandiera verde
++ mostra
+usa stile rotazione [left-right v]
+per sempre
+end
 ```
 
 \--- /task \---
 
-That's already better, but you don’t want the player to have to restart the game every time they catch a single fish!
+È già meglio, ma non vuoi che il giocatore debba riavviare il gioco ogni volta che cattura un solo pesce!
 
-\--- task \--- Update the code inside your `if...then`{:class="block3control"} block to look like this:
+\--- task \--- Aggiorna il codice all'interno del tuo blocco `se... allora`{:class="block3control"} in questo modo:
 
 ```blocks3
-    if on edge, bounce
-    if <touching [Sprite1 v] ?> then
-        hide
-+        wait (1) secs
-+        go to x: (pick random (-240) to (240)) y: (pick random (-180) to (180))
-+        show
-    end
+    rimbalza quando tocchi il bordo
+se <touching [Sprite1 v] ?> allora 
+  nascondi
+  + attendi (1) secondi
+  + vai a x: (numero a caso tra (-240) e (240)) y: (numero a caso tra (-180) e (180))
+  + mostra
+end
 ```
 
 \--- /task \---
 
 ## \--- collapse \---
 
-## title: How does this work?
+## title: Come funziona?
 
 You are being clever here: when the fish is hidden, it waits, moves, and then shows up again.
 
