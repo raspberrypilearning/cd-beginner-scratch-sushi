@@ -1,4 +1,4 @@
-## Keeping score
+## Tenere il punteggio
 
 Per tenere il conto del numero di pesci catturati dal giocatore, avrai bisogno di un posto in cui memorizzare il punteggio, un modo per aggiungerlo e uno per reimpostarlo quando il gioco viene riavviato.
 
@@ -20,7 +20,7 @@ Controlla la tua nuova variabile!
 
 ## title: Cosa sono le variabili?
 
-Quando vuoi memorizzare le informazioni in un programma, usi una cosa chiamata **variabile**. Think of it like a box with a label on it: you can put something in it, check what’s in it, and change what’s in it. Troverai le variabili nella sezione **Variabili**, ma devi prima crearle per farle apparire lì!
+Quando vuoi memorizzare le informazioni in un programma, usi una cosa chiamata **variabile**. Pensala come una scatola con un'etichetta su di essa: puoi mettere qualcosa dentro, controllare cosa c'è dentro e cambiare ciò che contiene. Troverai le variabili nella sezione **Variabili**, ma devi prima crearle per farle apparire lì!
 
 \--- /collapse \---
 
@@ -40,15 +40,15 @@ vai a x: (0) y: (0)
 ### Codice per il pesce
 
 ```blocks3
-    if <touching [Sprite1 v] ?> then
-+        change [score v] by [1]
-        hide
-        wait (1) secs
-        go to x: (pick random (-240) to (240)) y: (pick random (-180) to (180))
-        show
-    end
+    se <touching [Sprite1 v] ?> allora 
+  + cambia [score v] di [1]
+  nascondi
+  attendi (1) secondi
+  vai a x: (numero a caso tra (-240) e (240)) y: (numero a caso tra (-180) e (180))
+  mostra
+end
 ```
 
 \--- /task \---
 
-Cool! Now you’ve got a score and everything.
+Mitico! Ora hai un punteggio e tutto il resto.
