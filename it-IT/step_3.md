@@ -1,36 +1,36 @@
-## Adding and removing code blocks
+## Aggiunta e rimozione di blocchi di codice
 
-Great! You’ve written your very first Scratch program. Time to learn a little more about getting code in and out of Scratch! Scratch code is made up of **blocks** such as these:
+Grande! You’ve written your very first Scratch program. È ora di imparare un po' di più su come portare il codice dentro e fuori da Scratch! Il codice di Scratch è composto da **blocchi** come questi:
 
 ![](images/code1.png)
 
-You will find all blocks in the **code blocks palette**, sorted into different categories according to what they do.
+Troverai tutti i blocchi nella **tavolozza dei blocchi di codice**, ordinati in diverse categorie in base a ciò che fanno.
 
 ## \--- collapse \---
 
-## title: Using blocks from the different categories
+## title: Usare i blocchi delle diverse categorie
 
-Click on a category name to see the blocks in that category. Here, the **Motion** category is selected:
+Clicca sul nome di una categoria per vedere i blocchi in quella categoria. Qui è selezionata la categoria **Movimento**:
 
 ![](images/code2a.png)
 
-All of the blocks in the category you've clicked are shown in a list:
+Tutti i blocchi nella categoria che hai cliccato sono elencati:
 
 ![](images/code2b.png)
 
-You can click on the blcok you want, and then just drag it into the current sprite panel and let go. Once it's in the panel, you can move it around and connect it to other blocks.
+Puoi cliccare sul blocco che vuoi, trascinarlo nel pannello dello sprite corrente e rilasciarlo. Quando è nel pannello, puoi spostarlo e collegarlo ad altri blocchi.
 
 \--- /collapse \---
 
-If you want to see what a block does, you can double-click on it to make it run!
+Se vuoi vedere cosa fa un blocco, puoi fare doppio clic su di esso per farlo funzionare!
 
-\--- task \--- Try double-clicking on some of the blocks to see what they do. \--- /task \---
+\--- task \--- Prova a fare doppio clic su alcuni dei blocchi per vedere cosa fanno. \--- /task \---
 
 ## \--- collapse \---
 
-## title: Running the code
+## title: Eseguire il codice
 
-Usually, you want your code to run automatically whenever something specific happens. This is why many of your programs will start with a block from the **Events** category, most often this one:
+Di solito, vuoi che il tuo codice venga eseguito automaticamente ogni volta che accade qualcosa di specifico. Questo è il motivo per cui molti dei tuoi programmi inizieranno con un blocco della categoria **Situazioni**, quasi sempre questo:
 
 ```blocks3
     when green flag clicked
