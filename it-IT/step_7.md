@@ -1,23 +1,23 @@
-## Remote-control fish
+## Pesce telecomandato
 
-Ok, now it's time to make the fish swim on its own. To do this, you’re going to need a new kind of block: a **Control** block.
+Ok, ora è il momento di far nuotare i pesci da soli. Per fare ciò, avrai bisogno di un nuovo tipo di blocco: un blocco **Controllo**.
 
-\--- task \--- Select your fish sprite.
+\--- task \--- Seleziona il tuo sprite pesce.
 
-Drag a `when green flag clicked`{:class="block3events"} **Event** block, a `forever`{:class="block3control"} **Control** block, and a `move 10 steps`{:class="block3motion"} **Motion** block into the **sprite panel**, like this:
+Trascina un blocco **Situazioni** `quando si clicca sulla bandiera verde`{:class="block3events"}, un blocco **Controllo** `per sempre`{:class="block3control"} e un blocco **Movimento** `fai 10 passi`{:class=" block3motion "} nel **pannello sprite**, in questo modo:
 
 ```blocks3
-    when green flag clicked
-    forever
-        move (10) steps
-    end
+    quando si clicca sulla bandiera verde
+per sempre 
+  fai (10) passi
+end
 ```
 
 \--- /task \---
 
 ## \--- collapse \---
 
-## title: What does the new block do?
+## title: Cosa fa il nuovo blocco?
 
 **Control** blocks make your program do things a certain number of times, or under certain conditions.
 
