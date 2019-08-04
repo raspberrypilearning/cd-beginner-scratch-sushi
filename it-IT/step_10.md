@@ -1,3 +1,3 @@
-## Challenge: winning the game
+## Sfida: vincere la partita
 
-Pick a score at which the player wins, and make something cool happen when they have that many points. Maybe the shark congratulates them, or a 'You win!' sprite appears, or music plays!
+Scegli un punteggio al quale il giocatore vince e fai accadere qualcosa di bello quando raggiunge quel punteggio. Magari lo squalo si congratula con loro, o fai apparire uno sprite "Vinci!" o esegui una musica!
