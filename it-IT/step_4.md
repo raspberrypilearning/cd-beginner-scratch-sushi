@@ -1,10 +1,10 @@
 ## Setting the scene
 
-Scratch has a library of backgrounds and sprites for you to use to make your project look awesome.
+Scratch ha una libreria di sfondi e sprite da usare per rendere il tuo progetto fantastico.
 
-\--- task \--- Select the Stage.
+\--- task \--- Seleziona lo stage.
 
-![Selecting the stage](images/looksSelectStage.png)
+![Selezione dello stage](images/looksSelectStage.png)
 
 Click on **Backdrops**.
 
