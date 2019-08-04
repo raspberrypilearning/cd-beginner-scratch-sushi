@@ -20,39 +20,39 @@ Grande! Successivamente, aggiungerai del codice per far muovere il pesce da solo
 
 ## \--- collapse \---
 
-## title: What about the backwards shark?
+## title: che dire dello squalo in retromarcia?
 
-It does look a little funny to have that shark swimming backwards. Just like you’d usually turn around rather than walking backwards, the shark would turn around rather than swimming backwards. Luckily for you, Scratch has a block for this!
+Sembra un po' strano avere lo squalo che nuota all'indietro. Proprio come faresti tu girandoti piuttosto che camminando all'indietro, lo squalo si dovrebbe girerebbe invece che nuotare all'indietro. Fortunatamente per te, Scratch ha un blocco per questo!
 
-The `point in direction`{:class="block3motion"} block lets you pick the direction your sprite is pointing in. You’ll find it in the **Motion** blocks section. You can type in any number of degrees, to point the sprite wherever you want. \--- /collapse \---
+Il blocco `punta in direzione`{:class="block3motion"} ti consente di scegliere la direzione verso cui punta lo sprite. Lo troverai nella sezione dei blocchi **Movimento**. Puoi digitare un numero qualsiasi di gradi, per puntare lo sprite dove vuoi. \--- /collapse \---
 
-\--- task \--- Grab a couple of copies of the `point in direction`{:class="block3motion"} block from the **Motion** list and connect them to your shark's code, like this:
+\--- task \--- Prendi un paio di copie del blocco `punta in direzione`{:class="block3motion"} dall'elenco **Movimento** e collegale al codice del tuo squalo, in questo modo:
 
 ```blocks3
-    when [left arrow v] key pressed
-+     point in direction (-90)
-    move (10) steps
+    quando si preme il tasto [left arrow v]
++ punta in direzione (-90)
+fai (10) passi
 ```
 
 ```blocks3
-    when [right arrow v] key pressed
-+     point in direction (90)
-    move (10) steps
+    quando si preme il tasto [right arrow v]
++ punta in direzione (90)
+fai (10) passi
 ```
 
 \--- /task \---
 
-\--- task \--- Change the number of steps in the `move`{:class="block3motion"} blocks from `-10` to `10`.
+\--- task \--- Modifica il numero di passaggi nel blocco `fai`{:class="block3motion"} da `-10` a `10`.
 
-If you try moving the shark around now after you've added the `point in direction`{:class="block3motion"} blocks, you might notice something a little strange happening. The shark may not be turning quite right!
+Se provi a muovere lo squalo ora dopo aver aggiunto il blocco `punta in direzione`{:class="block3motion"}, potresti notare qualcosa di strano. Lo squalo potrebbe non girare abbastanza bene!
 
-![Upside down shark](images/spritesUpsideDown.png)
+![Squalo sottosopra](images/spritesUpsideDown.png)
 
 \--- /task \---
 
 ## \--- collapse \---
 
-## title: Why does it go upside down?
+## title: Perché va sottosopra?
 
 The problem here is that the shark sprite started, as all sprites do, with the 'all around' **rotation style**, and what you need it to have is the 'left-right' style.
 
