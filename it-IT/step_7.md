@@ -104,13 +104,13 @@ end
 
 \--- /task \---
 
-It’s better, but there’s still too much of a pattern. It needs to be more random. Luckily, Scratch can do random for you! You’ll just need a new kind of block, called an **operator** block.
+È meglio, ma è ancora troppo su un tracciato. Deve essere più casuale. Fortunatamente, Scratch può creare casualità per te! Avrai solo bisogno di un nuovo tipo di blocco, chiamato blocco **operatore**.
 
 ## \--- collapse \---
 
-## title: What's an operator?
+## title: Cos'è un operatore?
 
-**Operators** take in one or more values (like numbers, text, or `True/False` values) and give back a single value. You can tell the kind of value it will give back by the shape of the block: round ends give numbers or text, pointy ends give `True/False`.
+Gli **operatori** accettano uno o più valori (come numeri, testo o valori `True/False`) e ne restituiscono uno solo. Puoi capire il tipo di valore che restituirà dalla forma del blocco: le estremità arrotondate restituiscono numeri o testo, le estremità a punta `Vero/Falso`.
 
 ```blocks3
     (() + ())
