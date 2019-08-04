@@ -12,37 +12,37 @@ Come probabilmente hai intuito, avrai di nuovo bisogno di **blocchi Situazioni**
     quando si preme il tasto [space v]
 ```
 
-Click the little arrow (▼) beside `space`. You will see a list of all your keyboard keys that you can pick from. \--- /task \---
+Fare clic sulla piccola freccia (▼) accanto alla parola `spazio`. Verrà visualizzato un elenco di tutti i tasti della tastiera tra cui è possibile scegliere. \--- /task \---
 
-You’re going to need four of the `when key pressed`{:class="block3events"} blocks — one for each of your arrow keys.
+Avrai bisogno di quattro blocchi `quando si preme il tasto`{: class = "block3events"} - uno per ciascuno dei tasti freccia.
 
-\--- task \--- To make your shark move, connect these blocks to **Motion** blocks like this:
+\--- task \--- Per far muovere il tuo squalo, collega questi altri blocchi al blocco **Movimento** come qui sotto illlustrato:
 
 ```blocks3
-    when [left arrow v] key pressed
-    move (-10) steps
+    quando si preme il tasto [left arrow v]
+fai (-10) passi
 ```
 
 ```blocks3
-    when [right arrow v] key pressed
-    move (10) steps
+    quando si preme il tasto [right arrow v]
+fai (10) passi
 ```
 
 ```blocks3
-    when [up arrow v] key pressed
+    quando si preme il tasto [up arrow v]
 ```
 
 ```blocks3
-    when [down arrow v] key pressed
+    quando si preme il tasto [down arrow v]
 ```
 
 \--- /task \---
 
-**Note**: `-10` means 'go back 10 steps'.
+**Nota**: `-10` significa 'indietro 10 passi'.
 
-\--- task \--- Now click the green flag to test out your code. \--- /task \---
+\--- task \--- Ora fai clic sulla bandiera verde per testare il tuo codice. \--- /task \---
 
-Now your shark moves back and forwards, which is pretty cool, but it doesn’t move up or down. Also, if you look through the **Motion** blocks, you’ll see there are no blocks for 'up' or 'down'. There are a whole bunch of them related to **x** and **y** coordinates though — let's try those!
+Ora il tuo squalo si muove avanti e indietro, il che è abbastanza bello, ma non si muove su o giù. Inoltre, se guardi attraverso i blocchi **Movimento**, vedrai che non ci sono blocchi per "su" o "giù". There are a whole bunch of them related to **x** and **y** coordinates though — let's try those!
 
 \--- task \--- Grab two `change y by`{:class="block3motion"} blocks, and update your code like this:
 
