@@ -1,6 +1,6 @@
 ## Aggiunta e rimozione di blocchi di codice
 
-Grande! You’ve written your very first Scratch program. È ora di imparare un po' di più su come portare il codice dentro e fuori da Scratch! Il codice di Scratch è composto da **blocchi** come questi:
+Grande! Hai scritto il tuo primo programma Scratch. È ora di imparare un po' di più su come portare il codice dentro e fuori da Scratch! Il codice di Scratch è composto da **blocchi** come questi:
 
 ![](images/code1.png)
 
@@ -41,9 +41,9 @@ I blocchi di codice connessi a questo blocco verranno eseguiti dopo che si è fa
 I blocchi di codice vengono eseguiti dall'alto verso il basso, quindi l'ordine in cui si agganciano i blocchi è importante. In questo esempio, lo sprite `dirà`{: class = "block3looks"} `Hello!` prima di riprodurre ``{: class = "block3sound"} il suono di `meow`.
 
 ```blocks3
-    when green flag clicked
-say [Hello]
-play sound [meow v]
+    quando si clicca sulla bandiera verde
+dire [Hello]
+avvia riproduzione suono [meow v]
 ```
 
 \--- /collapse \---
@@ -60,41 +60,41 @@ Rimuovere o eliminare blocchi di codice che non vuoi nel tuo programma è facile
 
 Ora sai come spostare il codice e fare in modo che le cose accadano, è il momento per te di creare un programma per far sì che Scratch Cat faccia il girotondo!
 
-\--- task \--- Make sure you have the cat sprite selected in the sprite list, and then drag the following blocks into the sprite panel and connect them. You’ll find them in the **Events** and **Motion** lists.
+\--- task \--- Assicurati di aver selezionato il gatto sprite nell'elenco sprite, quindi trascina i blocchi seguenti nel pannello dello sprite e collegali. Li troverai negli elenchi **Situazioni** e **Movimento**.
 
 ```blocks3
-    when green flag clicked
-    move [10] steps
+    quando si clicca sulla bandiera verde
+fai [10] passi
 ```
 
 \--- /task \---
 
-\--- task \--- Now, click on the green flag above the Stage.
+\--- task \--- Ora, clicca sulla bandiera verde sopra lo stage.
 
 ![](images/code7.png) \--- /task \---
 
-You should see the cat walking in a straight line...not exactly what you want, right?
+Dovresti vedere il gatto camminare in linea retta ... non esattamente quello che vuoi, giusto?
 
-Note: If you click th flag too many times and the cat walks away, you can drag it back!
+Nota: se fai clic sulla bandiera troppe volte e il gatto si allontana, puoi trascinarlo indietro!
 
-\--- task \--- Snap the turn block to the end to make the cat sprite walk in a circle. It’s in the **Motion** list too.
+\--- task \--- Aggiungi il blocco ruota per far camminare il gatto sprite in cerchio. Anche questo è nell'elenco **Movimento**.
 
 ```blocks3
-    when green flag clicked
-    move [10] steps
-+    turn cw (15) degrees
+    quando si clicca sulla bandiera verde
+fai [10] passi
++ ruota in senso orario di (15) gradi
 ```
 
 \--- /task \---
 
 ## \--- collapse \---
 
-## title: How does turning work?
+## title: Come funziona la manovra di svolta?
 
-This block makes the sprite turn 15 degrees of the full 360 degrees that make up a circle. You can change that number, and the number of steps, by clicking on the number and typing in a new value.
+Questo blocco fa girare lo sprite di 15 gradi dei 360 gradi completi che formano un cerchio. È possibile modificare tale numero e il numero di passaggi, facendo clic sul numero e digitando un nuovo valore.
 
 ![](images/code9.png)
 
 \--- /collapse \---
 
-\--- task \--- Now save your work! \--- /task \---
+\--- task \--- Ora salva il tuo lavoro! \--- /task \---
