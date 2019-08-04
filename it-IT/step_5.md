@@ -42,35 +42,35 @@ fai (10) passi
 
 \--- task \--- Ora fai clic sulla bandiera verde per testare il tuo codice. \--- /task \---
 
-Ora il tuo squalo si muove avanti e indietro, il che è abbastanza bello, ma non si muove su o giù. Inoltre, se guardi attraverso i blocchi **Movimento**, vedrai che non ci sono blocchi per "su" o "giù". There are a whole bunch of them related to **x** and **y** coordinates though — let's try those!
+Ora il tuo squalo si muove avanti e indietro, il che è abbastanza bello, ma non si muove su o giù. Inoltre, se guardi attraverso i blocchi **Movimento**, vedrai che non ci sono blocchi per "su" o "giù". Ce ne sono molti relativi alle coordinate **x** e **y** però - proviamo con quelli!
 
-\--- task \--- Grab two `change y by`{:class="block3motion"} blocks, and update your code like this:
+\--- task \--- Prendi due blocchi `cambia y di`{: class = "block3motion"} e aggiorna il tuo codice in questo modo:
 
 ```blocks3
-    when [up arrow v] key pressed
-+     change y by (10)
+    quando si preme il tasto [up arrow v]
++ cambia y di (10)
 ```
 
 ```blocks3
-    when [down arrow v] key pressed
-+     change y by (-10)
+    quando si preme il tasto [down arrow v]
++ cambia y di (-10)
 ```
 
 \--- /task \---
 
-Now when you press the arrows keys, the shark moves all around the stage!
+Ora quando premi i tasti freccia, lo squalo si muove per tutto il palco!
 
 ## \--- collapse \---
 
-## title: How do x- and y-coordinates work?
+## title: Come funzionano le coordinate x e y?
 
-To talk about the positions of objects, such as sprites, we often use x- and y-coordinates. The **x-axis** of the Stage coordinate system runs from **left to right**, and the **y-axis** runs from **bottom to top**.
+Per parlare delle posizioni degli oggetti, come gli sprite, usiamo spesso le coordinate X e Y. L'**asse x** del sistema di coordinate va da **sinistra a destra** mentre l'**asse y** dal **basso verso l'alto**.
 
 ![](images/moving3.png)
 
-A sprite can be located by the coordinates of its centre, for example `(15, -27)`, where `15` is its position along the x-axis , and `-27` its position along the y-axis.
+Uno sprite può essere individuato dalle coordinate del suo centro, ad esempio `(15, -27)`, dove `15` è la sua posizione lungo l'asse x e `-27` la sua posizione lungo l'asse y.
 
-+ To get a feel for how this actually works, select a sprite and use the **x** and **y** controls to move it around the stage by setting different values for the coordinates.
++ Per avere un'idea di come funziona, seleziona uno sprite e usa i controlli **x** e **y** per spostarlo sullo stage impostando valori diversi per le coordinate.
 
 ![](images/xycoords.png)
 
