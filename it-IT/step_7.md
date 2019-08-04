@@ -115,45 +115,45 @@ Gli **operatori** accettano uno o più valori (come numeri, testo o valori `True
 ```blocks3
     (() + ())
 
-    (join [hello ] [world])
+    (join [hello] [world])
 
     <[] = []>
 ```
 
 \--- /collapse \---
 
-\--- task \--- Find the `pick random`{:class="block3operators"} **operator** block, and plug it into the `turn degrees`{:class="block3motion"} **Motion** block by clicking it and dragging it into the field where you set the number of degrees.
+\--- task \--- Trova il blocco **operatore** `numero a caso`{:class="block3operators"}, e collegalo al blocco **Movimento** `ruota`{:class="block3motion"} cliccandolo e trascinandolo nel punto in cui imposti il numero di gradi.
 
 ```blocks3
-    when green flag clicked
-    set rotation style [left-right v]
-    forever 
-        move (10) steps
-+        turn cw (pick random (1) to (10)) degrees
-        wait (0.5) secs
-        if on edge, bounce
-    end
+    quando si clicca sulla bandiera verde
+usa stile rotazione [left-right v]
+per sempre 
+  fai (10) passi
+  + ruota in senso orario di (numero a caso tra (1) e (10)) gradi
+  attendi (0.5) secondi
+  rimbalza quando tocchi il bordo
+end
 ```
 
 \--- /task \---
 
-**Note**: you can change the minimum and maximum numbers it will pick, but the default values (`1` and `10`) are pretty good for this game, so you can just leave them.
+**Nota**: puoi cambiare i valori minimo e massimo tra cui sceglierà, ma i valori predefiniti (`1` e `10`) sono abbastanza buoni per questo gioco, quindi puoi lasciarli così.
 
-\--- task \--- Click the green flag to run the code! \--- /task \---
+\--- task \--- Fare clic sulla bandiera verde per eseguire il codice! \--- /task \---
 
 ## \--- collapse \---
 
-## title: So what does the forever block do now?
+## title: Quindi cosa fa il blocco per sempre ora?
 
-The forever block now makes the fish sprite do four things in order:
+Il blocco per sempre ora fa in modo che lo sprite pesce faccia quattro cose in ordine:
 
-1. Move forward
-2. Turn a little bit
-3. Wait briefly
-4. Check whether it's at the edge of the Stage
+1. Andare avanti
+2. Girarsi un po '
+3. Attendere brevemente
+4. Controllare se ha raggiunto il bordo della scena
 
-Once the sprite has done the check, it will start at the beginning of the loop again and move, turn, wait, check, for as long as you let your Scratch program run.
+Una volta che lo sprite ha eseguito il controllo, inizierà di nuovo dall'inizio del ciclo e si sposterà, girerà, attenderà, verificherà, per tutto il tempo in cui il programma Scratch sarà in esecuzione.
 
 \--- /collapse \---
 
-Cool! Next up: catching that fish!
+Mitico! E adesso: catturiamo quel pesce!
