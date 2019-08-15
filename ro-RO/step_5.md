@@ -1,12 +1,12 @@
-## Moving things around
+## Mișcarea elementelor
 
-Right now your shark moves in a circle, and it would be much more fun to control it with the arrow keys. On this card, you’re going learn how to do that!
+În momentul de față, rechinul tău se mișcă în cerc și ar fi mult mai distractiv să fie controlat cu tastele săgeți. În acest card, vei învăța cum să faci asta!
 
-\--- task \--- Start by deleting all code that you have for the shark. \--- /task \---
+\--- task \--- Începe prin a șterge tot codul pe care îl ai pentru rechin. \--- /task \---
 
-As you’ve probably guessed, you’re going to need **Event** and **Motion** blocks again!
+După cum probabil ai ghicit, vei avea nevoie de blocuri **Evenimente** și **Mișcare** din nou!
 
-\--- task \--- This time, look for this block and drag it into the current sprite panel:
+\--- task \--- De data aceasta, caută acest bloc și trage-l în panoul personajului curent:
 
 ```blocks3
     when [space v] key pressed
