@@ -6,11 +6,11 @@ Acum ai un rechin pe care îl poți mișca folosind tastele săgeți. Frumos! E 
 
 Apasă pe butonul **Alege un personaj** și alege un pește în ecranul care se deschide.
 
-![The New sprite button](images/spritesNewFromLibrary.png)
+![Butonul Alege un Personaj](images/spritesNewFromLibrary.png)
 
 Dacă peștele e prea mare față de rechin poți să folosești căsuța pentru dimensiune pentru a îi face să aibă dimensiunile potrivite!
 
-![Sprite size control](images/sprites2.png)
+![Căsuța pentru dimensiune](images/sprites2.png)
 
 Modifică numărul din căsuța pentru dimensiune pentru a face personajul mai mare sau mai mic.
 
@@ -46,7 +46,7 @@ mergi (10) pași
 
 Dacă miști rechinul acum după ce ai adăugat blocul `orientează-te în direcția`{:class="block3motion"}, vei observa că se întâmpla ceva puțin ciudat. Rechinul nu se rotește cum trebuie!
 
-![Upside down shark](images/spritesUpsideDown.png)
+![Rechin cu capul în jos](images/spritesUpsideDown.png)
 
 \--- /task \---
 
@@ -65,9 +65,9 @@ Ca de obicei, există un bloc pentru asta, și este în **Mișcare**!
 Adaugă blocul la codul de resetare a rechinului și setează stilul de rotație la `stânga-dreapta`{:class="block3motion"}, astfel:
 
 ```blocks3
-    when green flag clicked
-+     set rotation style [left-right v]
-    go to x: (0) y: (0)
+    când se dă click pe stegulețul verde
++    setează stilul de rotație [stânga-dreapta v]
+mergi la x (0) y: (0)
 ```
 
 \--- /task \---
