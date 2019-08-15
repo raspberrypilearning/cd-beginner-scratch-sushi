@@ -6,7 +6,7 @@ După ce deschizi Scratch, vei vedea o fereastră ca cea de mai jos.
 
 ### Scena
 
-![Scratch window with the stage highlighted](images/hlStage.png)
+![Fereastra Scratch cu Scena evidențiată](images/hlStage.png)
 
 ## \--- collapse \---
 
@@ -22,7 +22,7 @@ Aici se execută programele Scratch. Conține:
 
 ### Lista de personaje
 
-![Scratch window with the sprite list highlighted](images/hlSpriteList.png)
+![Fereastra Scratch cu lista de personaje evidențiată](images/hlSpriteList.png)
 
 ## \--- collapse \---
 
@@ -41,7 +41,7 @@ Un personaj este compus din:
 
 ### Secțiunea cu blocuri de cod
 
-![Scratch window with the blocks pallet highlighted](images/hlBlocksPalette.png)
+![Fereastra Scratch cu secțiunea cu blocuri de cod evidențiată](images/hlBlocksPalette.png)
 
 ## \--- collapse \---
 
@@ -55,7 +55,7 @@ Sunt zece categorii de blocuri. Acestea sunt culorate diferit și pot fi alese a
 
 ### Panoul personajului curent
 
-![Scratch window with the current sprite panel highlighted](images/hlCurrentSpritePanel.png)
+![Fereastra Scratch cu panoul personajului curent evidențiată](images/hlCurrentSpritePanel.png)
 
 ## \--- collapse \---
 
@@ -82,15 +82,15 @@ Alege categoria **Evenimente** din secțiunea cu blocuri de cod, apasă pe `cân
 \--- task \--- Apoi alege **Aspect** secțiunea cu blocuri de cod și caută acest bloc:
 
 ```blocks3
-    say [Hello!] for (2) secs
+    spune [Salut!] pentru (2) secunde
 ```
 
-Click on it, hold down the mouse button, and then just drag it into the current sprite panel and let go of the button.
+Apasă pe el, ține butonul apăsat, apoi trage-l până în panoul personajului curent și dă drumul butonului.
 
 \--- /task \---
 
-\--- task \--- Now that the second block is in the current sprite panel, connect it to the bottom of the first block by clicking and dragging it again to move it below the other block until they snap together, like this:
+\--- task \--- Acum că cel de-al doilea bloc se află în panoul personajului curent, conectează-l la partea de jos a primului bloc, apăsând pe el și mutându-l sub el până când se fixează împreună, în felul acesta:
 
 ![](images/setup3.png) \--- /task \---
 
-\--- task \--- Now click the **Start Program** button and watch what happens! \--- /task \---
+\--- task \--- Acum apasă pe butonul **Mergi** și urmărește ce se întâmplă! \--- /task \---
