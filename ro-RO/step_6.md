@@ -1,50 +1,50 @@
-## All the sprites
+## Toate personajele
 
-Now you have a shark that you can move around using the arrow keys. Nice! Time to add some fish for it to catch.
+Acum ai un rechin pe care îl poți mișca folosind tastele săgeți. Frumos! E timpul să adaugi niște pești pe care să îi prindă.
 
 \--- task \---
 
-Click the **New sprite** button, and on the screen that opens, choose a fish.
+Apasă pe butonul **Alege un personaj** și alege un pește în ecranul care se deschide.
 
 ![The New sprite button](images/spritesNewFromLibrary.png)
 
-If your fish is a bit big compared to your shark, you can use the size control to make both sprites the right size!
+Dacă peștele e prea mare față de rechin poți să folosești căsuța pentru dimensiune pentru a îi face să aibă dimensiunile potrivite!
 
 ![Sprite size control](images/sprites2.png)
 
-Change the number in the size control to make the spirte bigger or smaller.
+Modifică numărul din căsuța pentru dimensiune pentru a face personajul mai mare sau mai mic.
 
 \--- /task \---
 
-Great! Later, you're going to add some code to make the fish move around on its own, without help from the player. Your player will move the shark and try to catch the fish.
+Grozav! Mai târziu, vei adăuga niște cod pentru a face peștele să se miște singur, fără ajutor din partea jucătorului. Jucătorul tău va mișca rechinul și va încerca să prindă peștele.
 
 ## \--- collapse \---
 
-## title: What about the backwards shark?
+## title: Ce se întâmplă cu rechinul când se mișcă cu spatele?
 
-It does look a little funny to have that shark swimming backwards. Just like you’d usually turn around rather than walking backwards, the shark would turn around rather than swimming backwards. Luckily for you, Scratch has a block for this!
+Arată cam puțin ciudat ca rechinul să înoate înapoi. Așa cum în mod normal te întorci înapoi in loc să mergi cu spatele, rechinul ar trebui să se întoarcă în loc să înoate cu spatele. Din fericire pentru tine, Scratch are un bloc pentru asta!
 
-The `point in direction`{:class="block3motion"} block lets you pick the direction your sprite is pointing in. You’ll find it in the **Motion** blocks section. You can type in any number of degrees, to point the sprite wherever you want. \--- /collapse \---
+Blocul `orientează-te în direcția`{:class="block3motion"} îți permite să alegi direcția în care să fie îndreptat personajul. Îl poți găsi în secțiunea de blocuri **Mișcare**. Poți introduce orice număr de grade, pentru a orienta personajul în orice direcție vrei. \--- /collapse \---
 
-\--- task \--- Grab a couple of copies of the `point in direction`{:class="block3motion"} block from the **Motion** list and connect them to your shark's code, like this:
+\--- task \--- Ia câteva blocuri `orientează-te în direcția`{:class="block3motion"} de la **Mișcare** și conectează-le la codul rechinului tău, astfel:
 
 ```blocks3
-    when [left arrow v] key pressed
-+     point in direction (-90)
-    move (10) steps
+    când tasta [săgeată stânga v] este apăsată
++    orientează-te în direcția (-90)
+mergi (10) pași
 ```
 
 ```blocks3
-    when [right arrow v] key pressed
-+     point in direction (90)
-    move (10) steps
+    când tasta [săgeată dreapta v] este apăsată
++    orientează-te în direcția (90)
+mergi (10) pași
 ```
 
 \--- /task \---
 
-\--- task \--- Change the number of steps in the `move`{:class="block3motion"} blocks from `-10` to `10`.
+\--- task \--- Modifică numărul de pași din blocul `mergi`{:class="block3motion"} de la `-10` la `10`.
 
-If you try moving the shark around now after you've added the `point in direction`{:class="block3motion"} blocks, you might notice something a little strange happening. The shark may not be turning quite right!
+Dacă miști rechinul acum după ce ai adăugat blocul `orientează-te în direcția`{:class="block3motion"}, vei observa că se întâmpla ceva puțin ciudat. Rechinul nu se rotește cum trebuie!
 
 ![Upside down shark](images/spritesUpsideDown.png)
 
@@ -52,17 +52,17 @@ If you try moving the shark around now after you've added the `point in directio
 
 ## \--- collapse \---
 
-## title: Why does it go upside down?
+## title: De ce se întoarce cu capul în jos?
 
-The problem here is that the shark sprite started, as all sprites do, with the 'all around' **rotation style**, and what you need it to have is the 'left-right' style.
+Problema este că personajul rechin a început, ca toate personajele, cu **stilul de rotație** „de jur împrejur“, iar ție îți trebuie să aibă stilul „stânga-dreapta“.
 
-As usual, there’s a block for that, and it’s in **Motion**!
+Ca de obicei, există un bloc pentru asta, și este în **Mișcare**!
 
 \--- /collapse \---
 
-\--- task \--- Look in the **Motion** category for the block `set rotation style`{:class="block3motion"}.
+\--- task \--- Caută în categoria **Mișcare** blocul `setează stilul de rotație`{:class="block3motion"}.
 
-Add the block to your shark reset code from earlier, and set the rotation style to `left-right`{:class="block3motion"}, like this:
+Adaugă blocul la codul de resetare a rechinului și setează stilul de rotație la `stânga-dreapta`{:class="block3motion"}, astfel:
 
 ```blocks3
     when green flag clicked
