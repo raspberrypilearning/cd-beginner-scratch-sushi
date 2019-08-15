@@ -37,15 +37,15 @@ Apasă pe steagul verde pentru a începe jocul. Poți folosi tastele săgeată p
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: De ce vei avea nevoie
 
-You’re going to need **Scratch**, so do one of the following:
+Vei avea nevoie de **Scratch**, așa că poți face unul aceste lucruri:
 
-+ Download Scratch and install it on your computer by going to [dojo.soy/downloadscratch](http://dojo.soy/downloadscratch)
-+ Use Scratch in your web browser by going to [dojo.soy/usescratch](http://dojo.soy/usescratch)
++ Descarcă Scratch de aici [dojo.soy/downloadscratch](http://dojo.soy/downloadscratch) și instalează-l pe calculatorul tău
++ Folosește Scratch în browser-ul tău web accesând [dojo.soy/usescratch](http://dojo.soy/usescratch)
 
-Once you’re set up, you can move on to the next step!
+După ce ai terminat, poți trece la pasul următor!
 
 \--- /collapse \---
 
-![Tracking pixel](http://code.org/api/hour/begin_coderdojo_sushi.png)
+![Urmărire de pixeli](http://code.org/api/hour/begin_coderdojo_sushi.png)
