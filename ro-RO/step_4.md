@@ -1,39 +1,39 @@
-## Setting the scene
+## Pregătirea scenei
 
-Scratch has a library of backgrounds and sprites for you to use to make your project look awesome.
+Scratch are o bibliotecă de fundaluri și personaje pe care le poți folosi pentru a-ți face proiectul să arate bine.
 
-\--- task \--- Select the Stage.
+\--- task \--- Selectează scena.
 
-![Selecting the stage](images/looksSelectStage.png)
+![Selectarea scenei](images/looksSelectStage.png)
 
-Click on **Backdrops**.
+Apasă pe **Decoruri**.
 
-![The Backdrops tab](images/looksBackdrops.png)
+![Secțiunea Decoruri](images/looksBackdrops.png)
 
-Click the **Choose backdrop from library** icon.
+Apasă pe butonul **Alege un Decor**.
 
-![The Choose backdrop icon](images/looksChooseBg.png)
+![Butonul Alege un Decor](images/looksChooseBg.png)
 
-Then pick your favourite underwater background!
+Apoi alege fundalul subacvatic pe care îl preferi!
 
-![An underwater scene](images/looksUnderwater.png) \--- /task \---
+![Un fundal subacvatic](images/looksUnderwater.png) \--- /task \---
 
-Great! Of course, now you have a cat underwater, and cats aren't usually big fans of that. But you can fix that, because you can turn the cat into a shark!
+Grozav! Desigur, acum ai o pisică sub apă, iar pisicilor nu prea le place apa. Însă poți rezolva asta, deoarece poți transforma pisica într-un rechin!
 
-\--- task \--- First, select the cat sprite and click on the **Costumes** tab.
+\--- task \--- Întâi, selectează personajul pisică și apasă pe butonul **Costume**.
 
 ![](images/cool2.png)
 
-Then, click on **Choose costume from Library**
+Apoi, apasă pe **Alege un costum**
 
 ![](images/cool3.png)
 
-Select this shark image and click **OK**.
+Selectează această imagine cu un rechin și apasă **OK**.
 
-![The shark costume](images/looksShark.png)
+![Costumul rechinului](images/looksShark.png)
 
-Now remove the cat costumes by selecting each of them and clicking on the **x**.
+Acum, șterge costumele pisicii selectând-ul pe fiecare dintre ele și apăsând **x**.
 
 ![](images/coolDeleteCostumes.png) \--- /task \---
 
-Now you have a shark – excellent!
+Acum ai un rechin – excelent!
