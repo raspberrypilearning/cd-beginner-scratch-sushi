@@ -91,4 +91,4 @@ Se pare că o mulțime de pești continuă să apară, dar este un singur person
 
 \--- /collapse \---
 
-Ai făcut un joc! Dar încă nu se ține scorul și nici nu se poate câștiga. You can fix that too — on the next card!
+Ai făcut un joc! Dar încă nu se ține scorul și nici nu se poate câștiga. Poți rezolva și asta — pe următorul card!
