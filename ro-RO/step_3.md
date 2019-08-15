@@ -1,100 +1,100 @@
-## Adding and removing code blocks
+## Adăugarea și ștergerea blocurilor de cod
 
-Great! You’ve written your very first Scratch program. Time to learn a little more about getting code in and out of Scratch! Scratch code is made up of **blocks** such as these:
+Grozav! Ai scris primul tău program Scratch. Acum e timpul să înveți ceva mai mult despre adăugarea si ștergerea codului în Scratch! Codul Scratch este alcătuit din **blocuri** ca acestea:
 
 ![](images/code1.png)
 
-You will find all blocks in the **code blocks palette**, sorted into different categories according to what they do.
+Toate blocurile pot fi găsite în **secțiunea cu blocuri de cod**, grupate în diferite categorii, în funcție de ceea ce fac.
 
 ## \--- collapse \---
 
-## title: Using blocks from the different categories
+## title: Utilizarea blocurilor din diferitele categorii
 
-Click on a category name to see the blocks in that category. Here, the **Motion** category is selected:
+Apasă pe numele unei categorii pentru a vedea blocurile din categoria respectivă. Aici este selectată categoria **Mișcare**:
 
 ![](images/code2a.png)
 
-All of the blocks in the category you've clicked are shown in a list:
+Toate blocurile din categoria selectată sunt afișate într-o listă:
 
 ![](images/code2b.png)
 
-You can click on the blcok you want, and then just drag it into the current sprite panel and let go. Once it's in the panel, you can move it around and connect it to other blocks.
+Poți apăsa pe blocul dorit, apoi îl poți trage până în panoul personajului curent și să îi dai drumul. Odată ce se află în panou, îl poți mișca și conecta la alte blocuri.
 
 \--- /collapse \---
 
-If you want to see what a block does, you can double-click on it to make it run!
+Dacă vrei să vezi ce face un anumit bloc, poți să dai click de două ori pe el iar acesta se va executa!
 
-\--- task \--- Try double-clicking on some of the blocks to see what they do. \--- /task \---
+\--- task \--- Încearcă să dai click de două ori pe unele blocuri pentru a vedea ce fac. \--- /task \---
 
 ## \--- collapse \---
 
-## title: Running the code
+## title: Executarea codului
 
-Usually, you want your code to run automatically whenever something specific happens. This is why many of your programs will start with a block from the **Events** category, most often this one:
+De obicei, vei vrea ca codul tău să fie executat automat ori de câte ori se întâmplă un anumit eveniment. De aceea multe dintre programele tale vor începe cu un bloc din categoria **Evenimente**, cel mai adesea acesta:
 
 ```blocks3
-    when green flag clicked
+    când se dă click pe stegulețul verde
 ```
 
-The code blocks connected to this block will run after the **green flag** is clicked.
+Blocurile de cod conectate la acest bloc vor fi executate după ce este apasat **steagul verde**.
 
-Code blocks run from top to bottom, so the order in which you snap your blocks together matters. In this example, the sprite will `say`{:class="block3looks"} `Hello!` before it will `play`{:class="block3sound"} the `meow` sound.
+Blocurile de cod sunt executate pe rând de sus în jos, deci ordinea în care blocurile sunt așezate este importantă. În acest exemplu, personajul va `spune`{:class="block3looks"} `Salut!` înainte să `redea sunetul`{:class="block3sound"} `miau`.
 
 ```blocks3
-    when green flag clicked
-    say [Hello]
-    play sound [meow v]
+    când se dă click pe stegulețul verde
+spune [Salut]
+pornește sunetul [Miau v]
 ```
 
 \--- /collapse \---
 
-Removing or deleting code blocks you don’t want in your program is easy! Just drag them back into the code blocks palette.
+Este ușor să elimini sau să ștergi blocuri de cod pe care nu le vrei în programul tău! Este de ajuns să le tragi înapoi in secțiunea cu blocuri de cod.
 
-**Be careful:** dragging them into the code blocks pallette will delete all the blocks connected to the block you drag, so make sure to separate code blocks you want to keep from those you want to remove. If you delete some code blocks by accident and want to get them back, right-click and then click on the **undo** option to get everything back.
+**Atenție:** când un bloc este tras pana în secțiunea cu blocuri de cod toate blocurile conectate la acesta vor fi șterse împreuna cu el, așa ca ai grija să separi blocurile pe care vrei sa le ștergi de cele pe care vrei sa le păstrezi. Dacă ai șters unele blocuri de cod din greșeală și vrei să le recuperezi, poți să dai click dreapta și apoi să alegi opțiunea **Anulează ultima modificare**.
 
 ![](images/code6.png)
 
-\--- task \--- Try adding, deleting, and undeleting some code blocks! \--- /task \---
+\--- task \--- Înearcă să adaugi, să ștergi și să recuperezi câteva blocuri de cod! \--- /task \---
 
-### Putting it all together
+### Să recapitulăm ce am învățat
 
-Now you know how to move code around and make things happen, it's time for you to create a program to make the Scratch Cat walk in a circle!
+Acum că știi cum să muți codul pentru a face lucruri să se întâmple, este timpul să creezi un program care să facă Pisica Scratch să se miște în cerc!
 
-\--- task \--- Make sure you have the cat sprite selected in the sprite list, and then drag the following blocks into the sprite panel and connect them. You’ll find them in the **Events** and **Motion** lists.
+\--- task \--- Asigură-te că personajul pisică este selectat în lista de personaje și trage următoarele blocuri până în panoul personajului curent și conectează-le între ele. Le poți găsi în listele **Evenimente** și **Mișcare**.
 
 ```blocks3
-    when green flag clicked
-    move [10] steps
+    când se dă click pe stegulețul verde
+mergi [10] pași
 ```
 
 \--- /task \---
 
-\--- task \--- Now, click on the green flag above the Stage.
+\--- task \--- Acum apasă pe steagul verde de deasupra Scenei.
 
 ![](images/code7.png) \--- /task \---
 
-You should see the cat walking in a straight line...not exactly what you want, right?
+Ar trebui să vezi pisica mergând în linie dreaptă... nu e chiar ceea ce vrem, nu?
 
-Note: If you click th flag too many times and the cat walks away, you can drag it back!
+Notă: dacă apeși pe steag de prea multe ori și pisica merge prea departe, o poți trage înapoi!
 
-\--- task \--- Snap the turn block to the end to make the cat sprite walk in a circle. It’s in the **Motion** list too.
+\---task\--- Adaugă blocul de rotire la sfârșit pentru a face pisica să se miște în cerc. Îl poți găsi tot în lista **Mișcare**.
 
 ```blocks3
-    when green flag clicked
-    move [10] steps
-+    turn cw (15) degrees
+    când se dă click pe stegulețul verde
+mergi [10] pași
++    rotește-te la dreapta cw (15) grade
 ```
 
 \--- /task \---
 
 ## \--- collapse \---
 
-## title: How does turning work?
+## title: Cum funcționează rotirea?
 
-This block makes the sprite turn 15 degrees of the full 360 degrees that make up a circle. You can change that number, and the number of steps, by clicking on the number and typing in a new value.
+Acest bloc face ca personajul să se rotească 15 grade din cele 360 care formează un cerc. Poți modifica acest număr și numărul de pași, apăsând pe ele și introducând o altă valoare.
 
 ![](images/code9.png)
 
 \--- /collapse \---
 
-\--- task \--- Now save your work! \--- /task \---
+\---task\--- Acum salvează ce ai facut până acum! \--- /task \---
