@@ -9,100 +9,100 @@ După cum probabil ai ghicit, vei avea nevoie de blocuri **Evenimente** și **Mi
 \--- task \--- De data aceasta, caută acest bloc și trage-l în panoul personajului curent:
 
 ```blocks3
-    when [space v] key pressed
+    când tasta [spațiu v] este apăsată
 ```
 
-Click the little arrow (▼) beside `space`. You will see a list of all your keyboard keys that you can pick from. \--- /task \---
+Apasă pe săgeata mică (▼) de lângă `spațiu`. Vei vedea o listă a tuturor butoanelor din care care poți alege. \--- /task \---
 
-You’re going to need four of the `when key pressed`{:class="block3events"} blocks — one for each of your arrow keys.
+Vei avea nevoie de patru blocuri `când tasta este apăsată`{:class="block3events"} — câte una pentru fiecare dintre tastele săgeată.
 
-\--- task \--- To make your shark move, connect these blocks to **Motion** blocks like this:
-
-```blocks3
-    when [left arrow v] key pressed
-    move (-10) steps
-```
+\--- task \--- Pentru a face rechinului să se miște, conectează aceste blocuri la blocuri **Mișcare** astfel:
 
 ```blocks3
-    when [right arrow v] key pressed
-    move (10) steps
+    când tasta [săgeată stânga v] este apăsată
+    mergi (-10) pași
 ```
 
 ```blocks3
-    when [up arrow v] key pressed
+    când tasta [săgeată dreapta v] este apăsată
+    mergi (10) pași
 ```
 
 ```blocks3
-    when [down arrow v] key pressed
+    când tasta [săgeată în sus v] este apăsată
+```
+
+```blocks3
+    când tasta [săgeată jos v] este apăsată
 ```
 
 \--- /task \---
 
-**Note**: `-10` means 'go back 10 steps'.
+**Notă**: `-10` înseamnă „mergi 10 pași în spate”.
 
-\--- task \--- Now click the green flag to test out your code. \--- /task \---
+\--- task \--- Acum apasă pe steagul verde pentru a testa codul. \--- /task \---
 
-Now your shark moves back and forwards, which is pretty cool, but it doesn’t move up or down. Also, if you look through the **Motion** blocks, you’ll see there are no blocks for 'up' or 'down'. There are a whole bunch of them related to **x** and **y** coordinates though — let's try those!
+Acum, rechinul se mișcă înainte și înapoi, ceea ce e destul de tare, dar nu se mișcă în sus sau în jos. De asemenea, dacă te uiți la blocurile **Mișcare**, vei vedea că nu există blocuri pentru „sus” sau „jos”. În schimb, sunt multe legate de coordonatele **x** și **y** — hai să le încercăm!
 
-\--- task \--- Grab two `change y by`{:class="block3motion"} blocks, and update your code like this:
+\--- task \--- Ia două blocuri `modifică y cu` și schimbă-ți codul să arate așa:
 
 ```blocks3
-    when [up arrow v] key pressed
-+     change y by (10)
+    când tasta [săgeată în sus v] este apăsată
++    modifică y cu (10)
 ```
 
 ```blocks3
-    when [down arrow v] key pressed
-+     change y by (-10)
+    când tasta [săgeată jos v] este apăsată
++    modifică y cu (-10)
 ```
 
 \--- /task \---
 
-Now when you press the arrows keys, the shark moves all around the stage!
+Acum, când apeși tastele săgeată, rechinul se mișcă peste tot pe scenă!
 
 ## \--- collapse \---
 
-## title: How do x- and y-coordinates work?
+## title: Cum funcționează coordonatele x și y?
 
-To talk about the positions of objects, such as sprites, we often use x- and y-coordinates. The **x-axis** of the Stage coordinate system runs from **left to right**, and the **y-axis** runs from **bottom to top**.
+Când vorbim despre pozițiile obiectelor, cum ar fi personajele, folosim adesea coordonatele x și y. **Axa x** a Scenei se întinde de la **stânga la dreapta**, iar **axa y** de **jos în sus**.
 
 ![](images/moving3.png)
 
-A sprite can be located by the coordinates of its centre, for example `(15, -27)`, where `15` is its position along the x-axis , and `-27` its position along the y-axis.
+Un personaj poate fi localizat prin coordonatele centrului său, de exemplu `(15, -27)`, unde `15` este poziția sa de-a lungul axei x, și `-27` poziția sa de-a lungul axei y.
 
-+ To get a feel for how this actually works, select a sprite and use the **x** and **y** controls to move it around the stage by setting different values for the coordinates.
++ Pentru a înțelege mai bine cum funcționează acest lucru, selectează un personaj și folosește comenzile **x** și **y** pentru a îl deplasa în interiorul scenei, setând diferite valori pentru coordonate.
 
 ![](images/xycoords.png)
 
-+ Try different pairs of values to see where the sprite goes! In Scratch, the x-axis goes from `-240` to `240`, and the y-axis goes from `-180` to `180`.
++ Încearcă diferite perechi de valori pentru a vedea unde merge personajul! În Scratch, axa x merge de la `-240` la `240`, iar axa y merge de la `-180` la `180`.
 
 \--- /collapse \---
 
-### Restarting the game
+### Repornirea jocului
 
-The shark moves all over the screen now, but imagine this is a game: how do you restart it, and what happens at the start of each game?
+Rechinul se poate mișca pe tot ecranul acum, dar imaginează-ți că acesta este un joc: cum îl repornești și ce se întâmplă la începutul fiecărui joc?
 
-You need to get the shark to its original location when the player starts the game. They'll start this game by clicking on the green flag, so you need to change the shark sprite's x- and y-coordinates when that happens.
+Trebuie să muți rechinul la poziția sa inițială când jucătorul începe jocul. Ei vor începe jocul apasând pe steagul verde, deci trebuie să schimbi coordonatele x și y ale rechinului când se întâmplă acest lucru.
 
-That’s actually pretty easy! The centre of the stage is `(0, 0)` in `(x, y)` coordinates.
+Acest lucru e destul de ușor! Centrul scenei este `(0, 0)` în coordonate `(x, y)`.
 
-So all you need is an **Event** block for that green flag, and the **go to** block from **Motion**.
+Deci, tot ce ai nevoie este un bloc **Eveniment** pentru steagul verde si un bloc **mergi la** de la **Mișcare**.
 
-\--- task \--- Drag a `when green flag clicked`{:class="block3events"} **Event** block onto the current sprite panel.
-
-```blocks3
-    when green flag clicked
-```
-
-Then find the `go to`{:class="block3motion"} **Motion** block, and attach it to your flag **Event** block.
+\--- task \--- Trage un bloc `când se dă click pe steagul verde`{:class="block3events"} de la **Evenimente** pana in panoul personajului curent.
 
 ```blocks3
-    when green flag clicked
-+     go to x: (0) y: (0)
+    când se dă click pe stegulețul verde
 ```
 
-Set the both the `x` and the `y` coordinate to `0` in the `go to`{:class="block3motion"} block if they are not already `0`.
+Apoi caută blocul `mergi la`{:class="block3motion"} de la **Mișcare** și atașează-l la blocul **Eveniment** pentru steag.
+
+```blocks3
+    când se dă click pe stegulețul verde
++    mergi la x (0) y: (0)
+```
+
+Setează coordonatele `x` și `y` la `0` în blocul `mergi la`{:class="block3motion"} dacă nu sunt deja `0`.
 
 \--- /task \---
 
-\--- task \--- Now click the green flag: you should see the shark return to the centre of the stage! \--- /task \---
+\--- task \--- Acum apasă pe steagul verde: ar trebui să vezi cum rechinul se întoarce în centrul scenei! \--- /task \---
