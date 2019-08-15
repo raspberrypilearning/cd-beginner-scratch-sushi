@@ -1,22 +1,22 @@
-## Fishing!
+## La pescuit!
 
-The shark moves, the fish swims, but they don’t interact: if the fish swims right into the shark's mouth, nothing happens. Time to change that!
+Rechinul se mișcă, peștele înoată, dar nu interacționează: dacă peștele înoată în gura rechinului, nu se întâmplă nimic. E timpul să schimbăm asta!
 
-First, you need to know if the fish is touching the shark. For this, you'll need a **Control** block and a **Sensing** block.
+În primul rând, trebuie să verifici dacă peștele atinge rechinul. Pentru aceasta, vei avea nevoie de un bloc **Control** și un bloc **Detectare**.
 
-\--- task \--- Add the `if...then`{:class="block3control"} **Control** block inside the `forever`{:class="block3control"} loop of the fish sprite, below the `if on edge bounce`{:class="block3motion"} block.
+\--- task \--- Adaugă blocul `dacă... atunci`{:class="block3control"} de tip **Control** în interiorul buclei `la infinit`{:class="block3control"} dedesubtul blocului `dacă atinge marginea, ricoșează`{:class="block3motion"} în codul peștelui.
 
-Drag the `touching...`{:class="block3sensing"} block into the space at the top of the `if...then`{:class="block3control"} block, and click the little triangle to select the shark sprite's name. If you haven’t changed it, it'll be 'Sprite1'.
+Trage blocul `atinge...`{:class="block3sensing"} în spațiul din partea de sus a blocului `dacă...atunci`{:class="block3control"} și apasă pe triunghiul mic pentru a selecta numele personajului rechin. Dacă nu l-ai schimbat, va fi „Personaj1”.
 
 ```blocks3
-    when green flag clicked
-    set rotation style [left-right v]
-    forever 
-        move (10) steps
-        turn cw (pick random (1) to (10)) degrees
-        wait (0.5) secs
-        if on edge, bounce
-+        if <touching [Sprite1 v] ?> then
+    când se dă click pe stegulețul verde
+    setează stilul de rotație [left-right v]
+    la infinit 
+        mergi (10) pași
+        rotește la dreapta (alege aleator între (1) și (10)) grade
+        așteaptă (0.5) secunde
+        dacă atinge marginea, ricoșează
++       dacă <atinge [Personaj1 v]?> atunci
     end
 ```
 
@@ -24,14 +24,14 @@ Drag the `touching...`{:class="block3sensing"} block into the space at the top o
 
 ## \--- collapse \---
 
-## title: How does it work?
+## title: Cum funcționează?
 
-The `if...then`{:class="block3control"} **Control** block needs to be given a `True/False` value.
+Blocul `dacă...atunci`{:class="block3control"} de tip **Control** trebuie să primească o valoare `Adevărat/Fals`.
 
-**Sensing** blocks collect information, like where the sprite is, what it’s touching, etc. You're using this block:
+Blocurile **Detectare** colectează informații, cum ar fi în unde se află un personaj, ce lucruri atinge etc. Tu folosești acest bloc:
 
 ```blocks3
-    <touching [Sprite1 v] ?>
+    <atinge [Personaj1 v]?>
 ```
 
 From this block's pointy ends, you can tell it’s going to give you the `True/False` value that the `if...then`{:class="block3control"} block needs.
