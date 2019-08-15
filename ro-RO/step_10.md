@@ -1,3 +1,3 @@
-## Challenge: winning the game
+## Provocare: câștigarea jocului
 
-Pick a score at which the player wins, and make something cool happen when they have that many points. Maybe the shark congratulates them, or a 'You win!' sprite appears, or music plays!
+Alege un scor la care să câștige jucătorul și fă să se întâmple ceva interesant când a acumulat punctele necesare. Poate să îl felicite rechinul sau să apară pe ecran mesajul „Ai câștigat!” sau să pornească niște muzică!
