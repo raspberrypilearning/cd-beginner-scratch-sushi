@@ -1,14 +1,14 @@
 ---
-title: Deep sea sushi
+title: Sushi în ape adânci
 hero_image: images/banner.png
-description: Make a fun game in your first Scratch program!
+description: Creează un joc distractiv cu primul tău program Scratch!
 theme: orange
 duration: 2
 listed: true
 ingredient: false
 copyedit: true
 curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
-interests: animals, humour, outdoors, games
+interests: animale, umor, în aer liber, jocuri
 technologies: scratch
 site_areas: coderdojo
 software: scratch
@@ -16,23 +16,23 @@ version: 4.0.0
 last_tested: 2017-01-01
 steps:
   - 
-    title: Introduction
+    title: Introducere
   - 
-    title: Getting set up
+    title: Pregătire
   - 
-    title: Adding and removing code blocks
+    title: Adăugarea și ștergerea blocurilor de cod
   - 
-    title: Setting the scene
+    title: Pregătirea scenei
   - 
-    title: Moving things around
+    title: Mișcarea elementelor
   - 
-    title: All the sprites
+    title: Toate personajele
   - 
-    title: Remote-control fish
+    title: Peștele care se mișcă singur
   - 
-    title: Fishing!
+    title: La pescuit!
   - 
-    title: Keeping score
+    title: Memorarea scorului
   - 
-    title: "Challenge: winning the game"
+    title: "Provocare: câștigarea jocului"
     challenge: true
