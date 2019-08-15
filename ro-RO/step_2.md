@@ -1,85 +1,85 @@
-## Getting set up
+## Pregătire
 
-Once you open Scratch, you’ll see a window like the one below.
+După ce deschizi Scratch, vei vedea o fereastră ca cea de mai jos.
 
-\--- task \--- Look for each of the following areas and remember where they are. \--- /task \---
+\--- task \--- Caută fiecare dintre următoarele elemente și memorează unde se află. \--- /task \---
 
-### The Stage
+### Scena
 
 ![Scratch window with the stage highlighted](images/hlStage.png)
 
 ## \--- collapse \---
 
-## title: What is the Stage?
+## title: Ce este Scena?
 
-This is where your Scratch programs run. It has:
+Aici se execută programele Scratch. Conține:
 
-* One or more **backgrounds** \(images on the background of the screen\)
+* Unul sau mai multe **decoruri** \(imagini pe fundalul ecranului\)
 
-* Any **code blocks** associated with it \(we’ll get to this\)
+* **Blocurile de cod** asociate \(vom explica mai târziu\)
 
 \--- /collapse \---
 
-### The sprite list
+### Lista de personaje
 
 ![Scratch window with the sprite list highlighted](images/hlSpriteList.png)
 
 ## \--- collapse \---
 
-## title: What is a sprite?
+## title: Ce este un personaj?
 
-Any item you can add on the Stage is a **sprite**.
+Orice element ce poate fi pus pe Scenă este un **personaj**.
 
-A sprite includes:
+Un personaj este compus din:
 
-* The **image** on the Stage
-* Any extra **costumes** \(looks\) it has
-* Any **sounds** associated with it
-* Any **code blocks** associated with it ![](images/setup2.png)
+* **Imaginea** sa de pe scena
+* **Costumele** \(aspecte\) pe care le are în plus
+* **Sunetele** pe care le poate scoate
+* **Blocurile de cod** asociate ![](images/setup2.png)
 
 \--- /collapse \---
 
-### The code blocks palette
+### Secțiunea cu blocuri de cod
 
 ![Scratch window with the blocks pallet highlighted](images/hlBlocksPalette.png)
 
 ## \--- collapse \---
 
-## title: Code blocks
+## title: Blocuri de cod
 
-Code in Scratch comes in the form of blocks that you connect to make programs. You choose blocks from the **code blocks palette**, drag them into the **current sprite panel**, and then connect them to each other.
+În Scratch, codul este reprezentat de blocuri pe care le poți conecta pentru a crea programe. Poți alege blocuri din **secțiunea de blocuri de cod**, le poți aduce în **panoul personajului curent** și apoi le poți conecta între ele.
 
-There are ten categories of blocks. They are colour-coded, and you can choose between them by clicking on the items in the list at the top of the **code blocks palette**.
+Sunt zece categorii de blocuri. Acestea sunt culorate diferit și pot fi alese apasând pe elementele din partea de sus a **secțiunii cu blocuri de cod**.
 
 \--- /collapse \---
 
-### The current sprite panel
+### Panoul personajului curent
 
 ![Scratch window with the current sprite panel highlighted](images/hlCurrentSpritePanel.png)
 
 ## \--- collapse \---
 
-## title: What is the current sprite?
+## title: Cine este personajul curent?
 
-The **current sprite** is the one that's selected in the **sprite list**.
+**Personajul curent** este cel care este selectat în **lista de personaje**.
 
-The **current sprite panel** is where you can see the code, costumes, and sounds for the selected sprite.
+**Panoul personajului curent** este zona in care poți vedea codul, costumele și sunetele personajului selectat.
 
 \--- /collapse \---
 
-Time to get coding!
+E timpul să scriem cod!
 
-\--- task \--- In the sprite list, click on the Scratch Cat. The cat is now the current sprite.
+\--- task \--- În lista de personaje apasă pe Pisica Scratch. Acum pisica este personajul curent.
 
-Choose the **Events** category in the code blocks palette, click the `when flag clicked`{:class="block3events"} block, and drag it into the current sprite panel.
+Alege categoria **Evenimente** din secțiunea cu blocuri de cod, apasă pe `când se dă click pe stegulețul verde`{:class="block3events"} și trage-l până în panoul poersonajului curent.
 
 ```blocks3
-    when green flag clicked
+    când se face click pe stegulețul verde
 ```
 
 \--- /task \---
 
-\--- task \--- Then go to **Looks** in the code blocks palette and find this block:
+\--- task \--- Apoi alege **Aspect** secțiunea cu blocuri de cod și caută acest bloc:
 
 ```blocks3
     say [Hello!] for (2) secs
