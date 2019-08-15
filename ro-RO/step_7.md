@@ -115,45 +115,45 @@ E mai bine, dar e încă prea previzibil. Trebuie să fie mai aleatoriu. Din fer
 ```blocks3
     (() + ())
 
-    (join [hello ] [world])
+    (alătură [salut ] [lume])
 
     <[] = []>
 ```
 
 \--- /collapse \---
 
-\--- task \--- Find the `pick random`{:class="block3operators"} **operator** block, and plug it into the `turn degrees`{:class="block3motion"} **Motion** block by clicking it and dragging it into the field where you set the number of degrees.
+\--- task \--- Caută blocul **Operator** `alege aleator`{:class="block3operators"} și inserează-l în blocul `rotește-te`{:class="block3motion"} din **Mișcare**, trăgându-l până în căsuța unde se setează numărul de grade.
 
 ```blocks3
-    when green flag clicked
-    set rotation style [left-right v]
-    forever 
-        move (10) steps
-+        turn cw (pick random (1) to (10)) degrees
-        wait (0.5) secs
-        if on edge, bounce
+    când se dă click pe stegulețul verde
+    setează stilul de rotație [stânga-dreapta v]
+    la infinit 
+        mergi (10) pași
++        rotește la dreapta (alege aleator între (1) și (10)) grade
+        așteaptă (0.5) secunde
+        dacă atinge marginea, ricoșează
     end
 ```
 
 \--- /task \---
 
-**Note**: you can change the minimum and maximum numbers it will pick, but the default values (`1` and `10`) are pretty good for this game, so you can just leave them.
+**Notă**: poți schimba numărul minim și maxim din care va alege, dar valorile implicite (`1` și `10`) sunt destul de bune pentru acest joc, deci să le poți lăsa așa.
 
-\--- task \--- Click the green flag to run the code! \--- /task \---
+\--- task \--- Apasă pe steagul verde pentru a executa codul! \--- /task \---
 
 ## \--- collapse \---
 
-## title: So what does the forever block do now?
+## title: Deci, ce face blocul la infinit acum?
 
-The forever block now makes the fish sprite do four things in order:
+Blocul la infinit face ca personajul pește să facă patru lucruri în ordine:
 
-1. Move forward
-2. Turn a little bit
-3. Wait briefly
-4. Check whether it's at the edge of the Stage
+1. Merge înainte
+2. Se rotește puțin
+3. Așteaptă puțin
+4. Verifică dacă este la marginea Scenei
 
-Once the sprite has done the check, it will start at the beginning of the loop again and move, turn, wait, check, for as long as you let your Scratch program run.
+După ce personajul a făcut verificarea, va începe din nou de la începutul buclei și se va mișca, se va întoarce, va aștepta, va verifica, cât timp cât timp programul Scratch va rula.
 
 \--- /collapse \---
 
-Cool! Next up: catching that fish!
+Grozav! Următorul pas: prinderea peștelui!
