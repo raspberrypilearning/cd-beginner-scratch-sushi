@@ -67,9 +67,9 @@ Le **panneau du sprite actuel** te permet de voir le code, les costumes, et les 
 
 \--- /collapse \---
 
-Time to get coding!
+Il est temps de coder!
 
-\--- task \--- In the sprite list, click on the Scratch Cat. The cat is now the current sprite.
+\--- task \--- Dans la liste des sprites, cliquez sur le sprite du Chat Scratch. Le chat est maintenant le sprite actuel.
 
 Choose the **Events** category in the code blocks palette, click the `when flag clicked`{:class="block3events"} block, and drag it into the current sprite panel.
 
