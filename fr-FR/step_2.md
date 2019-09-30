@@ -22,7 +22,7 @@ C’est là que tes programmes Scratch sont exécutés. Il y a:
 
 ### La liste des sprites
 
-![Fenêtre Scratch avec la liste des sprites en surbrillance](images/hlSpriteList.png)
+![La fenêtre Scratch avec la liste des sprites en surbrillance](images/hlSpriteList.png)
 
 ## \--- collapse \---
 
@@ -47,23 +47,23 @@ Un sprite comprend:
 
 ## title: Blocs de code
 
-Le code dans Scratch se présente sous la forme de blocs que tu relies pour créer des programmes. You choose blocks from the **code blocks palette**, drag them into the **current sprite panel**, and then connect them to each other.
+Le code dans Scratch se présente sous la forme de blocs que tu relies pour créer des programmes. Tu choisis des blocs dans la **palette de blocs de code**, puis tu les fais glisser dans le **panneau du sprite actuel**, puis tu les relies les uns aux autres.
 
-There are ten categories of blocks. They are colour-coded, and you can choose between them by clicking on the items in the list at the top of the **code blocks palette**.
+Il existe dix catégories de blocs. Ils sont codés par couleur, et tu peux choisir entre eux en cliquant sur les éléments dans la liste tout en haut de la **palette des blocs de code**.
 
 \--- /collapse \---
 
-### The current sprite panel
+### Le panneau du sprite actuel
 
-![Scratch window with the current sprite panel highlighted](images/hlCurrentSpritePanel.png)
+![La fenêtre Scratch avec le panneau du sprite actuel en surbrillance](images/hlCurrentSpritePanel.png)
 
 ## \--- collapse \---
 
-## title: What is the current sprite?
+## title: Qu'est-ce que le sprite actuel?
 
-The **current sprite** is the one that's selected in the **sprite list**.
+Le **sprite actuel** est celui qui est sélectionné dans la **liste des sprites** .
 
-The **current sprite panel** is where you can see the code, costumes, and sounds for the selected sprite.
+Le **panneau du sprite actuel** te permet de voir le code, les costumes, et les sons du sprite sélectionné.
 
 \--- /collapse \---
 
