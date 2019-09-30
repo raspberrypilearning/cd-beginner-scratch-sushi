@@ -89,8 +89,8 @@ Clique sur le bloc, maintiens le bouton de la souris enfoncé, fais glisser le b
 
 \--- /task \---
 
-\--- task \--- Now that the second block is in the current sprite panel, connect it to the bottom of the first block by clicking and dragging it again to move it below the other block until they snap together, like this:
+\--- task \--- Maintenant que le deuxième bloc est dans le panneau du sprite actuel, relie-le au bas du premier bloc: clique sur le deuxième bloc, puis fais-le glisser sous le premier bloc jusqu'à ce qu'ils s'emboîtent, comme ceci:
 
 ![](images/setup3.png) \--- /task \---
 
-\--- task \--- Now click the **Start Program** button and watch what happens! \--- /task \---
+\--- task \--- Maintenant, clique sur le bouton **Commencer** et regarde ce qu'il se passe! \--- /task \---
