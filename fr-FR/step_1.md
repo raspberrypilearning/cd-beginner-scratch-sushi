@@ -28,18 +28,18 @@ Appuie sur le drapeau vert pour commencer le jeu. Utilise les touches fléchées
 + Mouvement de base: se déplacer par pas et tourner par degrés
 + Utiliser les commandes du clavier
 + Utiliser les coordonnées (x, y) pour positionner les sprites
-+ Changing the look of the Stage and of sprites with costumes and show/hide commands
-+ Having multiple sprites on screen
-+ Using `forever`{:class="block3control"} loops
-+ Detecting when sprites are touching
++ Changer le look de la scène et des sprites avec des costumes et les commandes montrer/cacher
++ Avoir plusieurs sprites à l'écran
++ Utiliser les boucles `répéter indéfiniment`{:class="block3control"}
++ Détecter quand les sprites se touchent
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: Ce qu'il faut avoir
 
-You’re going to need **Scratch**, so do one of the following:
+Tu auras besoin de **Scratch**. Suivi donc l'une des démarches suivantes :
 
 + Download Scratch and install it on your computer by going to [dojo.soy/downloadscratch](http://dojo.soy/downloadscratch)
 + Use Scratch in your web browser by going to [dojo.soy/usescratch](http://dojo.soy/usescratch)
