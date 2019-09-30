@@ -71,21 +71,21 @@ Il est temps de coder!
 
 \--- task \--- Dans la liste des sprites, cliquez sur le sprite du Chat Scratch. Le chat est maintenant le sprite actuel.
 
-Choose the **Events** category in the code blocks palette, click the `when flag clicked`{:class="block3events"} block, and drag it into the current sprite panel.
+Choisis la catégorie **Événements** dans la palette des blocs de code, clique sur le bloc `quand le drapeau vert est cliqué`{:class="block3events"}, et fais-le glisser dans le panneau du sprite actuel.
 
 ```blocks3
-    when green flag clicked
+    quand le drapeau vert est cliqué
 ```
 
 \--- /task \---
 
-\--- task \--- Then go to **Looks** in the code blocks palette and find this block:
+\--- task \--- Ensuite, va à **Apparence** dans la palette des blocs de code et trouve ce bloc:
 
 ```blocks3
-    say [Hello!] for (2) secs
+    dire [Bonjour!] pendant (2) secondes
 ```
 
-Click on it, hold down the mouse button, and then just drag it into the current sprite panel and let go of the button.
+Clique sur le bloc, maintiens le bouton de la souris enfoncé, fais glisser le bloc dans le panneau du sprite actuel, et relâche le bouton.
 
 \--- /task \---
 
