@@ -1,42 +1,42 @@
-## Adding and removing code blocks
+## Ajouter et supprimer des blocs de code
 
-Great! You’ve written your very first Scratch program. Time to learn a little more about getting code in and out of Scratch! Scratch code is made up of **blocks** such as these:
+Génial! Tu as écrit ton tout premier programme Scratch. Il est temps d'en apprendre un peu plus sur l'introduction et la suppression de code dans Scratch! Le code Scratch est composé de **blocs** tels que:
 
 ![](images/code1.png)
 
-You will find all blocks in the **code blocks palette**, sorted into different categories according to what they do.
+Tu trouveras tous les blocs dans la **palette des blocs de code**, classés en différentes catégories en fonction de ce qu'ils font.
 
 ## \--- collapse \---
 
-## title: Using blocks from the different categories
+## title: Utiliser des blocs de différentes catégories
 
-Click on a category name to see the blocks in that category. Here, the **Motion** category is selected:
+Click on a category name to see the blocks in that category. Ici, la catégorie **Mouvement** est sélectionnée:
 
 ![](images/code2a.png)
 
-All of the blocks in the category you've clicked are shown in a list:
+Tous les blocs de la catégorie sur laquelle tu as cliqué sont affichés dans une liste:
 
 ![](images/code2b.png)
 
-You can click on the blcok you want, and then just drag it into the current sprite panel and let go. Once it's in the panel, you can move it around and connect it to other blocks.
+Tu peux cliquer sur le bloc que tu cherches, puis le faire glisser dans le panneau du sprite actuel, puis lâcher le bouton de la souris. Une fois que le bloc est dans le panneau, tu peux le déplacer et le relier à d'autres blocs.
 
 \--- /collapse \---
 
-If you want to see what a block does, you can double-click on it to make it run!
+Si tu veux voir ce que fait un bloc, tu peux double-cliquer dessus pour le faire exécuter!
 
-\--- task \--- Try double-clicking on some of the blocks to see what they do. \--- /task \---
+\--- task \--- Essaie de double-cliquer sur certains blocs pour voir ce qu’ils font. \--- /task \---
 
 ## \--- collapse \---
 
-## title: Running the code
+## title: Exécuter le code
 
-Usually, you want your code to run automatically whenever something specific happens. This is why many of your programs will start with a block from the **Events** category, most often this one:
+Généralement, tu veux que ton code soit exécuté automatiquement chaque fois que quelque chose de spécifique se produit. C’est pourquoi beaucoup de tes programmes commenceront avec un bloc de la catégorie **Événements** , le plus souvent celui-ci:
 
 ```blocks3
-    when green flag clicked
+    quand le drapeau vert est cliqué
 ```
 
-The code blocks connected to this block will run after the **green flag** is clicked.
+Les blocs de code reliés à ce bloc seront exécutés après que le **drapeau vert** sera cliqué.
 
 Code blocks run from top to bottom, so the order in which you snap your blocks together matters. In this example, the sprite will `say`{:class="block3looks"} `Hello!` before it will `play`{:class="block3sound"} the `meow` sound.
 
