@@ -6,7 +6,7 @@ Ceci est la version **Scratch 3** du projet. Il existe également une version [S
 
 ## Introduction
 
-These Sushi Cards are going to help you learn to create computer programs in Scratch!
+Ces Sushi Cards vont t'aider à apprendre à créer des programmes informatiques dans Scratch!
 
 ### Ce que tu feras
 
@@ -41,11 +41,11 @@ Appuie sur le drapeau vert pour commencer le jeu. Utilise les touches fléchées
 
 Tu auras besoin de **Scratch**. Suivi donc l'une des démarches suivantes :
 
-+ Download Scratch and install it on your computer by going to [dojo.soy/downloadscratch](http://dojo.soy/downloadscratch)
-+ Use Scratch in your web browser by going to [dojo.soy/usescratch](http://dojo.soy/usescratch)
++ Télécharge Scratch et installe-le sur ton ordinateur à l'adresse [dojo.soy/downloadscratch](http://dojo.soy/downloadscratch)
++ Utilise Scratch dans ton navigateur Web à l'adresse [dojo.soy/usescratch](http://dojo.soy/usescratch)
 
-Once you’re set up, you can move on to the next step!
+Une fois que tout est configuré, tu peux passer à l'étape suivante!
 
 \--- /collapse \---
 
-![Tracking pixel](http://code.org/api/hour/begin_coderdojo_sushi.png)
+![Pixel de suivi](http://code.org/api/hour/begin_coderdojo_sushi.png)
