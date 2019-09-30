@@ -18,16 +18,16 @@ Voici un exemple de l'apparence de ton jeu fini:
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/205355052/?autostart=false" frameborder="0"></iframe>
 </div>
 
-Appuie sur le drapeau vert pour commencer le jeu. Use the arrow keys to move the shark around and catch the fish.
+Appuie sur le drapeau vert pour commencer le jeu. Utilise les touches fléchées pour déplacer le requin et attraper les poissons.
 
 ## \--- collapse \---
 
-## title: What you will learn
+## title: Ce que tu vas apprendre
 
-+ Adding and deleting code blocks
-+ Basic motion: move in steps, and turn by degrees
-+ Using keyboard controls
-+ Using (x, y) coordinates to position sprites
++ Ajouter et supprimer des blocs de code
++ Mouvement de base: se déplacer par pas et tourner par degrés
++ Utiliser les commandes du clavier
++ Utiliser les coordonnées (x, y) pour positionner les sprites
 + Changing the look of the Stage and of sprites with costumes and show/hide commands
 + Having multiple sprites on screen
 + Using `forever`{:class="block3control"} loops
