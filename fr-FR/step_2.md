@@ -14,25 +14,25 @@ Une fois que tu ouvres Scratch, tu verras une fenêtre semblable à celle ci-des
 
 C’est là que tes programmes Scratch sont exécutés. Il y a:
 
-* One or more **backgrounds** \(images on the background of the screen\)
+* Un ou plusieurs **arrière-plans** \(images sur le fond de l'écran\)
 
-* Any **code blocks** associated with it \(we’ll get to this\)
+* Tous les **blocs de code** qui y sont associés \(nous y reviendrons\)
 
 \--- /collapse \---
 
-### The sprite list
+### La liste des sprites
 
-![Scratch window with the sprite list highlighted](images/hlSpriteList.png)
+![Fenêtre Scratch avec la liste des sprites en surbrillance](images/hlSpriteList.png)
 
 ## \--- collapse \---
 
-## title: What is a sprite?
+## title: Qu'est-ce qu'un sprite?
 
-Any item you can add on the Stage is a **sprite**.
+Tout élément que tu peux ajouter sur la scène est un **sprite**.
 
-A sprite includes:
+Un sprite comprend:
 
-* The **image** on the Stage
+* L' **image** sur la scène
 * Any extra **costumes** \(looks\) it has
 * Any **sounds** associated with it
 * Any **code blocks** associated with it ![](images/setup2.png)
