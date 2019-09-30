@@ -1,6 +1,6 @@
-## Getting set up
+## Mise en place
 
-Once you open Scratch, you’ll see a window like the one below.
+Une fois que tu ouvres Scratch, tu verras une fenêtre semblable à celle ci-dessous.
 
 \--- task \--- Look for each of the following areas and remember where they are. \--- /task \---
 
