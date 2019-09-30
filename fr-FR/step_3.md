@@ -38,19 +38,19 @@ Généralement, tu veux que ton code soit exécuté automatiquement chaque fois 
 
 Les blocs de code reliés à ce bloc seront exécutés après que le **drapeau vert** sera cliqué.
 
-Code blocks run from top to bottom, so the order in which you snap your blocks together matters. In this example, the sprite will `say`{:class="block3looks"} `Hello!` before it will `play`{:class="block3sound"} the `meow` sound.
+Les blocs de code s'éxécutent du haut en bas. L'ordre dans lequel tu assembles tes blocs est donc important. Dans cet exemple, le sprite `dira`{:class = "block3looks"} `Bonjour!` avant de `jouer`{:class = "block3sound"} le son `Meow`.
 
 ```blocks3
-    when green flag clicked
-    say [Hello]
-    play sound [meow v]
+    quand le drapeau vert est cliqué
+    dire [Bonjour]
+    jouer le son [Meow v]
 ```
 
 \--- /collapse \---
 
-Removing or deleting code blocks you don’t want in your program is easy! Just drag them back into the code blocks palette.
+Il est facile d'enlever ou de supprimer des blocs de code que tu ne veux pas dans ton programme! Fais-les simplement glisser dans la palette des blocs de code.
 
-**Be careful:** dragging them into the code blocks pallette will delete all the blocks connected to the block you drag, so make sure to separate code blocks you want to keep from those you want to remove. If you delete some code blocks by accident and want to get them back, right-click and then click on the **undo** option to get everything back.
+**Fais attention:** si tu fais glisser un bloc de code dans la palette des blocs de code, ce supprimera tous les blocs reliés au bloc que tu fais glisser. Veille donc à séparer les blocs de code que tu souhaites conserver de ceux que tu souhaites enlever. If you delete some code blocks by accident and want to get them back, right-click and then click on the **undo** option to get everything back.
 
 ![](images/code6.png)
 
