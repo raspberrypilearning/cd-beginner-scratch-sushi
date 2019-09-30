@@ -33,21 +33,21 @@ Tout élément que tu peux ajouter sur la scène est un **sprite**.
 Un sprite comprend:
 
 * L' **image** sur la scène
-* Any extra **costumes** \(looks\) it has
-* Any **sounds** associated with it
-* Any **code blocks** associated with it ![](images/setup2.png)
+* Tout **costume** \(apparence\) supplémentaire qu'il a
+* Tous les **sons** qui y sont associés
+* Tous les **blocs de code** qui y sont associés ![](images/setup2.png)
 
 \--- /collapse \---
 
-### The code blocks palette
+### La palette des blocs de code
 
-![Scratch window with the blocks pallet highlighted](images/hlBlocksPalette.png)
+![La fenêtre Scratch avec la palette de blocs en surbrillance](images/hlBlocksPalette.png)
 
 ## \--- collapse \---
 
-## title: Code blocks
+## title: Blocs de code
 
-Code in Scratch comes in the form of blocks that you connect to make programs. You choose blocks from the **code blocks palette**, drag them into the **current sprite panel**, and then connect them to each other.
+Le code dans Scratch se présente sous la forme de blocs que tu relies pour créer des programmes. You choose blocks from the **code blocks palette**, drag them into the **current sprite panel**, and then connect them to each other.
 
 There are ten categories of blocks. They are colour-coded, and you can choose between them by clicking on the items in the list at the top of the **code blocks palette**.
 
