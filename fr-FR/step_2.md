@@ -2,17 +2,17 @@
 
 Une fois que tu ouvres Scratch, tu verras une fenêtre semblable à celle ci-dessous.
 
-\--- task \--- Look for each of the following areas and remember where they are. \--- /task \---
+\--- task \--- Recherche chacune des zones suivantes et rappelle-toi où elles se trouvent. \--- /task \---
 
-### The Stage
+### La scène
 
-![Scratch window with the stage highlighted](images/hlStage.png)
+![La fenêtre Scratch avec la scène en surbrillance](images/hlStage.png)
 
 ## \--- collapse \---
 
-## title: What is the Stage?
+## title: Qu'est-ce que la scène?
 
-This is where your Scratch programs run. It has:
+C’est là que tes programmes Scratch sont exécutés. Il y a:
 
 * One or more **backgrounds** \(images on the background of the screen\)
 
