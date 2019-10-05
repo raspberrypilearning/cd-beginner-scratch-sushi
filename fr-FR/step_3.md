@@ -10,7 +10,7 @@ Tu trouveras tous les blocs dans la **palette des blocs de code**, classés en d
 
 ## title: Utiliser des blocs de différentes catégories
 
-Click on a category name to see the blocks in that category. Ici, la catégorie **Mouvement** est sélectionnée:
+Clique sur un nom de catégorie pour voir les blocs de cette catégorie. Ici, la catégorie **Mouvement** est sélectionnée:
 
 ![](images/code2a.png)
 
