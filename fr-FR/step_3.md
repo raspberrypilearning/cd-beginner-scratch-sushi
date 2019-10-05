@@ -50,7 +50,7 @@ Les blocs de code s'éxécutent du haut en bas. L'ordre dans lequel tu assembles
 
 Il est facile d'enlever ou de supprimer des blocs de code que tu ne veux pas dans ton programme! Fais-les simplement glisser dans la palette des blocs de code.
 
-**Fais attention:** si tu fais glisser un bloc de code dans la palette des blocs de code, ce supprimera tous les blocs reliés au bloc que tu fais glisser. Veille donc à séparer les blocs de code que tu souhaites conserver de ceux que tu souhaites enlever. If you delete some code blocks by accident and want to get them back, right-click and then click on the **undo** option to get everything back.
+**Fais attention:** si tu fais glisser un bloc de code dans la palette des blocs de code, ce supprimera tous les blocs reliés au bloc que tu fais glisser. Veille donc à séparer les blocs de code que tu souhaites conserver de ceux que tu souhaites enlever. Si tu supprimes des blocs de code par accident et tu souhaites les récupérer, clique avec le bouton droit de la souris, puis clique sur **Restaurer** pour tout récupérer.
 
 ![](images/code6.png)
 
@@ -69,7 +69,7 @@ Now you know how to move code around and make things happen, it's time for you t
 
 \--- /task \---
 
-\--- task \--- Now, click on the green flag above the Stage.
+\--- task \--- Maintenant, clique sur le drapeau vert au-dessus de la scène.
 
 ![](images/code7.png) \--- /task \---
 
@@ -97,4 +97,4 @@ This block makes the sprite turn 15 degrees of the full 360 degrees that make up
 
 \--- /collapse \---
 
-\--- task \--- Now save your work! \--- /task \---
+\--- task \--- Maintenant, enregistre ton travail! \--- /task \---
