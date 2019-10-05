@@ -54,17 +54,17 @@ Il est facile d'enlever ou de supprimer des blocs de code que tu ne veux pas dan
 
 ![](images/code6.png)
 
-\--- task \--- Try adding, deleting, and undeleting some code blocks! \--- /task \---
+\--- task \--- Essaie d'ajouter, de supprimer, et d'annuler la suppression de certains blocs de code! \--- /task \---
 
 ### Putting it all together
 
 Now you know how to move code around and make things happen, it's time for you to create a program to make the Scratch Cat walk in a circle!
 
-\--- task \--- Make sure you have the cat sprite selected in the sprite list, and then drag the following blocks into the sprite panel and connect them. You’ll find them in the **Events** and **Motion** lists.
+\--- task \--- Assure-toi que le sprite chat est sélectionné dans la liste, puis fais glisser les blocs suivants dans le panneau sprite et relie-les. Tu les trouveras dans les listes **Événements** et **Mouvement**.
 
 ```blocks3
-    when green flag clicked
-    move [10] steps
+    quand le drapeau vert est cliqué
+    avancer de [10] pas
 ```
 
 \--- /task \---
