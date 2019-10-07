@@ -1,18 +1,18 @@
-## Getting set up
+## Erste Schritte
 
 Once you open Scratch, you’ll see a window like the one below.
 
 \--- task \--- Look for each of the following areas and remember where they are. \--- /task \---
 
-### The Stage
+### Die Bühne
 
 ![Scratch window with the stage highlighted](images/hlStage.png)
 
 ## \--- collapse \---
 
-## title: What is the Stage?
+## Titel: Was ist die Bühne?
 
-This is where your Scratch programs run. It has:
+This is where your Scratch programs run. Es hat:
 
 * One or more **backgrounds** \(images on the background of the screen\)
 
