@@ -27,24 +27,24 @@ Drücken die grüne Flagge, um das Spiel zu starten. Bewege den Hai mit den Pfei
 + Codeblöcke hinzufügen und löschen
 + Basic motion: move in steps, and turn by degrees
 + Tastatursteuerung verwenden
-+ Using (x, y) coordinates to position sprites
-+ Changing the look of the Stage and of sprites with costumes and show/hide commands
-+ Having multiple sprites on screen
-+ Using `forever`{:class="block3control"} loops
-+ Detecting when sprites are touching
++ Verwenden von (x, y) -Koordinaten zum Positionieren von Figuren
++ Ändern des Erscheinungsbildes der Bühne und der Figuren mit Kostümen und Anzeigen / Ausblenden - Befehlen
++ Mehrere Figuren auf dem Bildschirm haben
++ Mit `wiederhole fortlaufend`{: class = "block3control"} - Schleifen
++ Erkennen, wenn Figuren sich berühren
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Was du brauchen wirst
+## title: Was du benötigst
 
-You’re going to need **Scratch**, so do one of the following:
+Du brauchst **Scratch**, also führe eine der folgenden Schritte aus:
 
-+ Download Scratch and install it on your computer by going to [dojo.soy/downloadscratch](http://dojo.soy/downloadscratch)
-+ Use Scratch in your web browser by going to [dojo.soy/usescratch](http://dojo.soy/usescratch)
++ Lade Scratch herunter und installiere es auf deinem Computer, indem du auf [dojo.soy/downloadscratch](http://dojo.soy/downloadscratch) klickst
++ Verwende Scratch in deinem Webbrowser, indem du zu [dojo.soy/usescratch](http://dojo.soy/usescratch) wechselst
 
-Once you’re set up, you can move on to the next step!
+Sobald du alles eingerichtet hast, kannst du mit dem nächsten Schritt fortfahren!
 
 \--- /collapse \---
 
