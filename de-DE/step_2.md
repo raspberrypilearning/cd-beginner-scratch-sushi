@@ -1,10 +1,10 @@
-## Erste Schritte
+## Getting set up
 
 Once you open Scratch, you’ll see a window like the one below.
 
-\--- task \--- Look for each of the following areas and remember where they are. \--- /task \---
+\--- Aufgabe \--- Suche nach den folgenden Bereichen und merke dir, wo sie sich befinden. \--- /task \---
 
-### Die Bühne
+### The Stage
 
 ![Scratch window with the stage highlighted](images/hlStage.png)
 
@@ -12,9 +12,9 @@ Once you open Scratch, you’ll see a window like the one below.
 
 ## Titel: Was ist die Bühne?
 
-This is where your Scratch programs run. Es hat:
+Hier laufen deine Scratch-Programme. It has:
 
-* One or more **backgrounds** \(images on the background of the screen\)
+* Eine oder mehrere **Hintergründe** \(Bilder auf dem Bildschirmhintergrund\)
 
 * Any **code blocks** associated with it \(we’ll get to this\)
 
@@ -32,7 +32,7 @@ Any item you can add on the Stage is a **sprite**.
 
 A sprite includes:
 
-* The **image** on the Stage
+* Das **Bild** auf der Bühne
 * Any extra **costumes** \(looks\) it has
 * Any **sounds** associated with it
 * Any **code blocks** associated with it ![](images/setup2.png)
@@ -45,7 +45,7 @@ A sprite includes:
 
 ## \--- collapse \---
 
-## title: Code blocks
+## title: Codeblöcke
 
 Code in Scratch comes in the form of blocks that you connect to make programs. You choose blocks from the **code blocks palette**, drag them into the **current sprite panel**, and then connect them to each other.
 
