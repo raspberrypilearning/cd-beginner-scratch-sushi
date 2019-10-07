@@ -1,10 +1,10 @@
-## Getting set up
+## Erste Schritte
 
-Once you open Scratch, you’ll see a window like the one below.
+Wenn du Scratch öffnest, wird ein Fenster wie das unten stehende angezeigt.
 
 \--- Aufgabe \--- Suche nach den folgenden Bereichen und merke dir, wo sie sich befinden. \--- /task \---
 
-### The Stage
+### Die Bühne
 
 ![Scratch window with the stage highlighted](images/hlStage.png)
 
@@ -12,34 +12,34 @@ Once you open Scratch, you’ll see a window like the one below.
 
 ## Titel: Was ist die Bühne?
 
-Hier laufen deine Scratch-Programme. It has:
+Hier laufen deine Scratch-Programme. Es hat:
 
 * Eine oder mehrere **Hintergründe** \(Bilder auf dem Bildschirmhintergrund\)
 
-* Any **code blocks** associated with it \(we’ll get to this\)
+* Alle **Codeblöcke** die mit ihr verbunden sind \(wir werden später dazu kommen\)
 
 \--- /collapse \---
 
-### The sprite list
+### Die Figuren-Liste
 
 ![Scratch window with the sprite list highlighted](images/hlSpriteList.png)
 
 ## \--- collapse \---
 
-## title: What is a sprite?
+## Titel: Was ist eine Figur?
 
-Any item you can add on the Stage is a **sprite**.
+Jeder Gegenstand, den du der Bühne hinzufügen kannst, ist eine **Figur**.
 
-A sprite includes:
+Eine Figur beinhaltet:
 
 * Das **Bild** auf der Bühne
-* Any extra **costumes** \(looks\) it has
-* Any **sounds** associated with it
-* Any **code blocks** associated with it ![](images/setup2.png)
+* Jedes zusätzliche **Kostüm** \(Aussehen\), dass sie hat
+* Alle **Klänge**, die damit verbunden sind
+* Alle **Codeblöcke**, die damit verbunden sind ![](images/setup2.png)
 
 \--- /collapse \---
 
-### The code blocks palette
+### Die Code-Block-Palette
 
 ![Scratch window with the blocks pallet highlighted](images/hlBlocksPalette.png)
 
@@ -47,9 +47,9 @@ A sprite includes:
 
 ## title: Codeblöcke
 
-Code in Scratch comes in the form of blocks that you connect to make programs. You choose blocks from the **code blocks palette**, drag them into the **current sprite panel**, and then connect them to each other.
+Code in Scratch kommt in Form von Blöcken, die du verbindest, um Programme zu erstellen. Du wählst Blöcke aus der **-Code-Block-Palette**, ziehst sie in das **aktuelle Figuren-Panel**und verbindest sie dann miteinander.
 
-Es gibt zehn Kategorien von Blöcken. They are colour-coded, and you can choose between them by clicking on the items in the list at the top of the **code blocks palette**.
+There are ten categories of blocks. They are colour-coded, and you can choose between them by clicking on the items in the list at the top of the **code blocks palette**.
 
 \--- /collapse \---
 
