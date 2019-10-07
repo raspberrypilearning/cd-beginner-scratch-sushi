@@ -1,32 +1,32 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/cd-beginner-scratch-sushi-scratch2).
+Dies ist die **Scratch 3** Version des Projekts. Es gibt auch eine [Scratch 2-Version des Projekts](https://projects.raspberrypi.org/en/projects/cd-beginner-scratch-sushi-scratch2).
 
 \--- /no-print \---
 
-## Introduction
+## Einleitung
 
-These Sushi Cards are going to help you learn to create computer programs in Scratch!
+Diese Sushi-Karten helfen dir, in Scratch Computerprogramme zu erstellen!
 
-### What you will make
+### Was du machen wirst
 
-You will make a game where you move a shark around to try and catch fish.
+Du machst ein Spiel, in dem du einen Hai bewegen kannst, um Fische zu fangen.
 
-Here's an example of how your finished game might look:
+Hier ein Beispiel, wie dein fertiges Spiel aussehen könnte:
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/205355052/?autostart=false" frameborder="0"></iframe>
 </div>
 
-Press the green flag to start the game. Use the arrow keys to move the shark around and catch the fish.
+Drücken die grüne Flagge, um das Spiel zu starten. Bewege den Hai mit den Pfeiltasten und fange den Fisch.
 
 ## \--- collapse \---
 
-## title: What you will learn
+## title: Was du lernen wirst
 
-+ Adding and deleting code blocks
++ Codeblöcke hinzufügen und löschen
 + Basic motion: move in steps, and turn by degrees
-+ Using keyboard controls
++ Tastatursteuerung verwenden
 + Using (x, y) coordinates to position sprites
 + Changing the look of the Stage and of sprites with costumes and show/hide commands
 + Having multiple sprites on screen
@@ -37,7 +37,7 @@ Press the green flag to start the game. Use the arrow keys to move the shark aro
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: Was du brauchen wirst
 
 You’re going to need **Scratch**, so do one of the following:
 
