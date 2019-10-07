@@ -6,7 +6,7 @@ Wenn du Scratch öffnest, wird ein Fenster wie das unten stehende angezeigt.
 
 ### Die Bühne
 
-![Scratch window with the stage highlighted](images/hlStage.png)
+![Scratch-Fenster mit hervorgehobener Bühne](images/hlStage.png)
 
 ## \--- collapse \---
 
@@ -22,7 +22,7 @@ Hier laufen deine Scratch-Programme. Es hat:
 
 ### Die Figuren-Liste
 
-![Scratch window with the sprite list highlighted](images/hlSpriteList.png)
+![Scratch-Fenster mit hervorgehobener Figuren-Liste](images/hlSpriteList.png)
 
 ## \--- collapse \---
 
@@ -41,7 +41,7 @@ Eine Figur beinhaltet:
 
 ### Die Code-Block-Palette
 
-![Scratch window with the blocks pallet highlighted](images/hlBlocksPalette.png)
+![Scratch-Fenster mit hervorgehobener Blockpalette](images/hlBlocksPalette.png)
 
 ## \--- collapse \---
 
@@ -49,48 +49,48 @@ Eine Figur beinhaltet:
 
 Code in Scratch kommt in Form von Blöcken, die du verbindest, um Programme zu erstellen. Du wählst Blöcke aus der **-Code-Block-Palette**, ziehst sie in das **aktuelle Figuren-Panel**und verbindest sie dann miteinander.
 
-There are ten categories of blocks. They are colour-coded, and you can choose between them by clicking on the items in the list at the top of the **code blocks palette**.
+Es gibt zehn Kategorien von Blöcken. Sie sind farblich gekennzeichnet. Du kannst zwischen ihnen wählen, indem du auf die Elemente in der Liste oben in der **-Codeblock-Palette**klickst.
 
 \--- /collapse \---
 
-### The current sprite panel
+### Das aktuelle Figuren-Panel
 
-![Scratch window with the current sprite panel highlighted](images/hlCurrentSpritePanel.png)
+![Scratch-Fenster mit hervorgehobenem aktuellen Figuren-Fenster](images/hlCurrentSpritePanel.png)
 
 ## \--- collapse \---
 
-## title: What is the current sprite?
+## Titel: Was ist die aktuelle Figur?
 
-The **current sprite** is the one that's selected in the **sprite list**.
+Die aktuelle **Figur** ist diejenige, die in der **Figuren-Liste** ausgewählt ist.
 
-The **current sprite panel** is where you can see the code, costumes, and sounds for the selected sprite.
+Im **aktuellen Figuren - Panel** siehst du Code, Kostüme und Töne für die ausgewählte Figur.
 
 \--- /collapse \---
 
-Time to get coding!
+Zeit für die Programmierung!
 
-\--- task \--- In the sprite list, click on the Scratch Cat. The cat is now the current sprite.
+\--- task \--- Klicke in der Figuren-Liste auf die Scratch Katze. Die Katze ist jetzt die aktuelle Figur.
 
-Choose the **Events** category in the code blocks palette, click the `when flag clicked`{:class="block3events"} block, and drag it into the current sprite panel.
+Wähle die Kategorie **Ereignisse** in der Codeblockpalette aus, klicke auf die Schaltfläche `wenn grüne Flagge geklickt wird`{:class="block3events"} und ziehe sie in das aktuelle Figuren-Fenster.
 
 ```blocks3
-    when green flag clicked
+    wenn grüne Flagge angeklickt
 ```
 
 \--- /task \---
 
-\--- task \--- Then go to **Looks** in the code blocks palette and find this block:
+\--- task \--- Dann gehe zu **Aussehen** in der Codeblock-Palette und suche diesen Block:
 
 ```blocks3
-    say [Hello!] for (2) secs
+    sage [Hallo!] für (2) Sekunden
 ```
 
-Click on it, hold down the mouse button, and then just drag it into the current sprite panel and let go of the button.
+Klicke darauf, halte die Maustaste gedrückt und ziehe es in das aktuelle Figuren-Panel, und lasse die Schaltfläche los.
 
 \--- /task \---
 
-\--- task \--- Now that the second block is in the current sprite panel, connect it to the bottom of the first block by clicking and dragging it again to move it below the other block until they snap together, like this:
+\--- task \--- Nun, da sich der zweite Block im aktuellen Figuren-Panel befindet, verbinde ihn mit dem unteren Teil des ersten Blocks, indem du ihn anklickst und erneut ziehst, um ihn unter den anderen Block zu verschieben, bis er zusammenschnappt, wie folgt:
 
 ![](images/setup3.png) \--- /task \---
 
-\--- task \--- Now click the **Start Program** button and watch what happens! \--- /task \---
+\--- task \--- Klicke nun auf die Schaltfläche **Starte Programm** und beobachte, was passiert! \--- /task \---
