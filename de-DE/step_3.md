@@ -1,6 +1,6 @@
-## Adding and removing code blocks
+## Codeblöcke hinzufügen und entfernen
 
-Great! You’ve written your very first Scratch program. Time to learn a little more about getting code in and out of Scratch! Scratch code is made up of **blocks** such as these:
+Großartig! You’ve written your very first Scratch program. Time to learn a little more about getting code in and out of Scratch! Scratch code is made up of **blocks** such as these:
 
 ![](images/code1.png)
 
