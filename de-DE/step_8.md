@@ -2,22 +2,22 @@
 
 Der Hai bewegt sich, der Fisch schwimmt, aber er interagiert nicht: Wenn der Fisch direkt in den Mund des Hais schwimmt, passiert nichts. Zeit das zu ändern!
 
-First, you need to know if the fish is touching the shark. For this, you'll need a **Control** block and a **Sensing** block.
+Zuerst musst du wissen, ob der Fisch den Hai berührt. Dazu benötigst du einen **Steuerungs** - Block und einen **Fühlen-** Block.
 
-\--- task \--- Add the `if...then`{:class="block3control"} **Control** block inside the `forever`{:class="block3control"} loop of the fish sprite, below the `if on edge bounce`{:class="block3motion"} block.
+Aufgabe Füge den `wenn... dann`{:class="block3control"} **Steuerungs** Block innerhalb der `wiederhole fortlaufend`{:class="block3control"} -Schleife der Fischfigur unter dem `Pralle am Rand ab`{:class="block3motion"} Block hinzu.
 
-Drag the `touching...`{:class="block3sensing"} block into the space at the top of the `if...then`{:class="block3control"} block, and click the little triangle to select the shark sprite's name. If you haven’t changed it, it'll be 'Sprite1'.
+Ziehe den `wird berührt`{:class="block3sensing"} - Block in den oberen Bereich des `wenn... dann`{:class="block3control"} - Blocks, und klicke auf das kleine Dreieck, um den Name der Hai-Figur auszuwählen. Wenn du es nicht geändert hast, wird es "Figur1" sein.
 
 ```blocks3
-    when green flag clicked
-    set rotation style [left-right v]
-    forever 
-        move (10) steps
-        turn cw (pick random (1) to (10)) degrees
-        wait (0.5) secs
-        if on edge, bounce
-+        if <touching [Sprite1 v] ?> then
-    end
+    Wenn die grüne Flagge angeklickt
+    setze Drehtyp auf [links-rechts v]
+    wiederhole fortlaufend 
+         gehe (10) er Schritt
+         drehe dich nach rechts um (Zufallszahl von (1) bis (10)) Grad
+         warte (0.5) Sekunden
+         pralle vom Rand ab
++          falls <touching [Sprite1 v] ?>, dann
+   Ende
 ```
 
 \--- /task \---
@@ -26,57 +26,58 @@ Drag the `touching...`{:class="block3sensing"} block into the space at the top o
 
 ## Titel: Wie funktioniert das?
 
-The `if...then`{:class="block3control"} **Control** block needs to be given a `True/False` value.
+Der `wenn...dann`{:class="block3control"} **Steuerungs-** Block muss einen `Wahr / Falsch` Wert erhalten.
 
-**Sensing** blocks collect information, like where the sprite is, what it’s touching, etc. You're using this block:
+**Fühlen** - Blöcke sammeln Informationen, z. B. wo sich die Figur befindet, was sie berührt, usw. So verwendest du diesen Block:
 
 ```blocks3
     <touching [Sprite1 v] ?>
 ```
 
-From this block's pointy ends, you can tell it’s going to give you the `True/False` value that the `if...then`{:class="block3control"} block needs.
+An den spitzen Enden dieses Blocks erkennst du, dass du den Wert `Wahr / Falsch` erhältst, den der `wenn...dann`{:class="block3control"} - Block benötigt.
 
 \--- /collapse \---
 
-Of course, you’ve just added an `if...then`{:class="block3control"} block without adding anything for the 'then' part. So at the moment your script is checking whether the fish sprite is touching the shark sprite, but it's not making anything happen in response.
+Natürlich hast du gerade einen `wenn...dann`{:class="block3control"} - Block hinzugefügt, ohne etwas für den Dann-Teil hinzuzufügen. Im Moment prüft dein Skript, ob die Fisch-Figur die Hai-Figur berührt, aber es gibt keine Reaktion darauf.
 
-You can make the fish disappear, as if the shark ate it, by using the `hide`{:class="block3looks"} block.
+Du kannst den Fisch verschwinden lassen, als ob der Hai ihn gefressen hat, indem du den Block `versteck dich`{:class="block3looks"} verwendest.
 
-\--- task \--- Find the `hide`{:class="block3looks"} block in the **Looks** list, and put it inside the `if...then`{:class="block3control"} block, like so:
+\--- task \--- Suche den Block `versteck dich`{:class="block3looks"} in der Liste **Aussehen** und füge ihm in den Block `wenn...dann`{:class="block3control"} so hinzu:
 
 ```blocks3
-    if <touching [Sprite1 v] ?> then
-+        hide
-    end
+    falls <touching [Sprite1 v] ?> , dann 
+  + verstecke dich
+ende
 ```
 
 \--- /task \---
 
 Sobald der Hai den Fisch fängt, verschwindet der Fisch endgültig. Das ist nicht so toll.
 
-\--- task \--- Put the `show`{:class="block3looks"} block from **Looks** in at the very start of the fish code, so you can reset the game.
+\--- Aufgabe \--- Setze den `zeige dich`{:class="block3looks"} -Block aus der **Aussehen**-Palette ganz an den Anfang des Fischcodes, damit du das Spiel zurücksetzen kannst.
 
 ```blocks3
-    when green flag clicked
-+    show
-    set rotation style [left-right v]
-    forever
+    Wenn die grüne Flagge angeklickt
++   zeige dich
+   setze Drehtyp auf [links-rechtst v]
+   wiederhole fortlaufend
+   Ende
 ```
 
 \--- /task \---
 
-That's already better, but you don’t want the player to have to restart the game every time they catch a single fish!
+Das ist schon besser, aber du möchtest nicht, dass der Spieler das Spiel jedes Mal neu starten muss, wenn er einen einzelnen Fisch fängt!
 
-\--- task \--- Update the code inside your `if...then`{:class="block3control"} block to look like this:
+\--- task \--- Aktualisiere den Code in deinem `falls...dann`{:class="block3control"} - Block, um wie folgt auszusehen:
 
 ```blocks3
-    if on edge, bounce
-    if <touching [Sprite1 v] ?> then
-        hide
-+        wait (1) secs
-+        go to x: (pick random (-240) to (240)) y: (pick random (-180) to (180))
-+        show
-    end
+    pralle vom Rand ab
+   falls <touching [Sprite1 v] ?>, dann 
+      verstecke dich
++       warte (1) Sekunden
++       gehe zu x: (Zufallszahl von (-240) bis (240)) y: (Zufallszahl von (-180) bis (180))
++      zeige dich
+   Ende
 ```
 
 \--- /task \---
@@ -87,7 +88,7 @@ That's already better, but you don’t want the player to have to restart the ga
 
 Du warst richtig clever: Wenn der Fisch versteckt ist, wartet er, bewegt sich und taucht wieder auf.
 
-It looks like lots of fish keep appearing, but it’s that one sprite moving around!
+Es sieht so aus, als würden viele Fische erscheinen, aber es ist diese Figur, die sich bewegt!
 
 \--- /collapse \---
 
