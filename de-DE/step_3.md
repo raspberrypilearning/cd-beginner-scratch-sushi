@@ -63,8 +63,8 @@ Now you know how to move code around and make things happen, it's time for you t
 \--- task \--- Make sure you have the cat sprite selected in the sprite list, and then drag the following blocks into the sprite panel and connect them. You’ll find them in the **Events** and **Motion** lists.
 
 ```blocks3
-    when green flag clicked
-    move [10] steps
+    Wenn die grüne Flagge angeklickt
+  gehe [10] er Schritt
 ```
 
 \--- /task \---
@@ -73,11 +73,11 @@ Now you know how to move code around and make things happen, it's time for you t
 
 ![](images/code7.png) \--- /task \---
 
-You should see the cat walking in a straight line...not exactly what you want, right?
+Du solltest die Katze in einer geraden Linie laufen sehen... nicht genau das, was du willst, oder?
 
-Note: If you click th flag too many times and the cat walks away, you can drag it back!
+Hinweis: Wenn du zu oft auf die Flagge klickst und die Katze weggeht, kannst du sie zurückziehen!
 
-\--- task \--- Snap the turn block to the end to make the cat sprite walk in a circle. It’s in the **Motion** list too.
+\--- Aufgabe \--- Ziehe den Umdrehen-Block bis zum Ende, damit die Katze-Figur im Kreis läuft. Es ist auch in der **Bewegung** Liste.
 
 ```blocks3
     when green flag clicked
@@ -89,7 +89,7 @@ Note: If you click th flag too many times and the cat walks away, you can drag i
 
 ## \--- collapse \---
 
-## title: How does turning work?
+## Titel: Wie funktioniert das Drehen?
 
 This block makes the sprite turn 15 degrees of the full 360 degrees that make up a circle. You can change that number, and the number of steps, by clicking on the number and typing in a new value.
 
