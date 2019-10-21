@@ -84,7 +84,7 @@ The shark moves all over the screen now, but imagine this is a game: how do you 
 
 You need to get the shark to its original location when the player starts the game. They'll start this game by clicking on the green flag, so you need to change the shark sprite's x- and y-coordinates when that happens.
 
-That’s actually pretty easy! The centre of the stage is `(0, 0)` in `(x, y)` coordinates.
+Das ist eigentlich ziemlich einfach! Die Mitte der Bühne ist `(0, 0)` in `(x, y)` Koordinaten.
 
 So all you need is an **Event** block for that green flag, and the **go to** block from **Motion**.
 
@@ -105,4 +105,4 @@ Set the both the `x` and the `y` coordinate to `0` in the `go to`{:class="block3
 
 \--- /task \---
 
-\--- task \--- Now click the green flag: you should see the shark return to the centre of the stage! \--- /task \---
+\--- Aufgabe \--- Klicke jetzt auf die grüne Flagge: Du solltest sehen, wie der Hai in die Mitte der Bühne zurückkehrt! \--- /task \---
