@@ -4,7 +4,7 @@ Scratch has a library of backgrounds and sprites for you to use to make your pro
 
 \--- task \--- Select the Stage.
 
-![Selecting the stage](images/looksSelectStage.png)
+![Bühne auswählen](images/looksSelectStage.png)
 
 Click on **Backdrops**.
 
@@ -12,13 +12,13 @@ Click on **Backdrops**.
 
 Click the **Choose backdrop from library** icon.
 
-![The Choose backdrop icon](images/looksChooseBg.png)
+![Das Symbol "Hintergrund wählen"](images/looksChooseBg.png)
 
 Then pick your favourite underwater background!
 
-![An underwater scene](images/looksUnderwater.png) \--- /task \---
+![Eine Unterwasserszene](images/looksUnderwater.png) \--- /task \---
 
-Great! Of course, now you have a cat underwater, and cats aren't usually big fans of that. But you can fix that, because you can turn the cat into a shark!
+Großartig! Of course, now you have a cat underwater, and cats aren't usually big fans of that. But you can fix that, because you can turn the cat into a shark!
 
 \--- task \--- First, select the cat sprite and click on the **Costumes** tab.
 
@@ -30,7 +30,7 @@ Then, click on **Choose costume from Library**
 
 Select this shark image and click **OK**.
 
-![The shark costume](images/looksShark.png)
+![Das Hai-Kostüm](images/looksShark.png)
 
 Now remove the cat costumes by selecting each of them and clicking on the **x**.
 
