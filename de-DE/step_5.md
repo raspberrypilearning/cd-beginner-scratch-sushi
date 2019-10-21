@@ -1,6 +1,6 @@
-## Moving things around
+## Dinge bewegen
 
-Right now your shark moves in a circle, and it would be much more fun to control it with the arrow keys. On this card, you’re going learn how to do that!
+Right now your shark moves in a circle, and it would be much more fun to control it with the arrow keys. Auf dieser Karte wirst du lernen, wie das geht!
 
 \--- task \--- Start by deleting all code that you have for the shark. \--- /task \---
 
@@ -38,7 +38,7 @@ You’re going to need four of the `when key pressed`{:class="block3events"} blo
 
 \--- /task \---
 
-**Note**: `-10` means 'go back 10 steps'.
+**Hinweis**: `-10` bedeutet '10 Schritte zurück'.
 
 \--- task \--- Now click the green flag to test out your code. \--- /task \---
 
