@@ -1,59 +1,59 @@
 ## Dinge bewegen
 
-Right now your shark moves in a circle, and it would be much more fun to control it with the arrow keys. Auf dieser Karte wirst du lernen, wie das geht!
+Jetzt bewegt sich dein Hai im Kreis und es wäre viel mehr Spaß, ihn mit den Pfeiltasten zu steuern. Auf dieser Karte wirst du lernen, wie das geht!
 
-\--- task \--- Start by deleting all code that you have for the shark. \--- /task \---
+\--- Aufgabe \--- Beginne mit dem Löschen des gesamten Codes, den du für den Hai hast. \--- /task \---
 
-As you’ve probably guessed, you’re going to need **Event** and **Motion** blocks again!
+Wie du wahrscheinlich schon vermutet hast, benötigst du wieder **Ereignis** und **Bewegungs**-Blöcke!
 
-\--- task \--- This time, look for this block and drag it into the current sprite panel:
+\--- task \--- Suche diesmal nach diesem Block und ziehe ihn in das aktuelle Figuren-Panel:
 
 ```blocks3
-    when [space v] key pressed
+    Wenn Taste [Leertaste v] gedrückt wird
 ```
 
-Click the little arrow (▼) beside `space`. You will see a list of all your keyboard keys that you can pick from. \--- /task \---
+Klicke auf den kleinen Pfeil (▼) neben der `Leertaste`. Du siehst eine Liste aller Tastaturtasten, aus denen du auswählen kannst. \--- /task \---
 
-You’re going to need four of the `when key pressed`{:class="block3events"} blocks — one for each of your arrow keys.
+Du benötigst vier der `wenn Taste gedrückt wird`{:class="block3events"} Blöcke - einen für jede deiner Pfeiltasten.
 
-\--- task \--- To make your shark move, connect these blocks to **Motion** blocks like this:
-
-```blocks3
-    when [left arrow v] key pressed
-    move (-10) steps
-```
+\--- task \--- Damit sich dein Hai bewegt, verbindest du diese Blöcke mit **Bewegungs** Blöcken wie folgt:
 
 ```blocks3
-    when [right arrow v] key pressed
-    move (10) steps
+    Wenn Taste [Pfeil nach links v] gedrückt wird
+gehe (-10) er Schritt
 ```
 
 ```blocks3
-    when [up arrow v] key pressed
+    Wenn Taste [Pfeil nach rechts v] gedrückt wird
+   gehe (-10) er Schritt
 ```
 
 ```blocks3
-    when [down arrow v] key pressed
+    Wenn Taste [Pfeil nach oben v] gedrückt wird
+```
+
+```blocks3
+    Wenn Taste [Pfeil nach unten v] gedrückt wird
 ```
 
 \--- /task \---
 
 **Hinweis**: `-10` bedeutet '10 Schritte zurück'.
 
-\--- task \--- Now click the green flag to test out your code. \--- /task \---
+\--- task \--- Klicke nun auf die grüne Flagge, um deinen Code zu testen. \--- /task \---
 
-Now your shark moves back and forwards, which is pretty cool, but it doesn’t move up or down. Also, if you look through the **Motion** blocks, you’ll see there are no blocks for 'up' or 'down'. There are a whole bunch of them related to **x** and **y** coordinates though — let's try those!
+Jetzt bewegt sich dein Hai vor und zurück, was ziemlich cool ist, aber nicht nach oben oder unten. Wenn du die **Bewegung** Blöcke durchsiehst, siehst du, dass es keine Blöcke für 'hoch' oder 'runter' gibt. Es gibt jedoch eine ganze Reihe von ihnen, die sich auf die Koordinaten **x** und **y** beziehen - lass uns die ausprobieren!
 
-\--- task \--- Grab two `change y by`{:class="block3motion"} blocks, and update your code like this:
+\--- task \--- Nimm zwei `ändere y um`{:class="block3motion"}-Blöcke und aktualisiere deinen Code folgendermaßen:
 
 ```blocks3
-    when [up arrow v] key pressed
-+     change y by (10)
+    Wenn Taste [Pfeil nach oben v] gedrückt wird
++    ändere y um (10)
 ```
 
 ```blocks3
-    when [down arrow v] key pressed
-+     change y by (-10)
+    Wenn Taste [Pfeil nach unten v] gedrückt wird
++    ändere y um (-10)
 ```
 
 \--- /task \---
@@ -64,44 +64,44 @@ Now when you press the arrows keys, the shark moves all around the stage!
 
 ## Titel: Wie funktionieren X- und Y-Koordinaten?
 
-To talk about the positions of objects, such as sprites, we often use x- and y-coordinates. The **x-axis** of the Stage coordinate system runs from **left to right**, and the **y-axis** runs from **bottom to top**.
+Um über die Positionen von Objekten wie Figuren zu sprechen, verwenden wir häufig X- und Y-Koordinaten. Die **x-Achse** des Bühnen-Koordinatensystems verläuft von **links nach rechts**und die **y-Achse** von **unten nach oben**.
 
 ![](images/moving3.png)
 
 Ein Sprite kann durch die Koordinaten seines Mittelpunkts lokalisiert werden, zum Beispiel `(15, -27)`, wobei `15` seine Position entlang der x-Achse und `27` seine Position entlang der y-Achse ist.
 
-+ To get a feel for how this actually works, select a sprite and use the **x** and **y** controls to move it around the stage by setting different values for the coordinates.
++ Um ein Gefühl für die tatsächliche Funktionsweise zu erhalten, wähle eine Figur aus und verschiebe sie mit den Steuerelementen **x** und **y** auf der Bühne, indem du verschiedene Werte für die Koordinaten festlegst.
 
 ![](images/xycoords.png)
 
-+ Try different pairs of values to see where the sprite goes! In Scratch geht die x-Achse von `-240` bis `240`und die y-Achse von `-180` bis `180`.
++ Probiere verschiedene Wertepaare aus, um zu sehen, wohin die Figur geht! In Scratch geht die x-Achse von `-240` bis `240`und die y-Achse von `-180` bis `180`.
 
 \--- /collapse \---
 
 ### Spiel neu starten
 
-The shark moves all over the screen now, but imagine this is a game: how do you restart it, and what happens at the start of each game?
+Der Hai bewegt sich jetzt über den gesamten Bildschirm, aber stelle dir vor, es handelt sich um ein Spiel: Wie startest du es neu und was passiert zu Beginn jedes Spiels?
 
-You need to get the shark to its original location when the player starts the game. They'll start this game by clicking on the green flag, so you need to change the shark sprite's x- and y-coordinates when that happens.
+Du musst den Hai an seinen ursprünglichen Ort bringen, wenn der Spieler das Spiel startet. Du startest dieses Spiel, indem du auf die grüne Flagge klickst. In diesem Fall musst du die X- und Y-Koordinaten der Hai-Figur ändern.
 
 Das ist eigentlich ziemlich einfach! Die Mitte der Bühne ist `(0, 0)` in `(x, y)` Koordinaten.
 
-So all you need is an **Event** block for that green flag, and the **go to** block from **Motion**.
+Du brauchen also nur einen **Ereignis**-Block für diese grüne Flagge, und einen **Gehe zu**-Block von **Bewegung**.
 
-\--- task \--- Drag a `when green flag clicked`{:class="block3events"} **Event** block onto the current sprite panel.
-
-```blocks3
-    when green flag clicked
-```
-
-Then find the `go to`{:class="block3motion"} **Motion** block, and attach it to your flag **Event** block.
+\--- task \--- Ziehe eine `wenn die grüne Flagge angeklickt`{:class="block3events"} **Ereignis**-Block, auf das aktuelle Figuren-Panel.
 
 ```blocks3
-    when green flag clicked
-+     go to x: (0) y: (0)
+    Wenn die grüne Flagge angeklickt
 ```
 
-Set the both the `x` and the `y` coordinate to `0` in the `go to`{:class="block3motion"} block if they are not already `0`.
+Suche dann den `Gehe zu`{:class="block3motion"} **Bewegung** Block und hänge ihn an den **Ereignis** Block an.
+
+```blocks3
+    Wenn die grüne Flagge angeklickt
++  gehe zu x: (0) y: (0)
+```
+
+Setze sowohl die `x` als auch die `y` -Koordinate auf `0` im `Gehe zu`{:class="block3motion"}-Block, wenn sie nicht bereits `0` sind.
 
 \--- /task \---
 
