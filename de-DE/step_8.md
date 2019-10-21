@@ -24,7 +24,7 @@ Drag the `touching...`{:class="block3sensing"} block into the space at the top o
 
 ## \--- collapse \---
 
-## title: How does it work?
+## Titel: Wie funktioniert das?
 
 The `if...then`{:class="block3control"} **Control** block needs to be given a `True/False` value.
 
@@ -52,7 +52,7 @@ You can make the fish disappear, as if the shark ate it, by using the `hide`{:cl
 
 \--- /task \---
 
-Now once the shark catches the fish, the fish disappears for good. That’s not great.
+Sobald der Hai den Fisch fängt, verschwindet der Fisch endgültig. Das ist nicht so toll.
 
 \--- task \--- Put the `show`{:class="block3looks"} block from **Looks** in at the very start of the fish code, so you can reset the game.
 
