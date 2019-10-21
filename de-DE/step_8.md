@@ -83,12 +83,12 @@ That's already better, but you don’t want the player to have to restart the ga
 
 ## \--- collapse \---
 
-## title: How does this work?
+## Titel: Wie funktioniert das?
 
-You are being clever here: when the fish is hidden, it waits, moves, and then shows up again.
+Du warst richtig clever: Wenn der Fisch versteckt ist, wartet er, bewegt sich und taucht wieder auf.
 
 It looks like lots of fish keep appearing, but it’s that one sprite moving around!
 
 \--- /collapse \---
 
-That’s a game! But there’s no way to keep score yet, or to win. You can fix that too — on the next card!
+Das ist ein Spiel! Aber es gibt noch keine Möglichkeit, Punkte zu halten oder zu gewinnen. Das kannst du auch beheben - auf der nächsten Karte!
