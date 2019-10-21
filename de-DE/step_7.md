@@ -147,7 +147,7 @@ It’s better, but there’s still too much of a pattern. It needs to be more ra
 
 The forever block now makes the fish sprite do four things in order:
 
-1. Move forward
+1. Vorwärts gehen
 2. Turn a little bit
 3. Wait briefly
 4. Check whether it's at the edge of the Stage
@@ -156,4 +156,4 @@ Once the sprite has done the check, it will start at the beginning of the loop a
 
 \--- /collapse \---
 
-Cool! Next up: catching that fish!
+Cool! Als nächstes: den Fisch fangen!
