@@ -10,21 +10,21 @@ You will find all blocks in the **code blocks palette**, sorted into different c
 
 ## title: Verwenden von Blöcken aus den verschiedenen Kategorien
 
-Click on a category name to see the blocks in that category. Here, the **Motion** category is selected:
+Klicke auf einen Kategorienamen, um die Blöcke in dieser Kategorie anzuzeigen. Hier wird die Kategorie **Bewegung** ausgewählt:
 
 ![](images/code2a.png)
 
-All of the blocks in the category you've clicked are shown in a list:
+Alle Blöcke in der Kategorie, auf die du geklickt hast, werden in einer Liste angezeigt:
 
 ![](images/code2b.png)
 
-You can click on the blcok you want, and then just drag it into the current sprite panel and let go. Once it's in the panel, you can move it around and connect it to other blocks.
+Du kannst auf den gewünschten Block klicken, ihn dann in das aktuelle Figuren-Panel ziehen und loslassen. Sobald es sich im Panel befindet, kannst du es verschieben und mit anderen Blöcken verbinden.
 
 \--- /collapse \---
 
-If you want to see what a block does, you can double-click on it to make it run!
+Wenn du sehen möchtest, was ein Block macht, kannst du ihn mit einem Doppelklick ausführen!
 
-\--- task \--- Try double-clicking on some of the blocks to see what they do. \--- /task \---
+\--- task \--- Doppelklicke auf einige Blöcke, um zu sehen, was sie tun. \--- /task \---
 
 ## \--- collapse \---
 
@@ -33,12 +33,12 @@ If you want to see what a block does, you can double-click on it to make it run!
 Normalerweise soll dein Code automatisch ausgeführt werden, wenn etwas bestimmtes passiert. This is why many of your programs will start with a block from the **Events** category, most often this one:
 
 ```blocks3
-    when green flag clicked
+    wenn die grüne flagge angeklickt
 ```
 
 The code blocks connected to this block will run after the **green flag** is clicked.
 
-Code blocks run from top to bottom, so the order in which you snap your blocks together matters. In this example, the sprite will `say`{:class="block3looks"} `Hello!` before it will `play`{:class="block3sound"} the `meow` sound.
+Codeblöcke laufen von oben nach unten, daher ist die Reihenfolge wichtig, in der du deine Blöcke zusammenfügst. In diesem Beispiel `sagt` die Figur {:class="block3looks"} `Hallo!` bevor der `Miau` Ton {class="block3sound"} `abgespielt` wird.
 
 ```blocks3
     when green flag clicked
