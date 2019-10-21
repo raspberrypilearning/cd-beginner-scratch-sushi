@@ -63,7 +63,7 @@ The fish moves now, but you need it to bounce off the edge of the Stage too. Yet
 
 ## \--- collapse \---
 
-## title: What does the new block do?
+## Titel: Was macht der neue Block?
 
 The `if on edge bounce`{:class="block3motion"} block checks if the sprite is touching the edge of the Stage and, if it is, it turns left, right, up, or down as appropriate.
 
@@ -108,9 +108,9 @@ It’s better, but there’s still too much of a pattern. It needs to be more ra
 
 ## \--- collapse \---
 
-## title: What's an operator?
+## Titel: Was ist ein Operator?
 
-**Operators** take in one or more values (like numbers, text, or `True/False` values) and give back a single value. You can tell the kind of value it will give back by the shape of the block: round ends give numbers or text, pointy ends give `True/False`.
+**Operatoren** nehmen einen oder mehrere Werte auf (wie Zahlen, Text oder `True / False` Werte) und geben einen einzelnen Wert zurück. You can tell the kind of value it will give back by the shape of the block: round ends give numbers or text, pointy ends give `True/False`.
 
 ```blocks3
     (() + ())
