@@ -32,7 +32,7 @@ Well, that fish just crashed into the side of the Stage, and it was moving far t
 First, you need to slow the fish down. That’s actually pretty easy, you just need it to wait for a little while after it moves those 10 steps. There’s a **Control** block that will help you here:
 
 ```blocks3
-    wait (1) secs
+    warte (1) sek
 ```
 
 \--- task \--- Add the `wait`{:class="block3control"} block into your code inside the `forever`{:class="block3control"} block, and change the number to `0.5`, like this:
@@ -49,9 +49,9 @@ First, you need to slow the fish down. That’s actually pretty easy, you just n
 
 ## \--- collapse \---
 
-## title: Making adjustments
+## Titel: Anpassungen vornehmen
 
-The number you set in the `wait`{:class="block3control"} block says how many **seconds** you want the fish to wait. `0.5` is half a second.
+The number you set in the `wait`{:class="block3control"} block says how many **seconds** you want the fish to wait. `0,5` ist eine halbe Sekunde.
 
 You can test out different values to see which is the best for the game. And remember that you can change the number of steps inside the `move`{:class="block3motion"} block too!
 
