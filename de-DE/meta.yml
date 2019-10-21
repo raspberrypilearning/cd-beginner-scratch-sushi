@@ -1,38 +1,38 @@
 ---
-title: Deep sea sushi
+title: Tiefsee-Sushi
 hero_image: images/banner.png
-description: Make a fun game in your first Scratch program!
+description: Mach ein lustiges Spiel in deinem ersten Scratch-Programm!
 theme: orange #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
 duration: 2
 listed: true
 ingredient: false
 copyedit: true
 curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
-interests: animals, humour, outdoors, games
+interests: Tiere, Humor, draußen, Spiele
 technologies: scratch
-site_areas: coderdojo
+site_areas: Coderdojo
 software: scratch
 version: 4.0.0
 last_tested: 2017-01-01
 steps:
   - 
-    title: Introduction
+    title: Einleitung
   - 
-    title: Getting set up
+    title: Erste Schritte
   - 
-    title: Adding and removing code blocks
+    title: Codeblöcke hinzufügen und entfernen
   - 
-    title: Setting the scene
+    title: Szene einstellen
   - 
-    title: Moving things around
+    title: Dinge bewegen
   - 
-    title: All the sprites
+    title: Alle Figuren
   - 
-    title: Remote-control fish
+    title: Ferngesteuerte Fische
   - 
-    title: Fishing!
+    title: Angeln!
   - 
-    title: Keeping score
+    title: Mitzählen
   - 
-    title: "Challenge: winning the game"
+    title: "Herausforderung: das Spiel gewinnen"
     challenge: true
