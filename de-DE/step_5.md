@@ -62,23 +62,23 @@ Now when you press the arrows keys, the shark moves all around the stage!
 
 ## \--- collapse \---
 
-## title: How do x- and y-coordinates work?
+## Titel: Wie funktionieren X- und Y-Koordinaten?
 
 To talk about the positions of objects, such as sprites, we often use x- and y-coordinates. The **x-axis** of the Stage coordinate system runs from **left to right**, and the **y-axis** runs from **bottom to top**.
 
 ![](images/moving3.png)
 
-A sprite can be located by the coordinates of its centre, for example `(15, -27)`, where `15` is its position along the x-axis , and `-27` its position along the y-axis.
+Ein Sprite kann durch die Koordinaten seines Mittelpunkts lokalisiert werden, zum Beispiel `(15, -27)`, wobei `15` seine Position entlang der x-Achse und `27` seine Position entlang der y-Achse ist.
 
 + To get a feel for how this actually works, select a sprite and use the **x** and **y** controls to move it around the stage by setting different values for the coordinates.
 
 ![](images/xycoords.png)
 
-+ Try different pairs of values to see where the sprite goes! In Scratch, the x-axis goes from `-240` to `240`, and the y-axis goes from `-180` to `180`.
++ Try different pairs of values to see where the sprite goes! In Scratch geht die x-Achse von `-240` bis `240`und die y-Achse von `-180` bis `180`.
 
 \--- /collapse \---
 
-### Restarting the game
+### Spiel neu starten
 
 The shark moves all over the screen now, but imagine this is a game: how do you restart it, and what happens at the start of each game?
 
