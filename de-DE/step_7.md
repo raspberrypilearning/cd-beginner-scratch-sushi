@@ -1,4 +1,4 @@
-## Remote-control fish
+## Ferngesteuerte Fische
 
 Ok, now it's time to make the fish swim on its own. To do this, you’re going to need a new kind of block: a **Control** block.
 
@@ -17,15 +17,15 @@ Drag a `when green flag clicked`{:class="block3events"} **Event** block, a `fore
 
 ## \--- collapse \---
 
-## title: What does the new block do?
+## Titel: Was macht der neue Block?
 
 **Control** blocks make your program do things a certain number of times, or under certain conditions.
 
 Here, the fish does whatever is inside the `forever`{:class="block3control"} block over and over again on a loop, forever. So once it has done the last thing (block) inside the `forever`{:class="block3control"} block, it starts over at the top and does everything again, and so on.
 
-\--- /collapse \---
+\--- /collapse\---
 
-\--- task \--- Now click the green flag and watch what happens! \--- /task \---
+\--- Aufgabe \--- Klicke jetzt auf die grüne Flagge und schau, was passiert! \--- /task \---
 
 Well, that fish just crashed into the side of the Stage, and it was moving far too fast for your shark to catch.
 
