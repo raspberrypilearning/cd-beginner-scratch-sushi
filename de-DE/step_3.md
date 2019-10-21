@@ -1,10 +1,10 @@
-## Adding and removing code blocks
+## Codeblöcke hinzufügen und entfernen
 
-Great! Du hast dein allererstes Scratch-Programm geschrieben. Zeit, etwas mehr darüber zu lernen, wie Code in Scratch ein- und ausgeblendet wird! Der Scratch-Code besteht aus **Blöcken** wie diesen:
+Großartig! Du hast dein allererstes Scratch-Programm geschrieben. Zeit, etwas mehr darüber zu lernen, wie Code in Scratch ein- und ausgeblendet wird! Der Scratch-Code besteht aus **Blöcken** wie diesen:
 
 ![](images/code1.png)
 
-You will find all blocks in the **code blocks palette**, sorted into different categories according to what they do.
+Du findest alle Blöcke in der **Codeblock-Palette**, sortiert nach verschiedenen Kategorien.
 
 ## \--- collapse \---
 
@@ -30,37 +30,37 @@ Wenn du sehen möchtest, was ein Block macht, kannst du ihn mit einem Doppelklic
 
 ## title: Den Code ausführen
 
-Normalerweise soll dein Code automatisch ausgeführt werden, wenn etwas bestimmtes passiert. This is why many of your programs will start with a block from the **Events** category, most often this one:
+Normalerweise soll dein Code automatisch ausgeführt werden, wenn etwas bestimmtes passiert. Aus diesem Grund beginnen viele deiner Programme mit einem Block aus der Kategorie **Ereignisse**, meistens dieser:
 
 ```blocks3
     wenn die grüne flagge angeklickt
 ```
 
-The code blocks connected to this block will run after the **green flag** is clicked.
+Die mit diesem Block verbundenen Codeblöcke werden ausgeführt, nachdem die grüne **Flagge** angeklickt wurde.
 
 Codeblöcke laufen von oben nach unten, daher ist die Reihenfolge wichtig, in der du deine Blöcke zusammenfügst. In diesem Beispiel `sagt` die Figur {:class="block3looks"} `Hallo!` bevor der `Miau` Ton {class="block3sound"} `abgespielt` wird.
 
 ```blocks3
-    when green flag clicked
-    say [Hello]
-    play sound [meow v]
+    Wenn die grüne Flagge angeklickt
+sage [Hallo]
+spiele Klang [Miau v]
 ```
 
 \--- /collapse \---
 
-Removing or deleting code blocks you don’t want in your program is easy! Just drag them back into the code blocks palette.
+Das Entfernen oder Löschen von Codeblöcken, die du nicht in deinen Programm haben möchtest, ist einfach! Ziehen es es einfach zurück in die Codeblock-Palette.
 
-**Be careful:** dragging them into the code blocks pallette will delete all the blocks connected to the block you drag, so make sure to separate code blocks you want to keep from those you want to remove. If you delete some code blocks by accident and want to get them back, right-click and then click on the **undo** option to get everything back.
+**Sei vorsichtig:** Wenn du sie in die Palette ziehst, werden alle Blöcke, die mit dem von dir gezogenen Block verbunden sind, gelöscht. Achte darauf, die Codeblöcke, die du entfernen möchtest, von den zu behalten willst, zu trennen. Wenn du einige Codeblöcke versehentlich gelöscht hast und sie zurückbekommen möchtest, klicke mit der rechten Maustaste, und klicke dann auf die Option **Rückgängig**, um alles wiederherzustellen.
 
 ![](images/code6.png)
 
-\--- task \--- Try adding, deleting, and undeleting some code blocks! \--- /task \---
+\--- task \--- Versuche, einige Codeblöcke hinzuzufügen, zu löschen und wiederherzustellen! \--- /task \---
 
 ### Putting it all together
 
-Now you know how to move code around and make things happen, it's time for you to create a program to make the Scratch Cat walk in a circle!
+Jetzt weißt du, wie du Code verschieben und Dinge in Bewegung setzen kannst. Jetzt ist es an der Zeit, ein Programm zu erstellen, mit dem die Scratch Katze im Kreis laufen kann!
 
-\--- task \--- Make sure you have the cat sprite selected in the sprite list, and then drag the following blocks into the sprite panel and connect them. You’ll find them in the **Events** and **Motion** lists.
+\--- task \--- Vergewissere dich, dass die Figur Katze in der Figuren-Liste ausgewählt ist, und ziehe die folgenden Blöcke in das Figuren-Fenster, und verbinde sie. Du findest sie in den **Ereignissen** und **Bewegung** Listen.
 
 ```blocks3
     Wenn die grüne Flagge angeklickt
@@ -69,7 +69,7 @@ Now you know how to move code around and make things happen, it's time for you t
 
 \--- /task \---
 
-\--- task \--- Now, click on the green flag above the Stage.
+\--- Aufgabe \--- Klicke jetzt auf die grüne Flagge über der Bühne.
 
 ![](images/code7.png) \--- /task \---
 
@@ -80,9 +80,9 @@ Hinweis: Wenn du zu oft auf die Flagge klickst und die Katze weggeht, kannst du 
 \--- Aufgabe \--- Ziehe den Umdrehen-Block bis zum Ende, damit die Katze-Figur im Kreis läuft. Es ist auch in der **Bewegung** Liste.
 
 ```blocks3
-    when green flag clicked
-    move [10] steps
-+    turn cw (15) degrees
+    Wenn die grüne Flagge angeklickt
+    gehe [10] er Schritt
++   drehe dich nach rechts um (15) Grad
 ```
 
 \--- /task \---
@@ -91,10 +91,10 @@ Hinweis: Wenn du zu oft auf die Flagge klickst und die Katze weggeht, kannst du 
 
 ## Titel: Wie funktioniert das Drehen?
 
-This block makes the sprite turn 15 degrees of the full 360 degrees that make up a circle. You can change that number, and the number of steps, by clicking on the number and typing in a new value.
+Durch diesen Block wird die Figur um 15 Grad von den vollen 360 Grad gedreht, die einen Kreis bilden. Du kannst diese Anzahl und die Anzahl der Schritte ändern, indem du auf die Anzahl klickst und einen neuen Wert eingibst.
 
 ![](images/code9.png)
 
 \--- /collapse \---
 
-\--- task \--- Now save your work! \--- /task \---
+\--- Aufgabe \--- Speichere jetzt deine Arbeit! \--- /task \---
