@@ -1,6 +1,6 @@
-## Fishing!
+## Angeln!
 
-The shark moves, the fish swims, but they don’t interact: if the fish swims right into the shark's mouth, nothing happens. Time to change that!
+Der Hai bewegt sich, der Fisch schwimmt, aber er interagiert nicht: Wenn der Fisch direkt in den Mund des Hais schwimmt, passiert nichts. Zeit das zu ändern!
 
 First, you need to know if the fish is touching the shark. For this, you'll need a **Control** block and a **Sensing** block.
 
