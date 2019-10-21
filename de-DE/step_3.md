@@ -1,6 +1,6 @@
-## Codeblöcke hinzufügen und entfernen
+## Adding and removing code blocks
 
-Großartig! You’ve written your very first Scratch program. Time to learn a little more about getting code in and out of Scratch! Scratch code is made up of **blocks** such as these:
+Great! Du hast dein allererstes Scratch-Programm geschrieben. Zeit, etwas mehr darüber zu lernen, wie Code in Scratch ein- und ausgeblendet wird! Der Scratch-Code besteht aus **Blöcken** wie diesen:
 
 ![](images/code1.png)
 
@@ -8,7 +8,7 @@ You will find all blocks in the **code blocks palette**, sorted into different c
 
 ## \--- collapse \---
 
-## title: Using blocks from the different categories
+## title: Verwenden von Blöcken aus den verschiedenen Kategorien
 
 Click on a category name to see the blocks in that category. Here, the **Motion** category is selected:
 
@@ -28,9 +28,9 @@ If you want to see what a block does, you can double-click on it to make it run!
 
 ## \--- collapse \---
 
-## title: Running the code
+## title: Den Code ausführen
 
-Usually, you want your code to run automatically whenever something specific happens. This is why many of your programs will start with a block from the **Events** category, most often this one:
+Normalerweise soll dein Code automatisch ausgeführt werden, wenn etwas bestimmtes passiert. This is why many of your programs will start with a block from the **Events** category, most often this one:
 
 ```blocks3
     when green flag clicked
