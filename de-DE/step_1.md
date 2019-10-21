@@ -1,6 +1,6 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. Es gibt auch eine [Scratch 2-Version des Projekts](https://projects.raspberrypi.org/en/projects/cd-beginner-scratch-sushi-scratch2).
+Dies ist die **Scratch 3** Version des Projekts. Es gibt auch eine [Scratch 2-Version des Projekts](https://projects.raspberrypi.org/en/projects/cd-beginner-scratch-sushi-scratch2).
 
 \--- /no-print \---
 
@@ -25,7 +25,7 @@ Drücken die grüne Flagge, um das Spiel zu starten. Bewege den Hai mit den Pfei
 ## title: Was du lernen wirst
 
 + Codeblöcke hinzufügen und löschen
-+ Basic motion: move in steps, and turn by degrees
++ Grundbewegung: Bewege und drehe dich um einige Grad
 + Tastatursteuerung verwenden
 + Verwenden von (x, y) -Koordinaten zum Positionieren von Figuren
 + Ändern des Erscheinungsbildes der Bühne und der Figuren mit Kostümen und Anzeigen / Ausblenden - Befehlen
