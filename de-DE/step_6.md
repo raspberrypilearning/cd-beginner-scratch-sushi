@@ -44,9 +44,9 @@ The `point in direction`{:class="block3motion"} block lets you pick the directio
 
 \--- task \--- Change the number of steps in the `move`{:class="block3motion"} blocks from `-10` to `10`.
 
-If you try moving the shark around now after you've added the `point in direction`{:class="block3motion"} blocks, you might notice something a little strange happening. The shark may not be turning quite right!
+If you try moving the shark around now after you've added the `point in direction`{:class="block3motion"} blocks, you might notice something a little strange happening. Der Hai dreht sich möglicherweise nicht ganz richtig!
 
-![Upside down shark](images/spritesUpsideDown.png)
+![Umgedrehter Hai](images/spritesUpsideDown.png)
 
 \--- /task \---
 
