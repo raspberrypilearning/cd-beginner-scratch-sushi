@@ -1,39 +1,39 @@
-## Setting the scene
+## Einrichten der Szene
 
-Scratch has a library of backgrounds and sprites for you to use to make your project look awesome.
+Scratch verfügt über eine Bibliothek mit Hintergründen und Figuren, mit denen du dein Projekt fantastisch aussehen lassen kannst.
 
-\--- task \--- Select the Stage.
+\--- Aufgabe \--- Wähle die Bühne aus.
 
 ![Bühne auswählen](images/looksSelectStage.png)
 
-Click on **Backdrops**.
+Klicke auf **Hintergründe**.
 
-![The Backdrops tab](images/looksBackdrops.png)
+![Die Registerkarte "Hintergründe"](images/looksBackdrops.png)
 
-Click the **Choose backdrop from library** icon.
+Klicke auf das Symbol **Hintergrund aus Bibliothek auswählen**.
 
 ![Das Symbol "Hintergrund wählen"](images/looksChooseBg.png)
 
-Then pick your favourite underwater background!
+Dann wähle deinen Lieblingsunterwasserhintergrund aus!
 
 ![Eine Unterwasserszene](images/looksUnderwater.png) \--- /task \---
 
-Großartig! Of course, now you have a cat underwater, and cats aren't usually big fans of that. But you can fix that, because you can turn the cat into a shark!
+Großartig! Natürlich hast du jetzt eine Katze unter Wasser und Katzen sind normalerweise keine großen Fans davon. Aber das kannst du reparieren, weil du die Katze in einen Hai verwandeln kannst!
 
-\--- task \--- First, select the cat sprite and click on the **Costumes** tab.
+\--- task \--- Wähle zuerst die Katzenfigur aus und klicke auf die Registerkarte **Kostüme**.
 
 ![](images/cool2.png)
 
-Then, click on **Choose costume from Library**
+Klicke dann auf **Kostüm aus Bibliothek auswählen**
 
 ![](images/cool3.png)
 
-Select this shark image and click **OK**.
+Wähle dieses Hai-Bild aus und klicke auf **OK**.
 
 ![Das Hai-Kostüm](images/looksShark.png)
 
-Now remove the cat costumes by selecting each of them and clicking on the **x**.
+Entferne nun die Katzenkostüme, indem du sie auswählst und auf **x**klickst.
 
 ![](images/coolDeleteCostumes.png) \--- /task \---
 
-Now you have a shark – excellent!
+Jetzt hast du einen Hai - ausgezeichnet!
