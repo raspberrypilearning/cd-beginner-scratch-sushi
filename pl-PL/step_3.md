@@ -1,34 +1,34 @@
-## Adding and removing code blocks
+## Dodawanie i usuwanie bloków kodu
 
-Great! You’ve written your very first Scratch program. Time to learn a little more about getting code in and out of Scratch! Scratch code is made up of **blocks** such as these:
+Świetnie! Napisałaś swój pierwszy program w Scratch. Czas dowiedzieć się nieco więcej o wprowadzaniu i usuwaniu kodu w Scratch! Kod w Scratch składa się z **bloków** takich jak te:
 
 ![](images/code1.png)
 
-You will find all blocks in the **code blocks palette**, sorted into different categories according to what they do.
+Znajdziesz tu wszystkie bloki w **palecie bloków kodu**, podzielone na różne kategorie w zależności od tego, co robią.
 
 ## \--- collapse \---
 
-## title: Using blocks from the different categories
+## title: Używanie bloków z różnych kategorii
 
-Click on a category name to see the blocks in that category. Here, the **Motion** category is selected:
+Kliknij na nazwę kategorii, aby zobaczyć bloki w tej kategorii. Tutaj wybrana jest kategoria **Ruch**:
 
 ![](images/code2a.png)
 
-All of the blocks in the category you've clicked are shown in a list:
+Wszystkie bloki w klikniętej kategorii są wyświetlane na liście:
 
 ![](images/code2b.png)
 
-You can click on the blcok you want, and then just drag it into the current sprite panel and let go. Once it's in the panel, you can move it around and connect it to other blocks.
+Możesz kliknąć dowolny blok, a następnie przeciągnąć go do panelu bieżącego duszka i upuścić go. Po umieszczeniu go w panelu możesz go przenosić i łączyć z innymi blokami.
 
 \--- /collapse \---
 
-If you want to see what a block does, you can double-click on it to make it run!
+Jeśli chcesz zobaczyć, co robi blok, kliknij go dwukrotnie, aby go uruchomić!
 
-\--- task \--- Try double-clicking on some of the blocks to see what they do. \--- /task \---
+\--- task \--- Spróbuj dwukrotnie kliknąć na niektóre bloki, aby zobaczyć, co robią. \--- /task \---
 
 ## \--- collapse \---
 
-## title: Running the code
+## title: Uruchamianie kodu
 
 Usually, you want your code to run automatically whenever something specific happens. This is why many of your programs will start with a block from the **Events** category, most often this one:
 
