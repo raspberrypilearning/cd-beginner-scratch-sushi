@@ -1,80 +1,80 @@
-## Moving things around
+## Poruszanie rzeczami
 
-Right now your shark moves in a circle, and it would be much more fun to control it with the arrow keys. On this card, you’re going learn how to do that!
+W tej chwili twój rekin porusza się w kółko, ale kontrolowanie go za pomocą klawiszy strzałek byłoby o wiele przyjemniejsze. Na tej karcie dowiesz się, jak to zrobić!
 
-\--- task \--- Start by deleting all code that you have for the shark. \--- /task \---
+\--- task \--- Zacznij od usunięcia całego kodu, który masz dla rekina. \--- /task \---
 
-As you’ve probably guessed, you’re going to need **Event** and **Motion** blocks again!
+Jak pewnie się domyśliłaś, będziesz potrzebowała ponownie bloków **Zdarzenia** i **Ruch**!
 
-\--- task \--- This time, look for this block and drag it into the current sprite panel:
+\--- task \--- Tym razem poszukaj tego bloku i przeciągnij go do panelu bieżącego duszka:
 
 ```blocks3
-    when [space v] key pressed
+    kiedy klawisz [spacja v] naciśnięty
 ```
 
-Click the little arrow (▼) beside `space`. You will see a list of all your keyboard keys that you can pick from. \--- /task \---
+Kliknij małą strzałkę (▼) obok `spacji`. Zobaczysz listę wszystkich klawiszy, które możesz wybrać. \--- /task \---
 
-You’re going to need four of the `when key pressed`{:class="block3events"} blocks — one for each of your arrow keys.
+Będziesz potrzebowała czterech bloków `kiedy klawisz jest naciśnięty`{:class="block3events"} - po jednym dla każdego ze strzałek.
 
-\--- task \--- To make your shark move, connect these blocks to **Motion** blocks like this:
-
-```blocks3
-    when [left arrow v] key pressed
-    move (-10) steps
-```
+\--- task \--- Aby twój rekin się poruszył, połącz te bloki z blokami **Ruch** ten sposób:
 
 ```blocks3
-    when [right arrow v] key pressed
-    move (10) steps
+    kiedy klawisz [strzałka w lewo v] naciśnięty
+    przesuń o (-10) kroków
 ```
 
 ```blocks3
-    when [up arrow v] key pressed
+    kiedy klawisz [strzałka w prawo v] naciśnięty
+    przesuń o (10) kroków
 ```
 
 ```blocks3
-    when [down arrow v] key pressed
-```
-
-\--- /task \---
-
-**Note**: `-10` means 'go back 10 steps'.
-
-\--- task \--- Now click the green flag to test out your code. \--- /task \---
-
-Now your shark moves back and forwards, which is pretty cool, but it doesn’t move up or down. Also, if you look through the **Motion** blocks, you’ll see there are no blocks for 'up' or 'down'. There are a whole bunch of them related to **x** and **y** coordinates though — let's try those!
-
-\--- task \--- Grab two `change y by`{:class="block3motion"} blocks, and update your code like this:
-
-```blocks3
-    when [up arrow v] key pressed
-+     change y by (10)
+    kiedy klawisz [strzałka w górę v] naciśnięty
 ```
 
 ```blocks3
-    when [down arrow v] key pressed
-+     change y by (-10)
+    kiedy klawisz [strzałka w dół v] naciśnięty
 ```
 
 \--- /task \---
 
-Now when you press the arrows keys, the shark moves all around the stage!
+**Uwaga**: `-10` oznacza „cofnij o 10 kroków”.
+
+\--- task \--- Kliknij zieloną flagę, aby przetestować swój kod. \--- /task \---
+
+Teraz twój rekin porusza się do tyłu i do przodu, co jest całkiem fajne, ale nie porusza się w górę ani w dół. Ponadto, jeśli spojrzysz na bloki **Ruch**, zobaczysz, że nie ma żadnych bloków dla ruchu „w górę” lub „w dół”. Istnieje jednak wiele związanych ze współrzędnymi **x** i **y** - spróbujmy je wykorzystać!
+
+\--- task \--- Złap dwa bloki `zmień y o`{:class="block3motion"} i zaktualizuj swój kod tak:
+
+```blocks3
+    kiedy klawisz [strzałka w górę v] naciśnięty
++ zmień y o (10)
+```
+
+```blocks3
+    kiedy klawisz [strzałka w dół v] naciśnięty
++ zmień y o (-10)
+```
+
+\--- /task \---
+
+Teraz, gdy naciśniesz klawisze strzałek, rekin porusza się po scenie!
 
 ## \--- collapse \---
 
-## title: How do x- and y-coordinates work?
+## title: Jak działają współrzędne X i Y?
 
-To talk about the positions of objects, such as sprites, we often use x- and y-coordinates. The **x-axis** of the Stage coordinate system runs from **left to right**, and the **y-axis** runs from **bottom to top**.
+Aby mówić o pozycjach obiektów, takich jak duszki, często używamy współrzędnych x i y. **Oś x** układu współrzędnych sceny biegnie od **lewej do prawej**, a **oś y** biegnie od **dołu do góry**.
 
 ![](images/moving3.png)
 
-A sprite can be located by the coordinates of its centre, for example `(15, -27)`, where `15` is its position along the x-axis , and `-27` its position along the y-axis.
+Duszek może być umieszczony za pomocą współrzędnych jego środka, na przykład `(15, -27)`, gdzie `15` jest jego pozycją wzdłuż osi x a `-27` to jego położenie wzdłuż osi y.
 
-+ To get a feel for how this actually works, select a sprite and use the **x** and **y** controls to move it around the stage by setting different values for the coordinates.
++ Aby przekonać się, jak to na prawdę działa, wybierz duszka i użyj elementów sterujących **x** i **y**, aby przesuwać go po scenie, ustawiając różne wartości współrzędnych.
 
 ![](images/xycoords.png)
 
-+ Try different pairs of values to see where the sprite goes! In Scratch, the x-axis goes from `-240` to `240`, and the y-axis goes from `-180` to `180`.
++ Wypróbuj różne pary wartości, aby zobaczyć, gdzie idzie duszek! In Scratch, the x-axis goes from `-240` to `240`, and the y-axis goes from `-180` to `180`.
 
 \--- /collapse \---
 
