@@ -1,33 +1,33 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/cd-beginner-scratch-sushi-scratch2).
+To jest wersja projektu korzystająca z **Scratch 3**. Istnieje również [wersja tego projektu dla Scratch 2](https://projects.raspberrypi.org/en/projects/cd-beginner-scratch-sushi-scratch2).
 
 \--- /no-print \---
 
-## Introduction
+## Wprowadzenie
 
-These Sushi Cards are going to help you learn to create computer programs in Scratch!
+Te karty Sushi pomogą Ci nauczyć się tworzyć programy komputerowe w Scratch!
 
-### What you will make
+### Co będziesz robił
 
-You will make a game where you move a shark around to try and catch fish.
+Stworzysz grę, w której poruszasz rekinem, aby złapał rybę.
 
-Here's an example of how your finished game might look:
+Oto przykład, jak może wyglądać Twoja gotowa gra:
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/205355052/?autostart=false" frameborder="0"></iframe>
 </div>
 
-Press the green flag to start the game. Use the arrow keys to move the shark around and catch the fish.
+Naciśnij zieloną flagę, aby rozpocząć grę. Użyj klawiszy strzałek, aby przesunąć rekina i złapać rybę.
 
 ## \--- collapse \---
 
-## title: What you will learn
+## title: Czego się nauczysz
 
-+ Adding and deleting code blocks
-+ Basic motion: move in steps, and turn by degrees
-+ Using keyboard controls
-+ Using (x, y) coordinates to position sprites
++ Dodawania i usuwania bloków kodu
++ Podstawowego ruchu: poruszania się krokami i obracania o stopnie
++ Korzystania z klawiatury
++ Używania współrzędnych (x, y) do przestawiania duszków
 + Changing the look of the Stage and of sprites with costumes and show/hide commands
 + Having multiple sprites on screen
 + Using `forever`{:class="block3control"} loops
