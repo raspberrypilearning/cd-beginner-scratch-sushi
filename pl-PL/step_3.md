@@ -89,12 +89,12 @@ Uwaga: Jeśli klikniesz flagę zbyt wiele razy, a kot odejdzie, możesz przecią
 
 ## \--- collapse \---
 
-## title: How does turning work?
+## title: Jak działa obracanie?
 
-This block makes the sprite turn 15 degrees of the full 360 degrees that make up a circle. You can change that number, and the number of steps, by clicking on the number and typing in a new value.
+Ten blok powoduje, że ikonka obraca się o 15 stopni (z pełnych 360 stopni tworzących okrąg). Możesz zmienić tę liczbę i liczbę kroków, klikając numer i wpisując nową wartość.
 
 ![](images/code9.png)
 
 \--- /collapse \---
 
-\--- task \--- Now save your work! \--- /task \---
+\--- task \--- Teraz zapisz swoją pracę! \--- /task \---
