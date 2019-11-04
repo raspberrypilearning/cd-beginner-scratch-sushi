@@ -1,6 +1,6 @@
-## Fishing!
+## Łap rybę!
 
-The shark moves, the fish swims, but they don’t interact: if the fish swims right into the shark's mouth, nothing happens. Time to change that!
+Rekin porusza się, ryba pływa, ale nie wchodzą w interakcję: jeśli ryba popłynie prosto w usta rekina, nic się nie stanie. Czas to zmienić!
 
 First, you need to know if the fish is touching the shark. For this, you'll need a **Control** block and a **Sensing** block.
 
