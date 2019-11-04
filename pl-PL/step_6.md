@@ -6,11 +6,11 @@ Teraz masz rekina, którym możesz poruszać za pomocą klawiszy strzałek. Nie�
 
 Kliknij przycisk **Nowy duszek**, a na ekranie, który zostanie otwarty, wybierz rybę.
 
-![The New sprite button](images/spritesNewFromLibrary.png)
+![Przycisk nowy duszek](images/spritesNewFromLibrary.png)
 
 Jeśli twoja ryba jest trochę duża w porównaniu z twoim rekinem, możesz użyć kontroli rozmiaru, aby oba duszki miały odpowiedni rozmiar!
 
-![Sprite size control](images/sprites2.png)
+![Kontrola rozmiaru duszka](images/sprites2.png)
 
 Zmień liczbę w kontrolce rozmiaru, aby zwiększyć lub zmniejszyć duszka.
 
@@ -46,7 +46,7 @@ Blok `ustaw kierunek na`{:class="block3motion"} pozwala wybrać kierunek, w któ
 
 Jeśli spróbujesz przesunąć rekina teraz po dodaniu bloków `ustaw kierunek na`{:class="block3motion"}, możesz zauważyć coś dziwnego. Rekin może nie odwracać się tak jak powinien!
 
-![Upside down shark](images/spritesUpsideDown.png)
+![Rekin do góry nogami](images/spritesUpsideDown.png)
 
 \--- /task \---
 
@@ -60,14 +60,14 @@ Jak zwykle, jest do tego blok i znajduje się w sekcji **Ruch**!
 
 \--- /collapse \---
 
-\--- task \--- Look in the **Motion** category for the block `set rotation style`{:class="block3motion"}.
+\--- task \--- Spójrz na kategorię **Ruch** dla bloku `ustaw styl obrotu na`{:class="block3motion"}.
 
-Add the block to your shark reset code from earlier, and set the rotation style to `left-right`{:class="block3motion"}, like this:
+Dodaj blok do wcześniejszego kodu resetowania rekina i ustaw styl obrotu na `lewo-prawo`{:class="block3motion"}, tak jak poniżej:
 
 ```blocks3
-    when green flag clicked
-+     set rotation style [left-right v]
-    go to x: (0) y: (0)
+    kiedy kliknięto zieloną flagę
++ ustaw styl obrotu na [lewy-prawy v]
+    idź do x: (0) y: (0)
 ```
 
 \--- /task \---
