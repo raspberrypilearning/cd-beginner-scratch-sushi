@@ -74,35 +74,35 @@ Duszek może być umieszczony za pomocą współrzędnych jego środka, na przyk
 
 ![](images/xycoords.png)
 
-+ Wypróbuj różne pary wartości, aby zobaczyć, gdzie idzie duszek! In Scratch, the x-axis goes from `-240` to `240`, and the y-axis goes from `-180` to `180`.
++ Wypróbuj różne pary wartości, aby zobaczyć, gdzie idzie duszek! W trybie Scratch oś X przechodzi od `-240` do `240`, a oś y wynosi od `-180` do `180`.
 
 \--- /collapse \---
 
-### Restarting the game
+### Ponowne uruchomienie gry
 
-The shark moves all over the screen now, but imagine this is a game: how do you restart it, and what happens at the start of each game?
+Rekin porusza się teraz po całym ekranie, ale wyobraź sobie, że to gra: jak ją uruchomić od nowa i co się dzieje na początku każdej gry?
 
-You need to get the shark to its original location when the player starts the game. They'll start this game by clicking on the green flag, so you need to change the shark sprite's x- and y-coordinates when that happens.
+Musisz zabrać rekina do jego pierwotnej lokalizacji, w momencie kiedy gracz rozpoczyna grę. Rozpoczną tę grę, klikając zieloną flagę, więc kiedy to się stanie, musisz zmienić współrzędne x i y duszka rekina.
 
-That’s actually pretty easy! The centre of the stage is `(0, 0)` in `(x, y)` coordinates.
+To naprawdę proste! Środek sceny to `(0, 0)` jako współrzędne `(x, y)`.
 
-So all you need is an **Event** block for that green flag, and the **go to** block from **Motion**.
+Wszystko, czego potrzebujesz, to blok **Zdarzenia** dla tej zielonej flagi, oraz blok **idź do** z kategorii **Ruch**.
 
-\--- task \--- Drag a `when green flag clicked`{:class="block3events"} **Event** block onto the current sprite panel.
-
-```blocks3
-    when green flag clicked
-```
-
-Then find the `go to`{:class="block3motion"} **Motion** block, and attach it to your flag **Event** block.
+\--- task \--- Przeciągnij blok `kiedy kliknięto zieloną flagę`{:class="block3events"} z kategorii **Zdarzenia** na panelu bieżącego duszka.
 
 ```blocks3
-    when green flag clicked
-+     go to x: (0) y: (0)
+    kiedy kliknięto zieloną flagę
 ```
 
-Set the both the `x` and the `y` coordinate to `0` in the `go to`{:class="block3motion"} block if they are not already `0`.
+Następnie znajdź blok `idź do`{:class="block3motion"} w kategorii **Ruch** i dołącz go do bloku **zdarzenia z flagą**.
+
+```blocks3
+    gdy flaga kliknięta
++ idź do x: (0) y: (0)
+```
+
+Ustaw obie współrzędne `x` i `y` na `0` w bloku `idź do`{:class="block3motion"}, jeśli nie są jeszcze ustawione na `0`.
 
 \--- /task \---
 
-\--- task \--- Now click the green flag: you should see the shark return to the centre of the stage! \--- /task \---
+\--- task \--- Teraz kliknij zieloną flagę: powinieneś zobaczyć rekina wracającego na środek sceny! \--- /task \---
