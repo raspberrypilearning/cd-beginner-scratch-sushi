@@ -2,36 +2,36 @@
 
 Rekin porusza się, ryba pływa, ale nie wchodzą w interakcję: jeśli ryba popłynie prosto w usta rekina, nic się nie stanie. Czas to zmienić!
 
-First, you need to know if the fish is touching the shark. For this, you'll need a **Control** block and a **Sensing** block.
+Po pierwsze, musisz wiedzieć, czy ryba dotyka rekina. Do tego potrzebny jest blok z sekcji **Kontrola** i blok z sekcji **Czujniki**.
 
-\--- task \--- Add the `if...then`{:class="block3control"} **Control** block inside the `forever`{:class="block3control"} loop of the fish sprite, below the `if on edge bounce`{:class="block3motion"} block.
+\--- task \--- Dodaj blok `jeżeli...to`{:class="block3control"} z sekcji **Kontrola** wewnątrz bloku pętli `zawsze`{:class="block3control"} dla duszka ryby, poniżej bloku `jeżeli na brzegu, odbij się`{:class="block3motion"}.
 
-Drag the `touching...`{:class="block3sensing"} block into the space at the top of the `if...then`{:class="block3control"} block, and click the little triangle to select the shark sprite's name. If you haven’t changed it, it'll be 'Sprite1'.
+Przeciągnij blok `dotyka...`{:class="block3sensing"} do miejsca na górze bloku `jeżeli...to`{:class="block3control"} i kliknij mały trójkąt, aby wybrać nazwę duszka rekina. Jeśli go nie zmieniłaś, będzie to „rekin”.
 
 ```blocks3
-    when green flag clicked
-    set rotation style [left-right v]
-    forever 
-        move (10) steps
-        turn cw (pick random (1) to (10)) degrees
-        wait (0.5) secs
-        if on edge, bounce
-+        if <touching [Sprite1 v] ?> then
-    end
+    kiedy kliknięto zieloną flagę
+    ustaw styl obrotu [lewo-prawo v]
+    zawsze 
+        przesuń o (10) kroków
+        obróć w prawo o (losuj liczbę od (1) do (10)) stopni
+        czekaj (0.5) sekund
+        jeżeli na brzegu, odbij się
++        jeżeli < dotyka [rekin v] ?> to
+    koniec
 ```
 
 \--- /task \---
 
 ## \--- collapse \---
 
-## title: How does it work?
+## title: Jak to działa?
 
-The `if...then`{:class="block3control"} **Control** block needs to be given a `True/False` value.
+Blok `jeżeli... to`{:class="block3control"} w sekcji **Kontrola** musi mieć wartość `Prawda/Fałsz`.
 
-**Sensing** blocks collect information, like where the sprite is, what it’s touching, etc. You're using this block:
+Bloki z sekcji **Czujniki** zbierają informacje, np. gdzie jest duszek, czego dotyka, itp. Używasz tego bloku:
 
 ```blocks3
-    <touching [Sprite1 v] ?>
+    < dotyka [rekin v] ?>
 ```
 
 From this block's pointy ends, you can tell it’s going to give you the `True/False` value that the `if...then`{:class="block3control"} block needs.
