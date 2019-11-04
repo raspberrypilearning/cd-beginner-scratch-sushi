@@ -28,24 +28,24 @@ Naciśnij zieloną flagę, aby rozpocząć grę. Użyj klawiszy strzałek, aby p
 + Podstawowego ruchu: poruszania się krokami i obracania o stopnie
 + Korzystania z klawiatury
 + Używania współrzędnych (x, y) do przestawiania duszków
-+ Changing the look of the Stage and of sprites with costumes and show/hide commands
-+ Having multiple sprites on screen
-+ Using `forever`{:class="block3control"} loops
-+ Detecting when sprites are touching
++ Zmieniać wygląd sceny oraz duszków z kostiumami i wyświetlania/ukrywania poleceń
++ Używania wielu duszków na ekranie
++ Używania pętli `zawsze`{:class="block3control"}
++ Wykrywania, kiedy duszki się dotykają
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: Czego będziesz potrzebować
 
-You’re going to need **Scratch**, so do one of the following:
+Będziesz potrzebował **Scratch**, więc wykonaj jedną z następujących czynności:
 
-+ Download Scratch and install it on your computer by going to [dojo.soy/downloadscratch](http://dojo.soy/downloadscratch)
-+ Use Scratch in your web browser by going to [dojo.soy/usescratch](http://dojo.soy/usescratch)
++ Pobierz Scratch i zainstaluj go na swoim komputerze, przechodząc do [dojo.soy/downloadscratch](http://dojo.soy/downloadscratch)
++ Użyj Scratch w przeglądarce, przechodząc do [dojo.soy/usescratch](http://dojo.soy/usescratch)
 
-Once you’re set up, you can move on to the next step!
+Po skonfigurowaniu możesz przejść do następnego kroku!
 
 \--- /collapse \---
 
-![Tracking pixel](http://code.org/api/hour/begin_coderdojo_sushi.png)
+![Piksel śledzący](http://code.org/api/hour/begin_coderdojo_sushi.png)
