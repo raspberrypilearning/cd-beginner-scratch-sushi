@@ -52,30 +52,30 @@ Możesz sprawić, że ryba zniknie, jakby zjadł ją rekin, używając bloku `uk
 
 \--- /task \---
 
-Now once the shark catches the fish, the fish disappears for good. That’s not great.
+Teraz, gdy rekin złapie rybę, ryba znika na dobre. To nie do końca jest super.
 
-\--- task \--- Put the `show`{:class="block3looks"} block from **Looks** in at the very start of the fish code, so you can reset the game.
+\--- task \--- Umieść blok `pokaż`{:class="block3looks"} z sekcji **Wygląd** na samym początku kodu ryby, aby można było zresetować grę.
 
 ```blocks3
-    when green flag clicked
-+    show
-    set rotation style [left-right v]
-    forever
+    kiedy kliknięto zieloną flagę
++    pokaż
+    ustaw styl obrotu [lewo-prawo v]
+    zawsze
 ```
 
 \--- /task \---
 
-That's already better, but you don’t want the player to have to restart the game every time they catch a single fish!
+To już lepiej, ale nie chcesz, aby gracz musiał restartować grę za każdym razem, gdy złapie jedną rybę!
 
-\--- task \--- Update the code inside your `if...then`{:class="block3control"} block to look like this:
+\--- task \--- Zaktualizuj kod wewnątrz bloku `jeżeli...to`{:class="block3control"}, aby wyglądał następująco:
 
 ```blocks3
-    if on edge, bounce
-    if <touching [Sprite1 v] ?> then
-        hide
-+        wait (1) secs
-+        go to x: (pick random (-240) to (240)) y: (pick random (-180) to (180))
-+        show
+    jeżeli na brzegu, odbij się
+    jeżeli <dotyka [rekin v] ?> to 
+        ukryj
++        czekaj (1) sekund
++        Idź do x: (losuj liczbę od (-240) do (240)) y: (losuj liczbę od (-180) do (180))
++        pokaż
     end
 ```
 
@@ -83,12 +83,12 @@ That's already better, but you don’t want the player to have to restart the ga
 
 ## \--- collapse \---
 
-## title: How does this work?
+## title: Jak to działa?
 
-You are being clever here: when the fish is hidden, it waits, moves, and then shows up again.
+Jesteś tutaj sprytna: gdy ryba jest ukryta, to czeka, porusza się, a następnie pojawia się ponownie.
 
-It looks like lots of fish keep appearing, but it’s that one sprite moving around!
+Wygląda na to, że pojawia się wiele ryb, ale to ten jeden duszek się porusza!
 
 \--- /collapse \---
 
-That’s a game! But there’s no way to keep score yet, or to win. You can fix that too — on the next card!
+To jest gra! Ale nie ma jeszcze sposobu na zapisanie wyniku lub wygranej. Możesz to również naprawić - na następnej karcie!
