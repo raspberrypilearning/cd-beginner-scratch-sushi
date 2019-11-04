@@ -1,22 +1,22 @@
-## All the sprites
+## Wszystkie duszki
 
-Now you have a shark that you can move around using the arrow keys. Nice! Time to add some fish for it to catch.
+Teraz masz rekina, którym możesz poruszać za pomocą klawiszy strzałek. Nieźle! Czas dodać rybę, którą by mógł złapać.
 
 \--- task \---
 
-Click the **New sprite** button, and on the screen that opens, choose a fish.
+Kliknij przycisk **Nowy duszek**, a na ekranie, który zostanie otwarty, wybierz rybę.
 
 ![The New sprite button](images/spritesNewFromLibrary.png)
 
-If your fish is a bit big compared to your shark, you can use the size control to make both sprites the right size!
+Jeśli twoja ryba jest trochę duża w porównaniu z twoim rekinem, możesz użyć kontroli rozmiaru, aby oba duszki miały odpowiedni rozmiar!
 
 ![Sprite size control](images/sprites2.png)
 
-Change the number in the size control to make the spirte bigger or smaller.
+Zmień liczbę w kontrolce rozmiaru, aby zwiększyć lub zmniejszyć duszka.
 
 \--- /task \---
 
-Great! Later, you're going to add some code to make the fish move around on its own, without help from the player. Your player will move the shark and try to catch the fish.
+Świetnie! Później dodasz trochę kodu, aby ryby same się poruszały, bez pomocy gracza. Your player will move the shark and try to catch the fish.
 
 ## \--- collapse \---
 
