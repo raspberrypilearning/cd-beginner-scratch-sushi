@@ -1,4 +1,4 @@
-## Łap rybę!
+## Złap rybę!
 
 Rekin porusza się, ryba pływa, ale nie wchodzą w interakcję: jeśli ryba popłynie prosto w usta rekina, nic się nie stanie. Czas to zmienić!
 
@@ -34,20 +34,20 @@ Bloki z sekcji **Czujniki** zbierają informacje, np. gdzie jest duszek, czego d
     < dotyka [rekin v] ?>
 ```
 
-From this block's pointy ends, you can tell it’s going to give you the `True/False` value that the `if...then`{:class="block3control"} block needs.
+Na podstawie spiczastych końców tego bloku możesz stwierdzić, że zwróci ci on wartość `Prawda/Fałsz`, której potrzebuje blok `jeżeli... to`{:class="block3control"}.
 
 \--- /collapse \---
 
-Of course, you’ve just added an `if...then`{:class="block3control"} block without adding anything for the 'then' part. So at the moment your script is checking whether the fish sprite is touching the shark sprite, but it's not making anything happen in response.
+Oczywiście właśnie dodałeś blok `jeżeli...to `{:class="block3control"} bez dodawania czegokolwiek do części „to”. W tej chwili Twój skrypt sprawdza, czy duszek ryby dotyka duszka rekina, ale w rezultacie nic nie dzieje się.
 
-You can make the fish disappear, as if the shark ate it, by using the `hide`{:class="block3looks"} block.
+Możesz sprawić, że ryba zniknie, jakby zjadł ją rekin, używając bloku `ukryj`{:class="block3looks"}.
 
-\--- task \--- Find the `hide`{:class="block3looks"} block in the **Looks** list, and put it inside the `if...then`{:class="block3control"} block, like so:
+\--- task \--- Znajdź blok `ukryj`{:class="block3looks"} w sekcji **Wygląd** i umieść go wewnątrz bloku `jeżeli...to`{:class="block3control"} w taki sposób:
 
 ```blocks3
-    if <touching [Sprite1 v] ?> then
-+        hide
-    end
+    jeżeli < dotyka [rekin v] ?> to
++        ukryj
+    koniec
 ```
 
 \--- /task \---
