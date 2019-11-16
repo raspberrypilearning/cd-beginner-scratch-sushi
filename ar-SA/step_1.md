@@ -10,34 +10,34 @@
 
 ### ما الذي ستصنعه
 
-You will make a game where you move a shark around to try and catch fish.
+ستصنع لعبة تتحكم فيها بسمكة قرش لمحاولة صيد الأسماك.
 
-Here's an example of how your finished game might look:
+فيما يلي مثال لكيفية ظهور اللعبة النهائية:
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/205355052/?autostart=false" frameborder="0"></iframe>
 </div>
 
-Press the green flag to start the game. Use the arrow keys to move the shark around and catch the fish.
+اضغط على العلم الأخضر لبدء اللعبة. استخدم مفاتيح الأسهم لتحريك القرش وصيد السمك.
 
 ## \--- collapse \---
 
-## title: What you will learn
+## title: ما الذي ستتعلمه
 
-+ Adding and deleting code blocks
-+ Basic motion: move in steps, and turn by degrees
-+ Using keyboard controls
-+ Using (x, y) coordinates to position sprites
-+ Changing the look of the Stage and of sprites with costumes and show/hide commands
-+ Having multiple sprites on screen
-+ Using `forever`{:class="block3control"} loops
-+ Detecting when sprites are touching
++ إضافة وحذف قوائم التعليمات البرمجية
++ الحركة الأساسية: التحرك في خطوات ، والدوران بالدرجات
++ استخدام التحكم بلوحة المفاتيح
++ استخدام الإحداثيات (x, y) لوضع الشخصيات
++ تغيير شكل المسرح والشخصيات مع الأزياء وأوامر الإظهار / الإخفاء
++ وجود شخصيات متعددة على الشاشة
++ إستخدام التكرار `للأبد` {:class="block3control"}
++ الكشف عند لمس الشخصية
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: ما الذي ستحتاجه
 
 You’re going to need **Scratch**, so do one of the following:
 
