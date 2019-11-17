@@ -1,18 +1,18 @@
-## Getting set up
+## هيا بنا لنبدأ
 
-Once you open Scratch, you’ll see a window like the one below.
+بمجرد فتح Scratch ، سترى نافذة مثل النافذة أدناه.
 
-\--- task \--- Look for each of the following areas and remember where they are. \--- /task \---
+\--- task \--- انظر إلى كل من المساحات التالية وتذكر أين هم. \--- /task \---
 
-### The Stage
+### المنصة
 
 ![Scratch window with the stage highlighted](images/hlStage.png)
 
 ## \--- collapse \---
 
-## title: What is the Stage?
+## العنوان: ما هي المنصة؟
 
-This is where your Scratch programs run. It has:
+هذا هو المكان الذي يتم فيه تشغيل برامج Scratch. لديها:
 
 * One or more **backgrounds** \(images on the background of the screen\)
 
