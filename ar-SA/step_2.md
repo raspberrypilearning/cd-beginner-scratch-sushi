@@ -39,7 +39,7 @@
 
 \--- /collapse \---
 
-### لوحة التعليمات البرمجبة
+### لوحة كتل التعليمات البرمجبة
 
 ![Scratch window with the blocks pallet highlighted](images/hlBlocksPalette.png)
 
@@ -47,21 +47,21 @@
 
 ## العنوان: كتل البرمجة
 
-تأتي التعليمات البرمجية في Scratch في شكل كتل تصلها ببعض لإنشاء البرامج. You choose blocks from the **code blocks palette**, drag them into the **current sprite panel**, and then connect them to each other.
+تأتي التعليمات البرمجية في Scratch في شكل كتل تصلها ببعض لإنشاء البرامج. تختار كتل من **لوحة كتل التعليمات البرمجية **، تسحبهم إلى ** لوحة الشخصية الحالية**، ومن ثم تربطهم مع بعضهم البعض.
 
-There are ten categories of blocks. They are colour-coded, and you can choose between them by clicking on the items in the list at the top of the **code blocks palette**.
+هناك عشر فئات من الكتل. يتم تمييزها بالألوان ، ويمكنك الاختيار بينها من خلال النقر فوق العناصر الموجودة في القائمة أعلى **لوحة كتل التعليمات البرمجية **.
 
 \--- /collapse \---
 
-### The current sprite panel
+### لوحة الشخصية الحالية
 
 ![Scratch window with the current sprite panel highlighted](images/hlCurrentSpritePanel.png)
 
-## \--- collapse \---
+## \--- /collapse \---
 
-## title: What is the current sprite?
+## العنوان: ما هي الشخصية الحالية؟
 
-The **current sprite** is the one that's selected in the **sprite list**.
+**الشخصية الحالية** هي التي تم إختيارها من **قائمة الشخصيات**.
 
 The **current sprite panel** is where you can see the code, costumes, and sounds for the selected sprite.
 
