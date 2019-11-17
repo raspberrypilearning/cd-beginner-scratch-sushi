@@ -79,7 +79,7 @@
 
 \--- /task \---
 
-\--- task \--- Then go to **Looks** in the code blocks palette and find this block:
+\--- task \--- ثم انتقل إلى **المظاهر** في لوحة الكتل البرمجية وابحث عن هذه الكتلة:
 
 ```blocks3
     قل [السلام عليكم!] لمدة (2) ثوانٍ
