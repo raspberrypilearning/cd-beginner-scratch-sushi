@@ -63,29 +63,29 @@
 
 **الشخصية الحالية** هي التي تم إختيارها من **قائمة الشخصيات**.
 
-The **current sprite panel** is where you can see the code, costumes, and sounds for the selected sprite.
+لوحة **الشخصية الحالية** هي المكان الذي يمكنك من خلاله رؤية البرمجة والأزياء والأصوات الخاصة بالشخصية المختارة.
 
 \--- /collapse \---
 
-Time to get coding!
+حان وقت البرمجة!
 
-\--- task \--- In the sprite list, click on the Scratch Cat. The cat is now the current sprite.
+\--- task \--- في قائمة الشخصيات ، انقر على قطة Scratch. القطة هي الآن الشخصية الحالي.
 
-Choose the **Events** category in the code blocks palette, click the `when flag clicked`{:class="block3events"} block, and drag it into the current sprite panel.
+اختر فئة **الأحداث** في لوحة كتل التعليمات البرمجية ، وانقر فوق `عند نقر العلم`{: class = "block3events"} ، واسحبها إلى لوحة الشخصية الحالية.
 
 ```blocks3
-    when green flag clicked
+    عند النقر فوق العلم الأخضر
 ```
 
 \--- /task \---
 
-\--- task \--- Then go to **Looks** in the code blocks palette and find this block:
+\--- task \--- ثم انتقل إلى **المظاهر** في لوحة الكتل البرمجية وابحث عن هذه الكتلة:
 
 ```blocks3
-    say [Hello!] for (2) secs
+    قل [السلام عليكم!] لمدة (2) ثوانٍ
 ```
 
-Click on it, hold down the mouse button, and then just drag it into the current sprite panel and let go of the button.
+انقر فوقها ، استمر في الضغط زر الماوس ، ثم اسحبه إلى لوحة الشخصية الحالية واترك الزر.
 
 \--- /task \---
 
