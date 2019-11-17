@@ -39,12 +39,12 @@
 
 ## title: ما الذي ستحتاجه
 
-You’re going to need **Scratch**, so do one of the following:
+ستحتاج إلى**Scratch**، لذلك قم بأحد الإجراءات التالية:
 
-+ Download Scratch and install it on your computer by going to [dojo.soy/downloadscratch](http://dojo.soy/downloadscratch)
-+ Use Scratch in your web browser by going to [dojo.soy/usescratch](http://dojo.soy/usescratch)
++ قم بتنزيل Scratch وتثبيته على جهاز الكمبيوتر الخاص بك عن طريق الانتقال إلى [dojo.soy/downloadscratch](http://dojo.soy/downloadscratch)
++ استخدم Scratch في متصفح الويب الخاص بك عن طريق الانتقال إلى [dojo.soy/usescratch](http://dojo.soy/usescratch)
 
-Once you’re set up, you can move on to the next step!
+بمجرد الإنتهاء من الإعداد، يمكنك الانتقال إلى الخطوة التالية!
 
 \--- /collapse \---
 
