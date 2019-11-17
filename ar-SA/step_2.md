@@ -14,40 +14,40 @@
 
 هذا هو المكان الذي يتم فيه تشغيل برامج Scratch. لديها:
 
-* One or more **backgrounds** \(images on the background of the screen\)
+* **خلفيات** واحد أو أكثر \ (الصور على خلفية الشاشة \)
 
-* Any **code blocks** associated with it \(we’ll get to this\)
+* أي **مجموعة من الكود ** المتعلقة به \ (وسوف نتكلم عن هذا \)
 
 \--- /collapse \---
 
-### The sprite list
+### قائمة الشخصيات
 
 ![Scratch window with the sprite list highlighted](images/hlSpriteList.png)
 
 ## \--- collapse \---
 
-## title: What is a sprite?
+## العنوان: ما هي الشخصية؟
 
-Any item you can add on the Stage is a **sprite**.
+أي عنصر يمكنك إضافته على المسرح هو **شخصية**.
 
-A sprite includes:
+الشخصية تشمل:
 
-* The **image** on the Stage
-* Any extra **costumes** \(looks\) it has
-* Any **sounds** associated with it
-* Any **code blocks** associated with it ![](images/setup2.png)
+* ** الصورة ** على المسرح
+* أي **ازياء** إضافية \ (مظهر \) لديه
+* أي **أصوات** متعلقة به
+* أي **مجموعة من الكود ** متعلقة به ![](images/setup2.png)
 
 \--- /collapse \---
 
-### The code blocks palette
+### لوحة التعليمات البرمجبة
 
 ![Scratch window with the blocks pallet highlighted](images/hlBlocksPalette.png)
 
 ## \--- collapse \---
 
-## title: Code blocks
+## العنوان: كتل البرمجة
 
-Code in Scratch comes in the form of blocks that you connect to make programs. You choose blocks from the **code blocks palette**, drag them into the **current sprite panel**, and then connect them to each other.
+تأتي التعليمات البرمجية في Scratch في شكل كتل تصلها ببعض لإنشاء البرامج. You choose blocks from the **code blocks palette**, drag them into the **current sprite panel**, and then connect them to each other.
 
 There are ten categories of blocks. They are colour-coded, and you can choose between them by clicking on the items in the list at the top of the **code blocks palette**.
 
