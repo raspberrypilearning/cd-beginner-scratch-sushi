@@ -89,8 +89,8 @@
 
 \--- /task \---
 
-\--- task \--- Now that the second block is in the current sprite panel, connect it to the bottom of the first block by clicking and dragging it again to move it below the other block until they snap together, like this:
+\--- task \--- الآن بعد أن أصبحت الكتلة الثانية في لوحة الشخصية الحالية، قم بتوصيلها أسفل الكتلة الأولى بالنقر عليها وسحبها مرة أخرى لتحريكها إلى أسفل الكتلة الأخرى حتى يتم ربطهم معًا ، كهذا:
 
 ![](images/setup3.png) \--- /task \---
 
-\--- task \--- Now click the **Start Program** button and watch what happens! \--- /task \---
+\--- المهمة \--- الآن انقر فوق الزر **Start Program** وشاهد ما يحدث! \--- /task \---
