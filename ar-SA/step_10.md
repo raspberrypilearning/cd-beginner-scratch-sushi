@@ -1,3 +1,3 @@
-## Challenge: winning the game
+## التحدي: الفوز في اللعبة
 
-Pick a score at which the player wins, and make something cool happen when they have that many points. Maybe the shark congratulates them, or a 'You win!' sprite appears, or music plays!
+اختر النتيجة التي يفوز بها اللاعب ، واجعل شيئًا رائعًا يحدث عندما يكون لديهم هذا العديد من النقاط. ربما يهنئهم القرش ، أو يخرج العفريت بعبارة "انت تربح!" ، أو تشغيل الموسيقى!
