@@ -6,7 +6,7 @@
 
 ### المنصة
 
-![Scratch window with the stage highlighted](images/hlStage.png)
+![نافذة Scratch مع تسليط الضوء على المنصة](images/hlStage.png)
 
 ## \--- collapse \---
 
@@ -22,7 +22,7 @@
 
 ### قائمة الشخصيات
 
-![Scratch window with the sprite list highlighted](images/hlSpriteList.png)
+![نافذة Scratch مع تسليط الضوء على قائمة الشخصيات](images/hlSpriteList.png)
 
 ## \--- collapse \---
 
@@ -41,7 +41,7 @@
 
 ### لوحة كتل التعليمات البرمجبة
 
-![Scratch window with the blocks pallet highlighted](images/hlBlocksPalette.png)
+![نافذة Scratch مع تسليط الضوء على لوحة الكتل](images/hlBlocksPalette.png)
 
 ## \--- collapse \---
 
@@ -55,7 +55,7 @@
 
 ### لوحة الشخصية الحالية
 
-![Scratch window with the current sprite panel highlighted](images/hlCurrentSpritePanel.png)
+![نافذة Scratch مع تسليط الضوء على لوحة الشخصية الحالية](images/hlCurrentSpritePanel.png)
 
 ## \--- /collapse \---
 
