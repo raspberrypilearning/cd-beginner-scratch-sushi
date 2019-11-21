@@ -1,39 +1,39 @@
-## Setting the scene
+## 장면 설정하기
 
-Scratch has a library of backgrounds and sprites for you to use to make your project look awesome.
+스크래치에는 프로젝트를 멋지게 보이게 하는 데 사용할 수있는 배경 및 스프라이트 라이브러리가 있습니다.
 
-\--- task \--- Select the Stage.
+\--- task \--- 스테이지를 선택합니다.
 
-![Selecting the stage](images/looksSelectStage.png)
+![스테이지 설정](images/looksSelectStage.png)
 
-Click on **Backdrops**.
+**배경**을 누릅니다.
 
-![The Backdrops tab](images/looksBackdrops.png)
+![배경 탭](images/looksBackdrops.png)
 
-Click the **Choose backdrop from library** icon.
+**배경 선택**아이콘을 클릭하세요.
 
-![The Choose backdrop icon](images/looksChooseBg.png)
+![배경 선택 아이콘](images/looksChooseBg.png)
 
-Then pick your favourite underwater background!
+그런 다음 좋아하는 물 속 배경을 선택하십시오!
 
-![An underwater scene](images/looksUnderwater.png) \--- /task \---
+![물 속 배경](images/looksChooseBg.png) \--- /task \---
 
-Great! Of course, now you have a cat underwater, and cats aren't usually big fans of that. But you can fix that, because you can turn the cat into a shark!
+잘하셨어요! 근데 지금 물 속에 고양이가 있습니다. 뭔가 안 어울리지 않나요? 그럼 이번에는 고양이를 상어로 바꿔 보겠습니다.
 
-\--- task \--- First, select the cat sprite and click on the **Costumes** tab.
+\--- task \--- 고양이 스프라이트를 클릭하고 **모양** 탭을 누르세요.
 
 ![](images/cool2.png)
 
-Then, click on **Choose costume from Library**
+그런 다음, **모양고르기**아이콘을 클릭하세요.
 
 ![](images/cool3.png)
 
-Select this shark image and click **OK**.
+상어 이미지를 선택하고 **확인**을 클릭하세요.
 
-![The shark costume](images/looksShark.png)
+![상어 모양](images/looksShark.png)
 
-Now remove the cat costumes by selecting each of them and clicking on the **x**.
+이제 고양이 스프라이트의 모양을 선택하고 **x**를 클릭하여 고양이 모양을 제거합니다.
 
 ![](images/coolDeleteCostumes.png) \--- /task \---
 
-Now you have a shark – excellent!
+이제 상어가 있습니다 - 훌륭합니다!
