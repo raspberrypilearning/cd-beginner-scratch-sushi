@@ -39,7 +39,7 @@ A sprite includes:
 
 \--- /collapse \---
 
-### The code blocks palette
+### 코드 블록 팔레트
 
 ![Scratch window with the blocks pallet highlighted](images/hlBlocksPalette.png)
 
