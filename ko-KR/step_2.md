@@ -1,4 +1,4 @@
-## Getting set up
+## 설정하기
 
 Once you open Scratch, you’ll see a window like the one below.
 
