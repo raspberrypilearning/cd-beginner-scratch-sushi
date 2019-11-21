@@ -1,38 +1,38 @@
-## 설정하기
+## Getting set up
 
-Once you open Scratch, you’ll see a window like the one below.
+스크래치를 열면 아래와 같은 화면을 볼 수 있습니다.
 
-\--- task \--- Look for each of the following areas and remember where they are. \--- /task \---
+\--- task -- 각 영역을 찾아서 어디에 있는지 기억하십시오. \--- /task \---
 
-### The Stage
+### 무대
 
 ![Scratch window with the stage highlighted](images/hlStage.png)
 
 ## \--- collapse \---
 
-## title: What is the Stage?
+## 제목 : 무대는 무엇입니까?
 
-This is where your Scratch programs run. It has:
+스크래치 프로그램이 실행되는 곳입니다. 무대는 다음과 같은 기능을 포함하고 있습니다:
 
-* One or more **backgrounds** \(images on the background of the screen\)
+* 하나 이상의 **배경** \(화면 배경의 이미지\)
 
-* Any **code blocks** associated with it \(we’ll get to this\)
+* 이와 관련된 **코드 블록**
 
 \--- /collapse \---
 
-### The sprite list
+### 스프라이트 목록
 
 ![Scratch window with the sprite list highlighted](images/hlSpriteList.png)
 
 ## \--- collapse \---
 
-## title: What is a sprite?
+## 제목 : 스프라이트 란 무엇입니까?
 
-Any item you can add on the Stage is a **sprite**.
+스테이지에 추가 할 수있는 개체를 모두 **스프라이트**라고 합니다.
 
-A sprite includes:
+스프라이트에는 다음이 포함됩니다.
 
-* The **image** on the Stage
+* 스테이지의 **이미지**
 * Any extra **costumes** \(looks\) it has
 * Any **sounds** associated with it
 * Any **code blocks** associated with it ![](images/setup2.png)
