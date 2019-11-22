@@ -1,4 +1,4 @@
-## Remote-control fish
+## 스스로 움직이는 물고기
 
 Ok, now it's time to make the fish swim on its own. To do this, you’re going to need a new kind of block: a **Control** block.
 
