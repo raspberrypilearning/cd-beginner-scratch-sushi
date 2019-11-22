@@ -1,73 +1,73 @@
-## All the sprites
+## 모든 스프라이트
 
-Now you have a shark that you can move around using the arrow keys. Nice! Time to add some fish for it to catch.
+이제 화살표 키를 사용하여 상어를 움직일 수 있습니다. 좋아요! 이제는 물고기를 잡을 시간입니다.
 
 \--- task \---
 
-Click the **New sprite** button, and on the screen that opens, choose a fish.
+**스프라이트 고르기** 버튼을 클릭하여 물고기 스프라이트를추가하세요! 
 
-![The New sprite button](images/spritesNewFromLibrary.png)
+![새로운 스프라이트 버튼](images/spritesNewFromLibrary.png)
 
-If your fish is a bit big compared to your shark, you can use the size control to make both sprites the right size!
+물고기가 상어에 비해 약간 큰 경우 크기를 조절하는 메뉴를 사용하여 두 스프라이트를 모두 적당한 크기로 만들 수 있습니다!
 
-![Sprite size control](images/sprites2.png)
+![스프라이트 크기 제어](images/sprites2.png)
 
-Change the number in the size control to make the spirte bigger or smaller.
+스프라이트를 더 크게 또는 작게 만들려면 크기 숫자를 변경하십시오.
 
 \--- /task \---
 
-Great! Later, you're going to add some code to make the fish move around on its own, without help from the player. Your player will move the shark and try to catch the fish.
+잘하셨어요! 나중에 플레이어의 도움 없이 물고기가 스스로 움직일 수 있도록 코드를 추가 할 것입니다. 플레이어는 상어를 움직여 물고기를 잡으려고 합니다.
 
 ## \--- collapse \---
 
-## title: What about the backwards shark?
+## 제목: 뒤로 움직이는 상어는 어떻습니까?
 
-It does look a little funny to have that shark swimming backwards. Just like you’d usually turn around rather than walking backwards, the shark would turn around rather than swimming backwards. Luckily for you, Scratch has a block for this!
+상어가 거꾸로 수영하는 것은 조금 재미있어 보일 것입니다. 뒤로 가려고 할 때 뒤로 걷는 대신 몸을 돌아서듯이 보통 상어가 돌아 다니듯이 돌아 서도록 하면 됩니다. 다행히도 스크래치는 이것에 대한 블록을 가지고 있습니다!
 
-The `point in direction`{:class="block3motion"} block lets you pick the direction your sprite is pointing in. You’ll find it in the **Motion** blocks section. You can type in any number of degrees, to point the sprite wherever you want. \--- /collapse \---
+`도 방향 보기`{:class="block3motion"} 블록은 스프라이트가 가리킬 방향을 선택할 수 있습니다. **동작** 블록 카테고리에서 찾을 수 있습니다. 원하는 각도로 스프라이트를 가리키도록 원하는 각도를 입력 할 수 있습니다. \--- /collapse \---
 
-\--- task \--- Grab a couple of copies of the `point in direction`{:class="block3motion"} block from the **Motion** list and connect them to your shark's code, like this:
+\--- task \--- `도 방향 보기`{:class="block3motion"} 블록을 **동작** 카테고리에서 찾아 상어 스프라이트의 코드에 아래와 같이 추가합니다.
 
 ```blocks3
-    when [left arrow v] key pressed
-+     point in direction (-90)
-    move (10) steps
+    [왼쪽 화살표 v] 키를 눌렀을 때
++     (-90) 도 방향 보기
+    (10) 만큼 움직이기
 ```
 
 ```blocks3
-    when [right arrow v] key pressed
-+     point in direction (90)
-    move (10) steps
+    [오른쪽 화살표 v] 키를 눌렀을 때
++     (90) 도 방향 보기
+    (10) 만큼 움직이기
 ```
 
 \--- /task \---
 
-\--- task \--- Change the number of steps in the `move`{:class="block3motion"} blocks from `-10` to `10`.
+\--- task \--- `만큼 움직이기`{:class="block3motion"} 블록의 값을 `-10` 에서 `10` 으로 바꿔 보세요.
 
-If you try moving the shark around now after you've added the `point in direction`{:class="block3motion"} blocks, you might notice something a little strange happening. The shark may not be turning quite right!
+`도 방향 보기` {:class="block3motion"}를 추가 한 후 상어를 이동시켜 보면 평소와 다른 점을 관찰할 수 있습니다. 상어가 제대로 회전하지 않습니다!
 
-![Upside down shark](images/spritesUpsideDown.png)
+![거꾸로 뒤집히는 상어](images/spritesUpsideDown.png)
 
 \--- /task \---
 
 ## \--- collapse \---
 
-## title: Why does it go upside down?
+## 제목: 왜 거꾸로 되나요?
 
-The problem here is that the shark sprite started, as all sprites do, with the 'all around' **rotation style**, and what you need it to have is the 'left-right' style.
+이는 상어의 **회전 방식**이 '회전하기' 로 설정되어 있기 때문입니다.이를 '왼쪽-오른쪽' 으로 바꿔 주어야 합니다.
 
-As usual, there’s a block for that, and it’s in **Motion**!
+회전 방식을 설정하는 블록은 **동작** 카테고리에서 찾을 수 있습니다!
 
 \--- /collapse \---
 
-\--- task \--- Look in the **Motion** category for the block `set rotation style`{:class="block3motion"}.
+\--- task \--- **동작** 카테고리에서 `회전 방식을 정하기`{:class="block3motion"} 블록을 찾습니다.
 
-Add the block to your shark reset code from earlier, and set the rotation style to `left-right`{:class="block3motion"}, like this:
+아래와 같이 상어의 회전 스타일을 `왼쪽-오른쪽`{:class="block3motion"}으로 설정하는 코드를 다음과 같이 추가합니다:
 
 ```blocks3
-    when green flag clicked
-+     set rotation style [left-right v]
-    go to x: (0) y: (0)
+    녹색 깃발을 클릭했을 때
++     회전 방식을 [왼쪽-오른쪽 v] 으로 정하기
+    x: (0) y: (0) 으로 이동하기
 ```
 
 \--- /task \---
