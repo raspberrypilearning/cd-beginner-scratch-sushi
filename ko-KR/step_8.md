@@ -1,8 +1,8 @@
 ## Fishing!
 
-The shark moves, the fish swims, but they don’t interact: if the fish swims right into the shark's mouth, nothing happens. Time to change that!
+상어가 움직이고 물고기는 수영하지만 둘이 서로 상호 작용하지 않습니다. 물고기가 상어의 입으로 바로 수영해도 아무 일도 일어나지 않습니다. 그것을 바꿀 시간입니다!
 
-First, you need to know if the fish is touching the shark. For this, you'll need a **Control** block and a **Sensing** block.
+먼저 물고기가 상어에 닿았는지 알아야합니다. 이를 제작하기 위해서는 **제어** 블록 및 **감지** 블록이 필요합니다.
 
 \--- task \--- Add the `if...then`{:class="block3control"} **Control** block inside the `forever`{:class="block3control"} loop of the fish sprite, below the `if on edge bounce`{:class="block3motion"} block.
 
