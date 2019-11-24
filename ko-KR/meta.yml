@@ -1,16 +1,16 @@
 ---
-title: Deep sea sushi
+title: 깊은 바다 물고기
 hero_image: images/banner.png
-description: Make a fun game in your first Scratch program!
-theme: orange
+description: 첫 스크래치 프로그램에서 재미있는 게임을 만드십시오!
+theme: orange #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
 duration: 2
 listed: true
 ingredient: false
 copyedit: true
 curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
 interests: animals, humour, outdoors, games
-technologies: scratch
-site_areas: coderdojo
+technologies: 스크래치
+site_areas: 코더 도조
 software: scratch
 version: 4.0.0
 last_tested: 2017-01-01
