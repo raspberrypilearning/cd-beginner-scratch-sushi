@@ -1,8 +1,8 @@
 ## 물고기 잡기
 
-The shark moves, the fish swims, but they don’t interact: if the fish swims right into the shark's mouth, nothing happens. Time to change that!
+상어가 움직이고 물고기는 수영하지만 둘이 서로 상호 작용하지 않습니다. 물고기가 상어의 입으로 바로 수영해도 아무 일도 일어나지 않습니다. 그것을 바꿀 시간입니다!
 
-First, you need to know if the fish is touching the shark. For this, you'll need a **Control** block and a **Sensing** block.
+먼저 물고기가 상어에 닿았는지 알아야합니다. 이를 제작하기 위해서는 **제어** 블록 및 **감지** 블록이 필요합니다.
 
 \--- task \--- `만약...이라면`{:class="block3control"} 블록을 **제어** 항목 내 `무한 반복`{:class="block3control"} 루프 내 추가하세요. `벽에 닿으면 튕기기`{:class="block3motion"} 블록 다음에 추가합니다.
 
