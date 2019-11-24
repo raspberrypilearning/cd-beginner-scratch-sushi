@@ -11,28 +11,28 @@ curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
 interests: animals, humour, outdoors, games
 technologies: 스크래치
 site_areas: 코더 도조
-software: scratch
+software: 스크래치
 version: 4.0.0
 last_tested: 2017-01-01
 steps:
   - 
-    title: Introduction
+    title: 소개
   - 
-    title: Getting set up
+    title: 설정하기
   - 
-    title: Adding and removing code blocks
+    title: 코드 블록 추가 및 제거
   - 
-    title: Setting the scene
+    title: 장면 설정하기
   - 
-    title: Moving things around
+    title: 주변의 물건 이동
   - 
-    title: All the sprites
+    title: 모든 스프라이트
   - 
-    title: Remote-control fish
+    title: 스스로 움직이는 물고기
   - 
-    title: Fishing!
+    title: 물고기잡기
   - 
-    title: Keeping score
+    title: 점수 사용하기
   - 
-    title: "Challenge: winning the game"
+    title: "과제: 게임에서 승리하기"
     challenge: true
