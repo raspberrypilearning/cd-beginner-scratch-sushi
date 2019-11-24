@@ -1,3 +1,3 @@
-## Challenge: winning the game
+## 과제: 게임에서 승리하기
 
-Pick a score at which the player wins, and make something cool happen when they have that many points. Maybe the shark congratulates them, or a 'You win!' sprite appears, or music plays!
+플레이어가 이길 점수를 고르고 점수가 높으면 축하하는 일을 하도록 합니다. 상어가 축하해 주거나, '당신이 이겼습니다!' 스프라이트가 나타나거나, 음악이 재생되도록 할 수 있습니다!
