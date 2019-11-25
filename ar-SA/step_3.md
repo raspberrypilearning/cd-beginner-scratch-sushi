@@ -41,14 +41,14 @@ The code blocks connected to this block will run after the **green flag** is cli
 يتم تشغيل المقاطع البرمجية من الأعلى إلى الأسفل ، لذا فإن الترتيب الذي تصل فيه المقاطع معًا أمر مهم. In this example, the sprite will `say`{:class="block3looks"} `Hello!` before it will `play`{:class="block3sound"} the `meow` sound.
 
 ```blocks3
-    when green flag clicked
-    say [Hello]
-    play sound [meow v]
+    عندما نقر العلم الأخضر
+    قل [Hello]
+    شغل صوت [meow v]
 ```
 
 \--- /collapse \---
 
-Removing or deleting code blocks you don’t want in your program is easy! Just drag them back into the code blocks palette.
+من السهل إزالة أو حذف المقاطع البرمجية التي لا تريدها في البرنامج! فقط اسحبهم مرة أخرى إلى لوحة المقاطع البرمجية.
 
 **Be careful:** dragging them into the code blocks pallette will delete all the blocks connected to the block you drag, so make sure to separate code blocks you want to keep from those you want to remove. If you delete some code blocks by accident and want to get them back, right-click and then click on the **undo** option to get everything back.
 
