@@ -28,17 +28,17 @@ You can click on the blcok you want, and then just drag it into the current spri
 
 ## \--- collapse \---
 
-## title: Running the code
+## title: تشغيل الكود
 
-Usually, you want your code to run automatically whenever something specific happens. This is why many of your programs will start with a block from the **Events** category, most often this one:
+Usually, you want your code to run automatically whenever something specific happens. هذا هو السبب في أن العديد من برامجك ستبدأ بمقطع من فئة **الأحداث**، غالبًا هذا المقطع:
 
 ```blocks3
-    when green flag clicked
+    عند نقر العلم الأخضر
 ```
 
 The code blocks connected to this block will run after the **green flag** is clicked.
 
-Code blocks run from top to bottom, so the order in which you snap your blocks together matters. In this example, the sprite will `say`{:class="block3looks"} `Hello!` before it will `play`{:class="block3sound"} the `meow` sound.
+يتم تشغيل المقاطع البرمجية من الأعلى إلى الأسفل ، لذا فإن الترتيب الذي تصل فيه المقاطع معًا أمر مهم. In this example, the sprite will `say`{:class="block3looks"} `Hello!` before it will `play`{:class="block3sound"} the `meow` sound.
 
 ```blocks3
     when green flag clicked
