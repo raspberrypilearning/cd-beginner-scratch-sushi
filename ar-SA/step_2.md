@@ -22,7 +22,7 @@
 
 ### قائمة الكائنات
 
-![نافذة Scratch مع تسليط الضوء على قائمة الشخصيات](images/hlSpriteList.png)
+![نافذة Scratch مع تسليط الضوء على قائمة الكائنات](images/hlSpriteList.png)
 
 ## \--- collapse \---
 
@@ -41,7 +41,7 @@
 
 ### لوحة المقاطع البرمجية
 
-![نافذة Scratch مع تسليط الضوء على لوحة الكتل](images/hlBlocksPalette.png)
+![نافذة Scratch مع تسليط الضوء على لوحة المقاطع](images/hlBlocksPalette.png)
 
 ## \--- collapse \---
 
@@ -55,7 +55,7 @@
 
 ### لوحة الكائن الحالي
 
-![نافذة Scratch مع تسليط الضوء على لوحة الشخصية الحالية](images/hlCurrentSpritePanel.png)
+![نافذة Scratch مع تسليط الضوء على لوحة الكائن الحالي](images/hlCurrentSpritePanel.png)
 
 ## \--- /collapse \---
 
@@ -93,4 +93,4 @@
 
 ![](images/setup3.png) \--- /task \---
 
-\--- المهمة \--- الآن انقر فوق الزر **Start Program** وشاهد ما يحدث! \--- /task \---
+\--- المهمة \--- الآن انقر فوق زر **انطلق** وشاهد ما سيحدث! \--- /task \---
