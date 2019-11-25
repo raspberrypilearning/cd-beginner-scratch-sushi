@@ -8,21 +8,21 @@ You will find all blocks in the **code blocks palette**, sorted into different c
 
 ## \--- collapse \---
 
-## title: Using blocks from the different categories
+## title: استخدام مقاطع من مختلف الفئات
 
-Click on a category name to see the blocks in that category. Here, the **Motion** category is selected:
+انقر على اسم الفئة لرؤية المقاطع التي تحتويها. هنا ، تم تحديد فئة **الحركة**:
 
 ![](images/code2a.png)
 
-All of the blocks in the category you've clicked are shown in a list:
+جميع المقاطع في الفئة التي نقرت عليها معروضة في قائمة:
 
 ![](images/code2b.png)
 
-You can click on the blcok you want, and then just drag it into the current sprite panel and let go. Once it's in the panel, you can move it around and connect it to other blocks.
+You can click on the blcok you want, and then just drag it into the current sprite panel and let go. بمجرد وجوده في اللوحة ، يمكنك تحريكه وتوصيله بالمقاطع الأخرى.
 
 \--- /collapse \---
 
-If you want to see what a block does, you can double-click on it to make it run!
+إذا كنت تريد أن ترى ما يقوم به مقطع ما ، فيمكنك النقر مرتين عليه لتشغيله!
 
 \--- task \--- Try double-clicking on some of the blocks to see what they do. \--- /task \---
 
