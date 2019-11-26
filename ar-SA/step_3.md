@@ -4,7 +4,7 @@
 
 ![](images/code1.png)
 
-You will find all blocks in the **code blocks palette**, sorted into different categories according to what they do.
+سوف تجد جميع المقاطع في **لوحة المقاطع البرمجية **، ويتم تصنيفها إلى فئات مختلفة وفقا لعملهم.
 
 ## \--- collapse \---
 
@@ -18,27 +18,27 @@ You will find all blocks in the **code blocks palette**, sorted into different c
 
 ![](images/code2b.png)
 
-You can click on the blcok you want, and then just drag it into the current sprite panel and let go. بمجرد وجوده في اللوحة ، يمكنك تحريكه وتوصيله بالمقاطع الأخرى.
+يمكنك النقر فوق المقطع الذي تريده ، ثم قم بسحبه إلى لوحة الكائن الحالي واتركه. بمجرد وجوده في اللوحة ، يمكنك تحريكه وتوصيله بالمقاطع الأخرى.
 
 \--- /collapse \---
 
 إذا كنت تريد أن ترى ما يقوم به مقطع ما ، فيمكنك النقر مرتين عليه لتشغيله!
 
-\--- task \--- Try double-clicking on some of the blocks to see what they do. \--- /task \---
+\--- task \--- حاول النقر نمرتين على بعض المقاطع لترى ما يفعلونه. \--- /task \---
 
 ## \--- collapse \---
 
 ## title: تشغيل الكود
 
-Usually, you want your code to run automatically whenever something specific happens. هذا هو السبب في أن العديد من برامجك ستبدأ بمقطع من فئة **الأحداث**، غالبًا هذا المقطع:
+عادة ، تريد تشغيل الكود تلقائيًا كلما حدث شيء معين. هذا هو السبب في أن العديد من برامجك ستبدأ بمقطع من فئة **الأحداث**، غالبًا هذا المقطع:
 
 ```blocks3
     عند نقر العلم الأخضر
 ```
 
-The code blocks connected to this block will run after the **green flag** is clicked.
+المقاطع البرمجية المتصلة بهذا المقطع سوف تعمل بعد نقر **العلم الأخضر**.
 
-يتم تشغيل المقاطع البرمجية من الأعلى إلى الأسفل ، لذا فإن الترتيب الذي تصل فيه المقاطع معًا أمر مهم. In this example, the sprite will `say`{:class="block3looks"} `Hello!` before it will `play`{:class="block3sound"} the `meow` sound.
+يتم تشغيل المقاطع البرمجية من الأعلى إلى الأسفل ، لذا فإن الترتيب الذي تصل فيه المقاطع معًا أمر مهم. في هذا المثال, سيقوم الكائن `بقول`{:class="block3looks"} `السلام عليكم!` قبل ان `يشغل`{:class="block3sound"} صوت `meow`.
 
 ```blocks3
     عندما نقر العلم الأخضر
