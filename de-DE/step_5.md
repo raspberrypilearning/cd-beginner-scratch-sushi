@@ -58,7 +58,7 @@ Jetzt bewegt sich dein Hai vor und zurück, was ziemlich cool ist, aber nicht na
 
 \--- /task \---
 
-Now when you press the arrows keys, the shark moves all around the stage!
+Wenn du jetzt die Pfeiltasten drückst bewegt sich der Hai auf der Bühne!
 
 ## \--- collapse \---
 
