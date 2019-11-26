@@ -48,4 +48,4 @@ Sobald du alles eingerichtet hast, kannst du mit dem nächsten Schritt fortfahre
 
 \--- /collapse \---
 
-![Tracking pixel](http://code.org/api/hour/begin_coderdojo_sushi.png)
+![Zählpixel](http://code.org/api/hour/begin_coderdojo_sushi.png)
