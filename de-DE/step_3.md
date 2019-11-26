@@ -56,7 +56,7 @@ Das Entfernen oder Löschen von Codeblöcken, die du nicht in deinen Programm ha
 
 \--- task \--- Versuche, einige Codeblöcke hinzuzufügen, zu löschen und wiederherzustellen! \--- /task \---
 
-### Putting it all together
+### Alles zusammenfügen
 
 Jetzt weißt du, wie du Code verschieben und Dinge in Bewegung setzen kannst. Jetzt ist es an der Zeit, ein Programm zu erstellen, mit dem die Scratch Katze im Kreis laufen kann!
 
