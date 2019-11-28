@@ -98,7 +98,7 @@ Wszystko, czego potrzebujesz, to blok **Zdarzenia** dla tej zielonej flagi, oraz
 Następnie znajdź blok `idź do`{:class="block3motion"} w kategorii **Ruch** i dołącz go do bloku **zdarzenia z flagą**.
 
 ```blocks3
-    gdy flaga kliknięta
+    kiedy kliknięto zieloną flagę
 + idź do x: (0) y: (0)
 ```
 

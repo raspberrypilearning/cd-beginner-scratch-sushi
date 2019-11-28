@@ -33,7 +33,7 @@ Cóż, ta ryba właśnie uderzyła w ścianę Sceny i poruszała się o wiele za
 Najpierw musisz spowolnić rybę. W rzeczywistości jest to całkiem proste, wystarczy, że poczeka chwilę, po przesunięciu się o 10 kroków. Jest blok w sekcji **Kontrola**, który pomoże Ci w tym:
 
 ```blocks3
-    czekaj (1) sek
+    czekaj (1) sekund
 ```
 
 --- task --- Dodaj blok `czekaj`{:class="block3control"} do swojego kodu wewnątrz bloku pętli `zawsze`{:class="block3control"} i zmień liczbę na `0.5`, jak poniżej:
@@ -42,7 +42,7 @@ Najpierw musisz spowolnić rybę. W rzeczywistości jest to całkiem proste, wys
     kiedy kliknięto zieloną flagę
     zawsze
         przesuń o (10) kroków
-+ czekaj (0.5) sek
++ czekaj (0.5) sekund
     koniec
 ```
 
@@ -72,16 +72,16 @@ Blok `jeżeli na brzegu, odbij się`{:class="block3motion"} sprawdza, czy duszek
 
 --- /collapse ---
 
-Oczywiście, będzie to prowadzić do ryby w pozycji do góry nogami, więc trzeba ponownie wykorzystać blok `ustaw styl obrotu`{:class="block3motion”}.
+Oczywiście, będzie to prowadzić do ryby w pozycji do góry nogami, więc trzeba ponownie wykorzystać blok `ustaw styl obrotu`{:class="block3motion"}.
 
 --- task --- Zaktualizuj swój kod, aby ustawić styl obrotu ryby na `lewo-prawo`{:class="block3motion"} na początku kodu duszka:
 
 ```blocks3
     kiedy kliknięto zieloną flagę
-+    ustaw styl obrotu [lewo-prawo v]
++    ustaw styl obrotu na [lewo-prawo v]
     zawsze
         przesuń o (10) kroków
-        czekaj (0.5) sek
+        czekaj (0.5) sekund
         jeżeli na brzegu, odbij się
     koniec
 ```
@@ -99,7 +99,7 @@ Już wiesz z poprzedniego kroku, jak zrobić, żeby duszek się obracał, więc 
     ustaw styl obrotu na [lewo-prawo v]
     zawsze 
           przesuń o (10) kroków
-  +        obróć w prawo o (10) stopni
++           obróć w prawo o (10) stopni
           czekaj (0.5) sekund
           jeżeli na brzegu, odbij się
     koniec
@@ -126,7 +126,7 @@ title: Co to jest wyrażenie (ang. operator)?
 
 --- /collapse ---
 
---- task --- Znajdź w sekcji `Wyrażenia` blok **losuj liczbę od do**{:class="block3operators"} i podłącz go do bloku `obróć o`{:class="block3motion"} z sekcji **Ruch** klikając i przeciągając go w pole, w którym ustawiasz liczbę stopni.
+--- task --- Znajdź w sekcji **Wyrażenia** blok `losuj liczbę od do`{:class="block3operators"} i podłącz go do bloku `obróć o`{:class="block3motion"} z sekcji **Ruch** klikając i przeciągając go w pole, w którym ustawiasz liczbę stopni.
 
 ```blocks3
     kiedy kliknięto zieloną flagę

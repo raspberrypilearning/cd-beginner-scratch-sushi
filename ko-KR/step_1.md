@@ -4,7 +4,7 @@
 
 --- /no-print ---
 
-## 들어가며
+## 소개
 
 이 프로젝트는 스크래치에서 컴퓨터 프로그램을 만드는 법을 배우는데 도움이 될 것입니다!
 
@@ -43,8 +43,8 @@ title: 준비물
 
 **스크래치**프로그램이 필요하므로 다음 중 하나를 수행하십시오.
 
-+ [https://scratch.mit.edu/downloadh](http://dojo.soy/downloadscratch) 로 이동하여 스크래치를 다운로드하여 컴퓨터에 설치하세요.
-+ [ https://scratch.mit.edu/projects/editor/](http://dojo.soy/usescratch)로 이동하여 웹 브라우저에서 스크래치를 사용하십시오. 
++ [dojo.soy/downloadscratch](http://dojo.soy/downloadscratch) 로 이동하여 스크래치를 다운로드하여 컴퓨터에 설치하세요.
++ [dojo.soy/usescratch](http://dojo.soy/usescratch)로 이동하여 웹 브라우저에서 스크래치를 사용하십시오. 
 
 설정을 마치면 다음 단계로 넘어갈 수 있습니다!
 

@@ -27,7 +27,7 @@ Gdy chcesz zapisać lub przechować informacje w programie, używasz czegoś, co
 
 Teraz musisz zaktualizować zmienną za każdym razem, gdy rekin zjada rybę, i resetować ją po ponownym uruchomieniu gry. Wykonanie obu jest całkiem proste:
 
---- task --- Z sekcji **Zmienne**, weź bloki `ustaw [moja zmienna v] na [0]`{:class="block3variables"} i `zmień [moja zmienna v] o [1]`{:class="block3variables”}. Kliknij małe strzałki w blokach, wybierz `wynik` z listy, a następnie umieść bloki w programie:
+--- task --- Z sekcji **Zmienne**, weź bloki `ustaw [moja zmienna v] na [0]`{:class="block3variables"} i `zmień [moja zmienna v] o [1]`{:class="block3variables"}. Kliknij małe strzałki w blokach, wybierz `wynik` z listy, a następnie umieść bloki w programie:
 
 ### Kod rekina
 

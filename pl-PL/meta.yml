@@ -19,10 +19,10 @@ steps:
   - title: Przygotowanie do pracy
   - title: Dodawanie i usuwanie bloków kodu
   - title: Ustawianie sceny
-  - title: Poruszanie rzeczy
+  - title: Poruszanie rzeczami
   - title: Wszystkie duszki
   - title: Ryby zdalnie sterowane
-  - title: Wędkarstwo!
-  - title: Zachowując wynik
+  - title: Złap rybę!
+  - title: Zapamiętywanie wyniku
   - title: "Wyzwanie: wygranie gry"
     challenge: true

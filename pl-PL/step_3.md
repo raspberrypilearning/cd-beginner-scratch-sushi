@@ -35,7 +35,7 @@ title: Uruchamianie kodu
 Zwykle chcesz, aby Twój kod uruchamiał się automatycznie, gdy wydarzy się coś konkretnego. Dlatego wiele z twoich programów rozpocznie się od bloku z kategorii **Zdarzenia**, najczęściej od tego:
 
 ```blocks3
-    kiedy flaga kliknięta
+    kiedy kliknięto zieloną flagę
 ```
 
 Bloki kodu podłączone do tego bloku będą uruchamiane po kliknięciu **zielonej flagi**.
@@ -43,9 +43,9 @@ Bloki kodu podłączone do tego bloku będą uruchamiane po kliknięciu **zielon
 Bloki kodu uruchamiane są od góry do dołu, więc kolejność, w jakiej łączysz bloki, ma znaczenie. W tym przykładzie duszek `powie`{:class="block3looks"} `Witaj!` zanim `odtworzy`{:class="block3sound"} dźwięk `miau` (ang. meow).
 
 ```blocks3
-    kiedy flaga kliknięta
+    kiedy kliknięto zieloną flagę
     powiedz [Cześć]
-    odtwarzaj dźwięk [meow v]
+    zagraj dźwięk [meow v]
 ```
 
 --- /collapse ---
@@ -65,7 +65,7 @@ Teraz, gdy wiesz, jak przesuwać kod i sprawiać, że coś się dzieje, nadszed�
 --- task --- Upewnij się, że na liście duszków został wybrany duszek kota, a następnie przeciągnij następujące bloki do panelu duszka i połącz je. Znajdziesz je na listach **Zdarzenia** i **Ruch**.
 
 ```blocks3
-    kiedy flaga kliknięta
+    kiedy kliknięto zieloną flagę
     przesuń o [10] kroków
 ```
 
@@ -82,9 +82,9 @@ Uwaga: Jeśli klikniesz flagę zbyt wiele razy, a kot odejdzie, możesz przecią
 --- task --- Przyczep na końcu blok skręcania, aby duszek kota chodził w kółko. Jest on także na liście **Ruch**.
 
 ```blocks3
-    kiedy flaga kliknięta
+    kiedy kliknięto zieloną flagę
     przesuń o [10] kroków
-+ obróć cw o (15) stopni
++       obróć w prawo o (15) stopni
 ```
 
 --- /task ---

@@ -78,7 +78,7 @@ Czas na programowanie!
 Wybierz kategorię **Zdarzenia** w palecie bloków kodu, kliknij blok `kiedy flaga kliknięta`{:class="block3events"} i przeciągnij go do panelu bieżącego duszka.
 
 ```blocks3
-    kiedy flaga kliknięta
+    kiedy kliknięto zieloną flagę
 ```
 
 --- /task ---
@@ -86,7 +86,7 @@ Wybierz kategorię **Zdarzenia** w palecie bloków kodu, kliknij blok `kiedy fla
 --- task --- Następnie przejdź do **Wygląd** w palecie bloków kodu i znajdź ten blok:
 
 ```blocks3
-    powiedz [Witaj!] przez (2) sek
+    powiedz [Hello!] przez (2) sekund
 ```
 
 Kliknij go, przytrzymaj przycisk myszy, a następnie przeciągnij go do panelu bieżącego duszka i puść przycisk.

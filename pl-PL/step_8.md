@@ -10,7 +10,7 @@ Przeciągnij blok `dotyka...`{:class="block3sensing"} do miejsca na górze bloku
 
 ```blocks3
     kiedy kliknięto zieloną flagę
-    ustaw styl obrotu [lewo-prawo v]
+    ustaw styl obrotu na [lewo-prawo v]
     zawsze 
         przesuń o (10) kroków
         obróć w prawo o (losuj liczbę od (1) do (10)) stopni
@@ -60,7 +60,7 @@ Teraz, gdy rekin złapie rybę, ryba znika na dobre. To nie do końca jest super
 ```blocks3
     kiedy kliknięto zieloną flagę
 +    pokaż
-    ustaw styl obrotu [lewo-prawo v]
+    ustaw styl obrotu na [lewo-prawo v]
     zawsze
 ```
 

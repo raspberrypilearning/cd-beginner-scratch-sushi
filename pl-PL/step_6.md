@@ -30,14 +30,14 @@ Blok `ustaw kierunek na`{:class="block3motion"} pozwala wybrać kierunek, w któ
 --- task --- Chwyć kilka kopii bloku `ustaw kierunek na`{:class="block3motion"} z listy **Ruch** i połącz je z kodem Twojego rekina, tak jak poniżej:
 
 ```blocks3
-    gdy klawisz [strzałka w lewo v] naciśnięty
-+ ustaw kierunek na (-90)
+    kiedy klawisz [strzałka w lewo v] naciśnięty
++    ustaw kierunek na (-90)
     przesuń o (10) kroków
 ```
 
 ```blocks3
-    gdy klawisz [strzałka w prawo v] naciśnięty
-+ ustaw kierunek na (-90)
+    kiedy klawisz [strzałka w prawo v] naciśnięty
++    ustaw kierunek na (90)
     przesuń o (10) kroków
 ```
 
