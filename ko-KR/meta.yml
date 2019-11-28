@@ -1,0 +1,28 @@
+---
+title: 깊은 바다 물고기
+hero_image: images/banner.png
+description: 첫 스크래치 프로그램에서 재미있는 게임을 만드십시오!
+theme: orange #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
+duration: 2
+listed: true
+ingredient: false
+copyedit: true
+curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
+interests: animals, humour, outdoors, games
+technologies: scratch
+site_areas: coderdojo
+software: scratch
+version: 4.0.0
+last_tested: 2017-01-01
+steps:
+  - title: 소개
+  - title: 설정하기
+  - title: 코드 블록 추가 및 제거
+  - title: 장면 설정하기
+  - title: 주변의 물건 이동
+  - title: 모든 스프라이트
+  - title: 스스로 움직이는 물고기
+  - title: 물고기잡기
+  - title: 점수 사용하기
+  - title: "과제: 게임에서 승리하기"
+    challenge: true
