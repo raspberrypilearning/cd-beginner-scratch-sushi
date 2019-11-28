@@ -1,30 +1,30 @@
-## Setting the scene
+## Mise en scène
 
-Scratch has a library of backgrounds and sprites for you to use to make your project look awesome.
+Scratch dispose d'une bibliothèque d'arrière-plans et de sprites que tu peux utiliser pour rendre ton projet superbe.
 
-\--- task \--- Select the Stage.
+\--- task \--- Sélectionne la scène.
 
 ![Selecting the stage](images/looksSelectStage.png)
 
-Click on **Backdrops**.
+Clique sur **Arrière-plans**.
 
 ![The Backdrops tab](images/looksBackdrops.png)
 
-Click the **Choose backdrop from library** icon.
+Clique sur l'icône **Choisir l'arrière-plan à partir de la bibliothèque**.
 
 ![The Choose backdrop icon](images/looksChooseBg.png)
 
-Then pick your favourite underwater background!
+Ensuite, choisis ton fond sous-marin préféré!
 
 ![An underwater scene](images/looksUnderwater.png) \--- /task \---
 
-Great! Of course, now you have a cat underwater, and cats aren't usually big fans of that. But you can fix that, because you can turn the cat into a shark!
+Génial! Bien sûr, tu as maintenant un chat sous l'eau, les chats ne sont généralement pas de grands fans de cela. Mais tu peux y remédier, car tu peux transformer le chat en requin!
 
-\--- task \--- First, select the cat sprite and click on the **Costumes** tab.
+\--- task \--- Tout d'abord, sélectionne le sprite chat et clique sur l'onglet **Costumes**.
 
 ![](images/cool2.png)
 
-Then, click on **Choose costume from Library**
+Ensuite, clique sur **Choisir costume à partir de la bibliothèque**
 
 ![](images/cool3.png)
 
