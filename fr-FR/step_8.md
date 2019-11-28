@@ -1,89 +1,89 @@
-## Fishing!
+## Pêche!
 
-The shark moves, the fish swims, but they don’t interact: if the fish swims right into the shark's mouth, nothing happens. Time to change that!
+Le requin bouge, le poisson nage, mais ils n'interagissent pas: si le poisson nage directement dans la bouche du requin, rien ne se passe. Il est temps de changer ça!
 
-First, you need to know if the fish is touching the shark. For this, you'll need a **Control** block and a **Sensing** block.
+Tout d'abord, tu dois savoir si le poisson touche le requin. Pour cela, tu auras besoin d'un bloc **Contrôle** et d'un bloc **Détection**.
 
-\--- task \--- Add the `if...then`{:class="block3control"} **Control** block inside the `forever`{:class="block3control"} loop of the fish sprite, below the `if on edge bounce`{:class="block3motion"} block.
+\--- task \--- Ajoute le `si ....alors`{: class = "block3control"} **Contrôle** bloc dans la boucle `répéter indéfiniment`{:class="block3control"} du poisson sprite, en dessous du bloc `si rebond`{: class = "block3motion"}.
 
-Drag the `touching...`{:class="block3sensing"} block into the space at the top of the `if...then`{:class="block3control"} block, and click the little triangle to select the shark sprite's name. If you haven’t changed it, it'll be 'Sprite1'.
+Fais glisser le bloc `touchant ...`{:class="block3sensing"} dans l'espace situé en haut du bloc `si ... alors`{:class="block3control"}, puis clique sur le petit triangle pour sélectionner le nom du sprite requin. Si tu ne l'as pas changé, ce sera «Sprite1».
 
 ```blocks3
-    when green flag clicked
-    set rotation style [left-right v]
-    forever 
-        move (10) steps
-        turn cw (pick random (1) to (10)) degrees
-        wait (0.5) secs
-        if on edge, bounce
-+        if <touching [Sprite1 v] ?> then
-    end
+    lorsque le drapeau vert est cliqué
+    définir style de rotation [gauche-droite v]
+    répéter indéfiniment 
+        déplacer de (10) pas
+        tourner cw (choix aléatoire (1) à (10)) degrés
+        attendre (0,5) secondes
+        si sur le bord, rebondir
++ si <touching [Sprite1 v] ?> alors
+    fin
 ```
 
 \--- /task \---
 
 ## \--- collapse \---
 
-## title: How does it work?
+## title: Comment ça marche?
 
-The `if...then`{:class="block3control"} **Control** block needs to be given a `True/False` value.
+Le `si ... alors`{:class="block3control"} **le bloc de contrôle** doit recevoir une valeur `Vraie/Fausse`.
 
-**Sensing** blocks collect information, like where the sprite is, what it’s touching, etc. You're using this block:
+**Les blocs de détection** collectent des informations, telles que l'emplacement du sprite, ce qui touche, etc. Tu utilises ce bloc:
 
 ```blocks3
     <touching [Sprite1 v] ?>
 ```
 
-From this block's pointy ends, you can tell it’s going to give you the `True/False` value that the `if...then`{:class="block3control"} block needs.
+A partir de ce bloc, tu peux dire qu'il va te donner la valeur `Vrai/Faux` dont a besoin le bloc `si ... alors`{: class = "block3control"}.
 
 \--- /collapse \---
 
-Of course, you’ve just added an `if...then`{:class="block3control"} block without adding anything for the 'then' part. So at the moment your script is checking whether the fish sprite is touching the shark sprite, but it's not making anything happen in response.
+Bien sûr, tu viens d'ajouter un bloc `si ... alors`{:class="block3control"} sans rien ajouter pour la partie 'alors'. Donc, au moment où ton script vérifie si le sprite poisson touche le sprite requin, il ne fait rien en réponse.
 
-You can make the fish disappear, as if the shark ate it, by using the `hide`{:class="block3looks"} block.
+Tu peux faire disparaître le poisson, comme si le requin le mangeait, en utilisant le bloc `cacher`{:class="block3looks"}.
 
-\--- task \--- Find the `hide`{:class="block3looks"} block in the **Looks** list, and put it inside the `if...then`{:class="block3control"} block, like so:
+\--- task \--- Recherche le bloc `cacher`{: class = "block3looks"} dans la liste **Apparence** et place-le dans le bloc `si ... alors`{:class="block3control"} , ainsi:
 
 ```blocks3
-    if <touching [Sprite1 v] ?> then
-+        hide
-    end
+    si <touching [Sprite1 v] ?> alors
++ cacher
+    fin
 ```
 
 \--- /task \---
 
-Now once the shark catches the fish, the fish disappears for good. That’s not great.
+Maintenant, une fois que le requin attrape le poisson, celui-ci disparaît définitivement. C'est pas génial.
 
-\--- task \--- Put the `show`{:class="block3looks"} block from **Looks** in at the very start of the fish code, so you can reset the game.
+\--- task \--- Mets le bloc `montrer`{:class="block3looks"} à partir de **Apparence** dans le tout début du code de poisson, pour pouvoir réinitialiser le jeu.
 
 ```blocks3
-    when green flag clicked
-+    show
-    set rotation style [left-right v]
-    forever
+    lorsque le drapeau vert est cliqué
++ afficher
+    définir style de rotation [gauche-droite v]
+    répéter indéfiniment
 ```
 
 \--- /task \---
 
-That's already better, but you don’t want the player to have to restart the game every time they catch a single fish!
+C'est déjà mieux, mais tu ne veux pas que le joueur redémarre le jeu à chaque fois qu'il attrape un seul poisson!
 
-\--- task \--- Update the code inside your `if...then`{:class="block3control"} block to look like this:
+\--- task \--- Met à jour le code dans ton bloc `si ... alors`{:class="block3control"} pour qu'il ressemble à ceci:
 
 ```blocks3
-    if on edge, bounce
-    if <touching [Sprite1 v] ?> then
-        hide
-+        wait (1) secs
-+        go to x: (pick random (-240) to (240)) y: (pick random (-180) to (180))
-+        show
-    end
+    si sur le bord, rebondir
+    si <touching [Sprite1 v] ?> alors
+        cacher
++ attendre (1) secondes
++ aller à x: (choisir au hasard (-240) à (240)) y: (choisir au hasard (-180) à (180))
++ montrer
+    fin
 ```
 
 \--- /task \---
 
 ## \--- collapse \---
 
-## title: How does this work?
+## title: Comment ça marche?
 
 You are being clever here: when the fish is hidden, it waits, moves, and then shows up again.
 
