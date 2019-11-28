@@ -1,3 +1,3 @@
-## Challenge: winning the game
+## Défi: gagner le jeu
 
-Pick a score at which the player wins, and make something cool happen when they have that many points. Maybe the shark congratulates them, or a 'You win!' sprite appears, or music plays!
+Choisis un score auquel le joueur gagne et fais en sorte que quelque chose de cool se produise lorsqu'il a autant de points. Peut-être que le requin les félicite, ou un "Tu as gagné!" Le sprite apparaît ou la musique joue!
