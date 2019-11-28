@@ -1,4 +1,4 @@
-## Ajouter et supprimer des blocs de code
+## Ajout et suppression de blocs de code
 
 Génial! Tu as écrit ton tout premier programme Scratch. Il est temps d'en apprendre un peu plus sur l'introduction et la suppression de code dans Scratch! Le code Scratch est composé de **blocs** tels que:
 
@@ -8,7 +8,7 @@ Tu trouveras tous les blocs dans la **palette des blocs de code**, classés en d
 
 ## \--- collapse \---
 
-## title: Utiliser des blocs de différentes catégories
+## title: Utilisation de blocs de différentes catégories
 
 Clique sur un nom de catégorie pour voir les blocs de cette catégorie. Ici, la catégorie **Mouvement** est sélectionnée:
 
@@ -38,7 +38,7 @@ Généralement, tu veux que ton code soit exécuté automatiquement chaque fois 
 
 Les blocs de code reliés à ce bloc seront exécutés après que le **drapeau vert** sera cliqué.
 
-Les blocs de code s'éxécutent du haut en bas. L'ordre dans lequel tu assembles tes blocs est donc important. Dans cet exemple, le sprite `dira`{:class = "block3looks"} `Bonjour!` avant de `jouer`{:class = "block3sound"} le son `Meow`.
+Les blocs de code vont du haut vers le bas. L'ordre dans lequel tu assembles tes blocs est donc important. Dans cet exemple, le sprite `dira`{:class = "block3looks"} `Bonjour!` avant de `jouer`{:class = "block3sound"} le son `Meow`.
 
 ```blocks3
     quand le drapeau vert est cliqué
@@ -50,15 +50,15 @@ Les blocs de code s'éxécutent du haut en bas. L'ordre dans lequel tu assembles
 
 Il est facile d'enlever ou de supprimer des blocs de code que tu ne veux pas dans ton programme! Fais-les simplement glisser dans la palette des blocs de code.
 
-**Fais attention:** si tu fais glisser un bloc de code dans la palette des blocs de code, ce supprimera tous les blocs reliés au bloc que tu fais glisser. Veille donc à séparer les blocs de code que tu souhaites conserver de ceux que tu souhaites enlever. Si tu supprimes des blocs de code par accident et tu souhaites les récupérer, clique avec le bouton droit de la souris, puis clique sur **Restaurer** pour tout récupérer.
+**Fais attention:** si tu fais glisser un bloc de code dans la palette des blocs de code, cela supprimera tous les blocs reliés au bloc que tu fais glisser. Veille donc à séparer les blocs de code que tu souhaites conserver de ceux que tu souhaites enlever. Si tu supprimes des blocs de code par accident et que tu souhaites les récupérer, clique avec le bouton droit de la souris, puis clique sur **Restaurer** pour tout récupérer.
 
 ![](images/code6.png)
 
 \--- task \--- Essaie d'ajouter, de supprimer, et d'annuler la suppression de certains blocs de code! \--- /task \---
 
-### Putting it all together
+### Les mettre tous ensemble
 
-Now you know how to move code around and make things happen, it's time for you to create a program to make the Scratch Cat walk in a circle!
+Maintenant que tu sais comment déplacer le code et faire bouger les choses, il est temps de créer un programme pour faire en sorte que le chat Scratch marche en cercle!
 
 \--- task \--- Assure-toi que le sprite chat est sélectionné dans la liste, puis fais glisser les blocs suivants dans le panneau sprite et relie-les. Tu les trouveras dans les listes **Événements** et **Mouvement**.
 
@@ -73,25 +73,25 @@ Now you know how to move code around and make things happen, it's time for you t
 
 ![](images/code7.png) \--- /task \---
 
-You should see the cat walking in a straight line...not exactly what you want, right?
+Tu devrais voir le chat marcher en ligne droite ... pas exactement ce que tu veux, exact?
 
-Note: If you click th flag too many times and the cat walks away, you can drag it back!
+Remarque: si tu cliques trop souvent sur le drapeau et que le chat s'éloigne, tu peux le faire glisser!
 
-\--- task \--- Snap the turn block to the end to make the cat sprite walk in a circle. It’s in the **Motion** list too.
+\--- task \--- Accroche le bloc tourner à la fin pour faire marcher le sprite du chat en cercle. C'est aussi dans la liste **Mouvement**.
 
 ```blocks3
-    when green flag clicked
-    move [10] steps
-+    turn cw (15) degrees
+    lorsque le drapeau vert est cliqué 
+    déplacez de [10] pas
++ tournez cw (15) degrés
 ```
 
 \--- /task \---
 
 ## \--- collapse \---
 
-## title: How does turning work?
+## title: Comment fonctionne la rotation?
 
-This block makes the sprite turn 15 degrees of the full 360 degrees that make up a circle. You can change that number, and the number of steps, by clicking on the number and typing in a new value.
+Ce bloc fait tourner le sprite de 15 degrés sur 360 degrés complets qui forment un cercle. Tu peux modifier ce nombre et le nombre de pas en cliquant dessus et en saisissant une nouvelle valeur.
 
 ![](images/code9.png)
 
