@@ -85,10 +85,10 @@ C'est déjà mieux, mais tu ne veux pas que le joueur redémarre le jeu à chaqu
 
 ## title: Comment ça marche?
 
-You are being clever here: when the fish is hidden, it waits, moves, and then shows up again.
+Tu es malin ici: quand le poisson est caché, il attend, bouge et se montre à nouveau.
 
-It looks like lots of fish keep appearing, but it’s that one sprite moving around!
+On dirait que beaucoup de poissons continuent à apparaître, mais c'est ce sprite qui se déplace!
 
 \--- /collapse \---
 
-That’s a game! But there’s no way to keep score yet, or to win. You can fix that too — on the next card!
+C'est un jeu! Mais il n’y a encore aucun moyen de marquer des points ou de gagner. Tu peux également résoudre ce problème - sur la carte suivante!
