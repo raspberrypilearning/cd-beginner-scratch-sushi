@@ -1,73 +1,73 @@
-## All the sprites
+## Tous les sprites
 
-Now you have a shark that you can move around using the arrow keys. Nice! Time to add some fish for it to catch.
+Tu as maintenant un requin que tu peux déplacer avec les touches fléchées. Super! Il est temps d'ajouter du poisson à attraper.
 
 \--- task \---
 
-Click the **New sprite** button, and on the screen that opens, choose a fish.
+Clique sur le bouton **Nouveau sprite** et, sur l'écran qui s'ouvre, choisis un poisson.
 
-![The New sprite button](images/spritesNewFromLibrary.png)
+![Le bouton Nouveau sprite](images/spritesNewFromLibrary.png)
 
-If your fish is a bit big compared to your shark, you can use the size control to make both sprites the right size!
+Si ton poisson est un peu gros par rapport à ton requin, tu peux utiliser le contrôle de taille pour que les deux sprites aient la bonne taille!
 
-![Sprite size control](images/sprites2.png)
+![Contrôle de la taille des sprites](images/sprites2.png)
 
-Change the number in the size control to make the spirte bigger or smaller.
+Modifie le nombre dans le contrôle de taille pour que le sprite soit plus grand ou plus petit.
 
 \--- /task \---
 
-Great! Later, you're going to add some code to make the fish move around on its own, without help from the player. Your player will move the shark and try to catch the fish.
+Génial! Plus tard, tu vas ajouter du code pour que le poisson se déplace tout seul, sans l'aide du joueur. Ton joueur va déplacer le requin et essayer d'attraper le poisson.
 
 ## \--- collapse \---
 
-## title: What about the backwards shark?
+## title: Et le requin à l'envers?
 
-It does look a little funny to have that shark swimming backwards. Just like you’d usually turn around rather than walking backwards, the shark would turn around rather than swimming backwards. Luckily for you, Scratch has a block for this!
+Ça fait un peu drôle de voir ce requin nager à l’arrière. Comme tu le ferais en général plutôt que de marcher en arrière, le requin se retournerait plutôt que de nager en arrière. Heureusement pour toi, Scratch a un bloc pour cela!
 
-The `point in direction`{:class="block3motion"} block lets you pick the direction your sprite is pointing in. You’ll find it in the **Motion** blocks section. You can type in any number of degrees, to point the sprite wherever you want. \--- /collapse \---
+Le bloc `dans la direction`{:class="block3motion"} nous permet de choisir la direction dans laquelle votre sprite est pointé. Tu le trouveras dans la section des blocs **Mouvement**. Tu peux taper n'importe quel nombre de degrés, pour diriger le sprite où tu veux. \--- /collapse \---
 
-\--- task \--- Grab a couple of copies of the `point in direction`{:class="block3motion"} block from the **Motion** list and connect them to your shark's code, like this:
+\--- task \--- Prend quelques copies du bloc `s'orienter dans la direction`{:class="block3motion"} de la liste **Mouvement** et connecte-les au code de ton requin, comme suit:
 
 ```blocks3
-    when [left arrow v] key pressed
-+     point in direction (-90)
-    move (10) steps
+    lorsque la touche [flèche gauche v] est enfoncée
++ s'orienter en direction de (-90)
+    déplacer de (10) pas
 ```
 
 ```blocks3
-    when [right arrow v] key pressed
-+     point in direction (90)
-    move (10) steps
+    lorsque la touche [flèche vers la droite v] est enfoncée
++ s'orienter en direction de (90)
+    déplacer de (10) pas
 ```
 
 \--- /task \---
 
-\--- task \--- Change the number of steps in the `move`{:class="block3motion"} blocks from `-10` to `10`.
+\--- task \--- Modifie le nombre de pas dans les blocs `déplacement`{:class="block3motion"} de `-10` à `10`.
 
-If you try moving the shark around now after you've added the `point in direction`{:class="block3motion"} blocks, you might notice something a little strange happening. The shark may not be turning quite right!
+Si tu essaie de déplacer le requin maintenant après avoir ajouté le point `dans les blocs direction`{:class="block3motion"}, tu remarqueras peut-être un événement quelque peu étrange. Le requin ne tourne peut-être pas très bien!
 
-![Upside down shark](images/spritesUpsideDown.png)
+![Requin à l'envers](images/spritesUpsideDown.png)
 
 \--- /task \---
 
 ## \--- collapse \---
 
-## title: Why does it go upside down?
+## title: Pourquoi ça va à l'envers?
 
-The problem here is that the shark sprite started, as all sprites do, with the 'all around' **rotation style**, and what you need it to have is the 'left-right' style.
+Le problème ici est que le sprite de requin a commencé, comme tous les sprites font, avec le « tout autour de » **style de rotation**, et ce que tu as besoin d'avoir est le style « gauche-droite ».
 
-As usual, there’s a block for that, and it’s in **Motion**!
+Comme d'habitude, il existe un bloc pour cela, et c'est dans **Mouvement**!
 
 \--- /collapse \---
 
-\--- task \--- Look in the **Motion** category for the block `set rotation style`{:class="block3motion"}.
+\--- task \--- Recherche dans la catégorie **Mouvement** pour le bloc` définir style de rotation `{: class="block3motion"}.
 
-Add the block to your shark reset code from earlier, and set the rotation style to `left-right`{:class="block3motion"}, like this:
+Ajoute le bloc à ton code de réinitialisation de requin précédemment et définis le style de rotation sur `gauche-droite`{:class="block3motion"}, comme ceci:
 
 ```blocks3
-    when green flag clicked
-+     set rotation style [left-right v]
-    go to x: (0) y: (0)
+    lorsque le drapeau vert est cliqué 
++ définir le style de rotation [gauche-droite v]
+    aller à x: (0) y: (0)
 ```
 
 \--- /task \---
