@@ -50,13 +50,13 @@
 
 من السهل إزالة أو حذف المقاطع البرمجية التي لا تريدها في البرنامج! فقط اسحبهم مرة أخرى إلى لوحة المقاطع البرمجية.
 
-**Be careful:** dragging them into the code blocks pallette will delete all the blocks connected to the block you drag, so make sure to separate code blocks you want to keep from those you want to remove. If you delete some code blocks by accident and want to get them back, right-click and then click on the **undo** option to get everything back.
+**انتبه:** سحبهم إلى لوحة المقاطع البرمجية سيحذف جميع المقاطع المتصلة بالمقطع الذي سحبته, لذا تأكد من فصل المقاطع التي تريد حذفها من المقاطع التي تريد الإبقاء عليها. إذا قمت بحذف بعض التعليمات البرمجية عن طريق الخطأ وتريد استعادتها ، انقر بزر الماوس الأيمن ثم انقر فوق الخيار **تراجع** لاستعادة كل شيء.
 
 ![](images/code6.png)
 
-\--- task \--- Try adding, deleting, and undeleting some code blocks! \--- /task \---
+\--- task \--- حاول إضافة وحذف وإستعادة بعض المقاطع البرمجية! \--- /task \---
 
-### Putting it all together
+### ضع كل شيء معا
 
 Now you know how to move code around and make things happen, it's time for you to create a program to make the Scratch Cat walk in a circle!
 
