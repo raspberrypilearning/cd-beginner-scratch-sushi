@@ -73,11 +73,11 @@ Now you know how to move code around and make things happen, it's time for you t
 
 ![](images/code7.png) \--- /task \---
 
-You should see the cat walking in a straight line...not exactly what you want, right?
+يجب أن ترى القط يسير في خط مستقيم ... ليس ما تريد بالضبط ، أليس كذلك؟
 
-Note: If you click th flag too many times and the cat walks away, you can drag it back!
+ملاحظة: إذا نقرت على العلم عدة مرات وابتعدت القطة ، يمكنك سحبها مرة أخرى!
 
-\--- task \--- Snap the turn block to the end to make the cat sprite walk in a circle. It’s in the **Motion** list too.
+\--- task \--- Snap the turn block to the end to make the cat sprite walk in a circle. إنه في قائمة **الحركة** أيضًا.
 
 ```blocks3
     when green flag clicked
