@@ -58,18 +58,18 @@
 
 ### ضع كل شيء معا
 
-Now you know how to move code around and make things happen, it's time for you to create a program to make the Scratch Cat walk in a circle!
+الآن أنت تعرف كيف تحرك الكود وتُحِدث الأشياء، حان الوقت لإنشاء برنامج لجعل قطة Scratch تمشي في دائرة!
 
-\--- task \--- Make sure you have the cat sprite selected in the sprite list, and then drag the following blocks into the sprite panel and connect them. You’ll find them in the **Events** and **Motion** lists.
+\--- task \--- تأكد من تحديد كائن القط في قائمة الكائنات ، ثم قم بسحب المقاطع التالية في لوحة الكائن وتوصيلها. سوف تجدها في قوائم **الأحداث** و**الحركة**.
 
 ```blocks3
-    when green flag clicked
-    move [10] steps
+    عند نقر العلم الأخضر
+    تحرك [10] خطوة
 ```
 
 \--- /task \---
 
-\--- task \--- Now, click on the green flag above the Stage.
+\--- task \--- الآن ، انقر على العلم الأخضر فوق المنصة.
 
 ![](images/code7.png) \--- /task \---
 
@@ -77,24 +77,24 @@ Now you know how to move code around and make things happen, it's time for you t
 
 ملاحظة: إذا نقرت على العلم عدة مرات وابتعدت القطة ، يمكنك سحبها مرة أخرى!
 
-\--- task \--- Snap the turn block to the end to make the cat sprite walk in a circle. إنه في قائمة **الحركة** أيضًا.
+\--- task \--- إلصق مقطع الإستدارة في النهاية لجعل كائن القط يمشي في دائرة. إنه في قائمة **الحركة** أيضًا.
 
 ```blocks3
-    when green flag clicked
-    move [10] steps
-+    turn cw (15) degrees
+    عند نقر العلم الأخضر
+    تحرك [10] خطوة
++ أستدر مع عقارب الساعة (15) درجة
 ```
 
 \--- /task \---
 
 ## \--- collapse \---
 
-## title: How does turning work?
+## title: كيف يعمل الدوران؟
 
-This block makes the sprite turn 15 degrees of the full 360 degrees that make up a circle. You can change that number, and the number of steps, by clicking on the number and typing in a new value.
+يجعل هذا المقطع الكائن يستدير 15 درجة من 360 درجة كاملة التي تشكل دائرة. يمكنك تغيير هذا الرقم ، وعدد الخطوات ، بالنقر فوق الرقم وكتابة قيمة جديدة.
 
 ![](images/code9.png)
 
 \--- /collapse \---
 
-\--- task \--- Now save your work! \--- /task \---
+\--- task \--- الآن احفظ عملك! \--- /task \---
