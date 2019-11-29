@@ -1,4 +1,4 @@
-## Setting the scene
+## إعداد المشهد
 
 Scratch has a library of backgrounds and sprites for you to use to make your project look awesome.
 
@@ -18,7 +18,7 @@ Then pick your favourite underwater background!
 
 ![An underwater scene](images/looksUnderwater.png) \--- /task \---
 
-Great! Of course, now you have a cat underwater, and cats aren't usually big fans of that. But you can fix that, because you can turn the cat into a shark!
+عظيم! Of course, now you have a cat underwater, and cats aren't usually big fans of that. But you can fix that, because you can turn the cat into a shark!
 
 \--- task \--- First, select the cat sprite and click on the **Costumes** tab.
 
