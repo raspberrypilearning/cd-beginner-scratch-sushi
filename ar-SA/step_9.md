@@ -1,30 +1,30 @@
-## Keeping score
+## حفظ النتيجة
 
-To keep score of how many fish the player catches, you’ll need somewhere to store the score, a way of adding to it, and a way of resetting it when the game is restarted.
+للحفاظ على عدد الأسماك التي يصطادها اللاعب ، ستحتاج إلى مكان لتخزين النتيجة ، وطريقة إضافتها ، وطريقة لإعادة ضبطها عند إعادة تشغيل اللعبة.
 
-First: storing the score!
+أولاً: تخزين النتيجة!
 
 \--- task \--- Go to the **Variables** blocks category and click on **Make a Variable**.
 
 ![](images/catch5.png)
 
-Enter `score` as the name.
+أدخل ` النتيجة ` كاسم.
 
 ![](images/catch6.png)
 
-Check out your new variable!
+تحقق من المتغير الجديد الخاص بك!
 
 ![The Score variable is displayed on the stage](images/scoreVariableStage.png) \--- /task \---
 
 ## \--- collapse \---
 
-## title: What are variables?
+## title: ما هي المتغيرات؟
 
-When you want to store information in a program, you use something called a **variable**. Think of it like a box with a label on it: you can put something in it, check what’s in it, and change what’s in it. You’ll find variables in the **Variables** section, but you need to create them first for them to show up there!
+عندما تريد تخزين المعلومات في برنامج ما ، فأنت تستخدم شيئًا يسمى ** المتغير**. Think of it like a box with a label on it: you can put something in it, check what’s in it, and change what’s in it. ستجد المتغيرات في قسم ** المتغيرات **، ولكن عليك إنشاءها أولاً حتى تظهر هناك!
 
 \--- /collapse \---
 
-Now you need to update the variable whenever the shark eats a fish, and to reset it when the game is restarted. Doing both is pretty easy:
+الآن تحتاج إلى تحديث المتغير كلما أكل سمك القرش سمكة ، وإعادة تعيينه عند إعادة تشغيل اللعبة. القيام بالأمرين سهل للغاية:
 
 \--- task \--- From the **Variables** section, take the `set [my variable v] to [0]`{:class="block3variables"} and `change [my variable v] by [1]`{:class="block3variables"} blocks. Click on the little arrows in the blocks, choose `score` from the list, and then put the blocks into your program:
 
