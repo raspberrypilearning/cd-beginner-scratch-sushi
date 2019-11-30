@@ -1,10 +1,10 @@
 ## صيد السمك!
 
-The shark moves, the fish swims, but they don’t interact: if the fish swims right into the shark's mouth, nothing happens. Time to change that!
+يتحرك سمك القرش ، السمكة تسبح ، لكنهما لا يتفاعلان: إذا كانت السمكة تسبح مباشرة في فم القرش ، فلن يحدث شيء. حان الوقت لتغيير ذلك!
 
-First, you need to know if the fish is touching the shark. For this, you'll need a **Control** block and a **Sensing** block.
+أولاً ، تحتاج إلى معرفة ما إذا كانت السمكة تلامس سمك القرش. لهذا ، ستحتاج إلى مقطع ** التحكم ** و مقطع** الاستشعار **.
 
-\--- task \--- Add the `if...then`{:class="block3control"} **Control** block inside the `forever`{:class="block3control"} loop of the fish sprite, below the `if on edge bounce`{:class="block3motion"} block.
+\--- task \--- أضف مقطع **التحكم** `إذا... وإلا`{:class="block3control"} داخل مقطع `كرر باستمرار`{:class="block3control"} لكائن السمكة بعد مقطع `ارتد إذا كنت عند الحافة`{:class="block3motion"}.
 
 Drag the `touching...`{:class="block3sensing"} block into the space at the top of the `if...then`{:class="block3control"} block, and click the little triangle to select the shark sprite's name. If you haven’t changed it, it'll be 'Sprite1'.
 
