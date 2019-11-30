@@ -16,13 +16,13 @@ Change the number in the size control to make the spirte bigger or smaller.
 
 \--- /task \---
 
-Great! Later, you're going to add some code to make the fish move around on its own, without help from the player. Your player will move the shark and try to catch the fish.
+عظيم! في وقت لاحق ، ستقوم بإضافة بعض التعليمات البرمجية لجعل الأسماك تتحرك من تلقاء نفسها ، دون مساعدة من اللاعب. سيحرك اللاعب القرش ويحاول أن يصطاد السمك.
 
 ## \--- collapse \---
 
 ## title: What about the backwards shark?
 
-It does look a little funny to have that shark swimming backwards. Just like you’d usually turn around rather than walking backwards, the shark would turn around rather than swimming backwards. Luckily for you, Scratch has a block for this!
+يبدو الأمر مضحكا بعض الشيء أن يكون هذا القرش يسبح للوراء. Just like you’d usually turn around rather than walking backwards, the shark would turn around rather than swimming backwards. Luckily for you, Scratch has a block for this!
 
 The `point in direction`{:class="block3motion"} block lets you pick the direction your sprite is pointing in. You’ll find it in the **Motion** blocks section. You can type in any number of degrees, to point the sprite wherever you want. \--- /collapse \---
 
