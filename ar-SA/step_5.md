@@ -62,15 +62,15 @@
 
 ## \--- collapse \---
 
-## title: How do x- and y-coordinates work?
+## title: كيف تعمل إحداثيات س و ص؟
 
-To talk about the positions of objects, such as sprites, we often use x- and y-coordinates. The **x-axis** of the Stage coordinate system runs from **left to right**, and the **y-axis** runs from **bottom to top**.
+للحديث عن مواضع الاشياء ، مثل الكائنات ، نستخدم إحداثيات س و ص. يمتد نظام الإحداثيات في المنصة للمحور **س** ** من اليسار إلى اليمين** ، والمحور ** ص** يمتد من **الأسفل إلى الأعلى**.
 
 ![](images/moving3.png)
 
-A sprite can be located by the coordinates of its centre, for example `(15, -27)`, where `15` is its position along the x-axis , and `-27` its position along the y-axis.
+يمكن تحديد موقع الكائن من احداثيات منتصفها, على سبيل المثال `(15, -27)`, حيث ان `15` هو موضعه في المحور السيني, و `-27` هو موضعه في المحور الصادي.
 
-+ To get a feel for how this actually works, select a sprite and use the **x** and **y** controls to move it around the stage by setting different values for the coordinates.
++ للتعرف على كيفية عمل ذلك بالفعل ، حدد كائن واستخدم ضوابط **س** و **ص** لتحريكه حول المنصة من خلال تحديد قيم مختلفة للإحداثيات.
 
 ![](images/xycoords.png)
 
