@@ -28,31 +28,31 @@
 
 مقطع **التحكم** `إذا`{:class="block3control"} يحتاج إلى قيمة `صواب / خطأ`.
 
-**Sensing** blocks collect information, like where the sprite is, what it’s touching, etc. You're using this block:
+مقاطع ** الاستشعار ** تقوم بتجميع المعلومات ، مثل مكان الكائن ، ما الذي يلامسه ، إلخ. أنت تستخدم هذه الكتلة:
 
 ```blocks3
     <touching [Sprite1 v] ?>
 ```
 
-From this block's pointy ends, you can tell it’s going to give you the `True/False` value that the `if...then`{:class="block3control"} block needs.
+من النهايات المدببة لهذا المقطع ، يمكنك معرفة أنه سيعطيك قيمة ` صواب / خطأ ` التي يحتاجها مقطع ` إذا...` {: class="block3control"}.
 
 \--- /collapse \---
 
-Of course, you’ve just added an `if...then`{:class="block3control"} block without adding anything for the 'then' part. So at the moment your script is checking whether the fish sprite is touching the shark sprite, but it's not making anything happen in response.
+بالطبع ، لقد أضفت للتو مقطع ` إذا...`{: class="block3control"} دون إضافة أي شيء فيه. لذا في الوقت الحالي ، يقوم البرنامج النصي بالتحقق مما إذا كان كائن السمكة يلامس كائن سمك القرش ، لكنه لا يعمل أي شيئ لذلك.
 
-You can make the fish disappear, as if the shark ate it, by using the `hide`{:class="block3looks"} block.
+يمكنك جعل السمكة تختفي ، كما لو أن سمك القرش أكلها ، باستخدام مقطع `إختفِ` {:class= "block3looks"}.
 
-\--- task \--- Find the `hide`{:class="block3looks"} block in the **Looks** list, and put it inside the `if...then`{:class="block3control"} block, like so:
+ابحث عن مقطع `إختفِ`{:class="block3looks"} في قائمة **المظاهر**، وضعها بداخل مقطع `إذا...`، هكذا:
 
 ```blocks3
-    if <touching [Sprite1 v] ?> then
-+        hide
-    end
+    إذا <touching [Sprite1 v] ?>
++        اختفِ
+    النهاية
 ```
 
 \--- /task \---
 
-Now once the shark catches the fish, the fish disappears for good. That’s not great.
+الآن بمجرد أن يصطاد سمكة القرش السمكة ، تختفي السمكة نهائيا. هذا ليس جيداً.
 
 \--- task \--- Put the `show`{:class="block3looks"} block from **Looks** in at the very start of the fish code, so you can reset the game.
 
