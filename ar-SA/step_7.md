@@ -70,27 +70,27 @@
 
 \--- /collapse \---
 
-Of course, this will lead to an upside-down fish, so you need a `set rotation style`{:class="block3motion"} block again.
+بالطبع ، سيؤدي ذلك إلى سمكة مقلوبة ، لذا فأنت بحاجة إلى مقطع `اجعل نمط الدوران`{:class="block3motion"} مرة اخرى.
 
-\--- task \--- Update your code to set the rotation style of the fish to `left-right`{:class="block3motion"} at the beginning of the sprite's script:
+\--- task \--- حدث البرمجة الخاصة بك لجعل نمط الدوران للسمكة إلى `يمين - يسار`{:class="block3motion"} في بداية برمجة الكائن:
 
 ```blocks3
-    when green flag clicked
-+    set rotation style [left-right v]
-    forever
-        move (10) steps
-        wait (0.5) secs
-        if on edge, bounce
-    end
+    عند نقر العلم الأخضر 
++    اجعل نمط الدوران  [يمين - يسار v]
+    كرر باستمرار
+        تحرك (10) خطوة
+        انتظر (0.5) ثانية
+        ارتد إذا كنت عند الحافة
+    النهاية
 ```
 
 \--- /task \---
 
-The fish moves backwards and forwards now, but only in a straight line — a bit too easy for the player to catch with the shark! You need to make the fish less predictable.
+تتحرك السمكة للخلف وللأمام الآن ، ولكن فقط في خط مستقيم - من السهل جدًا على اللاعب اللحاق بها باستخدام القرش! تحتاج إلى جعل السمكة أقل قابلية للتنبؤ.
 
-You already know from a previous step how to make a sprite turn, so start there.
+انت تعرف مسبقاً من خطوة سابقة كيف تجعل الكائن يستدير، لذا ابدأ من هناك.
 
-\--- task \--- Add a turn into the fish's swimming instructions, and click the green flag.
+\--- task \--- أضف الإستدارة إلى تعليمات السباحة للسمكة ، وانقر على العلم الأخضر.
 
 ```blocks3
     when green flag clicked
