@@ -1,6 +1,6 @@
-## Moving things around
+## نقل الأشياء في جميع الأنحاء
 
-Right now your shark moves in a circle, and it would be much more fun to control it with the arrow keys. On this card, you’re going learn how to do that!
+Right now your shark moves in a circle, and it would be much more fun to control it with the arrow keys. على هذه البطاقة ، سوف تتعلم كيفية القيام بذلك!
 
 \--- task \--- Start by deleting all code that you have for the shark. \--- /task \---
 
@@ -12,7 +12,7 @@ As you’ve probably guessed, you’re going to need **Event** and **Motion** bl
     when [space v] key pressed
 ```
 
-Click the little arrow (▼) beside `space`. You will see a list of all your keyboard keys that you can pick from. \--- /task \---
+انقر على السهم الصغير (▼) بجانب `المسافة `. سترى قائمة بجميع مفاتيح لوحة المفاتيح التي يمكنك الاختيار منها. \--- /task \---
 
 You’re going to need four of the `when key pressed`{:class="block3events"} blocks — one for each of your arrow keys.
 
