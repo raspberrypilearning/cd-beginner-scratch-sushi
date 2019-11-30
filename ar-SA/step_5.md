@@ -101,7 +101,7 @@
 + اذهب إلى الموضع س: (0) ص: (0)
 ```
 
-Set the both the `x` and the `y` coordinate to `0` in the `go to`{:class="block3motion"} block if they are not already `0`.
+اضبط كلا الإحداثيات `س` و `ص` إلى `0` في مقطع `اذهب إلى الموضع`{:class="block3motion"} اذا لم يكونا `0`.
 
 \--- /task \---
 
