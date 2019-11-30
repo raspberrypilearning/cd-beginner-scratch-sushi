@@ -4,29 +4,29 @@
 
 أولاً ، تحتاج إلى معرفة ما إذا كانت السمكة تلامس سمك القرش. لهذا ، ستحتاج إلى مقطع ** التحكم ** و مقطع** الاستشعار **.
 
-\--- task \--- أضف مقطع **التحكم** `إذا... وإلا`{:class="block3control"} داخل مقطع `كرر باستمرار`{:class="block3control"} لكائن السمكة بعد مقطع `ارتد إذا كنت عند الحافة`{:class="block3motion"}.
+\--- task \--- أضف مقطع **التحكم** `إذا`{:class="block3control"} داخل مقطع `كرر باستمرار`{:class="block3control"} لكائن السمكة بعد مقطع `ارتد إذا كنت عند الحافة`{:class="block3motion"}.
 
-Drag the `touching...`{:class="block3sensing"} block into the space at the top of the `if...then`{:class="block3control"} block, and click the little triangle to select the shark sprite's name. If you haven’t changed it, it'll be 'Sprite1'.
+اسحب مقطع `ملامس ل...`{:class="block3sensing"} الى المسافة التي في مقطع `اذا` وانقر على المثلث الصغير واختر اسم كائن سمكة القرش. إذا لم تقم بتغييرها ، فستكون "Sprite1".
 
 ```blocks3
-    when green flag clicked
-    set rotation style [left-right v]
-    forever 
-        move (10) steps
-        turn cw (pick random (1) to (10)) degrees
-        wait (0.5) secs
-        if on edge, bounce
-+        if <touching [Sprite1 v] ?> then
-    end
+    عند نقر العلم الأخضر 
+    اجعل نمط الدوران  [يمين - يسار v]
+    كرر باستمرار
+        تحرك (10) خطوة
+        استدر مع عقارب الساعة (عدد عشوائي بين (1) و (10)) درجات
+        انتظر (0.5) ثانية
+        ارتد إذا كنت عند الحافة
++        إذا<touching [Sprite1 v] ?>
+    النهاية
 ```
 
-\--- /task \---
+\---/task--
 
 ## \--- collapse \---
 
-## title: How does it work?
+## title: كيف يعمل؟
 
-The `if...then`{:class="block3control"} **Control** block needs to be given a `True/False` value.
+مقطع **التحكم** `إذا`{:class="block3control"} يحتاج إلى قيمة `صواب / خطأ`.
 
 **Sensing** blocks collect information, like where the sprite is, what it’s touching, etc. You're using this block:
 
