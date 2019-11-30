@@ -1,18 +1,18 @@
-## All the sprites
+## كل الكائنات
 
-الآن لديك سمكة قرش يمكنها التنقل باستخدام مفاتيح الأسهم. رائع! Time to add some fish for it to catch.
+الآن لديك سمكة قرش يمكنها التنقل باستخدام مفاتيح الأسهم. رائع! حان الوقت لإضافة بعض الأسماك ليصطادها.
 
 \--- task \---
 
-Click the **New sprite** button, and on the screen that opens, choose a fish.
+انقر فوق زر **كائن جديد**، وعلى الشاشة التي تفتح ، اختر سمكة.
 
 ![The New sprite button](images/spritesNewFromLibrary.png)
 
-If your fish is a bit big compared to your shark, you can use the size control to make both sprites the right size!
+إذا كانت أسماكك كبيرة بعض الشيء مقارنة بسمك القرش الخاص بك، فيمكنك استخدام التحكم في الحجم لجعل كل الكائنات بالحجم المناسب!
 
 ![Sprite size control](images/sprites2.png)
 
-Change the number in the size control to make the spirte bigger or smaller.
+غير الرقم في خانة الحجم لجعل الكائن أكبر أو أصغر.
 
 \--- /task \---
 
@@ -20,24 +20,24 @@ Change the number in the size control to make the spirte bigger or smaller.
 
 ## \--- collapse \---
 
-## title: What about the backwards shark?
+## title: وماذا عن القرش المعكوس؟
 
-يبدو الأمر مضحكا بعض الشيء أن يكون هذا القرش يسبح للوراء. Just like you’d usually turn around rather than walking backwards, the shark would turn around rather than swimming backwards. Luckily for you, Scratch has a block for this!
+يبدو الأمر مضحكا بعض الشيء أن يكون هذا القرش يسبح للوراء. تمامًا كما أنت في العادة تستدير بدلا من ان تمشي للخلف ، فإن القرش يستدير بدلا من السباحة للخلف. لحسن الحظ ، Scratch لديه مقطع لهذا!
 
-The `point in direction`{:class="block3motion"} block lets you pick the direction your sprite is pointing in. You’ll find it in the **Motion** blocks section. You can type in any number of degrees, to point the sprite wherever you want. \--- /collapse \---
+يتيح لك مقطع `اتجه نحو الاتجاه`{: class="block3motion"} اختيار الاتجاه الذي يشير إليه الكائن. ستجده في قسم مقاطع ** الحركة **. يمكنك كتابة أي مقدار من الدرجات ، لتوجيه الكائن أينما تريد. \--- /collapse \---
 
-\--- task \--- Grab a couple of copies of the `point in direction`{:class="block3motion"} block from the **Motion** list and connect them to your shark's code, like this:
+\--- task \--- احصل على نسختين من مقطع `اتجه نحو الاتجاه` {: class="block3motion"} من قائمة ** الحركة ** واربطهم ببرمجة القرش ، هكذا:
 
 ```blocks3
-    when [left arrow v] key pressed
-+     point in direction (-90)
-    move (10) steps
+    عندما ضغط مفتاح [السهم الأيسر v] 
++ اتجه نحو الاتجاه (-90) 
+    تحرك (10) خطوة
 ```
 
 ```blocks3
-    when [right arrow v] key pressed
-+     point in direction (90)
-    move (10) steps
+    عندما ضغط مفتاح [السهم الأيمن v]
++ اتجه نحو الاتجاه (90)
+     تحرك (10) خطوة
 ```
 
 \--- /task \---
