@@ -4,7 +4,7 @@
 
 \--- task \--- اختر المنصة.
 
-![Selecting the stage](images/looksSelectStage.png)
+![اختيار المنصة](images/looksSelectStage.png)
 
 انقر على ** الخلفيات **.
 
