@@ -78,13 +78,13 @@ A sprite can be located by the coordinates of its centre, for example `(15, -27)
 
 \--- /collapse \---
 
-### Restarting the game
+### إعادة تشغيل اللعبة
 
-The shark moves all over the screen now, but imagine this is a game: how do you restart it, and what happens at the start of each game?
+يتحرك سمك القرش الآن على الشاشة ، لكن تخيل أنها لعبة: كيف تعيد تشغيلها ، وماذا يحدث في بداية كل لعبة؟
 
 You need to get the shark to its original location when the player starts the game. They'll start this game by clicking on the green flag, so you need to change the shark sprite's x- and y-coordinates when that happens.
 
-That’s actually pretty easy! The centre of the stage is `(0, 0)` in `(x, y)` coordinates.
+هذا في الواقع سهل جدا! The centre of the stage is `(0, 0)` in `(x, y)` coordinates.
 
 So all you need is an **Event** block for that green flag, and the **go to** block from **Motion**.
 
