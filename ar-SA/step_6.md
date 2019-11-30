@@ -6,11 +6,11 @@
 
 انقر فوق زر **كائن جديد**، وعلى الشاشة التي تفتح ، اختر سمكة.
 
-![The New sprite button](images/spritesNewFromLibrary.png)
+![زر الكائن الجديد](images/spritesNewFromLibrary.png)
 
 إذا كانت أسماكك كبيرة بعض الشيء مقارنة بسمك القرش الخاص بك، فيمكنك استخدام التحكم في الحجم لجعل كل الكائنات بالحجم المناسب!
 
-![Sprite size control](images/sprites2.png)
+![التحكم في حجم الكائن](images/sprites2.png)
 
 غير الرقم في خانة الحجم لجعل الكائن أكبر أو أصغر.
 
@@ -42,32 +42,32 @@
 
 \--- /task \---
 
-\--- task \--- Change the number of steps in the `move`{:class="block3motion"} blocks from `-10` to `10`.
+\--- task \--- تغيير عدد الخطوات في مقاطع `التحريك` {: class="block3motion"} من ` -10 ` إلى ` 10 `.
 
-If you try moving the shark around now after you've added the `point in direction`{:class="block3motion"} blocks, you might notice something a little strange happening. The shark may not be turning quite right!
+إذا حاولت تحريك القرش الآن بعد إضافة مقاطع `اتجه نحو الاتجاه ` {: class="block3motion"}، قد تلاحظ حدوث شيء غريب بعض الشيء. قد لا يستدير القرش بطريقة صحيحة تمامًا!
 
-![Upside down shark](images/spritesUpsideDown.png)
+![القرش رأسا على عقب](images/spritesUpsideDown.png)
 
 \--- /task \---
 
 ## \--- collapse \---
 
-## title: Why does it go upside down?
+## title: لماذا ينقلب رأسا على عقب؟
 
-The problem here is that the shark sprite started, as all sprites do, with the 'all around' **rotation style**, and what you need it to have is the 'left-right' style.
+المشكلة هنا هي أن كائن القرش بدأ ، كما هو الحال عند كل الكائنات ، باستخدام **نمط الدوران** "في جميع الاتجاهات" وما تحتاج إليه هو نمط "اليمين إلى اليسار".
 
-As usual, there’s a block for that, and it’s in **Motion**!
+كالعادة ، هناك مقطع لذلك ، وهو موجود في ** الحركة **!
 
 \--- /collapse \---
 
-\--- task \--- Look in the **Motion** category for the block `set rotation style`{:class="block3motion"}.
+\--- task \--- ابحث في فئة ** الحركة ** على مقطع ` اجعل نمط الدوران ` {:class="block3motion"}.
 
-Add the block to your shark reset code from earlier, and set the rotation style to `left-right`{:class="block3motion"}, like this:
+أضف المقطع إلى برمجة إعادة التعيين لسمك القرش من السابق ، واضبط نمط الدوران على `يمين-يسار` {: class="block3motion"} ، هكذا:
 
 ```blocks3
-    when green flag clicked
-+     set rotation style [left-right v]
-    go to x: (0) y: (0)
+    عند نقر على العلم الأخضر 
++ اجعل نمط الدوران [يمين - يسار v]
+    اذهب الى الموضع س: (0) ص: (0)
 ```
 
 \--- /task \---
