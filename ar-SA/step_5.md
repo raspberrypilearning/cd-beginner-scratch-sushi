@@ -74,7 +74,7 @@ A sprite can be located by the coordinates of its centre, for example `(15, -27)
 
 ![](images/xycoords.png)
 
-+ Try different pairs of values to see where the sprite goes! In Scratch, the x-axis goes from `-240` to `240`, and the y-axis goes from `-180` to `180`.
++ حاول بأزواج مختلفة من القيم لمعرفة أين يذهب الكائن! في Scratch ، يمتد المحور س من ` -240 ` إلى ` 240 ` ، ويمتد المحور ص من ` -180 ` إلى ` 180 `.
 
 \--- /collapse \---
 
@@ -82,27 +82,27 @@ A sprite can be located by the coordinates of its centre, for example `(15, -27)
 
 يتحرك سمك القرش الآن على الشاشة ، لكن تخيل أنها لعبة: كيف تعيد تشغيلها ، وماذا يحدث في بداية كل لعبة؟
 
-You need to get the shark to its original location when the player starts the game. They'll start this game by clicking on the green flag, so you need to change the shark sprite's x- and y-coordinates when that happens.
+تحتاج إلى وصول القرش إلى موقعه الأولي عندما يبدأ اللاعب اللعبة. سيبدأون هذه اللعبة من خلال النقر على العلم الأخضر ، لذلك تحتاج إلى تغيير إحداثيات س و ص لكائن سمك القرش عند حدوث ذلك.
 
-هذا في الواقع سهل جدا! The centre of the stage is `(0, 0)` in `(x, y)` coordinates.
+هذا في الواقع سهل جدا! مركز المنصة هو ` (0 ، 0) ` في إحداثيات `(س ، ص)`.
 
-So all you need is an **Event** block for that green flag, and the **go to** block from **Motion**.
+كل ما تحتاجه هو مقطع **الأحداث** لهذا العلم الأخضر ، و مقطع** اذهب إلى الموضع** من ** الحركة **.
 
-\--- task \--- Drag a `when green flag clicked`{:class="block3events"} **Event** block onto the current sprite panel.
+\--- task \--- اسحب مقطع `عند نقر العلم الأخضر` {:class="block3events"} **من الاحداث** إلى لوحة الكائن الحالي.
 
 ```blocks3
-    when green flag clicked
+    عند نقر العلم الأخضر
 ```
 
-Then find the `go to`{:class="block3motion"} **Motion** block, and attach it to your flag **Event** block.
+ثم ابحث عن مقطع `اذهب إلى الموضع` {:class="block3motion"} **في الحركة**, والصقه بمقطع العلم من **الأحداث**.
 
 ```blocks3
-    when green flag clicked
-+     go to x: (0) y: (0)
+    عند نقر العلم الأخضر
++ اذهب إلى الموضع س: (0) ص: (0)
 ```
 
 Set the both the `x` and the `y` coordinate to `0` in the `go to`{:class="block3motion"} block if they are not already `0`.
 
 \--- /task \---
 
-\--- task \--- Now click the green flag: you should see the shark return to the centre of the stage! \--- /task \---
+\--- task \--- الآن انقر على العلم الأخضر: يجب أن ترى القرش يعود إلى وسط المنصة! \--- /task \---
