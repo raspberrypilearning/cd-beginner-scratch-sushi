@@ -26,7 +26,7 @@
 
 الآن تحتاج إلى تحديث المتغير كلما أكل سمك القرش سمكة ، وإعادة تعيينه عند إعادة تشغيل اللعبة. القيام بالأمرين سهل للغاية:
 
-\--- task \--- From the **Variables** section, take the `set [my variable v] to [0]`{:class="block3variables"} and `change [my variable v] by [1]`{:class="block3variables"} blocks. Click on the little arrows in the blocks, choose `score` from the list, and then put the blocks into your program:
+من قسم **المتغيرات**، خذ المقاطع `اجعل [متغيري v] مساوياً [0]`{:class="block3variables"} و `غير [متغيري v] بمقدار [1]`{:class="block3variables"}. انقر على الأسهم الصغيرة في المقاطع ، واختر ` النتيجة ` من القائمة ، ثم ضع المقاطع في برنامجك:
 
 ### Code for the shark
 
