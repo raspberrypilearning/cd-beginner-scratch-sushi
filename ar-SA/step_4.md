@@ -8,15 +8,15 @@
 
 انقر على ** الخلفيات **.
 
-![The Backdrops tab](images/looksBackdrops.png)
+![علامة التبويب للخلفيات](images/looksBackdrops.png)
 
 إضغط على ايقونة **اختيار خلفية من المكتبة**.
 
-![The Choose backdrop icon](images/looksChooseBg.png)
+![أيقونة اختيار الخلفية](images/looksChooseBg.png)
 
 ثم اختر الخلفية المفضلة لديك تحت الماء!
 
-![An underwater scene](images/looksUnderwater.png) \--- /task \---
+![مشهد تحت الماء](images/looksUnderwater.png) \--- /task \---
 
 عظيم! بالطبع ، لديك الآن قطة تحت الماء ، والقطط ليست من المعجبين بهذا الأمر. ولكن يمكنك إصلاح ذلك ، لأنه يمكنك تحويل القط إلى سمكة قرش!
 
@@ -30,7 +30,7 @@
 
 حدد صورة القرش هذه وانقر فوق **موافق**.
 
-![The shark costume](images/looksShark.png)
+![مظهر القرش](images/looksShark.png)
 
 الآن قم بإزالة أزياء القط عن طريق تحديد كل منها والنقر على ** x **.
 
