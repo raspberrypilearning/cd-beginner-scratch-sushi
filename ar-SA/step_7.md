@@ -66,7 +66,7 @@
 
 ## title: ماذا تفعل المقاطع الجديدة؟
 
-The `if on edge bounce`{:class="block3motion"} block checks if the sprite is touching the edge of the Stage and, if it is, it turns left, right, up, or down as appropriate.
+يقوم مقطع `ارتد إذا كنت عند الحافة`{:class="block3motion"} بالتحقق ما إذا كان الكائن يلامس حافة المنصة و ،إذا كان يلامس، يغير اتجاه إلى اليسار او اليمين او للأعلى او للأسفل على حسب الملائم.
 
 \--- /collapse \---
 
