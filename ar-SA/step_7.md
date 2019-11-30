@@ -123,17 +123,17 @@
 
 \--- /collapse \---
 
-\--- task \--- Find the `pick random`{:class="block3operators"} **operator** block, and plug it into the `turn degrees`{:class="block3motion"} **Motion** block by clicking it and dragging it into the field where you set the number of degrees.
+\--- task \--- اعثر على مقطع **العمليات** `عدد عشوائي بين`{:class="block3operators"}، وادخله في مقطع **الحركة** ` استدر مع عقارب الساعة`{:class="block3motion"} بوضعه داخل خانة مقدار الدرجات.
 
 ```blocks3
-    when green flag clicked
-    set rotation style [left-right v]
-    forever 
-        move (10) steps
-+        turn cw (pick random (1) to (10)) degrees
-        wait (0.5) secs
-        if on edge, bounce
-    end
+    عند نقر العلم الأخضر 
+    اجعل نمط الدوران  [يمين - يسار v]
+    كرر باستمرار
+        تحرك (10) خطوة
++        استدر مع عقارب الساعة (عدد عشوائي بين (1) و (10)) درجات
+        انتظر (0.5) ثانية
+        ارتد إذا كنت عند الحافة
+    النهاية
 ```
 
 \--- /task \---
@@ -144,17 +144,17 @@
 
 ## \--- collapse \---
 
-## title: So what does the forever block do now?
+## title: إذن ماذا يعمل مقطع كرر باستمرار الآن؟
 
-The forever block now makes the fish sprite do four things in order:
+مقطع كرر باستمرار الآن يجعل كائن السمكة يفعل أربعة أشياء بالترتيب:
 
-1. Move forward
-2. Turn a little bit
-3. Wait briefly
-4. Check whether it's at the edge of the Stage
+1. التحرك إلى الأمام
+2. الدوران قليلا
+3. انتظر لفترة وجيزة
+4. تحقق ما إذا كان على حافة المنصة
 
-Once the sprite has done the check, it will start at the beginning of the loop again and move, turn, wait, check, for as long as you let your Scratch program run.
+بمجرد انتهاء الكائن من التحقق ، سيعود إلى البداية ويعيد التحرك، الدوران، الانتظار، التحقق، طالما كان البرنامج مستمر في العمل.
 
 \--- /collapse \---
 
-Cool! Next up: catching that fish!
+رائع! المتابعة التالية: اصطياد تلك السمكة!
