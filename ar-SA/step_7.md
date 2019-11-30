@@ -4,7 +4,7 @@
 
 \--- task \--- حدد كائن السمكة.
 
-Drag a `when green flag clicked`{:class="block3events"} **Event** block, a `forever`{:class="block3control"} **Control** block, and a `move 10 steps`{:class="block3motion"} **Motion** block into the **sprite panel**, like this:
+اسحب مقطع **الأحداث** `عند نقر العلم الاخضر`{:class="block3events"}، و مقطع **التحكم** `كرر باستمرار`{:class="block3control"}، ومقطع **الحركة** `تحرك 10 خطوة`{:class="block3motion"} إلى **لوحة الكائن**، هكذا:
 
 ```blocks3
     عند نقر العلم الأخضر
@@ -35,7 +35,8 @@ Drag a `when green flag clicked`{:class="block3events"} **Event** block, a `fore
     انتظر (1) ثانية
 ```
 
-\--- task \--- Add the `wait`{:class="block3control"} block into your code inside the `forever`{:class="block3control"} block, and change the number to `0.5`, like this:
+\--- task \--- أضف مقطع ` انتظر` {: class="block3control"} في التعليمات البرمجية الخاصة بك داخل مقطع `
+كرر باستمرار` {: class="block3control"} ، وقم بتغيير الرقم إلى ` 0.5 ` ، هكذا:
 
 ```blocks3
     عند نقر العلم الأخضر
