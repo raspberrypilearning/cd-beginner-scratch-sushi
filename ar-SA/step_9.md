@@ -14,7 +14,7 @@
 
 تحقق من المتغير الجديد الخاص بك!
 
-![The Score variable is displayed on the stage](images/scoreVariableStage.png) \--- /task \---
+![يتم عرض متغير النتيجة في المنصة](images/scoreVariableStage.png) \--- /task \---
 
 ## \--- collapse \---
 
@@ -28,27 +28,27 @@
 
 من قسم **المتغيرات**، خذ المقاطع `اجعل [متغيري v] مساوياً [0]`{:class="block3variables"} و `غير [متغيري v] بمقدار [1]`{:class="block3variables"}. انقر على الأسهم الصغيرة في المقاطع ، واختر ` النتيجة ` من القائمة ، ثم ضع المقاطع في برنامجك:
 
-### Code for the shark
+### بزمجة سمكة القرش
 
 ```blocks3
-    when green flag clicked
-+    set [score v] to [0]
-    set rotation style [left-right v]
-    go to x: (0) y: (0)
+    عند نقر العلم الأخضر
++     اجعل [النتيجة v] مساوياً [0]
+    اجعل نمط الدوران [يمين - يسار v]
+    اذهب الى الموضع س: (0) ص: (0)
 ```
 
-### Code for the fish
+### برمجة السمكة
 
 ```blocks3
-    if <touching [Sprite1 v] ?> then
-+        change [score v] by [1]
-        hide
-        wait (1) secs
-        go to x: (pick random (-240) to (240)) y: (pick random (-180) to (180))
-        show
-    end
+    إذا<touching [Sprite1 v] ?>
++        غير [النتيجة v] بمقدار [1]
+        إخفِ
+        انتظر (1) ثانية 
+        اذهب إلى الموضع س: (عدد عشوائي (-240) الى (240)) ص: (عدد عشوائي (-180) الى (180))
+        اظهر
+    النهاية
 ```
 
 \--- /task \---
 
-Cool! Now you’ve got a score and everything.
+رائع! الآن لديك نتيجة وكل شيء.
