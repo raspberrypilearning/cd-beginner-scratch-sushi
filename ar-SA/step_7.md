@@ -93,23 +93,23 @@
 \--- task \--- أضف الإستدارة إلى تعليمات السباحة للسمكة ، وانقر على العلم الأخضر.
 
 ```blocks3
-    when green flag clicked
-    set rotation style [left-right v]
-    forever
-        move (10) steps
-+        turn cw (10) degrees
-        wait (0.5) secs
-        if on edge, bounce
-    end
+    عند نقر العلم الأخضر 
+    اجعل نمط الدوران  [يمين - يسار v]
+    كرر باستمرار
+        تحرك (10) خطوة
++        استدر مع عقارب الساعة (10) درجات
+        انتظر (0.5) ثانية
+        ارتد إذا كنت عند الحافة
+    النهاية
 ```
 
 \--- /task \---
 
-It’s better, but there’s still too much of a pattern. It needs to be more random. Luckily, Scratch can do random for you! You’ll just need a new kind of block, called an **operator** block.
+هذا افضل، ولكن لا يزال هناك الكثير من النمطية في الحركة. يجب أن تكون أكثر عشوائية. لحسن الحظ ، Scratch يمكنه أن يجعل الحركة عشوائية من اجلك! ستحتاج فقط إلى نوع جديد من المقاطع ، تسمى مقاطع **العمليات**.
 
 ## \--- /collapse \---
 
-## title: What's an operator?
+## title: ما هي العمليات؟
 
 **Operators** take in one or more values (like numbers, text, or `True/False` values) and give back a single value. You can tell the kind of value it will give back by the shape of the block: round ends give numbers or text, pointy ends give `True/False`.
 
