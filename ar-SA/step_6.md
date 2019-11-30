@@ -1,6 +1,6 @@
 ## All the sprites
 
-Now you have a shark that you can move around using the arrow keys. Nice! Time to add some fish for it to catch.
+الآن لديك سمكة قرش يمكنها التنقل باستخدام مفاتيح الأسهم. رائع! Time to add some fish for it to catch.
 
 \--- task \---
 
