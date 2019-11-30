@@ -1,16 +1,16 @@
 ## الأسماك المتحكم بها عن بعد
 
-حسنًا ، حان الوقت الآن لجعل السمك يسبح من تلقاء نفسه. To do this, you’re going to need a new kind of block: a **Control** block.
+حسنًا ، حان الوقت الآن لجعل السمك يسبح من تلقاء نفسه. للقيام بذلك ، ستحتاج إلى نوع جديد من المقاطع: مقاطع **التحكم**.
 
-\--- task \--- Select your fish sprite.
+\--- task \--- حدد كائن السمكة.
 
 Drag a `when green flag clicked`{:class="block3events"} **Event** block, a `forever`{:class="block3control"} **Control** block, and a `move 10 steps`{:class="block3motion"} **Motion** block into the **sprite panel**, like this:
 
 ```blocks3
-    when green flag clicked
-    forever
-        move (10) steps
-    end
+    عند نقر العلم الأخضر
+    كرر باستمرار
+        تحرك (10) خطوة
+    النهاية
 ```
 
 \---/task--
@@ -19,9 +19,9 @@ Drag a `when green flag clicked`{:class="block3events"} **Event** block, a `fore
 
 ## title: ماذا تفعل المقاطع الجديدة؟
 
-**Control** blocks make your program do things a certain number of times, or under certain conditions.
+مقاطع **التحكم** تجعل برنامجك يقوم بالأشياء عدة مرات أو تحت ظروف معينة.
 
-Here, the fish does whatever is inside the `forever`{:class="block3control"} block over and over again on a loop, forever. So once it has done the last thing (block) inside the `forever`{:class="block3control"} block, it starts over at the top and does everything again, and so on.
+هنا ، الأسماك تفعل كل ما هو داخل مقطع ` كرر بإستمرار ` {: class="block3control"} مرارًا وتكرارًا، إلى الأبد. لذلك بمجرد الانتهاء من آخر شيء (المقطع) داخل مقطع ` كرر بإستمرار ` {: class="block3control"} ، تبدأ مجدداً من الأعلى وتفعل كل شيء مرة أخرى ، وهكذا.
 
 \--- /collapse \---
 
@@ -29,7 +29,7 @@ Here, the fish does whatever is inside the `forever`{:class="block3control"} blo
 
 Well, that fish just crashed into the side of the Stage, and it was moving far too fast for your shark to catch.
 
-First, you need to slow the fish down. That’s actually pretty easy, you just need it to wait for a little while after it moves those 10 steps. There’s a **Control** block that will help you here:
+أولا ، تحتاج إلى إبطاء حركة الأسماك. هذا في الواقع سهل للغاية ، تحتاج فقط إلى الانتظار لفترة قصيرة بعد أن تتحرك تلك الخطوات العشر. There’s a **Control** block that will help you here:
 
 ```blocks3
     wait (1) secs
