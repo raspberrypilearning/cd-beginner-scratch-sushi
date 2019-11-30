@@ -111,12 +111,12 @@
 
 ## title: ما هي العمليات؟
 
-**Operators** take in one or more values (like numbers, text, or `True/False` values) and give back a single value. You can tell the kind of value it will give back by the shape of the block: round ends give numbers or text, pointy ends give `True/False`.
+**العمليات** تأخذ واحدة أو أكثر من القيم (مثل الأرقام أو النص أو قيم ` صواب / خطأ `) وتعيد قيمة واحدة. يمكنك معرفة نوع القيمة التي ستعيدها على شكل المقطع: النهايات الدائرية تعطي أرقامًا أو نصًا ، والنهايات مدببة تعطي ` صواب / خطأ `.
 
 ```blocks3
     (() + ())
 
-    (join [hello ] [world])
+    (اربط [مرحبا] [world])
 
     <[] = []>
 ```
@@ -138,7 +138,7 @@
 
 \--- /task \---
 
-**Note**: you can change the minimum and maximum numbers it will pick, but the default values (`1` and `10`) are pretty good for this game, so you can just leave them.
+** ملاحظة **: يمكنك تغيير الحد الأدنى والحد الأقصى للأرقام التي ستختارها ، لكن القيم الافتراضية (` 1 ` و ` 10 `) مناسبة لهذه اللعبة ، لذا دعها كما هي.
 
 \--- task \--- انقر على العلم الأخضر لتشغيل البرنامج! \--- /task \---
 
