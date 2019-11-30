@@ -1,39 +1,39 @@
 ## نقل الأشياء في جميع الأنحاء
 
-Right now your shark moves in a circle, and it would be much more fun to control it with the arrow keys. على هذه البطاقة ، سوف تتعلم كيفية القيام بذلك!
+الآن يتحرك القرش في دائرة ، وسيكون من الممتع اكثر ان نتحكم به باستخدام مفاتيح الأسهم. على هذه البطاقة ، سوف تتعلم كيفية القيام بذلك!
 
-\--- task \--- Start by deleting all code that you have for the shark. \--- /task \---
+\--- task \--- ابدأ بحذف جميع المقاطع البرمجية التي لديك للقرش. \--- /task \---
 
-As you’ve probably guessed, you’re going to need **Event** and **Motion** blocks again!
+كما قد تكون خمنت على الأرجح ، ستحتاج إلى مقاطع **الأحداث** و **الحركة** مرة أخرى!
 
-\--- task \--- This time, look for this block and drag it into the current sprite panel:
+\--- task \--- هذه المرة ، ابحث عن هذه الكتلة و اسحبها إلى لوحة الكائن الحالي:
 
 ```blocks3
-    when [space v] key pressed
+    عند الضغط على مفتاح [المسافة v]
 ```
 
 انقر على السهم الصغير (▼) بجانب `المسافة `. سترى قائمة بجميع مفاتيح لوحة المفاتيح التي يمكنك الاختيار منها. \--- /task \---
 
-You’re going to need four of the `when key pressed`{:class="block3events"} blocks — one for each of your arrow keys.
+ستحتاج إلى أربعة من مقاطع ` عند الضغط على المفتاح ` {: class = "block3events"} - واحدة لكل مفتاح من مفاتيح الأسهم الخاصة بك.
 
-\--- task \--- To make your shark move, connect these blocks to **Motion** blocks like this:
+\--- task \--- لتحريك سمك القرش ، قم بتوصيل هذه المقاطع بمقاطع ** الحركة ** هكذا:
 
 ```blocks3
-    when [left arrow v] key pressed
-    move (-10) steps
+    عندما ضغط مفتاح [السهم الأيسر v] 
+    تحرك (-10) خطوة
 ```
 
 ```blocks3
-    when [right arrow v] key pressed
-    move (10) steps
+    عندما ضغط مفتاح [السهم الأيمن v]
+    التحريك (10) خطوة
 ```
 
 ```blocks3
-    when [up arrow v] key pressed
+    عند ضغط مفتاح [السهم العلوي v]
 ```
 
 ```blocks3
-    when [down arrow v] key pressed
+    عند ضغط مفتاح [السهم السفلي v]
 ```
 
 \--- /task \---
@@ -42,23 +42,23 @@ You’re going to need four of the `when key pressed`{:class="block3events"} blo
 
 \--- task \--- الآن انقر على العلم الأخضر لاختبار التعليمات البرمجية الخاصة بك. \--- /task \---
 
-Now your shark moves back and forwards, which is pretty cool, but it doesn’t move up or down. Also, if you look through the **Motion** blocks, you’ll see there are no blocks for 'up' or 'down'. هناك مجموعة كاملة منها مرتبطة بـاحداثيات ** س ** و ** ص ** رغم ذلك - دعنا نجرب هؤلاء!
+يتحرك سمك القرش الآن للخلف وللأمام ، وهو أمر رائع ، لكنه لا يتحرك للأعلى أو للأسفل. أيضًا ، إذا نظرت إلى مقاطع ** الحركة ** ، سترى أنه لا توجد مقاطع لـ "أعلى" أو "لأسفل". هناك مجموعة كاملة منها مرتبطة بـاحداثيات ** س ** و ** ص ** رغم ذلك - دعنا نجرب هؤلاء!
 
-\--- task \--- Grab two `change y by`{:class="block3motion"} blocks, and update your code like this:
+\--- task \--- اسحب اثنين `غير الموضع ص بمقدار` {: class = "block3motion"} ، وحدث البرمجة الخاص بك هكذا:
 
 ```blocks3
-    when [up arrow v] key pressed
-+     change y by (10)
+    عند الضغط على مفتاح [السهم العلوي v]
++ غير الموضع ص بمقدار (10)
 ```
 
 ```blocks3
-    when [down arrow v] key pressed
-+     change y by (-10)
+    عند الضغط على مفتاح [السهم السفلي v]
++ غير الموضع ص بمقدار (10-)
 ```
 
 \--- /task \---
 
-Now when you press the arrows keys, the shark moves all around the stage!
+الآن عند الضغط على مفاتيح الأسهم ، يتحرك القرش في جميع أنحاء المنصة!
 
 ## \--- collapse \---
 
