@@ -38,11 +38,11 @@ You’re going to need four of the `when key pressed`{:class="block3events"} blo
 
 \--- /task \---
 
-**Note**: `-10` means 'go back 10 steps'.
+** ملاحظة **: ` -10 ` يعني "العودة 10 خطوات".
 
-\--- task \--- Now click the green flag to test out your code. \--- /task \---
+\--- task \--- الآن انقر على العلم الأخضر لاختبار التعليمات البرمجية الخاصة بك. \--- /task \---
 
-Now your shark moves back and forwards, which is pretty cool, but it doesn’t move up or down. Also, if you look through the **Motion** blocks, you’ll see there are no blocks for 'up' or 'down'. There are a whole bunch of them related to **x** and **y** coordinates though — let's try those!
+Now your shark moves back and forwards, which is pretty cool, but it doesn’t move up or down. Also, if you look through the **Motion** blocks, you’ll see there are no blocks for 'up' or 'down'. هناك مجموعة كاملة منها مرتبطة بـاحداثيات ** س ** و ** ص ** رغم ذلك - دعنا نجرب هؤلاء!
 
 \--- task \--- Grab two `change y by`{:class="block3motion"} blocks, and update your code like this:
 
