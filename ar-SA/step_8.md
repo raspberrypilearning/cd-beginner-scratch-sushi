@@ -54,20 +54,20 @@
 
 الآن بمجرد أن يصطاد سمكة القرش السمكة ، تختفي السمكة نهائيا. هذا ليس جيداً.
 
-\--- task \--- Put the `show`{:class="block3looks"} block from **Looks** in at the very start of the fish code, so you can reset the game.
+\--- task \--- ضع مقطع `اظهر`{:class="block3looks"} من **المظاهر** في بداية برمجة السمكة، لتتمكن من معاودة اللعب.
 
 ```blocks3
-    when green flag clicked
-+    show
-    set rotation style [left-right v]
-    forever
+    عند نقر العلم الأخضر 
++    اظهر
+    اجعل نمط الدوران  [يمين - يسار v]
+    كرر باستمرار
 ```
 
 \--- /task \---
 
-That's already better, but you don’t want the player to have to restart the game every time they catch a single fish!
+هذا بالفعل أفضل ، لكنك لا تريد أن يضطر اللاعب إلى إعادة تشغيل اللعبة في كل مرة يصطاد فيها سمكة واحدة!
 
-\--- task \--- Update the code inside your `if...then`{:class="block3control"} block to look like this:
+\--- task \--- حدث البرمجة داخل مقطع ` إذا...` {: class="block3control"} لتبدو هكذا:
 
 ```blocks3
     if on edge, bounce
