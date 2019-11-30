@@ -70,25 +70,25 @@
 \--- task \--- حدث البرمجة داخل مقطع ` إذا...` {: class="block3control"} لتبدو هكذا:
 
 ```blocks3
-    if on edge, bounce
-    if <touching [Sprite1 v] ?> then
-        hide
-+        wait (1) secs
-+        go to x: (pick random (-240) to (240)) y: (pick random (-180) to (180))
-+        show
-    end
+    ارتد إذا كنت عند الحافة
+    إذا<touching [Sprite1 v] ?>
+        إخفِ
++        انتظر (1) ثانية 
++        اذهب إلى الموضع س: (عدد عشوائي (-240) الى (240)) ص: (عدد عشوائي (-180) الى (180))
++        اظهر
+    النهاية
 ```
 
 \--- /task \---
 
 ## \--- collapse \---
 
-## title: How does this work?
+## title: كيف يعمل هذا؟
 
-You are being clever here: when the fish is hidden, it waits, moves, and then shows up again.
+أنت ذكي هنا: عندما تكون السمكة مخفية ، تنتظر ، تنتقل ، ثم تظهر مرة أخرى.
 
-It looks like lots of fish keep appearing, but it’s that one sprite moving around!
+يبدو أن الكثير من الأسماك تستمر في الظهور ، ولكن هذا كائن واحد يتحرك!
 
 \--- /collapse \---
 
-That’s a game! But there’s no way to keep score yet, or to win. You can fix that too — on the next card!
+هذه اللعبة! ولكن ليس هناك طريقة لمعرفة النتيجة حتى الآن ، أو للفوز. يمكنك إصلاح ذلك أيضًا - في البطاقة التالية!
