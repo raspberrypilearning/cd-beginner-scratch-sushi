@@ -13,11 +13,11 @@ Drag a `when green flag clicked`{:class="block3events"} **Event** block, a `fore
     end
 ```
 
-\--- /task \---
+\---/task--
 
 ## \--- collapse \---
 
-## title: What does the new block do?
+## title: ماذا تفعل المقاطع الجديدة؟
 
 **Control** blocks make your program do things a certain number of times, or under certain conditions.
 
@@ -25,7 +25,7 @@ Here, the fish does whatever is inside the `forever`{:class="block3control"} blo
 
 \--- /collapse \---
 
-\--- task \--- Now click the green flag and watch what happens! \--- /task \---
+\--- task \--- الآن انقر على العلم الأخضر ومشاهدة ما يحدث! \--- /task \---
 
 Well, that fish just crashed into the side of the Stage, and it was moving far too fast for your shark to catch.
 
