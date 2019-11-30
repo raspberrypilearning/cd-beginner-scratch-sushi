@@ -1,6 +1,6 @@
-## Remote-control fish
+## الأسماك المتحكم بها عن بعد
 
-Ok, now it's time to make the fish swim on its own. To do this, you’re going to need a new kind of block: a **Control** block.
+حسنًا ، حان الوقت الآن لجعل السمك يسبح من تلقاء نفسه. To do this, you’re going to need a new kind of block: a **Control** block.
 
 \--- task \--- Select your fish sprite.
 
