@@ -27,33 +27,33 @@ Drag a `when green flag clicked`{:class="block3events"} **Event** block, a `fore
 
 \--- task \--- الآن انقر على العلم الأخضر ومشاهدة ما يحدث! \--- /task \---
 
-Well, that fish just crashed into the side of the Stage, and it was moving far too fast for your shark to catch.
+حسنًا ، لقد اصطدمت السمكة للتو في جانب المنصة ، وكانت تتحرك بسرعة كبيرة جدًا بحيث لا يمكن ان يصطادها سمك القرش الخاص بك.
 
 أولا ، تحتاج إلى إبطاء حركة الأسماك. هذا في الواقع سهل للغاية ، تحتاج فقط إلى الانتظار لفترة قصيرة بعد أن تتحرك تلك الخطوات العشر. There’s a **Control** block that will help you here:
 
 ```blocks3
-    wait (1) secs
+    انتظر (1) ثانية
 ```
 
 \--- task \--- Add the `wait`{:class="block3control"} block into your code inside the `forever`{:class="block3control"} block, and change the number to `0.5`, like this:
 
 ```blocks3
-    when green flag clicked
-    forever
-        move (10) steps
-+      wait (0.5) secs
-    end
+    عند نقر العلم الأخضر
+    كرر باستمرار
+        تحرك (10) خطوة
++      انتظر (0.5) ثانية
+    النهاية
 ```
 
 \--- /task \---
 
 ## \--- collapse \---
 
-## title: Making adjustments
+## title: إجراء التعديلات
 
-The number you set in the `wait`{:class="block3control"} block says how many **seconds** you want the fish to wait. `0.5` is half a second.
+الرقم الذي حددته في مقطع `انتظر` يوضح {: class="block3control"} كم عدد ** الثواني ** التي تريد من السمكة أن تنتظر. ` 0.5 ` هو نصف ثانية.
 
-You can test out different values to see which is the best for the game. And remember that you can change the number of steps inside the `move`{:class="block3motion"} block too!
+يمكنك اختبار قيم مختلفة لمعرفة ما هو الأفضل للعبة. And remember that you can change the number of steps inside the `move`{:class="block3motion"} block too!
 
 \--- /collapse \---
 
@@ -63,7 +63,7 @@ The fish moves now, but you need it to bounce off the edge of the Stage too. Yet
 
 ## \--- collapse \---
 
-## title: What does the new block do?
+## title: ماذا تفعل المقاطع الجديدة؟
 
 The `if on edge bounce`{:class="block3motion"} block checks if the sprite is touching the edge of the Stage and, if it is, it turns left, right, up, or down as appropriate.
 
@@ -106,7 +106,7 @@ You already know from a previous step how to make a sprite turn, so start there.
 
 It’s better, but there’s still too much of a pattern. It needs to be more random. Luckily, Scratch can do random for you! You’ll just need a new kind of block, called an **operator** block.
 
-## \--- collapse \---
+## \--- /collapse \---
 
 ## title: What's an operator?
 
@@ -139,7 +139,7 @@ It’s better, but there’s still too much of a pattern. It needs to be more ra
 
 **Note**: you can change the minimum and maximum numbers it will pick, but the default values (`1` and `10`) are pretty good for this game, so you can just leave them.
 
-\--- task \--- Click the green flag to run the code! \--- /task \---
+\--- task \--- انقر على العلم الأخضر لتشغيل البرنامج! \--- /task \---
 
 ## \--- collapse \---
 
