@@ -39,10 +39,10 @@ Appuie sur le drapeau vert pour commencer le jeu. Utilise les touches fléchées
 
 ## title: Ce qu'il faut avoir
 
-Tu auras besoin de **Scratch**. Suivi donc l'une des démarches suivantes :
+Tu auras besoin de **Scratch**, fais donc un des éléments suivants :
 
-+ Télécharge Scratch et installe-le sur ton ordinateur à l'adresse [dojo.soy/downloadscratch](http://dojo.soy/downloadscratch)
-+ Utilise Scratch dans ton navigateur Web à l'adresse [dojo.soy/usescratch](http://dojo.soy/usescratch)
++ Télécharge Scratch et installe-le sur ton ordinateur en allant sur [dojo.soy/downloadscratch](http://dojo.soy/downloadscratch)
++ Utilise Scratch dans ton navigateur Web en allant à l'adresse [dojo.soy/usescratch](http://dojo.soy/usescratch)
 
 Une fois que tout est configuré, tu peux passer à l'étape suivante!
 
