@@ -2,7 +2,7 @@
 title: Sushi del mare profondo
 hero_image: images/banner.png
 description: Crea un gioco divertente nel tuo primo programma di Scratch!
-theme: orange
+theme: orange #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
 duration: 2
 listed: true
 ingredient: false
