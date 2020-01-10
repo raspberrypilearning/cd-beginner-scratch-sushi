@@ -2,7 +2,7 @@
 title: Sushi în ape adânci
 hero_image: images/banner.png
 description: Creează un joc distractiv cu primul tău program Scratch!
-theme: orange
+theme: orange #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
 duration: 2
 listed: true
 ingredient: false
