@@ -69,7 +69,7 @@ Istnieje dziesięć kategorii bloków. Są one oznaczone kolorami i można wybie
 
 Czas na programowanie!
 
-\--- task \--- Na liście duszków kliknij na Kota Scratcha. Kot jest teraz bieżącym duszkiem.
+\--- task \--- Na liście duszków kliknij na kota Scratch. Kot jest teraz bieżącym duszkiem.
 
 Wybierz kategorię **Zdarzenia** w palecie bloków kodu, kliknij blok `kiedy flaga kliknięta`{:class="block3events"} i przeciągnij go do panelu bieżącego duszka.
 
