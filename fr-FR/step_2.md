@@ -47,7 +47,7 @@ Un sprite comprend:
 
 ## title: Blocs de code
 
-Le code dans Scratch se présente sous la forme de blocs que tu relies pour créer des programmes. Tu choisis des blocs dans la **palette de blocs de code**, puis tu les fais glisser dans le **panneau du sprite actuel**, puis tu les relies les uns aux autres.
+Le code dans Scratch se présente sous la forme de blocs que tu relies pour créer des programmes. Tu choisis des blocs dans la palette **blocs de code**, fais-les glisser dans le panneau **sprite actuel**, puis connecte-les l'un à l'autre.
 
 Il existe dix catégories de blocs. Ils sont codés par couleur, et tu peux choisir entre eux en cliquant sur les éléments dans la liste tout en haut de la **palette des blocs de code**.
 
@@ -69,7 +69,7 @@ Le **panneau du sprite actuel** te permet de voir le code, les costumes, et les 
 
 Il est temps de coder!
 
-\--- task \--- Dans la liste des sprites, cliquez sur le sprite du Chat Scratch. Le chat est maintenant le sprite actuel.
+\--- task \--- Dans la liste des sprites, clique sur le sprite du Chat Scratch. Le chat est maintenant le sprite actuel.
 
 Choisis la catégorie **Événements** dans la palette des blocs de code, clique sur le bloc `quand le drapeau vert est cliqué`{:class="block3events"}, et fais-le glisser dans le panneau du sprite actuel.
 
