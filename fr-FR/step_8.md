@@ -4,9 +4,11 @@ Le requin bouge, le poisson nage, mais ils n'interagissent pas: si le poisson na
 
 Tout d'abord, tu dois savoir si le poisson touche le requin. Pour cela, tu auras besoin d'un bloc **Contrôle** et d'un bloc **Détection**.
 
-\--- task \--- Ajoute le `si ....alors`{: class = "block3control"} **Contrôle** bloc dans la boucle `répéter indéfiniment`{:class="block3control"} du poisson sprite, en dessous du bloc `si rebond`{: class = "block3motion"}.
+\--- task \---
 
-Fais glisser le bloc `touchant ...`{:class="block3sensing"} dans l'espace situé en haut du bloc `si ... alors`{:class="block3control"}, puis clique sur le petit triangle pour sélectionner le nom du sprite requin. Si tu ne l'as pas changé, ce sera «Sprite1».
+Add the `if...then`{:class="block3control"} **Control** block inside the `forever`{:class="block3control"} loop of the fish sprite, below the `if on edge bounce`{:class="block3motion"} block.
+
+Drag the `touching...`{:class="block3sensing"} block into the space at the top of the `if...then`{:class="block3control"} block, and click the little triangle to select the shark sprite's name. If you haven’t changed it, it'll be 'Sprite1'.
 
 ```blocks3
     lorsque le drapeau vert est cliqué
@@ -26,23 +28,25 @@ Fais glisser le bloc `touchant ...`{:class="block3sensing"} dans l'espace situé
 
 ## title: Comment ça marche?
 
-Le `si ... alors`{:class="block3control"} **le bloc de contrôle** doit recevoir une valeur `Vraie/Fausse`.
+The `if...then`{:class="block3control"} **Control** block needs to be given a `True/False` value.
 
-**Les blocs de détection** collectent des informations, telles que l'emplacement du sprite, ce qui touche, etc. Tu utilises ce bloc:
+**Sensing** blocks collect information, like where the sprite is, what it’s touching, etc. You're using this block:
 
 ```blocks3
     <touching [Sprite1 v] ?>
 ```
 
-A partir de ce bloc, tu peux dire qu'il va te donner la valeur `Vrai/Faux` dont a besoin le bloc `si ... alors`{: class = "block3control"}.
+From this block's pointy ends, you can tell it’s going to give you the `True/False` value that the `if...then`{:class="block3control"} block needs.
 
 \--- /collapse \---
 
-Bien sûr, tu viens d'ajouter un bloc `si ... alors`{:class="block3control"} sans rien ajouter pour la partie 'alors'. Donc, au moment où ton script vérifie si le sprite poisson touche le sprite requin, il ne fait rien en réponse.
+Of course, you’ve just added an `if...then`{:class="block3control"} block without adding anything for the 'then' part. So at the moment your script is checking whether the fish sprite is touching the shark sprite, but it's not making anything happen in response.
 
-Tu peux faire disparaître le poisson, comme si le requin le mangeait, en utilisant le bloc `cacher`{:class="block3looks"}.
+You can make the fish disappear, as if the shark ate it, by using the `hide`{:class="block3looks"} block.
 
-\--- task \--- Recherche le bloc `cacher`{: class = "block3looks"} dans la liste **Apparence** et place-le dans le bloc `si ... alors`{:class="block3control"} , ainsi:
+\--- task \---
+
+Find the `hide`{:class="block3looks"} block in the **Looks** list, and put it inside the `if...then`{:class="block3control"} block, like so:
 
 ```blocks3
     si <touching [Sprite1 v] ?> alors
@@ -52,9 +56,11 @@ Tu peux faire disparaître le poisson, comme si le requin le mangeait, en utilis
 
 \--- /task \---
 
-Maintenant, une fois que le requin attrape le poisson, celui-ci disparaît définitivement. C'est pas génial.
+Now once the shark catches the fish, the fish disappears for good. That’s not great.
 
-\--- task \--- Mets le bloc `montrer`{:class="block3looks"} à partir de **Apparence** dans le tout début du code de poisson, pour pouvoir réinitialiser le jeu.
+\--- task \---
+
+Put the `show`{:class="block3looks"} block from **Looks** in at the very start of the fish code, so you can reset the game.
 
 ```blocks3
     lorsque le drapeau vert est cliqué
@@ -65,9 +71,11 @@ Maintenant, une fois que le requin attrape le poisson, celui-ci disparaît défi
 
 \--- /task \---
 
-C'est déjà mieux, mais tu ne veux pas que le joueur redémarre le jeu à chaque fois qu'il attrape un seul poisson!
+That's already better, but you don’t want the player to have to restart the game every time they catch a single fish!
 
-\--- task \--- Met à jour le code dans ton bloc `si ... alors`{:class="block3control"} pour qu'il ressemble à ceci:
+\--- task \---
+
+Update the code inside your `if...then`{:class="block3control"} block to look like this:
 
 ```blocks3
     si sur le bord, rebondir
@@ -85,10 +93,10 @@ C'est déjà mieux, mais tu ne veux pas que le joueur redémarre le jeu à chaqu
 
 ## title: Comment ça marche?
 
-Tu es malin ici: quand le poisson est caché, il attend, bouge et se montre à nouveau.
+You are being clever here: when the fish is hidden, it waits, moves, and then shows up again.
 
-On dirait que beaucoup de poissons continuent à apparaître, mais c'est ce sprite qui se déplace!
+It looks like lots of fish keep appearing, but it’s that one sprite moving around!
 
 \--- /collapse \---
 
-C'est un jeu! Mais il n’y a encore aucun moyen de marquer des points ou de gagner. Tu peux également résoudre ce problème - sur la carte suivante!
+That’s a game! But there’s no way to keep score yet, or to win. You can fix that too — on the next card!
