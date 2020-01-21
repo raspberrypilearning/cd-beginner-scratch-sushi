@@ -2,9 +2,11 @@
 
 이제 물고기를 스스로 수영하게 만들 시간입니다. 이렇게 하려면 새로운 종류의 **제어** 블록이 필요합니다.
 
-\--- task \--- 물고기 스프라이트를 선택하세요.
+\--- task \---
 
-**이벤트** 카테고리의 `녹색 깃발을 클릭했을 때`{:class="block3events"} 블록과, **제어** 카테고리의 `무한 반복`{:class="block3control"}블록을 드래그하여 추가합니다. 그리고 **동작**카테고리의 `10 만큼 움직이기`{:class="block3motion"} 블록을 **스크립트 영역에** 다음과 같이 추가합니다:
+Select your fish sprite.
+
+Drag a `when green flag clicked`{:class="block3events"} **Event** block, a `forever`{:class="block3control"} **Control** block, and a `move 10 steps`{:class="block3motion"} **Motion** block into the **sprite panel**, like this:
 
 ```blocks3
     녹색 깃발을 클릭했을 때
@@ -19,23 +21,29 @@
 
 ## title: 새로운 블록은 무엇을 하는 블록인가요?
 
-** 제어** 블록은 프로그램이 특정 횟수 또는 특정 조건에서 작업을 수행하게 합니다.
+**Control** blocks make your program do things a certain number of times, or under certain conditions.
 
-여기서 물고기 스프라이트는 `무한 반복`{:class="block3control"} 블록에 들어 무한 반복합니다. 무한반복 블록은 모든 명령을 무한반복합니다. 따라서 `무한 반복` {:class="block3control"} 내에서 마지막 작업 (블록)을 수행 한 경우 맨 처음부터 다시 시작하여 계속 반복합니다.
+Here, the fish does whatever is inside the `forever`{:class="block3control"} block over and over again on a loop, forever. So once it has done the last thing (block) inside the `forever`{:class="block3control"} block, it starts over at the top and does everything again, and so on.
 
 \--- /collapse \---
 
-\--- task \--- 이제 프로그램 시작 버튼을 클릭하고 무슨 일이 일어날 지 지켜보십시오! \--- /task \---
+\--- task \---
 
-음, 물고기는 방금 무대 옆으로 추락했고 상어가 물고기를 잡기에는 물고기가 너무 빨리 움직였습니다.
+Now click the green flag and watch what happens!
 
-먼저 물고기 속도를 늦춰야 합니다. 실제로는 매우 쉽습니다. 10 단계 이동 후 잠시 기다리도록 하면 됩니다. 이 블록은 **제어** 카테고리에서 찾을 수 있습니다.
+\--- /task \---
+
+Well, that fish just crashed into the side of the Stage, and it was moving far too fast for your shark to catch.
+
+First, you need to slow the fish down. That’s actually pretty easy, you just need it to wait for a little while after it moves those 10 steps. There’s a **Control** block that will help you here:
 
 ```blocks3
     (1) 초 기다리기
 ```
 
-\--- task \--- `기다리기`{:class="block3control"} 블록을 `무한 반복`{:class="block3control"} 블록 내에 추가하고, 값을 `0.5`로 수정합니다. 아래와 같이 수정합니다:
+\--- task \---
+
+Add the `wait`{:class="block3control"} block into your code inside the `forever`{:class="block3control"} block, and change the number to `0.5`, like this:
 
 ```blocks3
     녹색 깃발을 클릭했을 때
@@ -51,27 +59,33 @@
 
 ## 제목: 기다리기 초 조정
 
-`기다리기`{:class="block3control"} 블록 안에 있는 숫자는 몇 **초** 를 기다리게 할 것인지를 설정합니다. `0.5` 는 1초의 반이 되겠죠.
+The number you set in the `wait`{:class="block3control"} block says how many **seconds** you want the fish to wait. `0.5` is half a second.
 
-다른 값을 넣어서 게임에 가장 적합한 값을 확인할 수 있습니다. 그리고 `움직이기`{:class="block3motion"} 블록 안에 있는 단계수도 수정할 수 있습니다.
+You can test out different values to see which is the best for the game. And remember that you can change the number of steps inside the `move`{:class="block3motion"} block too!
 
 \--- /collapse \---
 
-물고기는 이제 움직이지만 스테이지 가장자리에서도 튀어 오르는 것을 볼 수 있습니다. 이 경우에는 **동작** 블록을 사용합니다!
+The fish moves now, but you need it to bounce off the edge of the Stage too. Yet again, there’s a **Motion** block for this!
 
-\--- task \--- `벽에 닿으면 튕기기`{:class="block3motion"} 블록을, `기다리기`{:class="block3control"} 블록 이후에 추가합니다. \--- /task \---
+\--- task \---
+
+Find the `if on edge bounce`{:class="block3motion"} block, and add it in after the `wait`{:class="block3control"} block.
+
+\--- /task \---
 
 ## \--- collapse \---
 
 ## title: 새로운 코드는 무엇을 합니까?
 
-`벽에 닿으면 튕기기`{:class="block3motion"} 블록은 스프라이트가 무대 가장자리에 닿는지 확인하고, 맞으면 왼쪽, 오른쪽, 위, 또는 아래로 튕깁니다.
+The `if on edge bounce`{:class="block3motion"} block checks if the sprite is touching the edge of the Stage and, if it is, it turns left, right, up, or down as appropriate.
 
 \--- /collapse \---
 
-물론 사용 전 `회전 방식`{:class="block3motion"} 을 설정하여야 합니다.
+Of course, this will lead to an upside-down fish, so you need a `set rotation style`{:class="block3motion"} block again.
 
-\--- task \--- 스프라이트 스크립트 실행 시, 물고기의 회전 방식을 `왼쪽-오른쪽`{:class="block3motion"} 으로 설정합니다:
+\--- task \---
+
+Update your code to set the rotation style of the fish to `left-right`{:class="block3motion"} at the beginning of the sprite's script:
 
 ```blocks3
     녹색 깃발을 클릭했을 때
@@ -85,11 +99,13 @@
 
 \--- /task \---
 
-물고기는 이제 앞뒤로 움직이지만 직선으로 만 움직입니다. 플레이어가 상어를 잡기에 이 게임이 너무 쉽습니다! 물고기가 어디로 도망갈지 예측하기 어렵게 만들어야 합니다.
+The fish moves backwards and forwards now, but only in a straight line — a bit too easy for the player to catch with the shark! You need to make the fish less predictable.
 
-이전 단계에서 스프라이트 회전 방법을 익혔습니다. 여기에 사용하십시오.
+You already know from a previous step how to make a sprite turn, so start there.
 
-\--- task \--- 물고기의 수영 방법에 회전을 추가하고 녹색 깃발을 클릭하십시오.
+\--- task \---
+
+Add a turn into the fish's swimming instructions, and click the green flag.
 
 ```blocks3
     녹색 깃발을 클릭했을 때
@@ -104,13 +120,13 @@
 
 \--- /task \---
 
-이전보다 더 낫지만 여전히 패턴이 너무 많습니다. 더 랜덤하게 움직여야 합니다. 다행히도 스크래치는 랜덤 기능을 지원합니다! **연산** 카테고리에 있는 새로운 종류의 블록만 있으면 됩니다.
+It’s better, but there’s still too much of a pattern. It needs to be more random. Luckily, Scratch can do random for you! You’ll just need a new kind of block, called an **operator** block.
 
 ## \--- collapse \---
 
 ## 제목: 연산자란 무엇입니까?
 
-**연산자는** 숫자, 문자, `참/거짓` 등 의 연산을 수행하고 값을 돌려줍니다. 둥근 모양은 숫자나 텍스트, 뾰족한 끝은 `참/거짓` 값을 돌려 줍니다.
+**Operators** take in one or more values (like numbers, text, or `True/False` values) and give back a single value. You can tell the kind of value it will give back by the shape of the block: round ends give numbers or text, pointy ends give `True/False`.
 
 ```blocks3
     (() + ())
@@ -122,7 +138,9 @@
 
 \--- /collapse \---
 
-\--- task \--- `난수`{:class="block3operators"} **연산자** 블록을, **동작** 내 `회전하기`{:class="block3motion"} 블록 밑에 아래와 같이 추가하세요.
+\--- task \---
+
+Find the `pick random`{:class="block3operators"} **operator** block, and plug it into the `turn degrees`{:class="block3motion"} **Motion** block by clicking it and dragging it into the field where you set the number of degrees.
 
 ```blocks3
     녹색 깃발을 클릭했을 때
@@ -137,23 +155,27 @@
 
 \--- /task \---
 
-** 참고**: 난수의 최소 및 최대 숫자를 변경할 수 있지만 기본값 (` 1 ` 그리고 ` 10 `)은 이 게임에 매우 적합하므로 그냥 두세요.
+**Note**: you can change the minimum and maximum numbers it will pick, but the default values (`1` and `10`) are pretty good for this game, so you can just leave them.
 
-\--- task \--- 이제 녹색 깃발을 클릭하여 코드를 테스트하십시오! \--- /task \---
+\--- task \---
+
+Click the green flag to run the code!
+
+\--- /task \---
 
 ## \--- collapse \---
 
 ## 제목: 자 이제 무한 반복 블록은 무엇을 합니까?
 
-무한 반복 블록은 물고기 스프라이트가 아래 네 가지를 순서대로 수행하도록 합니다.
+The forever block now makes the fish sprite do four things in order:
 
 1. 앞으로 이동
 2. 방향 조금 돌리기
 3. 잠깐 기다리기
 4. 벽에 닿으면 튕기기
 
-스프라이트가 점검을 마치면 루프 시작 부분에서 다시 시작하여 스크래치 프로그램이 실행되는 동안 이동, 회전, 대기, 벽에 닿았는지 점검합니다.
+Once the sprite has done the check, it will start at the beginning of the loop again and move, turn, wait, check, for as long as you let your Scratch program run.
 
 \--- /collapse \---
 
-멋져요! 다음: 물고기 잡기!
+Cool! Next up: catching that fish!
