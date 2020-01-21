@@ -5,6 +5,7 @@ To keep score of how many fish the player catches, you’ll need somewhere to st
 First: storing the score! 
 
 --- task ---
+
 Go to the **Variables** blocks category and click on **Make a Variable**.
 
 ![](images/catch5.png)
@@ -16,6 +17,7 @@ Enter `score` as the name.
 Check out your new variable!
 
 ![The Score variable is displayed on the stage](images/scoreVariableStage.png)
+
 --- /task ---
 
 --- collapse ---
@@ -30,6 +32,7 @@ When you want to store information in a program, you use something called a **va
 Now you need to update the variable whenever the shark eats a fish, and to reset it when the game is restarted. Doing both is pretty easy:
 
 --- task ---
+
 From the **Variables** section, take the `set [my variable v] to [0]`{:class="block3variables"} and `change [my variable v] by [1]`{:class="block3variables"} blocks. Click on the little arrows in the blocks, choose `score` from the list, and then put the blocks into your program: 
 
 ### Code for the shark
@@ -52,6 +55,7 @@ From the **Variables** section, take the `set [my variable v] to [0]`{:class="bl
         show
     end
 ```
+
 --- /task ---
 
 Cool! Now you’ve got a score and everything. 
