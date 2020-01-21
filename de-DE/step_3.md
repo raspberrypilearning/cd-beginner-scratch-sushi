@@ -24,21 +24,25 @@ Du kannst auf den gewünschten Block klicken, ihn dann in das aktuelle Figuren-P
 
 Wenn du sehen möchtest, was ein Block macht, kannst du ihn mit einem Doppelklick ausführen!
 
-\--- task \--- Doppelklicke auf einige Blöcke, um zu sehen, was sie tun. \--- /task \---
+\--- task \---
+
+Try double-clicking on some of the blocks to see what they do.
+
+\--- /task \---
 
 ## \--- collapse \---
 
 ## title: Den Code ausführen
 
-Normalerweise soll dein Code automatisch ausgeführt werden, wenn etwas bestimmtes passiert. Aus diesem Grund beginnen viele deiner Programme mit einem Block aus der Kategorie **Ereignisse**, meistens dieser:
+Usually, you want your code to run automatically whenever something specific happens. This is why many of your programs will start with a block from the **Events** category, most often this one:
 
 ```blocks3
     wenn die grüne flagge angeklickt
 ```
 
-Die mit diesem Block verbundenen Codeblöcke werden ausgeführt, nachdem die grüne **Flagge** angeklickt wurde.
+The code blocks connected to this block will run after the **green flag** is clicked.
 
-Codeblöcke laufen von oben nach unten, daher ist die Reihenfolge wichtig, in der du deine Blöcke zusammenfügst. In diesem Beispiel `sagt` die Figur {:class="block3looks"} `Hallo!` bevor der `Miau` Ton {class="block3sound"} `abgespielt` wird.
+Code blocks run from top to bottom, so the order in which you snap your blocks together matters. In this example, the sprite will `say`{:class="block3looks"} `Hello!` before it will `play`{:class="block3sound"} the `meow` sound.
 
 ```blocks3
     Wenn die grüne Flagge angeklickt
@@ -48,19 +52,25 @@ spiele Klang [Miau v]
 
 \--- /collapse \---
 
-Das Entfernen oder Löschen von Codeblöcken, die du nicht in deinen Programm haben möchtest, ist einfach! Ziehen es es einfach zurück in die Codeblock-Palette.
+Removing or deleting code blocks you don’t want in your program is easy! Just drag them back into the code blocks palette.
 
-**Sei vorsichtig:** Wenn du sie in die Palette ziehst, werden alle Blöcke, die mit dem von dir gezogenen Block verbunden sind, gelöscht. Achte darauf, die Codeblöcke, die du entfernen möchtest, von den zu behalten willst, zu trennen. Wenn du einige Codeblöcke versehentlich gelöscht hast und sie zurückbekommen möchtest, klicke mit der rechten Maustaste, und klicke dann auf die Option **Rückgängig**, um alles wiederherzustellen.
+**Be careful:** dragging them into the code blocks pallette will delete all the blocks connected to the block you drag, so make sure to separate code blocks you want to keep from those you want to remove. If you delete some code blocks by accident and want to get them back, right-click and then click on the **undo** option to get everything back.
 
 ![](images/code6.png)
 
-\--- task \--- Versuche, einige Codeblöcke hinzuzufügen, zu löschen und wiederherzustellen! \--- /task \---
+\--- task \---
+
+Try adding, deleting, and undeleting some code blocks!
+
+\--- /task \---
 
 ### Alles zusammenfügen
 
-Jetzt weißt du, wie du Code verschieben und Dinge in Bewegung setzen kannst. Jetzt ist es an der Zeit, ein Programm zu erstellen, mit dem die Scratch Katze im Kreis laufen kann!
+Now you know how to move code around and make things happen, it's time for you to create a program to make the Scratch Cat walk in a circle!
 
-\--- task \--- Vergewissere dich, dass die Figur Katze in der Figuren-Liste ausgewählt ist, und ziehe die folgenden Blöcke in das Figuren-Fenster, und verbinde sie. Du findest sie in den **Ereignissen** und **Bewegung** Listen.
+\--- task \---
+
+Make sure you have the cat sprite selected in the sprite list, and then drag the following blocks into the sprite panel and connect them. You’ll find them in the **Events** and **Motion** lists.
 
 ```blocks3
     Wenn die grüne Flagge angeklickt
@@ -69,15 +79,21 @@ Jetzt weißt du, wie du Code verschieben und Dinge in Bewegung setzen kannst. Je
 
 \--- /task \---
 
-\--- Aufgabe \--- Klicke jetzt auf die grüne Flagge über der Bühne.
+\--- task \---
 
-![](images/code7.png) \--- /task \---
+Now, click on the green flag above the Stage.
 
-Du solltest die Katze in einer geraden Linie laufen sehen... nicht genau das, was du willst, oder?
+![](images/code7.png)
 
-Hinweis: Wenn du zu oft auf die Flagge klickst und die Katze weggeht, kannst du sie zurückziehen!
+\--- /task \---
 
-\--- Aufgabe \--- Ziehe den Umdrehen-Block bis zum Ende, damit die Katze-Figur im Kreis läuft. Es ist auch in der **Bewegung** Liste.
+You should see the cat walking in a straight line...not exactly what you want, right?
+
+Note: If you click th flag too many times and the cat walks away, you can drag it back!
+
+\--- task \---
+
+Snap the turn block to the end to make the cat sprite walk in a circle. It’s in the **Motion** list too.
 
 ```blocks3
     Wenn die grüne Flagge angeklickt
@@ -91,10 +107,14 @@ Hinweis: Wenn du zu oft auf die Flagge klickst und die Katze weggeht, kannst du 
 
 ## Titel: Wie funktioniert das Drehen?
 
-Durch diesen Block wird die Figur um 15 Grad von den vollen 360 Grad gedreht, die einen Kreis bilden. Du kannst diese Anzahl und die Anzahl der Schritte ändern, indem du auf die Anzahl klickst und einen neuen Wert eingibst.
+This block makes the sprite turn 15 degrees of the full 360 degrees that make up a circle. You can change that number, and the number of steps, by clicking on the number and typing in a new value.
 
 ![](images/code9.png)
 
 \--- /collapse \---
 
-\--- Aufgabe \--- Speichere jetzt deine Arbeit! \--- /task \---
+\--- task \---
+
+Now save your work!
+
+\--- /task \---
