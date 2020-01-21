@@ -2,38 +2,46 @@
 
 Scratch verfügt über eine Bibliothek mit Hintergründen und Figuren, mit denen du dein Projekt fantastisch aussehen lassen kannst.
 
-\--- Aufgabe \--- Wähle die Bühne aus.
+\--- task \---
 
-![Bühne auswählen](images/looksSelectStage.png)
+Select the Stage.
 
-Klicke auf **Hintergründe**.
+![Selecting the stage](images/looksSelectStage.png)
 
-![Die Registerkarte "Hintergründe"](images/looksBackdrops.png)
+Click on **Backdrops**.
 
-Klicke auf das Symbol **Hintergrund aus Bibliothek auswählen**.
+![The Backdrops tab](images/looksBackdrops.png)
 
-![Das Symbol "Hintergrund wählen"](images/looksChooseBg.png)
+Click the **Choose backdrop from library** icon.
 
-Dann wähle deinen Lieblingsunterwasserhintergrund aus!
+![The Choose backdrop icon](images/looksChooseBg.png)
 
-![Eine Unterwasserszene](images/looksUnderwater.png) \--- /task \---
+Then pick your favourite underwater background!
 
-Großartig! Natürlich hast du jetzt eine Katze unter Wasser und Katzen sind normalerweise keine großen Fans davon. Aber das kannst du reparieren, weil du die Katze in einen Hai verwandeln kannst!
+![An underwater scene](images/looksUnderwater.png)
 
-\--- task \--- Wähle zuerst die Katzenfigur aus und klicke auf die Registerkarte **Kostüme**.
+\--- /task \---
+
+Great! Of course, now you have a cat underwater, and cats aren't usually big fans of that. But you can fix that, because you can turn the cat into a shark!
+
+\--- task \---
+
+First, select the cat sprite and click on the **Costumes** tab.
 
 ![](images/cool2.png)
 
-Klicke dann auf **Kostüm aus Bibliothek auswählen**
+Then, click on **Choose costume from Library**
 
 ![](images/cool3.png)
 
-Wähle dieses Hai-Bild aus und klicke auf **OK**.
+Select this shark image and click **OK**.
 
-![Das Hai-Kostüm](images/looksShark.png)
+![The shark costume](images/looksShark.png)
 
-Entferne nun die Katzenkostüme, indem du sie auswählst und auf **x**klickst.
+Now remove the cat costumes by selecting each of them and clicking on the **x**.
 
-![](images/coolDeleteCostumes.png) \--- /task \---
+![](images/coolDeleteCostumes.png)
 
-Jetzt hast du einen Hai - ausgezeichnet!
+\--- /task \---
+
+Now you have a shark – excellent!
