@@ -4,29 +4,35 @@ Pentru a ține minte câți pești a prins jucătorul ai nevoie de un loc în ca
 
 Primul lucru: stocarea scorului!
 
-\--- task \--- Dechide categoria de blocuri **Variabile** și apasă pe **Creează o variabilă**.
+\--- task \---
+
+Go to the **Variables** blocks category and click on **Make a Variable**.
 
 ![](images/catch5.png)
 
-Introdu `scor` în căsuța nume.
+Enter `score` as the name.
 
 ![](images/catch6.png)
 
-Uită-te la noua ta variabilă!
+Check out your new variable!
 
-![Variabila scor apare pe scenă](images/scoreVariableStage.png) \--- /task \---
+![The Score variable is displayed on the stage](images/scoreVariableStage.png)
+
+\--- /task \---
 
 ## \--- collapse \---
 
 ## title: Ce sunt variabilele?
 
-Când vrei să stochezi informații într-un program, vei folosi ceva numit **variabilă**. Te poți gândi la ea ca la o cutie care are o eticheta pe ea: poți pune ceva în ea, poți verifica ce este în ea și poți schimba ce e în ea. Vei găsi variabile în secțiunea **Variabile**, dar trebuie să le creezi mai întâi pentru ca acestea să apară acolo!
+When you want to store information in a program, you use something called a **variable**. Think of it like a box with a label on it: you can put something in it, check what’s in it, and change what’s in it. You’ll find variables in the **Variables** section, but you need to create them first for them to show up there!
 
 \--- /collapse \---
 
-Acum trebuie să modifici variabila ori de câte ori rechinul mănâncă un pește și să o resetezi atunci când jocul este repornit. Ambele lucruri sunt ușor de făcut:
+Now you need to update the variable whenever the shark eats a fish, and to reset it when the game is restarted. Doing both is pretty easy:
 
-\--- task \--- Din secțiunea **Variabile**, ia blocurile `setează [variabila mea] la [0]`{:class="block3variables"} și `modifică [variabila mea] cu [1]`{:class="block3variables"}. Apasă pe săgețile mici din interiorul blocurilor, alege `scor` din listă și apoi pune blocurile în programul tău:
+\--- task \---
+
+From the **Variables** section, take the `set [my variable v] to [0]`{:class="block3variables"} and `change [my variable v] by [1]`{:class="block3variables"} blocks. Click on the little arrows in the blocks, choose `score` from the list, and then put the blocks into your program:
 
 ### Cod pentru rechin
 
@@ -51,4 +57,4 @@ Acum trebuie să modifici variabila ori de câte ori rechinul mănâncă un peș
 
 \--- /task \---
 
-Super! Acum ai și scor.
+Cool! Now you’ve got a score and everything.
