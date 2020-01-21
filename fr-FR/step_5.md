@@ -2,21 +2,31 @@
 
 À l'heure actuelle, ton requin se déplace en cercle et il serait bien plus amusant de le contrôler avec les touches fléchées. Sur cette carte, tu vas apprendre à faire ça!
 
-\--- task \--- Commence par supprimer tout le code que tu as pour le requin. \--- /task \---
+\--- task \---
 
-Comme tu l'as probablement deviné, tu auras encore besoin de blocs **Événements** et **Mouvement**!
+Start by deleting all code that you have for the shark.
 
-\--- task \--- Cette fois, recherche ce bloc et fais-le glisser dans le panneau de sprite actuel:
+\--- /task \---
+
+As you’ve probably guessed, you’re going to need **Event** and **Motion** blocks again!
+
+\--- task \---
+
+This time, look for this block and drag it into the current sprite panel:
 
 ```blocks3
     quand la touche [espace] est pressée
 ```
 
-Clique sur la petite flèche (▼) à côté de `espace`. Tu verras une liste de toutes tes touches du clavier que tu peux choisir. \--- /task \---
+Click the little arrow (▼) beside `space`. You will see a list of all your keyboard keys that you can pick from.
 
-Tu auras besoin de quatre blocs `lorsque tu appuieras sur la touche`{:class = "block3events"} - un pour chacune de tes touches de direction.
+\--- /task \---
 
-\--- task \--- Pour que ton requin bouge, connecte ces blocs au blocs **Mouvement** comme ceci:
+You’re going to need four of the `when key pressed`{:class="block3events"} blocks — one for each of your arrow keys.
+
+\--- task \---
+
+To make your shark move, connect these blocks to **Motion** blocks like this:
 
 ```blocks3
     lorsque la touche [flèche gauche v] est enfoncée
@@ -38,13 +48,19 @@ Tu auras besoin de quatre blocs `lorsque tu appuieras sur la touche`{:class = "b
 
 \--- /task \---
 
-**Remarque**: `-10` signifie «recule de 10 pas».
+**Note**: `-10` means 'go back 10 steps'.
 
-\--- task \--- Maintenant, clique sur le drapeau vert pour tester ton code. \--- /task \---
+\--- task \---
 
-Maintenant, ton requin avance et recule, ce qui est plutôt cool, mais il ne se déplace pas en haut ou en bas. De plus, si tu regardes à travers les blocs **Mouvement** , tu verras qu'il n'y a pas de bloc pour "haut" ou "bas". Il y a tout un tas d’entre elles liées aux coordonnées **x** et **y** mais - essayons-les!
+Now click the green flag to test out your code.
 
-\--- task \--- Récupère deux blocs `changer y par`{:class="block3motion"} et mets à jour ton code comme ceci:
+\--- /task \---
+
+Now your shark moves back and forwards, which is pretty cool, but it doesn’t move up or down. Also, if you look through the **Motion** blocks, you’ll see there are no blocks for 'up' or 'down'. There are a whole bunch of them related to **x** and **y** coordinates though — let's try those!
+
+\--- task \---
+
+Grab two `change y by`{:class="block3motion"} blocks, and update your code like this:
 
 ```blocks3
     quand la touche [flèche haut v] est enfoncée
@@ -58,17 +74,17 @@ Maintenant, ton requin avance et recule, ce qui est plutôt cool, mais il ne se 
 
 \--- /task \---
 
-Maintenant, lorsque tu appuies sur les touches fléchées, le requin se déplace tout autour de la scène!
+Now when you press the arrows keys, the shark moves all around the stage!
 
 ## \--- collapse \---
 
 ## title: Comment fonctionnent les coordonnées x et y?
 
-Pour parler de la position des objets, tels que les sprites, nous utilisons souvent les coordonnées x et y. L' **axe des x** du système de coordonnées de la scène va de **gauche à droite**, et l' **axe des y** va de **bas en haut**.
+To talk about the positions of objects, such as sprites, we often use x- and y-coordinates. The **x-axis** of the Stage coordinate system runs from **left to right**, and the **y-axis** runs from **bottom to top**.
 
 ![](images/moving3.png)
 
-Un sprite peut être repéré par les coordonnées de son centre, par exemple `(15, -27)`, où `15` est sa position sur l'axe des x et `-27` son axe des y.
+A sprite can be located by the coordinates of its centre, for example `(15, -27)`, where `15` is its position along the x-axis , and `-27` its position along the y-axis.
 
 + Pour avoir une idée de la façon dont cela fonctionne réellement, sélectionne un sprite et utilise les commandes **x** et **y** pour le déplacer sur la scène en définissant différentes valeurs pour les coordonnées.
 
@@ -80,29 +96,35 @@ Un sprite peut être repéré par les coordonnées de son centre, par exemple `(
 
 ### Redémarrer le jeu
 
-Le requin bouge maintenant sur tout l'écran, mais imagine qu'il s'agisse d'un jeu: comment le redémarrer et que se passe-t-il au début de chaque jeu?
+The shark moves all over the screen now, but imagine this is a game: how do you restart it, and what happens at the start of each game?
 
-Tu dois amener le requin à son emplacement d'origine lorsque le joueur commence la partie. Ils commenceront ce jeu en cliquant sur le drapeau vert. Tu devras donc changer les coordonnées x et y du sprite du requin lorsque cela se produira.
+You need to get the shark to its original location when the player starts the game. They'll start this game by clicking on the green flag, so you need to change the shark sprite's x- and y-coordinates when that happens.
 
-C'est en fait assez facile! Le centre de la scène est `(0, 0)` en `(x, y)` coordonnées.
+That’s actually pretty easy! The centre of the stage is `(0, 0)` in `(x, y)` coordinates.
 
-Donc, tout ce dont tu as besoin est un bloc **Événement** pour ce drapeau vert, et le bloc **aller à** de **Mouvement**.
+So all you need is an **Event** block for that green flag, and the **go to** block from **Motion**.
 
-\--- task \--- Fais glisser un bloc `lorsque le drapeau vert est cliqué`{:class="block3events"} **Événement** sur le panneau sprite actuel.
+\--- task \---
+
+Drag a `when green flag clicked`{:class="block3events"} **Event** block onto the current sprite panel.
 
 ```blocks3
     lorsque le drapeau vert est cliqué
 ```
 
-Recherche ensuite le bloc `aller à`{:class="block3motion"} **Mouvement** et associe-le au bloc drapeau **Événement**.
+Then find the `go to`{:class="block3motion"} **Motion** block, and attach it to your flag **Event** block.
 
 ```blocks3
     lorsque le drapeau vert est cliqué
 + aller à x: (0) y: (0)
 ```
 
-Définis les coordonnées `x` et `y` sur `0` dans le bloc `aller à`{:class="block3motion"} si elles ne sont pas déjà `0`.
+Set the both the `x` and the `y` coordinate to `0` in the `go to`{:class="block3motion"} block if they are not already `0`.
 
 \--- /task \---
 
-\--- task \--- Maintenant, clique sur le drapeau vert: tu devrais voir le requin revenir au centre de la scène! \--- /task \---
+\--- task \---
+
+Now click the green flag: you should see the shark return to the centre of the stage!
+
+\--- /task \---
