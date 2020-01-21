@@ -2,21 +2,31 @@
 
 W tej chwili twój rekin porusza się w kółko, ale kontrolowanie go za pomocą klawiszy strzałek byłoby o wiele przyjemniejsze. Na tej karcie dowiesz się, jak to zrobić!
 
-\--- task \--- Zacznij od usunięcia całego kodu, który masz dla rekina. \--- /task \---
+\--- task \---
 
-Jak pewnie się domyśliłaś, będziesz potrzebowała ponownie bloków **Zdarzenia** i **Ruch**!
+Start by deleting all code that you have for the shark.
 
-\--- task \--- Tym razem poszukaj tego bloku i przeciągnij go do panelu bieżącego duszka:
+\--- /task \---
+
+As you’ve probably guessed, you’re going to need **Event** and **Motion** blocks again!
+
+\--- task \---
+
+This time, look for this block and drag it into the current sprite panel:
 
 ```blocks3
     kiedy klawisz [spacja v] naciśnięty
 ```
 
-Kliknij małą strzałkę (▼) obok `spacji`. Zobaczysz listę wszystkich klawiszy, które możesz wybrać. \--- /task \---
+Click the little arrow (▼) beside `space`. You will see a list of all your keyboard keys that you can pick from.
 
-Będziesz potrzebowała czterech bloków `kiedy klawisz jest naciśnięty`{:class="block3events"} - po jednym dla każdego ze strzałek.
+\--- /task \---
 
-\--- task \--- Aby twój rekin się poruszył, połącz te bloki z blokami **Ruch** ten sposób:
+You’re going to need four of the `when key pressed`{:class="block3events"} blocks — one for each of your arrow keys.
+
+\--- task \---
+
+To make your shark move, connect these blocks to **Motion** blocks like this:
 
 ```blocks3
     kiedy klawisz [strzałka w lewo v] naciśnięty
@@ -38,13 +48,19 @@ Będziesz potrzebowała czterech bloków `kiedy klawisz jest naciśnięty`{:clas
 
 \--- /task \---
 
-**Uwaga**: `-10` oznacza „cofnij o 10 kroków”.
+**Note**: `-10` means 'go back 10 steps'.
 
-\--- task \--- Kliknij zieloną flagę, aby przetestować swój kod. \--- /task \---
+\--- task \---
 
-Teraz twój rekin porusza się do tyłu i do przodu, co jest całkiem fajne, ale nie porusza się w górę ani w dół. Ponadto, jeśli spojrzysz na bloki **Ruch**, zobaczysz, że nie ma żadnych bloków dla ruchu „w górę” lub „w dół”. Istnieje jednak wiele związanych ze współrzędnymi **x** i **y** - spróbujmy je wykorzystać!
+Now click the green flag to test out your code.
 
-\--- task \--- Złap dwa bloki `zmień y o`{:class="block3motion"} i zaktualizuj swój kod tak:
+\--- /task \---
+
+Now your shark moves back and forwards, which is pretty cool, but it doesn’t move up or down. Also, if you look through the **Motion** blocks, you’ll see there are no blocks for 'up' or 'down'. There are a whole bunch of them related to **x** and **y** coordinates though — let's try those!
+
+\--- task \---
+
+Grab two `change y by`{:class="block3motion"} blocks, and update your code like this:
 
 ```blocks3
     kiedy klawisz [strzałka w górę v] naciśnięty
@@ -58,17 +74,17 @@ Teraz twój rekin porusza się do tyłu i do przodu, co jest całkiem fajne, ale
 
 \--- /task \---
 
-Teraz, gdy naciśniesz klawisze strzałek, rekin porusza się po scenie!
+Now when you press the arrows keys, the shark moves all around the stage!
 
 ## \--- collapse \---
 
 ## title: Jak działają współrzędne X i Y?
 
-Aby mówić o pozycjach obiektów, takich jak duszki, często używamy współrzędnych x i y. **Oś x** układu współrzędnych sceny biegnie od **lewej do prawej**, a **oś y** biegnie od **dołu do góry**.
+To talk about the positions of objects, such as sprites, we often use x- and y-coordinates. The **x-axis** of the Stage coordinate system runs from **left to right**, and the **y-axis** runs from **bottom to top**.
 
 ![](images/moving3.png)
 
-Duszek może być umieszczony za pomocą współrzędnych jego środka, na przykład `(15, -27)`, gdzie `15` jest jego pozycją wzdłuż osi x a `-27` to jego położenie wzdłuż osi y.
+A sprite can be located by the coordinates of its centre, for example `(15, -27)`, where `15` is its position along the x-axis , and `-27` its position along the y-axis.
 
 + Aby przekonać się, jak to na prawdę działa, wybierz duszka i użyj elementów sterujących **x** i **y**, aby przesuwać go po scenie, ustawiając różne wartości współrzędnych.
 
@@ -80,29 +96,35 @@ Duszek może być umieszczony za pomocą współrzędnych jego środka, na przyk
 
 ### Ponowne uruchomienie gry
 
-Rekin porusza się teraz po całym ekranie, ale wyobraź sobie, że to gra: jak ją uruchomić od nowa i co się dzieje na początku każdej gry?
+The shark moves all over the screen now, but imagine this is a game: how do you restart it, and what happens at the start of each game?
 
-Musisz zabrać rekina do jego pierwotnej lokalizacji, w momencie kiedy gracz rozpoczyna grę. Rozpoczną tę grę, klikając zieloną flagę, więc kiedy to się stanie, musisz zmienić współrzędne x i y duszka rekina.
+You need to get the shark to its original location when the player starts the game. They'll start this game by clicking on the green flag, so you need to change the shark sprite's x- and y-coordinates when that happens.
 
-To naprawdę proste! Środek sceny to `(0, 0)` jako współrzędne `(x, y)`.
+That’s actually pretty easy! The centre of the stage is `(0, 0)` in `(x, y)` coordinates.
 
-Wszystko, czego potrzebujesz, to blok **Zdarzenia** dla tej zielonej flagi, oraz blok **idź do** z kategorii **Ruch**.
+So all you need is an **Event** block for that green flag, and the **go to** block from **Motion**.
 
-\--- task \--- Przeciągnij blok `kiedy kliknięto zieloną flagę`{:class="block3events"} z kategorii **Zdarzenia** na panelu bieżącego duszka.
+\--- task \---
+
+Drag a `when green flag clicked`{:class="block3events"} **Event** block onto the current sprite panel.
 
 ```blocks3
     kiedy kliknięto zieloną flagę
 ```
 
-Następnie znajdź blok `idź do`{:class="block3motion"} w kategorii **Ruch** i dołącz go do bloku **zdarzenia z flagą**.
+Then find the `go to`{:class="block3motion"} **Motion** block, and attach it to your flag **Event** block.
 
 ```blocks3
     gdy flaga kliknięta
 + idź do x: (0) y: (0)
 ```
 
-Ustaw obie współrzędne `x` i `y` na `0` w bloku `idź do`{:class="block3motion"}, jeśli nie są jeszcze ustawione na `0`.
+Set the both the `x` and the `y` coordinate to `0` in the `go to`{:class="block3motion"} block if they are not already `0`.
 
 \--- /task \---
 
-\--- task \--- Teraz kliknij zieloną flagę: powinieneś zobaczyć rekina wracającego na środek sceny! \--- /task \---
+\--- task \---
+
+Now click the green flag: you should see the shark return to the centre of the stage!
+
+\--- /task \---
