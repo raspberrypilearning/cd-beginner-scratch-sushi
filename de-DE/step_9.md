@@ -4,29 +4,35 @@ Damit die Anzahl der Fische, die der Spieler fängt, erhalten bleibt, benötigst
 
 Erstens: Speichern der Punktzahl!
 
-Aufgabe Wechsle zur Kategorie **Variablen** - Blöcke und klicke auf **Variable erstellen**.
+\--- task \---
+
+Go to the **Variables** blocks category and click on **Make a Variable**.
 
 ![](images/catch5.png)
 
-Gib `Punkte` als Namen ein.
+Enter `score` as the name.
 
 ![](images/catch6.png)
 
-Überprüfe deine neue Variable!
+Check out your new variable!
 
-![Die Punkte-Variable wird auf der Bühne angezeigt](images/scoreVariableStage.png) \--- /task \---
+![The Score variable is displayed on the stage](images/scoreVariableStage.png)
+
+\--- /task \---
 
 ## \--- collapse \---
 
 ## Titel: Was sind Variablen?
 
-Wenn du Informationen in einem Programm speichern möchtest, verwendest du eine sogenannte **Variable**. Stelle es dir vor wie eine Schachtel mit einem Etikett daran: Du kannst etwas hineinlegen, prüfen, was darin ist, und ändern, was darin enthalten ist. Du findest Variablen im Abschnitt **Variablen**, aber du musst sie zuerst erstellen, damit sie dort angezeigt werden!
+When you want to store information in a program, you use something called a **variable**. Think of it like a box with a label on it: you can put something in it, check what’s in it, and change what’s in it. You’ll find variables in the **Variables** section, but you need to create them first for them to show up there!
 
 \--- /collapse \---
 
-Jetzt musst du die Variable aktualisieren, wann immer der Hai einen Fisch frisst, und sie zurücksetzen, wenn das Spiel neu gestartet wird. Beides zu tun ist ziemlich einfach:
+Now you need to update the variable whenever the shark eats a fish, and to reset it when the game is restarted. Doing both is pretty easy:
 
-\--- task \--- Setze aus dem Abschnitt **Variablen** die `[Meine Variable v] auf [0]`{:class="block3variables"} und `ändere [Meine Variable v] um [1]`{:class="block3variables"} Blöcke. Klicke auf die kleinen Pfeile in den Blöcken, wähle `Punkte` aus der Liste und füge die Blöcke in dein Programm ein:
+\--- task \---
+
+From the **Variables** section, take the `set [my variable v] to [0]`{:class="block3variables"} and `change [my variable v] by [1]`{:class="block3variables"} blocks. Click on the little arrows in the blocks, choose `score` from the list, and then put the blocks into your program:
 
 ### Code für den Hai
 
@@ -52,4 +58,4 @@ Jetzt musst du die Variable aktualisieren, wann immer der Hai einen Fisch frisst
 
 \--- /task \---
 
-Cool! Jetzt hast du eine Punktzahl und alles.
+Cool! Now you’ve got a score and everything.
