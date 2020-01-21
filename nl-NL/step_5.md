@@ -2,21 +2,31 @@
 
 Op dit moment beweegt je haai in een rondje, en het zou veel gaver zijn om hem aan te sturen met de pijltjestoetsen. Met deze kaart leer je hoe dat moet!
 
-\--- task \--- Begin met het verwijderen van alle code die je hebt voor de haai. \--- /task \---
+\--- task \---
 
-Zoals je vast al geraden hebt, heb je de **Gebeurtenissen** en **Beweging** blokken weer nodig!
+Start by deleting all code that you have for the shark.
 
-\--- task \--- Zoek deze keer dit blok op en sleep het naar het huidige sprite paneel:
+\--- /task \---
+
+As you’ve probably guessed, you’re going to need **Event** and **Motion** blocks again!
+
+\--- task \---
+
+This time, look for this block and drag it into the current sprite panel:
 
 ```blocks3
     wanneer [spatiebalk v] is ingedrukt
 ```
 
-Klik op de kleine pijl (▼) naast `spatiebalk`. Je ziet nu een lijst met alle toetsen waaruit je kunt kiezen. \--- /task \---
+Click the little arrow (▼) beside `space`. You will see a list of all your keyboard keys that you can pick from.
 
-Je hebt vier van de `wanneer toets is ingedrukt`{:class="block3events"} blokken nodig - één voor elk van je pijltjestoetsen.
+\--- /task \---
 
-\--- task \--- Om je haai te laten bewegen, verbind je deze blokken op de volgende manier aan de **beweging** blokken:
+You’re going to need four of the `when key pressed`{:class="block3events"} blocks — one for each of your arrow keys.
+
+\--- task \---
+
+To make your shark move, connect these blocks to **Motion** blocks like this:
 
 ```blocks3
     wanneer [pijltje links v] is ingedrukt
@@ -38,13 +48,19 @@ neem (10) stappen
 
 \--- /task \---
 
-**Let op**: `-10` betekent 'ga 10 stappen terug'.
+**Note**: `-10` means 'go back 10 steps'.
 
-\--- task \--- Klik nu op de groene vlag om je code te testen. \--- /task \---
+\--- task \---
 
-Nu beweegt je haai naar voren en naar achteren, wat heel gaaf is, maar hij gaat nog niet omhoog of naar beneden. Als je kijkt bij de **Beweging** blokken, zul je zien dat er geen blokken zijn voor 'omhoog' of 'omlaag'. Er zijn wel veel blokken die te maken hebben met **x** en **y** coördinaten - laten we die proberen!
+Now click the green flag to test out your code.
 
-\--- task\--- Neem twee `verander y met`{:class="block3motion"} blokken en werk je code als volgt bij:
+\--- /task \---
+
+Now your shark moves back and forwards, which is pretty cool, but it doesn’t move up or down. Also, if you look through the **Motion** blocks, you’ll see there are no blocks for 'up' or 'down'. There are a whole bunch of them related to **x** and **y** coordinates though — let's try those!
+
+\--- task \---
+
+Grab two `change y by`{:class="block3motion"} blocks, and update your code like this:
 
 ```blocks3
     wanneer [pijltje omhoog] is ingedrukt
@@ -58,17 +74,17 @@ Nu beweegt je haai naar voren en naar achteren, wat heel gaaf is, maar hij gaat 
 
 \--- /task \---
 
-Als je nu op de pijltjestoetsen klikt, beweegt je haai over het hele speelveld!
+Now when you press the arrows keys, the shark moves all around the stage!
 
 ## \--- collapse \---
 
 ## title: Hoe werken x- en y-coördinaten?
 
-Als we het hebben over de positie van dingen, zoals sprites, dan gebruiken we vaak x- en y-coördinaten. De **x-as** van het Speelveld-coördinatensysteem loopt van **links naar rechts**, en de **y-as** van **beneden naar boven**.
+To talk about the positions of objects, such as sprites, we often use x- and y-coordinates. The **x-axis** of the Stage coordinate system runs from **left to right**, and the **y-axis** runs from **bottom to top**.
 
 ![](images/moving3.png)
 
-Een sprite kan gevonden worden op de coördinaten van zijn middelpunt, bijvoorbeeld `(15,-27)`, waarbij `15` de positie op de x-as is, en `-27` de positie op de y-as.
+A sprite can be located by the coordinates of its centre, for example `(15, -27)`, where `15` is its position along the x-axis , and `-27` its position along the y-axis.
 
 + Om een indruk te krijgen van hoe dit werkt, selecteer je een sprite en gebruik je de **x** en **y** besturingselementen om het over het speelveld te laten bewegen, hierbij vul je verschillende waarden in voor de coördinaten.
 
@@ -80,29 +96,35 @@ Een sprite kan gevonden worden op de coördinaten van zijn middelpunt, bijvoorbe
 
 ### Het spel herstarten
 
-De haai beweegt nu over je hele scherm, maar stel je voor dat dit een spel is: hoe herstart je het dan, en wat gebeurt er aan het begin van elk spel?
+The shark moves all over the screen now, but imagine this is a game: how do you restart it, and what happens at the start of each game?
 
-De haai moet weer op zijn beginpositie komen als een speler het spel start. Ze beginnen het spel door op de groene vlag te klikken, dus je moet de x- en y-coördinaten van de haai veranderen als dat gebeurt.
+You need to get the shark to its original location when the player starts the game. They'll start this game by clicking on the green flag, so you need to change the shark sprite's x- and y-coordinates when that happens.
 
-Dat is best wel simpel! Het midden van het speelveld is `(0, 0)` in `(x, y)` coördinaten.
+That’s actually pretty easy! The centre of the stage is `(0, 0)` in `(x, y)` coordinates.
 
-Je hebt alleen een **Gebeurtenissen** blok nodig voor de groene vlag, en het **ga naar** blok uit **Beweging**.
+So all you need is an **Event** block for that green flag, and the **go to** block from **Motion**.
 
-\--- task \--- Sleep een `wanneer op groene vlag wordt geklikt`{:class="block3events"}, **Gebeurtenis** blok naar het huidige sprite paneel.
+\--- task \---
+
+Drag a `when green flag clicked`{:class="block3events"} **Event** block onto the current sprite panel.
 
 ```blocks3
     wanneer op groene vlag wordt geklikt
 ```
 
-Zoek dan het `ga naar`{:class="block3motion"} **beweging** blok en zet het vast aan je vlag **Gebeurtenissen** blok.
+Then find the `go to`{:class="block3motion"} **Motion** block, and attach it to your flag **Event** block.
 
 ```blocks3
     wanneer groene vlag is ingedrukt
 +  ga naar x: (0) y: (0)
 ```
 
-Stel zowel de `x` als `y` coördinaten in op `0` in het `ga naar`{:class="block3motion"} blok als ze nog niet op `0` staan.
+Set the both the `x` and the `y` coordinate to `0` in the `go to`{:class="block3motion"} block if they are not already `0`.
 
 \--- /task \---
 
-\--- task \--- Klik nu op de groene vlag: je zou nu moeten zien dat de haai weer in het midden van het speelveld staat! \--- /task \---
+\--- task \---
+
+Now click the green flag: you should see the shark return to the centre of the stage!
+
+\--- /task \---
