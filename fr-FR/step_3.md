@@ -24,21 +24,25 @@ Tu peux cliquer sur le bloc que tu cherches, puis le faire glisser dans le panne
 
 Si tu veux voir ce que fait un bloc, tu peux double-cliquer dessus pour le faire exécuter!
 
-\--- task \--- Essaie de double-cliquer sur certains blocs pour voir ce qu’ils font. \--- /task \---
+\--- task \---
+
+Try double-clicking on some of the blocks to see what they do.
+
+\--- /task \---
 
 ## \--- collapse \---
 
 ## title: Exécuter le code
 
-Généralement, tu veux que ton code soit exécuté automatiquement chaque fois que quelque chose de spécifique se produit. C’est pourquoi beaucoup de tes programmes commenceront avec un bloc de la catégorie **Événements** , le plus souvent celui-ci:
+Usually, you want your code to run automatically whenever something specific happens. This is why many of your programs will start with a block from the **Events** category, most often this one:
 
 ```blocks3
     quand le drapeau vert est cliqué
 ```
 
-Les blocs de code reliés à ce bloc seront exécutés après que le **drapeau vert** sera cliqué.
+The code blocks connected to this block will run after the **green flag** is clicked.
 
-Les blocs de code vont du haut vers le bas. L'ordre dans lequel tu assembles tes blocs est donc important. Dans cet exemple, le sprite `dira`{:class = "block3looks"} `Bonjour!` avant de `jouer`{:class = "block3sound"} le son `Meow`.
+Code blocks run from top to bottom, so the order in which you snap your blocks together matters. In this example, the sprite will `say`{:class="block3looks"} `Hello!` before it will `play`{:class="block3sound"} the `meow` sound.
 
 ```blocks3
     quand le drapeau vert est cliqué
@@ -48,19 +52,25 @@ Les blocs de code vont du haut vers le bas. L'ordre dans lequel tu assembles tes
 
 \--- /collapse \---
 
-Il est facile d'enlever ou de supprimer des blocs de code que tu ne veux pas dans ton programme! Fais-les simplement glisser dans la palette des blocs de code.
+Removing or deleting code blocks you don’t want in your program is easy! Just drag them back into the code blocks palette.
 
-**Fais attention:** si tu fais glisser un bloc de code dans la palette des blocs de code, cela supprimera tous les blocs reliés au bloc que tu fais glisser. Veille donc à séparer les blocs de code que tu souhaites conserver de ceux que tu souhaites enlever. Si tu supprimes des blocs de code par accident et que tu souhaites les récupérer, clique avec le bouton droit de la souris, puis clique sur **Restaurer** pour tout récupérer.
+**Be careful:** dragging them into the code blocks pallette will delete all the blocks connected to the block you drag, so make sure to separate code blocks you want to keep from those you want to remove. If you delete some code blocks by accident and want to get them back, right-click and then click on the **undo** option to get everything back.
 
 ![](images/code6.png)
 
-\--- task \--- Essaie d'ajouter, de supprimer, et d'annuler la suppression de certains blocs de code! \--- /task \---
+\--- task \---
+
+Try adding, deleting, and undeleting some code blocks!
+
+\--- /task \---
 
 ### Les mettre tous ensemble
 
-Maintenant que tu sais comment déplacer le code et faire bouger les choses, il est temps de créer un programme pour faire en sorte que le chat Scratch marche en cercle!
+Now you know how to move code around and make things happen, it's time for you to create a program to make the Scratch Cat walk in a circle!
 
-\--- task \--- Assure-toi que le sprite chat est sélectionné dans la liste, puis fais glisser les blocs suivants dans le panneau sprite et relie-les. Tu les trouveras dans les listes **Événements** et **Mouvement**.
+\--- task \---
+
+Make sure you have the cat sprite selected in the sprite list, and then drag the following blocks into the sprite panel and connect them. You’ll find them in the **Events** and **Motion** lists.
 
 ```blocks3
     quand le drapeau vert est cliqué
@@ -69,15 +79,21 @@ Maintenant que tu sais comment déplacer le code et faire bouger les choses, il 
 
 \--- /task \---
 
-\--- task \--- Maintenant, clique sur le drapeau vert au-dessus de la scène.
+\--- task \---
 
-![](images/code7.png) \--- /task \---
+Now, click on the green flag above the Stage.
 
-Tu devrais voir le chat marcher en ligne droite ... pas exactement ce que tu veux, exact?
+![](images/code7.png)
 
-Remarque: si tu cliques trop souvent sur le drapeau et que le chat s'éloigne, tu peux le faire glisser!
+\--- /task \---
 
-\--- task \--- Accroche le bloc tourner à la fin pour faire marcher le sprite du chat en cercle. C'est aussi dans la liste **Mouvement**.
+You should see the cat walking in a straight line...not exactly what you want, right?
+
+Note: If you click th flag too many times and the cat walks away, you can drag it back!
+
+\--- task \---
+
+Snap the turn block to the end to make the cat sprite walk in a circle. It’s in the **Motion** list too.
 
 ```blocks3
     lorsque le drapeau vert est cliqué 
@@ -91,10 +107,14 @@ Remarque: si tu cliques trop souvent sur le drapeau et que le chat s'éloigne, t
 
 ## title: Comment fonctionne la rotation?
 
-Ce bloc fait tourner le sprite de 15 degrés sur 360 degrés complets qui forment un cercle. Tu peux modifier ce nombre et le nombre de pas en cliquant dessus et en saisissant une nouvelle valeur.
+This block makes the sprite turn 15 degrees of the full 360 degrees that make up a circle. You can change that number, and the number of steps, by clicking on the number and typing in a new value.
 
 ![](images/code9.png)
 
 \--- /collapse \---
 
-\--- task \--- Maintenant, enregistre ton travail! \--- /task \---
+\--- task \---
+
+Now save your work!
+
+\--- /task \---
