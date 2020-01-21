@@ -4,9 +4,11 @@
 
 먼저 물고기가 상어에 닿았는지 알아야합니다. 이를 제작하기 위해서는 **제어** 블록 및 **감지** 블록이 필요합니다.
 
-\--- task \--- `만약...이라면`{:class="block3control"} 블록을 **제어** 항목 내 `무한 반복`{:class="block3control"} 루프 내 추가하세요. `벽에 닿으면 튕기기`{:class="block3motion"} 블록 다음에 추가합니다.
+\--- task \---
 
-`닿았는가?...`{:class="block3sensing"} 블록을 `만약...이라면`{:class="block3control"} 블록의 조건문에 추가하고, 작은 삼각형을 클릭하여 상어의 이름을 추가합니다. 만약 변경하지 않은 경우, 'Sprite1' 일 것입니다.
+Add the `if...then`{:class="block3control"} **Control** block inside the `forever`{:class="block3control"} loop of the fish sprite, below the `if on edge bounce`{:class="block3motion"} block.
+
+Drag the `touching...`{:class="block3sensing"} block into the space at the top of the `if...then`{:class="block3control"} block, and click the little triangle to select the shark sprite's name. If you haven’t changed it, it'll be 'Sprite1'.
 
 ```blocks3
     녹색 깃발을 클릭했을 때
@@ -26,23 +28,25 @@
 
 ## title: 어떻게 동작하나요?
 
-**제어** 블록 내 `만약...이라면`{:class="block3control"} 블록은 `True/False` 값을 돌려줍니다.
+The `if...then`{:class="block3control"} **Control** block needs to be given a `True/False` value.
 
-**감지** 블록은 스프라이트의 위치, 닿는 부분 등과 같은 정보를 수집합니다. 아래 블록을 사용하고 있습니다.
+**Sensing** blocks collect information, like where the sprite is, what it’s touching, etc. You're using this block:
 
 ```blocks3
     <touching [Sprite1 v] ?>
 ```
 
-이 블록에서도 `만약...이라면`{:class="block3control"} 블록처럼 `True/False` 값을 돌려줍니다.
+From this block's pointy ends, you can tell it’s going to give you the `True/False` value that the `if...then`{:class="block3control"} block needs.
 
--- /collapse \---
+\--- /collapse \---
 
-물론, 당신은 `만약...이라면`{:class="block3control"} 블록에서 '이라면' 부분을 작성하지 않았습니다. 그래서 현재 스크립트에서 물고기 스프라이트가 상어 스프라이트에 닿아 있는지 확인하고 있지만 아무런 반응이 없습니다.
+Of course, you’ve just added an `if...then`{:class="block3control"} block without adding anything for the 'then' part. So at the moment your script is checking whether the fish sprite is touching the shark sprite, but it's not making anything happen in response.
 
-`숨기기`{:class="block3looks"} 블록을 사용하여 상어가 물고기를 먹는 것처럼 물고기를 사라지게 할 수 있습니다.
+You can make the fish disappear, as if the shark ate it, by using the `hide`{:class="block3looks"} block.
 
-\--- task \--- `숨기기`{:class="block3looks"} 블록을 **형태** 카테고리에서 찾고, `만약...이라면`{:class="block3control"} 블록에 다음과 같이 추가합니다:
+\--- task \---
+
+Find the `hide`{:class="block3looks"} block in the **Looks** list, and put it inside the `if...then`{:class="block3control"} block, like so:
 
 ```blocks3
     만약 <touching [Sprite1 v] ?> 이라면
@@ -52,9 +56,11 @@
 
 \--- /task \---
 
-이제 상어가 물고기를 잡으면 물고기가 사라지게 됩니다. 이건 별로 대단하지 않습니다.
+Now once the shark catches the fish, the fish disappears for good. That’s not great.
 
-\--- task \--- `보이기`{:class="block3looks"} 블록을 **형태** 카테고리에서 찾아 게임 시작시 물고기를 다시 나타나게 하세요.
+\--- task \---
+
+Put the `show`{:class="block3looks"} block from **Looks** in at the very start of the fish code, so you can reset the game.
 
 ```blocks3
     녹색 깃발을 클릭했을 때
@@ -65,9 +71,11 @@
 
 \--- /task \---
 
-코드가 전보다 괜찮아졌지만, 한 마리의 물고기를 잡을 때마다 플레이어가 게임을 다시 시작하지 않도록 만들어 보세요.
+That's already better, but you don’t want the player to have to restart the game every time they catch a single fish!
 
-\--- task \--- `만약...이라면`{:class="block3control"} 블록을 다음과 같이 업데이트하세요:
+\--- task \---
+
+Update the code inside your `if...then`{:class="block3control"} block to look like this:
 
 ```blocks3
     벽에 닿으면 튕기기
@@ -85,10 +93,10 @@
 
 ## title: 어떻게 동작하나요?
 
-당신은 똑똑합니다: 물고기가 상어에게 먹히면 화면상에서 숨겨졌다가 위치를 바꾼후 다시 화면에 물고기가 나타납니다.
+You are being clever here: when the fish is hidden, it waits, moves, and then shows up again.
 
-많은 물고기가 계속 나타나는 것처럼 보이지만 하나의 스프라이트가 움직이는 것입니다!
+It looks like lots of fish keep appearing, but it’s that one sprite moving around!
 
 \--- /collapse \---
 
-이 프로젝트는 게임입니다! 하지만 점수를 저장하거나 이겼는지 알려주는 기능이 없습니다. 이 기능은 다음단계 에서 수정해 보겠습니다!
+That’s a game! But there’s no way to keep score yet, or to win. You can fix that too — on the next card!
