@@ -24,21 +24,25 @@
 
 블록이 무엇을하는지 보려면 블록을 두 번 클릭하여 실행할 수 있습니다.
 
-\--- task \--- 블록을 더블 클릭하면 블록이 하는 일을 볼 수 있습니다. \--- /task \---
+\--- task \---
+
+Try double-clicking on some of the blocks to see what they do.
+
+\--- /task \---
 
 ## \--- collapse \---
 
 ## title : 코드 실행
 
-일반적으로 특정 상황이 발생할 때마다 코드가 자동으로 실행되도록 설정합니다. 이것은 많은 프로그램이 **이벤트** 블록으로 시작하는 이유입니다.
+Usually, you want your code to run automatically whenever something specific happens. This is why many of your programs will start with a block from the **Events** category, most often this one:
 
 ```blocks3
     녹색 깃발이 클릭되었을 때
 ```
 
-이 블록에 연결된 코드 블록은 **녹색 깃발** 이 클릭된 이후에 실행됩니다.
+The code blocks connected to this block will run after the **green flag** is clicked.
 
-코드 블록은 위에서 아래로 실행되므로 블록을 연결하는 순서가 중요합니다. 이 예제에서 이 스프라이트는 `야옹` 소리를 `재생`{:class="block3sound"}하기 전에 `안녕!` 을 `말하기`{:class="block3looks"}합니다. 
+Code blocks run from top to bottom, so the order in which you snap your blocks together matters. In this example, the sprite will `say`{:class="block3looks"} `Hello!` before it will `play`{:class="block3sound"} the `meow` sound.
 
 ```blocks3
     녹색 깃발이 클릭되었을 때
@@ -48,19 +52,25 @@
 
 \--- /collapse \---
 
-프로그램에서 원하지 않는 코드 블록을 제거하거나 삭제하는 것은 쉽습니다! 코드 블록 팔레트로 다시 드래그하면 됩니다.
+Removing or deleting code blocks you don’t want in your program is easy! Just drag them back into the code blocks palette.
 
-**주의: ** 코드 블록으로 팔레트를 드래그하면 드래그하는 블록에 연결된 모든 블록이 삭제되므로 제거하려는 코드 블록과 유지하려는 코드 블록을 분리해야합니다. 실수로 일부 코드 블록을 삭제하고 다시 가져 오려면 마우스 오른쪽 버튼을 클릭 한 다음 ** 취소 **를 클릭하면 다시 되돌아옵니다.
+**Be careful:** dragging them into the code blocks pallette will delete all the blocks connected to the block you drag, so make sure to separate code blocks you want to keep from those you want to remove. If you delete some code blocks by accident and want to get them back, right-click and then click on the **undo** option to get everything back.
 
 ![](images/code6.png)
 
-\--- task \--- 일부 코드 블록을 추가, 삭제 해보십시오! \--- /task \---
+\--- task \---
+
+Try adding, deleting, and undeleting some code blocks!
+
+\--- /task \---
 
 ### 모두 합쳐서 코드 만들기
 
-코드를 옮겨서 일을 수행하는 방법을 알았습니다. 이제 여러분이 스크래치 고양이 스프라이트가 원을 그리도록 프로그램을 만들 차례입니다.
+Now you know how to move code around and make things happen, it's time for you to create a program to make the Scratch Cat walk in a circle!
 
-\--- task \--- 스프라이트 목록에서 고양이 스프라이트가 선택되어 있는지 확인한 후 다음 블록을 스크립트 영역으로 끌어 연결하십시오. 이 블록은 **이벤트** 와 **동작** 카테고리에서 찾을 수 있습니다.
+\--- task \---
+
+Make sure you have the cat sprite selected in the sprite list, and then drag the following blocks into the sprite panel and connect them. You’ll find them in the **Events** and **Motion** lists.
 
 ```blocks3
     녹색 깃발이 클릭되었을 때
@@ -69,15 +79,21 @@
 
 \--- /task \---
 
-\--- task \--- 이제 스테이지 위의 녹색 깃발을 클릭하세요.
+\--- task \---
 
-![](images/code7.png) \--- /task \---
+Now, click on the green flag above the Stage.
 
-고양이가 직선으로 걷는것이 보일 것입니다.... 그러나 원하는 대로 걷지 않죠?
+![](images/code7.png)
 
-참고: 녹색 깃발을 너무 여러 번 클릭하여 고양이가 무대를 빠져나가면 고양이를 무대로 다시 끌어 올 수 있습니다!
+\--- /task \---
 
-\--- task \--- 고양이 스프라이트가 원을 그리도록 회전 블록을 끝까지 회전합니다. **동작** 카레고리에 있습니다.
+You should see the cat walking in a straight line...not exactly what you want, right?
+
+Note: If you click th flag too many times and the cat walks away, you can drag it back!
+
+\--- task \---
+
+Snap the turn block to the end to make the cat sprite walk in a circle. It’s in the **Motion** list too.
 
 ```blocks3
     녹색 깃발이 클릭되었을 때
@@ -91,10 +107,14 @@
 
 ## 제목 : 회전은 어떻게 작동합니까?
 
-이 블록은 스프라이트가 원을 구성하는 360도 전체에서 15도를 회전시킵니다. 숫자를 클릭하고 새 값을 입력하여 해당 숫자와 단계수를 변경할 수 있습니다.
+This block makes the sprite turn 15 degrees of the full 360 degrees that make up a circle. You can change that number, and the number of steps, by clicking on the number and typing in a new value.
 
 ![](images/code9.png)
 
 \--- /collapse \---
 
-\--- task \--- 이제 프로젝트를 저장하십시오! \--- /task \---
+\--- task \---
+
+Now save your work!
+
+\--- /task \---
