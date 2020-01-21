@@ -2,38 +2,46 @@
 
 Scratch dispose d'une bibliothèque d'arrière-plans et de sprites que tu peux utiliser pour rendre ton projet superbe.
 
-\--- task \--- Sélectionne la scène.
+\--- task \---
 
-![Sélection de la scène](images/looksSelectStage.png)
+Select the Stage.
 
-Clique sur **Arrière-plans**.
+![Selecting the stage](images/looksSelectStage.png)
 
-![L'onglet Arrière-plans](images/looksBackdrops.png)
+Click on **Backdrops**.
 
-Clique sur l'icône **Choisir l'arrière-plan à partir de la bibliothèque**.
+![The Backdrops tab](images/looksBackdrops.png)
 
-![L'icône Choisir un arrière-plan](images/looksChooseBg.png)
+Click the **Choose backdrop from library** icon.
 
-Ensuite, choisis ton fond sous-marin préféré!
+![The Choose backdrop icon](images/looksChooseBg.png)
 
-![Une scène sous-marine](images/looksUnderwater.png) \--- /task \---
+Then pick your favourite underwater background!
 
-Génial! Bien sûr, tu as maintenant un chat sous l'eau, les chats ne sont généralement pas de grands fans de cela. Mais tu peux y remédier, car tu peux transformer le chat en requin!
+![An underwater scene](images/looksUnderwater.png)
 
-\--- task \--- Tout d'abord, sélectionne le sprite chat et clique sur l'onglet **Costumes**.
+\--- /task \---
+
+Great! Of course, now you have a cat underwater, and cats aren't usually big fans of that. But you can fix that, because you can turn the cat into a shark!
+
+\--- task \---
+
+First, select the cat sprite and click on the **Costumes** tab.
 
 ![](images/cool2.png)
 
-Ensuite, clique sur **Choisir costume à partir de la bibliothèque**
+Then, click on **Choose costume from Library**
 
 ![](images/cool3.png)
 
-Sélectionne cette image de requin et clique sur **OK**.
+Select this shark image and click **OK**.
 
-![Le costume de requin](images/looksShark.png)
+![The shark costume](images/looksShark.png)
 
-Enlève maintenant les costumes de chat en les sélectionnant chacun et en cliquant sur le **x**.
+Now remove the cat costumes by selecting each of them and clicking on the **x**.
 
-![](images/coolDeleteCostumes.png) \--- /task \---
+![](images/coolDeleteCostumes.png)
 
-Maintenant tu as un requin - excellent!
+\--- /task \---
+
+Now you have a shark – excellent!
