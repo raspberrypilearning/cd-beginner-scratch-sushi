@@ -4,9 +4,11 @@ Der Hai bewegt sich, der Fisch schwimmt, aber er interagiert nicht: Wenn der Fis
 
 Zuerst musst du wissen, ob der Fisch den Hai berührt. Dazu benötigst du einen **Steuerungs** - Block und einen **Fühlen-** Block.
 
-Aufgabe Füge den `wenn... dann`{:class="block3control"} **Steuerungs** Block innerhalb der `wiederhole fortlaufend`{:class="block3control"} -Schleife der Fischfigur unter dem `Pralle am Rand ab`{:class="block3motion"} Block hinzu.
+\--- task \---
 
-Ziehe den `wird berührt`{:class="block3sensing"} - Block in den oberen Bereich des `wenn... dann`{:class="block3control"} - Blocks, und klicke auf das kleine Dreieck, um den Name der Hai-Figur auszuwählen. Wenn du es nicht geändert hast, wird es "Figur1" sein.
+Add the `if...then`{:class="block3control"} **Control** block inside the `forever`{:class="block3control"} loop of the fish sprite, below the `if on edge bounce`{:class="block3motion"} block.
+
+Drag the `touching...`{:class="block3sensing"} block into the space at the top of the `if...then`{:class="block3control"} block, and click the little triangle to select the shark sprite's name. If you haven’t changed it, it'll be 'Sprite1'.
 
 ```blocks3
     Wenn die grüne Flagge angeklickt
@@ -26,23 +28,25 @@ Ziehe den `wird berührt`{:class="block3sensing"} - Block in den oberen Bereich 
 
 ## Titel: Wie funktioniert das?
 
-Der `wenn...dann`{:class="block3control"} **Steuerungs-** Block muss einen `Wahr / Falsch` Wert erhalten.
+The `if...then`{:class="block3control"} **Control** block needs to be given a `True/False` value.
 
-**Fühlen** - Blöcke sammeln Informationen, z. B. wo sich die Figur befindet, was sie berührt, usw. So verwendest du diesen Block:
+**Sensing** blocks collect information, like where the sprite is, what it’s touching, etc. You're using this block:
 
 ```blocks3
     <touching [Sprite1 v] ?>
 ```
 
-An den spitzen Enden dieses Blocks erkennst du, dass du den Wert `Wahr / Falsch` erhältst, den der `wenn...dann`{:class="block3control"} - Block benötigt.
+From this block's pointy ends, you can tell it’s going to give you the `True/False` value that the `if...then`{:class="block3control"} block needs.
 
 \--- /collapse \---
 
-Natürlich hast du gerade einen `wenn...dann`{:class="block3control"} - Block hinzugefügt, ohne etwas für den Dann-Teil hinzuzufügen. Im Moment prüft dein Skript, ob die Fisch-Figur die Hai-Figur berührt, aber es gibt keine Reaktion darauf.
+Of course, you’ve just added an `if...then`{:class="block3control"} block without adding anything for the 'then' part. So at the moment your script is checking whether the fish sprite is touching the shark sprite, but it's not making anything happen in response.
 
-Du kannst den Fisch verschwinden lassen, als ob der Hai ihn gefressen hat, indem du den Block `versteck dich`{:class="block3looks"} verwendest.
+You can make the fish disappear, as if the shark ate it, by using the `hide`{:class="block3looks"} block.
 
-\--- task \--- Suche den Block `versteck dich`{:class="block3looks"} in der Liste **Aussehen** und füge ihm in den Block `wenn...dann`{:class="block3control"} so hinzu:
+\--- task \---
+
+Find the `hide`{:class="block3looks"} block in the **Looks** list, and put it inside the `if...then`{:class="block3control"} block, like so:
 
 ```blocks3
     falls <touching [Sprite1 v] ?> , dann 
@@ -52,9 +56,11 @@ ende
 
 \--- /task \---
 
-Sobald der Hai den Fisch fängt, verschwindet der Fisch endgültig. Das ist nicht so toll.
+Now once the shark catches the fish, the fish disappears for good. That’s not great.
 
-\--- Aufgabe \--- Setze den `zeige dich`{:class="block3looks"} -Block aus der **Aussehen**-Palette ganz an den Anfang des Fischcodes, damit du das Spiel zurücksetzen kannst.
+\--- task \---
+
+Put the `show`{:class="block3looks"} block from **Looks** in at the very start of the fish code, so you can reset the game.
 
 ```blocks3
     Wenn die grüne Flagge angeklickt
@@ -66,9 +72,11 @@ Sobald der Hai den Fisch fängt, verschwindet der Fisch endgültig. Das ist nich
 
 \--- /task \---
 
-Das ist schon besser, aber du möchtest nicht, dass der Spieler das Spiel jedes Mal neu starten muss, wenn er einen einzelnen Fisch fängt!
+That's already better, but you don’t want the player to have to restart the game every time they catch a single fish!
 
-\--- task \--- Aktualisiere den Code in deinem `falls...dann`{:class="block3control"} - Block, um wie folgt auszusehen:
+\--- task \---
+
+Update the code inside your `if...then`{:class="block3control"} block to look like this:
 
 ```blocks3
     pralle vom Rand ab
@@ -86,10 +94,10 @@ Das ist schon besser, aber du möchtest nicht, dass der Spieler das Spiel jedes 
 
 ## Titel: Wie funktioniert das?
 
-Du warst richtig clever: Wenn der Fisch versteckt ist, wartet er, bewegt sich und taucht wieder auf.
+You are being clever here: when the fish is hidden, it waits, moves, and then shows up again.
 
-Es sieht so aus, als würden viele Fische erscheinen, aber es ist diese Figur, die sich bewegt!
+It looks like lots of fish keep appearing, but it’s that one sprite moving around!
 
 \--- /collapse \---
 
-Das ist ein Spiel! Aber es gibt noch keine Möglichkeit, Punkte zu halten oder zu gewinnen. Das kannst du auch beheben - auf der nächsten Karte!
+That’s a game! But there’s no way to keep score yet, or to win. You can fix that too — on the next card!
