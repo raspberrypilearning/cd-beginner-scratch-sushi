@@ -2,9 +2,11 @@
 
 Ok, teraz nadszedł czas, aby spowodować, żeby ryba płynęła sama. Aby to zrobić, będziesz potrzebować nowego rodzaju bloku: bloku **Kontrola**.
 
-\--- task \--- Wybierz duszek ryby.
+\--- task \---
 
-Przeciągnij do panelu duszka blok `kiedy flaga kliknięta`{:class="block3events"} z sekcji **Zdarzenia**, blok pętli `zawsze`{:class="block3control"} z sekcji **Kontrola** oraz blok `przesuń o 10 kroków`{:class="block3motion"} z sekcji **Ruch**, tak jak pokazano poniżej:
+Select your fish sprite.
+
+Drag a `when green flag clicked`{:class="block3events"} **Event** block, a `forever`{:class="block3control"} **Control** block, and a `move 10 steps`{:class="block3motion"} **Motion** block into the **sprite panel**, like this:
 
 ```blocks3
     kiedy kliknięto zieloną flagę
@@ -19,23 +21,29 @@ Przeciągnij do panelu duszka blok `kiedy flaga kliknięta`{:class="block3events
 
 ## title: Co robi nowy blok?
 
-Bloki **Kontroli** powodują, że Twój program wykonuje pewne czynności kilka razy lub pod pewnymi warunkami.
+**Control** blocks make your program do things a certain number of times, or under certain conditions.
 
-Tutaj ryba robi wszystko, co znajduje się w bloku pętli `zawsze`{:class="block3control"} powtarzając to w nieskończoność. Kiedy więc zrobi ostatnią rzecz (blok) wewnątrz bloku pętli `zawsze`{:class="block3control"}, zaczyna od początku i robi wszystko ponownie, i tak w nieskończoność.
+Here, the fish does whatever is inside the `forever`{:class="block3control"} block over and over again on a loop, forever. So once it has done the last thing (block) inside the `forever`{:class="block3control"} block, it starts over at the top and does everything again, and so on.
 
 \--- /collapse \---
 
-\--- task \--- Teraz kliknij zieloną flagę i zobacz, co się stanie! \--- /task \---
+\--- task \---
 
-Cóż, ta ryba właśnie uderzyła w ścianę Sceny i poruszała się o wiele za szybko, aby Twój rekin mógł ją złapać.
+Now click the green flag and watch what happens!
 
-Najpierw musisz spowolnić rybę. W rzeczywistości jest to całkiem proste, wystarczy, że poczeka chwilę, po przesunięciu się o 10 kroków. Jest blok w sekcji **Kontrola**, który pomoże Ci w tym:
+\--- /task \---
+
+Well, that fish just crashed into the side of the Stage, and it was moving far too fast for your shark to catch.
+
+First, you need to slow the fish down. That’s actually pretty easy, you just need it to wait for a little while after it moves those 10 steps. There’s a **Control** block that will help you here:
 
 ```blocks3
     czekaj (1) sek
 ```
 
-\--- task \--- Dodaj blok `czekaj`{:class="block3control"} do swojego kodu wewnątrz bloku pętli `zawsze`{:class="block3control"} i zmień liczbę na `0.5`, jak poniżej:
+\--- task \---
+
+Add the `wait`{:class="block3control"} block into your code inside the `forever`{:class="block3control"} block, and change the number to `0.5`, like this:
 
 ```blocks3
     kiedy kliknięto zieloną flagę
@@ -51,27 +59,33 @@ Najpierw musisz spowolnić rybę. W rzeczywistości jest to całkiem proste, wys
 
 ## title: Dokonywanie zmian
 
-Liczba ustawiona w bloku `czekaj`{:class="block3control"} mówi, ile **sekund** chcesz, żeby ryba czekała. `0.5` to pół sekundy.
+The number you set in the `wait`{:class="block3control"} block says how many **seconds** you want the fish to wait. `0.5` is half a second.
 
-Możesz przetestować różne wartości, aby zobaczyć, która jest najlepsza dla gry. I pamiętaj, że możesz także zmienić liczbę kroków w bloku `przesuń o`{:class="block3motion"}!
+You can test out different values to see which is the best for the game. And remember that you can change the number of steps inside the `move`{:class="block3motion"} block too!
 
 \--- /collapse \---
 
-Teraz ryba porusza się, ale musisz spowodować, żeby również odbijała się od krawędzi sceny. Po raz kolejny jest na to blok w sekcji **Ruch**!
+The fish moves now, but you need it to bounce off the edge of the Stage too. Yet again, there’s a **Motion** block for this!
 
-\--- task \--- Znajdź blok `jeżeli na brzegu, odbij się`{:class="block3motion"} i dodaj go zaraz po bloku `czekaj`{:class="block3control"}. \--- /task \---
+\--- task \---
+
+Find the `if on edge bounce`{:class="block3motion"} block, and add it in after the `wait`{:class="block3control"} block.
+
+\--- /task \---
 
 ## \--- collapse \---
 
 ## title: Co robi nowy blok?
 
-Blok `jeżeli na brzegu, odbij się`{:class="block3motion"} sprawdza, czy duszek dotyka krawędzi sceny i, jeśli tak jest, obraca się odpowiednio w lewo, w prawo, w górę lub w dół.
+The `if on edge bounce`{:class="block3motion"} block checks if the sprite is touching the edge of the Stage and, if it is, it turns left, right, up, or down as appropriate.
 
 \--- /collapse \---
 
-Oczywiście, będzie to prowadzić do ryby w pozycji do góry nogami, więc trzeba ponownie wykorzystać blok `ustaw styl obrotu`{:class="block3motion”}.
+Of course, this will lead to an upside-down fish, so you need a `set rotation style`{:class="block3motion"} block again.
 
-\--- task \--- Zaktualizuj swój kod, aby ustawić styl obrotu ryby na `lewo-prawo`{:class="block3motion"} na początku kodu duszka:
+\--- task \---
+
+Update your code to set the rotation style of the fish to `left-right`{:class="block3motion"} at the beginning of the sprite's script:
 
 ```blocks3
     kiedy kliknięto zieloną flagę
@@ -85,11 +99,13 @@ Oczywiście, będzie to prowadzić do ryby w pozycji do góry nogami, więc trze
 
 \--- /task \---
 
-Ryba porusza się teraz do tyłu i do przodu, ale tylko w linii prostej - trochę zbyt łatwo jest graczowi złapać tą rybę rekinem! Musisz sprawić, aby ryba była mniej przewidywalna.
+The fish moves backwards and forwards now, but only in a straight line — a bit too easy for the player to catch with the shark! You need to make the fish less predictable.
 
-Już wiesz z poprzedniego kroku, jak zrobić, żeby duszek się obracał, więc zacznij od tego.
+You already know from a previous step how to make a sprite turn, so start there.
 
-\--- task \--- Dodaj obrót do instrukcji pływania ryby i kliknij zieloną flagę.
+\--- task \---
+
+Add a turn into the fish's swimming instructions, and click the green flag.
 
 ```blocks3
     kiedy kliknięto zieloną flagę
@@ -104,13 +120,13 @@ Już wiesz z poprzedniego kroku, jak zrobić, żeby duszek się obracał, więc 
 
 \--- /task \---
 
-Jest lepiej, ale ryba wciąż porusza się według wzoru. Poruszanie się ryby musi być bardziej przypadkowe. Na szczęście Scratch może ustawić dla Ciebie losowość w programie! Potrzebujesz tylko nowego rodzaju bloku, zwanego blokiem **Wyrażenia**.
+It’s better, but there’s still too much of a pattern. It needs to be more random. Luckily, Scratch can do random for you! You’ll just need a new kind of block, called an **operator** block.
 
 ## \--- collapse \---
 
 ## title: Co to jest wyrażenie (ang. operator)?
 
-**Wyrażenia** przyjmują jedną lub więcej wartości (takich jak liczby, tekst lub wartości `Prawda/Fałsz`) i zwracają pojedynczą wartość. Możesz określić rodzaj wartości, jaką wyrażenie zwróci na podstawie kształtu bloku: zaokrąglone końce zwracają liczby lub tekst, spiczaste końce zwracają `Prawda/Fałsz`.
+**Operators** take in one or more values (like numbers, text, or `True/False` values) and give back a single value. You can tell the kind of value it will give back by the shape of the block: round ends give numbers or text, pointy ends give `True/False`.
 
 ```blocks3
     (() + ())
@@ -122,7 +138,9 @@ Jest lepiej, ale ryba wciąż porusza się według wzoru. Poruszanie się ryby m
 
 \--- /collapse \---
 
-\--- task \--- Znajdź w sekcji `Wyrażenia` blok **losuj liczbę od do**{:class="block3operators"} i podłącz go do bloku `obróć o`{:class="block3motion"} z sekcji **Ruch** klikając i przeciągając go w pole, w którym ustawiasz liczbę stopni.
+\--- task \---
+
+Find the `pick random`{:class="block3operators"} **operator** block, and plug it into the `turn degrees`{:class="block3motion"} **Motion** block by clicking it and dragging it into the field where you set the number of degrees.
 
 ```blocks3
     kiedy kliknięto zieloną flagę
@@ -137,23 +155,27 @@ Jest lepiej, ale ryba wciąż porusza się według wzoru. Poruszanie się ryby m
 
 \--- /task \---
 
-**Uwaga**: możesz zmienić minimalną i maksymalną liczbę, z zakresu którego program wybierze losowo wartość, ale wartości domyślne (`1` i `10`) są całkiem dobre dla tej gry, więc możesz je po prostu zostawić.
+**Note**: you can change the minimum and maximum numbers it will pick, but the default values (`1` and `10`) are pretty good for this game, so you can just leave them.
 
-\--- task \--- Kliknij zieloną flagę, aby uruchomić kod! \--- /task \---
+\--- task \---
+
+Click the green flag to run the code!
+
+\--- /task \---
 
 ## \--- collapse \---
 
 ## title: Co teraz robi blok pętli zawsze?
 
-Blok pętli zawsze sprawia, że duszek ryby robi cztery rzeczy w kolejności:
+The forever block now makes the fish sprite do four things in order:
 
 1. Ruch do przodu
 2. Obróć się trochę
 3. Poczekaj chwilę
 4. Sprawdź, czy jest na skraju sceny
 
-Gdy duszek dokona sprawdzenia, zacznie na początku pętli i będzie się poruszał, obracał, czekał i sprawdzał tak długo, jak długo uruchomiony będzie Twój program Scratch.
+Once the sprite has done the check, it will start at the beginning of the loop again and move, turn, wait, check, for as long as you let your Scratch program run.
 
 \--- /collapse \---
 
-Fajnie! Dalej: łap tą rybę!
+Cool! Next up: catching that fish!
