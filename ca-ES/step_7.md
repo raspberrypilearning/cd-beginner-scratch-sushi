@@ -2,7 +2,9 @@
 
 Ok, now it's time to make the fish swim on its own. To do this, you’re going to need a new kind of block: a **Control** block.
 
-\--- task \--- Select your fish sprite.
+\--- task \---
+
+Select your fish sprite.
 
 Drag a `when green flag clicked`{:class="block3events"} **Event** block, a `forever`{:class="block3control"} **Control** block, and a `move 10 steps`{:class="block3motion"} **Motion** block into the **sprite panel**, like this:
 
@@ -25,7 +27,11 @@ Here, the fish does whatever is inside the `forever`{:class="block3control"} blo
 
 \--- /collapse \---
 
-\--- task \--- Now click the green flag and watch what happens! \--- /task \---
+\--- task \---
+
+Now click the green flag and watch what happens!
+
+\--- /task \---
 
 Well, that fish just crashed into the side of the Stage, and it was moving far too fast for your shark to catch.
 
@@ -35,7 +41,9 @@ First, you need to slow the fish down. That’s actually pretty easy, you just n
     wait (1) secs
 ```
 
-\--- task \--- Add the `wait`{:class="block3control"} block into your code inside the `forever`{:class="block3control"} block, and change the number to `0.5`, like this:
+\--- task \---
+
+Add the `wait`{:class="block3control"} block into your code inside the `forever`{:class="block3control"} block, and change the number to `0.5`, like this:
 
 ```blocks3
     when green flag clicked
@@ -59,7 +67,11 @@ You can test out different values to see which is the best for the game. And rem
 
 The fish moves now, but you need it to bounce off the edge of the Stage too. Yet again, there’s a **Motion** block for this!
 
-\--- task \--- Find the `if on edge bounce`{:class="block3motion"} block, and add it in after the `wait`{:class="block3control"} block. \--- /task \---
+\--- task \---
+
+Find the `if on edge bounce`{:class="block3motion"} block, and add it in after the `wait`{:class="block3control"} block.
+
+\--- /task \---
 
 ## \--- collapse \---
 
@@ -71,7 +83,9 @@ The `if on edge bounce`{:class="block3motion"} block checks if the sprite is tou
 
 Of course, this will lead to an upside-down fish, so you need a `set rotation style`{:class="block3motion"} block again.
 
-\--- task \--- Update your code to set the rotation style of the fish to `left-right`{:class="block3motion"} at the beginning of the sprite's script:
+\--- task \---
+
+Update your code to set the rotation style of the fish to `left-right`{:class="block3motion"} at the beginning of the sprite's script:
 
 ```blocks3
     when green flag clicked
@@ -89,7 +103,9 @@ The fish moves backwards and forwards now, but only in a straight line — a bit
 
 You already know from a previous step how to make a sprite turn, so start there.
 
-\--- task \--- Add a turn into the fish's swimming instructions, and click the green flag.
+\--- task \---
+
+Add a turn into the fish's swimming instructions, and click the green flag.
 
 ```blocks3
     when green flag clicked
@@ -122,7 +138,9 @@ It’s better, but there’s still too much of a pattern. It needs to be more ra
 
 \--- /collapse \---
 
-\--- task \--- Find the `pick random`{:class="block3operators"} **operator** block, and plug it into the `turn degrees`{:class="block3motion"} **Motion** block by clicking it and dragging it into the field where you set the number of degrees.
+\--- task \---
+
+Find the `pick random`{:class="block3operators"} **operator** block, and plug it into the `turn degrees`{:class="block3motion"} **Motion** block by clicking it and dragging it into the field where you set the number of degrees.
 
 ```blocks3
     when green flag clicked
@@ -139,7 +157,11 @@ It’s better, but there’s still too much of a pattern. It needs to be more ra
 
 **Note**: you can change the minimum and maximum numbers it will pick, but the default values (`1` and `10`) are pretty good for this game, so you can just leave them.
 
-\--- task \--- Click the green flag to run the code! \--- /task \---
+\--- task \---
+
+Click the green flag to run the code!
+
+\--- /task \---
 
 ## \--- collapse \---
 
