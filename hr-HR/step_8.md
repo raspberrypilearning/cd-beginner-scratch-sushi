@@ -4,7 +4,9 @@ The shark moves, the fish swims, but they don’t interact: if the fish swims ri
 
 First, you need to know if the fish is touching the shark. For this, you'll need a **Control** block and a **Sensing** block.
 
-\--- task \--- Add the `if...then`{:class="block3control"} **Control** block inside the `forever`{:class="block3control"} loop of the fish sprite, below the `if on edge bounce`{:class="block3motion"} block.
+\--- task \---
+
+Add the `if...then`{:class="block3control"} **Control** block inside the `forever`{:class="block3control"} loop of the fish sprite, below the `if on edge bounce`{:class="block3motion"} block.
 
 Drag the `touching...`{:class="block3sensing"} block into the space at the top of the `if...then`{:class="block3control"} block, and click the little triangle to select the shark sprite's name. If you haven’t changed it, it'll be 'Sprite1'.
 
@@ -42,7 +44,9 @@ Of course, you’ve just added an `if...then`{:class="block3control"} block with
 
 You can make the fish disappear, as if the shark ate it, by using the `hide`{:class="block3looks"} block.
 
-\--- task \--- Find the `hide`{:class="block3looks"} block in the **Looks** list, and put it inside the `if...then`{:class="block3control"} block, like so:
+\--- task \---
+
+Find the `hide`{:class="block3looks"} block in the **Looks** list, and put it inside the `if...then`{:class="block3control"} block, like so:
 
 ```blocks3
     if <touching [Sprite1 v] ?> then
@@ -54,7 +58,9 @@ You can make the fish disappear, as if the shark ate it, by using the `hide`{:cl
 
 Now once the shark catches the fish, the fish disappears for good. That’s not great.
 
-\--- task \--- Put the `show`{:class="block3looks"} block from **Looks** in at the very start of the fish code, so you can reset the game.
+\--- task \---
+
+Put the `show`{:class="block3looks"} block from **Looks** in at the very start of the fish code, so you can reset the game.
 
 ```blocks3
     when green flag clicked
@@ -67,7 +73,9 @@ Now once the shark catches the fish, the fish disappears for good. That’s not 
 
 That's already better, but you don’t want the player to have to restart the game every time they catch a single fish!
 
-\--- task \--- Update the code inside your `if...then`{:class="block3control"} block to look like this:
+\--- task \---
+
+Update the code inside your `if...then`{:class="block3control"} block to look like this:
 
 ```blocks3
     if on edge, bounce
