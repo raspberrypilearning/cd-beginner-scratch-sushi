@@ -4,9 +4,11 @@
 
 أولاً ، تحتاج إلى معرفة ما إذا كانت السمكة تلامس سمك القرش. لهذا ، ستحتاج إلى مقطع ** التحكم ** و مقطع** الاستشعار **.
 
-\--- task \--- أضف مقطع **التحكم** `إذا`{:class="block3control"} داخل مقطع `كرر باستمرار`{:class="block3control"} لكائن السمكة بعد مقطع `ارتد إذا كنت عند الحافة`{:class="block3motion"}.
+\--- task \---
 
-اسحب مقطع `ملامس ل...`{:class="block3sensing"} الى المسافة التي في مقطع `اذا` وانقر على المثلث الصغير واختر اسم كائن سمكة القرش. إذا لم تقم بتغييرها ، فستكون "Sprite1".
+Add the `if...then`{:class="block3control"} **Control** block inside the `forever`{:class="block3control"} loop of the fish sprite, below the `if on edge bounce`{:class="block3motion"} block.
+
+Drag the `touching...`{:class="block3sensing"} block into the space at the top of the `if...then`{:class="block3control"} block, and click the little triangle to select the shark sprite's name. If you haven’t changed it, it'll be 'Sprite1'.
 
 ```blocks3
     عند نقر العلم الأخضر 
@@ -20,29 +22,31 @@
     النهاية
 ```
 
-\---/task--
+\--- /task \---
 
 ## \--- collapse \---
 
 ## title: كيف يعمل؟
 
-مقطع **التحكم** `إذا`{:class="block3control"} يحتاج إلى قيمة `صواب / خطأ`.
+The `if...then`{:class="block3control"} **Control** block needs to be given a `True/False` value.
 
-مقاطع ** الاستشعار ** تقوم بتجميع المعلومات ، مثل مكان الكائن ، ما الذي يلامسه ، إلخ. أنت تستخدم هذه الكتلة:
+**Sensing** blocks collect information, like where the sprite is, what it’s touching, etc. You're using this block:
 
 ```blocks3
     <touching [Sprite1 v] ?>
 ```
 
-من النهايات المدببة لهذا المقطع ، يمكنك معرفة أنه سيعطيك قيمة ` صواب / خطأ ` التي يحتاجها مقطع ` إذا...` {: class="block3control"}.
+From this block's pointy ends, you can tell it’s going to give you the `True/False` value that the `if...then`{:class="block3control"} block needs.
 
 \--- /collapse \---
 
-بالطبع ، لقد أضفت للتو مقطع ` إذا...`{: class="block3control"} دون إضافة أي شيء فيه. لذا في الوقت الحالي ، يقوم البرنامج النصي بالتحقق مما إذا كان كائن السمكة يلامس كائن سمك القرش ، لكنه لا يعمل أي شيئ لذلك.
+Of course, you’ve just added an `if...then`{:class="block3control"} block without adding anything for the 'then' part. So at the moment your script is checking whether the fish sprite is touching the shark sprite, but it's not making anything happen in response.
 
-يمكنك جعل السمكة تختفي ، كما لو أن سمك القرش أكلها ، باستخدام مقطع `إختفِ` {:class= "block3looks"}.
+You can make the fish disappear, as if the shark ate it, by using the `hide`{:class="block3looks"} block.
 
-ابحث عن مقطع `إختفِ`{:class="block3looks"} في قائمة **المظاهر**، وضعها بداخل مقطع `إذا...`، هكذا:
+\--- task \---
+
+Find the `hide`{:class="block3looks"} block in the **Looks** list, and put it inside the `if...then`{:class="block3control"} block, like so:
 
 ```blocks3
     إذا <touching [Sprite1 v] ?>
@@ -52,9 +56,11 @@
 
 \--- /task \---
 
-الآن بمجرد أن يصطاد سمكة القرش السمكة ، تختفي السمكة نهائيا. هذا ليس جيداً.
+Now once the shark catches the fish, the fish disappears for good. That’s not great.
 
-\--- task \--- ضع مقطع `اظهر`{:class="block3looks"} من **المظاهر** في بداية برمجة السمكة، لتتمكن من معاودة اللعب.
+\--- task \---
+
+Put the `show`{:class="block3looks"} block from **Looks** in at the very start of the fish code, so you can reset the game.
 
 ```blocks3
     عند نقر العلم الأخضر 
@@ -65,9 +71,11 @@
 
 \--- /task \---
 
-هذا بالفعل أفضل ، لكنك لا تريد أن يضطر اللاعب إلى إعادة تشغيل اللعبة في كل مرة يصطاد فيها سمكة واحدة!
+That's already better, but you don’t want the player to have to restart the game every time they catch a single fish!
 
-\--- task \--- حدث البرمجة داخل مقطع ` إذا...` {: class="block3control"} لتبدو هكذا:
+\--- task \---
+
+Update the code inside your `if...then`{:class="block3control"} block to look like this:
 
 ```blocks3
     ارتد إذا كنت عند الحافة
@@ -85,10 +93,10 @@
 
 ## title: كيف يعمل هذا؟
 
-أنت ذكي هنا: عندما تكون السمكة مخفية ، تنتظر ، تنتقل ، ثم تظهر مرة أخرى.
+You are being clever here: when the fish is hidden, it waits, moves, and then shows up again.
 
-يبدو أن الكثير من الأسماك تستمر في الظهور ، ولكن هذا كائن واحد يتحرك!
+It looks like lots of fish keep appearing, but it’s that one sprite moving around!
 
 \--- /collapse \---
 
-هذه اللعبة! ولكن ليس هناك طريقة لمعرفة النتيجة حتى الآن ، أو للفوز. يمكنك إصلاح ذلك أيضًا - في البطاقة التالية!
+That’s a game! But there’s no way to keep score yet, or to win. You can fix that too — on the next card!
