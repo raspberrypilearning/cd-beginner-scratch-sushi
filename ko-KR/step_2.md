@@ -2,17 +2,21 @@
 
 스크래치를 열면 아래와 같은 화면을 볼 수 있습니다.
 
-\--- task -- 각 영역을 찾아서 어디에 있는지 기억하십시오. \--- /task \---
+\--- task \---
+
+Look for each of the following areas and remember where they are.
+
+\--- /task \---
 
 ### 무대
 
-![스테이지가 강조 표시된 스크래치 창](images/hlStage.png)
+![Scratch window with the stage highlighted](images/hlStage.png)
 
 ## \--- collapse \---
 
 ## 제목 : 무대는 무엇입니까?
 
-스크래치 프로그램이 실행되는 곳입니다. 무대는 다음과 같은 기능을 포함하고 있습니다:
+This is where your Scratch programs run. It has:
 
 * 하나 이상의 **배경** \(화면 배경의 이미지\)
 
@@ -22,56 +26,58 @@
 
 ### 스프라이트 목록
 
-![스프라이트 목록이 강조 표시된 스크래치 창](images/hlSpriteList.png)
+![Scratch window with the sprite list highlighted](images/hlSpriteList.png)
 
 ## \--- collapse \---
 
 ## 제목 : 스프라이트 란 무엇입니까?
 
-스테이지에 추가 할 수있는 개체를 모두 **스프라이트**라고 합니다.
+Any item you can add on the Stage is a **sprite**.
 
-스프라이트에는 다음이 포함됩니다.
+A sprite includes:
 
 * 스테이지의 **이미지**
 * **모양** 추가 가능
 * 스프라이트와 관련된 모든 **소리**
 * 스프라이트와 관련된 **코드 블럭** ![](images/setup2.png)
 
--- /collapse \---
+\--- /collapse \---
 
 ### 코드 블록 팔레트
 
-![블록 팔레트가 강조 표시된 스크래치 창](images/hlBlocksPalette.png)
+![Scratch window with the blocks pallet highlighted](images/hlBlocksPalette.png)
 
 ## \--- collapse \---
 
 ## title : 코드 블록
 
-스크래치는 프로그램을 만들기 위해 코드를 연결하는 블록 형태로 제공됩니다. **코드 블록 팔레트**에서 블록을 선택하고 **현재 스크립트 영역**으로 드래그 한 다음 서로 연결합니다.
+Code in Scratch comes in the form of blocks that you connect to make programs. You choose blocks from the **code blocks palette**, drag them into the **current sprite panel**, and then connect them to each other.
 
-블록에는 10 가지 카테고리가 있습니다. 블록은 색으로 구분되어 있으며, **코드 블록 팔레트**의 상단에있는 목록의 항목을 클릭하여 선택할 수 있습니다.
+There are ten categories of blocks. They are colour-coded, and you can choose between them by clicking on the items in the list at the top of the **code blocks palette**.
 
 \--- /collapse \---
 
 ### 현재 스크립트 영역
 
-![현재 스크립트 영역이 강조 표시된 스크래치 창](images/hlCurrentSpritePanel.png)
+![Scratch window with the current sprite panel highlighted](images/hlCurrentSpritePanel.png)
 
 ## \--- collapse \---
 
 ## title : 현재 스프라이트는 무엇입니까?
 
-**현재 스프라이트** 는 **스프라이트 목록**에서 선택된 스프라이트 </strong> 입니다.
+The **current sprite** is the one that's selected in the **sprite list**.
 
-**현재 스크립트 영역** 은 선택된 스프라이트에 대한 코드, 모양 및 사운드를 볼 수있는 곳입니다.
+The **current sprite panel** is where you can see the code, costumes, and sounds for the selected sprite.
 
 \--- /collapse \---
 
-코딩 할 시간입니다!
+Time to get coding!
 
-\--- task \--- 스프라이트 목록에서 고양이 스프라이트를 클릭하십시오. 고양이는 현재의 스프라이트입니다.
+\--- task \---
 
-코드 블록 팔레트에서 **이벤트** 카테고리를 선택하고, `녹색 깃발이 클릭되었을 때` 블록을 현재 스크립트 영역으로 드래그합니다.
+In the sprite list, click on the Scratch Cat. The cat is now the current sprite.
+
+Choose the **Events** category in the code blocks palette, click the `when flag clicked`{:class="block3events"} block, and drag it into the current sprite panel.
 
 ```blocks3
     녹색 깃발이 클릭되었을 때
@@ -79,18 +85,28 @@
 
 \--- /task \---
 
-\--- task \--- 그런 다음 코드 블록 팔레트의 **형태** 카테고리로 이동합니다.
+\--- task \---
+
+Then go to **Looks** in the code blocks palette and find this block:
 
 ```blocks3
     [Hello!]라고 (2) 초 동안 말하기
 ```
 
-블록을 클릭하고 마우스 버튼을 누른 채 현재 스크립트 영역으로 드래그하고 버튼을 놓습니다.
+Click on it, hold down the mouse button, and then just drag it into the current sprite panel and let go of the button.
 
 \--- /task \---
 
-\--- task \--- 두번째 블록이 현재 스크립트 영역으로 추가되었고, 다시 두번째 블록을 클릭하고 드래그하여 첫 번째 블록의 맨 아래에 다음과 같이 연결합니다.
+\--- task \---
 
-![](images/setup3.png) \--- /task \---
+Now that the second block is in the current sprite panel, connect it to the bottom of the first block by clicking and dragging it again to move it below the other block until they snap together, like this:
 
-\--- task \--- 이제 **초록색 깃발** 버튼을 클릭하고 무슨 일이 일어날지 지켜보십시오! \--- /task \---
+![](images/setup3.png)
+
+\--- /task \---
+
+\--- task \---
+
+Now click the **Start Program** button and watch what happens!
+
+\--- /task \---
