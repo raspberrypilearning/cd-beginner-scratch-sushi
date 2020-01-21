@@ -2,38 +2,46 @@
 
 Scratch are o bibliotecă de fundaluri și personaje pe care le poți folosi pentru a-ți face proiectul să arate bine.
 
-\--- task \--- Selectează scena.
+\--- task \---
 
-![Selectarea scenei](images/looksSelectStage.png)
+Select the Stage.
 
-Apasă pe **Decoruri**.
+![Selecting the stage](images/looksSelectStage.png)
 
-![Secțiunea Decoruri](images/looksBackdrops.png)
+Click on **Backdrops**.
 
-Apasă pe butonul **Alege un Decor**.
+![The Backdrops tab](images/looksBackdrops.png)
 
-![Butonul Alege un Decor](images/looksChooseBg.png)
+Click the **Choose backdrop from library** icon.
 
-Apoi alege fundalul subacvatic pe care îl preferi!
+![The Choose backdrop icon](images/looksChooseBg.png)
 
-![Un fundal subacvatic](images/looksUnderwater.png) \--- /task \---
+Then pick your favourite underwater background!
 
-Grozav! Desigur, acum ai o pisică sub apă, iar pisicilor nu prea le place apa. Însă poți rezolva asta, deoarece poți transforma pisica într-un rechin!
+![An underwater scene](images/looksUnderwater.png)
 
-\--- task \--- Întâi, selectează personajul pisică și apasă pe butonul **Costume**.
+\--- /task \---
+
+Great! Of course, now you have a cat underwater, and cats aren't usually big fans of that. But you can fix that, because you can turn the cat into a shark!
+
+\--- task \---
+
+First, select the cat sprite and click on the **Costumes** tab.
 
 ![](images/cool2.png)
 
-Apoi, apasă pe **Alege un costum**
+Then, click on **Choose costume from Library**
 
 ![](images/cool3.png)
 
-Selectează această imagine cu un rechin și apasă **OK**.
+Select this shark image and click **OK**.
 
-![Costumul rechinului](images/looksShark.png)
+![The shark costume](images/looksShark.png)
 
-Acum, șterge costumele pisicii selectând-ul pe fiecare dintre ele și apăsând **x**.
+Now remove the cat costumes by selecting each of them and clicking on the **x**.
 
-![](images/coolDeleteCostumes.png) \--- /task \---
+![](images/coolDeleteCostumes.png)
 
-Acum ai un rechin – excelent!
+\--- /task \---
+
+Now you have a shark – excellent!
