@@ -24,21 +24,25 @@ Je kunt op het gewenste blok klikken en deze vervolgens naar het huidige sprite 
 
 Als je wilt zien wat een blok doet, kun je erop dubbelklikken om het uit te laten voeren!
 
-\--- task \--- Dubbelklik op de blokken om te zien wat ze doen. \--- /task \---
+\--- task \---
+
+Try double-clicking on some of the blocks to see what they do.
+
+\--- /task \---
 
 ## \--- collapse \---
 
 ## title: De code uitvoeren
 
-Meestal wil je dat je code automatisch wordt uitgevoerd wanneer er iets specifieks gebeurt. Daarom beginnen veel van je programma's met een blok uit de **gebeurtenissen** categorie, meestal deze:
+Usually, you want your code to run automatically whenever something specific happens. This is why many of your programs will start with a block from the **Events** category, most often this one:
 
 ```blocks3
     wanneer op groene vlag wordt geklikt
 ```
 
-De codeblokken die zijn aangesloten op dit blok wordt uitgevoerd nadat op de **groene vlag** is geklikt.
+The code blocks connected to this block will run after the **green flag** is clicked.
 
-Codeblokken lopen van boven naar beneden, dus de volgorde waarin je de blokken samenvoegt, is van belang. In dit voorbeeld zal de sprite `Hallo!` `zeggen`{:class="block3looks"} voordat het het `meow` geluid `afspeelt`{:class="block3sound"}.
+Code blocks run from top to bottom, so the order in which you snap your blocks together matters. In this example, the sprite will `say`{:class="block3looks"} `Hello!` before it will `play`{:class="block3sound"} the `meow` sound.
 
 ```blocks3
     wanneer op groene vlag wordt geklikt
@@ -48,19 +52,25 @@ Codeblokken lopen van boven naar beneden, dus de volgorde waarin je de blokken s
 
 \--- /collapse \---
 
-Het verwijderen van codeblokken die je niet wilt gebruiken in je programma is eenvoudig! Sleep ze gewoon terug naar het palet met codeblokken.
+Removing or deleting code blocks you don’t want in your program is easy! Just drag them back into the code blocks palette.
 
-**Pas op:** door je blok naar het codeblok paneel te slepen, worden alle blokken die onder dat blok hangen ook verwijderd. Zorg er dus voor dat de blokken die je wilt houden losgekoppeld zijn van het blok dat je wilt verwijderen. Als je per ongeluk blokken hebt verwijderd en ze terug wilt halen, klik dan met je rechtermuisknop en vervolgens op de **Ongedaan maken** optie om alles weer terug te krijgen.
+**Be careful:** dragging them into the code blocks pallette will delete all the blocks connected to the block you drag, so make sure to separate code blocks you want to keep from those you want to remove. If you delete some code blocks by accident and want to get them back, right-click and then click on the **undo** option to get everything back.
 
 ![](images/code6.png)
 
-\--- task \--- Probeer eens codeblokken toe te voegen, te verwijderen en weer terug te halen! \--- /task \---
+\--- task \---
+
+Try adding, deleting, and undeleting some code blocks!
+
+\--- /task \---
 
 ### Alles bij elkaar brengen
 
-Nu je weet hoe je code kunt verplaatsen en dingen kunt laten gebeuren, is het tijd om een ​​programma te maken waarmee de Scratch Cat in een cirkel kan lopen!
+Now you know how to move code around and make things happen, it's time for you to create a program to make the Scratch Cat walk in a circle!
 
-\--- task \--- Zorg dat je de kat sprite geselecteerd hebt in de spritelijst, en sleep dan de volgende blokken in het sprite paneel en verbindt ze met elkaar. Je vindt ze in de **Gebeurtenissen** en **Beweging** categorieën.
+\--- task \---
+
+Make sure you have the cat sprite selected in the sprite list, and then drag the following blocks into the sprite panel and connect them. You’ll find them in the **Events** and **Motion** lists.
 
 ```blocks3
     wanneer op groene vlag wordt geklikt
@@ -69,15 +79,21 @@ Nu je weet hoe je code kunt verplaatsen en dingen kunt laten gebeuren, is het ti
 
 \--- /task \---
 
-\--- task \--- Klik nu op de groene vlag boven het Speelveld.
+\--- task \---
 
-![](images/code7.png) \--- /task \---
+Now, click on the green flag above the Stage.
 
-Je zou de kat in een rechte lijn moeten zien lopen... niet precies wat je wilt, toch?
+![](images/code7.png)
 
-Opmerking: als je te vaak op de vlag klikt en de kat loopt uit beeld, dan kun je hem terug slepen!
+\--- /task \---
 
-\--- opdracht \--- Zet het draai blok aan het eind zodat de kat in een rondje kan lopen. Het zit ook in de **Beweging** categorie.
+You should see the cat walking in a straight line...not exactly what you want, right?
+
+Note: If you click th flag too many times and the cat walks away, you can drag it back!
+
+\--- task \---
+
+Snap the turn block to the end to make the cat sprite walk in a circle. It’s in the **Motion** list too.
 
 ```blocks3
     wanneer op groene vlag wordt geklikt
@@ -91,10 +107,14 @@ Opmerking: als je te vaak op de vlag klikt en de kat loopt uit beeld, dan kun je
 
 ## title: Hoe werkt draaien?
 
-Dit blok zorgt ervoor dat de sprite 15 graden van de volledige 360 ​​graden draait die een cirkel vormen. Je kunt dat aantal en het aantal stappen wijzigen door op het nummer te klikken en een nieuwe waarde in te voeren.
+This block makes the sprite turn 15 degrees of the full 360 degrees that make up a circle. You can change that number, and the number of steps, by clicking on the number and typing in a new value.
 
 ![](images/code9.png)
 
 \--- /collapse \---
 
-\--- task \--- Sla nu je project op! \--- /task \---
+\--- task \---
+
+Now save your work!
+
+\--- /task \---
