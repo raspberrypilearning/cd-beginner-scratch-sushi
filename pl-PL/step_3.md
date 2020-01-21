@@ -24,21 +24,25 @@ Możesz kliknąć dowolny blok, a następnie przeciągnąć go do panelu bieżą
 
 Jeśli chcesz zobaczyć, co robi blok, kliknij go dwukrotnie, aby go uruchomić!
 
-\--- task \--- Spróbuj dwukrotnie kliknąć na niektóre bloki, aby zobaczyć, co robią. \--- /task \---
+\--- task \---
+
+Try double-clicking on some of the blocks to see what they do.
+
+\--- /task \---
 
 ## \--- collapse \---
 
 ## title: Uruchamianie kodu
 
-Zwykle chcesz, aby Twój kod uruchamiał się automatycznie, gdy wydarzy się coś konkretnego. Dlatego wiele z twoich programów rozpocznie się od bloku z kategorii **Zdarzenia**, najczęściej od tego:
+Usually, you want your code to run automatically whenever something specific happens. This is why many of your programs will start with a block from the **Events** category, most often this one:
 
 ```blocks3
     kiedy flaga kliknięta
 ```
 
-Bloki kodu podłączone do tego bloku będą uruchamiane po kliknięciu **zielonej flagi**.
+The code blocks connected to this block will run after the **green flag** is clicked.
 
-Bloki kodu uruchamiane są od góry do dołu, więc kolejność, w jakiej łączysz bloki, ma znaczenie. W tym przykładzie duszek `powie`{:class="block3looks"} `Witaj!` zanim `odtworzy`{:class="block3sound"} dźwięk `miau` (ang. meow).
+Code blocks run from top to bottom, so the order in which you snap your blocks together matters. In this example, the sprite will `say`{:class="block3looks"} `Hello!` before it will `play`{:class="block3sound"} the `meow` sound.
 
 ```blocks3
     kiedy flaga kliknięta
@@ -48,19 +52,25 @@ Bloki kodu uruchamiane są od góry do dołu, więc kolejność, w jakiej łącz
 
 \--- /collapse \---
 
-Usuwanie bloków kodu, których nie chcesz w swoim programie, jest proste! Po prostu przeciągnij je z powrotem do palety bloków kodu.
+Removing or deleting code blocks you don’t want in your program is easy! Just drag them back into the code blocks palette.
 
-**Bądź ostrożna:** przeciągając je do palety bloków kodu, usuniesz wszystkie bloki połączone z blokiem, który przeciągasz, więc upewnij się, że oddzielasz bloki kodu, które chcesz zachować, od bloków, które chcesz usunąć. Jeśli przez przypadek usuniesz niektóre bloki kodu i chcesz je odzyskać, kliknij prawym przyciskiem myszy, a następnie kliknij opcję **cofnij** , aby wszystko odzyskać.
+**Be careful:** dragging them into the code blocks pallette will delete all the blocks connected to the block you drag, so make sure to separate code blocks you want to keep from those you want to remove. If you delete some code blocks by accident and want to get them back, right-click and then click on the **undo** option to get everything back.
 
 ![](images/code6.png)
 
-\--- task \--- Spróbuj dodać, usunąć i przywrócić niektóre bloki kodu! \--- /task \---
+\--- task \---
+
+Try adding, deleting, and undeleting some code blocks!
+
+\--- /task \---
 
 ### Składanie wszystkiego w całość
 
-Teraz, gdy wiesz, jak przesuwać kod i sprawiać, że coś się dzieje, nadszedł czas, aby stworzyć program, który spowoduje, że kot Scratch będzie chodził w kółko!
+Now you know how to move code around and make things happen, it's time for you to create a program to make the Scratch Cat walk in a circle!
 
-\--- task \--- Upewnij się, że na liście duszków został wybrany duszek kota, a następnie przeciągnij następujące bloki do panelu duszka i połącz je. Znajdziesz je na listach **Zdarzenia** i **Ruch**.
+\--- task \---
+
+Make sure you have the cat sprite selected in the sprite list, and then drag the following blocks into the sprite panel and connect them. You’ll find them in the **Events** and **Motion** lists.
 
 ```blocks3
     kiedy flaga kliknięta
@@ -69,15 +79,21 @@ Teraz, gdy wiesz, jak przesuwać kod i sprawiać, że coś się dzieje, nadszed�
 
 \--- /task \---
 
-\--- task \--- Kliknij zieloną flagę nad sceną.
+\--- task \---
 
-![](images/code7.png) \--- /task \---
+Now, click on the green flag above the Stage.
 
-Powinnaś zobaczyć kota idącego w linii prostej... niezupełnie tego chciałaś, prawda?
+![](images/code7.png)
 
-Uwaga: Jeśli klikniesz flagę zbyt wiele razy, a kot odejdzie, możesz przeciągnąć go z powrotem!
+\--- /task \---
 
-\--- task \--- Przyczep na końcu blok skręcania, aby duszek kota chodził w kółko. Jest on także na liście **Ruch**.
+You should see the cat walking in a straight line...not exactly what you want, right?
+
+Note: If you click th flag too many times and the cat walks away, you can drag it back!
+
+\--- task \---
+
+Snap the turn block to the end to make the cat sprite walk in a circle. It’s in the **Motion** list too.
 
 ```blocks3
     kiedy flaga kliknięta
@@ -91,10 +107,14 @@ Uwaga: Jeśli klikniesz flagę zbyt wiele razy, a kot odejdzie, możesz przecią
 
 ## title: Jak działa obracanie?
 
-Ten blok powoduje, że ikonka obraca się o 15 stopni (z pełnych 360 stopni tworzących okrąg). Możesz zmienić tę liczbę i liczbę kroków, klikając numer i wpisując nową wartość.
+This block makes the sprite turn 15 degrees of the full 360 degrees that make up a circle. You can change that number, and the number of steps, by clicking on the number and typing in a new value.
 
 ![](images/code9.png)
 
 \--- /collapse \---
 
-\--- task \--- Teraz zapisz swoją pracę! \--- /task \---
+\--- task \---
+
+Now save your work!
+
+\--- /task \---
