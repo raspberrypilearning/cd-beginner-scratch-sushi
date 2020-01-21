@@ -24,9 +24,13 @@ Grande! Successivamente, aggiungerai del codice per far muovere il pesce da solo
 
 Sembra un po' strano avere lo squalo che nuota all'indietro. Proprio come faresti tu girandoti piuttosto che camminando all'indietro, lo squalo si dovrebbe girerebbe invece che nuotare all'indietro. Fortunatamente per te, Scratch ha un blocco per questo!
 
-Il blocco `punta in direzione`{:class="block3motion"} ti consente di scegliere la direzione verso cui punta lo sprite. Lo troverai nella sezione dei blocchi **Movimento**. Puoi digitare un numero qualsiasi di gradi, per puntare lo sprite dove vuoi. \--- /collapse \---
+Il blocco `punta in direzione`{:class="block3motion"} ti consente di scegliere la direzione verso cui punta lo sprite. Lo troverai nella sezione dei blocchi **Movimento**. Puoi digitare un numero qualsiasi di gradi, per puntare lo sprite dove vuoi.
 
-\--- task \--- Prendi un paio di copie del blocco `punta in direzione`{:class="block3motion"} dall'elenco **Movimento** e collegale al codice del tuo squalo, in questo modo:
+\--- /collapse \---
+
+\--- task \---
+
+Grab a couple of copies of the `point in direction`{:class="block3motion"} block from the **Motion** list and connect them to your shark's code, like this:
 
 ```blocks3
     quando si preme il tasto [left arrow v]
@@ -42,11 +46,13 @@ fai (10) passi
 
 \--- /task \---
 
-\--- task \--- Modifica il numero di passaggi nel blocco `fai`{:class="block3motion"} da `-10` a `10`.
+\--- task \---
 
-Se provi a muovere lo squalo ora dopo aver aggiunto il blocco `punta in direzione`{:class="block3motion"}, potresti notare qualcosa di strano. Lo squalo potrebbe non girare abbastanza bene!
+Change the number of steps in the `move`{:class="block3motion"} blocks from `-10` to `10`.
 
-![Squalo sottosopra](images/spritesUpsideDown.png)
+If you try moving the shark around now after you've added the `point in direction`{:class="block3motion"} blocks, you might notice something a little strange happening. The shark may not be turning quite right!
+
+![Upside down shark](images/spritesUpsideDown.png)
 
 \--- /task \---
 
@@ -54,15 +60,17 @@ Se provi a muovere lo squalo ora dopo aver aggiunto il blocco `punta in direzion
 
 ## title: Perché va sottosopra?
 
-Il problema qui è che lo sprite squalo è, come tutti gli sprite, creato con lo **stile di rotazione** 'può ruotare', mentre quello che ti serve è lo stile 'sinistra-destra'.
+The problem here is that the shark sprite started, as all sprites do, with the 'all around' **rotation style**, and what you need it to have is the 'left-right' style.
 
-Come al solito, c'è un blocco per questo, ed è in **Movimento**!
+As usual, there’s a block for that, and it’s in **Motion**!
 
 \--- /collapse \---
 
-\--- task \--- Cerca nella categoria **Movimento** il blocco `usa stile rotazione`{:class="block3motion"}.
+\--- task \---
 
-Aggiungi il blocco al tuo codice di ripristino dello squali, creato poco fa, e imposta lo stile di rotazione su `sinistra-destra`{:class="block3motion"}, in questo modo:
+Look in the **Motion** category for the block `set rotation style`{:class="block3motion"}.
+
+Add the block to your shark reset code from earlier, and set the rotation style to `left-right`{:class="block3motion"}, like this:
 
 ```blocks3
     quando si clicca sulla bandiera verde
