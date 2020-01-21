@@ -4,29 +4,35 @@
 
 첫번째: 점수 저장!
 
-\--- task \--- **변수** 카테고리에서 **변수 만들기**를 클릭하십시오.
+\--- task \---
+
+Go to the **Variables** blocks category and click on **Make a Variable**.
 
 ![](images/catch5.png)
 
-변수 이름을 `점수` 로 정합니다.
+Enter `score` as the name.
 
 ![](images/catch6.png)
 
-새로운 변수를 확인하십시오!
+Check out your new variable!
 
-![점수 변수를 스테이지 표시](images/scoreVariableStage.png) \--- /task \---
+![The Score variable is displayed on the stage](images/scoreVariableStage.png)
+
+\--- /task \---
 
 ## \--- collapse \---
 
 ## title: 변수란 무엇인가요?
 
-프로그램의 정보를 저장하는데 사용하는 공간입니다. 라벨이 붙은 상자를 생각해 보세요. 상자에 내용물을 넣고 내용물을 확인하고, 변경할 수 있습니다. **변수** 카테고리에서 변수를 찾을 수 있습니다. 카테고리에서 변수 목록을 보려면 먼저 변수를 만들어야 합니다.
+When you want to store information in a program, you use something called a **variable**. Think of it like a box with a label on it: you can put something in it, check what’s in it, and change what’s in it. You’ll find variables in the **Variables** section, but you need to create them first for them to show up there!
 
 \--- /collapse \---
 
-이제 상어가 물고기를 먹을 때마다 변수를 업데이트하여 점수를 증가시키고, 게임을 다시 시작할 때 변수를 초기화해야 합니다. 두 가지 모두 하는 것은 매우 쉽습니다.
+Now you need to update the variable whenever the shark eats a fish, and to reset it when the game is restarted. Doing both is pretty easy:
 
-\--- task \--- **변수** 카테고리에서, `[나의 변수 v] 를 [0] 로 정하기`{:class="block3variables"} 와 `[나의 변수 v] 를 [1] 만큼 바꾸기`{:class="block3variables"} 블록을 꺼내세요. 블록의 작은 화살표를 클릭하고 `점수` 를 선택합니다. 그리고 블록을 프로그램에 아래와 같이 추가합니다.
+\--- task \---
+
+From the **Variables** section, take the `set [my variable v] to [0]`{:class="block3variables"} and `change [my variable v] by [1]`{:class="block3variables"} blocks. Click on the little arrows in the blocks, choose `score` from the list, and then put the blocks into your program:
 
 ### 상어에 대한 코드
 
@@ -51,4 +57,4 @@
 
 \--- /task \---
 
-멋져요! 이제 당신은 점수증가와 점수 초기화 하는 것을 모두 하였습니다.
+Cool! Now you’ve got a score and everything.
