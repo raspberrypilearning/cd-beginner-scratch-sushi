@@ -2,9 +2,11 @@
 
 Oké, hoog tijd om de vis zelfstandig te laten zwemmen. Hiervoor heb je een nieuw soort blok nodig: een **Besturen** blok.
 
-\--- task \--- Selecteer je vis sprite.
+\--- task \---
 
-Sleep een `wanneer op groene vlag wordt geklikt`{:class="block3events"} **Gebeurtenissen** blok, een `herhaal`{:class="block3control"} **Besturen** blok en een `neem 10 stappen`{:class="block3motion"} **Beweging** blok naar het **sprite paneel**:
+Select your fish sprite.
+
+Drag a `when green flag clicked`{:class="block3events"} **Event** block, a `forever`{:class="block3control"} **Control** block, and a `move 10 steps`{:class="block3motion"} **Motion** block into the **sprite panel**, like this:
 
 ```blocks3
     wanneer op groene vlag wordt geklikt
@@ -19,23 +21,29 @@ einde
 
 ## title: Wat doet dit nieuwe blok?
 
-**Besturen** blokken zorgen ervoor dat je programma dingen een bepaald aantal keren doet, of onder bepaalde omstandigheden.
+**Control** blocks make your program do things a certain number of times, or under certain conditions.
 
-Hier herhaalt de vis alles wat in het `herhaal`{:class="block3control"} blok staat voor eeuwig. Dus als het het laatste ding (blok) binnen het `herhaal`{:class="block3control"} heeft gedaan, begint hij bovenaan weer helemaal op nieuw, en blijft dat herhalen.
+Here, the fish does whatever is inside the `forever`{:class="block3control"} block over and over again on a loop, forever. So once it has done the last thing (block) inside the `forever`{:class="block3control"} block, it starts over at the top and does everything again, and so on.
 
 \--- /collapse \---
 
-\--- task \--- Klik nu op de groene vlag en kijk wat er gebeurt! \--- /task \---
+\--- task \---
 
-Tjonge, die vis botste tegen de zijkant van het Speelveld en ging véél te snel voor je haai.
+Now click the green flag and watch what happens!
 
-Eerst moet je de vis langzamer laten gaan. Dat is vrij simpel, je moet een pauze inlassen als de vis 10 stappen genomen heeft. Er is een **Besturen** blok dat je hierbij helpt:
+\--- /task \---
+
+Well, that fish just crashed into the side of the Stage, and it was moving far too fast for your shark to catch.
+
+First, you need to slow the fish down. That’s actually pretty easy, you just need it to wait for a little while after it moves those 10 steps. There’s a **Control** block that will help you here:
 
 ```blocks3
     wacht (1) sec
 ```
 
-\--- task \--- Voeg het `wacht`{:class="block3control"} blok toe aan je code binnen het `herhaal`{:class="block3control"} blok, en verander het getal naar `0.5`:
+\--- task \---
+
+Add the `wait`{:class="block3control"} block into your code inside the `forever`{:class="block3control"} block, and change the number to `0.5`, like this:
 
 ```blocks3
     wanneer op groene vlag wordt geklikt
@@ -45,33 +53,39 @@ neem (10) stappen
 einde
 ```
 
--- /task \---
+\--- /task \---
 
 ## \--- collapse \---
 
 ## title: Aanpassingen maken
 
-Het getal dat je ingevoerd hebt in het `wacht`{:class="block3control"} blok vertelt hoeveel **seconden** jij wilt dat de vis moet wachten. `0.5` is een halve seconde.
+The number you set in the `wait`{:class="block3control"} block says how many **seconds** you want the fish to wait. `0.5` is half a second.
 
-Je kunt verschillende getallen invoeren om uit te zoeken wat het beste bij het spel past. En onthoud dat je het aantal stappen binnen het `neem stappen`{:class="block3motion"} blok ook kunt veranderen!
+You can test out different values to see which is the best for the game. And remember that you can change the number of steps inside the `move`{:class="block3motion"} block too!
 
 \--- /collapse \---
 
-De vis beweegt nu, maar je wilt ook dat hij omdraait aan de rand van het Speelveld. Ook hier is een **Beweging** blok voor!
+The fish moves now, but you need it to bounce off the edge of the Stage too. Yet again, there’s a **Motion** block for this!
 
-\--- task \--- Zoek het `keer om aan de rand`{:class="block3motion"} blok en zet het onder het `wacht`{:class="block3control"} blok. \--- /task \---
+\--- task \---
+
+Find the `if on edge bounce`{:class="block3motion"} block, and add it in after the `wait`{:class="block3control"} block.
+
+\--- /task \---
 
 ## \--- collapse \---
 
 ## title: Wat doet dit nieuwe blok?
 
-Het `keer om aan de rand`{:class="block3motion"} blok controleert of de sprite de rand van het Speelveld raakt, en zo ja, zorgt dat de sprite al naar gelang naar links, rechts, boven of beneden draait.
+The `if on edge bounce`{:class="block3motion"} block checks if the sprite is touching the edge of the Stage and, if it is, it turns left, right, up, or down as appropriate.
 
 \--- /collapse \---
 
-Natuurlijk betekent dit dat je vis ondersteboven gaat zwemmen, dus heb je weer een `maak draaistijl`{:class="block3motion"} nodig.
+Of course, this will lead to an upside-down fish, so you need a `set rotation style`{:class="block3motion"} block again.
 
-\--- task \--- Werk je code bij door de draaistijl van de vis `links-rechts`{:class="block3motion"} aan het begin van de sprite code toe te voegen:
+\--- task \---
+
+Update your code to set the rotation style of the fish to `left-right`{:class="block3motion"} at the beginning of the sprite's script:
 
 ```blocks3
     wanneer op groene vlag wordt geklikt
@@ -85,11 +99,13 @@ einde
 
 \--- /task \---
 
-De vis beweegt nu vooruit en achteruit, maar alleen in een rechte lijn - de speler kan nu met de haai wel heel makkelijk de vis pakken! Je moet de vis minder voorspelbaar maken.
+The fish moves backwards and forwards now, but only in a straight line — a bit too easy for the player to catch with the shark! You need to make the fish less predictable.
 
-Je weet van een vorige stap al hoe je een sprite kunt laten draaien, dus daar begin je mee.
+You already know from a previous step how to make a sprite turn, so start there.
 
-\--- task \--- Voeg een draai toe aan de zweminstructies van de vis, en klik op de groene vlag.
+\--- task \---
+
+Add a turn into the fish's swimming instructions, and click the green flag.
 
 ```blocks3
     wanneer op groene vlag wordt geklikt
@@ -104,13 +120,13 @@ einde
 
 \--- /task \---
 
-Al beter, maar nog steeds te voorspelbaar. Het moet willekeuriger worden. Gelukkig kan Scratch willekeurig voor je uitvoeren! Je hebt een nieuw blok nodig, een **functie** blok.
+It’s better, but there’s still too much of a pattern. It needs to be more random. Luckily, Scratch can do random for you! You’ll just need a new kind of block, called an **operator** block.
 
 ## \--- collapse \---
 
 ## title: Wat is een functie?
 
-**Functies** nemen één of meer waarden (zoals getallen, tekst, of `Waar/Niet waar` waarden) en geven daar een enkele waarde voor terug. Je kunt zien wat voor waarde het terug zal geven door de vorm van het blok: afgeronde blokken geven getallen of tekst, puntige blokken geven `Waar/Niet waar`.
+**Operators** take in one or more values (like numbers, text, or `True/False` values) and give back a single value. You can tell the kind of value it will give back by the shape of the block: round ends give numbers or text, pointy ends give `True/False`.
 
 ```blocks3
     (() + ())
@@ -122,7 +138,9 @@ Al beter, maar nog steeds te voorspelbaar. Het moet willekeuriger worden. Gelukk
 
 \--- /collapse \---
 
-\--- task \--- Zoek het `willekeurig getal tussen`{:class=block3operators"] **Functies** blok, en stop het in het `draai graden`{:class="block3motion"} **Beweging** blok door erop te klikken en het in het getalvakje van de graden te slepen.
+\--- task \---
+
+Find the `pick random`{:class="block3operators"} **operator** block, and plug it into the `turn degrees`{:class="block3motion"} **Motion** block by clicking it and dragging it into the field where you set the number of degrees.
 
 ```blocks3
     wanneer op groene vlag wordt gedrukt
@@ -137,23 +155,27 @@ einde
 
 \--- /task \---
 
-**Let op**: je kan het laagste en hoogste getal veranderen dat gekozen moet worden, maar de standaard waarden (`1` en `10`) zijn zeer geschikt voor dit spel, dus je mag ze ook laten staan.
+**Note**: you can change the minimum and maximum numbers it will pick, but the default values (`1` and `10`) are pretty good for this game, so you can just leave them.
 
-\--- task \--- Klik op de groene vlag om de code uit te voeren! \--- /task \---
+\--- task \---
+
+Click the green flag to run the code!
+
+\--- /task \---
 
 ## \--- collapse \---
 
 ## title: Dus wat doet het herhaalblok nu?
 
-Het herhaalblok laat de vis vier dingen in deze volgorde doen:
+The forever block now makes the fish sprite do four things in order:
 
 1. Beweeg vooruit
 2. Draai een beetje
 3. Wacht even
 4. Controleer of het aan de rand van het Speelveld is
 
-Zodra de sprite de controle gedaan heeft, zal het, zolang je het Scratch programma uitvoert, weer teruggaan naar het begin van de lus en bewegen, draaien, wachten, controleren.
+Once the sprite has done the check, it will start at the beginning of the loop again and move, turn, wait, check, for as long as you let your Scratch program run.
 
 \--- /collapse \---
 
-Cool! Volgende stap: pak die vis!
+Cool! Next up: catching that fish!
