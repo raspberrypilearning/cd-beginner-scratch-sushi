@@ -2,38 +2,46 @@
 
 Scratch ha una libreria di sfondi e sprite da usare per rendere il tuo progetto fantastico.
 
-\--- task \--- Seleziona lo stage.
+\--- task \---
 
-![Selezione dello stage](images/looksSelectStage.png)
+Select the Stage.
 
-Clicca su **Sfondi**.
+![Selecting the stage](images/looksSelectStage.png)
 
-![La scheda Sfondi](images/looksBackdrops.png)
+Click on **Backdrops**.
 
-Fai clic sull'icona **Scegli uno sfondo dalla libreria**.
+![The Backdrops tab](images/looksBackdrops.png)
 
-![L'icona Scegli uno sfondo](images/looksChooseBg.png)
+Click the **Choose backdrop from library** icon.
 
-Quindi scegli il tuo sfondo subacqueo preferito!
+![The Choose backdrop icon](images/looksChooseBg.png)
 
-![Una scena subacquea](images/looksUnderwater.png) \--- /task \---
+Then pick your favourite underwater background!
 
-Grande! Certo, ora hai un gatto sott'acqua, e di solito i gatti non ne sono grandi amanti. Ma puoi aggiustarlo, perché puoi trasformare il gatto in uno squalo!
+![An underwater scene](images/looksUnderwater.png)
 
-\--- task \--- Come prima cosa, seleziona lo sprite del gatto e clicca sulla scheda **Costumi**.
+\--- /task \---
+
+Great! Of course, now you have a cat underwater, and cats aren't usually big fans of that. But you can fix that, because you can turn the cat into a shark!
+
+\--- task \---
+
+First, select the cat sprite and click on the **Costumes** tab.
 
 ![](images/cool2.png)
 
-Quindi, fai clic su **Scegli un costume dalla libreria**
+Then, click on **Choose costume from Library**
 
 ![](images/cool3.png)
 
-Seleziona questa immagine di squalo e clicca **OK**.
+Select this shark image and click **OK**.
 
-![Il costume dello squalo](images/looksShark.png)
+![The shark costume](images/looksShark.png)
 
-Ora rimuovi il costume del gatto selezionandolo e facendo clic su **x**.
+Now remove the cat costumes by selecting each of them and clicking on the **x**.
 
-![](images/coolDeleteCostumes.png) \--- /task \---
+![](images/coolDeleteCostumes.png)
 
-Ora hai uno squalo - eccellente!
+\--- /task \---
+
+Now you have a shark – excellent!
