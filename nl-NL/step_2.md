@@ -2,17 +2,21 @@
 
 Zodra je Scratch opent, zie je een venster zoals hieronder.
 
-\--- task \--- Zoek naar de volgende gebieden en onthoud waar ze zijn. \--- /task \---
+\--- task \---
+
+Look for each of the following areas and remember where they are.
+
+\--- /task \---
 
 ### Het speelveld
 
-![Het Scratch venster met het speelveld gemarkeerd](images/hlStage.png)
+![Scratch window with the stage highlighted](images/hlStage.png)
 
 ## \--- collapse \---
 
 ## title: Wat is het Speelveld?
 
-Dit is waar je Scratch programma's worden uitgevoerd. Het heeft:
+This is where your Scratch programs run. It has:
 
 * Eén of meer **achtergronden** \(afbeeldingen op de achtergrond van het scherm\)
 
@@ -22,15 +26,15 @@ Dit is waar je Scratch programma's worden uitgevoerd. Het heeft:
 
 ### De sprite lijst
 
-![Het Scratch venster met de sprite lijst gemarkeerd](images/hlSpriteList.png)
+![Scratch window with the sprite list highlighted](images/hlSpriteList.png)
 
 ## \--- collapse \---
 
 ## title: Wat is een sprite?
 
-Elk item dat je in het Speelveld kunt toevoegen, is een **sprite**.
+Any item you can add on the Stage is a **sprite**.
 
-Een sprite bevat:
+A sprite includes:
 
 * De **afbeelding** op het Speelveld
 * Mogelijke extra **kostuums** \(uiterlijken\) dat het heeft
@@ -41,37 +45,39 @@ Een sprite bevat:
 
 ### Het codeblokken palet
 
-![Het Scratch venster met het gemarkeerde blokken palet](images/hlBlocksPalette.png)
+![Scratch window with the blocks pallet highlighted](images/hlBlocksPalette.png)
 
 ## \--- collapse \---
 
 ## title: Codeblokken
 
-Code in Scratch komt in de vorm van blokken die je met elkaar verbindt om programma's te maken. Je kiest blokken uit het palet met **codeblokken**, sleept ze naar het **huidige sprite paneel** en verbindt ze dan met elkaar.
+Code in Scratch comes in the form of blocks that you connect to make programs. You choose blocks from the **code blocks palette**, drag them into the **current sprite panel**, and then connect them to each other.
 
-Er zijn tien categorieën van blokken. Ze hebben een kleurcode en je kunt kiezen tussen de blokken door op de items in de lijst bovenaan het palet met **codeblokken** te klikken.
+There are ten categories of blocks. They are colour-coded, and you can choose between them by clicking on the items in the list at the top of the **code blocks palette**.
 
 \--- /collapse \---
 
 ### Het huidige sprite paneel
 
-![Het Scratch venster met de huidige sprite paneel verschijnt](images/hlCurrentSpritePanel.png)
+![Scratch window with the current sprite panel highlighted](images/hlCurrentSpritePanel.png)
 
 ## \--- collapse \---
 
 ## title: Wat is de huidige sprite?
 
-De **huidige sprite** is degene die is geselecteerd in de **sprite lijst**.
+The **current sprite** is the one that's selected in the **sprite list**.
 
-Het **huidige sprite paneel** is waar je de code, kostuums en geluiden voor de geselecteerde sprite kunt zien.
+The **current sprite panel** is where you can see the code, costumes, and sounds for the selected sprite.
 
 \--- /collapse \---
 
-Tijd om te gaan programmeren!
+Time to get coding!
 
-\--- task \--- Klik op de Scratch kat in de sprite lijst. De kat is nu de huidige sprite.
+\--- task \---
 
-Kies de **Gebeurtenissen** categorie in het code blokken palet, klik op het `wanneer op groene vlag wordt geklikt`{:class="block3events"} blok, en sleep het naar het huidige sprite paneel.
+In the sprite list, click on the Scratch Cat. The cat is now the current sprite.
+
+Choose the **Events** category in the code blocks palette, click the `when flag clicked`{:class="block3events"} block, and drag it into the current sprite panel.
 
 ```blocks3
     wanneer op groene vlag wordt geklikt
@@ -79,18 +85,28 @@ Kies de **Gebeurtenissen** categorie in het code blokken palet, klik op het `wan
 
 \--- /task \---
 
-\--- task \--- Ga nu naar **Uiterlijken** in het code blokken palet en zoek dit blok:
+\--- task \---
+
+Then go to **Looks** in the code blocks palette and find this block:
 
 ```blocks3
     zeg [Hallo!] voor (2) sec
 ```
 
-Klik erop, houd de muisknop ingedrukt en sleep hem naar het huidige sprite paneel en laat de knop los.
+Click on it, hold down the mouse button, and then just drag it into the current sprite panel and let go of the button.
 
 \--- /task \---
 
-\--- task \--- Nu het tweede blok ook in het huidige sprite paneel staat, verbind je het aan de onderkant van het eerste blok door erop te klikken en het onder het eerste blok te slepen zodat ze aan elkaar vastklikken, zoals dit:
+\--- task \---
 
-![](images/setup3.png) \--- /task \---
+Now that the second block is in the current sprite panel, connect it to the bottom of the first block by clicking and dragging it again to move it below the other block until they snap together, like this:
 
-\--- task \--- Klik nu op de **Ga** knop en kijk wat er gebeurt! \--- /task \---
+![](images/setup3.png)
+
+\--- /task \---
+
+\--- task \---
+
+Now click the **Start Program** button and watch what happens!
+
+\--- /task \---
