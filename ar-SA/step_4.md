@@ -2,38 +2,46 @@
 
 يحتوي Scratch على مكتبة من الخلفيات والكائنات يمكنك استخدامها لجعل مشروعك رائعًا.
 
-\--- task \--- اختر المنصة.
+\--- task \---
 
-![اختيار المنصة](images/looksSelectStage.png)
+Select the Stage.
 
-انقر على ** الخلفيات **.
+![Selecting the stage](images/looksSelectStage.png)
 
-![علامة التبويب للخلفيات](images/looksBackdrops.png)
+Click on **Backdrops**.
 
-إضغط على ايقونة **اختيار خلفية من المكتبة**.
+![The Backdrops tab](images/looksBackdrops.png)
 
-![أيقونة اختيار الخلفية](images/looksChooseBg.png)
+Click the **Choose backdrop from library** icon.
 
-ثم اختر الخلفية المفضلة لديك تحت الماء!
+![The Choose backdrop icon](images/looksChooseBg.png)
 
-![مشهد تحت الماء](images/looksUnderwater.png) \--- /task \---
+Then pick your favourite underwater background!
 
-عظيم! بالطبع ، لديك الآن قطة تحت الماء ، والقطط ليست من المعجبين بهذا الأمر. ولكن يمكنك إصلاح ذلك ، لأنه يمكنك تحويل القط إلى سمكة قرش!
+![An underwater scene](images/looksUnderwater.png)
 
-\--- task \--- أولاً ، حدد كائن القط وانقر على تبويب **المظاهر**.
+\--- /task \---
+
+Great! Of course, now you have a cat underwater, and cats aren't usually big fans of that. But you can fix that, because you can turn the cat into a shark!
+
+\--- task \---
+
+First, select the cat sprite and click on the **Costumes** tab.
 
 ![](images/cool2.png)
 
-ثم ، انقر فوق ** اختيار مظهر من المكتبة **
+Then, click on **Choose costume from Library**
 
 ![](images/cool3.png)
 
-حدد صورة القرش هذه وانقر فوق **موافق**.
+Select this shark image and click **OK**.
 
-![مظهر القرش](images/looksShark.png)
+![The shark costume](images/looksShark.png)
 
-الآن قم بإزالة أزياء القط عن طريق تحديد كل منها والنقر على ** x **.
+Now remove the cat costumes by selecting each of them and clicking on the **x**.
 
-![](images/coolDeleteCostumes.png) \--- /task \---
+![](images/coolDeleteCostumes.png)
 
-الآن لديك سمكة قرش - ممتازة!
+\--- /task \---
+
+Now you have a shark – excellent!
