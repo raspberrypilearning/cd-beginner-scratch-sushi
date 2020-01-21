@@ -2,17 +2,21 @@
 
 Wenn du Scratch öffnest, wird ein Fenster wie das unten stehende angezeigt.
 
-\--- Aufgabe \--- Suche nach den folgenden Bereichen und merke dir, wo sie sich befinden. \--- /task \---
+\--- task \---
+
+Look for each of the following areas and remember where they are.
+
+\--- /task \---
 
 ### Die Bühne
 
-![Scratch-Fenster mit hervorgehobener Bühne](images/hlStage.png)
+![Scratch window with the stage highlighted](images/hlStage.png)
 
 ## \--- collapse \---
 
 ## Titel: Was ist die Bühne?
 
-Hier laufen deine Scratch-Programme. Es hat:
+This is where your Scratch programs run. It has:
 
 * Eine oder mehrere **Hintergründe** \(Bilder auf dem Bildschirmhintergrund\)
 
@@ -22,15 +26,15 @@ Hier laufen deine Scratch-Programme. Es hat:
 
 ### Die Figuren-Liste
 
-![Scratch-Fenster mit hervorgehobener Figuren-Liste](images/hlSpriteList.png)
+![Scratch window with the sprite list highlighted](images/hlSpriteList.png)
 
 ## \--- collapse \---
 
 ## Titel: Was ist eine Figur?
 
-Jeder Gegenstand, den du der Bühne hinzufügen kannst, ist eine **Figur**.
+Any item you can add on the Stage is a **sprite**.
 
-Eine Figur beinhaltet:
+A sprite includes:
 
 * Das **Bild** auf der Bühne
 * Jedes zusätzliche **Kostüm** \(Aussehen\), dass sie hat
@@ -41,37 +45,39 @@ Eine Figur beinhaltet:
 
 ### Die Code-Block-Palette
 
-![Scratch-Fenster mit hervorgehobener Blockpalette](images/hlBlocksPalette.png)
+![Scratch window with the blocks pallet highlighted](images/hlBlocksPalette.png)
 
 ## \--- collapse \---
 
 ## title: Codeblöcke
 
-Code in Scratch kommt in Form von Blöcken, die du verbindest, um Programme zu erstellen. Du wählst Blöcke aus der **-Code-Block-Palette**, ziehst sie in das **aktuelle Figuren-Panel**und verbindest sie dann miteinander.
+Code in Scratch comes in the form of blocks that you connect to make programs. You choose blocks from the **code blocks palette**, drag them into the **current sprite panel**, and then connect them to each other.
 
-Es gibt zehn Kategorien von Blöcken. Sie sind farblich gekennzeichnet. Du kannst zwischen ihnen wählen, indem du auf die Elemente in der Liste oben in der **-Codeblock-Palette**klickst.
+There are ten categories of blocks. They are colour-coded, and you can choose between them by clicking on the items in the list at the top of the **code blocks palette**.
 
 \--- /collapse \---
 
 ### Das aktuelle Figuren-Panel
 
-![Scratch-Fenster mit hervorgehobenem aktuellen Figuren-Fenster](images/hlCurrentSpritePanel.png)
+![Scratch window with the current sprite panel highlighted](images/hlCurrentSpritePanel.png)
 
 ## \--- collapse \---
 
 ## Titel: Was ist die aktuelle Figur?
 
-Die aktuelle **Figur** ist diejenige, die in der **Figuren-Liste** ausgewählt ist.
+The **current sprite** is the one that's selected in the **sprite list**.
 
-Im **aktuellen Figuren - Panel** siehst du Code, Kostüme und Töne für die ausgewählte Figur.
+The **current sprite panel** is where you can see the code, costumes, and sounds for the selected sprite.
 
 \--- /collapse \---
 
-Zeit für die Programmierung!
+Time to get coding!
 
-\--- task \--- Klicke in der Figuren-Liste auf die Scratch Katze. Die Katze ist jetzt die aktuelle Figur.
+\--- task \---
 
-Wähle die Kategorie **Ereignisse** in der Codeblockpalette aus, klicke auf die Schaltfläche `wenn grüne Flagge geklickt wird`{:class="block3events"} und ziehe sie in das aktuelle Figuren-Fenster.
+In the sprite list, click on the Scratch Cat. The cat is now the current sprite.
+
+Choose the **Events** category in the code blocks palette, click the `when flag clicked`{:class="block3events"} block, and drag it into the current sprite panel.
 
 ```blocks3
     wenn grüne Flagge angeklickt
@@ -79,18 +85,28 @@ Wähle die Kategorie **Ereignisse** in der Codeblockpalette aus, klicke auf die 
 
 \--- /task \---
 
-\--- task \--- Dann gehe zu **Aussehen** in der Codeblock-Palette und suche diesen Block:
+\--- task \---
+
+Then go to **Looks** in the code blocks palette and find this block:
 
 ```blocks3
     sage [Hallo!] für (2) Sekunden
 ```
 
-Klicke darauf, halte die Maustaste gedrückt und ziehe es in das aktuelle Figuren-Panel, und lasse die Schaltfläche los.
+Click on it, hold down the mouse button, and then just drag it into the current sprite panel and let go of the button.
 
 \--- /task \---
 
-\--- task \--- Nun, da sich der zweite Block im aktuellen Figuren-Panel befindet, verbinde ihn mit dem unteren Teil des ersten Blocks, indem du ihn anklickst und erneut ziehst, um ihn unter den anderen Block zu verschieben, bis er zusammenschnappt, wie folgt:
+\--- task \---
 
-![](images/setup3.png) \--- /task \---
+Now that the second block is in the current sprite panel, connect it to the bottom of the first block by clicking and dragging it again to move it below the other block until they snap together, like this:
 
-\--- task \--- Klicke nun auf die Schaltfläche **Starte Programm** und beobachte, was passiert! \--- /task \---
+![](images/setup3.png)
+
+\--- /task \---
+
+\--- task \---
+
+Now click the **Start Program** button and watch what happens!
+
+\--- /task \---
