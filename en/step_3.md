@@ -26,7 +26,9 @@ You can click on the blcok you want, and then just drag it into the current spri
 If you want to see what a block does, you can double-click on it to make it run!
 
 --- task ---
+
 Try double-clicking on some of the blocks to see what they do.
+
 --- /task ---
 
 --- collapse ---
@@ -59,7 +61,9 @@ Removing or deleting code blocks you don’t want in your program is easy! Just 
 ![](images/code6.png)
 
 --- task ---
+
 Try adding, deleting, and undeleting some code blocks! 
+
 --- /task ---
 
 ### Putting it all together
@@ -67,18 +71,22 @@ Try adding, deleting, and undeleting some code blocks!
 Now you know how to move code around and make things happen, it's time for you to create a program to make the Scratch Cat walk in a circle!
 
 --- task ---
+
 Make sure you have the cat sprite selected in the sprite list, and then drag the following blocks into the sprite panel and connect them. You’ll find them in the **Events** and **Motion** lists.
 
 ```blocks3
     when green flag clicked
     move [10] steps
 ``` 
+
 --- /task ---
 
 --- task ---
+
 Now, click on the green flag above the Stage. 
 
 ![](images/code7.png)
+
 --- /task ---
 
 You should see the cat walking in a straight line...not exactly what you want, right?
@@ -86,6 +94,7 @@ You should see the cat walking in a straight line...not exactly what you want, r
 Note: If you click th flag too many times and the cat walks away, you can drag it back!  
 
 --- task ---
+
 Snap the turn block to the end to make the cat sprite walk in a circle. It’s in the **Motion** list too. 
 
 ```blocks3
@@ -93,6 +102,7 @@ Snap the turn block to the end to make the cat sprite walk in a circle. It’s i
     move [10] steps
 +    turn cw (15) degrees
 ```
+
 --- /task ---
 
 --- collapse ---
@@ -107,5 +117,7 @@ This block makes the sprite turn 15 degrees of the full 360 degrees that make up
 --- /collapse ---
 
 --- task ---
+
 Now save your work!
+
 --- /task ---
