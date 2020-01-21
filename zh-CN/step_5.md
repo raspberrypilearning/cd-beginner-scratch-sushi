@@ -2,21 +2,31 @@
 
 Right now your shark moves in a circle, and it would be much more fun to control it with the arrow keys. On this card, you’re going learn how to do that!
 
-\--- task \--- Start by deleting all code that you have for the shark. \--- /task \---
+\--- task \---
+
+Start by deleting all code that you have for the shark.
+
+\--- /task \---
 
 As you’ve probably guessed, you’re going to need **Event** and **Motion** blocks again!
 
-\--- task \--- This time, look for this block and drag it into the current sprite panel:
+\--- task \---
+
+This time, look for this block and drag it into the current sprite panel:
 
 ```blocks3
     when [space v] key pressed
 ```
 
-Click the little arrow (▼) beside `space`. You will see a list of all your keyboard keys that you can pick from. \--- /task \---
+Click the little arrow (▼) beside `space`. You will see a list of all your keyboard keys that you can pick from.
+
+\--- /task \---
 
 You’re going to need four of the `when key pressed`{:class="block3events"} blocks — one for each of your arrow keys.
 
-\--- task \--- To make your shark move, connect these blocks to **Motion** blocks like this:
+\--- task \---
+
+To make your shark move, connect these blocks to **Motion** blocks like this:
 
 ```blocks3
     when [left arrow v] key pressed
@@ -40,11 +50,17 @@ You’re going to need four of the `when key pressed`{:class="block3events"} blo
 
 **Note**: `-10` means 'go back 10 steps'.
 
-\--- task \--- Now click the green flag to test out your code. \--- /task \---
+\--- task \---
+
+Now click the green flag to test out your code.
+
+\--- /task \---
 
 Now your shark moves back and forwards, which is pretty cool, but it doesn’t move up or down. Also, if you look through the **Motion** blocks, you’ll see there are no blocks for 'up' or 'down'. There are a whole bunch of them related to **x** and **y** coordinates though — let's try those!
 
-\--- task \--- Grab two `change y by`{:class="block3motion"} blocks, and update your code like this:
+\--- task \---
+
+Grab two `change y by`{:class="block3motion"} blocks, and update your code like this:
 
 ```blocks3
     when [up arrow v] key pressed
@@ -88,7 +104,9 @@ That’s actually pretty easy! The centre of the stage is `(0, 0)` in `(x, y)` c
 
 So all you need is an **Event** block for that green flag, and the **go to** block from **Motion**.
 
-\--- task \--- Drag a `when green flag clicked`{:class="block3events"} **Event** block onto the current sprite panel.
+\--- task \---
+
+Drag a `when green flag clicked`{:class="block3events"} **Event** block onto the current sprite panel.
 
 ```blocks3
     when green flag clicked
@@ -105,4 +123,8 @@ Set the both the `x` and the `y` coordinate to `0` in the `go to`{:class="block3
 
 \--- /task \---
 
-\--- task \--- Now click the green flag: you should see the shark return to the centre of the stage! \--- /task \---
+\--- task \---
+
+Now click the green flag: you should see the shark return to the centre of the stage!
+
+\--- /task \---
