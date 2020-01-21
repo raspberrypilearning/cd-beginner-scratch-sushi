@@ -2,38 +2,46 @@
 
 Scratch heeft een bibliotheek met achtergronden en sprites die je kunt gebruiken om je project er geweldig uit te laten zien.
 
-\--- task \--- Selecteer het Speelveld.
+\--- task \---
 
-![Het Speelveld selecteren](images/looksSelectStage.png)
+Select the Stage.
 
-Klik op **Achtergronden**.
+![Selecting the stage](images/looksSelectStage.png)
 
-![De Achtergronden tab](images/looksBackdrops.png)
+Click on **Backdrops**.
 
-Klik op het **Kies een achtergrond** icoon.
+![The Backdrops tab](images/looksBackdrops.png)
 
-![Het Kies een achtergrond icoon](images/looksChooseBg.png)
+Click the **Choose backdrop from library** icon.
 
-Kies dan je favoriete onderwaterachtergrond!
+![The Choose backdrop icon](images/looksChooseBg.png)
 
-![Een onder waterscène](images/looksUnderwater.png) \--- /task \---
+Then pick your favourite underwater background!
 
-Geweldig! Maar nu heb je natuurlijk een kat onder water, en katten zijn daar meestal geen grote fans van. Maar dat kun je oplossen, want je kunt de kat veranderen in een haai!
+![An underwater scene](images/looksUnderwater.png)
 
-\--- task \--- Selecteer eerst de kat sprite en klik op de **Uiterlijken** tab.
+\--- /task \---
+
+Great! Of course, now you have a cat underwater, and cats aren't usually big fans of that. But you can fix that, because you can turn the cat into a shark!
+
+\--- task \---
+
+First, select the cat sprite and click on the **Costumes** tab.
 
 ![](images/cool2.png)
 
-Klik dan op **Kies een uiterlijk**
+Then, click on **Choose costume from Library**
 
 ![](images/cool3.png)
 
-Selecteer deze haai afbeelding en klik op **OK**.
+Select this shark image and click **OK**.
 
-![Het haai uiterlijk](images/looksShark.png)
+![The shark costume](images/looksShark.png)
 
-Verwijder nu de kat uiterlijken door ze stuk voor stuk te selecteren en op **x** te klikken.
+Now remove the cat costumes by selecting each of them and clicking on the **x**.
 
-![](images/coolDeleteCostumes.png) \--- /task \---
+![](images/coolDeleteCostumes.png)
 
-Nu heb je een haai - uitstekend!
+\--- /task \---
+
+Now you have a shark – excellent!
