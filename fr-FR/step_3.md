@@ -89,7 +89,7 @@ Now, click on the green flag above the Stage.
 
 You should see the cat walking in a straight line...not exactly what you want, right?
 
-Note: If you click the flag too many times and the cat walks away, you can drag it back!
+Remarque: si tu cliques trop souvent sur le drapeau et que le chat s'éloigne, tu peux le faire glisser !
 
 \--- task \---
 
