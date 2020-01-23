@@ -91,7 +91,7 @@ Now, click on the green flag above the Stage.
 
 You should see the cat walking in a straight line...not exactly what you want, right?
 
-Note: If you click th flag too many times and the cat walks away, you can drag it back!  
+Note: If you click the flag too many times and the cat walks away, you can drag it back!  
 
 --- task ---
 
