@@ -4,9 +4,9 @@ D'accord, il est maintenant temps de faire nager le poisson tout seul. Pour ce f
 
 \--- task \---
 
-Select your fish sprite.
+Sélectionne ton sprite poisson.
 
-Drag a `when green flag clicked`{:class="block3events"} **Event** block, a `forever`{:class="block3control"} **Control** block, and a `move 10 steps`{:class="block3motion"} **Motion** block into the **sprite panel**, like this:
+Fais glisser un bloc `lorsque le drapeau vert est cliqué`{:class="block3events"} **Événement**, un bloc `répéter indéfiniment`{: class = "block3control"} **Contrôle**, et un bloc `déplacement de 10 pas`{:class="block3motion"} **Mouvement** dans le **panneau sprite**, comme ceci :
 
 ```blocks3
     lorsque le drapeau vert est cliqué sur
@@ -21,21 +21,21 @@ Drag a `when green flag clicked`{:class="block3events"} **Event** block, a `fore
 
 ## title: que fait le nouveau bloc?
 
-**Control** blocks make your program do things a certain number of times, or under certain conditions.
+**Les blocs de contrôle** obligent ton programme à effectuer des tâches un certain nombre de fois ou dans certaines conditions.
 
-Here, the fish does whatever is inside the `forever`{:class="block3control"} block over and over again on a loop, forever. So once it has done the last thing (block) inside the `forever`{:class="block3control"} block, it starts over at the top and does everything again, and so on.
+Ici, le poisson fait ce qui est dans le bloc `répéter indéfiniment`{:class="block3control"} encore et encore sur une boucle, pour toujours. Ainsi, une fois la dernière chose (bloc) passée dans le bloc `répéter indéfiniment`{:class="block3control"}, il recommence en haut et fait de nouveau tout, et ainsi de suite.
 
 \--- /collapse \---
 
 \--- task \---
 
-Now click the green flag and watch what happens!
+Maintenant, clique sur le drapeau vert et regarde ce qui se passe !
 
 \--- /task \---
 
-Well, that fish just crashed into the side of the Stage, and it was moving far too fast for your shark to catch.
+Eh bien, ce poisson vient de s'écraser sur le côté de la scène et il se déplaçait beaucoup trop vite pour que ton requin puisse l'attraper.
 
-First, you need to slow the fish down. That’s actually pretty easy, you just need it to wait for a little while after it moves those 10 steps. There’s a **Control** block that will help you here:
+Tout d'abord, tu dois ralentir le poisson. C'est en fait assez facile, tu as juste besoin d'attendre un peu après avoir bougé ces 10 pas. Il y a un bloc **Contrôle** qui t'aideras ici :
 
 ```blocks3
     attendre (1) secondes
@@ -43,7 +43,7 @@ First, you need to slow the fish down. That’s actually pretty easy, you just n
 
 \--- task \---
 
-Add the `wait`{:class="block3control"} block into your code inside the `forever`{:class="block3control"} block, and change the number to `0.5`, like this:
+Ajoute le bloc `attendre`{:class="block3control"} dans ton code à l'intérieur du bloc `répétez indéfiniment`{:class="block3control"} et modifie le nombre à `0.5`, comme ceci :
 
 ```blocks3
     lorsque le drapeau vert est cliqué 
@@ -59,13 +59,13 @@ Add the `wait`{:class="block3control"} block into your code inside the `forever`
 
 ## title: faire des ajustements
 
-The number you set in the `wait`{:class="block3control"} block says how many **seconds** you want the fish to wait. `0.5` is half a second.
+Le numéro que tu définis dans le bloc `attendre`{:class="block3control"} dit combien de **secondes** tu veux que le poisson attende. `0.5` est une demi-seconde.
 
-You can test out different values to see which is the best for the game. And remember that you can change the number of steps inside the `move`{:class="block3motion"} block too!
+Tu peux tester différentes valeurs pour déterminer laquelle est la meilleure pour le jeu. Et rappelle-toi que tu peux également modifier le nombre de pas dans le bloc `déplacer`{:class="block3motion"}!
 
 \--- /collapse \---
 
-The fish moves now, but you need it to bounce off the edge of the Stage too. Yet again, there’s a **Motion** block for this!
+Le poisson bouge maintenant, mais tu en as aussi besoin pour rebondir sur le bord de la scène. Encore une fois, il y a un bloc **Mouvement** pour cela !
 
 \--- task \---
 
