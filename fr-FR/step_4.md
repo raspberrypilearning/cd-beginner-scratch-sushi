@@ -4,44 +4,44 @@ Scratch dispose d'une bibliothèque d'arrière-plans et de sprites que tu peux u
 
 \--- task \---
 
-Select the Stage.
+Sélectionne la scène.
 
-![Selecting the stage](images/looksSelectStage.png)
+![Sélection de la scène](images/looksSelectStage.png)
 
-Click on **Backdrops**.
+Clique sur **Arrière-plans**.
 
-![The Backdrops tab](images/looksBackdrops.png)
+![L'onglet Arrière-plans](images/looksBackdrops.png)
 
-Click the **Choose backdrop from library** icon.
+Clique sur l'icône **Choisir l'arrière-plan à partir de la bibliothèque**.
 
-![The Choose backdrop icon](images/looksChooseBg.png)
+![L'icône Choisir un arrière-plan](images/looksChooseBg.png)
 
-Then pick your favourite underwater background!
+Ensuite, choisis ton fond sous-marin préféré !
 
-![An underwater scene](images/looksUnderwater.png)
+![Une scène sous-marine](images/looksUnderwater.png)
 
 \--- /task \---
 
-Great! Of course, now you have a cat underwater, and cats aren't usually big fans of that. But you can fix that, because you can turn the cat into a shark!
+Génial ! Bien sûr, tu as maintenant un chat sous l'eau, les chats ne sont généralement pas de grands fans de cela. Mais tu peux y remédier, car tu peux transformer le chat en requin !
 
 \--- task \---
 
-First, select the cat sprite and click on the **Costumes** tab.
+Tout d'abord, sélectionne le sprite chat et clique sur l'onglet **Costumes**.
 
 ![](images/cool2.png)
 
-Then, click on **Choose costume from Library**
+Ensuite, clique sur **Choisir costume à partir de la bibliothèque**
 
 ![](images/cool3.png)
 
-Select this shark image and click **OK**.
+Sélectionne cette image de requin et clique sur **OK**.
 
-![The shark costume](images/looksShark.png)
+![Le costume de requin](images/looksShark.png)
 
-Now remove the cat costumes by selecting each of them and clicking on the **x**.
+Enlève maintenant les costumes de chat en les sélectionnant chacun et en cliquant sur le **x**.
 
 ![](images/coolDeleteCostumes.png)
 
 \--- /task \---
 
-Now you have a shark – excellent!
+Maintenant tu as un requin - excellent !
