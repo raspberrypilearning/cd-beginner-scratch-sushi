@@ -81,19 +81,19 @@ Assure-toi que le sprite chat est sélectionné dans la liste, puis fais glisser
 
 \--- task \---
 
-Now, click on the green flag above the Stage.
+Maintenant, clique sur le drapeau vert au-dessus de la scène.
 
 ![](images/code7.png)
 
 \--- /task \---
 
-You should see the cat walking in a straight line...not exactly what you want, right?
+Tu devrais voir le chat marcher en ligne droite ... pas exactement ce que tu veux, exact ?
 
 Remarque: si tu cliques trop souvent sur le drapeau et que le chat s'éloigne, tu peux le faire glisser !
 
 \--- task \---
 
-Snap the turn block to the end to make the cat sprite walk in a circle. It’s in the **Motion** list too.
+Accroche le bloc tourner à la fin pour faire marcher le sprite du chat en cercle. C'est aussi dans la liste **Mouvement**.
 
 ```blocks3
     lorsque le drapeau vert est cliqué 
@@ -107,7 +107,7 @@ Snap the turn block to the end to make the cat sprite walk in a circle. It’s i
 
 ## title: Comment fonctionne la rotation?
 
-This block makes the sprite turn 15 degrees of the full 360 degrees that make up a circle. You can change that number, and the number of steps, by clicking on the number and typing in a new value.
+Ce bloc fait tourner le sprite de 15 degrés sur 360 degrés complets qui forment un cercle. Tu peux modifier ce nombre et le nombre de pas en cliquant dessus et en saisissant une nouvelle valeur.
 
 ![](images/code9.png)
 
@@ -115,6 +115,6 @@ This block makes the sprite turn 15 degrees of the full 360 degrees that make up
 
 \--- task \---
 
-Now save your work!
+Maintenant, enregistre ton travail !
 
 \--- /task \---
