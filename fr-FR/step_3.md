@@ -26,7 +26,7 @@ Si tu veux voir ce que fait un bloc, tu peux double-cliquer dessus pour le faire
 
 \--- task \---
 
-Try double-clicking on some of the blocks to see what they do.
+Essaie de double-cliquer sur certains blocs pour voir ce qu’ils font.
 
 \--- /task \---
 
@@ -34,15 +34,15 @@ Try double-clicking on some of the blocks to see what they do.
 
 ## title: Exécuter le code
 
-Usually, you want your code to run automatically whenever something specific happens. This is why many of your programs will start with a block from the **Events** category, most often this one:
+Généralement, tu veux que ton code soit exécuté automatiquement chaque fois que quelque chose de spécifique se produit. C’est pourquoi beaucoup de tes programmes commenceront avec un bloc de la catégorie **Événements** , le plus souvent celui-ci :
 
 ```blocks3
     quand le drapeau vert est cliqué
 ```
 
-The code blocks connected to this block will run after the **green flag** is clicked.
+Les blocs de code reliés à ce bloc seront exécutés après que le **drapeau vert** sera cliqué.
 
-Code blocks run from top to bottom, so the order in which you snap your blocks together matters. In this example, the sprite will `say`{:class="block3looks"} `Hello!` before it will `play`{:class="block3sound"} the `meow` sound.
+Les blocs de code vont du haut vers le bas. L'ordre dans lequel tu assembles tes blocs est donc important. Dans cet exemple, le sprite `dira`{:class = "block3looks"} `Bonjour!` avant de `jouer`{:class = "block3sound"} le son `Meow`.
 
 ```blocks3
     quand le drapeau vert est cliqué
@@ -52,25 +52,25 @@ Code blocks run from top to bottom, so the order in which you snap your blocks t
 
 \--- /collapse \---
 
-Removing or deleting code blocks you don’t want in your program is easy! Just drag them back into the code blocks palette.
+Il est facile d'enlever ou de supprimer des blocs de code que tu ne veux pas dans ton programme ! Fais-les simplement glisser dans la palette des blocs de code.
 
-**Be careful:** dragging them into the code blocks pallette will delete all the blocks connected to the block you drag, so make sure to separate code blocks you want to keep from those you want to remove. If you delete some code blocks by accident and want to get them back, right-click and then click on the **undo** option to get everything back.
+**Fais attention:** si tu fais glisser un bloc de code dans la palette des blocs de code, cela supprimera tous les blocs reliés au bloc que tu fais glisser. Veille donc à séparer les blocs de code que tu souhaites conserver de ceux que tu souhaites enlever. Si tu supprimes des blocs de code par accident et que tu souhaites les récupérer, clique avec le bouton droit de la souris, puis clique sur **Restaurer** pour tout récupérer.
 
 ![](images/code6.png)
 
 \--- task \---
 
-Try adding, deleting, and undeleting some code blocks!
+Essaie d'ajouter, de supprimer, et d'annuler la suppression de certains blocs de code !
 
 \--- /task \---
 
 ### Les mettre tous ensemble
 
-Now you know how to move code around and make things happen, it's time for you to create a program to make the Scratch Cat walk in a circle!
+Maintenant que tu sais comment déplacer le code et faire bouger les choses, il est temps de créer un programme pour faire en sorte que le chat Scratch marche en cercle !
 
 \--- task \---
 
-Make sure you have the cat sprite selected in the sprite list, and then drag the following blocks into the sprite panel and connect them. You’ll find them in the **Events** and **Motion** lists.
+Assure-toi que le sprite chat est sélectionné dans la liste, puis fais glisser les blocs suivants dans le panneau sprite et relie-les. Tu les trouveras dans les listes **Événements** et **Mouvement**.
 
 ```blocks3
     quand le drapeau vert est cliqué
