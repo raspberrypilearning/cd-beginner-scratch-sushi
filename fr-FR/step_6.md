@@ -50,9 +50,9 @@ Prends quelques copies du bloc `s'orienter dans la direction`{:class="block3moti
 
 Modifie le nombre de pas dans les blocs `déplacement`{:class="block3motion"} de `-10` à `10`.
 
-If you try moving the shark around now after you've added the `point in direction`{:class="block3motion"} blocks, you might notice something a little strange happening. The shark may not be turning quite right!
+Si tu essaies de déplacer le requin maintenant après avoir ajouté le `point dans les blocs direction`{:class="block3motion"}, tu remarqueras peut-être un événement quelque peu étrange. Le requin ne tourne peut-être pas très bien !
 
-![Upside down shark](images/spritesUpsideDown.png)
+![Requin à l'envers](images/spritesUpsideDown.png)
 
 \--- /task \---
 
@@ -60,17 +60,17 @@ If you try moving the shark around now after you've added the `point in directio
 
 ## title: Pourquoi ça va à l'envers?
 
-The problem here is that the shark sprite started, as all sprites do, with the 'all around' **rotation style**, and what you need it to have is the 'left-right' style.
+Le problème ici est que le sprite de requin a commencé, comme tous les sprites font, avec le « tout autour de » **style de rotation**, et ce que tu as besoin d'avoir est le style « gauche-droite ».
 
-As usual, there’s a block for that, and it’s in **Motion**!
+Comme d'habitude, il existe un bloc pour cela, et c'est dans **Mouvement** !
 
 \--- /collapse \---
 
 \--- task \---
 
-Look in the **Motion** category for the block `set rotation style`{:class="block3motion"}.
+Recherche dans la catégorie **Mouvement** le bloc` définir style de rotation `{: class="block3motion"}.
 
-Add the block to your shark reset code from earlier, and set the rotation style to `left-right`{:class="block3motion"}, like this:
+Ajoute le bloc à ton code de réinitialisation de requin précédent et définis le style de rotation sur `gauche-droite`{:class="block3motion"}, comme ceci :
 
 ```blocks3
     lorsque le drapeau vert est cliqué 
