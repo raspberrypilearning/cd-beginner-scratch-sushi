@@ -30,7 +30,7 @@ Le bloc `dans la direction`{:class="block3motion"} nous permet de choisir la dir
 
 \--- task \---
 
-Grab a couple of copies of the `point in direction`{:class="block3motion"} block from the **Motion** list and connect them to your shark's code, like this:
+Prends quelques copies du bloc `s'orienter dans la direction`{:class="block3motion"} de la liste **Mouvement** et connecte-les au code de ton requin, comme suit :
 
 ```blocks3
     lorsque la touche [flèche gauche v] est enfoncée
@@ -48,7 +48,7 @@ Grab a couple of copies of the `point in direction`{:class="block3motion"} block
 
 \--- task \---
 
-Change the number of steps in the `move`{:class="block3motion"} blocks from `-10` to `10`.
+Modifie le nombre de pas dans les blocs `déplacement`{:class="block3motion"} de `-10` à `10`.
 
 If you try moving the shark around now after you've added the `point in direction`{:class="block3motion"} blocks, you might notice something a little strange happening. The shark may not be turning quite right!
 
