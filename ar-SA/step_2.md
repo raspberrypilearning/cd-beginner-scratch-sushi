@@ -14,7 +14,7 @@ Look for each of the following areas and remember where they are.
 
 ## \--- collapse \---
 
-## العنوان: ما هي المنصة؟
+## title: ما هي المنصة؟
 
 This is where your Scratch programs run. It has:
 
