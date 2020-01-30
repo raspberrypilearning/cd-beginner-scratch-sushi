@@ -2,8 +2,12 @@
 
 Kies een score waarbij de speler wint, en laat iets leuks gebeuren als ze die score halen. Laat de haai de speler feliciteren, laat een 'Jij wint!' sprite te voorschijn komen, of speel muziek af!
 
-Door de community geleverde vertaling
+***
 
-Dit project werd vertaald door Sanneke van der Meet en gecontroleerd door Lieve Cox.
+Dit project werd vertaald door vrijwilligers:
 
-Onze geweldige vertalers helpen ons om kinderen over de hele wereld de kans te geven te leren coderen. Jij kunt ons helpen nog meer kinderen te bereiken door onze projecten te vertalen - lees meer op [rpf.io/translators](https://rpf.io/translators).
+Sanneke van der Meet
+
+Lieve Cox
+
+Dankzij vrijwilligers kunnen we mensen over de hele wereld de kans geven om in hun eigen taal te leren. Jij kunt ons helpen meer mensen te bereiken door vrijwillig te starten met vertalen - meer informatie op [rpf.io/translate](https://rpf.io/translate).
