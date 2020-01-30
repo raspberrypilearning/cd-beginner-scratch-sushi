@@ -4,44 +4,44 @@ Scratch heeft een bibliotheek met achtergronden en sprites die je kunt gebruiken
 
 \--- task \---
 
-Select the Stage.
+Selecteer het werkgebied.
 
-![Selecting the stage](images/looksSelectStage.png)
+![Het Speelveld selecteren](images/looksSelectStage.png)
 
-Click on **Backdrops**.
+Klik op **Achtergronden**.
 
-![The Backdrops tab](images/looksBackdrops.png)
+![De Achtergronden tab](images/looksBackdrops.png)
 
-Click the **Choose backdrop from library** icon.
+Klik op de ** Achtergrond kiezen uit bibliotheek ** icoon.
 
-![The Choose backdrop icon](images/looksChooseBg.png)
+![Het Kies een achtergrond icoon](images/looksChooseBg.png)
 
-Then pick your favourite underwater background!
+Kies dan je favoriete onderwaterachtergrond!
 
-![An underwater scene](images/looksUnderwater.png)
+![Een onder waterscène](images/looksUnderwater.png)
 
 \--- /task \---
 
-Great! Of course, now you have a cat underwater, and cats aren't usually big fans of that. But you can fix that, because you can turn the cat into a shark!
+Geweldig! Maar nu heb je natuurlijk een kat onder water, en katten zijn daar meestal geen grote fans van. Maar dat kun je oplossen, want je kunt de kat veranderen in een haai!
 
 \--- task \---
 
-First, select the cat sprite and click on the **Costumes** tab.
+Selecteer eerst de kat sprite en klik op de **Uiterlijken** tab.
 
 ![](images/cool2.png)
 
-Then, click on **Choose costume from Library**
+Klik dan op **Kies een uiterlijk**
 
 ![](images/cool3.png)
 
-Select this shark image and click **OK**.
+Selecteer deze haai afbeelding en klik op **OK**.
 
-![The shark costume](images/looksShark.png)
+![Het haai uiterlijk](images/looksShark.png)
 
-Now remove the cat costumes by selecting each of them and clicking on the **x**.
+Verwijder nu de kat uiterlijken door ze stuk voor stuk te selecteren en op **x** te klikken.
 
 ![](images/coolDeleteCostumes.png)
 
 \--- /task \---
 
-Now you have a shark – excellent!
+Nu heb je een haai - uitstekend!
