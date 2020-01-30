@@ -6,9 +6,9 @@ Eerst moet je weten of de vis de haai aanraakt. Hiervoor heb je een **Besturen**
 
 \--- task \---
 
-Add the `if...then`{:class="block3control"} **Control** block inside the `forever`{:class="block3control"} loop of the fish sprite, below the `if on edge bounce`{:class="block3motion"} block.
+Voeg het `als...dan`{:class="block3control"} **Besturen** blok toe aan de `herhaal`{:class="block3control"} lus van de vis sprite, onder het `keer om aan de rand`{:class="block3motion"} blok.
 
-Drag the `touching...`{:class="block3sensing"} block into the space at the top of the `if...then`{:class="block3control"} block, and click the little triangle to select the shark sprite's name. If you haven’t changed it, it'll be 'Sprite1'.
+Sleep het `raak ik`{:class="block3sensing"} blok boven in het vlakje van het `als...dan`{;class="block3control"} blok, en klik op het kleine driehoekje om de naam van de haai sprite te selecteren. Als je die naam niet verandert hebt, zal dat 'Sprite1' zijn.
 
 ```blocks3
     wanneer op de groene vlag wordt geklikt
@@ -28,25 +28,25 @@ einde
 
 ## title: Hoe werkt het?
 
-The `if...then`{:class="block3control"} **Control** block needs to be given a `True/False` value.
+Het `als...dan`{:class="block3control"} **Besturen** blok heeft een `Waar/Niet waar` waarde nodig.
 
-**Sensing** blocks collect information, like where the sprite is, what it’s touching, etc. You're using this block:
+**Waarnemen** blokken verzamelen informatie, zoals waar de sprite is, wat hij aanraakt, etc. Je gebruikt dit blok:
 
 ```blocks3
     <raak ik [Sprite1 v]>
 ```
 
-From this block's pointy ends, you can tell it’s going to give you the `True/False` value that the `if...then`{:class="block3control"} block needs.
+Door de puntige hoeken van dit blok, weet je dat het je een `Waar/Niet waar` waarde zal geven dat het `als...dan`{:class="block3control"} blok nodig heeft.
 
 \--- /collapse \---
 
-Of course, you’ve just added an `if...then`{:class="block3control"} block without adding anything for the 'then' part. So at the moment your script is checking whether the fish sprite is touching the shark sprite, but it's not making anything happen in response.
+Uiteraard heb je net een `als...dan`{:class="block3control"} blok toegevoegd zonder iets voor het 'dan' gedeelte te zetten. Dus nu controleert je code of de vis de haai aanraakt, maar gebeurt er verder helemaal niets.
 
-You can make the fish disappear, as if the shark ate it, by using the `hide`{:class="block3looks"} block.
+Je kunt de vis laten verdwijnen, alsof de haai hem heeft opgegeten, door het `verdwijn`{:class="block3looks"} blok te gebruiken.
 
 \--- task \---
 
-Find the `hide`{:class="block3looks"} block in the **Looks** list, and put it inside the `if...then`{:class="block3control"} block, like so:
+Zoek het `verdwijn`{:class="block3looks"} blok in **Uiterlijken** en zet het in het `als...dan` blok{:class="block3control"} blok:
 
 ```blocks3
     als <raak ik [Sprite1 v]> dan
@@ -56,11 +56,11 @@ einde
 
 \--- /task \---
 
-Now once the shark catches the fish, the fish disappears for good. That’s not great.
+Als de haai nu de vis pakt, verdwijnt de vis definitief. Dat is niet zo mooi.
 
 \--- task \---
 
-Put the `show`{:class="block3looks"} block from **Looks** in at the very start of the fish code, so you can reset the game.
+Zet het `verschijn`{:class="block3looks"} blok uit **Uiterlijken** helemaal aan het begin van de vis code, zodat je het spel kunt hervatten.
 
 ```blocks3
     wanneer op de groene vlag wordt geklikt
@@ -71,11 +71,11 @@ herhaal
 
 \--- /task \---
 
-That's already better, but you don’t want the player to have to restart the game every time they catch a single fish!
+Dat is al beter, maar je wilt niet dat de speler het spel moet herstarten zodra er een vis is gevangen!
 
 \--- task \---
 
-Update the code inside your `if...then`{:class="block3control"} block to look like this:
+Werk je code bij in het `als...dan`{:class="block3control"} blok om het er zo uit te laten zien:
 
 ```blocks3
     keer om aan de rand
@@ -93,10 +93,10 @@ einde
 
 ## title: Hoe werkt dit?
 
-You are being clever here: when the fish is hidden, it waits, moves, and then shows up again.
+Jij bent slim: als de vis verdwenen is, dan wacht hij, beweegt, en komt weer te voorschijn.
 
-It looks like lots of fish keep appearing, but it’s that one sprite moving around!
+Het lijkt alsof er heel veel vissen verschijnen, maar het is slechts één sprite die beweegt!
 
 \--- /collapse \---
 
-That’s a game! But there’s no way to keep score yet, or to win. You can fix that too — on the next card!
+Dat is pas een spel! Maar je hebt nog geen manier om de score bij te houden, of te winnen. Ook dat kun je oplossen - op de volgende kaart!
