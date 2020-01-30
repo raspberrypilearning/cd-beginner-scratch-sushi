@@ -30,7 +30,7 @@ Het `richt naar graden`{:class="block3motion"} blok laat je de richting bepalen 
 
 \--- task \---
 
-Grab a couple of copies of the `point in direction`{:class="block3motion"} block from the **Motion** list and connect them to your shark's code, like this:
+Gebruik een paar `richt naar graden`{:class="block3motion"} blokken uit de **Beweging** lijst en voeg ze als volgt aan de haaicode toe:
 
 ```blocks3
     wanneer [pijltje links v] is ingedrukt
@@ -48,11 +48,11 @@ neem (10) stappen
 
 \--- task \---
 
-Change the number of steps in the `move`{:class="block3motion"} blocks from `-10` to `10`.
+Verander het aantal stappen in de `beweging`{:class="block3motion"} blokken van `-10` tot `10`.
 
-If you try moving the shark around now after you've added the `point in direction`{:class="block3motion"} blocks, you might notice something a little strange happening. The shark may not be turning quite right!
+Als je de haai beweegt nu je de `richt naar graden`{:class="block3motion"} blokken hebt toegevoegd, zul je iets raars zien. De haai draait niet helemaal goed!
 
-![Upside down shark](images/spritesUpsideDown.png)
+![Ondersteboven haai](images/spritesUpsideDown.png)
 
 \--- /task \---
 
@@ -60,17 +60,17 @@ If you try moving the shark around now after you've added the `point in directio
 
 ## title: Waarom draait de haai ondersteboven?
 
-The problem here is that the shark sprite started, as all sprites do, with the 'all around' **rotation style**, and what you need it to have is the 'left-right' style.
+Het probleem is dat de haai begon, zoals alle sprites doen, met de 'helemaal rond' **draaistijl**, en wat je nodig hebt is de 'links-rechts' stijl.
 
-As usual, there’s a block for that, and it’s in **Motion**!
+Zoals altijd is daar een blok voor in **Beweging**!
 
 \--- /collapse \---
 
 \--- task \---
 
-Look in the **Motion** category for the block `set rotation style`{:class="block3motion"}.
+Zoek in de **Beweging** categorie naar het blok `maak draaistijl`{:class="block3motion"}.
 
-Add the block to your shark reset code from earlier, and set the rotation style to `left-right`{:class="block3motion"}, like this:
+Voeg dit blok toe aan de herstartcode van de haai, en maak als volgt de draaistijl `links-rechts`{:class="block3motion"}:
 
 ```blocks3
     wanneer op de groene vlag wordt geklikt
