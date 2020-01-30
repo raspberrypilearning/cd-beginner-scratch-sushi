@@ -6,17 +6,17 @@ Ten eerste: de scoren opslaan!
 
 \--- task \---
 
-Go to the **Variables** blocks category and click on **Make a Variable**.
+Ga naar de **Variabelen** blokken categorie en klik op **Maak een variabele**.
 
 ![](images/catch5.png)
 
-Enter `score` as the name.
+Type `score` als de naam.
 
 ![](images/catch6.png)
 
-Check out your new variable!
+Bekijk je nieuwe variabele!
 
-![The Score variable is displayed on the stage](images/scoreVariableStage.png)
+![De Score variabele wordt weergegeven in het speelveld](images/scoreVariableStage.png)
 
 \--- /task \---
 
@@ -24,15 +24,15 @@ Check out your new variable!
 
 ## title: Wat zijn variabelen?
 
-When you want to store information in a program, you use something called a **variable**. Think of it like a box with a label on it: you can put something in it, check what’s in it, and change what’s in it. You’ll find variables in the **Variables** section, but you need to create them first for them to show up there!
+Als je informatie wilt opslaan in een programma, dan gebruik je iets dat **variabele** heet. Zie het als een doos met een label erop: je kunt er iets instoppen, controleren wat er in zit, en veranderen wat er in zit. Je vindt de variabelen in de **Variabelen** categorie, maar je moet ze eerst zelf maken zodat ze te zien zijn!
 
 \--- /collapse \---
 
-Now you need to update the variable whenever the shark eats a fish, and to reset it when the game is restarted. Doing both is pretty easy:
+Nu moet de variabele elke keer bijgewerkt worden als de haai een vis pakt, en opnieuw beginnen als het spel wordt herstart. Beide zijn vrij simpel om te doen:
 
 \--- task \---
 
-From the **Variables** section, take the `set [my variable v] to [0]`{:class="block3variables"} and `change [my variable v] by [1]`{:class="block3variables"} blocks. Click on the little arrows in the blocks, choose `score` from the list, and then put the blocks into your program:
+Pak uit de **Variabelen** categorie de `maak [mijn variabele v] [0]`{:class="block3variables"} en `verander [mijn variabele v] met [1]`{:class="block3variables"} blokken. Klik op de kleine pijltjes in de blokken, kies `score` uit de lijst, en zet de blokken in je programma:
 
 ### Code voor de haai
 
@@ -57,4 +57,4 @@ einde
 
 \--- /task \---
 
-Cool! Now you’ve got a score and everything.
+Gaaf! Nu heb je zelfs een score.
