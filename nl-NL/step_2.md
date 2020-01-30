@@ -4,7 +4,7 @@ Zodra je Scratch opent, zie je een venster zoals hieronder.
 
 \--- task \---
 
-Look for each of the following areas and remember where they are.
+Zoek naar elk van de volgende gebieden en onthoud waar ze zijn.
 
 \--- /task \---
 
@@ -16,7 +16,7 @@ Look for each of the following areas and remember where they are.
 
 ## title: Wat is het Speelveld?
 
-This is where your Scratch programs run. It has:
+Dit is waar je Scratch programma's worden uitgevoerd. Het heeft:
 
 * Eén of meer **achtergronden** \(afbeeldingen op de achtergrond van het scherm\)
 
@@ -32,9 +32,9 @@ This is where your Scratch programs run. It has:
 
 ## title: Wat is een sprite?
 
-Any item you can add on the Stage is a **sprite**.
+Elk item dat je in het Speelveld kunt toevoegen, is een **sprite**.
 
-A sprite includes:
+Een sprite bevat:
 
 * De **afbeelding** op het Speelveld
 * Mogelijke extra **kostuums** \(uiterlijken\) dat het heeft
@@ -51,9 +51,9 @@ A sprite includes:
 
 ## title: Codeblokken
 
-Code in Scratch comes in the form of blocks that you connect to make programs. You choose blocks from the **code blocks palette**, drag them into the **current sprite panel**, and then connect them to each other.
+Code in Scratch komt in de vorm van blokken die je met elkaar verbindt om programma's te maken. Je kiest blokken uit het palet met **codeblokken**, sleept ze naar het **huidige sprite paneel** en verbindt ze dan met elkaar.
 
-There are ten categories of blocks. They are colour-coded, and you can choose between them by clicking on the items in the list at the top of the **code blocks palette**.
+Er zijn tien categorieën van blokken. Ze hebben een kleurcode en je kunt kiezen tussen de blokken door op de items in de lijst bovenaan het palet met **codeblokken** te klikken.
 
 \--- /collapse \---
 
@@ -65,19 +65,19 @@ There are ten categories of blocks. They are colour-coded, and you can choose be
 
 ## title: Wat is de huidige sprite?
 
-The **current sprite** is the one that's selected in the **sprite list**.
+De **huidige sprite** is degene die is geselecteerd in de **sprite lijst**.
 
-The **current sprite panel** is where you can see the code, costumes, and sounds for the selected sprite.
+Het **huidige sprite paneel** is waar je de code, kostuums en geluiden voor de geselecteerde sprite kunt zien.
 
 \--- /collapse \---
 
-Time to get coding!
+Tijd om te gaan programmeren!
 
 \--- task \---
 
-In the sprite list, click on the Scratch Cat. The cat is now the current sprite.
+Klik op de Scratch kat in de sprite lijst. De kat is nu de huidige sprite.
 
-Choose the **Events** category in the code blocks palette, click the `when flag clicked`{:class="block3events"} block, and drag it into the current sprite panel.
+Kies de **Gebeurtenissen** categorie in het code blokken palet, klik op het `wanneer op groene vlag wordt geklikt`{:class="block3events"} blok, en sleep het naar het huidige sprite paneel.
 
 ```blocks3
     wanneer op groene vlag wordt geklikt
@@ -87,19 +87,19 @@ Choose the **Events** category in the code blocks palette, click the `when flag 
 
 \--- task \---
 
-Then go to **Looks** in the code blocks palette and find this block:
+Ga nu naar **Uiterlijken** in het code blokken palet en zoek dit blok:
 
 ```blocks3
     zeg [Hallo!] voor (2) sec
 ```
 
-Click on it, hold down the mouse button, and then just drag it into the current sprite panel and let go of the button.
+Klik erop, houd de muisknop ingedrukt en sleep hem naar het huidige sprite paneel en laat de knop los.
 
 \--- /task \---
 
 \--- task \---
 
-Now that the second block is in the current sprite panel, connect it to the bottom of the first block by clicking and dragging it again to move it below the other block until they snap together, like this:
+Nu het tweede blok ook in het huidige sprite paneel staat, verbind je het aan de onderkant van het eerste blok door erop te klikken en het onder het eerste blok te slepen zodat ze aan elkaar vastklikken, zoals dit:
 
 ![](images/setup3.png)
 
@@ -107,6 +107,6 @@ Now that the second block is in the current sprite panel, connect it to the bott
 
 \--- task \---
 
-Now click the **Start Program** button and watch what happens!
+Klik nu op de **Ga** knop en kijk wat er gebeurt!
 
 \--- /task \---
