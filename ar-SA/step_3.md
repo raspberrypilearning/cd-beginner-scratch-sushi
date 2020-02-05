@@ -26,7 +26,7 @@
 
 \--- task \---
 
-Try double-clicking on some of the blocks to see what they do.
+حاول النقر مرتين على بعض المقاطع لترى ما يفعلونه.
 
 \--- /task \---
 
@@ -34,15 +34,15 @@ Try double-clicking on some of the blocks to see what they do.
 
 ## title: تشغيل الكود
 
-Usually, you want your code to run automatically whenever something specific happens. This is why many of your programs will start with a block from the **Events** category, most often this one:
+عادة ، تريد تشغيل الكود تلقائيًا كلما حدث شيء معين. هذا هو السبب في أن العديد من برامجك ستبدأ بمقطع من فئة **الأحداث**، غالبًا هذا المقطع:
 
 ```blocks3
     عند نقر العلم الأخضر
 ```
 
-The code blocks connected to this block will run after the **green flag** is clicked.
+المقاطع البرمجية المتصلة بهذا المقطع سوف تعمل بعد نقر **العلم الأخضر**.
 
-Code blocks run from top to bottom, so the order in which you snap your blocks together matters. In this example, the sprite will `say`{:class="block3looks"} `Hello!` before it will `play`{:class="block3sound"} the `meow` sound.
+يتم تشغيل المقاطع البرمجية من الأعلى إلى الأسفل ، لذا فإن الترتيب الذي تصل فيه المقاطع معًا أمر مهم. في هذا المثال, سيقوم الكائن `بقول`{:class="block3looks"} `السلام عليكم!` قبل ان `يشغل`{:class="block3sound"} صوت `meow`.
 
 ```blocks3
     عندما نقر العلم الأخضر
@@ -52,25 +52,25 @@ Code blocks run from top to bottom, so the order in which you snap your blocks t
 
 \--- /collapse \---
 
-Removing or deleting code blocks you don’t want in your program is easy! Just drag them back into the code blocks palette.
+من السهل إزالة أو حذف المقاطع البرمجية التي لا تريدها في البرنامج! فقط اسحبهم مرة أخرى إلى لوحة المقاطع البرمجية.
 
-**Be careful:** dragging them into the code blocks pallette will delete all the blocks connected to the block you drag, so make sure to separate code blocks you want to keep from those you want to remove. If you delete some code blocks by accident and want to get them back, right-click and then click on the **undo** option to get everything back.
+**انتبه:** سحبهم إلى لوحة المقاطع البرمجية سيحذف جميع المقاطع المتصلة بالمقطع الذي سحبته, لذا تأكد من فصل المقاطع التي تريد حذفها من المقاطع التي تريد الإبقاء عليها. إذا قمت بحذف بعض التعليمات البرمجية عن طريق الخطأ وتريد استعادتها ، انقر بزر الماوس الأيمن ثم انقر فوق الخيار **تراجع** لاستعادة كل شيء.
 
 ![](images/code6.png)
 
 \--- task \---
 
-Try adding, deleting, and undeleting some code blocks!
+حاول إضافة وحذف وإستعادة بعض المقاطع البرمجية!
 
 \--- /task \---
 
 ### ضع كل شيء معا
 
-Now you know how to move code around and make things happen, it's time for you to create a program to make the Scratch Cat walk in a circle!
+الآن أنت تعرف كيف تحرك الكود وتُحِدث الأشياء، حان الوقت لإنشاء برنامج لجعل قطة Scratch تمشي في دائرة!
 
 \--- task \---
 
-Make sure you have the cat sprite selected in the sprite list, and then drag the following blocks into the sprite panel and connect them. You’ll find them in the **Events** and **Motion** lists.
+تأكد من تحديد كائن القط في قائمة الكائنات ، ثم قم بسحب المقاطع التالية في لوحة الكائن وتوصيلها. سوف تجدها في قوائم **الأحداث** و**الحركة**.
 
 ```blocks3
     عند نقر العلم الأخضر
@@ -81,19 +81,19 @@ Make sure you have the cat sprite selected in the sprite list, and then drag the
 
 \--- task \---
 
-Now, click on the green flag above the Stage.
+الآن ، انقر على العلم الأخضر فوق المنصة.
 
 ![](images/code7.png)
 
 \--- /task \---
 
-You should see the cat walking in a straight line...not exactly what you want, right?
+يجب أن ترى القط يسير في خط مستقيم... ليس ما تريد بالضبط ، أليس كذلك؟
 
-Note: If you click the flag too many times and the cat walks away, you can drag it back!
+ملاحظة: إذا نقرت على العلم عدة مرات وابتعدت القطة ، يمكنك سحبها مرة أخرى!
 
 \--- task \---
 
-Snap the turn block to the end to make the cat sprite walk in a circle. It’s in the **Motion** list too.
+إلصق مقطع الإستدارة في النهاية لجعل كائن القط يمشي في دائرة. إنه في قائمة **الحركة** أيضًا.
 
 ```blocks3
     عند نقر العلم الأخضر
@@ -107,7 +107,7 @@ Snap the turn block to the end to make the cat sprite walk in a circle. It’s i
 
 ## title: كيف يعمل الدوران؟
 
-This block makes the sprite turn 15 degrees of the full 360 degrees that make up a circle. You can change that number, and the number of steps, by clicking on the number and typing in a new value.
+يجعل هذا المقطع الكائن يستدير 15 درجة من 360 درجة كاملة التي تشكل دائرة. يمكنك تغيير هذا الرقم ، وعدد الخطوات ، بالنقر فوق الرقم وكتابة قيمة جديدة.
 
 ![](images/code9.png)
 
@@ -115,6 +115,6 @@ This block makes the sprite turn 15 degrees of the full 360 degrees that make up
 
 \--- task \---
 
-Now save your work!
+الآن احفظ عملك!
 
 \--- /task \---
