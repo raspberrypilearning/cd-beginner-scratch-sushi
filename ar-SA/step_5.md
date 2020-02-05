@@ -4,29 +4,29 @@
 
 \--- task \---
 
-Start by deleting all code that you have for the shark.
+ابدأ بحذف جميع المقاطع البرمجية التي لديك للقرش.
 
-\--- /task \---
+\---/task--
 
-As you’ve probably guessed, you’re going to need **Event** and **Motion** blocks again!
+كما قد تكون خمنت على الأرجح ، ستحتاج إلى مقاطع **الأحداث** و **الحركة** مرة أخرى!
 
 \--- task \---
 
-This time, look for this block and drag it into the current sprite panel:
+هذه المرة ، ابحث عن هذه الكتلة و اسحبها إلى لوحة الكائن الحالي:
 
 ```blocks3
     عند الضغط على مفتاح [المسافة v]
 ```
 
-Click the little arrow (▼) beside `space`. You will see a list of all your keyboard keys that you can pick from.
+انقر على السهم الصغير (▼) بجانب `المسافة `. سترى قائمة بجميع مفاتيح لوحة المفاتيح التي يمكنك الاختيار منها.
 
 \--- /task \---
 
-You’re going to need four of the `when key pressed`{:class="block3events"} blocks — one for each of your arrow keys.
+ستحتاج إلى أربعة من مقاطع ` عند الضغط على المفتاح ` {: class = "block3events"} - واحدة لكل مفتاح من مفاتيح الأسهم الخاصة بك.
 
 \--- task \---
 
-To make your shark move, connect these blocks to **Motion** blocks like this:
+لتحريك سمك القرش ، قم بتوصيل هذه المقاطع بمقاطع ** الحركة ** هكذا:
 
 ```blocks3
     عندما ضغط مفتاح [السهم الأيسر v] 
@@ -48,19 +48,19 @@ To make your shark move, connect these blocks to **Motion** blocks like this:
 
 \--- /task \---
 
-**Note**: `-10` means 'go back 10 steps'.
+** ملاحظة **: ` -10 ` يعني "العودة 10 خطوات".
 
 \--- task \---
 
-Now click the green flag to test out your code.
+الآن انقر على العلم الأخضر لاختبار التعليمات البرمجية الخاصة بك.
 
 \--- /task \---
 
-Now your shark moves back and forwards, which is pretty cool, but it doesn’t move up or down. Also, if you look through the **Motion** blocks, you’ll see there are no blocks for 'up' or 'down'. There are a whole bunch of them related to **x** and **y** coordinates though — let's try those!
+يتحرك سمك القرش الآن للخلف وللأمام ، وهو أمر رائع ، لكنه لا يتحرك للأعلى أو للأسفل. أيضًا ، إذا نظرت إلى مقاطع ** الحركة ** ، سترى أنه لا توجد مقاطع لـ "أعلى" أو "لأسفل". هناك مجموعة كاملة منها مرتبطة بـاحداثيات ** س ** و ** ص ** رغم ذلك - دعنا نجرب هؤلاء!
 
 \--- task \---
 
-Grab two `change y by`{:class="block3motion"} blocks, and update your code like this:
+اسحب اثنين `غير الموضع ص بمقدار` {: class = "block3motion"} ، وحدث البرمجة الخاص بك هكذا:
 
 ```blocks3
     عند الضغط على مفتاح [السهم العلوي v]
@@ -74,17 +74,17 @@ Grab two `change y by`{:class="block3motion"} blocks, and update your code like 
 
 \--- /task \---
 
-Now when you press the arrows keys, the shark moves all around the stage!
+الآن عند الضغط على مفاتيح الأسهم ، يتحرك القرش في جميع أنحاء المنصة!
 
 ## \--- collapse \---
 
 ## title: كيف تعمل إحداثيات س و ص؟
 
-To talk about the positions of objects, such as sprites, we often use x- and y-coordinates. The **x-axis** of the Stage coordinate system runs from **left to right**, and the **y-axis** runs from **bottom to top**.
+للحديث عن مواضع الاشياء ، مثل الكائنات ، نستخدم إحداثيات س و ص. يمتد نظام الإحداثيات في المنصة للمحور **س** ** من اليسار إلى اليمين** ، والمحور ** ص** يمتد من **الأسفل إلى الأعلى**.
 
 ![](images/moving3.png)
 
-A sprite can be located by the coordinates of its centre, for example `(15, -27)`, where `15` is its position along the x-axis , and `-27` its position along the y-axis.
+يمكن تحديد موقع الكائن من احداثيات منتصفها, على سبيل المثال `(15, -27)`, حيث ان `15` هو موضعه في المحور السيني, و `-27` هو موضعه في المحور الصادي.
 
 + للتعرف على كيفية عمل ذلك بالفعل ، حدد كائن واستخدم ضوابط **س** و **ص** لتحريكه حول المنصة من خلال تحديد قيم مختلفة للإحداثيات.
 
@@ -96,35 +96,35 @@ A sprite can be located by the coordinates of its centre, for example `(15, -27)
 
 ### إعادة تشغيل اللعبة
 
-The shark moves all over the screen now, but imagine this is a game: how do you restart it, and what happens at the start of each game?
+يتحرك سمك القرش الآن على الشاشة ، لكن تخيل أنها لعبة: كيف تعيد تشغيلها ، وماذا يحدث في بداية كل لعبة؟
 
-You need to get the shark to its original location when the player starts the game. They'll start this game by clicking on the green flag, so you need to change the shark sprite's x- and y-coordinates when that happens.
+تحتاج إلى وصول القرش إلى موقعه الأولي عندما يبدأ اللاعب اللعبة. سيبدأون هذه اللعبة من خلال النقر على العلم الأخضر ، لذلك تحتاج إلى تغيير إحداثيات س و ص لكائن سمك القرش عند حدوث ذلك.
 
-That’s actually pretty easy! The centre of the stage is `(0, 0)` in `(x, y)` coordinates.
+هذا في الواقع سهل جدا! مركز المنصة هو ` (0 ، 0) ` في إحداثيات `(س ، ص)`.
 
-So all you need is an **Event** block for that green flag, and the **go to** block from **Motion**.
+كل ما تحتاجه هو مقطع **الأحداث** لهذا العلم الأخضر ، و مقطع** اذهب إلى الموضع** من ** الحركة **.
 
 \--- task \---
 
-Drag a `when green flag clicked`{:class="block3events"} **Event** block onto the current sprite panel.
+اسحب مقطع `عند نقر العلم الأخضر` {:class="block3events"} **من الاحداث** إلى لوحة الكائن الحالي.
 
 ```blocks3
     عند نقر العلم الأخضر
 ```
 
-Then find the `go to`{:class="block3motion"} **Motion** block, and attach it to your flag **Event** block.
+ثم ابحث عن مقطع `اذهب إلى الموضع` {:class="block3motion"} **في الحركة**, والصقه بمقطع العلم من **الأحداث**.
 
 ```blocks3
     عند نقر العلم الأخضر
 + اذهب إلى الموضع س: (0) ص: (0)
 ```
 
-Set the both the `x` and the `y` coordinate to `0` in the `go to`{:class="block3motion"} block if they are not already `0`.
+اضبط كلا الإحداثيات `س` و `ص` إلى `0` في مقطع `اذهب إلى الموضع`{:class="block3motion"} اذا لم يكونا `0`.
 
 \--- /task \---
 
 \--- task \---
 
-Now click the green flag: you should see the shark return to the centre of the stage!
+الآن انقر على العلم الأخضر: يجب أن ترى القرش يعود إلى وسط المنصة!
 
 \--- /task \---
