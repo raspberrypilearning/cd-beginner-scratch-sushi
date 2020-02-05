@@ -6,33 +6,33 @@
 
 \--- task \---
 
-Go to the **Variables** blocks category and click on **Make a Variable**.
+انتقل إلى فئة مقاطع ** المتغيرات ** وانقر على ** إنشاء متغير **.
 
 ![](images/catch5.png)
 
-Enter `score` as the name.
+أدخل ` النتيجة ` كأسم.
 
 ![](images/catch6.png)
 
-Check out your new variable!
+تحقق من المتغير الجديد الخاص بك!
 
-![The Score variable is displayed on the stage](images/scoreVariableStage.png)
+![يتم عرض متغير النتيجة في المنصة](images/scoreVariableStage.png)
 
-\--- /task \---
+\---/task\---
 
 ## \--- collapse \---
 
 ## title: ما هي المتغيرات؟
 
-When you want to store information in a program, you use something called a **variable**. Think of it like a box with a label on it: you can put something in it, check what’s in it, and change what’s in it. You’ll find variables in the **Variables** section, but you need to create them first for them to show up there!
+عندما تريد تخزين المعلومات في برنامج ما ، فأنت تستخدم شيئًا يسمى ** المتغير**. فكر في الأمر كأنه صندوق له اسم: يمكنك وضع شيء فيه ، والتحقق من محتواه ، وتغيير محتواه. ستجد المتغيرات في قسم ** المتغيرات **، ولكن عليك إنشاءها أولاً حتى تظهر هناك!
 
-\--- /collapse \---
+\--- collapse \---
 
-Now you need to update the variable whenever the shark eats a fish, and to reset it when the game is restarted. Doing both is pretty easy:
+الآن تحتاج إلى تحديث المتغير كلما أكل سمك القرش سمكة ، وإعادة تعيينه عند إعادة تشغيل اللعبة. القيام بالأمرين سهل للغاية:
 
 \--- task \---
 
-From the **Variables** section, take the `set [my variable v] to [0]`{:class="block3variables"} and `change [my variable v] by [1]`{:class="block3variables"} blocks. Click on the little arrows in the blocks, choose `score` from the list, and then put the blocks into your program:
+من قسم **المتغيرات**، خذ المقاطع `اجعل [متغيري v] مساوياً [0]`{:class="block3variables"} و `غير [متغيري v] بمقدار [1]`{:class="block3variables"}. انقر على الأسهم الصغيرة في المقاطع ، واختر ` النتيجة ` من القائمة ، ثم ضع المقاطع في برنامجك:
 
 ### بزمجة سمكة القرش
 
@@ -57,4 +57,4 @@ From the **Variables** section, take the `set [my variable v] to [0]`{:class="bl
 
 \--- /task \---
 
-Cool! Now you’ve got a score and everything.
+رائع! الآن لديك نتيجة وكل شيء.
