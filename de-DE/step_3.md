@@ -26,7 +26,7 @@ Wenn du sehen möchtest, was ein Block macht, kannst du ihn mit einem Doppelklic
 
 \--- task \---
 
-Try double-clicking on some of the blocks to see what they do.
+Versuche doppelt auf einige Blöcke zu klicken, um zu sehen, was sie tun.
 
 \--- /task \---
 
@@ -34,15 +34,15 @@ Try double-clicking on some of the blocks to see what they do.
 
 ## title: Den Code ausführen
 
-Usually, you want your code to run automatically whenever something specific happens. This is why many of your programs will start with a block from the **Events** category, most often this one:
+Normalerweise soll dein Code automatisch ausgeführt werden, wenn etwas bestimmtes passiert. Aus diesem Grund beginnen viele deiner Programme mit einem Block aus der Kategorie **Ereignisse**, meistens dieser:
 
 ```blocks3
     wenn die grüne flagge angeklickt
 ```
 
-The code blocks connected to this block will run after the **green flag** is clicked.
+Die mit diesem Block verbundenen Codeblöcke werden ausgeführt, nachdem die grüne **Flagge** angeklickt wurde.
 
-Code blocks run from top to bottom, so the order in which you snap your blocks together matters. In this example, the sprite will `say`{:class="block3looks"} `Hello!` before it will `play`{:class="block3sound"} the `meow` sound.
+Codeblöcke laufen von oben nach unten, daher ist die Reihenfolge wichtig, in der du deine Blöcke zusammenfügst. In diesem Beispiel `sagt` die Figur {:class="block3looks"} `Hallo!` bevor der `Miau` Ton {class="block3sound"} `abgespielt` wird.
 
 ```blocks3
     Wenn die grüne Flagge angeklickt
@@ -52,15 +52,15 @@ spiele Klang [Miau v]
 
 \--- /collapse \---
 
-Removing or deleting code blocks you don’t want in your program is easy! Just drag them back into the code blocks palette.
+Das Entfernen oder Löschen von Codeblöcken, die du nicht in deinen Programm haben möchtest, ist einfach! Ziehe es einfach zurück in die Codeblock-Palette.
 
-**Be careful:** dragging them into the code blocks pallette will delete all the blocks connected to the block you drag, so make sure to separate code blocks you want to keep from those you want to remove. If you delete some code blocks by accident and want to get them back, right-click and then click on the **undo** option to get everything back.
+**Sei vorsichtig:** Wenn du sie in die Codeblock-Palette ziehst, werden alle Blöcke, die mit dem von dir gezogenen Block verbunden sind, gelöscht. Achte darauf, die Codeblöcke, die du entfernen möchtest, von denen zu trennen, welche du behalten möchtest. Wenn du einige Codeblöcke versehentlich gelöscht hast und sie zurückbekommen möchtest, klicke mit der rechten Maustaste, und klicke dann auf die Option **Rückgängig**, um alles wiederherzustellen.
 
 ![](images/code6.png)
 
 \--- task \---
 
-Try adding, deleting, and undeleting some code blocks!
+Versuche, einige Codeblöcke hinzuzufügen, zu löschen und wiederherzustellen!
 
 \--- /task \---
 
