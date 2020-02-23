@@ -4,19 +4,19 @@ Wenn du Scratch öffnest, wird ein Fenster wie das unten stehende angezeigt.
 
 \--- task \---
 
-Look for each of the following areas and remember where they are.
+Suche nach den folgenden Bereichen und merke dir, wo sie sich befinden.
 
 \--- /task \---
 
 ### Die Bühne
 
-![Scratch window with the stage highlighted](images/hlStage.png)
+![Scratch-Fenster mit hervorgehobener Bühne](images/hlStage.png)
 
 ## \--- collapse \---
 
 ## Titel: Was ist die Bühne?
 
-This is where your Scratch programs run. It has:
+Hier laufen deine Scratch-Programme. Es hat:
 
 * Eine oder mehrere **Hintergründe** \(Bilder auf dem Bildschirmhintergrund\)
 
@@ -26,7 +26,7 @@ This is where your Scratch programs run. It has:
 
 ### Die Figuren-Liste
 
-![Scratch window with the sprite list highlighted](images/hlSpriteList.png)
+![Scratch-Fenster mit hervorgehobener Figuren-Liste](images/hlSpriteList.png)
 
 ## \--- collapse \---
 
