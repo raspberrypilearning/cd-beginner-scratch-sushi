@@ -65,19 +65,19 @@ Es gibt zehn Kategorien von Blöcken. Sie sind farblich gekennzeichnet. Du kanns
 
 ## Titel: Was ist die aktuelle Figur?
 
-The **current sprite** is the one that's selected in the **sprite list**.
+Die **aktuelle Figur** ist diejenige, welche in der **Figuren-Liste** ausgewählt ist.
 
-The **current sprite panel** is where you can see the code, costumes, and sounds for the selected sprite.
+Im **aktuellen Figuren - Panel** siehst du den Code, die Kostüme und Töne für die ausgewählte Figur.
 
 \--- /collapse \---
 
-Time to get coding!
+Zeit für die Programmierung!
 
 \--- task \---
 
-In the sprite list, click on the Scratch Cat. The cat is now the current sprite.
+Klicke in der Figuren-Liste auf die Scratch Katze. Die Katze ist jetzt die aktuelle Figur.
 
-Choose the **Events** category in the code blocks palette, click the `when flag clicked`{:class="block3events"} block, and drag it into the current sprite panel.
+Wähle die Kategorie **Ereignisse** in der Codeblockpalette aus, klicke auf die Schaltfläche `wenn grüne Flagge geklickt wird`{:class="block3events"} und ziehe sie in das aktuelle Figuren-Fenster.
 
 ```blocks3
     wenn grüne Flagge angeklickt
@@ -87,19 +87,19 @@ Choose the **Events** category in the code blocks palette, click the `when flag 
 
 \--- task \---
 
-Then go to **Looks** in the code blocks palette and find this block:
+Dann gehe zu **Aussehen** in der Codeblock-Palette und suche diesen Block:
 
 ```blocks3
     sage [Hallo!] für (2) Sekunden
 ```
 
-Click on it, hold down the mouse button, and then just drag it into the current sprite panel and let go of the button.
+Klicke darauf, halte die Maustaste gedrückt, ziehe es in das aktuelle Figuren-Panel und lasse dann die Schaltfläche los.
 
 \--- /task \---
 
 \--- task \---
 
-Now that the second block is in the current sprite panel, connect it to the bottom of the first block by clicking and dragging it again to move it below the other block until they snap together, like this:
+Nun, da sich der zweite Block im aktuellen Figuren-Panel befindet, verbinde ihn mit dem unteren Teil des ersten Blocks, indem du ihn anklickst und erneut ziehst, um ihn unter den anderen Block zu verschieben, bis er zusammenschnappt, wie folgt:
 
 ![](images/setup3.png)
 
@@ -107,6 +107,6 @@ Now that the second block is in the current sprite panel, connect it to the bott
 
 \--- task \---
 
-Now click the **Start Program** button and watch what happens!
+Klicke nun auf die Schaltfläche **Starte Programm** und beobachte, was passiert!
 
 \--- /task \---
