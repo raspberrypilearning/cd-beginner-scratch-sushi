@@ -32,9 +32,9 @@ Hier laufen deine Scratch-Programme. Es hat:
 
 ## Titel: Was ist eine Figur?
 
-Any item you can add on the Stage is a **sprite**.
+Jeder Gegenstand, den du der Bühne hinzufügen kannst, ist eine **Figur**.
 
-A sprite includes:
+Eine Figur beinhaltet:
 
 * Das **Bild** auf der Bühne
 * Jedes zusätzliche **Kostüm** \(Aussehen\), dass sie hat
@@ -45,21 +45,21 @@ A sprite includes:
 
 ### Die Code-Block-Palette
 
-![Scratch window with the blocks pallet highlighted](images/hlBlocksPalette.png)
+![Scratch-Fenster mit hervorgehobener Blockpalette](images/hlBlocksPalette.png)
 
 ## \--- collapse \---
 
 ## title: Codeblöcke
 
-Code in Scratch comes in the form of blocks that you connect to make programs. You choose blocks from the **code blocks palette**, drag them into the **current sprite panel**, and then connect them to each other.
+Die Codes in Scratch kommen in Form von Blöcken, die du verbindest, um Programme zu erstellen. Du wählst Blöcke aus der **Code-Block-Palette**, ziehst sie in das **aktuelle Figuren-Panel**und verbindest sie dann miteinander.
 
-There are ten categories of blocks. They are colour-coded, and you can choose between them by clicking on the items in the list at the top of the **code blocks palette**.
+Es gibt zehn Kategorien von Blöcken. Sie sind farblich gekennzeichnet. Du kannst zwischen ihnen wählen, indem du auf die Elemente in der Liste oben in der **Codeblock-Palette** klickst.
 
 \--- /collapse \---
 
 ### Das aktuelle Figuren-Panel
 
-![Scratch window with the current sprite panel highlighted](images/hlCurrentSpritePanel.png)
+![Scratch-Fenster mit hervorgehobenem aktuellen Figuren-Fenster](images/hlCurrentSpritePanel.png)
 
 ## \--- collapse \---
 
