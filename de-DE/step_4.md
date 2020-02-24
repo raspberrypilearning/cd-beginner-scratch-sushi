@@ -44,4 +44,4 @@ Entferne nun die Katzenkostüme, indem du jedes davon auswählst und auf **x** k
 
 \--- /task \---
 
-Now you have a shark – excellent!
+Jetzt hast du einen Hai - ausgezeichnet!
