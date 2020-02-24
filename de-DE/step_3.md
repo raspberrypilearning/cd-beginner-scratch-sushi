@@ -70,7 +70,7 @@ Jetzt weißt du, wie du einen Code verschieben und Dinge in Bewegung setzen kann
 
 \--- task \---
 
-Make sure you have the cat sprite selected in the sprite list, and then drag the following blocks into the sprite panel and connect them. You’ll find them in the **Events** and **Motion** lists.
+Vergewissere dich, dass die Katzenfigur in der Figuren-Liste ausgewählt ist, und ziehe die folgenden Blöcke in das Figuren-Fenster, und verbinde sie. Du findest sie in den **Ereignissen** und **Bewegung** Listen.
 
 ```blocks3
     Wenn die grüne Flagge angeklickt
@@ -81,19 +81,19 @@ Make sure you have the cat sprite selected in the sprite list, and then drag the
 
 \--- task \---
 
-Now, click on the green flag above the Stage.
+Klicke jetzt auf die grüne Flagge über der Bühne.
 
 ![](images/code7.png)
 
 \--- /task \---
 
-You should see the cat walking in a straight line...not exactly what you want, right?
+Du solltest die Katze in einer geraden Linie laufen sehen... nicht genau das, was du willst, oder?
 
-Note: If you click the flag too many times and the cat walks away, you can drag it back!
+Hinweis: Wenn du zu oft auf die Flagge klickst und die Katze wegläuft, kannst du sie zurückziehen!
 
 \--- task \---
 
-Snap the turn block to the end to make the cat sprite walk in a circle. It’s in the **Motion** list too.
+Ziehe den Umdrehen-Block bis zum Ende, damit die Katzenfigur im Kreis läuft. Es ist auch in der **Bewegung** Liste.
 
 ```blocks3
     Wenn die grüne Flagge angeklickt
@@ -107,7 +107,7 @@ Snap the turn block to the end to make the cat sprite walk in a circle. It’s i
 
 ## Titel: Wie funktioniert das Drehen?
 
-This block makes the sprite turn 15 degrees of the full 360 degrees that make up a circle. You can change that number, and the number of steps, by clicking on the number and typing in a new value.
+Durch diesen Block wird die Figur um 15 Grad von den vollen 360 Grad gedreht, die einen Kreis bilden. Du kannst diese Anzahl und die Anzahl der Schritte ändern, indem du auf die Anzahl klickst und einen neuen Wert eingibst.
 
 ![](images/code9.png)
 
@@ -115,6 +115,6 @@ This block makes the sprite turn 15 degrees of the full 360 degrees that make up
 
 \--- task \---
 
-Now save your work!
+Speichere jetzt deine Arbeit!
 
 \--- /task \---
