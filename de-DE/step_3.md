@@ -66,7 +66,7 @@ Versuche, einige Codeblöcke hinzuzufügen, zu löschen und wiederherzustellen!
 
 ### Alles zusammenfügen
 
-Now you know how to move code around and make things happen, it's time for you to create a program to make the Scratch Cat walk in a circle!
+Jetzt weißt du, wie du einen Code verschieben und Dinge in Bewegung setzen kannst. Jetzt ist es an der Zeit, ein Programm zu erstellen, mit dem die Scratch Katze im Kreis laufen kann!
 
 \--- task \---
 
