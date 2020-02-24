@@ -30,12 +30,12 @@ Damit sich dein Hai bewegt, verbinde diese Blöcke mit **Bewegung**-Blöcken wie
 
 ```blocks3
     Wenn Taste [Pfeil nach links v] gedrückt wird
-gehe (-10) er Schritt
+gehe (-10) Schritte
 ```
 
 ```blocks3
     Wenn Taste [Pfeil nach rechts v] gedrückt wird
-   gehe (-10) er Schritt
+gehe (10) Schritte
 ```
 
 ```blocks3
@@ -48,19 +48,19 @@ gehe (-10) er Schritt
 
 \--- /task \---
 
-**Note**: `-10` means 'go back 10 steps'.
+**Hinweis**: `-10` bedeutet 'gehe 10 Schritte zurück'.
 
 \--- task \---
 
-Now click the green flag to test out your code.
+Klicke nun auf die grüne Flagge, um deinen Code zu testen.
 
 \--- /task \---
 
-Now your shark moves back and forwards, which is pretty cool, but it doesn’t move up or down. Also, if you look through the **Motion** blocks, you’ll see there are no blocks for 'up' or 'down'. There are a whole bunch of them related to **x** and **y** coordinates though — let's try those!
+Jetzt bewegt sich dein Hai vor und zurück, was ziemlich cool ist, aber nicht nach oben oder unten. Wenn du die **Bewegung**-Blöcke durchgehst, siehst du, dass es keine Blöcke für 'hoch' oder 'runter' gibt. Es gibt jedoch eine ganze Reihe von ihnen, die sich auf die Koordinaten **x** und **y** beziehen - lass uns die ausprobieren!
 
 \--- task \---
 
-Grab two `change y by`{:class="block3motion"} blocks, and update your code like this:
+Nimm zwei `ändere y um`{:class="block3motion"}-Blöcke und aktualisiere deinen Code folgendermaßen:
 
 ```blocks3
     Wenn Taste [Pfeil nach oben v] gedrückt wird
@@ -74,17 +74,17 @@ Grab two `change y by`{:class="block3motion"} blocks, and update your code like 
 
 \--- /task \---
 
-Now when you press the arrows keys, the shark moves all around the stage!
+Wenn du jetzt die Pfeiltasten drückst bewegt sich der Hai auf der Bühne!
 
 ## \--- collapse \---
 
 ## Titel: Wie funktionieren X- und Y-Koordinaten?
 
-To talk about the positions of objects, such as sprites, we often use x- and y-coordinates. The **x-axis** of the Stage coordinate system runs from **left to right**, and the **y-axis** runs from **bottom to top**.
+Um über die Positionen von Objekten, wie Figuren zu sprechen, verwenden wir häufig X- und Y-Koordinaten. Die **x-Achse** des Bühnen-Koordinatensystems verläuft von **links nach rechts**und die **y-Achse** von **unten nach oben**.
 
 ![](images/moving3.png)
 
-A sprite can be located by the coordinates of its centre, for example `(15, -27)`, where `15` is its position along the x-axis , and `-27` its position along the y-axis.
+Eine Figur kann durch die Koordinaten ihres Mittelpunkts lokalisiert werden, zum Beispiel `(15, -27)`, wobei `15` ihre Position entlang der x-Achse und `27` ihre Position entlang der y-Achse ist.
 
 + Um ein Gefühl für die tatsächliche Funktionsweise zu erhalten, wähle eine Figur aus und verschiebe sie mit den Steuerelementen **x** und **y** auf der Bühne, indem du verschiedene Werte für die Koordinaten festlegst.
 
@@ -96,7 +96,7 @@ A sprite can be located by the coordinates of its centre, for example `(15, -27)
 
 ### Spiel neu starten
 
-The shark moves all over the screen now, but imagine this is a game: how do you restart it, and what happens at the start of each game?
+Der Hai bewegt sich jetzt über den gesamten Bildschirm, aber stelle dir vor, es handelt sich um ein Spiel: Wie startest du es neu und was passiert zu Beginn jedes Spiels?
 
 You need to get the shark to its original location when the player starts the game. They'll start this game by clicking on the green flag, so you need to change the shark sprite's x- and y-coordinates when that happens.
 
