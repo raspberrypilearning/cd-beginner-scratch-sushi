@@ -4,29 +4,29 @@ Jetzt bewegt sich dein Hai im Kreis und es wäre viel mehr Spaß, ihn mit den Pf
 
 \--- task \---
 
-Start by deleting all code that you have for the shark.
+Beginne damit, indem du den gesamten Code löschst, den du für den Hai benutzt.
 
 \--- /task \---
 
-As you’ve probably guessed, you’re going to need **Event** and **Motion** blocks again!
+Wie du wahrscheinlich schon vermutet hast, benötigst du wieder **Ereignis** und **Bewegung**-Blöcke!
 
 \--- task \---
 
-This time, look for this block and drag it into the current sprite panel:
+Suche dieses mal nach diesem Block und ziehe ihn in das aktuelle Figuren-Panel:
 
 ```blocks3
     Wenn Taste [Leertaste v] gedrückt wird
 ```
 
-Click the little arrow (▼) beside `space`. You will see a list of all your keyboard keys that you can pick from.
+Klicke auf den kleinen Pfeil (▼) neben der `Leertaste`. Du siehst eine Liste aller Tastaturtasten, aus denen du auswählen kannst.
 
 \--- /task \---
 
-You’re going to need four of the `when key pressed`{:class="block3events"} blocks — one for each of your arrow keys.
+Du benötigst vier der `wenn Taste gedrückt wird`{:class="block3events"} Blöcke - einen für jede deiner Pfeiltasten.
 
 \--- task \---
 
-To make your shark move, connect these blocks to **Motion** blocks like this:
+Damit sich dein Hai bewegt, verbinde diese Blöcke mit **Bewegung**-Blöcken wie folgt:
 
 ```blocks3
     Wenn Taste [Pfeil nach links v] gedrückt wird
