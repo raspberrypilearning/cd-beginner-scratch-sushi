@@ -10,35 +10,35 @@ Wähle die Bühne aus.
 
 Klicke auf **Hintergründe**.
 
-![The Backdrops tab](images/looksBackdrops.png)
+![Die Registerkarte "Hintergründe"](images/looksBackdrops.png)
 
-Click the **Choose backdrop from library** icon.
+Klicke auf das Symbol **Hintergrund aus Bibliothek auswählen**.
 
-![The Choose backdrop icon](images/looksChooseBg.png)
+![Das Symbol "Hintergrund wählen"](images/looksChooseBg.png)
 
-Then pick your favourite underwater background!
+Dann wähle den Unterwasserhintergrund aus, den du am liebsten magst!
 
-![An underwater scene](images/looksUnderwater.png)
+![Eine Unterwasserszene](images/looksUnderwater.png)
 
 \--- /task \---
 
-Great! Of course, now you have a cat underwater, and cats aren't usually big fans of that. But you can fix that, because you can turn the cat into a shark!
+Großartig! Natürlich hast du jetzt eine Katze unter Wasser und Katzen mögen das normalerweise nicht besonders gern. Aber das kannst du beheben, weil du die Katze in einen Hai verwandeln kannst!
 
 \--- task \---
 
-First, select the cat sprite and click on the **Costumes** tab.
+Wähle zuerst die Katzenfigur aus und klicke auf die Registerkarte **Kostüme**.
 
 ![](images/cool2.png)
 
-Then, click on **Choose costume from Library**
+Klicke dann auf **Kostüm aus Bibliothek auswählen**
 
 ![](images/cool3.png)
 
-Select this shark image and click **OK**.
+Wähle dieses Hai-Bild aus und klicke auf **OK**.
 
-![The shark costume](images/looksShark.png)
+![Das Hai-Kostüm](images/looksShark.png)
 
-Now remove the cat costumes by selecting each of them and clicking on the **x**.
+Entferne nun die Katzenkostüme, indem du jedes davon auswählst und auf **x** klickst.
 
 ![](images/coolDeleteCostumes.png)
 
