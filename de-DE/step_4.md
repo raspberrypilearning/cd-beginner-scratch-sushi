@@ -4,11 +4,11 @@ Scratch verfügt über eine Bibliothek mit Hintergründen und Figuren, mit denen
 
 \--- task \---
 
-Select the Stage.
+Wähle die Bühne aus.
 
-![Selecting the stage](images/looksSelectStage.png)
+![Die Bühne auswählen](images/looksSelectStage.png)
 
-Click on **Backdrops**.
+Klicke auf **Hintergründe**.
 
 ![The Backdrops tab](images/looksBackdrops.png)
 
