@@ -98,33 +98,33 @@ Eine Figur kann durch die Koordinaten ihres Mittelpunkts lokalisiert werden, zum
 
 Der Hai bewegt sich jetzt über den gesamten Bildschirm, aber stelle dir vor, es handelt sich um ein Spiel: Wie startest du es neu und was passiert zu Beginn jedes Spiels?
 
-You need to get the shark to its original location when the player starts the game. They'll start this game by clicking on the green flag, so you need to change the shark sprite's x- and y-coordinates when that happens.
+Du musst den Hai an seinen ursprünglichen Ort bringen, wenn der Spieler das Spiel startet. Du startest dieses Spiel, indem du auf die grüne Flagge klickst. Wenn das passiert, musst du die X- und Y-Koordinaten der Hai-Figur ändern.
 
-That’s actually pretty easy! The centre of the stage is `(0, 0)` in `(x, y)` coordinates.
+Das ist eigentlich ziemlich einfach! Die Mitte der Bühne ist `(0, 0)` in `(x, y)` Koordinaten.
 
-So all you need is an **Event** block for that green flag, and the **go to** block from **Motion**.
+Du brauchst also nur einen **Ereignis**-Block für diese grüne Flagge, und einen **Gehe zu**-Block von **Bewegung**.
 
 \--- task \---
 
-Drag a `when green flag clicked`{:class="block3events"} **Event** block onto the current sprite panel.
+Ziehe ein `wenn die grüne Flagge angeklickt`{:class="block3events"} **Ereignis**-Block, auf das aktuelle Figuren-Panel.
 
 ```blocks3
     Wenn die grüne Flagge angeklickt
 ```
 
-Then find the `go to`{:class="block3motion"} **Motion** block, and attach it to your flag **Event** block.
+Suche dann den `Gehe zu`{:class="block3motion"} **Bewegung** Block und hänge ihn an den **Ereignis** Block an.
 
 ```blocks3
     Wenn die grüne Flagge angeklickt
 +  gehe zu x: (0) y: (0)
 ```
 
-Set the both the `x` and the `y` coordinate to `0` in the `go to`{:class="block3motion"} block if they are not already `0`.
+Setze sowohl die `x` als auch die `y` -Koordinate auf `0` im `Gehe zu`{:class="block3motion"}-Block, wenn sie nicht bereits `0` sind.
 
 \--- /task \---
 
 \--- task \---
 
-Now click the green flag: you should see the shark return to the centre of the stage!
+Klicke jetzt auf die grüne Flagge: Du solltest sehen, wie der Hai in die Mitte der Bühne zurückkehrt!
 
 \--- /task \---
