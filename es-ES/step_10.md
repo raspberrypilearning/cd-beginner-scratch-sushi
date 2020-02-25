@@ -1,3 +1,3 @@
-## Challenge: winning the game
+## Desafío: ganando el juego
 
-Pick a score at which the player wins, and make something cool happen when they have that many points. Maybe the shark congratulates them, or a 'You win!' sprite appears, or music plays!
+Elige una puntuación a la cual el jugador gane y haz que suceda algo genial cuando tenga esos puntos. Maybe the shark congratulates them, or a 'You win!' sprite appears, or music plays!
