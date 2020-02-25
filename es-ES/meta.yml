@@ -1,7 +1,7 @@
 ---
-title: Deep sea sushi
+title: Sushi de mar profundo
 hero_image: images/banner.png
-description: Make a fun game in your first Scratch program!
+description: '¡Crea un juego divertido en tu primer programa Scratch!'
 theme: orange #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
 duration: 2
 listed: true
@@ -16,23 +16,23 @@ version: 4.0.0
 last_tested: 2017-01-01
 steps:
   - 
-    title: Introduction
+    title: Introducción
   - 
-    title: Getting set up
+    title: Preparación
   - 
-    title: Adding and removing code blocks
+    title: Agregar y eliminar bloques de código
   - 
-    title: Setting the scene
+    title: Preparando la escena
   - 
-    title: Moving things around
+    title: Moviendo bloques
   - 
-    title: All the sprites
+    title: Todos los objetos
   - 
-    title: Remote-control fish
+    title: Control remoto del pez
   - 
-    title: Fishing!
+    title: '¡Pescando!'
   - 
-    title: Keeping score
+    title: Guardando la puntuación
   - 
-    title: "Challenge: winning the game"
+    title: "Desafío: ganando el juego"
     challenge: true
