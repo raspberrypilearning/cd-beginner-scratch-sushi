@@ -1,6 +1,6 @@
-## Moving things around
+## Moviendo bloques
 
-Right now your shark moves in a circle, and it would be much more fun to control it with the arrow keys. On this card, you’re going learn how to do that!
+Ahora mismo, tu tiburón se mueve en un círculo, pero sería mucho más divertido controlarlo con las teclas de flecha. Con esta tarjeta, ¡aprenderás a hacerlo!
 
 \--- task \---
 
@@ -8,47 +8,47 @@ Start by deleting all code that you have for the shark.
 
 \--- /task \---
 
-As you’ve probably guessed, you’re going to need **Event** and **Motion** blocks again!
+Como probablemente habrás adivinado, ¡necesitarás bloques de **Evento** y **Movimiento** otra vez!
 
 \--- task \---
 
 This time, look for this block and drag it into the current sprite panel:
 
 ```blocks3
-    when [space v] key pressed
+    al presionar tecla [espacio v]
 ```
 
-Click the little arrow (▼) beside `space`. You will see a list of all your keyboard keys that you can pick from.
+Haz clic en la flecha pequeña (▼) al lado de `espacio`. Verás una lista de todas las teclas del teclado que puedes elegir.
 
 \--- /task \---
 
-You’re going to need four of the `when key pressed`{:class="block3events"} blocks — one for each of your arrow keys.
+Necesitarás cuatro de los bloques `al presionar tecla`{:class="block3events"} - uno por cada una de las teclas de flecha.
 
 \--- task \---
 
 To make your shark move, connect these blocks to **Motion** blocks like this:
 
 ```blocks3
-    when [left arrow v] key pressed
-    move (-10) steps
+    al presionar tecla [flecha izquierda v]
+    mover (-10) pasos
 ```
 
 ```blocks3
-    when [right arrow v] key pressed
-    move (10) steps
+    al presionar tecla [flecha derecha v]
+    mover (10) pasos
 ```
 
 ```blocks3
-    when [up arrow v] key pressed
+    al presionar tecla [flecha arriba v]
 ```
 
 ```blocks3
-    when [down arrow v] key pressed
+    al presionar [flecha abajo v]
 ```
 
 \--- /task \---
 
-**Note**: `-10` means 'go back 10 steps'.
+**Nota**:`-10` significa 'ir atrás 10 pasos'.
 
 \--- task \---
 
@@ -56,70 +56,70 @@ Now click the green flag to test out your code.
 
 \--- /task \---
 
-Now your shark moves back and forwards, which is pretty cool, but it doesn’t move up or down. Also, if you look through the **Motion** blocks, you’ll see there are no blocks for 'up' or 'down'. There are a whole bunch of them related to **x** and **y** coordinates though — let's try those!
+Ahora tu tiburón se mueve hacia atrás y hacia adelante, lo que está bastante bien, pero no se mueve hacia arriba o hacia abajo. Además, si buscas en los bloques **Movimiento**, verás que no hay bloques de 'arriba' o 'abajo'. Pero si que hay un montón de ellos relacionados con las coordenadas **x** y **y** - ¡vamos a probarlos!
 
 \--- task \---
 
 Grab two `change y by`{:class="block3motion"} blocks, and update your code like this:
 
 ```blocks3
-    when [up arrow v] key pressed
-+     change y by (10)
+    al presionar tecla [flecha arriba v]
++     sumar a y (10)
 ```
 
 ```blocks3
-    when [down arrow v] key pressed
-+     change y by (-10)
+    al presionar tecla [flecha abajo v]
++     sumar a y (-10)
 ```
 
 \--- /task \---
 
-Now when you press the arrows keys, the shark moves all around the stage!
+Ahora, cuando pulsas las teclas de flechas, ¡el tiburón se mueve por todo el escenario!
 
 ## \--- collapse \---
 
-## title: How do x- and y-coordinates work?
+## title: ¿Cómo funcionan las coordenadas x e y?
 
-To talk about the positions of objects, such as sprites, we often use x- and y-coordinates. The **x-axis** of the Stage coordinate system runs from **left to right**, and the **y-axis** runs from **bottom to top**.
+Para hablar sobre las posiciones de los objetos, como los sprites, a menudo usamos las coordenadas x e y. El eje de coordenadas **x** del Escenario va de **izquierda a derecha**, y el eje de coordenadas **y** va de **abajo hacia arriba**.
 
 ![](images/moving3.png)
 
-A sprite can be located by the coordinates of its centre, for example `(15, -27)`, where `15` is its position along the x-axis , and `-27` its position along the y-axis.
+Un objeto se puede localizar por las coordenadas de su centro, por ejemplo `(15, -27)`, donde `15` es su posición a lo largo del eje x , y `-27` su posición a lo largo del eje y.
 
-+ To get a feel for how this actually works, select a sprite and use the **x** and **y** controls to move it around the stage by setting different values for the coordinates.
++ Para tener una idea de cómo funciona esto, selecciona un sprite y usa los controles **x** e **y** para moverlo por el escenario dando diferentes valores a las coordenadas.
 
 ![](images/xycoords.png)
 
-+ Try different pairs of values to see where the sprite goes! In Scratch, the x-axis goes from `-240` to `240`, and the y-axis goes from `-180` to `180`.
++ ¡Prueba diferentes pares de valores para ver dónde va el objeto! En Scratch, el eje x va de `-240` a `240`, y el eje y va de `-180` a `180`.
 
 \--- /collapse \---
 
-### Restarting the game
+### Reiniciando el juego
 
-The shark moves all over the screen now, but imagine this is a game: how do you restart it, and what happens at the start of each game?
+Ahora el tiburón se mueve por toda la pantalla, pero imagina que se trata de un juego: ¿cómo lo reinicias y qué sucede al comienzo de cada juego?
 
-You need to get the shark to its original location when the player starts the game. They'll start this game by clicking on the green flag, so you need to change the shark sprite's x- and y-coordinates when that happens.
+Necesitas conseguir que el tiburón vaya a su posición original cuando el jugador inicie el juego. El juego se inicia al hacer clic en la bandera verde, así que debes cambiar las coordenadas x e y del sprite de tiburón cuando esto ocurra.
 
-That’s actually pretty easy! The centre of the stage is `(0, 0)` in `(x, y)` coordinates.
+¡Hacer esto es muy fácil! El centro del escenario es `(0, 0)` en coordenadas `(x, y)`.
 
-So all you need is an **Event** block for that green flag, and the **go to** block from **Motion**.
+Así que todo lo que necesitas es un bloque **Eventos** para esa bandera verde, y el bloque **ir a** de la categoría **Movimiento**.
 
 \--- task \---
 
 Drag a `when green flag clicked`{:class="block3events"} **Event** block onto the current sprite panel.
 
 ```blocks3
-    when green flag clicked
+    al hacer clic en bandera verde
 ```
 
-Then find the `go to`{:class="block3motion"} **Motion** block, and attach it to your flag **Event** block.
+Luego encuentra el bloque `ir a` {: class = "block3motion"} en la categoría **Movimiento**, y arrástralo debajo del bloque de la bandera de la categoría **Eventos**.
 
 ```blocks3
-    when green flag clicked
-+     go to x: (0) y: (0)
+    al hacer clic en bandera verde
++     ir a x: (0) y: (0)
 ```
 
-Set the both the `x` and the `y` coordinate to `0` in the `go to`{:class="block3motion"} block if they are not already `0`.
+Establece las coordenadas `x` e `y` en `0` en el bloque `ir a` {: class = "block3motion"} si su valor actual no es `0`.
 
 \--- /task \---
 
