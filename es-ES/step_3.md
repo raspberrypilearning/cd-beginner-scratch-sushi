@@ -1,28 +1,28 @@
-## Adding and removing code blocks
+## Agregar y eliminar bloques de código
 
-Great! You’ve written your very first Scratch program. Time to learn a little more about getting code in and out of Scratch! Scratch code is made up of **blocks** such as these:
+¡Genial! Has creado tu primer programa Scratch. ¡Es hora de aprender un poco más sobre cómo mover código dentro y fuera de Scratch! El código de Scratch se compone de **bloques** como estos:
 
 ![](images/code1.png)
 
-You will find all blocks in the **code blocks palette**, sorted into different categories according to what they do.
+Encontrarás todos los bloques en la **paleta de bloques de código**, ordenados en diferentes categorías de acuerdo con lo que hacen.
 
 ## \--- collapse \---
 
-## title: Using blocks from the different categories
+## title: Utilizando bloques de las diferentes categorías
 
-Click on a category name to see the blocks in that category. Here, the **Motion** category is selected:
+Haz clic en el nombre de una categoría para ver los bloques en esa categoría. Aquí, la categoría **Movimiento** está seleccionada:
 
 ![](images/code2a.png)
 
-All of the blocks in the category you've clicked are shown in a list:
+Todos los bloques de la categoría en la que has hecho clic se muestran en una lista:
 
 ![](images/code2b.png)
 
-You can click on the blcok you want, and then just drag it into the current sprite panel and let go. Once it's in the panel, you can move it around and connect it to other blocks.
+Puedes hacer clic en el bloque que desees, y luego arrastrarlo al panel del objeto actual y soltarlo. Una vez que esté en el panel, puedes moverlo y conectarlo a otros bloques.
 
 \--- /collapse \---
 
-If you want to see what a block does, you can double-click on it to make it run!
+¡Si quieres ver lo que hace un bloque, puedes hacer doble clic en él para que se ejecute!
 
 \--- task \---
 
@@ -32,22 +32,22 @@ Try double-clicking on some of the blocks to see what they do.
 
 ## \--- collapse \---
 
-## title: Running the code
+## title: Ejecutando el código
 
-Usually, you want your code to run automatically whenever something specific happens. This is why many of your programs will start with a block from the **Events** category, most often this one:
+Por lo general, quieres que tu código se ejecute automáticamente cada vez que sucede algo específico. Esta es la razón por la que muchos de tus programas comenzarán con un bloque de la categoría **Eventos**, con mayor frecuencia este:
 
 ```blocks3
-    when green flag clicked
+    al hacer clic en bandera verde
 ```
 
-The code blocks connected to this block will run after the **green flag** is clicked.
+Los bloques de código conectados a este bloque se ejecutarán después de hacer clic en la **bandera verde**.
 
-Code blocks run from top to bottom, so the order in which you snap your blocks together matters. In this example, the sprite will `say`{:class="block3looks"} `Hello!` before it will `play`{:class="block3sound"} the `meow` sound.
+Los bloques de código se ejecutan de arriba a abajo, por lo que es importante el orden en el que se juntan los bloques. En este ejemplo, el objeto`dirá`{: class = "block3looks"} `¡Hola!` antes de que se ejecute `{`: {= class = "block3sound"} el sonido `meow`.
 
 ```blocks3
-    when green flag clicked
-    say [Hello]
-    play sound [meow v]
+    al hacer clic en bandera verde
+    diga [Hello]
+    reproducir sonido [miau v]
 ```
 
 \--- /collapse \---
