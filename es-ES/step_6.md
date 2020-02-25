@@ -62,7 +62,7 @@ Si intentas mover el tiburón después de añadir los bloques `apuntar en direcc
 
 El problema está en que el objeto tiburón comenzó, como hacen todos los objetos, con el **estilo de rotación** 'en todas direcciones', y lo que necesitas es el estilo 'izquierda-derecha'.
 
-As usual, there’s a block for that, and it’s in **Motion**!
+Como de costumbre, hay un bloque para eso, ¡y está en la categoría **Movimiento**!
 
 \--- /collapse \---
 
@@ -70,12 +70,12 @@ As usual, there’s a block for that, and it’s in **Motion**!
 
 Look in the **Motion** category for the block `set rotation style`{:class="block3motion"}.
 
-Add the block to your shark reset code from earlier, and set the rotation style to `left-right`{:class="block3motion"}, like this:
+Añade el bloque a tu código de inicio del tiburon, y establece el estilo de rotación a `izquierda-derecha`{:class="block3motion"}, así:
 
 ```blocks3
-    when green flag clicked
-+     set rotation style [left-right v]
-    go to x: (0) y: (0)
+    al hacer clic en bandera verde
++     fijar estilo de rotación a [izquierda-derecha v]
+    ir a x: (0) y: (0)
 ```
 
 \--- /task \---
