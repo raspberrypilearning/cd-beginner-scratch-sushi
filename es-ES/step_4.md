@@ -1,28 +1,28 @@
-## Setting the scene
+## Preparando la escena
 
-Scratch has a library of backgrounds and sprites for you to use to make your project look awesome.
+Scratch tiene una biblioteca de fondos y objetos que puedes usar para hacer que tu proyecto se vea genial.
 
 \--- task \---
 
 Select the Stage.
 
-![Selecting the stage](images/looksSelectStage.png)
+![Seleccionando el escenario](images/looksSelectStage.png)
 
-Click on **Backdrops**.
+Haz clic en **Escenario**.
 
-![The Backdrops tab](images/looksBackdrops.png)
+![La pestaña Escenario](images/looksBackdrops.png)
 
-Click the **Choose backdrop from library** icon.
+Haz clic en **Elige un fondo**.
 
-![The Choose backdrop icon](images/looksChooseBg.png)
+![El icono Elegir un fondo](images/looksChooseBg.png)
 
-Then pick your favourite underwater background!
+¡Luego elige tu fondo submarino favorito!
 
-![An underwater scene](images/looksUnderwater.png)
+![Una escena submarina](images/looksUnderwater.png)
 
 \--- /task \---
 
-Great! Of course, now you have a cat underwater, and cats aren't usually big fans of that. But you can fix that, because you can turn the cat into a shark!
+¡Genial! Aunque ahora tienes un gato bajo el agua, y los gatos no suelen ser grandes fans de esto. Pero puedes arreglarlo, ¡porque puedes convertir el gato en un tiburón!
 
 \--- task \---
 
@@ -30,18 +30,18 @@ First, select the cat sprite and click on the **Costumes** tab.
 
 ![](images/cool2.png)
 
-Then, click on **Choose costume from Library**
+Despues, haz clic en **Elegir un disfraz**
 
 ![](images/cool3.png)
 
-Select this shark image and click **OK**.
+Seleccione esta imagen de tiburón y haz clic en **Aceptar**.
 
-![The shark costume](images/looksShark.png)
+![El disfraz de tiburon](images/looksShark.png)
 
-Now remove the cat costumes by selecting each of them and clicking on the **x**.
+Ahora elimina los disfraces del gato seleccionando cada uno de ellos y haciendo clic en la **x**.
 
 ![](images/coolDeleteCostumes.png)
 
 \--- /task \---
 
-Now you have a shark – excellent!
+Ahora tienes un tiburón, ¡excelente!
