@@ -52,9 +52,9 @@ Los bloques de código se ejecutan de arriba a abajo, por lo que es importante e
 
 \--- /collapse \---
 
-Removing or deleting code blocks you don’t want in your program is easy! Just drag them back into the code blocks palette.
+¡Eliminar los bloques de código que no quieras en tu programa es fácil! Simplemente arrástralos de nuevo a la paleta de bloques de código.
 
-**Be careful:** dragging them into the code blocks pallette will delete all the blocks connected to the block you drag, so make sure to separate code blocks you want to keep from those you want to remove. If you delete some code blocks by accident and want to get them back, right-click and then click on the **undo** option to get everything back.
+**Ten cuidado:** al arrastrarlos a la paleta de bloques de códigos, se eliminarán todos los bloques conectados al bloque que arrastres, así que asegúrate de separar los bloques de códigos que quieres conservar de los que deseas eliminar. Si eliminas algunos bloques de código por accidente y deseas recuperarlos, haz clic con el botón derecho y luego haz clic en la opción **deshacer** para recuperar todo.
 
 ![](images/code6.png)
 
@@ -64,17 +64,17 @@ Try adding, deleting, and undeleting some code blocks!
 
 \--- /task \---
 
-### Putting it all together
+### Recapitulemos
 
-Now you know how to move code around and make things happen, it's time for you to create a program to make the Scratch Cat walk in a circle!
+Ahora que sabes cómo mover bloques de código y hacer que pasen cosas, ¡es hora de que crees un programa para que el gato camine en un círculo!
 
 \--- task \---
 
-Make sure you have the cat sprite selected in the sprite list, and then drag the following blocks into the sprite panel and connect them. You’ll find them in the **Events** and **Motion** lists.
+Make sure you have the cat sprite selected in the sprite list, and then drag the following blocks into the sprite panel and connect them. Los encontrarás en las listas **Eventos** y **Movimiento**.
 
 ```blocks3
-    when green flag clicked
-    move [10] steps
+    al hacer clic en bandera verde
+    mover [10] pasos
 ```
 
 \--- /task \---
@@ -87,27 +87,27 @@ Now, click on the green flag above the Stage.
 
 \--- /task \---
 
-You should see the cat walking in a straight line...not exactly what you want, right?
+Deberías ver al gato caminando en línea recta... esto no es exactamente lo que quieres, ¿verdad?
 
 Note: If you click the flag too many times and the cat walks away, you can drag it back!
 
 \--- task \---
 
-Snap the turn block to the end to make the cat sprite walk in a circle. It’s in the **Motion** list too.
+Snap the turn block to the end to make the cat sprite walk in a circle. Está en la lista **Movimiento** también.
 
 ```blocks3
-    when green flag clicked
-    move [10] steps
-+    turn cw (15) degrees
+    al hacer clic en bandera verde
+    mover [10] pasos
++    girar a la derecha (15) grados
 ```
 
 \--- /task \---
 
 ## \--- collapse \---
 
-## title: How does turning work?
+## title: ¿Cómo funciona el giro?
 
-This block makes the sprite turn 15 degrees of the full 360 degrees that make up a circle. You can change that number, and the number of steps, by clicking on the number and typing in a new value.
+This block makes the sprite turn 15 degrees of the full 360 degrees that make up a circle. Puedes cambiar ese número y el número de pasos, haciendo clic en el número y escribiendo un nuevo valor.
 
 ![](images/code9.png)
 
