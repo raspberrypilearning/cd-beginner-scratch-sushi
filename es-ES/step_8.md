@@ -1,24 +1,24 @@
 ## ¡Pescando!
 
-The shark moves, the fish swims, but they don’t interact: if the fish swims right into the shark's mouth, nothing happens. Time to change that!
+El tiburón se mueve, el pez nada, pero no interactúan: si el pez se desliza justo en la boca del tiburón, no pasa nada. ¡Es hora de cambiar eso!
 
-First, you need to know if the fish is touching the shark. For this, you'll need a **Control** block and a **Sensing** block.
+Primero, necesitas saber si el pez está tocando al tiburón. Para esto, necesitarás un bloque **Control** y un bloque **Sensor**.
 
 \--- task \---
 
 Add the `if...then`{:class="block3control"} **Control** block inside the `forever`{:class="block3control"} loop of the fish sprite, below the `if on edge bounce`{:class="block3motion"} block.
 
-Drag the `touching...`{:class="block3sensing"} block into the space at the top of the `if...then`{:class="block3control"} block, and click the little triangle to select the shark sprite's name. If you haven’t changed it, it'll be 'Sprite1'.
+Arrastra el bloque `tocando...`{:class="block3sensing"} al espacio en la parte superior del bloque `si...entonces`{:class="block3control"} y haz clic en el pequeño triángulo para seleccionar el nombre del objeto tiburón. Si no lo has cambiado, será 'Sprite1'.
 
 ```blocks3
-    when green flag clicked
-    set rotation style [left-right v]
-    forever 
-        move (10) steps
-        turn cw (pick random (1) to (10)) degrees
-        wait (0.5) secs
-        if on edge, bounce
-+        if <touching [Sprite1 v] ?> then
+    al hacer clic en bandera verde
+    fijar estilo de rotación a [izquierda-derecha v]
+    por siempre
+        mover (10) pasos
+        girar a la derecha (número aleatorio entre (1) y (10)) grados
+        esperar (0.5) segundos
+        si toca un borde, rebotar
++        si <¿tocando [Sprite1 v] ?> entonces
     end
 ```
 
@@ -26,64 +26,64 @@ Drag the `touching...`{:class="block3sensing"} block into the space at the top o
 
 ## \--- collapse \---
 
-## title: How does it work?
+## title: ¿Cómo funciona?
 
-The `if...then`{:class="block3control"} **Control** block needs to be given a `True/False` value.
+El bloque **Control** `si...entonces`{:class="block3control"} debe recibir un valor `Verdadero/Falso`.
 
-**Sensing** blocks collect information, like where the sprite is, what it’s touching, etc. You're using this block:
+Los bloques **Sensores** recopilan información, como dónde está el objeto, qué está tocando, etc. Estás utilizando este bloque:
 
 ```blocks3
-    <touching [Sprite1 v] ?>
+    <¿tocando [Sprite1 v] ?>
 ```
 
-From this block's pointy ends, you can tell it’s going to give you the `True/False` value that the `if...then`{:class="block3control"} block needs.
+Por los bordes puntiagudos de este bloque, puedes saber que va a darte el valor `Verdadero/Falso` que el bloque `si...entonces`{:class="block3control"} necesita.
 
 \--- /collapse \---
 
-Of course, you’ve just added an `if...then`{:class="block3control"} block without adding anything for the 'then' part. So at the moment your script is checking whether the fish sprite is touching the shark sprite, but it's not making anything happen in response.
+Por supuesto, acabas de añadir un bloque `si...entonces`{:class="block3control"} sin añadir nada para la parte 'entonces'. Así que en este momento tu código está comprobando si el objeto pez está tocando el objeto tiburón, pero no está haciendo nada en respuesta.
 
-You can make the fish disappear, as if the shark ate it, by using the `hide`{:class="block3looks"} block.
+Puedes hacer que el pez desaparezca, como si el tiburón se lo comiera, usando el bloque `esconder`{:class="block3looks"}.
 
 \--- task \---
 
 Find the `hide`{:class="block3looks"} block in the **Looks** list, and put it inside the `if...then`{:class="block3control"} block, like so:
 
 ```blocks3
-    if <touching [Sprite1 v] ?> then
-+        hide
+    si <¿tocando [Sprite1 v] ?> entonces
++        esconder
     end
 ```
 
 \--- /task \---
 
-Now once the shark catches the fish, the fish disappears for good. That’s not great.
+Ahora, una vez que el tiburón captura al pez, el pez desaparece para siempre. Esto no está bien.
 
 \--- task \---
 
 Put the `show`{:class="block3looks"} block from **Looks** in at the very start of the fish code, so you can reset the game.
 
 ```blocks3
-    when green flag clicked
-+    show
-    set rotation style [left-right v]
-    forever
+    al hacer clic en bandera verde
++    mostrar
+    fijar estilo de rotación [izquierda-derecha v]
+    por siempre
 ```
 
 \--- /task \---
 
-That's already better, but you don’t want the player to have to restart the game every time they catch a single fish!
+Eso ya está mejor, ¡pero no quieres que el jugador tenga que reiniciar el juego cada vez que capture un pescado!
 
 \--- task \---
 
 Update the code inside your `if...then`{:class="block3control"} block to look like this:
 
 ```blocks3
-    if on edge, bounce
-    if <touching [Sprite1 v] ?> then
-        hide
-+        wait (1) secs
-+        go to x: (pick random (-240) to (240)) y: (pick random (-180) to (180))
-+        show
+    si toca un borde, rebotar
+    si <¿tocando [Sprite1 v] ?> entonces
+        esconder
++        esperar (1) segundos
++        ir a x: (número aleatorio entre (-240) y (240)) y: (número aleatorio entre (-180) to (180))
++        mostrar
     end
 ```
 
@@ -91,12 +91,12 @@ Update the code inside your `if...then`{:class="block3control"} block to look li
 
 ## \--- collapse \---
 
-## title: How does this work?
+## title: ¿Cómo funciona esto?
 
-You are being clever here: when the fish is hidden, it waits, moves, and then shows up again.
+Aquí estás siendo inteligente: cuando el pescado está oculto, espera, se mueve y luego vuelve a aparecer.
 
-It looks like lots of fish keep appearing, but it’s that one sprite moving around!
+Parece que muchos peces siguen apareciendo, ¡pero es el mismo objeto moviéndose de un lado a otro!
 
 \--- /collapse \---
 
-That’s a game! But there’s no way to keep score yet, or to win. You can fix that too — on the next card!
+¡Eso es un juego! Pero todavía no hay manera de guardar la puntuación, o de ganar. También puedes arreglar eso: ¡en la siguiente tarjeta!
