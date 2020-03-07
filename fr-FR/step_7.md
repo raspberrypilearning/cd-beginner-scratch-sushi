@@ -1,6 +1,6 @@
 ## Poisson télécommandé
 
-D'accord, il est maintenant temps de faire nager le poisson tout seul. Pour ce faire, tu auras besoin d’un nouveau type de bloc: un bloc **Contrôle**.
+D'accord, il est maintenant temps de faire nager le poisson tout seul. Pour ce faire, tu auras besoin d’un nouveau type de bloc : un bloc **Contrôle**. Bloc.
 
 \--- task \---
 
@@ -19,7 +19,7 @@ Fais glisser un bloc `lorsque le drapeau vert est cliqué`{:class="block3events"
 
 ## \--- collapse \---
 
-## title: que fait le nouveau bloc?
+## title: Que fait le nouveau bloc?
 
 **Les blocs de contrôle** obligent ton programme à effectuer des tâches un certain nombre de fois ou dans certaines conditions.
 
@@ -57,7 +57,7 @@ Ajoute le bloc `attendre`{:class="block3control"} dans ton code à l'intérieur 
 
 ## \--- collapse \---
 
-## title: faire des ajustements
+## title: Faire des ajustements
 
 Le numéro que tu définis dans le bloc `attendre`{:class="block3control"} dit combien de **secondes** tu veux que le poisson attende. `0.5` est une demi-seconde.
 
@@ -69,19 +69,19 @@ Le poisson bouge maintenant, mais tu en as aussi besoin pour rebondir sur le bor
 
 \--- task \---
 
-Recherche le bloc `si rebondi sur le bord`{:class="block3motion"} et ajoute-le après le bloc `attendre`{: class="block3control"}.
+Recherche le bloc `rebondir si le bord est atteint`{:class="block3motion"} et ajoute-le après le bloc `attendre`{: class="block3control"}.
 
 \--- /task \---
 
 ## \--- collapse \---
 
-## title: que fait le nouveau bloc?
+## title: Que fait le nouveau bloc?
 
-Le bloc `si rebondi sur le bord`{:class="block3motion"} vérifie si le sprite touche le bord de la scène et, le cas échéant, il tourne à gauche, à droite, en haut ou en bas, selon le cas.
+Le bloc `rebondir si le bord est atteint`{:class="block3motion"} vérifie si le sprite touche le bord de la scène et, le cas échéant, il tourne à gauche, à droite, en haut ou en bas, selon le cas.
 
 \--- /collapse \---
 
-Bien sûr, cela conduira à un poisson à l'envers, tu as donc besoin de nouveau d'un bloc `définir style de rotation`{:class="block3motion"}.
+Bien sûr, cela conduira à un poisson à l'envers, tu as donc besoin de nouveau d'un bloc `fixer le sens de rotation`{:class="block3motion"}.
 
 \--- task \---
 
@@ -109,7 +109,7 @@ Ajoute un tournant dans les instructions de nage du poisson et clique sur le dra
 
 ```blocks3
     lorsque le drapeau vert est cliqué 
-    définir le style de rotation [gauche-droite v]
+    fixer le sens de rotation [gauche-droite v]
     répéter indéfiniment
         déplacer de (10) pas
 + tourner cw (10) degrés
@@ -120,13 +120,13 @@ Ajoute un tournant dans les instructions de nage du poisson et clique sur le dra
 
 \--- /task \---
 
-C'est mieux, mais il y a encore trop de tendance. Cela doit être plus aléatoire. Heureusement, Scratch peut faire du hasard pour vous ! Tu as juste besoin d'un nouveau type de bloc, appelé bloc **opérateur**.
+C'est mieux, mais il y a encore trop de tendance. Cela doit être plus aléatoire. Heureusement, Scratch peut faire du hasard pour toi ! Tu as juste besoin d'un nouveau type de bloc, appelé bloc **opérateur**.
 
 ## \--- collapse \---
 
 ## title: Qu'est-ce qu'un opérateur?
 
-**Les opérateurs** saisissent une ou plusieurs valeurs (telles que des nombres, du texte ou `valeurs Vrai/Faux` ) et renvoient une valeur unique. Tu peux déterminer le type de valeur qu’elle rendra par la forme du bloc: arrondi donne des chiffres ou du texte, pointu donne `vrai/faux`.
+**Les opérateurs** saisissent une ou plusieurs valeurs (telles que des nombres, du texte ou `valeurs Vrai/Faux` ) et renvoient une valeur unique. Tu peux déterminer le type de valeur qu’elle rendra par la forme du bloc : arrondi donne des chiffres ou du texte, pointu donne `vrai/faux`.
 
 ```blocks3
     (() + ())
@@ -172,7 +172,7 @@ Le bloc répéter indéfiniment oblige désormais le sprite poisson à faire qua
 1. Avancer
 2. Tourner un peu
 3. Attendre brièvement
-4. Vérifier si c'est au bord de la scène
+4. Vérifier s'il est au bord de la scène
 
 Une fois que le sprite a effectué la vérification, il recommence au début de la boucle et se déplace, tourne, attend, vérifie, tant que tu laisses ton programme Scratch s'exécuter.
 
