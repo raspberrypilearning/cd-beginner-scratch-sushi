@@ -53,7 +53,7 @@ Un sprite comprend :
 
 Le code dans Scratch se présente sous la forme de blocs que tu relies pour créer des programmes. Tu choisis des blocs dans la palette **blocs de code**, fais-les glisser dans le panneau **sprite actuel**, puis connecte-les l'un à l'autre.
 
-Il existe dix catégories de blocs. Ils sont codés par couleur, et tu peux choisir entre eux en cliquant sur les éléments dans la liste tout en haut de la **palette des blocs de code**.
+Il existe neuf catégories de blocs. Ils sont codés par couleur, et tu peux choisir entre eux en cliquant sur les éléments dans la liste tout en haut de la **palette des blocs de code**.
 
 \--- /collapse \---
 
