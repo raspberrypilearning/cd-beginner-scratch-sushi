@@ -25,7 +25,7 @@ Appuie sur le drapeau vert pour commencer le jeu. Utilise les touches fléchées
 ## title: Ce que tu vas apprendre
 
 + Ajouter et supprimer des blocs de code
-+ Mouvement de base: se déplacer par pas et tourner par degrés
++ Mouvement de base : se déplacer par pas et tourner par degrés
 + Utiliser les commandes du clavier
 + Utiliser les coordonnées (x, y) pour positionner les sprites
 + Changer l'apparence de la scène et des sprites avec des costumes et les commandes montrer/cacher
