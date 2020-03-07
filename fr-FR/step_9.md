@@ -2,7 +2,7 @@
 
 Pour garder le score du nombre de poissons capturés par le joueur, tu as besoin d'un emplacement pour stocker le score, un moyen de l'ajouter et un moyen de le réinitialiser au redémarrage de la partie.
 
-Premièrement: enregistrer le score!
+Premièrement : enregistrer le score!
 
 \--- task \---
 
