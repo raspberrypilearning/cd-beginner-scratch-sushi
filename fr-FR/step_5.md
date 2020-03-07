@@ -52,7 +52,7 @@ Pour que ton requin bouge, connecte ces blocs au blocs **Mouvement** comme ceci 
 
 \--- task \---
 
-Maintenant, clique sur le drapeau vert pour tester ton code.
+Maintenant, clique sur les flèches haut et bas pour tester ton code.
 
 \--- /task \---
 
@@ -98,7 +98,7 @@ Un sprite peut être repéré par les coordonnées de son centre, par exemple `(
 
 Le requin bouge maintenant sur tout l'écran, mais imagine qu'il s'agisse d'un jeu: comment le redémarrer et que se passe-t-il au début de chaque jeu ?
 
-Tu dois amener le requin à son emplacement d'origine lorsque le joueur commence la partie. Ils commenceront ce jeu en cliquant sur le drapeau vert. Tu devras donc changer les coordonnées x et y du sprite du requin lorsque cela se produira.
+Tu dois amener le requin à son emplacement d'origine lorsque le joueur commence la partie. Il commencera ce jeu en cliquant sur le drapeau vert. Tu devras donc changer les coordonnées x et y du sprite du requin lorsque cela se produira.
 
 C'est en fait assez facile ! Le centre de la scène est `(0, 0)` en `(x, y)` coordonnées.
 
