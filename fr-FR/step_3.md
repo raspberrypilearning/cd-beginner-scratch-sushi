@@ -34,7 +34,7 @@ Essaie de double-cliquer sur certains blocs pour voir ce qu’ils font.
 
 ## title: Exécuter le code
 
-Généralement, tu veux que ton code soit exécuté automatiquement chaque fois que quelque chose de spécifique se produit. C’est pourquoi beaucoup de tes programmes commenceront avec un bloc de la catégorie **Événements** , le plus souvent celui-ci :
+Généralement, tu veux que ton code soit exécuté automatiquement chaque fois que quelque chose de spécifique se produit. C’est pourquoi beaucoup de tes programmes commenceront avec un bloc de la catégorie **Événements**, le plus souvent celui-ci :
 
 ```blocks3
     quand le drapeau vert est cliqué
@@ -64,7 +64,7 @@ Essaie d'ajouter, de supprimer, et d'annuler la suppression de certains blocs de
 
 \--- /task \---
 
-### Les mettre tous ensemble
+### Les assembler
 
 Maintenant que tu sais comment déplacer le code et faire bouger les choses, il est temps de créer un programme pour faire en sorte que le chat Scratch marche en cercle !
 
