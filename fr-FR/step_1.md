@@ -28,7 +28,7 @@ Appuie sur le drapeau vert pour commencer le jeu. Utilise les touches fléchées
 + Mouvement de base: se déplacer par pas et tourner par degrés
 + Utiliser les commandes du clavier
 + Utiliser les coordonnées (x, y) pour positionner les sprites
-+ Changer le look de la scène et des sprites avec des costumes et les commandes montrer/cacher
++ Changer l'apparence de la scène et des sprites avec des costumes et les commandes montrer/cacher
 + Avoir plusieurs sprites à l'écran
 + Utiliser les boucles `répéter indéfiniment`{:class="block3control"}
 + Détecter quand les sprites se touchent
@@ -39,7 +39,7 @@ Appuie sur le drapeau vert pour commencer le jeu. Utilise les touches fléchées
 
 ## title: Ce qu'il faut avoir
 
-Tu auras besoin de **Scratch**, fais donc un des éléments suivants :
+Tu auras besoin de **Scratch**, fais donc une des actions suivants :
 
 + Télécharge Scratch et installe-le sur ton ordinateur en allant sur [dojo.soy/downloadscratch](http://dojo.soy/downloadscratch)
 + Utilise Scratch dans ton navigateur Web en allant à l'adresse [dojo.soy/usescratch](http://dojo.soy/usescratch)
