@@ -12,7 +12,7 @@ Ces Sushi Cards vont t'aider à apprendre à créer des programmes informatiques
 
 Tu feras un jeu dans lequel tu déplaceras un requin pour attraper des poissons.
 
-Voici un exemple de l'apparence de ton jeu fini:
+Voici un exemple de l'apparence de ton jeu fini :
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/205355052/?autostart=false" frameborder="0"></iframe>
