@@ -6,7 +6,7 @@ Tout d'abord, tu dois savoir si le poisson touche le requin. Pour cela, tu auras
 
 \--- task \---
 
-Ajoute le `si ....alors`{:class="block3control"} **Contrôle** bloc dans la boucle `répéter indéfiniment`{:class="block3control"} du poisson sprite, en dessous du bloc `si rebond`{:class="block3motion"}.
+Ajoute le bloc `si ....alors`{:class="block3control"} **Contrôle** dans la boucle `répéter indéfiniment`{:class="block3control"} du poisson sprite, en dessous du bloc `si rebond`{:class="block3motion"}.
 
 Fais glisser le bloc `touchant ...`{:class="block3sensing"} dans l'espace situé en haut du bloc `si ... alors`{:class="block3control"}, puis clique sur le petit triangle pour sélectionner le nom du sprite requin. Si tu ne l'as pas changé, ce sera « Sprite1 ».
 
@@ -56,7 +56,7 @@ Recherche le bloc `cacher`{: class = "block3looks"} dans la liste **Apparence** 
 
 \--- /task \---
 
-Maintenant, une fois que le requin attrape le poisson, celui-ci disparaît définitivement. C'est pas génial.
+Maintenant, une fois que le requin attrape le poisson, celui-ci disparaît définitivement. Ce n'est pas génial.
 
 \--- task \---
 
@@ -93,7 +93,7 @@ Mets à jour le code dans ton bloc `si ... alors`{:class="block3control"} pour q
 
 ## title: Comment ça marche?
 
-Tu es malin ici: quand le poisson est caché, il attend, bouge et se montre à nouveau.
+Tu es malin ici : quand le poisson est caché, il attend, bouge et se montre à nouveau.
 
 On dirait que beaucoup de poissons continuent à apparaître, mais c'est ce sprite qui se déplace !
 
