@@ -4,7 +4,7 @@ Tu as maintenant un requin que tu peux déplacer avec les touches fléchées. Su
 
 \--- task \---
 
-Clique sur le bouton **Nouveau sprite** et, sur l'écran qui s'ouvre, choisis un poisson.
+Clique sur le bouton **Choisir un sprite** et, sur l'écran qui s'ouvre, choisis un poisson.
 
 ![Le bouton Nouveau sprite](images/spritesNewFromLibrary.png)
 
@@ -60,7 +60,7 @@ Si tu essaies de déplacer le requin maintenant après avoir ajouté le `point d
 
 ## title: Pourquoi ça va à l'envers?
 
-Le problème ici est que le sprite de requin a commencé, comme tous les sprites font, avec le « tout autour de » **style de rotation**, et ce que tu as besoin d'avoir est le style « gauche-droite ».
+Le problème ici est que le sprite de requin a commencé, comme tous les sprites font, avec le **style de rotation** « tout autour de », et ce que tu as besoin d'avoir est le style « gauche-droite ».
 
 Comme d'habitude, il existe un bloc pour cela, et c'est dans **Mouvement** !
 
@@ -68,7 +68,7 @@ Comme d'habitude, il existe un bloc pour cela, et c'est dans **Mouvement** !
 
 \--- task \---
 
-Recherche dans la catégorie **Mouvement** le bloc` définir style de rotation `{: class="block3motion"}.
+Recherche dans la catégorie **Mouvement** le bloc` fixer le sens de rotation `{: class="block3motion"}.
 
 Ajoute le bloc à ton code de réinitialisation de requin précédent et définis le style de rotation sur `gauche-droite`{:class="block3motion"}, comme ceci :
 
