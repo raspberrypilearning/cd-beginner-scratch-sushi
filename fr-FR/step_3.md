@@ -10,11 +10,11 @@ Tu trouveras tous les blocs dans la **palette des blocs de code**, classés en d
 
 ## title: Utilisation de blocs de différentes catégories
 
-Clique sur un nom de catégorie pour voir les blocs de cette catégorie. Ici, la catégorie **Mouvement** est sélectionnée:
+Clique sur un nom de catégorie pour voir les blocs de cette catégorie. Ici, la catégorie **Mouvement** est sélectionnée :
 
 ![](images/code2a.png)
 
-Tous les blocs de la catégorie sur laquelle tu as cliqué sont affichés dans une liste:
+Tous les blocs de la catégorie sur laquelle tu as cliqué sont affichés dans une liste :
 
 ![](images/code2b.png)
 
