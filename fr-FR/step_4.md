@@ -30,7 +30,7 @@ Tout d'abord, sélectionne le sprite chat et clique sur l'onglet **Costumes**.
 
 ![](images/cool2.png)
 
-Ensuite, clique sur **Choisir costume à partir de la bibliothèque**
+Ensuite, clique sur **Choisir un costume**
 
 ![](images/cool3.png)
 
