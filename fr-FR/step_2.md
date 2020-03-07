@@ -1,6 +1,6 @@
 ## Mise en place
 
-Une fois que tu ouvres Scratch, tu verras une fenêtre semblable à celle ci-dessous.
+Une fois que tu auras ouvert Scratch, tu verras une fenêtre semblable à celle ci-dessous.
 
 \--- task \---
 
