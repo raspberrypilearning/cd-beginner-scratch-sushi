@@ -9,10 +9,10 @@ Selecteer je vis sprite.
 Sleep een `wanneer op groene vlag wordt geklikt`{:class="block3events"} **Gebeurtenissen** blok, een `herhaal`{:class="block3control"} **Besturen** blok en een `neem 10 stappen`{:class="block3motion"} **Beweging** blok naar het **sprite paneel**:
 
 ```blocks3
-    wanneer op groene vlag wordt geklikt
-herhaal
-neem (10) stappen
-einde
+    when green flag clicked
+    forever
+        move (10) steps
+    end
 ```
 
 --- /task ---
@@ -39,7 +39,7 @@ Tjonge, die vis botste tegen de zijkant van het Speelveld en ging véél te snel
 Eerst moet je de vis langzamer laten gaan. Dat is vrij simpel, je moet een pauze inlassen als de vis 10 stappen genomen heeft. Er is een **Besturen** blok dat je hierbij helpt:
 
 ```blocks3
-    wacht (1) sec
+    wait (1) secs
 ```
 
 --- task --- 
@@ -47,11 +47,11 @@ Eerst moet je de vis langzamer laten gaan. Dat is vrij simpel, je moet een pauze
 Voeg het `wacht`{:class="block3control"} blok toe aan je code binnen het `herhaal`{:class="block3control"} blok, en verander het getal naar `0.5`:
 
 ```blocks3
-    wanneer op groene vlag wordt geklikt
-herhaal
-neem (10) stappen
-+ wacht (0.5) sec
-einde
+when green flag clicked
+    forever
+        move (10) steps
++      wait (0.5) secs
+    end
 ```
 
 --- /task ---
@@ -91,13 +91,13 @@ Natuurlijk betekent dit dat je vis ondersteboven gaat zwemmen, dus heb je weer e
 Werk je code bij door de draaistijl van de vis `links-rechts`{:class="block3motion"} aan het begin van de sprite code toe te voegen:
 
 ```blocks3
-    wanneer op groene vlag wordt geklikt
-+ maak draaistijl [links-rechts v]
-herhaal
-neem (10) stappen
-wacht (0.5) sec
-keer om aan de rand
-einde
+    when green flag clicked
++    set rotation style [left-right v]
+    forever
+        move (10) steps
+        wait (0.5) secs
+        if on edge, bounce
+    end
 ```
 
 --- /task ---
@@ -111,14 +111,14 @@ Je weet van een vorige stap al hoe je een sprite kunt laten draaien, dus daar be
 Voeg een draai toe aan de zweminstructies van de vis, en klik op de groene vlag.
 
 ```blocks3
-    wanneer op groene vlag wordt geklikt
-maak draaistijl [links-rechts v]
-herhaal
-neem (10) stappen
-+ draai cw (10) graden
-wacht (0.5) sec
-keer om aan de rand
-einde
+    when green flag clicked
+    set rotation style [left-right v]
+    forever
+        move (10) steps
++        turn cw (10) degrees
+        wait (0.5) secs
+        if on edge, bounce
+    end
 ```
 
 --- /task ---
@@ -135,9 +135,9 @@ title: Wat is een functie?
 ```blocks3
     (() + ())
 
-(voeg [hallo ] en [wereld] samen)
+    (join [hallo ] [wereld])
 
-<[] = []>
+    <[] = []>
 ```
 
 --- /collapse ---
@@ -147,14 +147,14 @@ title: Wat is een functie?
 Zoek het `willekeurig getal tussen`{:class=block3operators"] **Functies** blok, en stop het in het `draai graden`{:class="block3motion"} **Beweging** blok door erop te klikken en het in het getalvakje van de graden te slepen.
 
 ```blocks3
-    wanneer op groene vlag wordt gedrukt
-maak draaistijl [links-rechts v]
-herhaal
-neem (10) stappen
-+ draai cw (willekeurig getal tussen (1) en (10)) graden
-wacht (0.5) sec
-keer om aan de rand
-einde
+    when green flag clicked
+    set rotation style [left-right v]
+    forever 
+        move (10) steps
++        turn cw (pick random (1) to (10)) degrees
+        wait (0.5) secs
+        if on edge, bounce
+    end
 ```
 
 --- /task ---
