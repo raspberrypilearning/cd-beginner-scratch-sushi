@@ -39,7 +39,7 @@ title: De code uitvoeren
 Meestal wil je dat je code automatisch wordt uitgevoerd wanneer er iets specifieks gebeurt. Daarom beginnen veel van je programma's met een blok uit de **gebeurtenissen** categorie, meestal deze:
 
 ```blocks3
-    wanneer op groene vlag wordt geklikt
+    when green flag clicked
 ```
 
 De codeblokken die zijn aangesloten op dit blok wordt uitgevoerd nadat op de **groene vlag** is geklikt.
@@ -47,9 +47,9 @@ De codeblokken die zijn aangesloten op dit blok wordt uitgevoerd nadat op de **g
 Codeblokken lopen van boven naar beneden, dus de volgorde waarin je de blokken samenvoegt, is van belang. In dit voorbeeld zal de sprite `Hallo!` `zeggen`{:class="block3looks"} voordat het het `meow` geluid `afspeelt`{:class="block3sound"}.
 
 ```blocks3
-    wanneer op groene vlag wordt geklikt
-  zeg [Hallo]
-  start geluid [meow v]
+    when green flag clicked
+    say [Hallo]
+    play sound [meow v]
 ```
 
 --- /collapse ---
@@ -75,8 +75,8 @@ Nu je weet hoe je code kunt verplaatsen en dingen kunt laten gebeuren, is het ti
 Zorg dat je de kat sprite geselecteerd hebt in de spritelijst, en sleep dan de volgende blokken in het sprite paneel en verbindt ze met elkaar. Je vindt ze in de **Gebeurtenissen** en **Beweging** categorieën.
 
 ```blocks3
-    wanneer op groene vlag wordt geklikt
-    neem [10] stappen
+    when green flag clicked
+    move [10] steps
 ```
 
 --- /task ---
@@ -98,9 +98,9 @@ Opmerking: als je te vaak op de vlag klikt en de kat loopt uit beeld, dan kun je
 Zet het draai blok aan het eind zodat de kat in een rondje kan lopen. Het zit ook in de **Beweging** categorie.
 
 ```blocks3
-    wanneer op groene vlag wordt geklikt
-   neem [10] stappen
-+    draai cw (15) graden
+    when green flag clicked
+    move [10] steps
++    turn cw (15) degrees
 ```
 
 --- /task ---
