@@ -71,9 +71,9 @@ Zoek in de **Beweging** categorie naar het blok `maak draaistijl`{:class="block3
 Voeg dit blok toe aan de herstartcode van de haai, en maak als volgt de draaistijl `links-rechts`{:class="block3motion"}:
 
 ```blocks3
-    wanneer op de groene vlag wordt geklikt
-+   maak draaistijl [links-rechts v]
-ga naar x: (0) y: (0)
+     when green flag clicked
++     set rotation style [left-right v]
+    go to x: (0) y: (0)
 ```
 
 --- /task ---
