@@ -16,10 +16,10 @@ version: 3
 last_tested: 2017-01-01
 steps:
   - title: Inleiding
-  - title: Opstarten
+  - title: Beginnen
   - title: Toevoegen en verwijderen van codeblokken
-  - title: Het opzetten van de scene
-  - title: Beweeg dingen in het rond
+  - title: Het instellen van de scène
+  - title: Dingen verplaatsen
   - title: Alle sprites
   - title: Vis op afstand bestuurbaar
   - title: Vissen!

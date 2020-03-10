@@ -38,22 +38,22 @@ Pak uit de **Variabelen** categorie de `maak [mijn variabele v] [0]`{:class="blo
 ### Code voor de haai
 
 ```blocks3
-    wanneer op groene vlag wordt gedrukt
-+ maak [score v] [0]
-maak draaistijl [links-rechts v]
-ga naar x: (0) y: (0)
+    when green flag clicked
++    set [score v] to [0]
+    set rotation style [left-right v]
+    go to x: (0) y: (0)
 ```
 
 ### Code voor de vis
 
 ```blocks3
-    als <touching [Sprite1 v] ?> dan
-+ verander [score v] met [1]
-verdwijn
-wacht (1) sec
-ga naar x: (willekeurig getal tussen (-240) en (240)) y: (willekeurig getal tussen (-180) en (180))
-verschijn
-einde
+   if <touching [Sprite1 v] ?> then
++        change [score v] by [1]
+        hide
+        wait (1) secs
+        go to x: (pick random (-240) to (240)) y: (pick random (-180) to (180))
+        show
+    end
 ```
 
 --- /task ---

@@ -6,7 +6,7 @@ Kies een score waarbij de speler wint, en laat iets leuks gebeuren als ze die sc
 
 Dit project werd vertaald door vrijwilligers:
 
-Sanneke van der Meet
+Sanneke van der Meer
 
 Lieve Cox
 
