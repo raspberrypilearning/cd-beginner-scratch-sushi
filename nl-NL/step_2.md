@@ -84,7 +84,7 @@ Klik op de Scratch kat in de sprite lijst. De kat is nu de huidige sprite.
 Kies de **Gebeurtenissen** categorie in het code blokken palet, klik op het `wanneer op groene vlag wordt geklikt`{:class="block3events"} blok, en sleep het naar het huidige sprite paneel.
 
 ```blocks3
-    wanneer op groene vlag wordt geklikt
+     when green flag clicked
 ```
 
 --- /task ---
@@ -94,7 +94,7 @@ Kies de **Gebeurtenissen** categorie in het code blokken palet, klik op het `wan
 Ga nu naar **Uiterlijken** in het code blokken palet en zoek dit blok:
 
 ```blocks3
-    zeg [Hallo!] voor (2) sec
+    say [Hallo!] for (2) secs
 ```
 
 Klik erop, houd de muisknop ingedrukt en sleep hem naar het huidige sprite paneel en laat de knop los.
