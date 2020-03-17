@@ -1,6 +1,6 @@
-## Adding and removing code blocks
+## コードブロックの追加と削除
 
-Great! You’ve written your very first Scratch program. Time to learn a little more about getting code in and out of Scratch! Scratch code is made up of **blocks** such as these:
+すばらしいです！ You’ve written your very first Scratch program. Time to learn a little more about getting code in and out of Scratch! Scratch code is made up of **blocks** such as these:
 
 ![](images/code1.png)
 
@@ -10,11 +10,11 @@ You will find all blocks in the **code blocks palette**, sorted into different c
 
 ## title: Using blocks from the different categories
 
-Click on a category name to see the blocks in that category. Here, the **Motion** category is selected:
+カテゴリ名をクリックすると、そのカテゴリのブロックが表示されます。 ここでは、 **Motion** カテゴリが選択されています。
 
 ![](images/code2a.png)
 
-All of the blocks in the category you've clicked are shown in a list:
+クリックしたカテゴリ内のすべてのブロックがリストに表示されます。
 
 ![](images/code2b.png)
 
@@ -22,7 +22,7 @@ You can click on the blcok you want, and then just drag it into the current spri
 
 \--- /collapse \---
 
-If you want to see what a block does, you can double-click on it to make it run!
+ブロックの動作を確認したい場合は、ブロックをダブルクリックして実行します。
 
 \--- task \---
 
@@ -37,7 +37,7 @@ Try double-clicking on some of the blocks to see what they do.
 Usually, you want your code to run automatically whenever something specific happens. This is why many of your programs will start with a block from the **Events** category, most often this one:
 
 ```blocks3
-    when green flag clicked
+    緑色の旗がクリックされたとき
 ```
 
 The code blocks connected to this block will run after the **green flag** is clicked.
@@ -45,9 +45,9 @@ The code blocks connected to this block will run after the **green flag** is cli
 Code blocks run from top to bottom, so the order in which you snap your blocks together matters. In this example, the sprite will `say`{:class="block3looks"} `Hello!` before it will `play`{:class="block3sound"} the `meow` sound.
 
 ```blocks3
-    when green flag clicked
-    say [Hello]
-    play sound [meow v]
+    緑の旗がクリックされたとき
+    言う [Hello]
+    サウンドを再生する[meow v]
 ```
 
 \--- /collapse \---
@@ -64,7 +64,7 @@ Try adding, deleting, and undeleting some code blocks!
 
 \--- /task \---
 
-### Putting it all together
+### すべてを一緒に入れて
 
 Now you know how to move code around and make things happen, it's time for you to create a program to make the Scratch Cat walk in a circle!
 
@@ -73,8 +73,8 @@ Now you know how to move code around and make things happen, it's time for you t
 Make sure you have the cat sprite selected in the sprite list, and then drag the following blocks into the sprite panel and connect them. You’ll find them in the **Events** and **Motion** lists.
 
 ```blocks3
-    when green flag clicked
-    move [10] steps
+    緑色の旗がクリックされたとき
+    移動 [10] ステップ
 ```
 
 \--- /task \---
@@ -96,9 +96,9 @@ Note: If you click the flag too many times and the cat walks away, you can drag 
 Snap the turn block to the end to make the cat sprite walk in a circle. It’s in the **Motion** list too.
 
 ```blocks3
-    when green flag clicked
-    move [10] steps
-+    turn cw (15) degrees
+    緑色の旗がクリックされたとき
+    移動 [10] ステップ
++ cw（15）度を回す
 ```
 
 \--- /task \---
