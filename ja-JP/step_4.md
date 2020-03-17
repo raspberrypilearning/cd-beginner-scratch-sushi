@@ -1,28 +1,28 @@
-## Setting the scene
+## シーンを設定する
 
-Scratch has a library of backgrounds and sprites for you to use to make your project look awesome.
+Scratchには、プロジェクトの見栄えを良くするために使用できる背景とスプライトのライブラリがあります。
 
 \--- task \---
 
 Select the Stage.
 
-![Selecting the stage](images/looksSelectStage.png)
+![ステージの選択](images/looksSelectStage.png)
 
-Click on **Backdrops**.
+背景タブをクリックします 。
 
-![The Backdrops tab](images/looksBackdrops.png)
+![[背景]タブ](images/looksBackdrops.png)
 
-Click the **Choose backdrop from library** icon.
+[ ライブラリから背景を選択 ]をクリックします。
 
-![The Choose backdrop icon](images/looksChooseBg.png)
+![背景アイコンの選択](images/looksChooseBg.png)
 
-Then pick your favourite underwater background!
+次に、お気に入りの水中背景を選んでください！
 
-![An underwater scene](images/looksUnderwater.png)
+![水中シーン](images/looksUnderwater.png)
 
 \--- /task \---
 
-Great! Of course, now you have a cat underwater, and cats aren't usually big fans of that. But you can fix that, because you can turn the cat into a shark!
+素晴らしいです！ もちろん、今あなたは水中で猫を飼っています。しかし通常、猫は水中が好きではありません。 しかし、猫をサメに変えることができるので、あなたはそれを修正することができます！
 
 \--- task \---
 
@@ -30,13 +30,13 @@ First, select the cat sprite and click on the **Costumes** tab.
 
 ![](images/cool2.png)
 
-Then, click on **Choose costume from Library**
+次に、[ ライブラリからコスチュームを選択 ]をクリックします
 
 ![](images/cool3.png)
 
-Select this shark image and click **OK**.
+このサメの画像を選択して[ OK ]をクリックします。
 
-![The shark costume](images/looksShark.png)
+![サメのコスチューム](images/looksShark.png)
 
 Now remove the cat costumes by selecting each of them and clicking on the **x**.
 
@@ -44,4 +44,4 @@ Now remove the cat costumes by selecting each of them and clicking on the **x**.
 
 \--- /task \---
 
-Now you have a shark – excellent!
+これでサメができました。すばらしいです！
