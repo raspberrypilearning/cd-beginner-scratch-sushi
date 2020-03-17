@@ -51,7 +51,7 @@ Scratchを開くと、下のようなウィンドウが表示されます。
 
 ## タイトル：コードブロック
 
-Code in Scratch comes in the form of blocks that you connect to make programs. You choose blocks from the **code blocks palette**, drag them into the **current sprite panel**, and then connect them to each other.
+Scratchのコードは、プログラムを作成するために接続するブロックの形で提供されます。 You choose blocks from the **code blocks palette**, drag them into the **current sprite panel**, and then connect them to each other.
 
 There are ten categories of blocks. They are colour-coded, and you can choose between them by clicking on the items in the list at the top of the **code blocks palette**.
 
