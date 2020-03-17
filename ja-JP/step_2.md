@@ -2,11 +2,11 @@
 
 Scratchを開くと、下のようなウィンドウが表示されます。
 
-\--- task \---
+\--- タスク \---
 
 次の各領域を探し、それらがどこにあるかを覚えておいてください。
 
-\--- /task \---
+\--- /タスク \---
 
 ### ステージ
 
@@ -16,19 +16,19 @@ Scratchを開くと、下のようなウィンドウが表示されます。
 
 ## タイトル：ステージとは
 
-スクラッチプログラムが実行される場所です。 It has:
+スクラッチプログラムが実行される場所です。 次のものがあります。
 
 * 1つ以上の背景 （画面の背景の画像）
 
 * それに関連する コードブロック （これを取得します）
 
-\--- /collapse \---
+\--- /折りたたむ \---
 
 ### スプライトリスト
 
 ![Scratch window with the sprite list highlighted](images/hlSpriteList.png)
 
-## \--- collapse \---
+## \--- 折りたたむ \---
 
 ## タイトル：スプライトとは
 
@@ -41,46 +41,46 @@ Scratchを開くと、下のようなウィンドウが表示されます。
 * それに関連する音
 * それに関連する コードブロック ![](images/setup2.png)
 
-\--- /collapse \---
+\--- /折りたたむ \---
 
 ### コードブロックパレット
 
 ![Scratch window with the blocks pallet highlighted](images/hlBlocksPalette.png)
 
-## \--- collapse \---
+## \--- 折りたたむ \---
 
 ## タイトル：コードブロック
 
-Scratchのコードは、プログラムを作成するために接続するブロックの形で提供されます。 You choose blocks from the **code blocks palette**, drag them into the **current sprite panel**, and then connect them to each other.
+Scratchのコードは、プログラムを作成するために接続するブロックの形で提供されます。 コードブロックパレットからブロックを選択し、それらを現在のスプライトパネルにドラッグし、それらを接続します。
 
-There are ten categories of blocks. They are colour-coded, and you can choose between them by clicking on the items in the list at the top of the **code blocks palette**.
+ブロックには10のカテゴリがあります。 これらは色分けされており、コードブロックパレットの上部にあるリスト内のアイテムをクリックして選択できます。 。
 
-\--- /collapse \---
+\--- /折りたたむ \---
 
-### The current sprite panel
+### 現在のスプライトパネル
 
 ![Scratch window with the current sprite panel highlighted](images/hlCurrentSpritePanel.png)
 
-## \--- collapse \---
+## \--- 折りたたむ \---
 
-## title: What is the current sprite?
+## タイトル：現在のスプライトとは何ですか？
 
-The **current sprite** is the one that's selected in the **sprite list**.
+現在のスプライトは、スプライトリストで選択されているものです。
 
-The **current sprite panel** is where you can see the code, costumes, and sounds for the selected sprite.
+現在のスプライトパネルには、あなたが選択したスプライトのコード、コスチューム、そして音を見ることができる場所です。
 
-\--- /collapse \---
+\--- /折りたたむ \---
 
-Time to get coding!
+コーディングを始めましょう！
 
-\--- task \---
+\--- タスク \---
 
-In the sprite list, click on the Scratch Cat. The cat is now the current sprite.
+スプライトリストで、Scratch Catをクリックします。 猫は現在のスプライトです。
 
 Choose the **Events** category in the code blocks palette, click the `when flag clicked`{:class="block3events"} block, and drag it into the current sprite panel.
 
 ```blocks3
-    when green flag clicked
+    緑色の旗がクリックされたとき
 ```
 
 \--- /task \---
@@ -90,7 +90,7 @@ Choose the **Events** category in the code blocks palette, click the `when flag 
 Then go to **Looks** in the code blocks palette and find this block:
 
 ```blocks3
-    say [Hello!] for (2) secs
+    （2）秒間[こんにちは！]と言ってください。
 ```
 
 Click on it, hold down the mouse button, and then just drag it into the current sprite panel and let go of the button.
