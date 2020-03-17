@@ -1,3 +1,3 @@
-## Challenge: winning the game
+## チャレンジ：ゲームに勝つ
 
-Pick a score at which the player wins, and make something cool happen when they have that many points. Maybe the shark congratulates them, or a 'You win!' sprite appears, or music plays!
+プレーヤーが勝つスコアを選択し、その数のポイントを獲得したときに何かクールなことが起こるようにします。 サメが彼らを祝福したり、「You win！（あなたが勝ちました！）」のスプライトが表示されたり、音楽が再生されたりします。
