@@ -1,55 +1,55 @@
-## Getting set up
+## はじめに
 
-Once you open Scratch, you’ll see a window like the one below.
+Scratchを開くと、下のようなウィンドウが表示されます。
 
 \--- task \---
 
-Look for each of the following areas and remember where they are.
+次の各領域を探し、それらがどこにあるかを覚えておいてください。
 
 \--- /task \---
 
-### The Stage
+### ステージ
 
 ![Scratch window with the stage highlighted](images/hlStage.png)
 
 ## \--- collapse \---
 
-## title: What is the Stage?
+## タイトル：ステージとは
 
-This is where your Scratch programs run. It has:
+スクラッチプログラムが実行される場所です。 It has:
 
-* One or more **backgrounds** \(images on the background of the screen\)
+* 1つ以上の背景 （画面の背景の画像）
 
-* Any **code blocks** associated with it \(we’ll get to this\)
+* それに関連する コードブロック （これを取得します）
 
 \--- /collapse \---
 
-### The sprite list
+### スプライトリスト
 
 ![Scratch window with the sprite list highlighted](images/hlSpriteList.png)
 
 ## \--- collapse \---
 
-## title: What is a sprite?
+## タイトル：スプライトとは
 
-Any item you can add on the Stage is a **sprite**.
+ステージに追加できるアイテムはすべてスプライトです 。
 
-A sprite includes:
+スプライトには以下が含まれます。
 
-* The **image** on the Stage
-* Any extra **costumes** \(looks\) it has
-* Any **sounds** associated with it
-* Any **code blocks** associated with it ![](images/setup2.png)
+* ステージ上の 画像
+* いくつかの特別なコスチューム
+* それに関連する音
+* それに関連する コードブロック ![](images/setup2.png)
 
 \--- /collapse \---
 
-### The code blocks palette
+### コードブロックパレット
 
 ![Scratch window with the blocks pallet highlighted](images/hlBlocksPalette.png)
 
 ## \--- collapse \---
 
-## title: Code blocks
+## タイトル：コードブロック
 
 Code in Scratch comes in the form of blocks that you connect to make programs. You choose blocks from the **code blocks palette**, drag them into the **current sprite panel**, and then connect them to each other.
 
