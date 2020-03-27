@@ -1,16 +1,16 @@
 ## すべてのスプライト
 
-これで、矢印キーを使用して移動できるサメができました。 すばらしい！ Time to add some fish for it to catch.
+これで、矢印キーを使用して移動できるサメができました。 すばらしい！ 魚を追加して捕まえる時間です。
 
 \--- task \---
 
-Click the **New sprite** button, and on the screen that opens, choose a fish.
+[ 新規スプライト ]ボタンをクリックし、開いた画面で魚を選択します。
 
-![The New sprite button](images/spritesNewFromLibrary.png)
+![新しいスプライトボタン](images/spritesNewFromLibrary.png)
 
-If your fish is a bit big compared to your shark, you can use the size control to make both sprites the right size!
+サメに比べて魚が少し大きい場合は、サイズコントロールを使用して両方のスプライトを適切なサイズにすることができます！
 
-![Sprite size control](images/sprites2.png)
+![スプライトのサイズを調整](images/sprites2.png)
 
 Change the number in the size control to make the spirte bigger or smaller.
 
