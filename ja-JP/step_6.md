@@ -1,6 +1,6 @@
-## All the sprites
+## すべてのスプライト
 
-Now you have a shark that you can move around using the arrow keys. Nice! Time to add some fish for it to catch.
+これで、矢印キーを使用して移動できるサメができました。 すばらしい！ Time to add some fish for it to catch.
 
 \--- task \---
 
