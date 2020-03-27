@@ -1,6 +1,6 @@
-## Moving things around
+## 物を動かす
 
-Right now your shark moves in a circle, and it would be much more fun to control it with the arrow keys. On this card, you’re going learn how to do that!
+今、あなたのサメは円を描いて動きます。矢印キーでそれを制御する方がずっと楽しいでしょう。 このカードでは、その方法を学習します！
 
 \--- task \---
 
@@ -8,7 +8,7 @@ Start by deleting all code that you have for the shark.
 
 \--- /task \---
 
-As you’ve probably guessed, you’re going to need **Event** and **Motion** blocks again!
+おそらくご想像のとおり、再び「イベント」ブロックと「動き」ブロックが必要になります！
 
 \--- task \---
 
@@ -18,11 +18,11 @@ This time, look for this block and drag it into the current sprite panel:
     when [space v] key pressed
 ```
 
-Click the little arrow (▼) beside `space`. You will see a list of all your keyboard keys that you can pick from.
+スペースの横にある小さな下矢印（▼）をクリックします 。 選択できるすべてのキーボードキーのリストが表示されます。
 
 \--- /task \---
 
-You’re going to need four of the `when key pressed`{:class="block3events"} blocks — one for each of your arrow keys.
+キーが押されたときのブロックが4つ必要になります（矢印キーごとに1つ）。
 
 \--- task \---
 
@@ -48,7 +48,7 @@ To make your shark move, connect these blocks to **Motion** blocks like this:
 
 \--- /task \---
 
-**Note**: `-10` means 'go back 10 steps'.
+注：-10は「10ステップ戻る」ことを意味します。
 
 \--- task \---
 
@@ -56,7 +56,7 @@ Now click the green flag to test out your code.
 
 \--- /task \---
 
-Now your shark moves back and forwards, which is pretty cool, but it doesn’t move up or down. Also, if you look through the **Motion** blocks, you’ll see there are no blocks for 'up' or 'down'. There are a whole bunch of them related to **x** and **y** coordinates though — let's try those!
+これでサメが前後に移動します。これはかなりクールですが、上下には移動しません。 また、「動き」ブロックを見ると、「上」または「下」のブロックがないことがわかります。 There are a whole bunch of them related to **x** and **y** coordinates though — let's try those!
 
 \--- task \---
 
