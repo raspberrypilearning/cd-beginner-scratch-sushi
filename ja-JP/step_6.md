@@ -50,7 +50,7 @@ Grab a couple of copies of the `point in direction`{:class="block3motion"} block
 
 Change the number of steps in the `move`{:class="block3motion"} blocks from `-10` to `10`.
 
-If you try moving the shark around now after you've added the `point in direction`{:class="block3motion"} blocks, you might notice something a little strange happening. The shark may not be turning quite right!
+方向ブロックにポイントを追加した後、サメを今すぐ動かしてみると、少し奇妙なことが起こっていることに気付くかもしれません。 サメは完全に右に曲がっていないかもしれません！
 
 ![Upside down shark](images/spritesUpsideDown.png)
 
