@@ -56,7 +56,7 @@ Now click the green flag to test out your code.
 
 \--- /task \---
 
-これでサメが前後に移動します。これはかなりクールですが、上下には移動しません。 また、「動き」ブロックを見ると、「上」または「下」のブロックがないことがわかります。 There are a whole bunch of them related to **x** and **y** coordinates though — let's try those!
+これでサメが前後に移動します。これはかなりクールですが、上下には移動しません。 また、「動き」ブロックを見ると、「上」または「下」のブロックがないことがわかります。 ただし、x座標とy座標に関連するものはたくさんあります。それらを試してみましょう。
 
 \--- task \---
 
@@ -74,35 +74,35 @@ Grab two `change y by`{:class="block3motion"} blocks, and update your code like 
 
 \--- /task \---
 
-Now when you press the arrows keys, the shark moves all around the stage!
+矢印キーを押すと、サメがステージ全体を動き回ります！
 
 ## \--- collapse \---
 
-## title: How do x- and y-coordinates work?
+## タイトル：x座標とy座標はどのように機能しますか？
 
-To talk about the positions of objects, such as sprites, we often use x- and y-coordinates. The **x-axis** of the Stage coordinate system runs from **left to right**, and the **y-axis** runs from **bottom to top**.
+スプライトなどのオブジェクトの位置について話すために、x座標とy座標をよく使用します。 ステージ座標のx軸は左から右に伸び、y軸は下から上に伸びています。
 
 ![](images/moving3.png)
 
 A sprite can be located by the coordinates of its centre, for example `(15, -27)`, where `15` is its position along the x-axis , and `-27` its position along the y-axis.
 
-+ To get a feel for how this actually works, select a sprite and use the **x** and **y** controls to move it around the stage by setting different values for the coordinates.
++ これが実際にどのように機能するかを理解するには、スプライトを選択し、xおよびyコントロールを使用して、座標に異なる値を設定してステージ上でスプライトを移動します。
 
 ![](images/xycoords.png)
 
-+ Try different pairs of values to see where the sprite goes! In Scratch, the x-axis goes from `-240` to `240`, and the y-axis goes from `-180` to `180`.
++ 異なる値のペアを試して、スプライトがどこに行くかを確認してください！ スクラッチでは、x軸は-240から240になり、y軸は-180から180になります。
 
 \--- /collapse \---
 
-### Restarting the game
+### ゲームを再起動する
 
-The shark moves all over the screen now, but imagine this is a game: how do you restart it, and what happens at the start of each game?
+サメは画面全体を移動しますが、これがゲームだと想像してください。どのように再起動し、各ゲームの開始時に何が起こるのでしょうか？
 
-You need to get the shark to its original location when the player starts the game. They'll start this game by clicking on the green flag, so you need to change the shark sprite's x- and y-coordinates when that happens.
+プレイヤーがゲームを開始するときに、サメを元の場所に戻す必要があります。 They'll start this game by clicking on the green flag, so you need to change the shark sprite's x- and y-coordinates when that happens.
 
-That’s actually pretty easy! The centre of the stage is `(0, 0)` in `(x, y)` coordinates.
+That’s actually pretty easy! ステージの中心は、（x、y）座標の（0、0）です。
 
-So all you need is an **Event** block for that green flag, and the **go to** block from **Motion**.
+したがって、必要なのは、その緑色の旗のイベントブロックと、「動き」にある「x座標を○、y座標を○にする」ブロックです。
 
 \--- task \---
 
@@ -112,7 +112,7 @@ Drag a `when green flag clicked`{:class="block3events"} **Event** block onto the
     when green flag clicked
 ```
 
-Then find the `go to`{:class="block3motion"} **Motion** block, and attach it to your flag **Event** block.
+次に、「動き」にある「x座標を○、y座標を○にする」ブロックを見つけて、緑の旗イベントブロックに添付します。
 
 ```blocks3
     when green flag clicked
