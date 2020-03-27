@@ -12,17 +12,17 @@
 
 ![スプライトのサイズを調整](images/sprites2.png)
 
-Change the number in the size control to make the spirte bigger or smaller.
+サイズコントロールの数値を変更して、追加した魚のスプライトを大きくまたは小さくします。
 
 \--- /task \---
 
-Great! Later, you're going to add some code to make the fish move around on its own, without help from the player. Your player will move the shark and try to catch the fish.
+素晴らしいです！ 後で、プレイヤーの助けを借りずに、魚を自力で動き回らせるためのコードを追加します。 プレイヤーはサメを動かし、魚を捕まえようとします。
 
 ## \--- collapse \---
 
-## title: What about the backwards shark?
+## タイトル：後方のサメはどうですか？
 
-It does look a little funny to have that shark swimming backwards. Just like you’d usually turn around rather than walking backwards, the shark would turn around rather than swimming backwards. Luckily for you, Scratch has a block for this!
+そのサメが後ろに泳いでいるのは少しおかしく見えます。 Just like you’d usually turn around rather than walking backwards, the shark would turn around rather than swimming backwards. Luckily for you, Scratch has a block for this!
 
 The `point in direction`{:class="block3motion"} block lets you pick the direction your sprite is pointing in. You’ll find it in the **Motion** blocks section. You can type in any number of degrees, to point the sprite wherever you want.
 
