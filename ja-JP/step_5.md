@@ -15,7 +15,7 @@ Start by deleting all code that you have for the shark.
 This time, look for this block and drag it into the current sprite panel:
 
 ```blocks3
-    when [space v] key pressed
+    スペースキーが押されたとき
 ```
 
 スペースの横にある小さな下矢印（▼）をクリックします 。 選択できるすべてのキーボードキーのリストが表示されます。
@@ -29,24 +29,24 @@ This time, look for this block and drag it into the current sprite panel:
 To make your shark move, connect these blocks to **Motion** blocks like this:
 
 ```blocks3
-    when [left arrow v] key pressed
-    move (-10) steps
+    [左矢印]キーを押したとき
+    （-10）歩動かす
 ```
 
 ```blocks3
-    when [right arrow v] key pressed
-    move (10) steps
+    [右矢印]キーを押したとき
+    （10）歩動かす
 ```
 
 ```blocks3
-    when [up arrow v] key pressed
+    [上矢印]キーが押されたとき
 ```
 
 ```blocks3
-    when [down arrow v] key pressed
+    [下矢印]キーが押されたとき
 ```
 
-\--- /task \---
+\--- /タスク \---
 
 注：-10は「10ステップ戻る」ことを意味します。
 
@@ -63,20 +63,20 @@ Now click the green flag to test out your code.
 Grab two `change y by`{:class="block3motion"} blocks, and update your code like this:
 
 ```blocks3
-    when [up arrow v] key pressed
-+     change y by (10)
+    [上矢印]キーを押したとき
++  y座標を（10）ずつ変える
 ```
 
 ```blocks3
-    when [down arrow v] key pressed
-+     change y by (-10)
+    [下矢印]キーを押したとき
++ y座標を（-10）ずつ変える
 ```
 
 \--- /task \---
 
 矢印キーを押すと、サメがステージ全体を動き回ります！
 
-## \--- collapse \---
+## \--- 折りたたむ \---
 
 ## タイトル：x座標とy座標はどのように機能しますか？
 
@@ -109,17 +109,17 @@ That’s actually pretty easy! ステージの中心は、（x、y）座標の�
 Drag a `when green flag clicked`{:class="block3events"} **Event** block onto the current sprite panel.
 
 ```blocks3
-    when green flag clicked
+    緑の旗が押されたとき
 ```
 
 次に、「動き」にある「x座標を○、y座標を○にする」ブロックを見つけて、緑の旗イベントブロックに添付します。
 
 ```blocks3
-    when green flag clicked
-+     go to x: (0) y: (0)
+    緑の旗が押されたとき
++ x座標：（0）y座標：（0）にする
 ```
 
-Set the both the `x` and the `y` coordinate to `0` in the `go to`{:class="block3motion"} block if they are not already `0`.
+「x座標を○、y座標を○にする」ブロックでx座標とy座標の両方を0に設定します（まだ0でない場合）。
 
 \--- /task \---
 
