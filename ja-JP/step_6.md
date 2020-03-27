@@ -22,9 +22,9 @@
 
 ## タイトル：後方のサメはどうですか？
 
-そのサメが後ろに泳いでいるのは少しおかしく見えます。 Just like you’d usually turn around rather than walking backwards, the shark would turn around rather than swimming backwards. Luckily for you, Scratch has a block for this!
+そのサメが後ろに泳いでいるのは少しおかしく見えます。 後方を泳ぐのではなく通常は向きを変えるように、サメは向きを変えます。 幸いなことに、Scratchにはこのためのブロックがあります！
 
-The `point in direction`{:class="block3motion"} block lets you pick the direction your sprite is pointing in. You’ll find it in the **Motion** blocks section. You can type in any number of degrees, to point the sprite wherever you want.
+「○度に向ける」ブロックを使用すると、スプライトが指している方向を選択できます。 これは[動き]セクションにあります。 任意の角度で入力して、好きな場所にスプライトを向けることができます。
 
 \--- /collapse \---
 
