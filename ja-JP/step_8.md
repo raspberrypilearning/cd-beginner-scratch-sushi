@@ -1,14 +1,14 @@
-## Fishing!
+## 釣り!
 
-The shark moves, the fish swims, but they don’t interact: if the fish swims right into the shark's mouth, nothing happens. Time to change that!
+サメは動き、魚は泳ぎますが、相互に干渉しません。魚がサメの口の中に泳いだ場合も、何も起こりません。 それを変える時です！
 
-First, you need to know if the fish is touching the shark. For this, you'll need a **Control** block and a **Sensing** block.
+まず、魚がサメに触れているかどうかを知る必要があります。 これには、「制御」ブロックと「調べる」ブロックが必要です。
 
 \--- task \---
 
 Add the `if...then`{:class="block3control"} **Control** block inside the `forever`{:class="block3control"} loop of the fish sprite, below the `if on edge bounce`{:class="block3motion"} block.
 
-Drag the `touching...`{:class="block3sensing"} block into the space at the top of the `if...then`{:class="block3control"} block, and click the little triangle to select the shark sprite's name. If you haven’t changed it, it'll be 'Sprite1'.
+「調べる」カテゴリーの「○○に触れた」ブロックを「もし　なら」ブロックの上部のスペースにドラッグし、小さな三角形をクリックしてサメのスプライトの名前を選択します。 変更していない場合は、「Sprite1」になります。
 
 ```blocks3
     when green flag clicked
@@ -26,23 +26,23 @@ Drag the `touching...`{:class="block3sensing"} block into the space at the top o
 
 ## \--- collapse \---
 
-## title: How does it work?
+## タイトル: どのように機能しますか？
 
-The `if...then`{:class="block3control"} **Control** block needs to be given a `True/False` value.
+制御の「もし　なら」ブロックには、True / False値を指定する必要があります。
 
-**Sensing** blocks collect information, like where the sprite is, what it’s touching, etc. You're using this block:
+「調べる」カテゴリーのブロックは、スプライトがどこにあるのか、何に触れているのかなどの情報を収集します。 このブロックを使用しています：
 
 ```blocks3
     <touching [Sprite1 v] ?>
 ```
 
-From this block's pointy ends, you can tell it’s going to give you the `True/False` value that the `if...then`{:class="block3control"} block needs.
+以前に演算子のところで説明したように、このブロックの先のとがった端から、「もし　なら」ブロックが必要とするTrue / False値を提供することがわかります。
 
 \--- /collapse \---
 
 Of course, you’ve just added an `if...then`{:class="block3control"} block without adding anything for the 'then' part. So at the moment your script is checking whether the fish sprite is touching the shark sprite, but it's not making anything happen in response.
 
-You can make the fish disappear, as if the shark ate it, by using the `hide`{:class="block3looks"} block.
+「隠す」ブロックを使用すると、サメ​​が食べたように、魚を消すことができます。
 
 \--- task \---
 
@@ -56,7 +56,7 @@ Find the `hide`{:class="block3looks"} block in the **Looks** list, and put it in
 
 \--- /task \---
 
-Now once the shark catches the fish, the fish disappears for good. That’s not great.
+サメが魚を捕まえると、魚は永久に消えてしまいます。 それは素晴らしいことではありません。
 
 \--- task \---
 
