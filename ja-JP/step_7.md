@@ -174,8 +174,8 @@ Click the green flag to run the code!
 3. ちょっと待つ
 4. ステージの端にあるかどうかを確認します
 
-Once the sprite has done the check, it will start at the beginning of the loop again and move, turn, wait, check, for as long as you let your Scratch program run.
+スプライトがチェックを完了すると、スクラッチプログラムを実行する限り、ループの先頭から再び開始し、移動、回転、待機、チェックを行います。
 
 \--- /collapse \---
 
-Cool! Next up: catching that fish!
+素敵! 次はその魚を捕まえましょう！
