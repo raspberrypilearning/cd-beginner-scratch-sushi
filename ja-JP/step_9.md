@@ -1,8 +1,8 @@
-## Keeping score
+## スコアを保つ
 
-To keep score of how many fish the player catches, you’ll need somewhere to store the score, a way of adding to it, and a way of resetting it when the game is restarted.
+プレイヤーが釣った魚の数のスコアを保持するには、スコアを保存する場所、それを追加する方法、およびゲームを再起動したときにリセットする方法が必要になります。
 
-First: storing the score!
+まず最初に：スコアを保存します！
 
 \--- task \---
 
@@ -10,51 +10,51 @@ Go to the **Variables** blocks category and click on **Make a Variable**.
 
 ![](images/catch5.png)
 
-Enter `score` as the name.
+新しい変数名を「スコア」と入力します。
 
 ![](images/catch6.png)
 
-Check out your new variable!
+新しい変数をチェックしてください！
 
-![The Score variable is displayed on the stage](images/scoreVariableStage.png)
+![変数スコアがステージに表示されます](images/scoreVariableStage.png)
 
 \--- /task \---
 
-## \--- collapse \---
+## \--- 折りたたむ \---
 
-## title: What are variables?
+## タイトル：変数とは何ですか？
 
-When you want to store information in a program, you use something called a **variable**. Think of it like a box with a label on it: you can put something in it, check what’s in it, and change what’s in it. You’ll find variables in the **Variables** section, but you need to create them first for them to show up there!
+プログラムに情報を保存する場合、変数と呼ばれるものを使用します。 ラベルの付いた箱のようなものだと考えてください。何かを入れて、何が入っているかを確認し、何が入っているかを変更できます。 [ 変数]セクションに変数がありますが、そこに表示するには変数を最初に作成する必要があります。
 
 \--- /collapse \---
 
-Now you need to update the variable whenever the shark eats a fish, and to reset it when the game is restarted. Doing both is pretty easy:
+ここで、サメが魚を食べるたびに変数を更新し、ゲームの再起動時に変数をリセットする必要があります。 両方を行うのはとても簡単です：
 
 \--- task \---
 
-From the **Variables** section, take the `set [my variable v] to [0]`{:class="block3variables"} and `change [my variable v] by [1]`{:class="block3variables"} blocks. Click on the little arrows in the blocks, choose `score` from the list, and then put the blocks into your program:
+From the **Variables** section, take the `set [my variable v] to [0]`{:class="block3variables"} and `change [my variable v] by [1]`{:class="block3variables"} blocks. ブロック内の小さな矢印をクリックし、リストからスコアを選択して、ブロックをプログラムに追加します。
 
-### Code for the shark
+### サメのコード
 
 ```blocks3
-    when green flag clicked
-+    set [score v] to [0]
-    set rotation style [left-right v]
-    go to x: (0) y: (0)
+    緑の旗が押されたとき
++　スコアを[0]にする
+　回転方法を[左右のみ]にする
+    x座標：（0）y座標：（0）にする
 ```
 
-### Code for the fish
+### 魚のコード
 
 ```blocks3
-    if <touching [Sprite1 v] ?> then
-+        change [score v] by [1]
-        hide
-        wait (1) secs
-        go to x: (pick random (-240) to (240)) y: (pick random (-180) to (180))
-        show
-    end
+    もし　なら
++　スコアを[1]ずつ変える
+　　隠す
+　（1）秒待つ
+　 1秒でx座標を：（（-240）から（240）までの乱数に）y座標を：（（-180）から（180)までの乱数に）））に変える
++　  表示する
+    終了
 ```
 
 \--- /task \---
 
-Cool! Now you’ve got a score and everything.
+素敵! これでスコアとすべてが手に入りました。
