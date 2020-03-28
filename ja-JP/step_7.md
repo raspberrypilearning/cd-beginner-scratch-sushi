@@ -1,6 +1,6 @@
-## Remote-control fish
+## 自力で動く魚
 
-Ok, now it's time to make the fish swim on its own. To do this, you’re going to need a new kind of block: a **Control** block.
+さて、今度は魚を自力で泳がせます。 これを行うには、新しい種類のブロックが必要になります：「制御」カテゴリーのブロック。
 
 \--- task \---
 
@@ -19,11 +19,11 @@ Drag a `when green flag clicked`{:class="block3events"} **Event** block, a `fore
 
 ## \--- collapse \---
 
-## title: What does the new block do?
+## タイトル：新しいブロックは何をしますか？
 
-**Control** blocks make your program do things a certain number of times, or under certain conditions.
+制御ブロックは、プログラムに特定の回数、または特定の条件下で物事をさせます。
 
-Here, the fish does whatever is inside the `forever`{:class="block3control"} block over and over again on a loop, forever. So once it has done the last thing (block) inside the `forever`{:class="block3control"} block, it starts over at the top and does everything again, and so on.
+ここで、魚は「ずっと」のブロック内にあるものは何でも、ループ(繰り返し)で何度も繰り返し実行します。 したがって、「ずっと」ブロック内で最後の処理（ブロック）が完了すると、最初からやり直して、すべてを繰り返します。
 
 \--- /collapse \---
 
@@ -35,7 +35,7 @@ Now click the green flag and watch what happens!
 
 Well, that fish just crashed into the side of the Stage, and it was moving far too fast for your shark to catch.
 
-First, you need to slow the fish down. That’s actually pretty easy, you just need it to wait for a little while after it moves those 10 steps. There’s a **Control** block that will help you here:
+まず、魚を遅くする必要があります。 That’s actually pretty easy, you just need it to wait for a little while after it moves those 10 steps. ここで役立つ制御ブロックがあります。
 
 ```blocks3
     wait (1) secs
@@ -57,15 +57,15 @@ Add the `wait`{:class="block3control"} block into your code inside the `forever`
 
 ## \--- collapse \---
 
-## title: Making adjustments
+## タイトル：調整する
 
-The number you set in the `wait`{:class="block3control"} block says how many **seconds** you want the fish to wait. `0.5` is half a second.
+待機ブロックに設定した数値は、魚を何秒間待機させたいかを示しています。 0.5は0.5秒です。
 
-You can test out different values to see which is the best for the game. And remember that you can change the number of steps inside the `move`{:class="block3motion"} block too!
+さまざまな値をテストして、ゲームに最適な値を確認できます。 また、移動ブロック内の歩数も変更できることを忘れないでください！
 
 \--- /collapse \---
 
-The fish moves now, but you need it to bounce off the edge of the Stage too. Yet again, there’s a **Motion** block for this!
+The fish moves now, but you need it to bounce off the edge of the Stage too. 繰り返しになりますが、これには「動き」ブロックがあります！
 
 \--- task \---
 
@@ -75,13 +75,13 @@ Find the `if on edge bounce`{:class="block3motion"} block, and add it in after t
 
 ## \--- collapse \---
 
-## title: What does the new block do?
+## タイトル：新しいブロックは何をしますか？
 
 The `if on edge bounce`{:class="block3motion"} block checks if the sprite is touching the edge of the Stage and, if it is, it turns left, right, up, or down as appropriate.
 
 \--- /collapse \---
 
-Of course, this will lead to an upside-down fish, so you need a `set rotation style`{:class="block3motion"} block again.
+もちろん、これは逆さまの魚につながるため、再び回転方法の設定が必要になります。
 
 \--- task \---
 
@@ -99,9 +99,9 @@ Update your code to set the rotation style of the fish to `left-right`{:class="b
 
 \--- /task \---
 
-The fish moves backwards and forwards now, but only in a straight line — a bit too easy for the player to catch with the shark! You need to make the fish less predictable.
+魚は今では前後に動きますが、直線でしかありません。プレイヤーがサメを捕まえるのは少し簡単すぎます！ 魚の動きを予測しにくくする必要があります。
 
-You already know from a previous step how to make a sprite turn, so start there.
+前のステップでスプライトを回転させる方法をすでに知っているので、そこから始めます。
 
 \--- task \---
 
@@ -120,13 +120,13 @@ Add a turn into the fish's swimming instructions, and click the green flag.
 
 \--- /task \---
 
-It’s better, but there’s still too much of a pattern. It needs to be more random. Luckily, Scratch can do random for you! You’ll just need a new kind of block, called an **operator** block.
+それは良いですが、まだパターンが多すぎます。 よりランダムにする必要があります。 幸いなことに、Scratchはあなたのためにランダムにできます！ You’ll just need a new kind of block, called an **operator** block.
 
 ## \--- collapse \---
 
-## title: What's an operator?
+## タイトル：演算子とは何ですか？
 
-**Operators** take in one or more values (like numbers, text, or `True/False` values) and give back a single value. You can tell the kind of value it will give back by the shape of the block: round ends give numbers or text, pointy ends give `True/False`.
+演算子は、1つ以上の値（数値、テキスト、True / False値など）を受け取り、単一の値を返します。 ブロックの形状によって返される値の種類を知ることができます。丸い端は数字またはテキストを与え、尖った端は True / Falseを与えます 。
 
 ```blocks3
     (() + ())
@@ -155,7 +155,7 @@ Find the `pick random`{:class="block3operators"} **operator** block, and plug it
 
 \--- /task \---
 
-**Note**: you can change the minimum and maximum numbers it will pick, but the default values (`1` and `10`) are pretty good for this game, so you can just leave them.
+注：乱数の選択する最小数と最大数は変更できますが、このゲームではデフォルト値（1と10）で十分なので、そのままにしておくことができます。
 
 \--- task \---
 
@@ -165,14 +165,14 @@ Click the green flag to run the code!
 
 ## \--- collapse \---
 
-## title: So what does the forever block do now?
+## タイトル：では、「ずっと」ブロックは今何をしていますか？
 
-The forever block now makes the fish sprite do four things in order:
+「ずっと」ブロックは、魚のスプライトに4つのことを順番に実行させるようになりました。
 
-1. Move forward
-2. Turn a little bit
-3. Wait briefly
-4. Check whether it's at the edge of the Stage
+1. 前進する
+2. 少し回します
+3. ちょっと待つ
+4. ステージの端にあるかどうかを確認します
 
 Once the sprite has done the check, it will start at the beginning of the loop again and move, turn, wait, check, for as long as you let your Scratch program run.
 
