@@ -2,7 +2,7 @@
 
 これで、矢印キーを使用して移動できるサメができました。 すばらしい！ 魚を追加して捕まえる時間です。
 
-\--- task \---
+\--- タスク \---
 
 [ 新規スプライト ]ボタンをクリックし、開いた画面で魚を選択します。
 
@@ -14,11 +14,11 @@
 
 サイズコントロールの数値を変更して、追加した魚のスプライトを大きくまたは小さくします。
 
-\--- /task \---
+\--- /タスク \---
 
 素晴らしいです！ 後で、プレイヤーの助けを借りずに、魚を自力で動き回らせるためのコードを追加します。 プレイヤーはサメを動かし、魚を捕まえようとします。
 
-## \--- collapse \---
+## \--- 折りたたむ \---
 
 ## タイトル：後方のサメはどうですか？
 
@@ -33,15 +33,15 @@
 Grab a couple of copies of the `point in direction`{:class="block3motion"} block from the **Motion** list and connect them to your shark's code, like this:
 
 ```blocks3
-    when [left arrow v] key pressed
-+     point in direction (-90)
-    move (10) steps
+    [左矢印]キーを押したとき
++（-90）度に向ける
+    （10）歩動かす
 ```
 
 ```blocks3
-    when [right arrow v] key pressed
-+     point in direction (90)
-    move (10) steps
+    [右矢印]キーを押したとき
++（90）度に向ける
+    （10）歩動かす
 ```
 
 \--- /task \---
@@ -52,13 +52,13 @@ Change the number of steps in the `move`{:class="block3motion"} blocks from `-10
 
 方向ブロックにポイントを追加した後、サメを今すぐ動かしてみると、少し奇妙なことが起こっていることに気付くかもしれません。 サメは完全に右に曲がっていないかもしれません！
 
-![Upside down shark](images/spritesUpsideDown.png)
+![逆さまのサメ](images/spritesUpsideDown.png)
 
 \--- /task \---
 
-## \--- collapse \---
+## \--- 折りたたむ \---
 
-## title: Why does it go upside down?
+## タイトル：なぜ逆さまになるのですか？
 
 The problem here is that the shark sprite started, as all sprites do, with the 'all around' **rotation style**, and what you need it to have is the 'left-right' style.
 
@@ -73,9 +73,9 @@ Look in the **Motion** category for the block `set rotation style`{:class="block
 Add the block to your shark reset code from earlier, and set the rotation style to `left-right`{:class="block3motion"}, like this:
 
 ```blocks3
-    when green flag clicked
-+     set rotation style [left-right v]
-    go to x: (0) y: (0)
+    緑の旗が押されたとき
++回転方法を[左右のみ]にする
+    x座標：（0）y座標：（0）にする
 ```
 
 \--- /task \---
