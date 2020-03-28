@@ -9,15 +9,15 @@ Select your fish sprite.
 Drag a `when green flag clicked`{:class="block3events"} **Event** block, a `forever`{:class="block3control"} **Control** block, and a `move 10 steps`{:class="block3motion"} **Motion** block into the **sprite panel**, like this:
 
 ```blocks3
-    when green flag clicked
-    forever
-        move (10) steps
-    end
+    緑の旗が押されたとき
+　ずっと
+       (10）歩動かす
+    終了
 ```
 
 \--- /task \---
 
-## \--- collapse \---
+## \--- 折りたたむ \---
 
 ## タイトル：新しいブロックは何をしますか？
 
@@ -38,7 +38,7 @@ Well, that fish just crashed into the side of the Stage, and it was moving far t
 まず、魚を遅くする必要があります。 That’s actually pretty easy, you just need it to wait for a little while after it moves those 10 steps. ここで役立つ制御ブロックがあります。
 
 ```blocks3
-    wait (1) secs
+    1 秒待つ
 ```
 
 \--- task \---
@@ -46,16 +46,16 @@ Well, that fish just crashed into the side of the Stage, and it was moving far t
 Add the `wait`{:class="block3control"} block into your code inside the `forever`{:class="block3control"} block, and change the number to `0.5`, like this:
 
 ```blocks3
-    when green flag clicked
-    forever
-        move (10) steps
-+      wait (0.5) secs
-    end
+    緑の旗が押されたとき
+    ずっと
+        （10）歩動かす
++（0.5）秒待つ
+    終了
 ```
 
 \--- /task \---
 
-## \--- collapse \---
+## \--- 折りたたむ \---
 
 ## タイトル：調整する
 
@@ -63,7 +63,7 @@ Add the `wait`{:class="block3control"} block into your code inside the `forever`
 
 さまざまな値をテストして、ゲームに最適な値を確認できます。 また、移動ブロック内の歩数も変更できることを忘れないでください！
 
-\--- /collapse \---
+\--- /折りたたむ \---
 
 The fish moves now, but you need it to bounce off the edge of the Stage too. 繰り返しになりますが、これには「動き」ブロックがあります！
 
@@ -73,7 +73,7 @@ Find the `if on edge bounce`{:class="block3motion"} block, and add it in after t
 
 \--- /task \---
 
-## \--- collapse \---
+## \--- 折りたたむ \---
 
 ## タイトル：新しいブロックは何をしますか？
 
@@ -88,13 +88,13 @@ The `if on edge bounce`{:class="block3motion"} block checks if the sprite is tou
 Update your code to set the rotation style of the fish to `left-right`{:class="block3motion"} at the beginning of the sprite's script:
 
 ```blocks3
-    when green flag clicked
-+    set rotation style [left-right v]
-    forever
-        move (10) steps
-        wait (0.5) secs
-        if on edge, bounce
-    end
+    緑のフラグが押されたとき
++回転方法を左右のみにする
+    ずっと
+        （10）歩動かす
+        （0.5）秒待つ
+        もし端に着いたら、跳ね返る
+    終了
 ```
 
 \--- /task \---
