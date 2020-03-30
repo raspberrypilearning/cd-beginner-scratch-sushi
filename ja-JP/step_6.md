@@ -60,9 +60,9 @@ Change the number of steps in the `move`{:class="block3motion"} blocks from `-10
 
 ## タイトル：なぜ逆さまになるのですか？
 
-The problem here is that the shark sprite started, as all sprites do, with the 'all around' **rotation style**, and what you need it to have is the 'left-right' style.
+ここでの問題は、すべてのスプライトが行うように、サメのスプライトが「自由に回転」の**回転スタイル**になっていることで、必要なのは回転方法を「左右のみ」スタイルであるということです。
 
-As usual, there’s a block for that, and it’s in **Motion**!
+いつものように、そのためのブロックがあって、それは**動き**の中にあります ！
 
 \--- /collapse \---
 
@@ -70,7 +70,7 @@ As usual, there’s a block for that, and it’s in **Motion**!
 
 Look in the **Motion** category for the block `set rotation style`{:class="block3motion"}.
 
-Add the block to your shark reset code from earlier, and set the rotation style to `left-right`{:class="block3motion"}, like this:
+ブロックを以前のサメのコードに追加し、次のように回転方法を`左右のみ`に限定します。
 
 ```blocks3
     緑の旗が押されたとき
