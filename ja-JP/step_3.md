@@ -1,10 +1,10 @@
 ## コードブロックの追加と削除
 
-すばらしいです！ 初めてのスクラッチプログラムを作成しました。 ここでもう少しスクラッチの馴染んで詳しくなっておきましょう。 Scratch code is made up of **blocks** such as these:
+すばらしいです！ 初めてのスクラッチプログラムを作成しました。 ここでもう少しスクラッチの馴染んで詳しくなっておきましょう。 スクラッチのコードは、次のように **ブロック**から 構成されています。
 
 ![](images/code1.png)
 
-You will find all blocks in the **code blocks palette**, sorted into different categories according to what they do.
+全てのブロックは **コードブロックパレット**の中にあり、用途のカテゴリに分類されています。
 
 ## \--- collapse \---
 
