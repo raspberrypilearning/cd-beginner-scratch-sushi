@@ -6,7 +6,7 @@
 
 Select your fish sprite.
 
-Drag a `when green flag clicked`{:class="block3events"} **Event** block, a `forever`{:class="block3control"} **Control** block, and a `move 10 steps`{:class="block3motion"} **Motion** block into the **sprite panel**, like this:
+次のように、**イベント**の`緑の旗が押されたとき`{:class="block3events"}ブロック、**制御**の`ずっと`{:class="block3events"}ブロック、および**動き**の`10歩動かす`{:class="block3events"}ブロックをスプライトパネルにドラッグします。
 
 ```blocks3
     緑の旗が押されたとき
