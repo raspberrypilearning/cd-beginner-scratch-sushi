@@ -8,7 +8,7 @@
 
 ## \--- collapse \---
 
-## title: Using blocks from the different categories
+## title：さまざまなカテゴリのブロックを使う
 
 カテゴリ名をクリックすると、そのカテゴリのブロックが表示されます。 ここでは、 **Motion** カテゴリが選択されています。
 
@@ -18,7 +18,7 @@
 
 ![](images/code2b.png)
 
-You can click on the blcok you want, and then just drag it into the current sprite panel and let go. Once it's in the panel, you can move it around and connect it to other blocks.
+目的のblcokをクリックし、現在のスプライトパネルにドラッグして放します。 パネルに配置したら、移動して他のブロックに接続できます。
 
 \--- /collapse \---
 
@@ -32,7 +32,7 @@ Try double-clicking on some of the blocks to see what they do.
 
 ## \--- collapse \---
 
-## title: Running the code
+## title：コードの実行
 
 Usually, you want your code to run automatically whenever something specific happens. This is why many of your programs will start with a block from the **Events** category, most often this one:
 
@@ -105,7 +105,7 @@ Snap the turn block to the end to make the cat sprite walk in a circle. It’s i
 
 ## \--- collapse \---
 
-## title: How does turning work?
+## title：回転はどのように働くのか？
 
 This block makes the sprite turn 15 degrees of the full 360 degrees that make up a circle. You can change that number, and the number of steps, by clicking on the number and typing in a new value.
 
