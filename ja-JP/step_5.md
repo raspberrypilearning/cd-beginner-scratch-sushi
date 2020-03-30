@@ -84,7 +84,7 @@ Grab two `change y by`{:class="block3motion"} blocks, and update your code like 
 
 ![](images/moving3.png)
 
-A sprite can be located by the coordinates of its centre, for example `(15, -27)`, where `15` is its position along the x-axis , and `-27` its position along the y-axis.
+スプライトはその座標に中心が配置されます。たとえば、`(15、-27) ` の場合` 15 `が x軸に沿った位置で、` -27 `が y軸に沿った位置です。
 
 + これが実際にどのように機能するかを理解するには、スプライトを選択し、xおよびyコントロールを使用して、座標に異なる値を設定してステージ上でスプライトを移動します。
 
@@ -98,9 +98,9 @@ A sprite can be located by the coordinates of its centre, for example `(15, -27)
 
 サメは画面全体を移動しますが、これがゲームだと想像してください。どのように再起動し、各ゲームの開始時に何が起こるのでしょうか？
 
-プレイヤーがゲームを開始するときに、サメを元の場所に戻す必要があります。 They'll start this game by clicking on the green flag, so you need to change the shark sprite's x- and y-coordinates when that happens.
+プレイヤーがゲームを開始するときに、サメを元の場所に戻す必要があります。 緑の旗をクリックしてゲームを開始するので、その時にサメのスプライトのx座標とy座標を変更する必要があります。
 
-That’s actually pretty easy! ステージの中心は、（x、y）座標の（0、0）です。
+それは実際とても簡単です！ ステージの中心は、（x、y）座標の（0、0）です。
 
 したがって、必要なのは、その緑色の旗のイベントブロックと、「動き」にある「x座標を○、y座標を○にする」ブロックです。
 
