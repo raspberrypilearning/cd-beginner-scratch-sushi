@@ -40,7 +40,7 @@ Add the `if...then`{:class="block3control"} **Control** block inside the `foreve
 
 \--- /collapse \---
 
-Of course, you’ve just added an `if...then`{:class="block3control"} block without adding anything for the 'then' part. So at the moment your script is checking whether the fish sprite is touching the shark sprite, but it's not making anything happen in response.
+もちろん、「なら」の後の部分には何も追加せずに`もし　なら`{:class="block3control"} のブロックを追加しただけです。 そのため、現時点では、スクリプトは魚のスプライトがサメのスプライトに触れているかどうかをチェックしていますが、それに反応して何か起きるわけではありません。
 
 「隠す」ブロックを使用すると、サメ​​が食べたように、魚を消すことができます。
 
@@ -71,7 +71,7 @@ Put the `show`{:class="block3looks"} block from **Looks** in at the very start o
 
 \--- /タスク \---
 
-That's already better, but you don’t want the player to have to restart the game every time they catch a single fish!
+ゲームはだいぶ良くなりましたが、プレイヤーが1匹の魚を捕まえるたびにゲームを再起動するようにはしたくないでしょう！
 
 \--- task \---
 
