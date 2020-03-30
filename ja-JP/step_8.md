@@ -93,7 +93,7 @@ Update the code inside your `if...then`{:class="block3control"} block to look li
 
 ## タイトル：ここれはどのように作動しますか？
 
-You are being clever here: when the fish is hidden, it waits, moves, and then shows up again.
+ここでは賢く振る舞いましょう：魚が隠されているとき、それは止まり、動き、そして再び現れます。
 
 たくさんの魚が出現し続けているように見えますが、1つのスプライトが動き回っています！
 
