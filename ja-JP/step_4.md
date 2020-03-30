@@ -38,7 +38,7 @@ First, select the cat sprite and click on the **Costumes** tab.
 
 ![サメのコスチューム](images/looksShark.png)
 
-Now remove the cat costumes by selecting each of them and clicking on the **x**.
+猫のコスチュームを選択して**x**をクリックして取り除きます。
 
 ![](images/coolDeleteCostumes.png)
 
