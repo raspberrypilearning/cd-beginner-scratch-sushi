@@ -33,9 +33,9 @@ Now click the green flag and watch what happens!
 
 \--- /task \---
 
-Well, that fish just crashed into the side of the Stage, and it was moving far too fast for your shark to catch.
+でも、魚はステージの横に衝突してしまい、また動きが速すぎてサメが捕まえるのはムリでした。
 
-まず、魚を遅くする必要があります。 That’s actually pretty easy, you just need it to wait for a little while after it moves those 10 steps. ここで役立つ制御ブロックがあります。
+まず、魚を遅くする必要があります。 それは実にとても簡単です。10歩動いた後、少し待つだけで十分です。 ここで役立つ制御ブロックがあります。
 
 ```blocks3
     1 秒待つ
@@ -65,7 +65,7 @@ Add the `wait`{:class="block3control"} block into your code inside the `forever`
 
 \--- /折りたたむ \---
 
-The fish moves now, but you need it to bounce off the edge of the Stage too. 繰り返しになりますが、これには「動き」ブロックがあります！
+魚が移動するようになりました、しかしまだ魚がステージの端で反転するようにする必要があります。 繰り返しになりますが、これには「動き」ブロックがあります！
 
 \--- task \---
 
@@ -77,7 +77,7 @@ Find the `if on edge bounce`{:class="block3motion"} block, and add it in after t
 
 ## タイトル：新しいブロックは何をしますか？
 
-The `if on edge bounce`{:class="block3motion"} block checks if the sprite is touching the edge of the Stage and, if it is, it turns left, right, up, or down as appropriate.
+`もし端に着いたら、跳ね返る`{:class="block3motion"}ブロックは、スプライトがステージの端に触れているかどうかを確認し、触れている場合は、必要に応じて左、右、上、または下に回転します。
 
 \--- /collapse \---
 
@@ -108,21 +108,20 @@ Update your code to set the rotation style of the fish to `left-right`{:class="b
 Add a turn into the fish's swimming instructions, and click the green flag.
 
 ```blocks3
-    when green flag clicked
-    set rotation style [left-right v]
-    forever
-        move (10) steps
-+        turn cw (10) degrees
-        wait (0.5) secs
-        if on edge, bounce
-    end
+    緑の旗が押されたとき
++回転方法を左右のみにする
+    ずっと
+        （10）歩動かす
+        （0.5）秒待つ
+        もし端に着いたら、跳ね返る
+    終了
 ```
 
 \--- /task \---
 
-それは良いですが、まだパターンが多すぎます。 よりランダムにする必要があります。 幸いなことに、Scratchはあなたのためにランダムにできます！ You’ll just need a new kind of block, called an **operator** block.
+それは良いですが、まだパターンが多すぎます。 よりランダムにする必要があります。 幸いなことに、Scratchはあなたのためにランダムにできます！ 必要なのは、**演算子**ブロックと呼ばれる新しい種類のブロックです。
 
-## \--- collapse \---
+## \--- 折りたたむ \---
 
 ## タイトル：演算子とは何ですか？
 
@@ -143,14 +142,14 @@ Add a turn into the fish's swimming instructions, and click the green flag.
 Find the `pick random`{:class="block3operators"} **operator** block, and plug it into the `turn degrees`{:class="block3motion"} **Motion** block by clicking it and dragging it into the field where you set the number of degrees.
 
 ```blocks3
-    when green flag clicked
-    set rotation style [left-right v]
-    forever 
-        move (10) steps
-+        turn cw (pick random (1) to (10)) degrees
-        wait (0.5) secs
-        if on edge, bounce
-    end
+    緑の旗が押されたとき
++回転方法を左右のみにする
+    ずっと
+        （10）歩動かす
++　　　1から10までの乱数　度回す　
+        （0.5）秒待つ
+        もし端に着いたら、跳ね返る
+    終了
 ```
 
 \--- /task \---
@@ -163,7 +162,7 @@ Click the green flag to run the code!
 
 \--- /task \---
 
-## \--- collapse \---
+## \--- 折りたたむ \---
 
 ## タイトル：では、「ずっと」ブロックは今何をしていますか？
 
