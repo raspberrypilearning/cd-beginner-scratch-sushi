@@ -1,6 +1,6 @@
 ## コードブロックの追加と削除
 
-すばらしいです！ You’ve written your very first Scratch program. Time to learn a little more about getting code in and out of Scratch! Scratch code is made up of **blocks** such as these:
+すばらしいです！ 初めてのスクラッチプログラムを作成しました。 ここでもう少しスクラッチの馴染んで詳しくなっておきましょう。 Scratch code is made up of **blocks** such as these:
 
 ![](images/code1.png)
 
