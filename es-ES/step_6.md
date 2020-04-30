@@ -30,7 +30,7 @@ El bloque `apuntar en dirección`{:class="block3motion"} te permite elegir la di
 
 \--- task \---
 
-Grab a couple of copies of the `point in direction`{:class="block3motion"} block from the **Motion** list and connect them to your shark's code, like this:
+Arrastra un par de bloques `apuntar en dirección` {: class = "block3motion"} desde la lista **Movimiento** y conéctalos al código de tu tiburón, así:
 
 ```blocks3
     al presionar tecla [flecha izquierda v]
@@ -48,7 +48,7 @@ Grab a couple of copies of the `point in direction`{:class="block3motion"} block
 
 \--- task \---
 
-Change the number of steps in the `move`{:class="block3motion"} blocks from `-10` to `10`.
+Cambia el número de pasos en los bloques `mover`{:class="block3motion"} de `-10` a `10`.
 
 Si intentas mover el tiburón después de añadir los bloques `apuntar en dirección`{:class="block3motion"} notarás que sucede algo extraño. ¡Puede que el tiburón no esté girando bien!
 
@@ -68,7 +68,7 @@ Como de costumbre, hay un bloque para eso, ¡y está en la categoría **Movimien
 
 \--- task \---
 
-Look in the **Motion** category for the block `set rotation style`{:class="block3motion"}.
+Busca en la categoría **Movimiento** el bloque `fijar estilo de rotación a` {:class="block3motion"}.
 
 Añade el bloque a tu código de inicio del tiburon, y establece el estilo de rotación a `izquierda-derecha`{:class="block3motion"}, así:
 
