@@ -6,7 +6,7 @@ Primero: ¡guardando la puntuación!
 
 \--- task \---
 
-Go to the **Variables** blocks category and click on **Make a Variable**.
+Ve a la categoría de bloques **Variables** y haz clic en **Crear una variable**.
 
 ![](images/catch5.png)
 
@@ -32,7 +32,7 @@ Ahora debes actualizar la variable cada vez que el tiburón se come un pez y res
 
 \--- task \---
 
-From the **Variables** section, take the `set [my variable v] to [0]`{:class="block3variables"} and `change [my variable v] by [1]`{:class="block3variables"} blocks. Haz clic en las flechas pequeñas de los bloques, elije `puntos` de la lista, y luego añade los bloques a tu código:
+Coje los bloques `dar a [mi variable v] el valor [0]`{:class="block3variables"} y `sumar a [mi variable v] [1]`{:class="block3variables"} de la sección **Variables**. Haz clic en las flechas pequeñas de los bloques, elije `puntos` de la lista, y luego añade los bloques a tu código:
 
 ### Código para el tiburón
 
