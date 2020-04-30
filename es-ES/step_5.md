@@ -4,7 +4,7 @@ Ahora mismo, tu tiburón se mueve en un círculo, pero sería mucho más diverti
 
 \--- task \---
 
-Start by deleting all code that you have for the shark.
+Empieza eliminando todo el código que tienes para el tiburón.
 
 \--- /task \---
 
@@ -12,7 +12,7 @@ Como probablemente habrás adivinado, ¡necesitarás bloques de **Evento** y **M
 
 \--- task \---
 
-This time, look for this block and drag it into the current sprite panel:
+Esta vez, busca este bloque y arrástralo en el panel de sprites actual:
 
 ```blocks3
     al presionar tecla [espacio v]
@@ -26,7 +26,7 @@ Necesitarás cuatro de los bloques `al presionar tecla`{:class="block3events"} -
 
 \--- task \---
 
-To make your shark move, connect these blocks to **Motion** blocks like this:
+Para hacer que tu tiburón se mueva, conecta estos bloques a bloques de **Movimiento** como este:
 
 ```blocks3
     al presionar tecla [flecha izquierda v]
@@ -52,7 +52,7 @@ To make your shark move, connect these blocks to **Motion** blocks like this:
 
 \--- task \---
 
-Now click the green flag to test out your code.
+Ahora haz clic en la bandera verde para probar tu código.
 
 \--- /task \---
 
@@ -60,7 +60,7 @@ Ahora tu tiburón se mueve hacia atrás y hacia adelante, lo que está bastante 
 
 \--- task \---
 
-Grab two `change y by`{:class="block3motion"} blocks, and update your code like this:
+Coge dos bloques `sumar a y` {:class="block3motion"}, y actualiza tu código así:
 
 ```blocks3
     al presionar tecla [flecha arriba v]
@@ -106,7 +106,7 @@ Así que todo lo que necesitas es un bloque **Eventos** para esa bandera verde, 
 
 \--- task \---
 
-Drag a `when green flag clicked`{:class="block3events"} **Event** block onto the current sprite panel.
+Arrastra un bloque `al hacer clic en bandera verde`{:class="block3events"} de la categoría **Eventos** al panel de sprites actual.
 
 ```blocks3
     al hacer clic en bandera verde
@@ -125,6 +125,6 @@ Establece las coordenadas `x` e `y` en `0` en el bloque `ir a` {: class = "block
 
 \--- task \---
 
-Now click the green flag: you should see the shark return to the centre of the stage!
+Ahora haz clic en la bandera verde: ¡deberías ver al tiburón regresar al centro del escenario!
 
 \--- /task \---
