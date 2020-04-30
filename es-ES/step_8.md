@@ -6,7 +6,7 @@ Primero, necesitas saber si el pez está tocando al tiburón. Para esto, necesit
 
 \--- task \---
 
-Add the `if...then`{:class="block3control"} **Control** block inside the `forever`{:class="block3control"} loop of the fish sprite, below the `if on edge bounce`{:class="block3motion"} block.
+Agrega el bloque **Control** `si...entonces`{:class="block3control"} dentro del bucle `por siempre`{:class="block3control"} del sprite del pez, debajo del bloque `si toca un borde, rebotar`{:class="block3motion"}.
 
 Arrastra el bloque `tocando...`{:class="block3sensing"} al espacio en la parte superior del bloque `si...entonces`{:class="block3control"} y haz clic en el pequeño triángulo para seleccionar el nombre del objeto tiburón. Si no lo has cambiado, será 'Sprite1'.
 
@@ -46,7 +46,7 @@ Puedes hacer que el pez desaparezca, como si el tiburón se lo comiera, usando e
 
 \--- task \---
 
-Find the `hide`{:class="block3looks"} block in the **Looks** list, and put it inside the `if...then`{:class="block3control"} block, like so:
+Encuentra el bloque `esconder`{:class="block3looks"} en la lista **Apariencia**, y ponlo dentro del bloque `si...entonces`{:class="block3control"}, así:
 
 ```blocks3
     si <¿tocando [Sprite1 v] ?> entonces
@@ -60,7 +60,7 @@ Ahora, una vez que el tiburón captura al pez, el pez desaparece para siempre. E
 
 \--- task \---
 
-Put the `show`{:class="block3looks"} block from **Looks** in at the very start of the fish code, so you can reset the game.
+Arrastra el bloque `mostrar`{:class="block3looks"} desde la lista **Apariecia** al inicio del código del pez, para que puedas reiniciar el juego.
 
 ```blocks3
     al hacer clic en bandera verde
@@ -75,7 +75,7 @@ Eso ya está mejor, ¡pero no quieres que el jugador tenga que reiniciar el jueg
 
 \--- task \---
 
-Update the code inside your `if...then`{:class="block3control"} block to look like this:
+Actualiza el código dentro de tu bloque `si...entonces`{:class="block3control"} para que quede así:
 
 ```blocks3
     si toca un borde, rebotar
