@@ -26,7 +26,7 @@ Puedes hacer clic en el bloque que desees, y luego arrastrarlo al panel del obje
 
 \--- task \---
 
-Try double-clicking on some of the blocks to see what they do.
+Intenta hacer doble clic en algunos de los bloques para ver qué hacen.
 
 \--- /task \---
 
@@ -60,7 +60,7 @@ Los bloques de código se ejecutan de arriba a abajo, por lo que es importante e
 
 \--- task \---
 
-Try adding, deleting, and undeleting some code blocks!
+¡Intenta agregar, eliminar y recuperar algunos bloques de código!
 
 \--- /task \---
 
@@ -70,7 +70,7 @@ Ahora que sabes cómo mover bloques de código y hacer que pasen cosas, ¡es hor
 
 \--- task \---
 
-Make sure you have the cat sprite selected in the sprite list, and then drag the following blocks into the sprite panel and connect them. Los encontrarás en las listas **Eventos** y **Movimiento**.
+Asegúrate de tener el sprite del gato seleccionado en la lista de sprites, y luego arrastra los siguientes bloques al panel de sprites y conéctalos. Los encontrarás en las listas **Eventos** y **Movimiento**.
 
 ```blocks3
     al hacer clic en bandera verde
@@ -81,7 +81,7 @@ Make sure you have the cat sprite selected in the sprite list, and then drag the
 
 \--- task \---
 
-Now, click on the green flag above the Stage.
+Ahora, haz clic en la bandera verde sobre el Escenario.
 
 ![](images/code7.png)
 
@@ -89,11 +89,11 @@ Now, click on the green flag above the Stage.
 
 Deberías ver al gato caminando en línea recta... esto no es exactamente lo que quieres, ¿verdad?
 
-Note: If you click the flag too many times and the cat walks away, you can drag it back!
+Nota: si haces clic en la bandera demasiadas veces y el gato se aleja, ¡puedes arrastrarlo hacia atrás!
 
 \--- task \---
 
-Snap the turn block to the end to make the cat sprite walk in a circle. Está en la lista **Movimiento** también.
+Arrastra debajo el bloque girar para hacer que el gato sprite camine en círculo. Está en la lista **Movimiento** también.
 
 ```blocks3
     al hacer clic en bandera verde
@@ -107,7 +107,7 @@ Snap the turn block to the end to make the cat sprite walk in a circle. Está en
 
 ## title: ¿Cómo funciona el giro?
 
-This block makes the sprite turn 15 degrees of the full 360 degrees that make up a circle. Puedes cambiar ese número y el número de pasos, haciendo clic en el número y escribiendo un nuevo valor.
+Este bloque hace que el objeto gire 15 grados de los 360 grados completos que componen un círculo. Puedes cambiar ese número y el número de pasos, haciendo clic en el número y escribiendo un nuevo valor.
 
 ![](images/code9.png)
 
@@ -115,6 +115,6 @@ This block makes the sprite turn 15 degrees of the full 360 degrees that make up
 
 \--- task \---
 
-Now save your work!
+¡Ahora guarda tu trabajo!
 
 \--- /task \---
