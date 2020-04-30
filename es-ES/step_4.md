@@ -4,7 +4,7 @@ Scratch tiene una biblioteca de fondos y objetos que puedes usar para hacer que 
 
 \--- task \---
 
-Select the Stage.
+Selecciona el escenario.
 
 ![Seleccionando el escenario](images/looksSelectStage.png)
 
@@ -26,7 +26,7 @@ Haz clic en **Elige un fondo**.
 
 \--- task \---
 
-First, select the cat sprite and click on the **Costumes** tab.
+Primero, selecciona el sprite del gato y haz clic en la pestaña **Disfraces**.
 
 ![](images/cool2.png)
 
