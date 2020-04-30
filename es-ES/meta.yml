@@ -1,0 +1,28 @@
+---
+title: Sushi de mar profundo
+hero_image: images/banner.png
+description: '¡Crea un juego divertido en tu primer programa Scratch!'
+theme: orange #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
+duration: 2
+listed: true
+ingredient: false
+copyedit: true
+curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
+interests: animals, humour, outdoors, games
+technologies: scratch
+site_areas: coderdojo
+software: scratch
+version: 4.0.0
+last_tested: 2017-01-01
+steps:
+  - title: Introducción
+  - title: Preparación
+  - title: Agregar y eliminar bloques de código
+  - title: Preparando la escena
+  - title: Moviendo bloques
+  - title: Todos los objetos
+  - title: Control remoto del pez
+  - title: '¡Pescando!'
+  - title: Guardando la puntuación
+  - title: "Desafío: ganando el juego"
+    challenge: true
