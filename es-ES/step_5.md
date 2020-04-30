@@ -43,7 +43,7 @@ Para hacer que tu tiburón se mueva, conecta estos bloques a bloques de **Movimi
 ```
 
 ```blocks3
-    al presionar [flecha abajo v]
+    when [flecha abajo v] key pressed
 ```
 
 --- /task ---
@@ -110,13 +110,13 @@ Así que todo lo que necesitas es un bloque **Eventos** para esa bandera verde, 
 Arrastra un bloque `al hacer clic en bandera verde`{:class="block3events"} de la categoría **Eventos** al panel de sprites actual.
 
 ```blocks3
-    al hacer clic en bandera verde
+    when green flag clicked
 ```
 
 Luego encuentra el bloque `ir a`{:class="block3motion"} en la categoría **Movimiento**, y arrástralo debajo del bloque de la bandera de la categoría **Eventos**.
 
 ```blocks3
-    al hacer clic en bandera verde
+    when green flag clicked
 +     ir a x: (0) y: (0)
 ```
 

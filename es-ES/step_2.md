@@ -84,7 +84,7 @@ En la lista de sprites, haz clic en el gato. Ahora el gato es el objeto seleccio
 Elige la categoría **Eventos** en la paleta de bloques de código, haz clic en el bloque `al hacer clic en bandera verde`{:class="block3events"}, y arrástralo al panel del objeto actual.
 
 ```blocks3
-    al hacer clic en bandera verde
+    when green flag clicked
 ```
 
 --- /task ---

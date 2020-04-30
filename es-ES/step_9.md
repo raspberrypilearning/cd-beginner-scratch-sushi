@@ -38,10 +38,10 @@ Coje los bloques `dar a [mi variable v] el valor [0]`{:class="block3variables"} 
 ### Código para el tiburón
 
 ```blocks3
-    al hacer clic en bandera verde
-+     fijar [puntos v] a [0]
-    fijar estilo de rotación a [izquierda-derecha v]
-    ir a x: (0) y: (0)
+    when green flag clicked
++    set [puntos v] to [0]
+    set rotation style [izquierda-derecha v]
+    go to x: (0) y: (0)
 ```
 
 ### Código para el pez

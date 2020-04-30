@@ -9,7 +9,7 @@ Selecciona el sprite del pez.
 Arrastra un bloque `al hacer clic en bandera verde`{:class="block3events"} de la categoría **Eventos**, un bloque `por siempre`{:class="block3control"} de la lista **Control**, y un bloque `mover 10 pasos`{:class="block3motion"} de la lista **Movimiento** al **panel del objeto**, así:
 
 ```blocks3
-    al hacer clic en bandera verde
+    when green flag clicked
     por siempre
         mover (10) pasos
     end
@@ -47,7 +47,7 @@ Primero, necesitas ralentizar el pez. En realidad es bastante fácil, solo neces
 Agrega el bloque `esperar`{:class="block3control"} a tu código dentro del bloque `por siempre`{:class="block3control"} y cambia el número a `0.5`, así:
 
 ```blocks3
-    al hacer clic en bandera verde
+    when green flag clicked
     por siempre
         mover (10) pasos
 +      esperar (0.5) segundos
@@ -91,7 +91,7 @@ Por supuesto, esto hará que el pez nade al revés, así que necesitas otro bloq
 Actualiza tu código para establecer el estilo de rotación del pez a `izquierda-derecha`{:class="block3motion"} al comienzo del código del sprite:
 
 ```blocks3
-    al hacer clic en bandera verde
+    when green flag clicked
 +    fijar estilo de rotación a [izquierda-derecha v]
     por siempre
         mover (10) pasos
@@ -111,7 +111,7 @@ Ya sabes por un paso anterior cómo hacer que un sprite gire, así que empieza p
 Agrega un giro a las instrucciones de natación del pez, y haz clic en la bandera verde.
 
 ```blocks3
-    al hacer clic en bandera verde
+    when green flag clicked
     fijar estilo de rotación a [izquierda-derecha v]
     por siempre
         mover (10) pasos
@@ -147,7 +147,7 @@ Los **Operadores** toman uno o más valores (como números, texto, o `Verdadero/
 Encuentra el bloque **operador** `número aleatorio`{:class="block3operators"}, y conéctalo al bloque **movimiento** `girar grados`{:class="block3motion"} haciendo clic en él y arrastrándolo al campo donde estableces el número de grados.
 
 ```blocks3
-    al hacer clic en bandera verde
+    when green flag clicked
     fijar estilo de rotación a [izquierda-derecha v]
     por siempre
         mover (10) pasos

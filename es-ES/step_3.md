@@ -39,7 +39,7 @@ title: Ejecutando el código
 Por lo general, quieres que tu código se ejecute automáticamente cada vez que sucede algo específico. Esta es la razón por la que muchos de tus programas comenzarán con un bloque de la categoría **Eventos**, con mayor frecuencia este:
 
 ```blocks3
-    al hacer clic en bandera verde
+    when green flag clicked
 ```
 
 Los bloques de código conectados a este bloque se ejecutarán después de hacer clic en la **bandera verde**.
@@ -47,9 +47,9 @@ Los bloques de código conectados a este bloque se ejecutarán después de hacer
 Los bloques de código se ejecutan de arriba a abajo, por lo que es importante el orden en el que se juntan los bloques. En este ejemplo, el objeto `dirá`{:class="block3looks"} `¡Hola!` antes de que se ejecute `{`: {= class = "block3sound"} el sonido `meow`.
 
 ```blocks3
-    al hacer clic en bandera verde
+    when green flag clicked
     diga [¡Hola!]
-    reproducir sonido [meow v]
+    play sound [meow v]
 ```
 
 --- /collapse ---
@@ -75,7 +75,7 @@ Ahora que sabes cómo mover bloques de código y hacer que pasen cosas, ¡es hor
 Asegúrate de tener el sprite del gato seleccionado en la lista de sprites, y luego arrastra los siguientes bloques al panel de sprites y conéctalos. Los encontrarás en las listas **Eventos** y **Movimiento**.
 
 ```blocks3
-    al hacer clic en bandera verde
+    when green flag clicked
     mover [10] pasos
 ```
 
@@ -98,7 +98,7 @@ Nota: si haces clic en la bandera demasiadas veces y el gato se aleja, ¡puedes 
 Arrastra debajo el bloque girar para hacer que el gato sprite camine en círculo. Está en la lista **Movimiento** también.
 
 ```blocks3
-    al hacer clic en bandera verde
+    when green flag clicked
     mover [10] pasos
 +    girar a la derecha (15) grados
 ```

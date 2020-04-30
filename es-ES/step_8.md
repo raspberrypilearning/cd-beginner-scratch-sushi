@@ -11,7 +11,7 @@ Agrega el bloque **Control** `si...entonces`{:class="block3control"} dentro del 
 Arrastra el bloque `tocando...`{:class="block3sensing"} al espacio en la parte superior del bloque `si...entonces`{:class="block3control"} y haz clic en el pequeño triángulo para seleccionar el nombre del objeto tiburón. Si no lo has cambiado, será 'Sprite1'.
 
 ```blocks3
-    al hacer clic en bandera verde
+    when green flag clicked
     fijar estilo de rotación a [izquierda-derecha v]
     por siempre
         mover (10) pasos
@@ -64,7 +64,7 @@ Ahora, una vez que el tiburón captura al pez, el pez desaparece para siempre. E
 Arrastra el bloque `mostrar`{:class="block3looks"} desde la lista **Apariecia** al inicio del código del pez, para que puedas reiniciar el juego.
 
 ```blocks3
-    al hacer clic en bandera verde
+    when green flag clicked
 +    mostrar
     fijar estilo de rotación [izquierda-derecha v]
     por siempre
@@ -79,12 +79,12 @@ Eso ya está mejor, ¡pero no quieres que el jugador tenga que reiniciar el jueg
 Actualiza el código dentro de tu bloque `si...entonces`{:class="block3control"} para que quede así:
 
 ```blocks3
-    si toca un borde, rebotar
-    si <¿tocando [Sprite1 v] ?> entonces
-        esconder
-+        esperar (1) segundos
-+        ir a x: (número aleatorio entre (-240) y (240)) y: (número aleatorio entre (-180) to (180))
-+        mostrar
+    if on edge, bounce
+    if <touching [Sprite1 v] ?> then
+        hide
++        wait (1) secs
++        go to x: (pick random (-240) to (240)) y: (pick random (-180) to (180))
++        show
     end
 ```
 

@@ -75,7 +75,7 @@ Busca en la categoría **Movimiento** el bloque `fijar estilo de rotación a`{:c
 Añade el bloque a tu código de inicio del tiburon, y establece el estilo de rotación a `izquierda-derecha`{:class="block3motion"}, así:
 
 ```blocks3
-    al hacer clic en bandera verde
+    when green flag clicked
 +     fijar estilo de rotación a [izquierda-derecha v]
     ir a x: (0) y: (0)
 ```
