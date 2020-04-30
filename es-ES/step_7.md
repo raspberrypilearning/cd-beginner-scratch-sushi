@@ -4,7 +4,7 @@ Ok, es hora de hacer que el pez nade por sí mismo. Para ello, necesitarás un n
 
 \--- task \---
 
-Select your fish sprite.
+Selecciona el sprite del pez.
 
 Arrastra un bloque `al hacer clic en bandera verde`{:class="block3events"} de la categoría **Eventos**, un bloque `por siempre`{:class="block3control"} de la lista **Control**, y un bloque `mover 10 pasos`{:class="block3motion"} de la lista **Movimiento** al **panel del objeto**, así:
 
@@ -29,7 +29,7 @@ Aquí, el pez hace lo que está dentro del bloque `por siempre`{: class="block3c
 
 \--- task \---
 
-Now click the green flag and watch what happens!
+Ahora haz clic en la bandera verde y ¡observa lo que sucede!
 
 \--- /task \---
 
@@ -43,7 +43,7 @@ Primero, necesitas ralentizar el pez. En realidad es bastante fácil, solo neces
 
 \--- task \---
 
-Add the `wait`{:class="block3control"} block into your code inside the `forever`{:class="block3control"} block, and change the number to `0.5`, like this:
+Agrega el bloque `esperar`{:class="block3control"} a tu código dentro del bloque `por siempre`{:class="block3control"} y cambia el número a `0.5`, así:
 
 ```blocks3
     al hacer clic en bandera verde
@@ -69,7 +69,7 @@ El pez se mueve ahora, pero también necesitas que rebote al tocar el borde del 
 
 \--- task \---
 
-Find the `if on edge bounce`{:class="block3motion"} block, and add it in after the `wait`{:class="block3control"} block.
+Encuentra el bloque `si toca un borde, rebotar`{:class="block3motion"} y agrégalo después del bloque `esperar`{:class="block3control"}.
 
 \--- /task \---
 
@@ -85,7 +85,7 @@ Por supuesto, esto hará que el pez nade al revés, así que necesitas otro bloq
 
 \--- task \---
 
-Update your code to set the rotation style of the fish to `left-right`{:class="block3motion"} at the beginning of the sprite's script:
+Actualiza tu código para establecer el estilo de rotación del pez a `izquierda-derecha`{:class="block3motion"} al comienzo del código del sprite:
 
 ```blocks3
     al hacer clic en bandera verde
@@ -105,7 +105,7 @@ Ya sabes por un paso anterior cómo hacer que un sprite gire, así que empieza p
 
 \--- task \---
 
-Add a turn into the fish's swimming instructions, and click the green flag.
+Agrega un giro a las instrucciones de natación del pez, y haz clic en la bandera verde.
 
 ```blocks3
     al hacer clic en bandera verde
@@ -140,7 +140,7 @@ Los **Operadores** toman uno o más valores (como números, texto, o `Verdadero/
 
 \--- task \---
 
-Find the `pick random`{:class="block3operators"} **operator** block, and plug it into the `turn degrees`{:class="block3motion"} **Motion** block by clicking it and dragging it into the field where you set the number of degrees.
+Encuentra el bloque **operador** `número aleatorio`{:class="block3operators"}, y conéctalo al bloque **movimiento** `girar grados`{:class="block3motion"} haciendo clic en él y arrastrándolo al campo donde estableces el número de grados.
 
 ```blocks3
     al hacer clic en bandera verde
@@ -159,7 +159,7 @@ Find the `pick random`{:class="block3operators"} **operator** block, and plug it
 
 \--- task \---
 
-Click the green flag to run the code!
+¡Ahora haz clic en la bandera verde para probar tu código!
 
 \--- /task \---
 
