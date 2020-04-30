@@ -4,7 +4,7 @@ Una vez que abras Scratch, verás una ventana como la de abajo.
 
 \--- task \---
 
-Look for each of the following areas and remember where they are.
+Busca cada una de las siguientes áreas y recuerda dónde están.
 
 \--- /task \---
 
@@ -75,7 +75,7 @@ En el **panel de objetos** es donde se puede ver el código, disfraces y sonidos
 
 \--- task \---
 
-In the sprite list, click on the Scratch Cat. Ahora el gato es el objeto seleccionado.
+En la lista de sprites, haz clic en el gato. Ahora el gato es el objeto seleccionado.
 
 Elige la categoría **Eventos** en la paleta de bloques de código, haz clic en el bloque `al hacer clic en bandera verde`{: class = "block3events"}, y arrástralo al panel del objeto actual.
 
@@ -87,7 +87,7 @@ Elige la categoría **Eventos** en la paleta de bloques de código, haz clic en 
 
 \--- task \---
 
-Then go to **Looks** in the code blocks palette and find this block:
+Luego ve a **Apariencia** en la paleta de bloques de códigos y encuentra este bloque:
 
 ```blocks3
     decir [¡Hola!] durante (2) segundos
@@ -99,7 +99,7 @@ Haz clic en él, mantén presionado el botón del ratón y, a continuación, sim
 
 \--- task \---
 
-Now that the second block is in the current sprite panel, connect it to the bottom of the first block by clicking and dragging it again to move it below the other block until they snap together, like this:
+Ahora que el segundo bloque está en el panel de sprite actual, conéctalo a la parte inferior del primer bloque haciendo clic y arrastrándolo de nuevo para moverlo por debajo del otro bloque hasta que se junten así:
 
 ![](images/setup3.png)
 
@@ -107,6 +107,6 @@ Now that the second block is in the current sprite panel, connect it to the bott
 
 \--- task \---
 
-Now click the **Start Program** button and watch what happens!
+Ahora haz clic en el botón **Iniciar Programa** y ¡observa lo que sucede!
 
 \--- /task \---
