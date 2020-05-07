@@ -1,3 +1,3 @@
-## Challenge: winning the game
+## Πρόκληση: κερδίζοντας το παιχνίδι
 
-Pick a score at which the player wins, and make something cool happen when they have that many points. Maybe the shark congratulates them, or a 'You win!' sprite appears, or music plays!
+Διάλεξε μία βαθμολογία στην οποία θα κερδίζει ο παίκτης και κάνε κάτι εντυπωσιακό όταν φτάνει σε αυτούς τους πόντους. Ίσως ο καρχαρίας να λέει συγχαρητήρια, να εμφανίζεται ένα αντικείμενο "Κέρδισες!" ή να ακούγεται μουσική!
