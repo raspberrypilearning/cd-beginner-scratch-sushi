@@ -1,47 +1,47 @@
-## Setting the scene
+## Στήνοντας τη σκηνή
 
-Scratch has a library of backgrounds and sprites for you to use to make your project look awesome.
+Το Scratch διαθέτει μια βιβλιοθήκη από έτοιμα υπόβαθρα και αντικείμενα για να κάνεις να έργα σου να φαίνονται υπέροχα.
 
 \--- task \---
 
-Select the Stage.
+Επίλεξε τη Σκηνή.
 
-![Selecting the stage](images/looksSelectStage.png)
+![Επιλέγοντας τη σκηνή](images/looksSelectStage.png)
 
-Click on **Backdrops**.
+Κάνε κλικ στα **Υπόβαθρα**.
 
-![The Backdrops tab](images/looksBackdrops.png)
+![Η καρτέλα Υπόβαθρα](images/looksBackdrops.png)
 
-Click the **Choose backdrop from library** icon.
+Επίλεξε το εικονίδιο **Επιλέξτε Υπόβαθρο**.
 
-![The Choose backdrop icon](images/looksChooseBg.png)
+![Το εικονίδιο Επιλέξτε Υπόβαθρο](images/looksChooseBg.png)
 
-Then pick your favourite underwater background!
+Στη συνέχεια, επίλεξε το αγαπημένο σου υποβρύχιο φόντο!
 
-![An underwater scene](images/looksUnderwater.png)
+![Μια υποβρύχια σκηνή](images/looksUnderwater.png)
 
 \--- /task \---
 
-Great! Of course, now you have a cat underwater, and cats aren't usually big fans of that. But you can fix that, because you can turn the cat into a shark!
+Εξαιρετικά! Φυσικά, τώρα έχεις μια γάτα κάτω από το νερό, και ξέρεις ότι οι γάτες δεν χαίρονται πολύ με αυτό. Αλλά μπορείς να το διορθώσεις αυτό, γιατί μπορείς να μετατρέψεις τη γάτα σε καρχαρία!
 
 \--- task \---
 
-First, select the cat sprite and click on the **Costumes** tab.
+Αρχικά, επίλεξε το αντικείμενο της γάτας και κάνε κλικ στην καρτέλα **Ενδυμασίες**.
 
 ![](images/cool2.png)
 
-Then, click on **Choose costume from Library**
+Στη συνέχεια, κάνε κλικ στο **Επιλέξτε Ενδυμασία**
 
 ![](images/cool3.png)
 
-Select this shark image and click **OK**.
+Επίλεξε την εικόνα με τον καρχαρία.
 
-![The shark costume](images/looksShark.png)
+![Η ενδυμασία Καρχαρίας](images/looksShark.png)
 
-Now remove the cat costumes by selecting each of them and clicking on the **x**.
+Τώρα αφαίρεσε τις ενδυμασίες της γάτας επιλέγοντας καθεμία από αυτές και κάνοντας κλικ στο **x**.
 
 ![](images/coolDeleteCostumes.png)
 
 \--- /task \---
 
-Now you have a shark – excellent!
+Τώρα έχεις έναν καρχαρία - εξαιρετικά!
