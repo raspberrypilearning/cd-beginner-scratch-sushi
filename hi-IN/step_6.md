@@ -1,36 +1,36 @@
-## All the sprites
+## सभी स्प्राइट्स
 
-Now you have a shark that you can move around using the arrow keys. Nice! Time to add some fish for it to catch.
+अब आपके पास एक शार्क है जिसे आप तीर कुंजियों का उपयोग करके घुमा सकते हैं। Nice! इसे पकड़ने के लिए कुछ मछली जोड़ने का समय।
 
 \--- task \---
 
-Click the **New sprite** button, and on the screen that opens, choose a fish.
+**New sprite** बटन पर क्लिक करें, और स्क्रीन पर जो खुलता है, एक मछली चुनें।
 
-![The New sprite button](images/spritesNewFromLibrary.png)
+![नया स्प्राइट बटन](images/spritesNewFromLibrary.png)
 
-If your fish is a bit big compared to your shark, you can use the size control to make both sprites the right size!
+यदि आपकी मछली आपके शार्क की तुलना में थोड़ी बड़ी है, तो आप दोनों को सही आकार में बनाने के लिए आकार नियंत्रण का उपयोग कर सकते हैं!
 
-![Sprite size control](images/sprites2.png)
+![स्प्राइट आकार का नियंत्रण](images/sprites2.png)
 
-Change the number in the size control to make the spirte bigger or smaller.
+सर्पिल को बड़ा या छोटा करने के लिए आकार नियंत्रण में संख्या बदलें।
 
 \--- /task \---
 
-Great! Later, you're going to add some code to make the fish move around on its own, without help from the player. Your player will move the shark and try to catch the fish.
+शानदार! बाद में, आप कुछ कोड जोड़ने जा रहे हैं ताकि खिलाड़ी की मदद के बिना मछली अपने आप ही घूम सके। आपका खिलाड़ी शार्क को स्थानांतरित करेगा और मछली को पकड़ने की कोशिश करेगा।
 
 ## \--- collapse \---
 
-## title: What about the backwards shark?
+## शीर्षक: पीछे की शार्क के बारे में क्या?
 
-It does look a little funny to have that shark swimming backwards. Just like you’d usually turn around rather than walking backwards, the shark would turn around rather than swimming backwards. Luckily for you, Scratch has a block for this!
+उस शार्क को पीछे की तरफ तैरते हुए देखना थोड़ा मज़ेदार लगता है। जैसे आप आमतौर पर पीछे की ओर चलने के बजाय मुड़ते हैं, वैसे ही शार्क पीछे की ओर तैरने के बजाय घूमती है। सौभाग्य से आपके लिए, स्क्रैच में इसके लिए एक ब्लॉक है!
 
-The `point in direction`{:class="block3motion"} block lets you pick the direction your sprite is pointing in. You’ll find it in the **Motion** blocks section. You can type in any number of degrees, to point the sprite wherever you want.
+`point in direction`{:class="block3motion"} ब्लॉक आपको उस दिशा को चुनने देता है जो आपका स्प्राइट इंगित कर रहा है। आप इसे **Motion** खंड में पाएंगे । आप जहां चाहें स्प्राइट को इंगित करने के लिए किसी भी संख्या में डिग्री टाइप कर सकते हैं।
 
 \--- /collapse \---
 
 \--- task \---
 
-Grab a couple of copies of the `point in direction`{:class="block3motion"} block from the **Motion** list and connect them to your shark's code, like this:
+कुछ प्रतियों को पकड़ो `point in direction`{:class="block3motion"} ब्लॉक **Motion** सूची और उन्हें अपने शार्क के कोड से कनेक्ट करें, जैसे:
 
 ```blocks3
     when [left arrow v] key pressed
@@ -48,29 +48,29 @@ Grab a couple of copies of the `point in direction`{:class="block3motion"} block
 
 \--- task \---
 
-Change the number of steps in the `move`{:class="block3motion"} blocks from `-10` to `10`.
+चाल में चरणों की संख्या बदलें 0>move</code>{:class="block3motion"} ब्लॉक `-10` से `10`।
 
-If you try moving the shark around now after you've added the `point in direction`{:class="block3motion"} blocks, you might notice something a little strange happening. The shark may not be turning quite right!
+यदि आपने दिशा में बिंदु को जोड़ने के बाद शार्क को अब चारों ओर ले जाने का प्रयास किया है `point in direction`{:class="block3motion"} ब्लॉक, आपको कुछ अजीब सा हो रहा है। शार्क काफी सही नहीं हो रही है!
 
-![Upside down shark](images/spritesUpsideDown.png)
+![उल्टा शार्क](images/spritesUpsideDown.png)
 
 \--- /task \---
 
 ## \--- collapse \---
 
-## title: Why does it go upside down?
+## शीर्षक: यह उल्टा क्यों होता है?
 
-The problem here is that the shark sprite started, as all sprites do, with the 'all around' **rotation style**, and what you need it to have is the 'left-right' style.
+यहां समस्या यह है कि शार्क स्प्राइट की शुरुआत हुई, जैसा कि सभी स्प्राइट करते हैं, 'सभी के चारों ओर' **rotation style**, और जो आपके पास होना चाहिए वह 'वाम-दाएँ' शैली है।
 
-As usual, there’s a block for that, and it’s in **Motion**!
+हमेशा की तरह, उसके लिए एक ब्लॉक है, और यह ** गति में है ** !
 
 \--- /collapse \---
 
 \--- task \---
 
-Look in the **Motion** category for the block `set rotation style`{:class="block3motion"}.
+**Motion** श्रेणी के लिए श्रेणी `set rotation style`{:class="block3motion"} सेट करें।
 
-Add the block to your shark reset code from earlier, and set the rotation style to `left-right`{:class="block3motion"}, like this:
+ब्लॉक को पहले से अपने शार्क रीसेट कोड में जोड़ें, और रोटेशन शैली को `left-right`{:class="block3motion"}, इस तरह:
 
 ```blocks3
     when green flag clicked
