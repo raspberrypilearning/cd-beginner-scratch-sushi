@@ -1,48 +1,48 @@
-## Adding and removing code blocks
+## कोड ब्लॉक जोड़ना और निकालना
 
-Great! You’ve written your very first Scratch program. Time to learn a little more about getting code in and out of Scratch! Scratch code is made up of **blocks** such as these:
+शानदार! आपने अपना पहला स्क्रैच प्रोग्राम लिखा है। स्क्रैच में और बाहर कोड प्राप्त करने के बारे में थोड़ा और जानने का समय! स्क्रैच कोड **blocks** तरह की:
 
 ![](images/code1.png)
 
-You will find all blocks in the **code blocks palette**, sorted into different categories according to what they do.
+आपको सभी ब्लॉक **code blocks palette** उनके अनुसार विभिन्न श्रेणियों में क्रमबद्ध।
 
 ## \--- collapse \---
 
-## title: Using blocks from the different categories
+## शीर्षक: विभिन्न श्रेणियों से ब्लॉक का उपयोग करना
 
-Click on a category name to see the blocks in that category. Here, the **Motion** category is selected:
+उस श्रेणी के ब्लॉक देखने के लिए श्रेणी नाम पर क्लिक करें। यहाँ, ** Motion** श्रेणी चयनित है:
 
 ![](images/code2a.png)
 
-All of the blocks in the category you've clicked are shown in a list:
+आपके द्वारा क्लिक की गई श्रेणी के सभी ब्लॉक सूची में दिखाए गए हैं:
 
 ![](images/code2b.png)
 
-You can click on the blcok you want, and then just drag it into the current sprite panel and let go. Once it's in the panel, you can move it around and connect it to other blocks.
+आप इच्छित ब्लाकोक पर क्लिक कर सकते हैं, और फिर इसे वर्तमान स्प्राइट पैनल में खींच सकते हैं और जाने दे सकते हैं। एक बार जब यह पैनल में होता है, तो आप इसे चारों ओर ले जा सकते हैं और इसे अन्य ब्लॉकों से जोड़ सकते हैं।
 
 \--- /collapse \---
 
-If you want to see what a block does, you can double-click on it to make it run!
+यदि आप देखना चाहते हैं कि ब्लॉक क्या करता है, तो आप इसे चलाने के लिए उस पर डबल-क्लिक कर सकते हैं!
 
 \--- task \---
 
-Try double-clicking on some of the blocks to see what they do.
+कुछ ब्लॉकों पर डबल क्लिक करके देखें कि वे क्या करते हैं।
 
 \--- /task \---
 
 ## \--- collapse \---
 
-## title: Running the code
+## शीर्षक: कोड चलाना
 
-Usually, you want your code to run automatically whenever something specific happens. This is why many of your programs will start with a block from the **Events** category, most often this one:
+आमतौर पर, आप चाहते हैं कि आपका कोड स्वचालित रूप से चले जब भी कुछ विशिष्ट होता है। यही कारण है कि आपके कई कार्यक्रम ** Events** के ब्लॉक से शुरू होंगे, सबसे अधिक बार यह:
 
 ```blocks3
     when green flag clicked
 ```
 
-The code blocks connected to this block will run after the **green flag** is clicked.
+इस ब्लॉक से जुड़े कोड ब्लॉक **green flag** क्लिक किया है।
 
-Code blocks run from top to bottom, so the order in which you snap your blocks together matters. In this example, the sprite will `say`{:class="block3looks"} `Hello!` before it will `play`{:class="block3sound"} the `meow` sound.
+कोड ब्लॉक ऊपर से नीचे तक चलते हैं, इसलिए जिस क्रम में आप अपने ब्लॉक को एक साथ रखते हैं वह मायने रखता है। इस उदाहरण में, स्प्राइट पहले ` say` {= class = "block3looks"} `Hello` इससे कि यह `play`{:class="block3sound"} the `meow` ध्वनि।
 
 ```blocks3
     when green flag clicked
@@ -52,25 +52,25 @@ Code blocks run from top to bottom, so the order in which you snap your blocks t
 
 \--- /collapse \---
 
-Removing or deleting code blocks you don’t want in your program is easy! Just drag them back into the code blocks palette.
+कोड ब्लॉक को हटाना या हटाना जो आप अपने प्रोग्राम में नहीं चाहते हैं, आसान है! बस उन्हें कोड ब्लॉक पैलेट में वापस खींचें।
 
-**Be careful:** dragging them into the code blocks pallette will delete all the blocks connected to the block you drag, so make sure to separate code blocks you want to keep from those you want to remove. If you delete some code blocks by accident and want to get them back, right-click and then click on the **undo** option to get everything back.
+**Be careful: ** कोड ब्लॉक में उन्हें खींचने से आपके द्वारा खींचे जाने वाले ब्लॉक से जुड़े सभी ब्लॉक हट जाएंगे, इसलिए उन कोड ब्लॉक को अलग करना सुनिश्चित करें जिन्हें आप हटाना चाहते हैं। यदि आप दुर्घटना से कुछ कोड ब्लॉक हटाते हैं और उन्हें वापस लाना चाहते हैं, तो राइट-क्लिक करें और फिर **undo** सब कुछ वापस पाने का विकल्प।
 
 ![](images/code6.png)
 
 \--- task \---
 
-Try adding, deleting, and undeleting some code blocks!
+कुछ कोड ब्लॉक जोड़ने, हटाने और हटाने का प्रयास करें!
 
 \--- /task \---
 
-### Putting it all together
+### इस सब को एक जगह लाना
 
-Now you know how to move code around and make things happen, it's time for you to create a program to make the Scratch Cat walk in a circle!
+अब आप जानते हैं कि कोड को कैसे घुमाया जाए और चीजों को कैसे बनाया जाए, यह आपके लिए एक सर्कल में स्क्रैच कैट वॉक करने का प्रोग्राम बनाने का समय है!
 
 \--- task \---
 
-Make sure you have the cat sprite selected in the sprite list, and then drag the following blocks into the sprite panel and connect them. You’ll find them in the **Events** and **Motion** lists.
+सुनिश्चित करें कि आपके पास स्प्राइट सूची में चयनित बिल्ली स्प्राइट है, और फिर स्प्राइट पैनल में निम्नलिखित ब्लॉकों को खींचें और उन्हें कनेक्ट करें। आप उन्हें **Events** और **Motion** सूचियों ईवेंट में खोजेंगे ।
 
 ```blocks3
     when green flag clicked
@@ -81,19 +81,19 @@ Make sure you have the cat sprite selected in the sprite list, and then drag the
 
 \--- task \---
 
-Now, click on the green flag above the Stage.
+अब, स्टेज के ऊपर हरे झंडे पर क्लिक करें।
 
 ![](images/code7.png)
 
 \--- /task \---
 
-You should see the cat walking in a straight line...not exactly what you want, right?
+आपको बिल्ली को एक सीधी रेखा में चलते हुए देखना चाहिए ... ठीक वही नहीं जो आप चाहते हैं, है ना?
 
-Note: If you click the flag too many times and the cat walks away, you can drag it back!
+नोट: यदि आप कई बार ध्वज पर क्लिक करते हैं और बिल्ली दूर चली जाती है, तो आप उसे वापस खींच सकते हैं!
 
 \--- task \---
 
-Snap the turn block to the end to make the cat sprite walk in a circle. It’s in the **Motion** list too.
+एक सर्कल में बिल्ली को स्प्राइट चलने के लिए मोड़ ब्लॉक को अंत तक स्नैप करें। यह **Motion** सूची में है।
 
 ```blocks3
     when green flag clicked
@@ -105,9 +105,9 @@ Snap the turn block to the end to make the cat sprite walk in a circle. It’s i
 
 ## \--- collapse \---
 
-## title: How does turning work?
+## शीर्षक: यह कैसे काम करता है?
 
-This block makes the sprite turn 15 degrees of the full 360 degrees that make up a circle. You can change that number, and the number of steps, by clicking on the number and typing in a new value.
+यह ब्लॉक पूर्ण 360 डिग्री वाले स्प्राइट टर्न को 15 डिग्री बनाता है जो एक सर्कल बनाता है। नंबर पर क्लिक करके और नए मूल्य में टाइप करके आप उस नंबर और चरणों की संख्या को बदल सकते हैं।
 
 ![](images/code9.png)
 
@@ -115,6 +115,6 @@ This block makes the sprite turn 15 degrees of the full 360 degrees that make up
 
 \--- task \---
 
-Now save your work!
+अब अपना काम बचाओ!
 
 \--- /task \---
