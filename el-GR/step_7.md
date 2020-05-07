@@ -1,12 +1,12 @@
-## Remote-control fish
+## Αυτοκινούμενα ψάρια
 
-Ok, now it's time to make the fish swim on its own. To do this, you’re going to need a new kind of block: a **Control** block.
+Εντάξει, τώρα ήρθε η ώρα να κάνεις τα ψάρια να κολυμπούν μόνα τους. Για να το κάνεις αυτό, θα χρειαστείς ένα νέο είδος μπλοκ από την κατηγορία **Έλεγχος**.
 
 \--- task \---
 
-Select your fish sprite.
+Επίλεξε το αντικείμενο ψάρι.
 
-Drag a `when green flag clicked`{:class="block3events"} **Event** block, a `forever`{:class="block3control"} **Control** block, and a `move 10 steps`{:class="block3motion"} **Motion** block into the **sprite panel**, like this:
+Σύρε ένα μπλοκ `όταν γίνει κλικ σε πράσινη σημαία`{:class="block3events"} από τα **Συμβάντα**, ένα μπλοκ `για πάντα`{:class="block3control"} από τον **Έλεγχο**, και ένα μπλοκ `κινήσου 10 βήματα`{:class="block3motion"} από την **Κίνηση** στον **κώδικα του αντικειμένου**, ως εξής:
 
 ```blocks3
     when green flag clicked
@@ -19,23 +19,23 @@ Drag a `when green flag clicked`{:class="block3events"} **Event** block, a `fore
 
 ## \--- collapse \---
 
-## title: What does the new block do?
+## title: Τι κάνει το νέο μπλοκ;
 
-**Control** blocks make your program do things a certain number of times, or under certain conditions.
+Τα μπλοκ **Ελέγχου** κάνουν το πρόγραμμά σου να κάνει πράγματα ορισμένες φορές ή υπό ορισμένες συνθήκες.
 
-Here, the fish does whatever is inside the `forever`{:class="block3control"} block over and over again on a loop, forever. So once it has done the last thing (block) inside the `forever`{:class="block3control"} block, it starts over at the top and does everything again, and so on.
+Εδώ, το ψάρι κάνει ό,τι εντολή βρίσκεται μέσα στο μπλοκ `για πάντα`{:class="block3control"} ξανά και ξανά σε ένα βρόχο, για πάντα. Έτσι, όταν έχει κάνει το τελευταίο πράγμα (μπλοκ) μέσα στο `για πάντα`{:class="block3control"}, ξεκινά από την αρχή και εκτελεί όλα τα μπλοκ ξανά και ούτω καθεξής.
 
 \--- /collapse \---
 
 \--- task \---
 
-Now click the green flag and watch what happens!
+Τώρα κάνε κλικ στην πράσινη σημαία και δες τι συμβαίνει!
 
 \--- /task \---
 
-Well, that fish just crashed into the side of the Stage, and it was moving far too fast for your shark to catch.
+Λοιπόν, εκείνο το ψάρι μόλις έπεσε στο πλάι της σκηνής και κινούνταν πολύ γρήγορα για να το πιάσει ο καρχαρίας σου.
 
-First, you need to slow the fish down. That’s actually pretty easy, you just need it to wait for a little while after it moves those 10 steps. There’s a **Control** block that will help you here:
+Πρώτον, πρέπει να επιβραδύνεις τα ψάρια. Αυτό είναι πραγματικά πολύ εύκολο, απλά χρειάζεται να περιμένει λίγο αφού μετακινηθεί για 10 βήματα. Υπάρχει ένα μπλοκ στον **Έλεγχο** που θα σε βοηθήσει εδώ:
 
 ```blocks3
     wait (1) secs
@@ -43,7 +43,7 @@ First, you need to slow the fish down. That’s actually pretty easy, you just n
 
 \--- task \---
 
-Add the `wait`{:class="block3control"} block into your code inside the `forever`{:class="block3control"} block, and change the number to `0.5`, like this:
+Πρόσθεσε το μπλοκ `περίμενε`{:class="block3control"} στον κώδικά σου μέσα στον βρόχο `για πάντα`{:class="block3control"} και άλλαξε τον αριθμό σε `0.5`, σαν αυτό:
 
 ```blocks3
     when green flag clicked
@@ -57,35 +57,35 @@ Add the `wait`{:class="block3control"} block into your code inside the `forever`
 
 ## \--- collapse \---
 
-## title: Making adjustments
+## τίτλος: Κάνοντας προσαρμογές
 
-The number you set in the `wait`{:class="block3control"} block says how many **seconds** you want the fish to wait. `0.5` is half a second.
+Ο αριθμός που όρισες στο μπλοκ `περίμενε`{:class="block3control"} λέει πόσα **δευτερόλεπτα** θες να περιμένουν τα ψάρια. Το `0.5` είναι μισό δευτερόλεπτο.
 
-You can test out different values to see which is the best for the game. And remember that you can change the number of steps inside the `move`{:class="block3motion"} block too!
+Μπορείς να δοκιμάσεις διαφορετικές τιμές για να δεις ποια είναι η καλύτερη για το παιχνίδι σου. Και θυμήσου ότι μπορείς να αλλάξεις τον αριθμό των βημάτων μέσα στην εντολή `κινήσου`{:class="block3motion"} επίσης!
 
 \--- /collapse \---
 
-The fish moves now, but you need it to bounce off the edge of the Stage too. Yet again, there’s a **Motion** block for this!
+Το ψάρι κινείται τώρα, αλλά πρέπει να αναπηδάει και από την άκρη της σκηνής. Και πάλι, υπάρχει ένα μπλοκ στην **Κίνηση ** γι' αυτό!
 
 \--- task \---
 
-Find the `if on edge bounce`{:class="block3motion"} block, and add it in after the `wait`{:class="block3control"} block.
+Βρες το μπλοκ `εάν σε όριο, αναπήδησε`{:class="block3motion"} και βάλε το μετά το μπλοκ `περίμενε`{:class="block3control"}.
 
 \--- /task \---
 
 ## \--- collapse \---
 
-## title: What does the new block do?
+## title: Τι κάνει το νέο μπλοκ;
 
-The `if on edge bounce`{:class="block3motion"} block checks if the sprite is touching the edge of the Stage and, if it is, it turns left, right, up, or down as appropriate.
+Το μπλοκ `εάν σε όριο, αναπήδησε`{:class="block3motion"} ελέγχει εάν το αντικείμενο αγγίζει την άκρη της σκηνής και, εάν αγγίζει, στρίβει αριστερά, δεξιά, πάνω ή κάτω, ανάλογα με την περίπτωση.
 
 \--- /collapse \---
 
-Of course, this will lead to an upside-down fish, so you need a `set rotation style`{:class="block3motion"} block again.
+Φυσικά, αυτό θα οδηγήσει σε ψάρια που κινούνται ανάποδα, οπότε χρειάζεσαι πάλι ένα μπλοκ `όρισε τρόπο περιστροφής`{:class="block3motion"}.
 
 \--- task \---
 
-Update your code to set the rotation style of the fish to `left-right`{:class="block3motion"} at the beginning of the sprite's script:
+Ενημέρωσε τον κώδικά σου για να ορίσεις τον τρόπο περιστροφής του ψαριού σε `αριστερά-δεξιά`{:class="block3motion"} στην αρχή του κώδικα του αντικειμένου:
 
 ```blocks3
     when green flag clicked
@@ -99,13 +99,13 @@ Update your code to set the rotation style of the fish to `left-right`{:class="b
 
 \--- /task \---
 
-The fish moves backwards and forwards now, but only in a straight line — a bit too easy for the player to catch with the shark! You need to make the fish less predictable.
+Το ψάρι κινείται προς τα πίσω και προς τα εμπρός τώρα, αλλά μόνο σε ευθεία γραμμή - αρκετά εύκολο για να το πιάσει ο παίκτης με τον καρχαρία! Πρέπει να κάνεις τα ψάρια λιγότερο προβλέψιμα.
 
-You already know from a previous step how to make a sprite turn, so start there.
+Γνωρίζεις ήδη από ένα προηγούμενο βήμα πώς να κάνεις μια στροφή του αντικειμένου, οπότε ξεκίνα από εκεί.
 
 \--- task \---
 
-Add a turn into the fish's swimming instructions, and click the green flag.
+Πρόσθεσε μια στροφή στις εντολές κολύμβησης του ψαριού και κάνε κλικ στην πράσινη σημαία.
 
 ```blocks3
     when green flag clicked
@@ -120,13 +120,13 @@ Add a turn into the fish's swimming instructions, and click the green flag.
 
 \--- /task \---
 
-It’s better, but there’s still too much of a pattern. It needs to be more random. Luckily, Scratch can do random for you! You’ll just need a new kind of block, called an **operator** block.
+Είναι καλύτερα τώρα, αλλά ακόμα είναι προβλέψιμη η κατεύθυνση του ψαριού. Πρέπει να είναι πιο τυχαία η κίνηση. Ευτυχώς, το Scratch μπορεί να κάνει τυχαία πράγματα για σένα! Θα χρειαστείς απλώς μια νέα κατηγορία μπλοκ, που ονομάζονται **Τελεστές**.
 
 ## \--- collapse \---
 
-## title: What's an operator?
+## title: Τι είναι ένας τελεστής;
 
-**Operators** take in one or more values (like numbers, text, or `True/False` values) and give back a single value. You can tell the kind of value it will give back by the shape of the block: round ends give numbers or text, pointy ends give `True/False`.
+Οι **Τελεστές** λαμβάνουν μία ή περισσότερες τιμές (όπως αριθμούς, κείμενο ή τιμές `True - αληθές / False - ψευδές`) και επιστρέφουν πίσω μία μόνο τιμή. Μπορείς να καταλάβεις τι είδους τιμή θα επιστρέψει βλέποντας το σχήμα του μπλοκ: τα στρογγυλά άκρα επιστρέφουν αριθμούς ή κείμενο, τα μυτερά άκρα επιστρέφουν `True/False`.
 
 ```blocks3
     (() + ())
@@ -140,7 +140,7 @@ It’s better, but there’s still too much of a pattern. It needs to be more ra
 
 \--- task \---
 
-Find the `pick random`{:class="block3operators"} **operator** block, and plug it into the `turn degrees`{:class="block3motion"} **Motion** block by clicking it and dragging it into the field where you set the number of degrees.
+Βρες το μπλοκ `επίλεξε τυχαίο`{:class="block3operators"} στους **Τελεστές** και βάλε το μέσα στο μπλοκ `στρίψε μοίρες`{:class="block3motion"} στην **Κίνηση**, κάνοντας κλικ και σύροντάς το στο αριθμητικό πεδίο όπου κανονικά ορίζεις τις μοίρες.
 
 ```blocks3
     when green flag clicked
@@ -155,27 +155,27 @@ Find the `pick random`{:class="block3operators"} **operator** block, and plug it
 
 \--- /task \---
 
-**Note**: you can change the minimum and maximum numbers it will pick, but the default values (`1` and `10`) are pretty good for this game, so you can just leave them.
+**Σημείωση**: μπορείς να αλλάξεις τους ελάχιστους και μέγιστους αριθμούς που θα επιστρέψει, αλλά οι προεπιλεγμένες τιμές (`1` και `10`) είναι αρκετά καλές για αυτό το παιχνίδι, οπότε μπορείς να τις κρατήσεις.
 
 \--- task \---
 
-Click the green flag to run the code!
+Κάνε κλικ στην πράσινη σημαία για να δοκιμάσεις το παιχνίδι σου!
 
 \--- /task \---
 
 ## \--- collapse \---
 
-## title: So what does the forever block do now?
+## title: Τι κάνει λοιπόν τώρα το μπλοκ 'για πάντα';
 
-The forever block now makes the fish sprite do four things in order:
+Ο βρόχος 'για πάντα' κάνει τώρα το αντικείμενο ψάρι να κάνει τέσσερα πράγματα με τη σειρά:
 
-1. Move forward
-2. Turn a little bit
-3. Wait briefly
-4. Check whether it's at the edge of the Stage
+1. Κίνηση προς τα εμπρός
+2. Μικρή περιστροφή
+3. Μικρή αναμονή
+4. Έλεγχος αν είναι στην άκρη της σκηνής
 
-Once the sprite has done the check, it will start at the beginning of the loop again and move, turn, wait, check, for as long as you let your Scratch program run.
+Μόλις το αντικείμενο κάνει τον έλεγχο, θα ξεκινήσει ξανά από την αρχή του βρόχου και θα μετακινηθεί, στρίψει, περιμένει, ελέγξει, για όσο διάστημα το πρόγραμμα του Scratch εκτελείται.
 
 \--- /collapse \---
 
-Cool! Next up: catching that fish!
+Τέλεια! Στη συνέχεια: πιάσε αυτό το ψάρι!
