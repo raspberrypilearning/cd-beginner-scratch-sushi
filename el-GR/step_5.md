@@ -1,32 +1,32 @@
-## Moving things around
+## Κίνηση αντικειμένων
 
-Right now your shark moves in a circle, and it would be much more fun to control it with the arrow keys. On this card, you’re going learn how to do that!
+Τώρα ο καρχαρίας σου κινείται σε κύκλο και θα ήταν πολύ πιο διασκεδαστικό να τον ελέγχεις με τα βελάκια του πληκτρολογίου. Σε αυτήν την καρτέλα, θα μάθεις πώς να το κάνεις αυτό!
 
 \--- task \---
 
-Start by deleting all code that you have for the shark.
+Ξεκίνησε διαγράφοντας όλο τον κώδικα που έχεις για τον καρχαρία.
 
 \--- /task \---
 
-As you’ve probably guessed, you’re going to need **Event** and **Motion** blocks again!
+Όπως μάλλον μάντεψες, πάλι θα χρειαστείς μπλοκ από τις κατηγορίες **Συμβάντα** και **Κίνηση**!
 
 \--- task \---
 
-This time, look for this block and drag it into the current sprite panel:
+Αυτή τη φορά, βρες αυτό το μπλοκ και σύρε το στην περιοχή του επιλεγμένου αντικειμένου:
 
 ```blocks3
-    when [space v] key pressed
+    όταν πατηθεί το πλήκτρο [space]
 ```
 
-Click the little arrow (▼) beside `space`. You will see a list of all your keyboard keys that you can pick from.
+Κάνε κλικ στο βελάκι (▼) δίπλα στο `διάστημα`. Θα δεις μια λίστα με όλα τα κουμπιά του πληκτρολογίου σου, τα οποία μπορείς να επιλέξεις.
 
 \--- /task \---
 
-You’re going to need four of the `when key pressed`{:class="block3events"} blocks — one for each of your arrow keys.
+Θα χρειαστείς τέσσερα μπλοκ από τα `όταν πατηθεί το πλήκτρο`{:class="block3events"} - ένα για κάθε βελάκι.
 
 \--- task \---
 
-To make your shark move, connect these blocks to **Motion** blocks like this:
+Για να μετακινήσεις τον καρχαρία σου, ένωσε αυτά τα μπλοκ με τα μπλοκ **Κίνησης**, όπως παρακάτω:
 
 ```blocks3
     when [left arrow v] key pressed
@@ -48,19 +48,19 @@ To make your shark move, connect these blocks to **Motion** blocks like this:
 
 \--- /task \---
 
-**Note**: `-10` means 'go back 10 steps'.
+**Σημείωση**: `-10` σημαίνει 'πήγαινε πίσω 10 βήματα'.
 
 \--- task \---
 
-Now click the green flag to test out your code.
+Τώρα κάνε κλικ στην πράσινη σημαία για να ελέγξεις τον κώδικά σου.
 
 \--- /task \---
 
-Now your shark moves back and forwards, which is pretty cool, but it doesn’t move up or down. Also, if you look through the **Motion** blocks, you’ll see there are no blocks for 'up' or 'down'. There are a whole bunch of them related to **x** and **y** coordinates though — let's try those!
+Τώρα ο καρχαρίας σου κινείται πίσω και μπροστά, κάτι που είναι αρκετά εντυπωσιακό, αλλά δεν κινείται πάνω και κάτω. Επίσης, αν κοιτάξεις το μενού **Κίνηση**, θα δεις ότι δεν υπάρχουν μπλοκ για 'πάνω' ή 'κάτω'. Υπάρχουν όμως πολλά μπλοκ που σχετίζονται με συντεταγμένες **x** και **y** - ας δοκιμάσουμε αυτά τότε!
 
 \--- task \---
 
-Grab two `change y by`{:class="block3motion"} blocks, and update your code like this:
+Σύρε δύο μπλοκ `άλλαξε y κατά`{:class="block3motion"}, και άλλαξε τον κώδικα ως εξής:
 
 ```blocks3
     when [up arrow v] key pressed
@@ -74,57 +74,57 @@ Grab two `change y by`{:class="block3motion"} blocks, and update your code like 
 
 \--- /task \---
 
-Now when you press the arrows keys, the shark moves all around the stage!
+Τώρα όταν πατήσεις τα βελάκια, ο καρχαρίας κινείται σε όλη τη σκηνή!
 
 ## \--- collapse \---
 
-## title: How do x- and y-coordinates work?
+## title: Πώς λειτουργούν οι συντεταγμένες x και y;
 
-To talk about the positions of objects, such as sprites, we often use x- and y-coordinates. The **x-axis** of the Stage coordinate system runs from **left to right**, and the **y-axis** runs from **bottom to top**.
+Για να μιλήσουμε για τις θέσεις των αντικειμένων χρησιμοποιούμε συχνά συντεταγμένες x και y. Ο **άξονας x** του συστήματος συντεταγμένων της σκηνής τρέχει από **αριστερά προς τα δεξιά** και ο άξονας **y** τρέχει από **κάτω προς τα πάνω**.
 
 ![](images/moving3.png)
 
-A sprite can be located by the coordinates of its centre, for example `(15, -27)`, where `15` is its position along the x-axis , and `-27` its position along the y-axis.
+Ένα αντικείμενο μπορεί να εντοπιστεί από τις συντεταγμένες του κέντρου του, για παράδειγμα `(15, -27)` , όπου `15` είναι η θέση του κατά μήκος του άξονα x και `-27` η θέση του κατά μήκος του άξονα y.
 
-+ To get a feel for how this actually works, select a sprite and use the **x** and **y** controls to move it around the stage by setting different values for the coordinates.
++ Για να αποκτήσεις μια αίσθηση για το πώς λειτουργεί αυτό, επίλεξε ένα αντικείμενο και άλλαξε τις τιμές **x** και **y** για να το μετακινήσεις στη σκηνή, ορίζοντας διαφορετικές τιμές για τις συντεταγμένες του.
 
 ![](images/xycoords.png)
 
-+ Try different pairs of values to see where the sprite goes! In Scratch, the x-axis goes from `-240` to `240`, and the y-axis goes from `-180` to `180`.
++ Δοκίμασε διαφορετικά ζευγάρια τιμών για να δεις που πηγαίνει το αντικείμενο! Στο Scratch, ο άξονας x ξεκινά από `-240` και φτάνει ως το `240`, ενώ ο άξονας y ξεκινά από `-180` και φτάνει έως το `180`.
 
 \--- /collapse \---
 
-### Restarting the game
+### Επανεκκίνηση του παιχνιδιού
 
-The shark moves all over the screen now, but imagine this is a game: how do you restart it, and what happens at the start of each game?
+Ο καρχαρίας κινείται σε όλη την οθόνη τώρα, αλλά φαντάσου ότι είναι ένα παιχνίδι: πώς μπορείς να το επανεκκινήσεις και τι συμβαίνει στην αρχή κάθε παιχνιδιού;
 
-You need to get the shark to its original location when the player starts the game. They'll start this game by clicking on the green flag, so you need to change the shark sprite's x- and y-coordinates when that happens.
+Πρέπει να μεταφέρεις τον καρχαρία στην αρχική του θέση, όταν ξεκινήσει το παιχνίδι. Το παιχνίδι ξεκινάει κάνοντας κλικ στην πράσινη σημαία, οπότε πρέπει να αλλάξεις τις συντεταγμένες x και y του καρχαρία όταν συμβεί αυτό.
 
-That’s actually pretty easy! The centre of the stage is `(0, 0)` in `(x, y)` coordinates.
+Αυτό είναι πολύ εύκολο! Το κέντρο της σκηνής είναι `(0, 0)` σε συντεταγμένες `(x, y)`.
 
-So all you need is an **Event** block for that green flag, and the **go to** block from **Motion**.
+Έτσι, το μόνο που χρειάζεσαι είναι το μπλοκ με την πράσινη σημαία από τα **Συμβάντα** και το μπλοκ **πήγαινε σε θέση x και y** από την **Κίνηση**.
 
 \--- task \---
 
-Drag a `when green flag clicked`{:class="block3events"} **Event** block onto the current sprite panel.
+Σύρε ένα μπλοκ `όταν γίνει κλικ σε πράσινη σημαία`{:class="block3events"} από τα **Συμβάντα** στην περιοχή του επιλεγμένου αντικειμένου.
 
 ```blocks3
     when green flag clicked
 ```
 
-Then find the `go to`{:class="block3motion"} **Motion** block, and attach it to your flag **Event** block.
+Στη συνέχεια, βρες το μπλοκ `πήγαινε σε θέση`{:class="block3motion"} από την καρτέλα **Κίνηση** και ένωσέ το με το μπλοκ της σημαίας από τα **Συμβάντα**.
 
 ```blocks3
     when green flag clicked
 +     go to x: (0) y: (0)
 ```
 
-Set the both the `x` and the `y` coordinate to `0` in the `go to`{:class="block3motion"} block if they are not already `0`.
+Βάλε και στις δύο συντεταγμένες `x` και `y` τιμή `0` στο μπλοκ `πήγαινε στη θέση`{:class="block3motion"}, εάν δεν είναι ήδη `0`.
 
 \--- /task \---
 
 \--- task \---
 
-Now click the green flag: you should see the shark return to the centre of the stage!
+Τώρα κάνε κλικ στην πράσινη σημαία: θα πρέπει να δεις τον καρχαρία να επιστρέφει στο κέντρο της σκηνής!
 
 \--- /task \---
