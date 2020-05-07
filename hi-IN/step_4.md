@@ -1,47 +1,47 @@
-## Setting the scene
+## दृश्य की स्थापना
 
-Scratch has a library of backgrounds and sprites for you to use to make your project look awesome.
+स्क्रैच में पृष्ठभूमि का एक पुस्तकालय होता है और आपके प्रोजेक्ट को कमाल दिखाने के लिए आपको इसका उपयोग करने के लिए स्प्राइट करता है।
 
 \--- task \---
 
-Select the Stage.
+स्टेज का चयन करें।
 
-![Selecting the stage](images/looksSelectStage.png)
+![स्टेज का चयन करें।](images/looksSelectStage.png)
 
-Click on **Backdrops**.
+** Backdrops ** पर क्लिक करें।
 
-![The Backdrops tab](images/looksBackdrops.png)
+![बैकड्रॉप्स टैब](images/looksBackdrops.png)
 
-Click the **Choose backdrop from library** icon.
+**Choose backdrop from library पर क्लिक करें ** आइकन चुनें ।
 
-![The Choose backdrop icon](images/looksChooseBg.png)
+![बैकड्रॉप आइकन चुनें](images/looksChooseBg.png)
 
-Then pick your favourite underwater background!
+फिर अपनी पसंदीदा पानी के नीचे की पृष्ठभूमि चुनें!
 
-![An underwater scene](images/looksUnderwater.png)
+![एक पानी के नीचे का दृश्य](images/looksUnderwater.png)
 
 \--- /task \---
 
-Great! Of course, now you have a cat underwater, and cats aren't usually big fans of that. But you can fix that, because you can turn the cat into a shark!
+शानदार! बेशक, अब आपके पास एक बिल्ली पानी के नीचे है, और बिल्लियों आमतौर पर उस के बड़े प्रशंसक नहीं हैं। लेकिन आप इसे ठीक कर सकते हैं, क्योंकि आप बिल्ली को शार्क में बदल सकते हैं!
 
 \--- task \---
 
-First, select the cat sprite and click on the **Costumes** tab.
+अपने अनतरिक्ष-यान स्प्राइट पर क्लिक करें, और **Costumes** टैब पर क्लिक करें।
 
 ![](images/cool2.png)
 
-Then, click on **Choose costume from Library**
+फिर, **Choose costume from Library** पर क्लिक करें
 
 ![](images/cool3.png)
 
-Select this shark image and click **OK**.
+इस शार्क छवि का चयन करें और **OK** क्लिक करें।
 
-![The shark costume](images/looksShark.png)
+![शार्क की पोशाक](images/looksShark.png)
 
-Now remove the cat costumes by selecting each of them and clicking on the **x**.
+अब उनमें से प्रत्येक का चयन करके और ** x** पर क्लिक करके बिल्ली की वेशभूषा को हटा दें ।
 
 ![](images/coolDeleteCostumes.png)
 
 \--- /task \---
 
-Now you have a shark – excellent!
+अब आपके पास एक शार्क है - उत्कृष्ट!
