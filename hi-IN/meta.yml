@@ -1,38 +1,38 @@
 ---
-title: Deep sea sushi
+title: गहरे समुद्र में सुशी
 hero_image: images/banner.png
-description: Make a fun game in your first Scratch program!
-theme: orange #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
+description: अपने पहले स्क्रैच कार्यक्रम में एक मजेदार गेम बनाएं!
+theme: नारंगी #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
 duration: 2
 listed: true
 ingredient: false
 copyedit: true
-curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
-interests: animals, humour, outdoors, games
+curriculum: 1, डिजाइन -0, प्रोग्रामिंग -1, फिजिकल-कम्प -0, निर्माण -0, समुदाय -0
+interests: जानवर, हास्य, सड़क पर, खेल
 technologies: scratch
 site_areas: coderdojo
-software: scratch
+software: खरोंच
 version: 4.0.0
 last_tested: 2017-01-01
 steps:
   - 
-    title: Introduction
+    title: भूमिका
   - 
-    title: Getting set up
+    title: स्थापित हो रही है
   - 
-    title: Adding and removing code blocks
+    title: कोड ब्लॉक जोड़ना और निकालना
   - 
-    title: Setting the scene
+    title: दृश्य की स्थापना
   - 
-    title: Moving things around
+    title: चीजों को इधर-उधर करना
   - 
-    title: All the sprites
+    title: सभी स्प्राइट्स
   - 
-    title: Remote-control fish
+    title: रिमोट-कंट्रोल मछली
   - 
-    title: Fishing!
+    title: मछली पकड़ने
   - 
-    title: Keeping score
+    title: हिसाब रखा
   - 
-    title: "Challenge: winning the game"
+    title: "चुनौती: खेल जीतना"
     challenge: true
