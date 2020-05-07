@@ -1,32 +1,32 @@
-## Moving things around
+## चीजों को इधर-उधर करना
 
-Right now your shark moves in a circle, and it would be much more fun to control it with the arrow keys. On this card, you’re going learn how to do that!
+अभी आपका शार्क एक सर्कल में चलता है, और इसे तीर कुंजियों के साथ नियंत्रित करने में बहुत अधिक मज़ा आएगा। इस कार्ड पर, आप सीखेंगे कि यह कैसे करना है!
 
 \--- task \---
 
-Start by deleting all code that you have for the shark.
+शार्क के लिए आपके पास मौजूद सभी कोड हटाकर प्रारंभ करें।
 
 \--- /task \---
 
-As you’ve probably guessed, you’re going to need **Event** and **Motion** blocks again!
+जैसा कि आपने शायद अनुमान लगाया है, आपको **Event** और **Motion** ब्लॉक की फिर से आवश्यकता है !
 
 \--- task \---
 
-This time, look for this block and drag it into the current sprite panel:
+इस बार, इस ब्लॉक को देखें और इसे वर्तमान स्प्राइट पैनल में खींचें:
 
 ```blocks3
-    when [space v] key pressed
+    जब [space v] कुंजी दबाया जाए
 ```
 
-Click the little arrow (▼) beside `space`. You will see a list of all your keyboard keys that you can pick from.
+`space` स्थान के पास स्थित छोटे तीर (▼) पर क्लिक करें । आपको अपने सभी कीबोर्ड कुंजियों की एक सूची दिखाई देगी, जिन्हें आप चुन सकते हैं।
 
 \--- /task \---
 
-You’re going to need four of the `when key pressed`{:class="block3events"} blocks — one for each of your arrow keys.
+कुंजी दबाने पर आपको चार `when key pressed`{:class="bloc3events"} ब्लॉक - आपके प्रत्येक तीर कुंजी के लिए।
 
 \--- task \---
 
-To make your shark move, connect these blocks to **Motion** blocks like this:
+अपने शार्क को स्थानांतरित करने के लिए, इन ब्लॉकों को **Motion** गति से कनेक्ट करें इस तरह से ब्लॉक:
 
 ```blocks3
     when [left arrow v] key pressed
@@ -48,19 +48,19 @@ To make your shark move, connect these blocks to **Motion** blocks like this:
 
 \--- /task \---
 
-**Note**: `-10` means 'go back 10 steps'.
+**Note**: `-10` 10 कदम पीछे हटो' का मतलब है।
 
 \--- task \---
 
-Now click the green flag to test out your code.
+अपने खेल का परीक्षण करने के लिए हरे झंडे पर क्लिक करें।
 
 \--- /task \---
 
-Now your shark moves back and forwards, which is pretty cool, but it doesn’t move up or down. Also, if you look through the **Motion** blocks, you’ll see there are no blocks for 'up' or 'down'. There are a whole bunch of them related to **x** and **y** coordinates though — let's try those!
+अब आपका शार्क आगे और पीछे चलता है, जो बहुत अच्छा है, लेकिन यह ऊपर या नीचे नहीं जाता है। इसके अलावा, यदि आप ** गति के माध्यम से देखते हैं ** ब्लॉक, आप देखेंगे कि 'ऊपर' या 'नीचे' के लिए कोई ब्लॉक नहीं हैं। उनमें से एक पूरा गुच्छा **x** और ** y ** से संबंधित है हालांकि निर्देशांक - चलो उन की कोशिश करो!
 
 \--- task \---
 
-Grab two `change y by`{:class="block3motion"} blocks, and update your code like this:
+दो `change y by`{:class="block3motion"} ब्लॉक करता है, और अपना कोड इस तरह से अपडेट करें:
 
 ```blocks3
     when [up arrow v] key pressed
@@ -74,57 +74,57 @@ Grab two `change y by`{:class="block3motion"} blocks, and update your code like 
 
 \--- /task \---
 
-Now when you press the arrows keys, the shark moves all around the stage!
+अब जब आप तीर कुंजी दबाते हैं, तो शार्क मंच के चारों ओर घूमती है!
 
 ## \--- collapse \---
 
-## title: How do x- and y-coordinates work?
+## शीर्षक: x- और y- निर्देशांक कैसे काम करते हैं?
 
-To talk about the positions of objects, such as sprites, we often use x- and y-coordinates. The **x-axis** of the Stage coordinate system runs from **left to right**, and the **y-axis** runs from **bottom to top**.
+वस्तुओं की स्थिति के बारे में बात करने के लिए, जैसे स्प्राइट, हम अक्सर x- और y- निर्देशांक का उपयोग करते हैं। **x-axis** स्टेज समन्वय प्रणाली **left to right**, और **y-axis** नीचे से ऊपर तक चलता है **bottom to tp**।
 
 ![](images/moving3.png)
 
-A sprite can be located by the coordinates of its centre, for example `(15, -27)`, where `15` is its position along the x-axis , and `-27` its position along the y-axis.
+एक स्प्राइट इसके केंद्र के निर्देशांक द्वारा स्थित हो सकता है, उदाहरण के लिए `(15, -27)` , जहां `15` एक्स-अक्ष के साथ इसकी स्थिति है, और `-27` y-अक्ष के साथ इसकी स्थिति।
 
-+ To get a feel for how this actually works, select a sprite and use the **x** and **y** controls to move it around the stage by setting different values for the coordinates.
++ यह वास्तव में कैसे काम करता है, इसके बारे में महसूस करने के लिए, स्प्राइट का चयन करें और **x** और **y** का उपयोग करें निर्देशांक के लिए अलग-अलग मान सेट करके इसे चरण के चारों ओर ले जाने के लिए नियंत्रण।
 
 ![](images/xycoords.png)
 
-+ Try different pairs of values to see where the sprite goes! In Scratch, the x-axis goes from `-240` to `240`, and the y-axis goes from `-180` to `180`.
++ मूल्यों के विभिन्न युग्मों को देखने की कोशिश करें कि स्प्राइट कहां जाता है! स्क्रैच में x- अक्ष `-240` से जाता है `240`, और y- अक्ष `-180` से `180` जाता है ।
 
 \--- /collapse \---
 
-### Restarting the game
+### खेल को फिर से शुरू करना
 
-The shark moves all over the screen now, but imagine this is a game: how do you restart it, and what happens at the start of each game?
+शार्क अब पूरे स्क्रीन पर घूमती है, लेकिन कल्पना करें कि यह एक गेम है: आप इसे कैसे पुनः आरंभ करते हैं, और प्रत्येक गेम की शुरुआत में क्या होता है?
 
-You need to get the shark to its original location when the player starts the game. They'll start this game by clicking on the green flag, so you need to change the shark sprite's x- and y-coordinates when that happens.
+खिलाड़ी को खेल शुरू करने पर आपको शार्क को उसके मूल स्थान पर लाने की आवश्यकता होती है। वे हरे झंडे पर क्लिक करके इस खेल को शुरू करेंगे, इसलिए जब आप ऐसा करते हैं तो शार्क स्प्राइट के x- और y- निर्देशांक को बदलना होगा।
 
-That’s actually pretty easy! The centre of the stage is `(0, 0)` in `(x, y)` coordinates.
+यह वास्तव में बहुत आसान है! मंच का केंद्र `(0, 0)` में <0 >(x, y)</code> निर्देशांक।
 
-So all you need is an **Event** block for that green flag, and the **go to** block from **Motion**.
+तो आप सभी की जरूरत है एक **Events** उस हरे झंडे के लिए ब्लॉक करें, और **go to ** से ब्लॉक करें **Motion** ।
 
 \--- task \---
 
-Drag a `when green flag clicked`{:class="block3events"} **Event** block onto the current sprite panel.
+हरी झंडी क्लिक करने पर `when green flag clicked`{:class="block3events"} **Event** वर्तमान स्प्राइट पैनल पर ब्लॉक करें।
 
 ```blocks3
     when green flag clicked
 ```
 
-Then find the `go to`{:class="block3motion"} **Motion** block, and attach it to your flag **Event** block.
+फिर `go to`{:class="block3motion"} **Motion** ब्लॉक करें, और इसे अपने ध्वज से संलग्न करें **Events** खंड मैथा।
 
 ```blocks3
     when green flag clicked
 +     go to x: (0) y: (0)
 ```
 
-Set the both the `x` and the `y` coordinate to `0` in the `go to`{:class="block3motion"} block if they are not already `0`.
+दोनों को सेट करें `x` और `y` `0` से समन्वयित करें में जाएं `go to`{:class="block3motion"} ब्लॉक करें यदि वे पहले से ही नहीं हैं `0` ।
 
 \--- /task \---
 
 \--- task \---
 
-Now click the green flag: you should see the shark return to the centre of the stage!
+अब हरे झंडे पर क्लिक करें: आपको शार्क को मंच के केंद्र में वापस जाना चाहिए!
 
 \--- /task \---
