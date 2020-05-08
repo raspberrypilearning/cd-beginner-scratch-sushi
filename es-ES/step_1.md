@@ -22,30 +22,30 @@ Presiona la bandera verde para comenzar el juego. Usa los cursores para mover al
 
 ## \--- collapse \---
 
-## title: What you will learn
+## Lo que aprenderás
 
-+ Adding and deleting code blocks
-+ Basic motion: move in steps, and turn by degrees
-+ Using keyboard controls
-+ Using (x, y) coordinates to position sprites
-+ Changing the look of the Stage and of sprites with costumes and show/hide commands
-+ Having multiple sprites on screen
-+ Using `forever`{:class="block3control"} loops
-+ Detecting when sprites are touching
++ Agregar y eliminar bloques de código
++ Movimientos básicos: moverte en pasos y girar en grados
++ Usar los controles del teclado
++ Usar coordenadas (x, y) para posicionar objetos
++ Cambiar el aspecto del Escenario y de los objetos con disfraces y comandos de mostrar/esconder
++ Tener múltiples objetos en pantalla
++ Usar bucles `por siempre`{: class = "block3control"}
++ Detectar cuando los objetos se tocan
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: Lo que necesitarás
 
-You’re going to need **Scratch**, so do one of the following:
+Necesitarás **Scratch**, así que elige una de las siguientes opciones:
 
-+ Download Scratch and install it on your computer by going to [dojo.soy/downloadscratch](http://dojo.soy/downloadscratch)
-+ Use Scratch in your web browser by going to [dojo.soy/usescratch](http://dojo.soy/usescratch)
++ Descarga Scratch e instálalo en tu ordenador yendo a [dojo.soy/downloadscratch](http://dojo.soy/downloadscratch)
++ Utiliza Scratch en tu navegador web yendo a [dojo.soy/usescratch](http://dojo.soy/usescratch)
 
-Once you’re set up, you can move on to the next step!
+Una vez que estés listo, ¡puedes pasar al siguiente paso!
 
 \--- /collapse \---
 
-![Tracking pixel](http://code.org/api/hour/begin_coderdojo_sushi.png)
+![Píxel de seguimiento](http://code.org/api/hour/begin_coderdojo_sushi.png)
