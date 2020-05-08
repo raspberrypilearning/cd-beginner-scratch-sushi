@@ -1,24 +1,24 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/cd-beginner-scratch-sushi-scratch2).
+Esta es la versión del proyecto para **Scratch 3**. También hay una [versión del proyecto para Scratch 2](https://projects.raspberrypi.org/en/projects/cd-beginner-scratch-sushi-scratch2).
 
 \--- /no-print \---
 
-## Introduction
+## Introducción
 
-These Sushi Cards are going to help you learn to create computer programs in Scratch!
+¡Estas Tarjetas Sushi te ayudarán a aprender a crear programas de ordenador en Scratch!
 
-### What you will make
+### Lo que harás
 
-You will make a game where you move a shark around to try and catch fish.
+Harás un juego en el que moverás un tiburón para intentar atrapar peces.
 
-Here's an example of how your finished game might look:
+Aquí hay un ejemplo de cómo podría verse tu juego terminado:
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/205355052/?autostart=false" frameborder="0"></iframe>
 </div>
 
-Press the green flag to start the game. Use the arrow keys to move the shark around and catch the fish.
+Presiona la bandera verde para comenzar el juego. Usa los cursores para mover al tiburón y atrapar al pez.
 
 ## \--- collapse \---
 
