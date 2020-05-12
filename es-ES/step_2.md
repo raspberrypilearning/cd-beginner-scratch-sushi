@@ -1,24 +1,24 @@
-## Getting set up
+## Preparándote
 
-Once you open Scratch, you’ll see a window like the one below.
+Una vez que abras Scratch, verás una ventana como la de abajo.
 
 \--- task \---
 
-Look for each of the following areas and remember where they are.
+Busca cada una de las siguientes áreas y recuerda dónde están.
 
 \--- /task \---
 
-### The Stage
+### El Escenario
 
 ![Scratch window with the stage highlighted](images/hlStage.png)
 
 ## \--- collapse \---
 
-## title: What is the Stage?
+## title: ¿Qué es el Escenario?
 
-This is where your Scratch programs run. It has:
+Aquí es donde se ejecutan tus programas de Scratch. Tiene:
 
-* One or more **backgrounds** \(images on the background of the screen\)
+* Uno o más **fondos** \(imágenes en el fondo de la pantalla\)
 
 * Any **code blocks** associated with it \(we’ll get to this\)
 
