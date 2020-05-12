@@ -24,40 +24,40 @@ Aquí es donde se ejecutan tus programas de Scratch. Tiene:
 
 \--- /collapse \---
 
-### The sprite list
+### La lista de objetos
 
 ![Scratch window with the sprite list highlighted](images/hlSpriteList.png)
 
 ## \--- collapse \---
 
-## title: What is a sprite?
+## title: ¿Qué es un objeto?
 
-Any item you can add on the Stage is a **sprite**.
+Cualquier elemento que puedas agregar al Escenario es un **objeto**.
 
-A sprite includes:
+Un objeto incluye:
 
-* The **image** on the Stage
+* La **imagen** en el Escenario
 * Any extra **costumes** \(looks\) it has
-* Any **sounds** associated with it
-* Any **code blocks** associated with it ![](images/setup2.png)
+* Cualquier **sonido** asociado a él
+* Cualquier **bloque de código** asociado a él ![](images/setup2.png)
 
 \--- /collapse \---
 
-### The code blocks palette
+### La paleta de bloques de código
 
 ![Scratch window with the blocks pallet highlighted](images/hlBlocksPalette.png)
 
 ## \--- collapse \---
 
-## title: Code blocks
+## title: Bloques de código
 
-Code in Scratch comes in the form of blocks that you connect to make programs. You choose blocks from the **code blocks palette**, drag them into the **current sprite panel**, and then connect them to each other.
+Code in Scratch comes in the form of blocks that you connect to make programs. Solo tienes que elegir los bloques de la **paleta de bloques de código**, arrastrarlos al **panel del objeto actual**, y luego conectarlos entre sí.
 
-There are ten categories of blocks. They are colour-coded, and you can choose between them by clicking on the items in the list at the top of the **code blocks palette**.
+Hay diez categorías de bloques. Están codificados por colores, y puedes elegir entre ellos haciendo clic en los elementos de la lista en la parte superior de la **paleta de bloques de código**.
 
 \--- /collapse \---
 
-### El panel del objeto actual
+### The current sprite panel
 
 ![Scratch window with the current sprite panel highlighted](images/hlCurrentSpritePanel.png)
 
