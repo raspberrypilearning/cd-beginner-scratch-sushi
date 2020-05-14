@@ -14,27 +14,27 @@ Haz clic en el nombre de una categoría para ver los bloques en esa categoría. 
 
 ![](images/code2a.png)
 
-All of the blocks in the category you've clicked are shown in a list:
+Todos los bloques de la categoría en la que has hecho clic se muestran en una lista:
 
 ![](images/code2b.png)
 
-You can click on the blcok you want, and then just drag it into the current sprite panel and let go. Once it's in the panel, you can move it around and connect it to other blocks.
+Puedes hacer clic en el bloque que desees, y luego arrastrarlo al panel del objeto actual y soltarlo. Una vez que esté en el panel, puedes moverlo y conectarlo a otros bloques.
 
 \--- /collapse \---
 
-If you want to see what a block does, you can double-click on it to make it run!
+¡Si quieres ver lo que hace un bloque, puedes hacer doble clic en él para que se ejecute!
 
 \--- task \---
 
-Try double-clicking on some of the blocks to see what they do.
+Intenta hacer doble clic en algunos de los bloques para ver qué hacen.
 
 \--- /task \---
 
 ## \--- collapse \---
 
-## title: Running the code
+## title: Ejecutando el código
 
-Usually, you want your code to run automatically whenever something specific happens. This is why many of your programs will start with a block from the **Events** category, most often this one:
+Usually, you want your code to run automatically whenever something specific happens. Esta es la razón por la que muchos de tus programas comenzarán con un bloque de la categoría **Eventos**, normalmente este:
 
 ```blocks3
     when green flag clicked
