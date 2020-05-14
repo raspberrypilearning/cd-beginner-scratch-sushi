@@ -34,7 +34,7 @@ Intenta hacer doble clic en algunos de los bloques para ver qué hacen.
 
 ## title: Ejecutando el código
 
-Usually, you want your code to run automatically whenever something specific happens. Esta es la razón por la que muchos de tus programas comenzarán con un bloque de la categoría **Eventos**, normalmente este:
+Por lo general, quieres que tu código se ejecute automáticamente cada vez que suceda algo específico. Esta es la razón por la que muchos de tus programas comenzarán con un bloque de la categoría **Eventos**, normalmente este:
 
 ```blocks3
     al hacer clic en bandera verde
@@ -42,19 +42,19 @@ Usually, you want your code to run automatically whenever something specific hap
 
 Los bloques de código conectados a este bloque se ejecutarán después de hacer clic en la **bandera verde**.
 
-Code blocks run from top to bottom, so the order in which you snap your blocks together matters. En este ejemplo, el objeto va a `decir`{:class="block3looks"} `¡Hola!` antes que `iniciar`{:class="block3sound"} el sonido `meow`.
+Los bloques de código se ejecutan de arriba hacia abajo, por lo que el orden en el cual conectas los bloques es importante. En este ejemplo, el objeto va a `decir`{:class="block3looks"} `¡Hola!` antes que `iniciar`{:class="block3sound"} el sonido `meow`.
 
 ```blocks3
-    when green flag clicked
-    say [Hello]
-    play sound [meow v]
+    al hacer clic en bandera verde
+    decir [Hello]
+    inicial sonido [meow v]
 ```
 
 \--- /collapse \---
 
 ¡Eliminar los bloques de código que no quieras en tu programa es fácil! Simplemente arrástralos de nuevo a la paleta de bloques de código.
 
-**Be careful:** dragging them into the code blocks pallette will delete all the blocks connected to the block you drag, so make sure to separate code blocks you want to keep from those you want to remove. Si eliminas algunos bloques de código por accidente y deseas recuperarlos, haz clic con el botón derecho y luego haz clic en la opción **deshacer** para recuperar todo.
+**Ten cuidado:** al arrastrarlos a la paleta de bloques de códigos, se eliminarán todos los bloques conectados al bloque que arrastres, así que asegúrate de separar los bloques de códigos que quieras conservar de los que desees eliminar. Si eliminas algunos bloques de código por accidente y deseas recuperarlos, haz clic con el botón derecho y luego haz clic en la opción **deshacer** para recuperar todo.
 
 ![](images/code6.png)
 
@@ -66,7 +66,7 @@ Code blocks run from top to bottom, so the order in which you snap your blocks t
 
 ### Recapitulemos
 
-Now you know how to move code around and make things happen, it's time for you to create a program to make the Scratch Cat walk in a circle!
+Ahora que sabes cómo mover bloques de código y hacer que pasen cosas, ¡es hora de que crees un programa para que el gato Scratch camine en un círculo!
 
 \--- task \---
 
@@ -81,7 +81,7 @@ Asegúrate de tener el objeto del gato seleccionado en la lista de objetos, y lu
 
 \--- task \---
 
-Now, click on the green flag above the Stage.
+Ahora, haz clic en la bandera verde en el Escenario.
 
 ![](images/code7.png)
 
@@ -93,21 +93,21 @@ Nota: si haces clic en la bandera demasiadas veces y el gato se aleja, ¡puedes 
 
 \--- task \---
 
-Snap the turn block to the end to make the cat sprite walk in a circle. It’s in the **Motion** list too.
+Conecta el bloque girar al final para hacer que el objeto gato camine en círculo. Está en la lista **Movimiento** también.
 
 ```blocks3
-    when green flag clicked
-    move [10] steps
-+    turn cw (15) degrees
+    al hacer clic en bandera verde
+    mover [10] pasos
++    girar a la derecha (15) grados
 ```
 
 \--- /task \---
 
 ## \--- collapse \---
 
-## title: How does turning work?
+## title: ¿Cómo funciona el giro?
 
-This block makes the sprite turn 15 degrees of the full 360 degrees that make up a circle. You can change that number, and the number of steps, by clicking on the number and typing in a new value.
+Este bloque hace que el objeto gire 15 grados de los 360 grados que componen un círculo. Puedes cambiar ese número, y el número de pasos, haciendo clic en el número y escribiendo un nuevo valor.
 
 ![](images/code9.png)
 
@@ -115,6 +115,6 @@ This block makes the sprite turn 15 degrees of the full 360 degrees that make up
 
 \--- task \---
 
-Now save your work!
+¡Ahora guarda tu trabajo!
 
 \--- /task \---
