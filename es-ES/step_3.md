@@ -54,27 +54,27 @@ Code blocks run from top to bottom, so the order in which you snap your blocks t
 
 ¡Eliminar los bloques de código que no quieras en tu programa es fácil! Simplemente arrástralos de nuevo a la paleta de bloques de código.
 
-**Be careful:** dragging them into the code blocks pallette will delete all the blocks connected to the block you drag, so make sure to separate code blocks you want to keep from those you want to remove. If you delete some code blocks by accident and want to get them back, right-click and then click on the **undo** option to get everything back.
+**Be careful:** dragging them into the code blocks pallette will delete all the blocks connected to the block you drag, so make sure to separate code blocks you want to keep from those you want to remove. Si eliminas algunos bloques de código por accidente y deseas recuperarlos, haz clic con el botón derecho y luego haz clic en la opción **deshacer** para recuperar todo.
 
 ![](images/code6.png)
 
 \--- task \---
 
-Try adding, deleting, and undeleting some code blocks!
+¡Intenta agregar, eliminar y recuperar algunos bloques de código!
 
 \--- /task \---
 
-### Putting it all together
+### Recapitulemos
 
 Now you know how to move code around and make things happen, it's time for you to create a program to make the Scratch Cat walk in a circle!
 
 \--- task \---
 
-Make sure you have the cat sprite selected in the sprite list, and then drag the following blocks into the sprite panel and connect them. You’ll find them in the **Events** and **Motion** lists.
+Asegúrate de tener el objeto del gato seleccionado en la lista de objetos, y luego arrastra los siguientes bloques al panel de objetos y conéctalos. Los encontrarás en las listas **Eventos** y **Movimiento**.
 
 ```blocks3
-    when green flag clicked
-    move [10] steps
+    al hacer clic en bandera verde
+    mover [10] pasos
 ```
 
 \--- /task \---
@@ -87,9 +87,9 @@ Now, click on the green flag above the Stage.
 
 \--- /task \---
 
-You should see the cat walking in a straight line...not exactly what you want, right?
+Deberías ver al gato caminando en línea recta... esto no es exactamente lo que quieres, ¿verdad?
 
-Note: If you click the flag too many times and the cat walks away, you can drag it back!
+Nota: si haces clic en la bandera demasiadas veces y el gato se aleja, ¡puedes arrastrarlo hacia atrás!
 
 \--- task \---
 
