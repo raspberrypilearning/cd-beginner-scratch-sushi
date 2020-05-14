@@ -37,12 +37,12 @@ Intenta hacer doble clic en algunos de los bloques para ver qué hacen.
 Usually, you want your code to run automatically whenever something specific happens. Esta es la razón por la que muchos de tus programas comenzarán con un bloque de la categoría **Eventos**, normalmente este:
 
 ```blocks3
-    when green flag clicked
+    al hacer clic en bandera verde
 ```
 
-The code blocks connected to this block will run after the **green flag** is clicked.
+Los bloques de código conectados a este bloque se ejecutarán después de hacer clic en la **bandera verde**.
 
-Code blocks run from top to bottom, so the order in which you snap your blocks together matters. In this example, the sprite will `say`{:class="block3looks"} `Hello!` before it will `play`{:class="block3sound"} the `meow` sound.
+Code blocks run from top to bottom, so the order in which you snap your blocks together matters. En este ejemplo, el objeto va a `decir`{:class="block3looks"} `¡Hola!` antes que `iniciar`{:class="block3sound"} el sonido `meow`.
 
 ```blocks3
     when green flag clicked
@@ -52,7 +52,7 @@ Code blocks run from top to bottom, so the order in which you snap your blocks t
 
 \--- /collapse \---
 
-Removing or deleting code blocks you don’t want in your program is easy! Just drag them back into the code blocks palette.
+¡Eliminar los bloques de código que no quieras en tu programa es fácil! Simplemente arrástralos de nuevo a la paleta de bloques de código.
 
 **Be careful:** dragging them into the code blocks pallette will delete all the blocks connected to the block you drag, so make sure to separate code blocks you want to keep from those you want to remove. If you delete some code blocks by accident and want to get them back, right-click and then click on the **undo** option to get everything back.
 
