@@ -1,16 +1,16 @@
-## Adding and removing code blocks
+## Agregando y eliminando bloques de código
 
-Great! You’ve written your very first Scratch program. Time to learn a little more about getting code in and out of Scratch! Scratch code is made up of **blocks** such as these:
+¡Genial! Has creado tu primer programa Scratch. ¡Es hora de aprender un poco más sobre cómo mover código dentro y fuera de Scratch! El código de Scratch se compone de **bloques** como estos:
 
 ![](images/code1.png)
 
-You will find all blocks in the **code blocks palette**, sorted into different categories according to what they do.
+Encontrarás todos los bloques en la **paleta de bloques de código**, ordenados en diferentes categorías de acuerdo con lo que hacen.
 
 ## \--- collapse \---
 
-## title: Using blocks from the different categories
+## title: Utilizando bloques de las diferentes categorías
 
-Click on a category name to see the blocks in that category. Here, the **Motion** category is selected:
+Haz clic en el nombre de una categoría para ver los bloques en esa categoría. Aquí, la categoría **Movimiento** está seleccionada:
 
 ![](images/code2a.png)
 
