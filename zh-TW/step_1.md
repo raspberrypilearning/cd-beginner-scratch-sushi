@@ -1,10 +1,10 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/cd-beginner-scratch-sushi-scratch2).
+這個專案是 **Scratch 3** 版本。 另外還有 [Scratch 2](https://projects.raspberrypi.org/en/projects/cd-beginner-scratch-sushi-scratch2) 版本。
 
 \--- /no-print \---
 
-## Introduction
+## 介紹
 
 These Sushi Cards are going to help you learn to create computer programs in Scratch!
 
