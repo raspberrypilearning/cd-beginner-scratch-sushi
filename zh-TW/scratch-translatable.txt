@@ -1,5 +1,5 @@
-Hello!
+哈囉！
 
-score
+得分
 
-hello world
+你好！
