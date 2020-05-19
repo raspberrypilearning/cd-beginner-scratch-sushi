@@ -1,14 +1,14 @@
 ## Adding and removing code blocks
 
-太好了！ 您已經編寫了第一個Scratch程序。 Time to learn a little more about getting code in and out of Scratch! Scratch code is made up of **blocks** such as these:
+太好了！ 您已經編寫了第一個Scratch程序。 是時候學習更多有關編寫Scratch代碼的知識了！ Scratch代碼是由**積木**組成的，例如：
 
 ![](images/code1.png)
 
-You will find all blocks in the **code blocks palette**, sorted into different categories according to what they do.
+您會在**代碼積木面板**中找到所有的積木 ，根據他們的工作分為不同的類別。
 
 ## \--- collapse \---
 
-## title: Using blocks from the different categories
+## 標題：使用來自不同類別的積木
 
 Click on a category name to see the blocks in that category. Here, the **Motion** category is selected:
 
