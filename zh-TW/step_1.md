@@ -30,21 +30,21 @@
 + 使用（x, y）坐標定位角色
 + 使用造型和顯示/隱藏命令來變更舞台和角色的造型
 + Having multiple sprites on screen
-+ Using `forever`{:class="block3control"} loops
-+ Detecting when sprites are touching
++ 使用`重複無限次`{:class =“ block3control”}迴圈
++ 檢測角色何時接觸
 
-\--- /collapse \---
+- - 自動隱藏選單 - -
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: 您將使用到
 
-You’re going to need **Scratch**, so do one of the following:
+您將需要**Scratch** ，因此請執行以下任一操作：
 
-+ Download Scratch and install it on your computer by going to [dojo.soy/downloadscratch](http://dojo.soy/downloadscratch)
-+ Use Scratch in your web browser by going to [dojo.soy/usescratch](http://dojo.soy/usescratch)
++ 到[dojo.soy/downloadscratch](http://dojo.soy/downloadscratch)下載Scratch並將其安裝在電腦上
++ 透過網頁瀏覽器到[dojo.soy/usescratch](http://dojo.soy/usescratch)使用Scratch
 
-Once you’re set up, you can move on to the next step!
+設置完成後，就可以繼續下一步！
 
 \--- /collapse \---
 
