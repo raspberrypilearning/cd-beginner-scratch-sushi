@@ -10,7 +10,7 @@
 
 ### 舞臺
 
-![Scratch window with the stage highlighted](images/hlStage.png)
+![突顯舞台的Scratch視窗](images/hlStage.png)
 
 ## \--- collapse \---
 
@@ -77,7 +77,7 @@ Scratch中的代碼是以積木的樣子，連結起來形成程序。 您可以
 
 在角色列表中，點擊Scratch貓。 現在貓是當前角色了。
 
-Choose the **Events** category in the code blocks palette, click the `when flag clicked`{:class="block3events"} block, and drag it into the current sprite panel.
+在代碼積木面板中選擇**事件**類別，點擊`當旗幟被點擊`{:class=“block3events”}積木，並將其拖到當前角色面板中。
 
 ```blocks3
     when green flag clicked
@@ -87,19 +87,19 @@ Choose the **Events** category in the code blocks palette, click the `when flag 
 
 \--- task \---
 
-Then go to **Looks** in the code blocks palette and find this block:
+然後到代碼積木面板的**外觀**類別，找到這塊積木：
 
 ```blocks3
     say [Hello!] for (2) secs
 ```
 
-Click on it, hold down the mouse button, and then just drag it into the current sprite panel and let go of the button.
+點擊它並按住滑鼠左鍵，然後將其拖到當前角色面板中，然後放開左鍵。
 
 \--- /task \---
 
 \--- task \---
 
-Now that the second block is in the current sprite panel, connect it to the bottom of the first block by clicking and dragging it again to move it below the other block until they snap together, like this:
+現在第二塊積木在當前角色面板了，再次透過點擊並拖曳，將它移到第一塊積木的下方，直到將它們鎖定在一起，如下所示：
 
 ![](images/setup3.png)
 
@@ -107,6 +107,6 @@ Now that the second block is in the current sprite panel, connect it to the bott
 
 \--- task \---
 
-Now click the **Start Program** button and watch what happens!
+現在點擊**啟動程序**按鈕，看看會發生什麼！
 
 \--- /task \---
