@@ -10,7 +10,7 @@
 
 ## 標題：使用來自不同類別的積木
 
-Click on a category name to see the blocks in that category. Here, the **Motion** category is selected:
+點擊類別名稱以查看該類別中的積木。 這裡選擇了**動作**類別：
 
 ![](images/code2a.png)
 
