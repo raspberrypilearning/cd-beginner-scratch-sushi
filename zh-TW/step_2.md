@@ -37,21 +37,21 @@
 一個角色包括：
 
 * 在舞台上**圖像**
-* Any extra **costumes** \(looks\) it has
-* Any **sounds** associated with it
-* Any **code blocks** associated with it ![](images/setup2.png)
+* 任何其他的**造型** \(外觀\)
+* 任何跟它相關的**聲音**
+* 任何與它相關的**代碼積木** ![](images/setup2.png)
 
 \--- /collapse \---
 
-### The code blocks palette
+### 代碼積木面板
 
 ![Scratch window with the blocks pallet highlighted](images/hlBlocksPalette.png)
 
 ## \--- collapse \---
 
-## title: Code blocks
+## 標題：代碼積木
 
-Code in Scratch comes in the form of blocks that you connect to make programs. You choose blocks from the **code blocks palette**, drag them into the **current sprite panel**, and then connect them to each other.
+Scratch中的代碼是以積木的樣子，連結起來形成程序。 You choose blocks from the **code blocks palette**, drag them into the **current sprite panel**, and then connect them to each other.
 
 There are ten categories of blocks. They are colour-coded, and you can choose between them by clicking on the items in the list at the top of the **code blocks palette**.
 
