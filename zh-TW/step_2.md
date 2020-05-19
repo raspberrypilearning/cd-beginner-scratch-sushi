@@ -26,7 +26,7 @@
 
 ### The sprite list
 
-![Scratch window with the sprite list highlighted](images/hlSpriteList.png)
+![突顯角色清單的Scratch視窗](images/hlSpriteList.png)
 
 ## \--- collapse \---
 
@@ -45,7 +45,7 @@
 
 ### 代碼積木面板
 
-![Scratch window with the blocks pallet highlighted](images/hlBlocksPalette.png)
+![突顯積木面板的Scratch視窗](images/hlBlocksPalette.png)
 
 ## \--- collapse \---
 
@@ -59,7 +59,7 @@ Scratch中的代碼是以積木的樣子，連結起來形成程序。 您可以
 
 ### 當前角色面板
 
-![Scratch window with the current sprite panel highlighted](images/hlCurrentSpritePanel.png)
+![突顯當前角色面板的Scratch視窗](images/hlCurrentSpritePanel.png)
 
 ## \--- collapse \---
 
