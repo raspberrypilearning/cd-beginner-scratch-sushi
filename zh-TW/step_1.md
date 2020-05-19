@@ -29,7 +29,7 @@
 + 使用鍵盤控制
 + 使用（x, y）坐標定位角色
 + 使用造型和顯示/隱藏命令來變更舞台和角色的造型
-+ Having multiple sprites on screen
++ 畫面上有多個角色
 + 使用`重複無限次`{:class =“ block3control”}迴圈
 + 檢測角色何時接觸
 
