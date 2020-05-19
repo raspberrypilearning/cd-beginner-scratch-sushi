@@ -25,10 +25,10 @@
 ## title: 你會學到
 
 + 添加和刪除代碼積木
-+ Basic motion: move in steps, and turn by degrees
-+ Using keyboard controls
-+ Using (x, y) coordinates to position sprites
-+ Changing the look of the Stage and of sprites with costumes and show/hide commands
++ 基本操作：移動，以及旋轉
++ 使用鍵盤控制
++ 使用（x, y）坐標定位角色
++ 使用造型和顯示/隱藏命令來變更舞台和角色的造型
 + Having multiple sprites on screen
 + Using `forever`{:class="block3control"} loops
 + Detecting when sprites are touching
