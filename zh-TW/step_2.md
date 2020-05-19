@@ -8,19 +8,19 @@
 
 \--- /task \---
 
-### The Stage
+### 舞臺
 
 ![Scratch window with the stage highlighted](images/hlStage.png)
 
 ## \--- collapse \---
 
-## title: What is the Stage?
+## 標題：什麼舞台？
 
-This is where your Scratch programs run. It has:
+這是您的Scratch程序運行的地方。 它有
 
-* One or more **backgrounds** \(images on the background of the screen\)
+* 一個或多個**背景** \(螢幕背景上的圖像\)
 
-* Any **code blocks** associated with it \(we’ll get to this\)
+* 任何與之關聯的**代碼積木**\(我們將會了解這個\)
 
 \--- /collapse \---
 
@@ -30,13 +30,13 @@ This is where your Scratch programs run. It has:
 
 ## \--- collapse \---
 
-## title: What is a sprite?
+## 標題：什麼是角色？
 
-Any item you can add on the Stage is a **sprite**.
+任何您可以在舞台上添加的東西都是**角色** 。
 
-A sprite includes:
+一個角色包括：
 
-* The **image** on the Stage
+* 在舞台上**圖像**
 * Any extra **costumes** \(looks\) it has
 * Any **sounds** associated with it
 * Any **code blocks** associated with it ![](images/setup2.png)
