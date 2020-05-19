@@ -1,10 +1,10 @@
-## Getting set up
+## 開始設置
 
-Once you open Scratch, you’ll see a window like the one below.
+打開Scratch後，您會看到一個類似於下面的視窗。
 
 \--- task \---
 
-Look for each of the following areas and remember where they are.
+查看以下每個區域，並記住它們的位置。
 
 \--- /task \---
 
