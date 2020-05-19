@@ -6,9 +6,9 @@
 
 ## 介紹
 
-These Sushi Cards are going to help you learn to create computer programs in Scratch!
+這些壽司卡將幫助您學習在Scratch中創建電腦程序！
 
-### What you will make
+### 你會做出:
 
 You will make a game where you move a shark around to try and catch fish.
 
