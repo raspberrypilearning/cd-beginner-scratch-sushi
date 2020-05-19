@@ -10,21 +10,21 @@
 
 ### 你會做出:
 
-You will make a game where you move a shark around to try and catch fish.
+您將製作一個遊戲，在其中移動鯊魚，並嘗試捕魚。
 
-Here's an example of how your finished game might look:
+這是完成遊戲的外觀示例：
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/205355052/?autostart=false" frameborder="0"></iframe>
 </div>
 
-Press the green flag to start the game. Use the arrow keys to move the shark around and catch the fish.
+按綠色標誌開始遊戲。 使用方向鍵來回移動鯊魚並捕魚。
 
-## \--- collapse \---
+## - - 自動隱藏選單 - -
 
-## title: What you will learn
+## title: 你會學到
 
-+ Adding and deleting code blocks
++ 添加和刪除代碼積木
 + Basic motion: move in steps, and turn by degrees
 + Using keyboard controls
 + Using (x, y) coordinates to position sprites
