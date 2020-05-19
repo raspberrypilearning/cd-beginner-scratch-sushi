@@ -51,31 +51,31 @@
 
 ## 標題：代碼積木
 
-Scratch中的代碼是以積木的樣子，連結起來形成程序。 You choose blocks from the **code blocks palette**, drag them into the **current sprite panel**, and then connect them to each other.
+Scratch中的代碼是以積木的樣子，連結起來形成程序。 您可以從**代碼積木面板**中選擇積木 ，將它們拖曳到**當前角色面板**中 ，然後將它們彼此連接。
 
-There are ten categories of blocks. They are colour-coded, and you can choose between them by clicking on the items in the list at the top of the **code blocks palette**.
+有十種不同種類的積木。 它們採用了顏色編碼，您可以通過點擊在**代碼積木面板**頂部，列表中的項目，在它們之間進行選擇。
 
 \--- /collapse \---
 
-### The current sprite panel
+### 當前角色面板
 
 ![Scratch window with the current sprite panel highlighted](images/hlCurrentSpritePanel.png)
 
 ## \--- collapse \---
 
-## title: What is the current sprite?
+## title：當前的角色是什麼？
 
-The **current sprite** is the one that's selected in the **sprite list**.
+**當前角色**是在**角色列表**中被選中的那個。
 
-The **current sprite panel** is where you can see the code, costumes, and sounds for the selected sprite.
+在**當前角色面板**您可以查看所選角色的代碼，造型和聲音。
 
 \--- /collapse \---
 
-Time to get coding!
+是時候開始編碼了！
 
 \--- task \---
 
-In the sprite list, click on the Scratch Cat. The cat is now the current sprite.
+在角色列表中，點擊Scratch貓。 現在貓是當前角色了。
 
 Choose the **Events** category in the code blocks palette, click the `when flag clicked`{:class="block3events"} block, and drag it into the current sprite panel.
 
