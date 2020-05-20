@@ -84,17 +84,17 @@ Now click the green flag to test out your code.
 
 ![](images/moving3.png)
 
-A sprite can be located by the coordinates of its centre, for example `(15, -27)`, where `15` is its position along the x-axis , and `-27` its position along the y-axis.
+角色可以透過它的中心坐標點來定位它的位置，例如`(15，-27) ` ，其中`15`是其沿x軸方向的位置，然後`-27`是沿y軸方向的位置。
 
 + To get a feel for how this actually works, select a sprite and use the **x** and **y** controls to move it around the stage by setting different values for the coordinates.
 
 ![](images/xycoords.png)
 
-+ Try different pairs of values to see where the sprite goes! In Scratch, the x-axis goes from `-240` to `240`, and the y-axis goes from `-180` to `180`.
++ 嘗試不同的值，來查看角色的位置！ 在Scratch中，x軸從`-240`開始至`240` ，然後y軸是從`-180`開始至`180` 。
 
 \--- /collapse \---
 
-### Restarting the game
+### 重新開始遊戲
 
 The shark moves all over the screen now, but imagine this is a game: how do you restart it, and what happens at the start of each game?
 
