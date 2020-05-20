@@ -18,31 +18,31 @@
 
 ![](images/code2b.png)
 
-您可以點擊你想要的積木並將其拖曳到當前角色面板中並放開。 Once it's in the panel, you can move it around and connect it to other blocks.
+您可以點擊您想要的積木並將其拖曳到當前角色面板中並放開。 一旦積木在面板中，就可以移動它並與其他積木相連接。
 
 \--- /collapse \---
 
-If you want to see what a block does, you can double-click on it to make it run!
+如果要查看積木的功能，您可以雙擊它來運行！
 
 \--- task \---
 
-Try double-clicking on some of the blocks to see what they do.
+嘗試雙擊某些積木來查看它們的功能。
 
 \--- /task \---
 
 ## \--- collapse \---
 
-## title: Running the code
+## 標題：運行代碼
 
-Usually, you want your code to run automatically whenever something specific happens. This is why many of your programs will start with a block from the **Events** category, most often this one:
+通常，您會希望代碼在特定情況下自動運行。 這就是為什麼許多程序都是從**事件**類別裡的積木當起頭的原因，最常見的是：
 
 ```blocks3
     when green flag clicked
 ```
 
-The code blocks connected to this block will run after the **green flag** is clicked.
+連接到這塊積木後面的積木將會在按下**綠色旗標**之後運行。
 
-Code blocks run from top to bottom, so the order in which you snap your blocks together matters. In this example, the sprite will `say`{:class="block3looks"} `Hello!` before it will `play`{:class="block3sound"} the `meow` sound.
+代碼積木是從上到下運行的，因此將代碼積木組合在一起的順序很重要。 In this example, the sprite will `say`{:class="block3looks"} `Hello!` before it will `play`{:class="block3sound"} the `meow` sound.
 
 ```blocks3
     when green flag clicked
