@@ -1,4 +1,4 @@
-## Adding and removing code blocks
+## 添加和刪除代碼積木
 
 太好了！ 您已經編寫了第一個Scratch程序。 是時候學習更多有關編寫Scratch代碼的知識了！ Scratch代碼是由**積木**組成的，例如：
 
@@ -107,7 +107,7 @@
 
 ## 標題：轉彎是如何運作的？
 
-這塊積木讓角色旋轉15度，而360度為一整個圓。 You can change that number, and the number of steps, by clicking on the number and typing in a new value.
+這塊積木讓角色旋轉15度，而360度為一整個圓。 您可以通過點擊數字並輸入新的值來更改該數字和步數。
 
 ![](images/code9.png)
 
