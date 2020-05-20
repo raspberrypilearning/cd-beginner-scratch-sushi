@@ -66,11 +66,11 @@
 
 ### 把它們結合
 
-Now you know how to move code around and make things happen, it's time for you to create a program to make the Scratch Cat walk in a circle!
+現在您知道如何移動並運行代碼了，現在是時候創建一個程序來使Scratch 貓走一圈了！
 
 \--- task \---
 
-Make sure you have the cat sprite selected in the sprite list, and then drag the following blocks into the sprite panel and connect them. You’ll find them in the **Events** and **Motion** lists.
+確保在“角色”列表中選擇了貓角色，然後將下面這塊積木拖曳到“角色”面板中並進行連接。 您可以在**事件**以及**動作**列表中找到它們。
 
 ```blocks3
     when green flag clicked
@@ -81,7 +81,7 @@ Make sure you have the cat sprite selected in the sprite list, and then drag the
 
 \--- task \---
 
-Now, click on the green flag above the Stage.
+現在，單擊舞台上方的綠色旗標。
 
 ![](images/code7.png)
 
