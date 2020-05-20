@@ -60,7 +60,7 @@ Now click the green flag to test out your code.
 
 \--- task \---
 
-Grab two `change y by`{:class="block3motion"} blocks, and update your code like this:
+使用兩個`y改變` {:class=“block3motion”}積木，並像這樣更新您的代碼：
 
 ```blocks3
     when [up arrow v] key pressed
@@ -74,13 +74,13 @@ Grab two `change y by`{:class="block3motion"} blocks, and update your code like 
 
 \--- /task \---
 
-Now when you press the arrows keys, the shark moves all around the stage!
+現在，當您按下方向鍵時，鯊魚就會在舞台上四處移動！
 
 ## \--- collapse \---
 
-## title: How do x- and y-coordinates work?
+## 標題：x和y坐標是如何運作的？
 
-To talk about the positions of objects, such as sprites, we often use x- and y-coordinates. The **x-axis** of the Stage coordinate system runs from **left to right**, and the **y-axis** runs from **bottom to top**.
+為了討論像是角色之類的對象的位置，我們經常使用x和y坐標。 舞台座標系統的**x軸**位置是從**左到右**，**y軸**是從**底部到頂端** 。
 
 ![](images/moving3.png)
 
