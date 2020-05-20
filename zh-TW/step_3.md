@@ -54,17 +54,17 @@
 
 在您的程序中移除或刪除你不需要的代碼積木是很容易的！ 只需將它們拖曳回代碼積木面板就可以了。
 
-**注意：**將不需要的積木拖回代碼積木面板會將所有跟它相連的積木一起刪除，所以請確保將要保留的代碼塊與要刪除的代碼塊分開。 If you delete some code blocks by accident and want to get them back, right-click and then click on the **undo** option to get everything back.
+**注意：**將不需要的積木拖回代碼積木面板會將所有跟它相連的積木一起刪除，所以請確保將要保留的代碼塊與要刪除的代碼塊分開。 如果您不小心刪除了一些代碼積木並想復原，請點擊右鍵，然後點擊**復原**選項讓一切恢復原。
 
 ![](images/code6.png)
 
 \--- task \---
 
-Try adding, deleting, and undeleting some code blocks!
+嘗試添加，刪除和取消刪除一些代碼積木！
 
 \--- /task \---
 
-### Putting it all together
+### 把它們結合
 
 Now you know how to move code around and make things happen, it's time for you to create a program to make the Scratch Cat walk in a circle!
 
