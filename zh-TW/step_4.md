@@ -8,33 +8,33 @@ Scratch有一個背景資料庫和角色庫，可讓您的項目看起來更棒�
 
 ![Selecting the stage](images/looksSelectStage.png)
 
-Click on **Backdrops**.
+點擊**背景** 。
 
 ![The Backdrops tab](images/looksBackdrops.png)
 
-Click the **Choose backdrop from library** icon.
+點擊**選個背景**按鈕。
 
 ![The Choose backdrop icon](images/looksChooseBg.png)
 
-Then pick your favourite underwater background!
+然後選擇您最喜歡的水中背景！
 
 ![An underwater scene](images/looksUnderwater.png)
 
 \--- /task \---
 
-Great! Of course, now you have a cat underwater, and cats aren't usually big fans of that. But you can fix that, because you can turn the cat into a shark!
+太好了！ 當然，現在您在水下有一隻貓，而貓通常不那麼喜歡它。 但是您可以解決此問題，因為您可以將貓變成鯊魚！
 
 \--- task \---
 
-First, select the cat sprite and click on the **Costumes** tab.
+首先，選擇貓角色，然後點擊**造型**標籤。
 
 ![](images/cool2.png)
 
-Then, click on **Choose costume from Library**
+然後單擊**選個角色**
 
 ![](images/cool3.png)
 
-Select this shark image and click **OK**.
+選擇此鯊魚圖像，然後單擊**確定** 。
 
 ![The shark costume](images/looksShark.png)
 
