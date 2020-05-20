@@ -24,7 +24,7 @@
 
 \--- /collapse \---
 
-### The sprite list
+### 角色列表
 
 ![突顯角色清單的Scratch視窗](images/hlSpriteList.png)
 
