@@ -52,7 +52,7 @@
 
 \--- task \---
 
-Now click the green flag to test out your code.
+現在，點擊綠色旗標來測試您的代碼。
 
 \--- /task \---
 
@@ -86,7 +86,7 @@ Now click the green flag to test out your code.
 
 角色可以透過它的中心坐標點來定位它的位置，例如`(15，-27) ` ，其中`15`是其沿x軸方向的位置，然後`-27`是沿y軸方向的位置。
 
-+ To get a feel for how this actually works, select a sprite and use the **x** and **y** controls to move it around the stage by setting different values for the coordinates.
++ 為了要了解其實際的工作原理，請選擇一個角色並改變**x**和**y**的值，來使角色在舞台上移動。
 
 ![](images/xycoords.png)
 
@@ -106,25 +106,25 @@ Now click the green flag to test out your code.
 
 \--- task \---
 
-Drag a `when green flag clicked`{:class="block3events"} **Event** block onto the current sprite panel.
+拖曳一個`當綠色旗標被點擊` {:class=“block3events”}**事件**積木到當前角色面板。
 
 ```blocks3
     when green flag clicked
 ```
 
-Then find the `go to`{:class="block3motion"} **Motion** block, and attach it to your flag **Event** block.
+然後找到`定位到`{:class=“block3motion”}**動作**積木，將它連結到旗標**事件**積木。
 
 ```blocks3
     when green flag clicked
 +     go to x: (0) y: (0)
 ```
 
-Set the both the `x` and the `y` coordinate to `0` in the `go to`{:class="block3motion"} block if they are not already `0`.
+`定位到`{:class=“block3motion”}積木裡的`x`和`y`座標如果不是`0`的話，將它們都設定為`0`。
 
 \--- /task \---
 
 \--- task \---
 
-Now click the green flag: you should see the shark return to the centre of the stage!
+現在點擊綠色旗標：您應該會看到鯊魚回到舞台的正中央！
 
 \--- /task \---
