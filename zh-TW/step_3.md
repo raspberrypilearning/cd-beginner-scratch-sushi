@@ -42,7 +42,7 @@
 
 連接到這塊積木後面的積木將會在按下**綠色旗標**之後運行。
 
-代碼積木是從上到下運行的，因此將代碼積木組合在一起的順序很重要。 In this example, the sprite will `say`{:class="block3looks"} `Hello!` before it will `play`{:class="block3sound"} the `meow` sound.
+代碼積木是從上到下運行的，因此將代碼積木組合在一起的順序很重要。 在這個範例中，角色會在`播放`{:class=“block3sound”}`meow`音效之前`說出`{:class=“block3looks”}`Hello!`。
 
 ```blocks3
     when green flag clicked
@@ -52,9 +52,9 @@
 
 \--- /collapse \---
 
-Removing or deleting code blocks you don’t want in your program is easy! Just drag them back into the code blocks palette.
+在您的程序中移除或刪除你不需要的代碼積木是很容易的！ 只需將它們拖曳回代碼積木面板就可以了。
 
-**Be careful:** dragging them into the code blocks pallette will delete all the blocks connected to the block you drag, so make sure to separate code blocks you want to keep from those you want to remove. If you delete some code blocks by accident and want to get them back, right-click and then click on the **undo** option to get everything back.
+**注意：**將不需要的積木拖回代碼積木面板會將所有跟它相連的積木一起刪除，所以請確保將要保留的代碼塊與要刪除的代碼塊分開。 If you delete some code blocks by accident and want to get them back, right-click and then click on the **undo** option to get everything back.
 
 ![](images/code6.png)
 
