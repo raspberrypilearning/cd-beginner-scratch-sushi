@@ -1,10 +1,10 @@
-## Setting the scene
+## 設定場景
 
-Scratch has a library of backgrounds and sprites for you to use to make your project look awesome.
+Scratch有一個背景資料庫和角色庫，可讓您的項目看起來更棒。
 
 \--- task \---
 
-Select the Stage.
+選擇舞台。
 
 ![Selecting the stage](images/looksSelectStage.png)
 
