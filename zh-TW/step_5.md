@@ -56,7 +56,7 @@ Now click the green flag to test out your code.
 
 \--- /task \---
 
-現在，您的鯊魚能前後移動了，這很酷吧，但它還不會上下移動。 另外，如果您瀏覽**動作**積木，您會看到沒有用於“上”或“下”的積木。 There are a whole bunch of them related to **x** and **y** coordinates though — let's try those!
+現在，您的鯊魚能前後移動了，這很酷吧，但它還不會上下移動。 另外，如果您瀏覽**動作**積木，您會看到沒有用於“上”或“下”的積木。 而是有一大堆關於**x**和**y**座標的積木-讓我們來試試看！
 
 \--- task \---
 
