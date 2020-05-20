@@ -96,13 +96,13 @@ Now click the green flag to test out your code.
 
 ### 重新開始遊戲
 
-The shark moves all over the screen now, but imagine this is a game: how do you restart it, and what happens at the start of each game?
+鯊魚現在能在螢幕上四處移動，但是想像這是一個遊戲：如何重新啟動它，以及在每個遊戲開始時會發生什麼事？
 
-You need to get the shark to its original location when the player starts the game. They'll start this game by clicking on the green flag, so you need to change the shark sprite's x- and y-coordinates when that happens.
+當遊戲開始時，您需要將鯊魚放回其初始位置。 玩家們將透過點擊綠色旗標來開始遊戲，因此您需要在這種時候更改鯊魚的x和y坐標。
 
-That’s actually pretty easy! The centre of the stage is `(0, 0)` in `(x, y)` coordinates.
+這實際上很容易！ 舞台的中心在`(x，y)`坐標中表示為`(0，0)`。
 
-So all you need is an **Event** block for that green flag, and the **go to** block from **Motion**.
+所以您需要的是一個針對綠色旗標的**事件**積木以及一個**定位到**的**動作**積木。
 
 \--- task \---
 
