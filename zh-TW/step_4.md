@@ -6,19 +6,19 @@ Scratch有一個背景資料庫和角色庫，可讓您的項目看起來更棒�
 
 選擇舞台。
 
-![Selecting the stage](images/looksSelectStage.png)
+![選擇舞台。](images/looksSelectStage.png)
 
 點擊**背景** 。
 
-![The Backdrops tab](images/looksBackdrops.png)
+![背景標籤](images/looksBackdrops.png)
 
 點擊**選個背景**按鈕。
 
-![The Choose backdrop icon](images/looksChooseBg.png)
+![選擇背景圖標](images/looksChooseBg.png)
 
 然後選擇您最喜歡的水中背景！
 
-![An underwater scene](images/looksUnderwater.png)
+![水下場景](images/looksUnderwater.png)
 
 \--- /task \---
 
@@ -36,12 +36,12 @@ Scratch有一個背景資料庫和角色庫，可讓您的項目看起來更棒�
 
 選擇此鯊魚圖像，然後單擊**確定** 。
 
-![The shark costume](images/looksShark.png)
+![鯊魚造型](images/looksShark.png)
 
-Now remove the cat costumes by selecting each of them and clicking on the **x**.
+現在，透過選擇每個貓的造型並點擊**x**來刪除它們。
 
 ![](images/coolDeleteCostumes.png)
 
 \--- /task \---
 
-Now you have a shark – excellent!
+現在，您有一條鯊魚–很棒！
