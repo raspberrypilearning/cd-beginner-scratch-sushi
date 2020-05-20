@@ -1,32 +1,32 @@
-## Moving things around
+## 四處移動
 
-Right now your shark moves in a circle, and it would be much more fun to control it with the arrow keys. On this card, you’re going learn how to do that!
+現在，您的鯊魚會繞圈移動，如果能用方向鍵控制它一定會更加有趣。 在這一頁，您將學習怎麼動手做！
 
 \--- task \---
 
-Start by deleting all code that you have for the shark.
+首先刪除所有有關鯊魚的代碼。
 
 \--- /task \---
 
-As you’ve probably guessed, you’re going to need **Event** and **Motion** blocks again!
+您可能已經猜到了，您將再次用到**事件**和**動作**積木！
 
 \--- task \---
 
-This time, look for this block and drag it into the current sprite panel:
+這次，找到這塊積木並將其拖曳到當前角色面板中：
 
 ```blocks3
     when [space v] key pressed
 ```
 
-Click the little arrow (▼) beside `space`. You will see a list of all your keyboard keys that you can pick from.
+點擊`空白`旁邊的小箭頭(▼)。 您將會看到所有可以選擇的鍵盤按鍵。
 
 \--- /task \---
 
-You’re going to need four of the `when key pressed`{:class="block3events"} blocks — one for each of your arrow keys.
+您會需要四個`當鍵被按下` {:class=“block3events”}積木-分別對應四個方向鍵。
 
 \--- task \---
 
-To make your shark move, connect these blocks to **Motion** blocks like this:
+為了要移動鯊魚，請將這些積木連接到**動作**積木，像是這樣：
 
 ```blocks3
     when [left arrow v] key pressed
@@ -48,7 +48,7 @@ To make your shark move, connect these blocks to **Motion** blocks like this:
 
 \--- /task \---
 
-**Note**: `-10` means 'go back 10 steps'.
+**注意** ：`-10`表示“返回10步”。
 
 \--- task \---
 
@@ -56,7 +56,7 @@ Now click the green flag to test out your code.
 
 \--- /task \---
 
-Now your shark moves back and forwards, which is pretty cool, but it doesn’t move up or down. Also, if you look through the **Motion** blocks, you’ll see there are no blocks for 'up' or 'down'. There are a whole bunch of them related to **x** and **y** coordinates though — let's try those!
+現在，您的鯊魚能前後移動了，這很酷吧，但它還不會上下移動。 另外，如果您瀏覽**動作**積木，您會看到沒有用於“上”或“下”的積木。 There are a whole bunch of them related to **x** and **y** coordinates though — let's try those!
 
 \--- task \---
 
