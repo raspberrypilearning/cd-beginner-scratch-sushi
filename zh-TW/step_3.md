@@ -14,11 +14,11 @@
 
 ![](images/code2a.png)
 
-All of the blocks in the category you've clicked are shown in a list:
+在您點擊類別後將顯示該類別中所有的積木：
 
 ![](images/code2b.png)
 
-You can click on the blcok you want, and then just drag it into the current sprite panel and let go. Once it's in the panel, you can move it around and connect it to other blocks.
+您可以點擊你想要的積木並將其拖曳到當前角色面板中並放開。 Once it's in the panel, you can move it around and connect it to other blocks.
 
 \--- /collapse \---
 
