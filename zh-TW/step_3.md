@@ -66,7 +66,7 @@
 
 ### 把它們結合
 
-現在您知道如何移動並運行代碼了，現在是時候創建一個程序來使Scratch 貓走一圈了！
+現在您知道如何移動並運行代碼了，現在是時候創建一個程序來使Scratch 貓繞圈行走了！
 
 \--- task \---
 
@@ -87,13 +87,13 @@
 
 \--- /task \---
 
-You should see the cat walking in a straight line...not exactly what you want, right?
+您應該看到貓直線行走……不完全是您想要的，對吧？
 
-Note: If you click the flag too many times and the cat walks away, you can drag it back!
+注意：如果您點擊該旗標太多次，並且貓走偏了，則可以將其拖曳回去！
 
 \--- task \---
 
-Snap the turn block to the end to make the cat sprite walk in a circle. It’s in the **Motion** list too.
+將轉彎積木連接到底部，以使貓角色可以繞圈行走。 它也是在**動作**列表中。
 
 ```blocks3
     when green flag clicked
@@ -105,9 +105,9 @@ Snap the turn block to the end to make the cat sprite walk in a circle. It’s i
 
 ## \--- collapse \---
 
-## title: How does turning work?
+## 標題：轉彎是如何運作的？
 
-This block makes the sprite turn 15 degrees of the full 360 degrees that make up a circle. You can change that number, and the number of steps, by clicking on the number and typing in a new value.
+這塊積木讓角色旋轉15度，而360度為一整個圓。 You can change that number, and the number of steps, by clicking on the number and typing in a new value.
 
 ![](images/code9.png)
 
@@ -115,6 +115,6 @@ This block makes the sprite turn 15 degrees of the full 360 degrees that make up
 
 \--- task \---
 
-Now save your work!
+現在保存您的工作！
 
 \--- /task \---
