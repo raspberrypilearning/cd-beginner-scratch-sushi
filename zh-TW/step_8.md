@@ -1,8 +1,8 @@
-## Fishing!
+## 釣魚！
 
-The shark moves, the fish swims, but they don’t interact: if the fish swims right into the shark's mouth, nothing happens. Time to change that!
+鯊魚移動了，魚游泳了，但是卻沒有相互作用：如果魚游到鯊魚的嘴裡，什麼也不會發生。 是時候改變了！
 
-First, you need to know if the fish is touching the shark. For this, you'll need a **Control** block and a **Sensing** block.
+首先，您需要知道魚是否碰到鯊魚。 For this, you'll need a **Control** block and a **Sensing** block.
 
 \--- task \---
 
