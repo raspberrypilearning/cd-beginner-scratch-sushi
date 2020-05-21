@@ -69,7 +69,7 @@ The fish moves now, but you need it to bounce off the edge of the Stage too. Yet
 
 \--- task \---
 
-Find the `if on edge bounce`{:class="block3motion"} block, and add it in after the `wait`{:class="block3control"} block.
+請找到`碰到邊緣就反彈`{:class=“block3motion”}積木，並把它加在`等待`{:class=“block3control”}積木後面。
 
 \--- /task \---
 
