@@ -120,7 +120,7 @@ Add a turn into the fish's swimming instructions, and click the green flag.
 
 \--- /task \---
 
-It’s better, but there’s still too much of a pattern. It needs to be more random. Luckily, Scratch can do random for you! You’ll just need a new kind of block, called an **operator** block.
+It’s better, but there’s still too much of a pattern. It needs to be more random. 幸運的是，Scratch可以為您做到隨機的功能！ You’ll just need a new kind of block, called an **operator** block.
 
 ## \--- collapse \---
 
