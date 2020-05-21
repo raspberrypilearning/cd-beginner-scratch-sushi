@@ -16,7 +16,7 @@ Change the number in the size control to make the spirte bigger or smaller.
 
 \--- /task \---
 
-Great! Later, you're going to add some code to make the fish move around on its own, without help from the player. Your player will move the shark and try to catch the fish.
+太好了！ 接著，您將添加一些代碼，以使魚在沒有玩家幫助的情況下自行移動。 Your player will move the shark and try to catch the fish.
 
 ## \--- collapse \---
 
