@@ -30,7 +30,7 @@ Drag the `touching...`{:class="block3sensing"} block into the space at the top o
 
 The `if...then`{:class="block3control"} **Control** block needs to be given a `True/False` value.
 
-**Sensing** blocks collect information, like where the sprite is, what it’s touching, etc. You're using this block:
+**Sensing** blocks collect information, like where the sprite is, what it’s touching, etc. 您正在使用以下代碼積木：
 
 ```blocks3
     <touching [Sprite1 v] ?>
