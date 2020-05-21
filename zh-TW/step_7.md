@@ -57,7 +57,7 @@ Add the `wait`{:class="block3control"} block into your code inside the `forever`
 
 ## \--- collapse \---
 
-## title: Making adjustments
+## 標題：進行調整
 
 The number you set in the `wait`{:class="block3control"} block says how many **seconds** you want the fish to wait. `0.5` is half a second.
 
