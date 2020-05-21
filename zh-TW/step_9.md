@@ -1,4 +1,4 @@
-## Keeping score
+## 紀錄得分
 
 To keep score of how many fish the player catches, you’ll need somewhere to store the score, a way of adding to it, and a way of resetting it when the game is restarted.
 
