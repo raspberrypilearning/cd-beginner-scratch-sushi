@@ -1,6 +1,6 @@
-## Remote-control fish
+## 遙控魚
 
-Ok, now it's time to make the fish swim on its own. To do this, you’re going to need a new kind of block: a **Control** block.
+好的，現在是時候讓魚自行游泳了。 To do this, you’re going to need a new kind of block: a **Control** block.
 
 \--- task \---
 
