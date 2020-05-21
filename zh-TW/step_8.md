@@ -2,13 +2,13 @@
 
 鯊魚移動了，魚游泳了，但是卻沒有相互作用：如果魚游到鯊魚的嘴裡，什麼也不會發生。 是時候改變了！
 
-首先，您需要知道魚是否碰到鯊魚。 For this, you'll need a **Control** block and a **Sensing** block.
+首先，您需要知道魚是否碰到鯊魚。 為此，您需要一個**控制**積木和**偵測**積木。
 
 \--- task \---
 
-Add the `if...then`{:class="block3control"} **Control** block inside the `forever`{:class="block3control"} loop of the fish sprite, below the `if on edge bounce`{:class="block3motion"} block.
+在魚的`重複無限次`{:class=“block3control”}迴圈內，`碰到邊緣就反彈`{:class=“block3motion”}積木的下面添加`如果...那麼`{:class=“block3control”}**控制**積木。
 
-Drag the `touching...`{:class="block3sensing"} block into the space at the top of the `if...then`{:class="block3control"} block, and click the little triangle to select the shark sprite's name. If you haven’t changed it, it'll be 'Sprite1'.
+拖曳`碰到... `{:class=“block3sensing”}積木到`如果...那麼`{:class=“block3control”}積木上面的空格處，然後點擊小三角形並選擇鯊魚的名稱。 如果您還沒改過名稱，則為“ 角色1”。
 
 ```blocks3
     when green flag clicked
@@ -26,27 +26,27 @@ Drag the `touching...`{:class="block3sensing"} block into the space at the top o
 
 ## \--- collapse \---
 
-## title: How does it work?
+## 標題：它是怎麼運作的？
 
-The `if...then`{:class="block3control"} **Control** block needs to be given a `True/False` value.
+`如果...那麼`{:class=“block3control”}**控制**積木需要給它`對/錯`的值。
 
-**Sensing** blocks collect information, like where the sprite is, what it’s touching, etc. 您正在使用以下代碼積木：
+**偵測**積木會收集資訊，例如角色的位置、它碰到什麼之類的。 您正在使用以下代碼積木：
 
 ```blocks3
     <touching [Sprite1 v] ?>
 ```
 
-From this block's pointy ends, you can tell it’s going to give you the `True/False` value that the `if...then`{:class="block3control"} block needs.
+由於這塊積木是有角的，您可以知道它會給您`對/錯`的值，`如果...那麼`{:class=“block3control"}積木也需要這樣的值。
 
 \--- /collapse \---
 
-Of course, you’ve just added an `if...then`{:class="block3control"} block without adding anything for the 'then' part. So at the moment your script is checking whether the fish sprite is touching the shark sprite, but it's not making anything happen in response.
+當然，您剛剛添加了`如果...那麼`{:class=“block3control”}積木，但是還沒在'那麼'部分添加任何東西。 所以現在您的腳本只會檢查魚是否碰到鯊魚，但還沒有為此做出任何反應。
 
-You can make the fish disappear, as if the shark ate it, by using the `hide`{:class="block3looks"} block.
+您可以在鯊魚吃了它之後，使用`隱藏`{:class=“block3looks”}積木讓魚變不見。
 
 \--- task \---
 
-Find the `hide`{:class="block3looks"} block in the **Looks** list, and put it inside the `if...then`{:class="block3control"} block, like so:
+在**外觀**清單中找到`隱藏`{:class=“block3looks”}積木，然後將它放在`如果...那麼`{:class=“block3control”}積木內，如下所示：
 
 ```blocks3
     if <touching [Sprite1 v] ?> then
@@ -56,11 +56,11 @@ Find the `hide`{:class="block3looks"} block in the **Looks** list, and put it in
 
 \--- /task \---
 
-Now once the shark catches the fish, the fish disappears for good. 這樣不是很好。
+現在一旦鯊魚抓捕到魚，魚就會永遠消失了。 That’s not great.
 
 \--- task \---
 
-Put the `show`{:class="block3looks"} block from **Looks** in at the very start of the fish code, so you can reset the game.
+把**外觀**裡的`顯示`{:class=“block3looks”}積木放到代碼的最前面，這樣您才可以重置遊戲。
 
 ```blocks3
     when green flag clicked
@@ -71,11 +71,11 @@ Put the `show`{:class="block3looks"} block from **Looks** in at the very start o
 
 \--- /task \---
 
-That's already better, but you don’t want the player to have to restart the game every time they catch a single fish!
+現在已經很好了，但是您應該不希望玩家在每次釣到魚的時候都會重新遊戲吧！
 
 \--- task \---
 
-Update the code inside your `if...then`{:class="block3control"} block to look like this:
+調整一下`如果...那麼`{:class=“block3control”}積木裡面的代碼，看起來像這樣：
 
 ```blocks3
     if on edge, bounce
@@ -91,12 +91,12 @@ Update the code inside your `if...then`{:class="block3control"} block to look li
 
 ## \--- collapse \---
 
-## title: How does this work?
+## 標題：它是如何運作的？
 
-You are being clever here: when the fish is hidden, it waits, moves, and then shows up again.
+現在變得更靈活了：當魚被隱藏的時候，它會等待、移動然後再次出現。
 
-It looks like lots of fish keep appearing, but it’s that one sprite moving around!
+這樣看起來好像有很多魚在不斷地出現，但是那是同一隻魚在四處移動！
 
 \--- /collapse \---
 
-That’s a game! But there’s no way to keep score yet, or to win. You can fix that too — on the next card!
+這是一場遊戲！ 但是還沒有紀錄分數或獲勝的方式。 您也可以解決此問題-在下一頁！
