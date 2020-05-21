@@ -50,7 +50,7 @@ Grab a couple of copies of the `point in direction`{:class="block3motion"} block
 
 Change the number of steps in the `move`{:class="block3motion"} blocks from `-10` to `10`.
 
-If you try moving the shark around now after you've added the `point in direction`{:class="block3motion"} blocks, you might notice something a little strange happening. The shark may not be turning quite right!
+If you try moving the shark around now after you've added the `point in direction`{:class="block3motion"} blocks, you might notice something a little strange happening. 鯊魚可能會轉向不正確的方向！
 
 ![Upside down shark](images/spritesUpsideDown.png)
 
@@ -58,7 +58,7 @@ If you try moving the shark around now after you've added the `point in directio
 
 ## \--- collapse \---
 
-## title: Why does it go upside down?
+## 標題：為什麼顛倒了？
 
 The problem here is that the shark sprite started, as all sprites do, with the 'all around' **rotation style**, and what you need it to have is the 'left-right' style.
 
