@@ -35,7 +35,7 @@ Now click the green flag and watch what happens!
 
 Well, that fish just crashed into the side of the Stage, and it was moving far too fast for your shark to catch.
 
-First, you need to slow the fish down. That’s actually pretty easy, you just need it to wait for a little while after it moves those 10 steps. There’s a **Control** block that will help you here:
+首先，您需要放慢速度。 That’s actually pretty easy, you just need it to wait for a little while after it moves those 10 steps. There’s a **Control** block that will help you here:
 
 ```blocks3
     wait (1) secs
