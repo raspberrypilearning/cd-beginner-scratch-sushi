@@ -1,12 +1,12 @@
 ## 遙控魚
 
-好的，現在是時候讓魚自行游泳了。 To do this, you’re going to need a new kind of block: a **Control** block.
+好的，現在是時候讓魚自行游泳了。 為此，您將需要一種新的積木：**控制**積木。
 
 \--- task \---
 
-Select your fish sprite.
+選擇您要的魚。
 
-Drag a `when green flag clicked`{:class="block3events"} **Event** block, a `forever`{:class="block3control"} **Control** block, and a `move 10 steps`{:class="block3motion"} **Motion** block into the **sprite panel**, like this:
+拖曳一個`當綠色旗標被點擊`{:class=“block3events”} **事件**積木、一個`重複無限次` {:class=“block3control”}**控制**積木，還有一個`移動10點`{:class=“block3motion”}**動作**積木到**角色面板**中，像這樣：
 
 ```blocks3
     when green flag clicked
@@ -19,23 +19,23 @@ Drag a `when green flag clicked`{:class="block3events"} **Event** block, a `fore
 
 ## \--- collapse \---
 
-## title: What does the new block do?
+## title：新的積木有什麼功能？
 
-**Control** blocks make your program do things a certain number of times, or under certain conditions.
+**控制**積木使您的程序能執行特定次數或在特定條件下運行。
 
-Here, the fish does whatever is inside the `forever`{:class="block3control"} block over and over again on a loop, forever. So once it has done the last thing (block) inside the `forever`{:class="block3control"} block, it starts over at the top and does everything again, and so on.
+在這裡，魚在`重複無限次`{:class=“block3control”}積木內一次又一次地一直重複做一樣的事情。 所以在`重複無限次` {:class=“block3control”}積木內，一旦完成最後一件事(積木)，它就會從頂部再重新執行一次，依此類推。
 
 \--- /collapse \---
 
 \--- task \---
 
-Now click the green flag and watch what happens!
+現在點擊綠色的旗子，看看會發生什麼事。
 
 \--- /task \---
 
-Well, that fish just crashed into the side of the Stage, and it was moving far too fast for your shark to catch.
+好吧，那條魚剛剛直接衝向舞台的邊邊了，並且移動得太快了，鯊魚很難捉到。
 
-首先，您需要放慢速度。 That’s actually pretty easy, you just need it to wait for a little while after it moves those 10 steps. There’s a **Control** block that will help you here:
+首先，您需要放慢速度。 這實際上很容易，只要在移動這10步後，等待一會兒即可。 這裡有一個能幫助到您的**控制**積木：
 
 ```blocks3
     wait (1) secs
@@ -43,7 +43,7 @@ Well, that fish just crashed into the side of the Stage, and it was moving far t
 
 \--- task \---
 
-Add the `wait`{:class="block3control"} block into your code inside the `forever`{:class="block3control"} block, and change the number to `0.5`, like this:
+添加`等待` {:class=“block3control”}積木到`重複無限次`{:class=“block3control”}積木中，並將數字更改為`0.5`，像這樣：
 
 ```blocks3
     when green flag clicked
@@ -59,13 +59,13 @@ Add the `wait`{:class="block3control"} block into your code inside the `forever`
 
 ## 標題：進行調整
 
-The number you set in the `wait`{:class="block3control"} block says how many **seconds** you want the fish to wait. `0.5` is half a second.
+您在`等待` {:class=“block3control”}積木中設置的數字，表示你想讓魚等待多少**秒**。 `0.5`表示一秒的一半。
 
-You can test out different values to see which is the best for the game. And remember that you can change the number of steps inside the `move`{:class="block3motion"} block too!
+您可以測試不同的值，看看哪個最適合遊戲。 請記住，您也可以更改`移動`{:class=“block3motion”}積木中的步數！
 
 \--- /collapse \---
 
-The fish moves now, but you need it to bounce off the edge of the Stage too. Yet again, there’s a **Motion** block for this!
+魚現在可以移動了，但是您也需要讓它有碰到舞台邊緣就反彈的功能。 再一次，**動作**類別中有針對這個的積木！
 
 \--- task \---
 
@@ -75,17 +75,17 @@ The fish moves now, but you need it to bounce off the edge of the Stage too. Yet
 
 ## \--- collapse \---
 
-## title: What does the new block do?
+## title：新的積木有什麼功能？
 
-The `if on edge bounce`{:class="block3motion"} block checks if the sprite is touching the edge of the Stage and, if it is, it turns left, right, up, or down as appropriate.
+`碰到邊緣就反彈`{:class=“block3motion”}積木會檢查角色是否接觸到舞台的邊緣，如果是，則會適當地向左，向右，向上或向下旋轉。
 
 \--- /collapse \---
 
-Of course, this will lead to an upside-down fish, so you need a `set rotation style`{:class="block3motion"} block again.
+當然，這可能導致出現顛倒的魚，因此您需要再次使用`迴轉方式設為` {:class=“block3motion”}積木。
 
 \--- task \---
 
-Update your code to set the rotation style of the fish to `left-right`{:class="block3motion"} at the beginning of the sprite's script:
+更新您的代碼，在角色腳本的開頭將魚的迴轉方式設置為`左-右` {:class=“block3motion”}：
 
 ```blocks3
     when green flag clicked
@@ -99,9 +99,9 @@ Update your code to set the rotation style of the fish to `left-right`{:class="b
 
 \--- /task \---
 
-The fish moves backwards and forwards now, but only in a straight line — a bit too easy for the player to catch with the shark! You need to make the fish less predictable.
+魚現在可以前後移動了，但只能直線移動-對於玩家來說太容易了！ 所以您需要讓魚更難預測它的路徑。
 
-You already know from a previous step how to make a sprite turn, so start there.
+您已經從上一步知道如何讓角色轉彎，所以從這裡開始。
 
 \--- task \---
 
@@ -169,13 +169,13 @@ Click the green flag to run the code!
 
 The forever block now makes the fish sprite do four things in order:
 
-1. Move forward
-2. Turn a little bit
+1. 前進
+2. 旋轉一點
 3. Wait briefly
-4. Check whether it's at the edge of the Stage
+4. 檢查它是否在舞台的邊緣
 
 Once the sprite has done the check, it will start at the beginning of the loop again and move, turn, wait, check, for as long as you let your Scratch program run.
 
 \--- /collapse \---
 
-Cool! Next up: catching that fish!
+很酷！ 下一步：釣到那條魚！
