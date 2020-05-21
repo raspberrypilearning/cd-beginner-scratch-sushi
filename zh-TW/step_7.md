@@ -105,7 +105,7 @@
 
 \--- task \---
 
-Add a turn into the fish's swimming instructions, and click the green flag.
+在魚的游泳代碼中添加一個轉彎，然後點擊綠色旗標。
 
 ```blocks3
     when green flag clicked
@@ -120,13 +120,13 @@ Add a turn into the fish's swimming instructions, and click the green flag.
 
 \--- /task \---
 
-It’s better, but there’s still too much of a pattern. It needs to be more random. 幸運的是，Scratch可以為您做到隨機的功能！ You’ll just need a new kind of block, called an **operator** block.
+這樣比較好了，但還是有太固定的模式了。 它需要變得更隨機一點。 幸運的是，Scratch可以為您做到隨機的功能！ 您只需要一種新的積木，稱為**運算**積木。
 
 ## \--- collapse \---
 
-## title: What's an operator?
+## 標題：什麼是運算符號？
 
-**Operators** take in one or more values (like numbers, text, or `True/False` values) and give back a single value. You can tell the kind of value it will give back by the shape of the block: round ends give numbers or text, pointy ends give `True/False`.
+**運算符號**接受一個或多個值（例如數字，文本或`對/錯`值）並返回一個值。 您可以透過積木的形狀判斷返回的值的類型：圓形的是數字或文本，有角的是`真/假` 。
 
 ```blocks3
     (() + ())
@@ -140,7 +140,7 @@ It’s better, but there’s still too much of a pattern. It needs to be more ra
 
 \--- task \---
 
-Find the `pick random`{:class="block3operators"} **operator** block, and plug it into the `turn degrees`{:class="block3motion"} **Motion** block by clicking it and dragging it into the field where you set the number of degrees.
+找到`隨機取數`{:class=“block3operators”}**運算符號**積木，然後點擊並拖曳到`旋轉` {:class=“block3motion”}**動作**積木中設定度數的地方。
 
 ```blocks3
     when green flag clicked
@@ -155,26 +155,26 @@ Find the `pick random`{:class="block3operators"} **operator** block, and plug it
 
 \--- /task \---
 
-**Note**: you can change the minimum and maximum numbers it will pick, but the default values (`1` and `10`) are pretty good for this game, so you can just leave them.
+**注意**：您可以更改它能選擇的最小值和最大值，但默認值（`1`和`10`）對於這個遊戲來說非常適合，因此您可以不用動它。
 
 \--- task \---
 
-Click the green flag to run the code!
+點擊綠色旗標來運行代碼！
 
 \--- /task \---
 
 ## \--- collapse \---
 
-## title: So what does the forever block do now?
+## 標題：那麼重複無限次的積木現在會做什麼？
 
-The forever block now makes the fish sprite do four things in order:
+現在重複無限次積木使魚按照順序執行四項操作：
 
 1. 前進
 2. 旋轉一點
-3. Wait briefly
+3. 稍微等待一下
 4. 檢查它是否在舞台的邊緣
 
-Once the sprite has done the check, it will start at the beginning of the loop again and move, turn, wait, check, for as long as you let your Scratch program run.
+一旦角色完成檢查，只要您的Scratch程序持續運行，它就會在迴圈的開頭再次開始並移動、轉動、等待、檢查持續下去。
 
 \--- /collapse \---
 
