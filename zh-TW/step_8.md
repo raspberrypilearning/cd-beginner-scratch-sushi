@@ -56,7 +56,7 @@ Find the `hide`{:class="block3looks"} block in the **Looks** list, and put it in
 
 \--- /task \---
 
-Now once the shark catches the fish, the fish disappears for good. That’s not great.
+Now once the shark catches the fish, the fish disappears for good. 這樣不是很好。
 
 \--- task \---
 
