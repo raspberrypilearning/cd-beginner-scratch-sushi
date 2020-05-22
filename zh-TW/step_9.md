@@ -2,7 +2,7 @@
 
 To keep score of how many fish the player catches, you’ll need somewhere to store the score, a way of adding to it, and a way of resetting it when the game is restarted.
 
-First: storing the score!
+第一：儲存分數！
 
 \--- task \---
 
