@@ -1,12 +1,12 @@
 ## 紀錄得分
 
-To keep score of how many fish the player catches, you’ll need somewhere to store the score, a way of adding to it, and a way of resetting it when the game is restarted.
+為了要紀錄玩家捕獲到魚的分數，您需要有存儲分數的地方，增加分數的方式以及重新啟動遊戲時重置分數的方式。
 
 第一：儲存分數！
 
 \--- task \---
 
-Go to the **Variables** blocks category and click on **Make a Variable**.
+到**變數**積木類別裡點擊**建立一個變數**按鈕。
 
 ![](images/catch5.png)
 
@@ -14,40 +14,40 @@ Go to the **Variables** blocks category and click on **Make a Variable**.
 
 ![](images/catch6.png)
 
-Check out your new variable!
+查看您的新變數！
 
-![The Score variable is displayed on the stage](images/scoreVariableStage.png)
+![分數變數顯示在舞台上](images/scoreVariableStage.png)
 
 \--- /task \---
 
 ## \--- collapse \---
 
-## title: What are variables?
+## 標題：什麼是變數？
 
-When you want to store information in a program, you use something called a **variable**. Think of it like a box with a label on it: you can put something in it, check what’s in it, and change what’s in it. You’ll find variables in the **Variables** section, but you need to create them first for them to show up there!
+當您在程序中想要儲存資訊時，所要使用的東西稱為**變數** 。 可以將其想像成帶有標籤的盒子：您可以在箱子裡放一些東西，檢查裡面有什麼，然後更改裡面的東西。 您可以在**變數**類別中找到”變數“，但您需要先創建它們，然後它們才能顯示在這裡！
 
 \--- /collapse \---
 
-Now you need to update the variable whenever the shark eats a fish, and to reset it when the game is restarted. 兩者都非常容易：
+現在你需要在鯊魚吃了一條魚後，更新該變數的值，並在遊戲重新啟動時將它歸零。 兩者都非常容易：
 
 \--- task \---
 
-From the **Variables** section, take the `set [my variable v] to [0]`{:class="block3variables"} and `change [my variable v] by [1]`{:class="block3variables"} blocks. Click on the little arrows in the blocks, choose `score` from the list, and then put the blocks into your program:
+從**變數**類別中取出`變數[分數]設為[0]` {:class=“block3variables”}和`變數[分數]改變[1]` {:class=“block3variables”}兩塊積木。 接著點擊積木上的小箭頭，從列表中選擇`分數`，然後將積木放入程序中：
 
-### Code for the shark
+### 鯊魚的代碼
 
 ```blocks3
     when green flag clicked
-+    set [score v] to [0]
++    set [分數 v] to [0]
     set rotation style [left-right v]
     go to x: (0) y: (0)
 ```
 
-### Code for the fish
+### 魚的代碼
 
 ```blocks3
     if <touching [Sprite1 v] ?> then
-+        change [score v] by [1]
++        change [分數 v] by [1]
         hide
         wait (1) secs
         go to x: (pick random (-240) to (240)) y: (pick random (-180) to (180))
@@ -57,4 +57,4 @@ From the **Variables** section, take the `set [my variable v] to [0]`{:class="bl
 
 \--- /task \---
 
-Cool! Now you’ve got a score and everything.
+很酷吧！ 現在您已經有分數，一切都已就緒了。
