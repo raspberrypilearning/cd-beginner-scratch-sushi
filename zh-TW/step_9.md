@@ -10,7 +10,7 @@ Go to the **Variables** blocks category and click on **Make a Variable**.
 
 ![](images/catch5.png)
 
-Enter `score` as the name.
+輸入`分數`作為名稱。
 
 ![](images/catch6.png)
 
