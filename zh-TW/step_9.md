@@ -28,7 +28,7 @@ When you want to store information in a program, you use something called a **va
 
 \--- /collapse \---
 
-Now you need to update the variable whenever the shark eats a fish, and to reset it when the game is restarted. Doing both is pretty easy:
+Now you need to update the variable whenever the shark eats a fish, and to reset it when the game is restarted. 兩者都非常容易：
 
 \--- task \---
 
