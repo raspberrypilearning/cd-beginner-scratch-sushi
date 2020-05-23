@@ -107,7 +107,7 @@ Snap the turn block to the end to make the cat sprite walk in a circle. It’s i
 
 ## title: How does turning work?
 
-This block makes the sprite turn 15 degrees of the full 360 degrees that make up a circle. You can change that number, and the number of steps, by clicking on the number and typing in a new value.
+Este bloque hace que el objeto gire 15 grados de los 360 grados que componen un círculo. Puedes cambiar ese número, y el número de pasos, haciendo clic en el número y escribiendo un nuevo valor.
 
 ![](images/code9.png)
 
@@ -115,6 +115,6 @@ This block makes the sprite turn 15 degrees of the full 360 degrees that make up
 
 \--- task \---
 
-Now save your work!
+¡Ahora guarda tu trabajo!
 
 \--- /task \---
