@@ -14,13 +14,13 @@ Busca cada una de las siguientes áreas y recuerda dónde están.
 
 ## \--- collapse \---
 
-## title: What is the Stage?
+## titulo: ¿Qué es el Escenario?
 
 Aquí es donde se ejecutan tus programas de Scratch. Tiene:
 
-* One or more **backgrounds** \(images on the background of the screen\)
+* Uno o más **backgrounds** \(imágenes en el fondo de la pantalla\)
 
-* Any **code blocks** associated with it \(we’ll get to this\)
+* Cualquier **code blocks** asociado a él \(ya llegaremos a esto\)
 
 \--- /collapse \---
 
@@ -30,16 +30,16 @@ Aquí es donde se ejecutan tus programas de Scratch. Tiene:
 
 ## \--- collapse \---
 
-## title: What is a sprite?
+## titulo: ¿Qué es un objeto?
 
 Cualquier elemento que puedas agregar al Escenario es un **sprite**.
 
 Un objeto incluye:
 
 * La **imagen** en el Escenario
-* Any extra **costumes** \(looks\) it has
-* Any **sounds** associated with it
-* Any **code blocks** associated with it ![](images/setup2.png)
+* Cualquier **costumes** \(Apariencia\) extra que tenga
+* Cualquier **sounds** asociado a él
+* Cualquier **code blocks** asociado a él ![](images/setup2.png)
 
 \--- /collapse \---
 
@@ -49,11 +49,11 @@ Un objeto incluye:
 
 ## \--- collapse \---
 
-## title: Code blocks
+## titulo: Bloques de código
 
-El código en Scratch viene en forma de bloques que tú conectas para crear programas. You choose blocks from the **code blocks palette**, drag them into the **current sprite panel**, and then connect them to each other.
+El código en Scratch viene en forma de bloques que tú conectas para crear programas. Solo tienes que elegir los bloques de la **code blocks palette**, arrastrarlos al **current sprite**, y luego conectarlos entre sí.
 
-Hay diez categorías de bloques. They are colour-coded, and you can choose between them by clicking on the items in the list at the top of the **code blocks palette**.
+Hay diez categorías de bloques. Están codificados por colores, y puedes elegir entre ellos haciendo clic en los elementos de la lista en la parte superior de la **code blocks palette**.
 
 \--- /collapse \---
 
@@ -63,11 +63,11 @@ Hay diez categorías de bloques. They are colour-coded, and you can choose betwe
 
 ## \--- collapse \---
 
-## title: What is the current sprite?
+## titulo: ¿Qué es el objeto actual?
 
-The **current sprite** is the one that's selected in the **sprite list**.
+El **current sprite** es el que está seleccionado en la **Sprite list**.
 
-The **current sprite panel** is where you can see the code, costumes, and sounds for the selected sprite.
+El **current Sprite panel** es donde puedes ver el código, disfraces y sonidos para el objeto seleccionado.
 
 \--- /collapse \---
 
@@ -75,9 +75,9 @@ The **current sprite panel** is where you can see the code, costumes, and sounds
 
 \--- task \---
 
-In the sprite list, click on the Scratch Cat. The cat is now the current sprite.
+En la lista de objetos, haz clic en el gato de Scratch. Ahora el gato es el objeto seleccionado.
 
-Choose the **Events** category in the code blocks palette, click the `when flag clicked`{:class="block3events"} block, and drag it into the current sprite panel.
+Elige la categoría **Events** en la paleta de bloques de código, haz clic en el bloque `al hacer clic en bandera verde`{: class = "block3events"}, y arrástralo al panel del objeto actual.
 
 ```blocks3
     when green flag clicked
@@ -87,19 +87,19 @@ Choose the **Events** category in the code blocks palette, click the `when flag 
 
 \--- task \---
 
-Then go to **Looks** in the code blocks palette and find this block:
+Luego ve a **Apariencia** en la paleta de bloques de códigos y encuentra este bloque:
 
 ```blocks3
     say [Hello!] for (2) secs
 ```
 
-Click on it, hold down the mouse button, and then just drag it into the current sprite panel and let go of the button.
+Haz clic sobre él, mantén presionado el botón del mouse y, a continuación, simplemente arrástralo al panel del objeto actual y suelta el botón.
 
 \--- /task \---
 
 \--- task \---
 
-Now that the second block is in the current sprite panel, connect it to the bottom of the first block by clicking and dragging it again to move it below the other block until they snap together, like this:
+Ahora que el segundo bloque está en el panel del objeto actual, conéctalo a la parte inferior del primer bloque haciendo clic y arrastrándolo de nuevo para moverlo por debajo del otro bloque hasta que se junten así:
 
 ![](images/setup3.png)
 
@@ -107,6 +107,6 @@ Now that the second block is in the current sprite panel, connect it to the bott
 
 \--- task \---
 
-Now click the **Start Program** button and watch what happens!
+Ahora haz clic en el botón **Iniciar Programa** y ¡observa lo que sucede!
 
 \--- /task \---
