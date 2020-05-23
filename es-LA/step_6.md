@@ -1,36 +1,36 @@
-## All the sprites
+## Todos los objetos
 
-Now you have a shark that you can move around using the arrow keys. Nice! Time to add some fish for it to catch.
+Ahora tienes un tiburón que puedes mover usando las teclas de flecha. ¡Bien! Es hora de añadir algún pez para que lo pueda atrapar.
 
 \--- task \---
 
-Click the **New sprite** button, and on the screen that opens, choose a fish.
+Haz clic en el botón **Nuevo objeto** y, en la ventana que se abre, elige un pez.
 
-![The New sprite button](images/spritesNewFromLibrary.png)
+![El botón de Elige un objeto](images/spritesNewFromLibrary.png)
 
-If your fish is a bit big compared to your shark, you can use the size control to make both sprites the right size!
+Si tu pez es un poco grande en comparación con tu tiburón, ¡puedes usar el control de tamaño para hacer que ambos objetos tengan el tamaño correcto!
 
-![Sprite size control](images/sprites2.png)
+![Control de tamaño del objeto](images/sprites2.png)
 
-Change the number in the size control to make the spirte bigger or smaller.
+Cambia el número en el control de tamaño para hacer que el objeto sea mayor o menor.
 
 \--- /task \---
 
-Great! Later, you're going to add some code to make the fish move around on its own, without help from the player. Your player will move the shark and try to catch the fish.
+¡Genial! Más tarde, vas a añadir código para hacer que el pez se mueva por sí mismo, sin ayuda del jugador. Tu jugador moverá el tiburón y tratará de atrapar el pez.
 
 ## \--- collapse \---
 
-## title: What about the backwards shark?
+## title: ¿Qué pasa con el tiburón nadando hacia atrás?
 
-It does look a little funny to have that shark swimming backwards. Just like you’d usually turn around rather than walking backwards, the shark would turn around rather than swimming backwards. Luckily for you, Scratch has a block for this!
+Es un poco raro que el tiburón nade hacia atrás. Al igual que normalmente te das la vuelta en lugar de caminar hacia atrás, el tiburón debería girarse en lugar de nadar hacia atrás. Por suerte, ¡Scratch tiene un bloque para hacer esto!
 
-The `point in direction`{:class="block3motion"} block lets you pick the direction your sprite is pointing in. You’ll find it in the **Motion** blocks section. You can type in any number of degrees, to point the sprite wherever you want.
+El bloque `apuntar en dirección`{:class="block3motion"} te permite elegir la dirección en la que apunta tu objeto. Lo encontrarás en la sección de bloques **Movimiento**. Puedes escribir cualquier número de grados, para hacer que el objeto apunte a donde quieras.
 
 \--- /collapse \---
 
 \--- task \---
 
-Grab a couple of copies of the `point in direction`{:class="block3motion"} block from the **Motion** list and connect them to your shark's code, like this:
+Arrastra un par de bloques `apuntar en dirección` {: class = "block3motion"} desde la lista **Movimiento** y conéctalos al código de tu tiburón, así:
 
 ```blocks3
     when [left arrow v] key pressed
@@ -48,29 +48,29 @@ Grab a couple of copies of the `point in direction`{:class="block3motion"} block
 
 \--- task \---
 
-Change the number of steps in the `move`{:class="block3motion"} blocks from `-10` to `10`.
+Cambia el número de pasos en los bloques `mover`{:class="block3motion"} de `-10` a `10`.
 
-If you try moving the shark around now after you've added the `point in direction`{:class="block3motion"} blocks, you might notice something a little strange happening. The shark may not be turning quite right!
+Si intentas mover el tiburón después de añadir los bloques `apuntar en dirección`{:class="block3motion"} notarás que sucede algo extraño. ¡Puede que el tiburón no esté girando bien!
 
-![Upside down shark](images/spritesUpsideDown.png)
+![Tiburón al revés](images/spritesUpsideDown.png)
 
 \--- /task \---
 
 ## \--- collapse \---
 
-## title: Why does it go upside down?
+## title: ¿Por qué nada al revés?
 
-The problem here is that the shark sprite started, as all sprites do, with the 'all around' **rotation style**, and what you need it to have is the 'left-right' style.
+El problema está en que el objeto tiburón comenzó, como hacen todos los objetos, con el **estilo de rotación** 'en todas direcciones', y lo que necesitas es el estilo 'izquierda-derecha'.
 
-As usual, there’s a block for that, and it’s in **Motion**!
+Como de costumbre, hay un bloque para eso, ¡y está en la categoría **Movimiento**!
 
 \--- /collapse \---
 
 \--- task \---
 
-Look in the **Motion** category for the block `set rotation style`{:class="block3motion"}.
+Busca en la categoría **Movimiento** el bloque `fijar estilo de rotación a` {:class="block3motion"}.
 
-Add the block to your shark reset code from earlier, and set the rotation style to `left-right`{:class="block3motion"}, like this:
+Añade el bloque a tu código de inicio del tiburon, y establece el estilo de rotación a `izquierda-derecha`{:class="block3motion"}, así:
 
 ```blocks3
     when green flag clicked
