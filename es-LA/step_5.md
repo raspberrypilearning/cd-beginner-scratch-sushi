@@ -1,4 +1,4 @@
-## Moving things around
+## Moviendo las cosas
 
 Right now your shark moves in a circle, and it would be much more fun to control it with the arrow keys. On this card, you’re going learn how to do that!
 
