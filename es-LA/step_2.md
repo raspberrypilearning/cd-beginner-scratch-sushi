@@ -1,22 +1,22 @@
-## Getting set up
+## Preparación
 
-Once you open Scratch, you’ll see a window like the one below.
+Una vez que abras Scratch, verás una ventana como la de abajo.
 
 \--- task \---
 
-Look for each of the following areas and remember where they are.
+Busca cada una de las siguientes áreas y recuerda dónde están.
 
 \--- /task \---
 
-### The Stage
+### El Escenario
 
-![Scratch window with the stage highlighted](images/hlStage.png)
+![Ventana de scratch con el escenario resaltado](images/hlStage.png)
 
 ## \--- collapse \---
 
 ## title: What is the Stage?
 
-This is where your Scratch programs run. It has:
+Aquí es donde se ejecutan tus programas de Scratch. Tiene:
 
 * One or more **backgrounds** \(images on the background of the screen\)
 
@@ -24,42 +24,42 @@ This is where your Scratch programs run. It has:
 
 \--- /collapse \---
 
-### The sprite list
+### La lista de objetos
 
-![Scratch window with the sprite list highlighted](images/hlSpriteList.png)
+![Ventana de Scratch con la lista de objetos resaltada](images/hlSpriteList.png)
 
 ## \--- collapse \---
 
 ## title: What is a sprite?
 
-Any item you can add on the Stage is a **sprite**.
+Cualquier elemento que puedas agregar al Escenario es un **sprite**.
 
-A sprite includes:
+Un objeto incluye:
 
-* The **image** on the Stage
+* La **imagen** en el Escenario
 * Any extra **costumes** \(looks\) it has
 * Any **sounds** associated with it
 * Any **code blocks** associated with it ![](images/setup2.png)
 
 \--- /collapse \---
 
-### The code blocks palette
+### La paleta de bloques de código
 
-![Scratch window with the blocks pallet highlighted](images/hlBlocksPalette.png)
+![Ventana de Scratch con la paleta de bloques resaltada](images/hlBlocksPalette.png)
 
 ## \--- collapse \---
 
 ## title: Code blocks
 
-Code in Scratch comes in the form of blocks that you connect to make programs. You choose blocks from the **code blocks palette**, drag them into the **current sprite panel**, and then connect them to each other.
+El código en Scratch viene en forma de bloques que tú conectas para crear programas. You choose blocks from the **code blocks palette**, drag them into the **current sprite panel**, and then connect them to each other.
 
-There are ten categories of blocks. They are colour-coded, and you can choose between them by clicking on the items in the list at the top of the **code blocks palette**.
+Hay diez categorías de bloques. They are colour-coded, and you can choose between them by clicking on the items in the list at the top of the **code blocks palette**.
 
 \--- /collapse \---
 
-### The current sprite panel
+### El panel del objeto actual
 
-![Scratch window with the current sprite panel highlighted](images/hlCurrentSpritePanel.png)
+![Ventana de Scratch con el panel del objeto actual resaltado](images/hlCurrentSpritePanel.png)
 
 ## \--- collapse \---
 
@@ -71,7 +71,7 @@ The **current sprite panel** is where you can see the code, costumes, and sounds
 
 \--- /collapse \---
 
-Time to get coding!
+¡Es hora de empezar a programar!
 
 \--- task \---
 
