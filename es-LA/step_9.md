@@ -1,40 +1,40 @@
-## Keeping score
+## Guardando la puntuación
 
-To keep score of how many fish the player catches, you’ll need somewhere to store the score, a way of adding to it, and a way of resetting it when the game is restarted.
+Para anotar cuántos peces atrapa el jugador, necesitarás un lugar para almacenar la puntuación, una forma de sumarla y una forma de restablecerla cuando se reinicie el juego.
 
-First: storing the score!
+Primero: ¡guardando la puntuación!
 
 \--- task \---
 
-Go to the **Variables** blocks category and click on **Make a Variable**.
+Ve a la categoría de bloques **Variables** y haz clic en **Crear una variable**.
 
 ![](images/catch5.png)
 
-Enter `score` as the name.
+Introduce `puntos` como nombre.
 
 ![](images/catch6.png)
 
-Check out your new variable!
+¡Echa un vistazo a tu nueva variable!
 
-![The Score variable is displayed on the stage](images/scoreVariableStage.png)
+![La variable Puntos se muestra en el escenario](images/scoreVariableStage.png)
 
 \--- /task \---
 
 ## \--- collapse \---
 
-## title: What are variables?
+## title: ¿Qué son las variables?
 
-When you want to store information in a program, you use something called a **variable**. Think of it like a box with a label on it: you can put something in it, check what’s in it, and change what’s in it. You’ll find variables in the **Variables** section, but you need to create them first for them to show up there!
+Cuando quieres almacenar información en un programa, se usa algo llamado **variable**. Piensa en ello como una caja con una etiqueta: puedes poner algo en ella, comprobar qué hay en ella y cambiar lo que hay en ella. Encontrarás variables en la sección **Variables**, ¡pero debes crearlas primero para que aparezcan allí!
 
 \--- /collapse \---
 
-Now you need to update the variable whenever the shark eats a fish, and to reset it when the game is restarted. Doing both is pretty easy:
+Ahora debes actualizar la variable cada vez que el tiburón se come un pez y restablecerla cuando se reinicia el juego. Hacer ambas cosas es bastante fácil:
 
 \--- task \---
 
-From the **Variables** section, take the `set [my variable v] to [0]`{:class="block3variables"} and `change [my variable v] by [1]`{:class="block3variables"} blocks. Click on the little arrows in the blocks, choose `score` from the list, and then put the blocks into your program:
+De la sección ** variables **, toma el ` conjunto [mi variable v] a [0]` {: class = "block3variables"} y ` cambia [mi variable v] por [1]` {: class = "block3variables"} bloques. Haz clic en las flechas pequeñas de los bloques, elije `puntos` de la lista, y luego añade los bloques a tu código:
 
-### Code for the shark
+### Código para el tiburón
 
 ```blocks3
     when green flag clicked
@@ -43,7 +43,7 @@ From the **Variables** section, take the `set [my variable v] to [0]`{:class="bl
     go to x: (0) y: (0)
 ```
 
-### Code for the fish
+### Código para el pez
 
 ```blocks3
     if <touching [Sprite1 v] ?> then
@@ -57,4 +57,4 @@ From the **Variables** section, take the `set [my variable v] to [0]`{:class="bl
 
 \--- /task \---
 
-Cool! Now you’ve got a score and everything.
+¡Genial! Ahora tienes puntuación y todo.
