@@ -40,13 +40,13 @@ Por los bordes puntiagudos de este bloque, puedes saber que va a darte el valor 
 
 \--- /collapse \---
 
-Of course, you’ve just added an `if...then`{:class="block3control"} block without adding anything for the 'then' part. So at the moment your script is checking whether the fish sprite is touching the shark sprite, but it's not making anything happen in response.
+Por supuesto, acabas de añadir un bloque `si...entonces`{:class="block3control"} sin añadir nada para la parte 'entonces'. Así que en este momento tu código está comprobando si el objeto pez está tocando el objeto tiburón, pero no está haciendo nada en respuesta.
 
-You can make the fish disappear, as if the shark ate it, by using the `hide`{:class="block3looks"} block.
+Puedes hacer que el pez desaparezca, como si el tiburón se lo comiera, usando el bloque `esconder`{:class="block3looks"}.
 
 \--- task \---
 
-Find the `hide`{:class="block3looks"} block in the **Looks** list, and put it inside the `if...then`{:class="block3control"} block, like so:
+Encuentra el bloque `esconder`{:class="block3looks"} en la lista **Apariencia**, y ponlo dentro del bloque `si...entonces`{:class="block3control"}, así:
 
 ```blocks3
     if <touching [Sprite1 v] ?> then
@@ -56,11 +56,11 @@ Find the `hide`{:class="block3looks"} block in the **Looks** list, and put it in
 
 \--- /task \---
 
-Now once the shark catches the fish, the fish disappears for good. That’s not great.
+Ahora, una vez que el tiburón captura al pez, el pez desaparece para siempre. Esto no está bien.
 
 \--- task \---
 
-Put the `show`{:class="block3looks"} block from **Looks** in at the very start of the fish code, so you can reset the game.
+Arrastra el bloque `mostrar`{:class="block3looks"} desde la lista **Apariecia** al inicio del código del pez, para que puedas reiniciar el juego.
 
 ```blocks3
     when green flag clicked
@@ -71,11 +71,11 @@ Put the `show`{:class="block3looks"} block from **Looks** in at the very start o
 
 \--- /task \---
 
-That's already better, but you don’t want the player to have to restart the game every time they catch a single fish!
+Eso ya está mejor, ¡pero no quieres que el jugador tenga que reiniciar el juego cada vez que capture un pescado!
 
 \--- task \---
 
-Update the code inside your `if...then`{:class="block3control"} block to look like this:
+Actualiza el código dentro de tu bloque `si...entonces`{:class="block3control"} para que quede así:
 
 ```blocks3
     if on edge, bounce
@@ -91,12 +91,12 @@ Update the code inside your `if...then`{:class="block3control"} block to look li
 
 ## \--- collapse \---
 
-## title: How does this work?
+## title: ¿Cómo funciona esto?
 
-You are being clever here: when the fish is hidden, it waits, moves, and then shows up again.
+Aquí estás siendo inteligente: cuando el pescado está oculto, espera, se mueve y luego vuelve a aparecer.
 
-It looks like lots of fish keep appearing, but it’s that one sprite moving around!
+Parece que muchos peces siguen apareciendo, ¡pero es el mismo objeto moviéndose de un lado a otro!
 
 \--- /collapse \---
 
-That’s a game! But there’s no way to keep score yet, or to win. You can fix that too — on the next card!
+¡Eso es un juego! Pero todavía no hay manera de guardar la puntuación, o de ganar. También puedes arreglar eso: ¡en la siguiente tarjeta!
