@@ -1,14 +1,14 @@
-## Fishing!
+## ¡Pescando!
 
-The shark moves, the fish swims, but they don’t interact: if the fish swims right into the shark's mouth, nothing happens. Time to change that!
+El tiburón se mueve, el pez nada, pero no interactúan: si el pez se desliza justo en la boca del tiburón, no pasa nada. ¡Es hora de cambiar eso!
 
-First, you need to know if the fish is touching the shark. For this, you'll need a **Control** block and a **Sensing** block.
+Primero, necesitas saber si el pez está tocando al tiburón. Para esto, necesitarás un bloque **Control** y un bloque **Sensor**.
 
 \--- task \---
 
-Add the `if...then`{:class="block3control"} **Control** block inside the `forever`{:class="block3control"} loop of the fish sprite, below the `if on edge bounce`{:class="block3motion"} block.
+Agrega el bloque **Control** `si...entonces`{:class="block3control"} dentro del bucle `por siempre`{:class="block3control"} del sprite del pez, debajo del bloque `si toca un borde, rebotar`{:class="block3motion"}.
 
-Drag the `touching...`{:class="block3sensing"} block into the space at the top of the `if...then`{:class="block3control"} block, and click the little triangle to select the shark sprite's name. If you haven’t changed it, it'll be 'Sprite1'.
+Arrastra el bloque `tocando...`{:class="block3sensing"} al espacio en la parte superior del bloque `si...entonces`{:class="block3control"} y haz clic en el pequeño triángulo para seleccionar el nombre del objeto tiburón. Si no lo has cambiado, será 'Sprite1'.
 
 ```blocks3
     when green flag clicked
@@ -26,17 +26,17 @@ Drag the `touching...`{:class="block3sensing"} block into the space at the top o
 
 ## \--- collapse \---
 
-## title: How does it work?
+## title: ¿Cómo funciona?
 
-The `if...then`{:class="block3control"} **Control** block needs to be given a `True/False` value.
+El bloque **Control** `si...entonces`{:class="block3control"} debe recibir un valor `Verdadero/Falso`.
 
-**Sensing** blocks collect information, like where the sprite is, what it’s touching, etc. You're using this block:
+Los bloques **Sensores** recopilan información, como dónde está el objeto, qué está tocando, etc. Estás utilizando este bloque:
 
 ```blocks3
     <touching [Sprite1 v] ?>
 ```
 
-From this block's pointy ends, you can tell it’s going to give you the `True/False` value that the `if...then`{:class="block3control"} block needs.
+Por los bordes puntiagudos de este bloque, puedes saber que va a darte el valor `Verdadero/Falso` que el bloque `si...entonces`{:class="block3control"} necesita.
 
 \--- /collapse \---
 
