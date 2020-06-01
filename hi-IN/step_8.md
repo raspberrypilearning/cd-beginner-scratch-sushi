@@ -1,14 +1,14 @@
-## Fishing!
+## मछली पकड़ने
 
-The shark moves, the fish swims, but they don’t interact: if the fish swims right into the shark's mouth, nothing happens. Time to change that!
+शार्क चलती है, मछली तैरती है, लेकिन वे बातचीत नहीं करते हैं: यदि मछली शार्क के मुंह में सही तैरती है, तो कुछ भी नहीं होता है। उसको बदलने का समय!
 
-First, you need to know if the fish is touching the shark. For this, you'll need a **Control** block and a **Sensing** block.
+सबसे पहले, आपको यह जानना होगा कि क्या मछली शार्क को छू रही है। इसके लिए, आपको ** नियंत्रण की आवश्यकता होगी ** ब्लॉक और एक ** सेंसिंग ** खंड मैथा।
 
 \--- task \---
 
-Add the `if...then`{:class="block3control"} **Control** block inside the `forever`{:class="block3control"} loop of the fish sprite, below the `if on edge bounce`{:class="block3motion"} block.
+` यदि ... जोड़ें तो ` {= class = "block3control"} ** नियंत्रण ** हमेशा के लिए ` के अंदर ब्लॉक करें ` {<वर्ग = "ब्लॉक 3 कॉन्ट्रोल"} मछली का लूप, स्प्राइट उछाल पर ` के नीचे ` {= वर्ग = "ब्लॉक 3motion"} ब्लॉक।
 
-Drag the `touching...`{:class="block3sensing"} block into the space at the top of the `if...then`{:class="block3control"} block, and click the little triangle to select the shark sprite's name. If you haven’t changed it, it'll be 'Sprite1'.
+` स्पर्श करें ... ` {} वर्ग = "block3sensing"} अंतरिक्ष में ` के शीर्ष पर ब्लॉक करें यदि ... तो ` {}, class = "block3control"} ब्लॉक करें, और शार्क स्प्राइट के नाम का चयन करने के लिए छोटे त्रिकोण पर क्लिक करें। यदि आपने इसे नहीं बदला है, तो यह 'स्प्राइट 1' होगा।
 
 ```blocks3
     when green flag clicked
@@ -26,27 +26,27 @@ Drag the `touching...`{:class="block3sensing"} block into the space at the top o
 
 ## \--- collapse \---
 
-## title: How does it work?
+## शीर्षक: यह कैसे काम करता है?
 
-The `if...then`{:class="block3control"} **Control** block needs to be given a `True/False` value.
+द ` अगर ... तो ` {= class = "block3control"} ** नियंत्रण ** ब्लॉक को एक ` सही / गलत दिया जाना चाहिए ` मूल्य।
 
-**Sensing** blocks collect information, like where the sprite is, what it’s touching, etc. You're using this block:
+** सेंसिंग ** ब्लॉक जानकारी एकत्र करते हैं, जैसे कि स्प्राइट कहां है, यह क्या छू रहा है, आदि। आप इस ब्लॉक का उपयोग कर रहे हैं:
 
 ```blocks3
     <touching [Sprite1 v] ?>
 ```
 
-From this block's pointy ends, you can tell it’s going to give you the `True/False` value that the `if...then`{:class="block3control"} block needs.
+इस ब्लॉक के नुकीले सिरे से, आप बता सकते हैं कि यह आपको ` सही / गलत बताने जा रहा है ` मान कि ` यदि ... तो ` {"class =" block3control "} ब्लॉक की जरूरत।
 
 \--- /collapse \---
 
-Of course, you’ve just added an `if...then`{:class="block3control"} block without adding anything for the 'then' part. So at the moment your script is checking whether the fish sprite is touching the shark sprite, but it's not making anything happen in response.
+बेशक, आपने अभी <<> जोड़ा है ... यदि </code> {'class = "block3control"} ब्लॉक को' फिर 'भाग के लिए कुछ भी जोड़े बिना। तो इस समय आपकी स्क्रिप्ट जाँच रही है कि क्या मछली स्प्रिट शार्क स्प्राइट को छू रही है, लेकिन यह प्रतिक्रिया में कुछ भी नहीं कर रही है।
 
-You can make the fish disappear, as if the shark ate it, by using the `hide`{:class="block3looks"} block.
+आप मछली को गायब कर सकते हैं, जैसे कि शार्क ने इसे खा लिया, ` छिपाने का उपयोग करके ` {"class =" block3looks "} ब्लॉक।
 
 \--- task \---
 
-Find the `hide`{:class="block3looks"} block in the **Looks** list, and put it inside the `if...then`{:class="block3control"} block, like so:
+` छिपाएँ ढूँढें ` {** लुक्स में "= class =" block3looks "} ब्लॉक ** सूची, और इसे ` के अंदर डालें यदि ... तो ` {, class = "block3control"} ब्लॉक, जैसे:
 
 ```blocks3
     if <touching [Sprite1 v] ?> then
@@ -56,11 +56,11 @@ Find the `hide`{:class="block3looks"} block in the **Looks** list, and put it in
 
 \--- /task \---
 
-Now once the shark catches the fish, the fish disappears for good. That’s not great.
+अब एक बार शार्क मछली को पकड़ लेती है, तो मछली अच्छे के लिए गायब हो जाती है। यह महान नहीं है।
 
 \--- task \---
 
-Put the `show`{:class="block3looks"} block from **Looks** in at the very start of the fish code, so you can reset the game.
+` दिखाओ ` {1, वर्ग = "block3looks"} ब्लॉक से ** लगता है ** मछली कोड की बहुत शुरुआत में, ताकि आप खेल को रीसेट कर सकें।
 
 ```blocks3
     when green flag clicked
@@ -71,11 +71,11 @@ Put the `show`{:class="block3looks"} block from **Looks** in at the very start o
 
 \--- /task \---
 
-That's already better, but you don’t want the player to have to restart the game every time they catch a single fish!
+यह पहले से ही बेहतर है, लेकिन आप नहीं चाहते कि खिलाड़ी को हर बार एक ही मछली पकड़ने के लिए खेल को फिर से शुरू करना पड़े!
 
 \--- task \---
 
-Update the code inside your `if...then`{:class="block3control"} block to look like this:
+अपने ` के अंदर कोड को अपडेट करें यदि ... तो ` {: class = "block3control"} इस तरह दिखने के लिए ब्लॉक करें:
 
 ```blocks3
     if on edge, bounce
@@ -91,12 +91,12 @@ Update the code inside your `if...then`{:class="block3control"} block to look li
 
 ## \--- collapse \---
 
-## title: How does this work?
+## शीर्षक: यह कैसे काम करता है?
 
-You are being clever here: when the fish is hidden, it waits, moves, and then shows up again.
+आप यहाँ चतुर हो रहे हैं: जब मछली छिपी होती है, तो वह इंतजार करता है, चलता है, और फिर फिर से दिखाता है।
 
-It looks like lots of fish keep appearing, but it’s that one sprite moving around!
+ऐसा लगता है कि बहुत सारी मछलियां दिखाई देती हैं, लेकिन यह है कि एक स्प्राइट चारों ओर घूम रहा है!
 
 \--- /collapse \---
 
-That’s a game! But there’s no way to keep score yet, or to win. You can fix that too — on the next card!
+यह एक खेल है! लेकिन अभी तक स्कोर बनाए रखने, या जीतने का कोई तरीका नहीं है। आप इसे भी ठीक कर सकते हैं - अगले कार्ड पर!
