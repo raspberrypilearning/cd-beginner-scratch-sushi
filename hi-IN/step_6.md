@@ -1,36 +1,36 @@
-## सभी स्प्राइट्स
+## All the sprites
 
-अब आपके पास एक शार्क है जिसे आप तीर कुंजियों का उपयोग करके घुमा सकते हैं। Nice! इसे पकड़ने के लिए कुछ मछली जोड़ने का समय।
+Now you have a shark that you can move around using the arrow keys. Nice! Time to add some fish for it to catch.
 
 \--- task \---
 
-**New sprite** बटन पर क्लिक करें, और स्क्रीन पर जो खुलता है, एक मछली चुनें।
+Click the **New sprite** button, and on the screen that opens, choose a fish.
 
-![नया स्प्राइट बटन](images/spritesNewFromLibrary.png)
+![The New sprite button](छवियों / spritesNewFromLibrary.png)
 
 यदि आपकी मछली आपके शार्क की तुलना में थोड़ी बड़ी है, तो आप दोनों को सही आकार में बनाने के लिए आकार नियंत्रण का उपयोग कर सकते हैं!
 
-![स्प्राइट आकार का नियंत्रण](images/sprites2.png)
+![Sprite size control](images/sprites2.png)
 
 सर्पिल को बड़ा या छोटा करने के लिए आकार नियंत्रण में संख्या बदलें।
 
 \--- /task \---
 
-शानदार! बाद में, आप कुछ कोड जोड़ने जा रहे हैं ताकि खिलाड़ी की मदद के बिना मछली अपने आप ही घूम सके। आपका खिलाड़ी शार्क को स्थानांतरित करेगा और मछली को पकड़ने की कोशिश करेगा।
+Great! Later, you're going to add some code to make the fish move around on its own, without help from the player. Your player will move the shark and try to catch the fish.
 
 ## \--- collapse \---
 
 ## शीर्षक: पीछे की शार्क के बारे में क्या?
 
-उस शार्क को पीछे की तरफ तैरते हुए देखना थोड़ा मज़ेदार लगता है। जैसे आप आमतौर पर पीछे की ओर चलने के बजाय मुड़ते हैं, वैसे ही शार्क पीछे की ओर तैरने के बजाय घूमती है। सौभाग्य से आपके लिए, स्क्रैच में इसके लिए एक ब्लॉक है!
+It does look a little funny to have that shark swimming backwards. Just like you’d usually turn around rather than walking backwards, the shark would turn around rather than swimming backwards. Luckily for you, Scratch has a block for this!
 
-`point in direction`{:class="block3motion"} ब्लॉक आपको उस दिशा को चुनने देता है जो आपका स्प्राइट इंगित कर रहा है। आप इसे **Motion** खंड में पाएंगे । आप जहां चाहें स्प्राइट को इंगित करने के लिए किसी भी संख्या में डिग्री टाइप कर सकते हैं।
+The `point in direction`{:class="block3motion"} block lets you pick the direction your sprite is pointing in. आप इसे ** गति में पाएंगे ** खंड खंड। You can type in any number of degrees, to point the sprite wherever you want.
 
 \--- /collapse \---
 
 \--- task \---
 
-कुछ प्रतियों को पकड़ो `point in direction`{:class="block3motion"} ब्लॉक **Motion** सूची और उन्हें अपने शार्क के कोड से कनेक्ट करें, जैसे:
+Grab a couple of copies of the `point in direction`{:class="block3motion"} block from the **Motion** list and connect them to your shark's code, like this:
 
 ```blocks3
     when [left arrow v] key pressed
@@ -48,29 +48,29 @@
 
 \--- task \---
 
-चाल में चरणों की संख्या बदलें 0>move</code>{:class="block3motion"} ब्लॉक `-10` से `10`।
+` चाल में चरणों की संख्या बदलें ` {<class = "block3motion"} ब्लॉक ` -10 से ` को ` 10 ` ।
 
-यदि आपने दिशा में बिंदु को जोड़ने के बाद शार्क को अब चारों ओर ले जाने का प्रयास किया है `point in direction`{:class="block3motion"} ब्लॉक, आपको कुछ अजीब सा हो रहा है। शार्क काफी सही नहीं हो रही है!
+यदि आपने दिशा में ` बिंदु को जोड़ने के बाद शार्क को अब चारों ओर ले जाने का प्रयास किया है ` {"class =" block3motion "} ब्लॉक, आपको कुछ अजीब सा हो रहा है। The shark may not be turning quite right!
 
-![उल्टा शार्क](images/spritesUpsideDown.png)
+![Upside down shark](images/spritesUpsideDown.png)
 
 \--- /task \---
 
 ## \--- collapse \---
 
-## शीर्षक: यह उल्टा क्यों होता है?
+## title: Why does it go upside down?
 
-यहां समस्या यह है कि शार्क स्प्राइट की शुरुआत हुई, जैसा कि सभी स्प्राइट करते हैं, 'सभी के चारों ओर' **rotation style**, और जो आपके पास होना चाहिए वह 'वाम-दाएँ' शैली है।
+The problem here is that the shark sprite started, as all sprites do, with the 'all around' **rotation style**, and what you need it to have is the 'left-right' style.
 
-हमेशा की तरह, उसके लिए एक ब्लॉक है, और यह ** गति में है ** !
+As usual, there’s a block for that, and it’s in **Motion**!
 
 \--- /collapse \---
 
 \--- task \---
 
-**Motion** श्रेणी के लिए श्रेणी `set rotation style`{:class="block3motion"} सेट करें।
+** गति में देखें ** श्रेणी के लिए श्रेणी ` रोटेशन शैली सेट करें ` {: वर्ग = "block3motion"}।
 
-ब्लॉक को पहले से अपने शार्क रीसेट कोड में जोड़ें, और रोटेशन शैली को `left-right`{:class="block3motion"}, इस तरह:
+ब्लॉक को पहले से अपने शार्क रीसेट कोड में जोड़ें, और रोटेशन शैली को ` बाएं-दाएं पर सेट करें ` {, class = "block3motion"}, इस तरह:
 
 ```blocks3
     when green flag clicked
