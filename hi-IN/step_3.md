@@ -1,6 +1,6 @@
-## Adding and removing code blocks
+## कोड ब्लॉक जोड़ना और निकालना
 
-Great! You’ve written your very first Scratch program. Time to learn a little more about getting code in and out of Scratch! Scratch code is made up of **blocks** such as these:
+शानदार! आपने अपना पहला स्क्रैच प्रोग्राम लिखा है। स्क्रैच में और बाहर कोड प्राप्त करने के बारे में थोड़ा और जानने का समय! स्क्रैच कोड **blocks** तरह की:
 
 ![](images/code1.png)
 
@@ -8,9 +8,9 @@ Great! You’ve written your very first Scratch program. Time to learn a little 
 
 ## \--- collapse \---
 
-## title: Using blocks from the different categories
+## शीर्षक: विभिन्न श्रेणियों से ब्लॉक का उपयोग करना
 
-Click on a category name to see the blocks in that category. यहाँ, ** Motion** श्रेणी चयनित है:
+उस श्रेणी के ब्लॉक देखने के लिए श्रेणी नाम पर क्लिक करें। यहाँ, ** Motion** श्रेणी चयनित है:
 
 ![](images/code2a.png)
 
@@ -18,11 +18,11 @@ Click on a category name to see the blocks in that category. यहाँ, ** Mo
 
 ![](images/code2b.png)
 
-You can click on the blcok you want, and then just drag it into the current sprite panel and let go. Once it's in the panel, you can move it around and connect it to other blocks.
+आप इच्छित ब्लाकोक पर क्लिक कर सकते हैं, और फिर इसे वर्तमान स्प्राइट पैनल में खींच सकते हैं और जाने दे सकते हैं। एक बार जब यह पैनल में होता है, तो आप इसे चारों ओर ले जा सकते हैं और इसे अन्य ब्लॉकों से जोड़ सकते हैं।
 
 \--- /collapse \---
 
-If you want to see what a block does, you can double-click on it to make it run!
+यदि आप देखना चाहते हैं कि ब्लॉक क्या करता है, तो आप इसे चलाने के लिए उस पर डबल-क्लिक कर सकते हैं!
 
 \--- task \---
 
@@ -32,27 +32,27 @@ If you want to see what a block does, you can double-click on it to make it run!
 
 ## \--- collapse \---
 
-## title: Running the code
+## शीर्षक: कोड चलाना
 
-Usually, you want your code to run automatically whenever something specific happens. This is why many of your programs will start with a block from the **Events** category, most often this one:
+आमतौर पर, आप चाहते हैं कि आपका कोड स्वचालित रूप से चले जब भी कुछ विशिष्ट होता है। यही कारण है कि आपके कई कार्यक्रम ** Events** के ब्लॉक से शुरू होंगे, सबसे अधिक बार यह:
 
 ```blocks3
     when green flag clicked
 ```
 
-The code blocks connected to this block will run after the **green flag** is clicked.
+इस ब्लॉक से जुड़े कोड ब्लॉक **green flag** क्लिक किया है।
 
-Code blocks run from top to bottom, so the order in which you snap your blocks together matters. In this example, the sprite will `say`{:class="block3looks"} `Hello!` before it will `play`{:class="block3sound"} the `meow` sound.
+कोड ब्लॉक ऊपर से नीचे तक चलते हैं, इसलिए जिस क्रम में आप अपने ब्लॉक को एक साथ रखते हैं वह मायने रखता है। इस उदाहरण में, स्प्राइट पहले ` say` {= class = "block3looks"} `Hello` इससे कि यह `play`{:class="block3sound"} the `meow` ध्वनि।
 
 ```blocks3
-    when green flag clicked
-    say [Hello]
-    play sound [meow v]
+    जब हरी झंडी पर क्लिक किया गया
+ [Hello]
+    प्ले साउंड [meow v]
 ```
 
 \--- /collapse \---
 
-Removing or deleting code blocks you don’t want in your program is easy! Just drag them back into the code blocks palette.
+कोड ब्लॉक को हटाना या हटाना जो आप अपने प्रोग्राम में नहीं चाहते हैं, आसान है! बस उन्हें कोड ब्लॉक पैलेट में वापस खींचें।
 
 ** सावधान रहें: ** कोड ब्लॉक में उन्हें खींचने से आपके द्वारा खींचे जाने वाले ब्लॉक से जुड़े सभी ब्लॉक हट जाएंगे, इसलिए उन कोड ब्लॉक को अलग करना सुनिश्चित करें जिन्हें आप हटाना चाहते हैं। यदि आप दुर्घटना से कुछ कोड ब्लॉक हटाते हैं और उन्हें वापस लाना चाहते हैं, तो राइट-क्लिक करें और फिर **undo** सब कुछ वापस पाने का विकल्प।
 
