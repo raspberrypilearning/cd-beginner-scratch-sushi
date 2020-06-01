@@ -1,18 +1,18 @@
 ## दृश्य की स्थापना
 
-स्क्रैच में पृष्ठभूमि का एक पुस्तकालय होता है और आपके प्रोजेक्ट को कमाल दिखाने के लिए आपको इसका उपयोग करने के लिए स्प्राइट करता है।
+Scratch has a library of backgrounds and sprites for you to use to make your project look awesome.
 
 \--- task \---
 
-स्टेज का चयन करें।
+Select the Stage.
 
 ![स्टेज का चयन करें।](images/looksSelectStage.png)
 
-** Backdrops ** पर क्लिक करें।
+** पृष्ठभूमि पर क्लिक करें ** ।
 
 ![बैकड्रॉप्स टैब](images/looksBackdrops.png)
 
-**Choose backdrop from library पर क्लिक करें ** आइकन चुनें ।
+लाइब्रेरी से पृष्ठभूमि चुनें ** पर क्लिक करें ** आइकन।
 
 ![बैकड्रॉप आइकन चुनें](images/looksChooseBg.png)
 
@@ -22,7 +22,7 @@
 
 \--- /task \---
 
-शानदार! बेशक, अब आपके पास एक बिल्ली पानी के नीचे है, और बिल्लियों आमतौर पर उस के बड़े प्रशंसक नहीं हैं। लेकिन आप इसे ठीक कर सकते हैं, क्योंकि आप बिल्ली को शार्क में बदल सकते हैं!
+Great! Of course, now you have a cat underwater, and cats aren't usually big fans of that. लेकिन आप इसे ठीक कर सकते हैं, क्योंकि आप बिल्ली को शार्क में बदल सकते हैं!
 
 \--- task \---
 
