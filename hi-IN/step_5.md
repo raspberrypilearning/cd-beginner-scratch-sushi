@@ -1,32 +1,32 @@
-## चीजों को इधर-उधर करना
+## Moving things around
 
-अभी आपका शार्क एक सर्कल में चलता है, और इसे तीर कुंजियों के साथ नियंत्रित करने में बहुत अधिक मज़ा आएगा। इस कार्ड पर, आप सीखेंगे कि यह कैसे करना है!
+Right now your shark moves in a circle, and it would be much more fun to control it with the arrow keys. On this card, you’re going learn how to do that!
 
 \--- task \---
 
-शार्क के लिए आपके पास मौजूद सभी कोड हटाकर प्रारंभ करें।
+Start by deleting all code that you have for the shark.
 
 \--- /task \---
 
-जैसा कि आपने शायद अनुमान लगाया है, आपको **Event** और **Motion** ब्लॉक की फिर से आवश्यकता है !
+जैसा कि आपने शायद अनुमान लगाया है, आपको ** ईवेंट की आवश्यकता है ** और ** गति ** फिर से ब्लॉक!
 
 \--- task \---
 
-इस बार, इस ब्लॉक को देखें और इसे वर्तमान स्प्राइट पैनल में खींचें:
+This time, look for this block and drag it into the current sprite panel:
 
 ```blocks3
-    जब [space v] कुंजी दबाया जाए
+    when [space v] key pressed
 ```
 
-`space` स्थान के पास स्थित छोटे तीर (▼) पर क्लिक करें । आपको अपने सभी कीबोर्ड कुंजियों की एक सूची दिखाई देगी, जिन्हें आप चुन सकते हैं।
+` स्थान के पास स्थित छोटे तीर (▼) पर क्लिक करें ` । You will see a list of all your keyboard keys that you can pick from.
 
 \--- /task \---
 
-कुंजी दबाने पर आपको चार `when key pressed`{:class="bloc3events"} ब्लॉक - आपके प्रत्येक तीर कुंजी के लिए।
+कुंजी दबाने पर आपको चार ` की आवश्यकता होगी ` {"class =" block3events "} ब्लॉक - आपके प्रत्येक तीर कुंजी के लिए।
 
 \--- task \---
 
-अपने शार्क को स्थानांतरित करने के लिए, इन ब्लॉकों को **Motion** गति से कनेक्ट करें इस तरह से ब्लॉक:
+अपने शार्क को स्थानांतरित करने के लिए, इन ब्लॉकों को ** गति से कनेक्ट करें ** इस तरह से ब्लॉक:
 
 ```blocks3
     when [left arrow v] key pressed
@@ -48,19 +48,19 @@
 
 \--- /task \---
 
-**Note**: `-10` 10 कदम पीछे हटो' का मतलब है।
+** ध्यान दें ** : ` -10 ` '10 कदम पीछे हटो' का मतलब है।
 
 \--- task \---
 
-अपने खेल का परीक्षण करने के लिए हरे झंडे पर क्लिक करें।
+Now click the green flag to test out your code.
 
 \--- /task \---
 
-अब आपका शार्क आगे और पीछे चलता है, जो बहुत अच्छा है, लेकिन यह ऊपर या नीचे नहीं जाता है। इसके अलावा, यदि आप ** गति के माध्यम से देखते हैं ** ब्लॉक, आप देखेंगे कि 'ऊपर' या 'नीचे' के लिए कोई ब्लॉक नहीं हैं। उनमें से एक पूरा गुच्छा **x** और ** y ** से संबंधित है हालांकि निर्देशांक - चलो उन की कोशिश करो!
+Now your shark moves back and forwards, which is pretty cool, but it doesn’t move up or down. Also, if you look through the **Motion** blocks, you’ll see there are no blocks for 'up' or 'down'. उनमें से एक पूरा गुच्छा ** x से संबंधित है ** और ** y ** हालांकि निर्देशांक - चलो उन की कोशिश करो!
 
 \--- task \---
 
-दो `change y by`{:class="block3motion"} ब्लॉक करता है, और अपना कोड इस तरह से अपडेट करें:
+दो ` परिवर्तन y द्वारा पकड़ो ` {= class = "block3motion"} ब्लॉक करता है, और अपना कोड इस तरह से अपडेट करें:
 
 ```blocks3
     when [up arrow v] key pressed
@@ -74,13 +74,13 @@
 
 \--- /task \---
 
-अब जब आप तीर कुंजी दबाते हैं, तो शार्क मंच के चारों ओर घूमती है!
+Now when you press the arrows keys, the shark moves all around the stage!
 
 ## \--- collapse \---
 
-## शीर्षक: x- और y- निर्देशांक कैसे काम करते हैं?
+## title: How do x- and y-coordinates work?
 
-वस्तुओं की स्थिति के बारे में बात करने के लिए, जैसे स्प्राइट, हम अक्सर x- और y- निर्देशांक का उपयोग करते हैं। **x-axis** स्टेज समन्वय प्रणाली **left to right**, और **y-axis** नीचे से ऊपर तक चलता है **bottom to tp**।
+To talk about the positions of objects, such as sprites, we often use x- and y-coordinates. ** x- अक्ष ** स्टेज समन्वय प्रणाली ** बाएं से दाएं चलती है ** , और ** y- अक्ष ** ** नीचे से ऊपर तक चलता है ** ।
 
 ![](images/moving3.png)
 
