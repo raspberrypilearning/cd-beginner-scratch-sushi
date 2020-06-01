@@ -1,10 +1,10 @@
 ## दृश्य की स्थापना
 
-Scratch has a library of backgrounds and sprites for you to use to make your project look awesome.
+स्क्रैच में पृष्ठभूमि का एक पुस्तकालय होता है और आपके प्रोजेक्ट को कमाल दिखाने के लिए आपको इसका उपयोग करने के लिए स्प्राइट करता है।
 
 \--- task \---
 
-Select the Stage.
+स्टेज का चयन करें।
 
 ![स्टेज का चयन करें।](images/looksSelectStage.png)
 
@@ -22,7 +22,7 @@ Select the Stage.
 
 \--- /task \---
 
-Great! Of course, now you have a cat underwater, and cats aren't usually big fans of that. लेकिन आप इसे ठीक कर सकते हैं, क्योंकि आप बिल्ली को शार्क में बदल सकते हैं!
+शानदार! बेशक, अब आपके पास एक बिल्ली पानी के नीचे है, और बिल्लियों आमतौर पर उस के बड़े प्रशंसक नहीं हैं। लेकिन आप इसे ठीक कर सकते हैं, क्योंकि आप बिल्ली को शार्क में बदल सकते हैं!
 
 \--- task \---
 
