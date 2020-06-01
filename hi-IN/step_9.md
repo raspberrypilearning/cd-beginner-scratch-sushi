@@ -1,40 +1,40 @@
-## Keeping score
+## स्कोर रखना
 
-To keep score of how many fish the player catches, you’ll need somewhere to store the score, a way of adding to it, and a way of resetting it when the game is restarted.
+खिलाड़ी कितनी मछली पकड़ता है, इसका स्कोर बनाए रखने के लिए, आपको स्कोर को स्टोर करने के लिए, इसे जोड़ने का एक तरीका और गेम को पुनरारंभ होने पर इसे रीसेट करने का एक तरीका चाहिए।
 
-First: storing the score!
+पहला: स्कोर स्टोर करना!
 
 \--- task \---
 
-Go to the **Variables** blocks category and click on **Make a Variable**.
+** चर पर जाएं ** श्रेणी को ब्लॉक करें और ** एक चर बनाएं पर क्लिक करें ** ।
 
 ![](images/catch5.png)
 
-Enter `score` as the name.
+` स्कोर दर्ज करें ` नाम के रूप में।
 
 ![](images/catch6.png)
 
-Check out your new variable!
+अपना नया चर देखें!
 
-![The Score variable is displayed on the stage](images/scoreVariableStage.png)
+![स्कोर चर मंच पर प्रदर्शित किया जाता है](images/scoreVariableStage.png)
 
 \--- /task \---
 
 ## \--- collapse \---
 
-## title: What are variables?
+## शीर्षक: चर क्या हैं?
 
-When you want to store information in a program, you use something called a **variable**. Think of it like a box with a label on it: you can put something in it, check what’s in it, and change what’s in it. You’ll find variables in the **Variables** section, but you need to create them first for them to show up there!
+जब आप किसी प्रोग्राम में जानकारी संग्रहीत करना चाहते हैं, तो आप ** चर नामक कुछ का उपयोग करते हैं ** । उस पर एक लेबल के साथ एक बॉक्स की तरह सोचें: आप इसमें कुछ डाल सकते हैं, यह देख सकते हैं कि इसमें क्या है, और इसमें क्या बदलाव है। आपको ** चर में चर मिलेंगे ** खंड, लेकिन आपको उन्हें वहां दिखाने के लिए पहले उन्हें बनाने की आवश्यकता है!
 
 \--- /collapse \---
 
-Now you need to update the variable whenever the shark eats a fish, and to reset it when the game is restarted. Doing both is pretty easy:
+अब आपको चर को अपडेट करने की आवश्यकता है जब भी शार्क एक मछली खाती है, और खेल को पुनरारंभ होने पर इसे रीसेट करने के लिए। दोनों करना बहुत आसान है:
 
 \--- task \---
 
-From the **Variables** section, take the `set [my variable v] to [0]`{:class="block3variables"} and `change [my variable v] by [1]`{:class="block3variables"} blocks. Click on the little arrows in the blocks, choose `score` from the list, and then put the blocks into your program:
+** चर से ** अनुभाग, ` सेट करें [मेरे चर v] को [0]` {= class = "block3variables"} और ` [1]द्वारा [my variable v] बदल सकते हैं ` {= class = "block3variables"} ब्लॉक। ब्लॉक में छोटे तीर पर क्लिक करें, ` स्कोर चुनें ` सूची से, और फिर अपने प्रोग्राम में ब्लॉक डालें:
 
-### Code for the shark
+### शार्क के लिए कोड
 
 ```blocks3
     when green flag clicked
@@ -43,7 +43,7 @@ From the **Variables** section, take the `set [my variable v] to [0]`{:class="bl
     go to x: (0) y: (0)
 ```
 
-### Code for the fish
+### शार्क के लिए कोड
 
 ```blocks3
     if <touching [Sprite1 v] ?> then
@@ -57,4 +57,4 @@ From the **Variables** section, take the `set [my variable v] to [0]`{:class="bl
 
 \--- /task \---
 
-Cool! Now you’ve got a score and everything.
+ठंडा! अब आपको एक अंक और सब कुछ मिल गया है।
