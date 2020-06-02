@@ -30,7 +30,7 @@ Blocul `orientează-te în direcția`{:class="block3motion"} îți permite să a
 
 \--- task \---
 
-Grab a couple of copies of the `point in direction`{:class="block3motion"} block from the **Motion** list and connect them to your shark's code, like this:
+Ia câteva blocuri `orientează-te în direcția`{:class="block3motion"} de la **Mișcare** și conectează-le la codul rechinului tău, astfel:
 
 ```blocks3
     when [left arrow v] key pressed
@@ -48,11 +48,11 @@ Grab a couple of copies of the `point in direction`{:class="block3motion"} block
 
 \--- task \---
 
-Change the number of steps in the `move`{:class="block3motion"} blocks from `-10` to `10`.
+Modifică numărul de pași din blocul `mergi`{:class="block3motion"} de la `-10` la `10`.
 
-If you try moving the shark around now after you've added the `point in direction`{:class="block3motion"} blocks, you might notice something a little strange happening. The shark may not be turning quite right!
+Dacă miști rechinul acum după ce ai adăugat blocul `orientează-te în direcția`{:class="block3motion"}, vei observa că se întâmpla ceva puțin ciudat. Rechinul nu se rotește cum trebuie!
 
-![Upside down shark](images/spritesUpsideDown.png)
+![Rechin cu capul în jos](images/spritesUpsideDown.png)
 
 \--- /task \---
 
@@ -60,17 +60,17 @@ If you try moving the shark around now after you've added the `point in directio
 
 ## title: De ce se întoarce cu capul în jos?
 
-The problem here is that the shark sprite started, as all sprites do, with the 'all around' **rotation style**, and what you need it to have is the 'left-right' style.
+Problema este că personajul rechin a început, ca toate personajele, cu **stilul de rotație** „de jur împrejur“, iar ție îți trebuie să aibă stilul „stânga-dreapta“.
 
-As usual, there’s a block for that, and it’s in **Motion**!
+Ca de obicei, există un bloc pentru asta, și este în **Mișcare**!
 
 \--- /collapse \---
 
 \--- task \---
 
-Look in the **Motion** category for the block `set rotation style`{:class="block3motion"}.
+Caută în categoria **Mișcare** blocul `setează stilul de rotație`{:class="block3motion"}.
 
-Add the block to your shark reset code from earlier, and set the rotation style to `left-right`{:class="block3motion"}, like this:
+Adaugă blocul la codul de resetare a rechinului și setează stilul de rotație la `stânga-dreapta`{:class="block3motion"}, astfel:
 
 ```blocks3
     when green flag clicked
