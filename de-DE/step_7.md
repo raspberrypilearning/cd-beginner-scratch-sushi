@@ -1,17 +1,17 @@
 ## Ferngesteuerte Fische
 
-Ok, jetzt ist es Zeit, die Fische alleine zum Schwimmen zu bringen. Dazu benötigst du eine neue Art von Block: einen **Steuerungs** Block.
+Ok, jetzt ist es Zeit, die Fische selbstständig schwimmen zu lassen. Dazu benötigst du eine neue Art von Block: einen **Steuerungs** Block.
 
 \--- task \---
 
-Select your fish sprite.
+Wähle deine Fischfigur.
 
-Drag a `when green flag clicked`{:class="block3events"} **Event** block, a `forever`{:class="block3control"} **Control** block, and a `move 10 steps`{:class="block3motion"} **Motion** block into the **sprite panel**, like this:
+Ziehe eine `wenn grüne Flagge angeklickt`{:class="block3events"} **Ereignis-** - Block, ein `wiederhole fortlaufend`{:class="block3control"} **Steuerungs** - Block und einen `Gehe 10 Schritte`{:class=“block3motion"} **Bewegungs-** Block in das **Figuren-Panel** wie folgt:
 
 ```blocks3
     Wenn die grüne Flagge angeklickt
     wiederhole fortlaufend 
-       gehe (10) er Schritt
+       gehe (10)  Schritte
     ende
 ```
 
@@ -21,9 +21,9 @@ Drag a `when green flag clicked`{:class="block3events"} **Event** block, a `fore
 
 ## Titel: Was macht der neue Block?
 
-**Control** blocks make your program do things a certain number of times, or under certain conditions.
+**Steuerungs** Blöcke bewirken, dass dein Programm eine bestimmte Anzahl wiederholt oder unter bestimmten Bedingungen ausgeführt wird.
 
-Here, the fish does whatever is inside the `forever`{:class="block3control"} block over and over again on a loop, forever. So once it has done the last thing (block) inside the `forever`{:class="block3control"} block, it starts over at the top and does everything again, and so on.
+Hier macht der Fisch, was immer in dem `wiederhole fortlaufend`{:class="block3control"} - Block steht immer und immer wieder in einer Schleife. So once it has done the last thing (block) inside the `forever`{:class="block3control"} block, it starts over at the top and does everything again, and so on.
 
 \--- /collapse \---
 
