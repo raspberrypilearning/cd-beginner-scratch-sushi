@@ -9,10 +9,10 @@ Select your fish sprite.
 Drag a `when green flag clicked`{:class="block3events"} **Event** block, a `forever`{:class="block3control"} **Control** block, and a `move 10 steps`{:class="block3motion"} **Motion** block into the **sprite panel**, like this:
 
 ```blocks3
-    când se dă click pe stegulețul verde
-la infinit 
-  mergi (10) pași
-end
+    when green flag clicked
+    forever
+        move (10) steps
+    end
 ```
 
 \--- /task \---
@@ -46,11 +46,11 @@ First, you need to slow the fish down. That’s actually pretty easy, you just n
 Add the `wait`{:class="block3control"} block into your code inside the `forever`{:class="block3control"} block, and change the number to `0.5`, like this:
 
 ```blocks3
-    când se dă click pe stegulețul verde
-la infinit 
-  mergi (10) pași
-  + așteaptă (0.5) secunde
-end
+    when green flag clicked
+    forever
+        move (10) steps
++      wait (0.5) secs
+    end
 ```
 
 \--- /task \---
@@ -88,13 +88,13 @@ Of course, this will lead to an upside-down fish, so you need a `set rotation st
 Update your code to set the rotation style of the fish to `left-right`{:class="block3motion"} at the beginning of the sprite's script:
 
 ```blocks3
-    când se dă click pe stegulețul verde
-+    setează stilul de rotație [stânga-dreapta v]
-la infinit 
-  mergi (10) pași
-  așteaptă (0.5) secunde
-  dacă atinge marginea, ricoșează
-end
+    when green flag clicked
++    set rotation style [left-right v]
+    forever
+        move (10) steps
+        wait (0.5) secs
+        if on edge, bounce
+    end
 ```
 
 \--- /task \---
@@ -108,14 +108,14 @@ You already know from a previous step how to make a sprite turn, so start there.
 Add a turn into the fish's swimming instructions, and click the green flag.
 
 ```blocks3
-    când se dă click pe stegulețul verde
-setează stilul de rotație [stânga-dreapta v]
-la infinit 
-  mergi (10) pași
-+        rotește la dreapta (10) grade
-  așteaptă (0.5) secunde
-  dacă atinge marginea, ricoșează
-end
+    when green flag clicked
+    set rotation style [left-right v]
+    forever
+        move (10) steps
++        turn cw (10) degrees
+        wait (0.5) secs
+        if on edge, bounce
+    end
 ```
 
 \--- /task \---
@@ -143,13 +143,13 @@ It’s better, but there’s still too much of a pattern. It needs to be more ra
 Find the `pick random`{:class="block3operators"} **operator** block, and plug it into the `turn degrees`{:class="block3motion"} **Motion** block by clicking it and dragging it into the field where you set the number of degrees.
 
 ```blocks3
-    când se dă click pe stegulețul verde
-    setează stilul de rotație [stânga-dreapta v]
-    la infinit 
-        mergi (10) pași
-+        rotește la dreapta (alege aleator între (1) și (10)) grade
-        așteaptă (0.5) secunde
-        dacă atinge marginea, ricoșează
+    when green flag clicked
+    set rotation style [left-right v]
+    forever 
+        move (10) steps
++        turn cw (pick random (1) to (10)) degrees
+        wait (0.5) secs
+        if on edge, bounce
     end
 ```
 
