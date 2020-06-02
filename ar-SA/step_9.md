@@ -18,7 +18,7 @@
 
 ![يتم عرض متغير النتيجة في المنصة](images/النتيجةVariableStage.png)
 
----/task---
+--- /task ---
 
 --- collapse ---
 ---
