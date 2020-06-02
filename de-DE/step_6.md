@@ -22,9 +22,9 @@ Großartig! Später fügst du Code hinzu, damit sich der Fisch ohne Hilfe des Sp
 
 ## Titel: Was ist mit dem rückwärts schwimmenden Hai?
 
-Es sieht ein bisschen komisch aus, wenn der Hai nach hinten schwimmt. So wie du dich normalerweise umdrehst anstatt rückwärts zu gehen, würde sich der Hai eher umdrehen als rückwärts zu schwimmen. Zum Glück hat Scratch dafür einen Block!
+Es sieht ein bisschen komisch aus, wenn der Hai nach rückwärts schwimmt. So wie du dich normalerweise umdrehst anstatt rückwärts zu gehen, würde sich der Hai eher umdrehen als rückwärts zu schwimmen. Zum Glück hat Scratch dafür einen Block!
 
-Mit dem `Drehe in Richtung`{:class="block3motion"} kannst du die Richtung auswählen, in die deine Figur zeigt. Du findest es im Bereich **Bewegung** Blöcke. Du kannst eine beliebige Anzahl von Grad eingeben, um die Figur beliebig auszurichten.
+Mit dem `Drehe in Richtung`{:class="block3motion"} kannst du die Richtung auswählen, in die deine Figur zeigt. Du findest es im Bereich **Bewegung** Blöcke. Du kannst einen beliebigen Wert in Grad eingeben, um die Figur auszurichten, wie du möchtest.
 
 \--- /collapse \---
 
