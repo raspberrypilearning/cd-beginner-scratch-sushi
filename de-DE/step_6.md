@@ -10,7 +10,7 @@ Klicke auf die Schaltfläche **Neue Figur**, und wähle auf dem Bildschirm einen
 
 Wenn dein Fisch im Vergleich zu deinem Hai ein bisschen groß ist, kannst du mit der Größensteuerung beide Figuren auf die richtige Größe bringen!
 
-![Kontrolle der Figuren-Größe](images/sprites2.png)
+![Einstellung der Figuren-Größe](images/sprites2.png)
 
 Ändere die Zahl in der Größensteuerung, um die Figur größer oder kleiner zu machen.
 
@@ -52,7 +52,7 @@ Nimm ein paar Kopien des `setze Richtung auf`{:class="block3motion"} - Blocks au
 
 Wenn du versuchst, den Hai jetzt zu verschieben, nachdem du den `Setze Richtung auf`{:class="block3motion"} hinzugefügt hast, stellst du möglicherweise etwas ungewöhnliches fest. Der Hai dreht sich möglicherweise nicht ganz richtig!
 
-![Upside down shark](images/spritesUpsideDown.png)
+![Umgedrehter Hai](images/spritesUpsideDown.png)
 
 \--- /task \---
 
