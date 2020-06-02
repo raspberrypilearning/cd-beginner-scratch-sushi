@@ -33,15 +33,15 @@ Blocul `orientează-te în direcția`{:class="block3motion"} îți permite să a
 Grab a couple of copies of the `point in direction`{:class="block3motion"} block from the **Motion** list and connect them to your shark's code, like this:
 
 ```blocks3
-    când tasta [săgeată stânga v] este apăsată
-+    orientează-te în direcția (-90)
-mergi (10) pași
+    when [left arrow v] key pressed
++     point in direction (-90)
+    move (10) steps
 ```
 
 ```blocks3
-    când tasta [săgeată dreapta v] este apăsată
-+    orientează-te în direcția (90)
-mergi (10) pași
+    when [right arrow v] key pressed
++     point in direction (90)
+    move (10) steps
 ```
 
 \--- /task \---
@@ -73,9 +73,9 @@ Look in the **Motion** category for the block `set rotation style`{:class="block
 Add the block to your shark reset code from earlier, and set the rotation style to `left-right`{:class="block3motion"}, like this:
 
 ```blocks3
-    când se dă click pe stegulețul verde
-+    setează stilul de rotație [stânga-dreapta v]
-mergi la x (0) y: (0)
+    when green flag clicked
++     set rotation style [left-right v]
+    go to x: (0) y: (0)
 ```
 
 \--- /task \---
