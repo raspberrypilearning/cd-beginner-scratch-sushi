@@ -15,7 +15,7 @@ As you’ve probably guessed, you’re going to need **Event** and **Motion** bl
 This time, look for this block and drag it into the current sprite panel:
 
 ```blocks3
-    când tasta [spațiu v] este apăsată
+    when [space v] key pressed
 ```
 
 Click the little arrow (▼) beside `space`. You will see a list of all your keyboard keys that you can pick from.
@@ -29,21 +29,21 @@ You’re going to need four of the `when key pressed`{:class="block3events"} blo
 To make your shark move, connect these blocks to **Motion** blocks like this:
 
 ```blocks3
-    când tasta [săgeată stânga v] este apăsată
-    mergi (-10) pași
+    when [left arrow v] key pressed
+    move (-10) steps
 ```
 
 ```blocks3
-    când tasta [săgeată dreapta v] este apăsată
-    mergi (10) pași
+    when [right arrow v] key pressed
+    move (10) steps
 ```
 
 ```blocks3
-    când tasta [săgeată în sus v] este apăsată
+    when [up arrow v] key pressed
 ```
 
 ```blocks3
-    când tasta [săgeată jos v] este apăsată
+    when [down arrow v] key pressed
 ```
 
 \--- /task \---
@@ -63,13 +63,13 @@ Now your shark moves back and forwards, which is pretty cool, but it doesn’t m
 Grab two `change y by`{:class="block3motion"} blocks, and update your code like this:
 
 ```blocks3
-    când tasta [săgeată în sus v] este apăsată
-+    modifică y cu (10)
+    when [up arrow v] key pressed
++     change y by (10)
 ```
 
 ```blocks3
-    când tasta [săgeată jos v] este apăsată
-+    modifică y cu (-10)
+    when [down arrow v] key pressed
++     change y by (-10)
 ```
 
 \--- /task \---
@@ -109,14 +109,14 @@ So all you need is an **Event** block for that green flag, and the **go to** blo
 Drag a `when green flag clicked`{:class="block3events"} **Event** block onto the current sprite panel.
 
 ```blocks3
-    când se dă click pe stegulețul verde
+    when green flag clicked
 ```
 
 Then find the `go to`{:class="block3motion"} **Motion** block, and attach it to your flag **Event** block.
 
 ```blocks3
-    când se dă click pe stegulețul verde
-+    mergi la x (0) y: (0)
+    when green flag clicked
++     go to x: (0) y: (0)
 ```
 
 Set the both the `x` and the `y` coordinate to `0` in the `go to`{:class="block3motion"} block if they are not already `0`.
