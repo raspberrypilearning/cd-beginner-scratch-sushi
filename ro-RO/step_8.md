@@ -6,9 +6,9 @@ Rechinul se mișcă, peștele înoată, dar nu interacționează: dacă peștele
 
 \--- task \---
 
-Add the `if...then`{:class="block3control"} **Control** block inside the `forever`{:class="block3control"} loop of the fish sprite, below the `if on edge bounce`{:class="block3motion"} block.
+Adaugă blocul `dacă... atunci`{:class="block3control"} de tip **Control** în interiorul buclei `la infinit`{:class="block3control"} dedesubtul blocului `dacă atinge marginea, ricoșează`{:class="block3motion"} în codul peștelui.
 
-Drag the `touching...`{:class="block3sensing"} block into the space at the top of the `if...then`{:class="block3control"} block, and click the little triangle to select the shark sprite's name. If you haven’t changed it, it'll be 'Sprite1'.
+Trage blocul `atinge...`{:class="block3sensing"} în spațiul din partea de sus a blocului `dacă...atunci`{:class="block3control"} și apasă pe triunghiul mic pentru a selecta numele personajului rechin. Dacă nu l-ai schimbat, va fi „Personaj1”.
 
 ```blocks3
     when green flag clicked
@@ -28,25 +28,25 @@ Drag the `touching...`{:class="block3sensing"} block into the space at the top o
 
 ## title: Cum funcționează?
 
-The `if...then`{:class="block3control"} **Control** block needs to be given a `True/False` value.
+Blocul `dacă...atunci`{:class="block3control"} de tip **Control** trebuie să primească o valoare `Adevărat/Fals`.
 
-**Sensing** blocks collect information, like where the sprite is, what it’s touching, etc. You're using this block:
+Blocurile **Detectare** colectează informații, cum ar fi în unde se află un personaj, ce lucruri atinge etc. Tu folosești acest bloc:
 
 ```blocks3
     <atinge [Personaj1 v]?>
 ```
 
-From this block's pointy ends, you can tell it’s going to give you the `True/False` value that the `if...then`{:class="block3control"} block needs.
+Dacă te uiți la capetele ascuțite ale acestui bloc, îți poți da seama că va returna valoarea `Adevărat/Fals` de care are nevoie blocul `dacă...atunci`{:class="block3control"}.
 
 \--- /collapse \---
 
-Of course, you’ve just added an `if...then`{:class="block3control"} block without adding anything for the 'then' part. So at the moment your script is checking whether the fish sprite is touching the shark sprite, but it's not making anything happen in response.
+Desigur, tocmai ai adăugat un bloc `dacă...atunci`{:class="block3control"} fără a adăuga nimic la partea „atunci”. Deci, în acest moment, scriptul tău verifică dacă personajul pește atinge personajul rechin, dar nu se va întâmpla nimic dacă acesta este cazul.
 
-You can make the fish disappear, as if the shark ate it, by using the `hide`{:class="block3looks"} block.
+Poți face peștele să dispară, ca ca și cum rechinul l-ar fi mâncat, folosind blocul `ascunde`{:class="block3looks"}.
 
 \--- task \---
 
-Find the `hide`{:class="block3looks"} block in the **Looks** list, and put it inside the `if...then`{:class="block3control"} block, like so:
+Caută blocul `ascunde`{:class="block3looks"} în lista **Aspect** și pune-l în interiorul blocului `dacă...atunci`{:class="block3control"}, astfel:
 
 ```blocks3
     if <touching [Sprite1 v] ?> then
@@ -56,11 +56,11 @@ Find the `hide`{:class="block3looks"} block in the **Looks** list, and put it in
 
 \--- /task \---
 
-Now once the shark catches the fish, the fish disappears for good. That’s not great.
+Acum, după ce rechinul prinde peștele, peștele dispare pentru totdeauna. Asta nu e prea grozav.
 
 \--- task \---
 
-Put the `show`{:class="block3looks"} block from **Looks** in at the very start of the fish code, so you can reset the game.
+Pune blocul `arată`{:class="block3looks"} de la **Aspect** chiar la începutul codului peștelui, pentru a putea reseta jocul.
 
 ```blocks3
     when green flag clicked
@@ -71,11 +71,11 @@ Put the `show`{:class="block3looks"} block from **Looks** in at the very start o
 
 \--- /task \---
 
-That's already better, but you don’t want the player to have to restart the game every time they catch a single fish!
+Arată deja mai bine, dar nu vrei ca jucătorul să fie nevoit să repornească jocul de fiecare dată când prinde un singur pește!
 
 \--- task \---
 
-Update the code inside your `if...then`{:class="block3control"} block to look like this:
+Modifică codul din blocul `dacă...atunci`{:class="block3control"} să arate astfel:
 
 ```blocks3
     if on edge, bounce
@@ -93,10 +93,10 @@ Update the code inside your `if...then`{:class="block3control"} block to look li
 
 ## title: Cum funcționează?
 
-You are being clever here: when the fish is hidden, it waits, moves, and then shows up again.
+Faci un lucru inteligent: când peștele este ascuns, așteaptă, se mișcă și apoi apare din nou.
 
-It looks like lots of fish keep appearing, but it’s that one sprite moving around!
+Se pare că o mulțime de pești continuă să apară, dar este un singur personaj care se tot mișcă!
 
 \--- /collapse \---
 
-That’s a game! But there’s no way to keep score yet, or to win. You can fix that too — on the next card!
+Ai făcut un joc! Dar încă nu se ține scorul și nici nu se poate câștiga. Poți rezolva și asta — pe următorul card!
