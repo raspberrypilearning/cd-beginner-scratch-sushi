@@ -4,44 +4,44 @@ Scratch ha una libreria di sfondi e sprite da usare per rendere il tuo progetto 
 
 \--- task \---
 
-Select the Stage.
+Seleziona lo stage.
 
-![Selecting the stage](images/looksSelectStage.png)
+![Selezione dello stage](images/looksSelectStage.png)
 
-Click on **Backdrops**.
+Clicca su **Sfondi**.
 
-![The Backdrops tab](images/looksBackdrops.png)
+![La scheda Sfondi](images/looksBackdrops.png)
 
-Click the **Choose backdrop from library** icon.
+Fai clic sull'icona **Scegli uno sfondo dalla libreria**.
 
-![The Choose backdrop icon](images/looksChooseBg.png)
+![Quindi l'icona Scegli uno sfondo](images/looksChooseBg.png)
 
-Then pick your favourite underwater background!
+Quindi scegli il tuo sfondo subacqueo preferito!
 
-![An underwater scene](images/looksUnderwater.png)
+![Una scena subacquea](images/looksUnderwater.png)
 
 \--- /task \---
 
-Great! Of course, now you have a cat underwater, and cats aren't usually big fans of that. But you can fix that, because you can turn the cat into a shark!
+Grandioso! Certo, ora hai un gatto sott'acqua, e di solito i gatti non ne sono grandi amanti. Ma puoi aggiustarlo, perché puoi trasformare il gatto in uno squalo!
 
 \--- task \---
 
-First, select the cat sprite and click on the **Costumes** tab.
+Per prima cosa, seleziona lo sprite del gatto e clicca sulla scheda **Costumi**.
 
 ![](images/cool2.png)
 
-Then, click on **Choose costume from Library**
+Quindi, fai clic su **Scegli un costume dalla libreria**
 
 ![](images/cool3.png)
 
-Select this shark image and click **OK**.
+Seleziona questa immagine di squalo e clicca **OK**.
 
-![The shark costume](images/looksShark.png)
+![Il costume dello squalo](images/looksShark.png)
 
-Now remove the cat costumes by selecting each of them and clicking on the **x**.
+Ora rimuovi il costume del gatto selezionandolo e facendo clic su **x**.
 
 ![](images/coolDeleteCostumes.png)
 
 \--- /task \---
 
-Now you have a shark – excellent!
+Ora hai uno squalo - eccellente!
