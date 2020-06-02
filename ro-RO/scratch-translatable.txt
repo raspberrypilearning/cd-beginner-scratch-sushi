@@ -1,5 +1,5 @@
-Hello!
+Salut!
 
-score
+scor
 
-hello world
+salut, lume
