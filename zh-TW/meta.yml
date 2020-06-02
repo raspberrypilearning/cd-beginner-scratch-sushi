@@ -1,0 +1,28 @@
+---
+title: 深海壽司
+hero_image: images/banner.png
+description: 在您的第一個Scratch程序中創建一個有趣的遊戲！
+theme: orange #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
+duration: 2
+listed: true
+ingredient: false
+copyedit: true
+curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
+interests: animals, humour, outdoors, games
+technologies: scratch
+site_areas: coderdojo
+software: scratch
+version: 4.0.0
+last_tested: 2017-01-01
+steps:
+  - title: 介紹
+  - title: 開始設置
+  - title: 添加和刪除代碼積木
+  - title: 設定場景
+  - title: 四處移動
+  - title: 所有的角色
+  - title: 遙控的魚
+  - title: 釣魚
+  - title: 紀錄得分
+  - title: "挑戰：贏得比賽"
+    challenge: true
