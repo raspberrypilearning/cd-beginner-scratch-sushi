@@ -1,5 +1,5 @@
-Hello!
+Ciao!
 
-score
+punteggio
 
-hello world
+ciao mondo
