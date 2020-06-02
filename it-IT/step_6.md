@@ -30,7 +30,7 @@ Il blocco `punta in direzione`{:class="block3motion"} ti consente di scegliere l
 
 \--- task \---
 
-Grab a couple of copies of the `point in direction`{:class="block3motion"} block from the **Motion** list and connect them to your shark's code, like this:
+Prendi un paio di copie del blocco `punta in direzione`{:class="block3motion"} dall'elenco **Movimento** e collegale al codice del tuo squalo, in questo modo:
 
 ```blocks3
     quando si preme il tasto [left arrow v]
@@ -48,11 +48,11 @@ fai (10) passi
 
 \--- task \---
 
-Change the number of steps in the `move`{:class="block3motion"} blocks from `-10` to `10`.
+Modifica il numero di passaggi nel blocco `fai...passi`{:class="block3motion"} da `-10` a `10`.
 
-If you try moving the shark around now after you've added the `point in direction`{:class="block3motion"} blocks, you might notice something a little strange happening. The shark may not be turning quite right!
+Se provi a muovere lo squalo ora dopo aver aggiunto il blocco `punta in direzione`{:class="block3motion"}, potresti notare qualcosa di strano. Lo squalo potrebbe non girare abbastanza bene!
 
-![Upside down shark](images/spritesUpsideDown.png)
+![Squalo sottosopra](images/spritesUpsideDown.png)
 
 \--- /task \---
 
@@ -60,17 +60,17 @@ If you try moving the shark around now after you've added the `point in directio
 
 ## title: Perché va sottosopra?
 
-The problem here is that the shark sprite started, as all sprites do, with the 'all around' **rotation style**, and what you need it to have is the 'left-right' style.
+Il problema qui è che lo sprite squalo è, come tutti gli sprite, creato con lo **stile di rotazione** 'può ruotare', mentre quello che ti serve è lo stile 'sinistra-destra'.
 
-As usual, there’s a block for that, and it’s in **Motion**!
+Come al solito, c'è un blocco per questo, ed è in **Movimento**!
 
 \--- /collapse \---
 
 \--- task \---
 
-Look in the **Motion** category for the block `set rotation style`{:class="block3motion"}.
+Cerca nella categoria **Movimento** il blocco `usa stile rotazione`{:class="block3motion"}.
 
-Add the block to your shark reset code from earlier, and set the rotation style to `left-right`{:class="block3motion"}, like this:
+Aggiungi il blocco al tuo codice di ripristino dello squali, creato poco fa, e imposta lo stile di rotazione su `sinistra-destra`{:class="block3motion"}, in questo modo:
 
 ```blocks3
     quando si clicca sulla bandiera verde
