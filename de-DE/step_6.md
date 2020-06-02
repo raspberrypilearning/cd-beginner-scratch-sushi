@@ -1,6 +1,6 @@
 ## Alle Figuren
 
-Jetzt hast du einen Hai, den du mit den Pfeiltasten bewegen kannst. Nett! Zeit, ein paar Fische hinzuzufügen, die er fangen kann.
+Jetzt hast du einen Hai, den du mit den Pfeiltasten bewegen kannst. Klasse! Zeit, ein paar Fische hinzuzufügen, die er fangen kann.
 
 \--- task \---
 
