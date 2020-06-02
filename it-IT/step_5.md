@@ -4,29 +4,29 @@ In questo momento il tuo squalo si muove in circolo, e sarebbe molto più divert
 
 \--- task \---
 
-Start by deleting all code that you have for the shark.
+Inizia eliminando tutto il codice che hai per lo squalo.
 
 \--- /task \---
 
-As you’ve probably guessed, you’re going to need **Event** and **Motion** blocks again!
+Come probabilmente hai intuito, avrai di nuovo bisogno di blocchi **Situazioni** e **Movimento**!
 
 \--- task \---
 
-This time, look for this block and drag it into the current sprite panel:
+Questa volta, cerca questo blocco e trascinalo nel pannello dello sprite corrente:
 
 ```blocks3
     quando si preme il tasto [space v]
 ```
 
-Click the little arrow (▼) beside `space`. You will see a list of all your keyboard keys that you can pick from.
+Fare clic sulla piccola freccia (▼) accanto alla parola `spazio`. Verrà visualizzato un elenco di tutti i tasti della tastiera tra cui è possibile scegliere.
 
 \--- /task \---
 
-You’re going to need four of the `when key pressed`{:class="block3events"} blocks — one for each of your arrow keys.
+Avrai bisogno di quattro blocchi `quando si preme il tasto`{:class="block3events"} - uno per ciascuno dei tasti freccia.
 
 \--- task \---
 
-To make your shark move, connect these blocks to **Motion** blocks like this:
+Per far muovere il tuo squalo, collega questi altri blocchi al blocco **Movimento** come qui sotto illlustrato:
 
 ```blocks3
     quando si preme il tasto [left arrow v]
@@ -48,19 +48,19 @@ fai (10) passi
 
 \--- /task \---
 
-**Note**: `-10` means 'go back 10 steps'.
+**Nota**: `-10` significa 'indietro 10 passi'.
 
 \--- task \---
 
-Now click the green flag to test out your code.
+Ora fai clic sulla bandiera verde per testare il tuo codice.
 
 \--- /task \---
 
-Now your shark moves back and forwards, which is pretty cool, but it doesn’t move up or down. Also, if you look through the **Motion** blocks, you’ll see there are no blocks for 'up' or 'down'. There are a whole bunch of them related to **x** and **y** coordinates though — let's try those!
+Ora il tuo squalo si muove avanti e indietro, il che è abbastanza bello, ma non si muove su o giù. Inoltre, se guardi attraverso i blocchi **Movimento**, vedrai che non ci sono blocchi per "su" o "giù". Ce ne sono molti relativi alle coordinate **x** e **y** però - proviamo con quelli!
 
 \--- task \---
 
-Grab two `change y by`{:class="block3motion"} blocks, and update your code like this:
+Prendi due blocchi `cambia y di`{:class="block3motion"} e aggiorna il tuo codice in questo modo:
 
 ```blocks3
     quando si preme il tasto [up arrow v]
@@ -74,17 +74,17 @@ Grab two `change y by`{:class="block3motion"} blocks, and update your code like 
 
 \--- /task \---
 
-Now when you press the arrows keys, the shark moves all around the stage!
+Ora quando premi i tasti freccia, lo squalo si muove per tutta la scena!
 
 ## \--- collapse \---
 
 ## title: Come funzionano le coordinate x e y?
 
-To talk about the positions of objects, such as sprites, we often use x- and y-coordinates. The **x-axis** of the Stage coordinate system runs from **left to right**, and the **y-axis** runs from **bottom to top**.
+Per parlare delle posizioni degli oggetti, come gli sprite, usiamo spesso le coordinate X e Y. L'**asse x** del sistema di coordinate va da **sinistra a destra** mentre l'**asse y** dal **basso verso l'alto**.
 
 ![](images/moving3.png)
 
-A sprite can be located by the coordinates of its centre, for example `(15, -27)`, where `15` is its position along the x-axis , and `-27` its position along the y-axis.
+Uno sprite può essere individuato dalle coordinate del suo centro, ad esempio `(15, -27)`, dove `15` è la sua posizione lungo l'asse x e `-27` la sua posizione lungo l'asse y.
 
 + Per avere un'idea di come funziona, seleziona uno sprite e usa i controlli **x** e **y** per spostarlo sullo stage impostando valori diversi per le coordinate.
 
@@ -96,35 +96,35 @@ A sprite can be located by the coordinates of its centre, for example `(15, -27)
 
 ### Riavvio del gioco
 
-The shark moves all over the screen now, but imagine this is a game: how do you restart it, and what happens at the start of each game?
+Lo squalo si muove su tutto lo schermo ora, ma immagina che questo sia un gioco: come lo riavvii e cosa succede all'inizio di ogni partita?
 
-You need to get the shark to its original location when the player starts the game. They'll start this game by clicking on the green flag, so you need to change the shark sprite's x- and y-coordinates when that happens.
+Devi portare lo squalo nella sua posizione originale quando il giocatore inizia la partita. Avvieranno questo gioco facendo clic sulla bandiera verde, quindi è necessario modificare le coordinate x e y dello sprite squalo quando ciò accade.
 
-That’s actually pretty easy! The centre of the stage is `(0, 0)` in `(x, y)` coordinates.
+Questo è in realtà piuttosto facile! Il centro dello stage è `(0, 0)` in coordinate `(x, y)`.
 
-So all you need is an **Event** block for that green flag, and the **go to** block from **Motion**.
+Quindi tutto ciò che serve è un blocco **Situazioni** per la bandiera verde, e un blocco **vai a** da **Movimento**.
 
 \--- task \---
 
-Drag a `when green flag clicked`{:class="block3events"} **Event** block onto the current sprite panel.
+Trascina un `quando si clicca sulla bandiera verde`{:class="block3events"} dall'elenco **Situazioni** sul pannello dello sprite corrente.
 
 ```blocks3
     quando si clicca sulla bandiera verde
 ```
 
-Then find the `go to`{:class="block3motion"} **Motion** block, and attach it to your flag **Event** block.
+Quindi trova il `vai a`{:class="block3motion"} **dall'elenco Movimento** e collegalo al tuo blocco bandiera preso da **Situazioni**.
 
 ```blocks3
     quando si clicca sulla bandiera verde
 + vai a x: (0) y: (0)
 ```
 
-Set the both the `x` and the `y` coordinate to `0` in the `go to`{:class="block3motion"} block if they are not already `0`.
+Imposta la coordinata `x` e `y` al valore `0` nel blocco `vai a`{:class="block3motion"} se già non valgono `0`.
 
 \--- /task \---
 
 \--- task \---
 
-Now click the green flag: you should see the shark return to the centre of the stage!
+Ora fai clic sulla bandiera verde: dovresti vedere lo squalo tornare al centro della scena!
 
 \--- /task \---
