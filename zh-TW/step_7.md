@@ -6,7 +6,7 @@
 
 選擇您要的魚。
 
-拖曳一個`當綠色旗標被點擊`{:class=“block3events”} **事件**積木、一個`重複無限次` {:class=“block3control”}**控制**積木，還有一個`移動10點`{:class=“block3motion”}**動作**積木到**角色面板**中，像這樣：
+拖曳一個`當綠色旗標被點擊`{:class="block3events"} **事件**積木、一個`重複無限次`{:class="block3control"}**控制**積木，還有一個`移動10點`{:class="block3motion"}**動作**積木到**角色面板**中，像這樣：
 
 ```blocks3
     when green flag clicked
@@ -24,7 +24,7 @@ title：新的積木有什麼功能？
 
 **控制**積木使您的程序能執行特定次數或在特定條件下運行。
 
-在這裡，魚在`重複無限次`{:class=“block3control”}積木內一次又一次地一直重複做一樣的事情。 所以在`重複無限次` {:class=“block3control”}積木內，一旦完成最後一件事(積木)，它就會從頂部再重新執行一次，依此類推。
+在這裡，魚在`重複無限次`{:class="block3control"}積木內一次又一次地一直重複做一樣的事情。 所以在`重複無限次`{:class="block3control"}積木內，一旦完成最後一件事(積木)，它就會從頂部再重新執行一次，依此類推。
 
 --- /collapse ---
 
@@ -44,7 +44,7 @@ title：新的積木有什麼功能？
 
 --- task ---
 
-添加`等待` {:class=“block3control”}積木到`重複無限次`{:class=“block3control”}積木中，並將數字更改為`0.5`，像這樣：
+添加`等待`{:class="block3control"}積木到`重複無限次`{:class="block3control"}積木中，並將數字更改為`0.5`，像這樣：
 
 ```blocks3
     when green flag clicked
@@ -61,9 +61,9 @@ title：新的積木有什麼功能？
 title：進行調整
 ---
 
-您在`等待` {:class=“block3control”}積木中設置的數字，表示你想讓魚等待多少**秒**。 `0.5`表示一秒的一半。
+您在`等待`{:class="block3control"}積木中設置的數字，表示你想讓魚等待多少**秒**。 `0.5`表示一秒的一半。
 
-您可以測試不同的值，看看哪個最適合遊戲。 請記住，您也可以更改`移動`{:class=“block3motion”}積木中的步數！
+您可以測試不同的值，看看哪個最適合遊戲。 請記住，您也可以更改`移動`{:class="block3motion"}積木中的步數！
 
 --- /collapse ---
 
@@ -71,7 +71,7 @@ title：進行調整
 
 --- task ---
 
-請找到`碰到邊緣就反彈`{:class=“block3motion”}積木，並把它加在`等待`{:class=“block3control”}積木後面。
+請找到`碰到邊緣就反彈`{:class="block3motion"}積木，並把它加在`等待`{:class="block3control"}積木後面。
 
 --- /task ---
 
@@ -79,15 +79,15 @@ title：進行調整
 ---
 title：新的積木有什麼功能？
 ---
-`碰到邊緣就反彈`{:class=“block3motion”}積木會檢查角色是否接觸到舞台的邊緣，如果是，則會適當地向左，向右，向上或向下旋轉。
+`碰到邊緣就反彈`{:class="block3motion"}積木會檢查角色是否接觸到舞台的邊緣，如果是，則會適當地向左，向右，向上或向下旋轉。
 
 --- /collapse ---
 
-當然，這可能導致出現顛倒的魚，因此您需要再次使用`迴轉方式設為`{:class=“block3motion”}積木。
+當然，這可能導致出現顛倒的魚，因此您需要再次使用`迴轉方式設為`{:class="block3motion"}積木。
 
 --- task ---
 
-更新您的代碼，在角色腳本的開頭將魚的迴轉方式設置為`左-右`{:class=“block3motion”}：
+更新您的代碼，在角色腳本的開頭將魚的迴轉方式設置為`左-右`{:class="block3motion"}：
 
 ```blocks3
     when green flag clicked
@@ -143,7 +143,7 @@ title：什麼是運算符號？
 
 --- task ---
 
-找到`隨機取數`{:class=“block3operators”}**運算符號**積木，然後點擊並拖曳到`旋轉` {:class=“block3motion”}**動作**積木中設定度數的地方。
+找到`隨機取數`{:class="block3operators"}**運算符號**積木，然後點擊並拖曳到`旋轉`{:class="block3motion"}**動作**積木中設定度數的地方。
 
 ```blocks3
     when green flag clicked

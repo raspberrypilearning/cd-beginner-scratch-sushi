@@ -77,7 +77,7 @@ title：當前的角色是什麼？
 
 在角色列表中，點擊Scratch貓。 現在貓是當前角色了。
 
-在代碼積木面板中選擇**事件**類別，點擊`當旗幟被點擊`{:class=“block3events”}積木，並將其拖到當前角色面板中。
+在代碼積木面板中選擇**事件**類別，點擊`當旗幟被點擊`{:class="block3events"}積木，並將其拖到當前角色面板中。
 
 ```blocks3
     when green flag clicked

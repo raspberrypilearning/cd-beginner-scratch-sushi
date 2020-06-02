@@ -1,4 +1,4 @@
-## 釣魚！
+## 釣魚
 
 鯊魚移動了，魚游泳了，但是卻沒有相互作用：如果魚游到鯊魚的嘴裡，什麼也不會發生。 是時候改變了！
 
@@ -6,9 +6,9 @@
 
 --- task ---
 
-在魚的`重複無限次`{:class=“block3control”}迴圈內，`碰到邊緣就反彈`{:class=“block3motion”}積木的下面添加`如果...那麼`{:class=“block3control”}**控制**積木。
+在魚的`重複無限次`{:class="block3control"}迴圈內，`碰到邊緣就反彈`{:class="block3motion"}積木的下面添加`如果...那麼`{:class="block3control"}**控制**積木。
 
-拖曳`碰到... `{:class=“block3sensing”}積木到`如果...那麼`{:class=“block3control”}積木上面的空格處，然後點擊小三角形並選擇鯊魚的名稱。 如果您還沒改過名稱，則為“ 角色1”。
+拖曳`碰到... `{:class="block3sensing"}積木到`如果...那麼`{:class="block3control"}積木上面的空格處，然後點擊小三角形並選擇鯊魚的名稱。 如果您還沒改過名稱，則為" 角色1"。
 
 ```blocks3
     when green flag clicked
@@ -28,7 +28,7 @@
 ---
 title：它是怎麼運作的？
 ---
-`如果...那麼`{:class=“block3control”}**控制**積木需要給它`對/錯`的值。
+`如果...那麼`{:class="block3control"}**控制**積木需要給它`對/錯`的值。
 
 **偵測**積木會收集資訊，例如角色的位置、它碰到什麼之類的。 您正在使用以下代碼積木：
 
@@ -36,17 +36,17 @@ title：它是怎麼運作的？
     <touching [Sprite1 v] ?>
 ```
 
-由於這塊積木是有角的，您可以知道它會給您`對/錯`的值，`如果...那麼`{:class=“block3control"}積木也需要這樣的值。
+由於這塊積木是有角的，您可以知道它會給您`對/錯`的值，`如果...那麼`{:class="block3control"}積木也需要這樣的值。
 
 --- /collapse ---
 
-當然，您剛剛添加了`如果...那麼`{:class=“block3control”}積木，但是還沒在'那麼'部分添加任何東西。 所以現在您的腳本只會檢查魚是否碰到鯊魚，但還沒有為此做出任何反應。
+當然，您剛剛添加了`如果...那麼`{:class="block3control"}積木，但是還沒在'那麼'部分添加任何東西。 所以現在您的腳本只會檢查魚是否碰到鯊魚，但還沒有為此做出任何反應。
 
-您可以在鯊魚吃了它之後，使用`隱藏`{:class=“block3looks”}積木讓魚變不見。
+您可以在鯊魚吃了它之後，使用`隱藏`{:class="block3looks"}積木讓魚變不見。
 
 --- task ---
 
-在**外觀**清單中找到`隱藏`{:class=“block3looks”}積木，然後將它放在`如果...那麼`{:class=“block3control”}積木內，如下所示：
+在**外觀**清單中找到`隱藏`{:class="block3looks"}積木，然後將它放在`如果...那麼`{:class="block3control"}積木內，如下所示：
 
 ```blocks3
     if <touching [Sprite1 v] ?> then
@@ -60,7 +60,7 @@ title：它是怎麼運作的？
 
 --- task ---
 
-把**外觀**裡的`顯示`{:class=“block3looks”}積木放到代碼的最前面，這樣您才可以重置遊戲。
+把**外觀**裡的`顯示`{:class="block3looks"}積木放到代碼的最前面，這樣您才可以重置遊戲。
 
 ```blocks3
     when green flag clicked
@@ -75,7 +75,7 @@ title：它是怎麼運作的？
 
 --- task ---
 
-調整一下`如果...那麼`{:class=“block3control”}積木裡面的代碼，看起來像這樣：
+調整一下`如果...那麼`{:class="block3control"}積木裡面的代碼，看起來像這樣：
 
 ```blocks3
     if on edge, bounce
