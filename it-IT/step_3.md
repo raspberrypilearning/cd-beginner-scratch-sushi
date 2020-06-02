@@ -26,7 +26,7 @@ Se vuoi vedere cosa fa un blocco, puoi fare doppio clic su di esso per farlo fun
 
 \--- task \---
 
-Try double-clicking on some of the blocks to see what they do.
+Prova a fare doppio clic su alcuni dei blocchi per vedere cosa fanno.
 
 \--- /task \---
 
@@ -34,15 +34,15 @@ Try double-clicking on some of the blocks to see what they do.
 
 ## title: Eseguire il codice
 
-Usually, you want your code to run automatically whenever something specific happens. This is why many of your programs will start with a block from the **Events** category, most often this one:
+Di solito, vuoi che il tuo codice venga eseguito automaticamente ogni volta che accade qualcosa di specifico. Questo è il motivo per cui molti dei tuoi programmi inizieranno con un blocco della categoria **Situazioni**, quasi sempre questo:
 
 ```blocks3
     quando si clicca sulla bandiera verde
 ```
 
-The code blocks connected to this block will run after the **green flag** is clicked.
+I blocchi di codice connessi a questo blocco verranno eseguiti dopo che si è fatto clic sulla **bandiera verde**.
 
-Code blocks run from top to bottom, so the order in which you snap your blocks together matters. In this example, the sprite will `say`{:class="block3looks"} `Hello!` before it will `play`{:class="block3sound"} the `meow` sound.
+I blocchi di codice vengono eseguiti dall'alto verso il basso, quindi l'ordine in cui si agganciano i blocchi è importante. In questo esempio, lo sprite `dirà`{:class = "block3looks"} `Ciao!` prima di `riprodurre`{:class = "block3sound"} il suono di `Miao`.
 
 ```blocks3
     quando si clicca sulla bandiera verde
@@ -52,25 +52,25 @@ avvia riproduzione suono [meow v]
 
 \--- /collapse \---
 
-Removing or deleting code blocks you don’t want in your program is easy! Just drag them back into the code blocks palette.
+Rimuovere o eliminare blocchi di codice che non vuoi nel tuo programma è facile! Basta trascinarli di nuovo nella tavolozza dei blocchi di codice.
 
-**Be careful:** dragging them into the code blocks pallette will delete all the blocks connected to the block you drag, so make sure to separate code blocks you want to keep from those you want to remove. If you delete some code blocks by accident and want to get them back, right-click and then click on the **undo** option to get everything back.
+**Fai attenzione:** trascinandoli sopra la tavolozza, tutti i blocchi collegati al blocco che trascini verranno cancellati, quindi assicurati di separare i blocchi di codice che vuoi tenere da quelli che vuoi rimuovere. Se si eliminano alcuni blocchi di codice per errore e si desidera ripristinarli, fare clic con il pulsante destro del mouse e quindi fare clic sull'opzione **annulla** per recuperare tutto.
 
 ![](images/code6.png)
 
 \--- task \---
 
-Try adding, deleting, and undeleting some code blocks!
+Prova ad aggiungere, eliminare e annullare l'eliminazione di alcuni blocchi di codice!
 
 \--- /task \---
 
 ### Mettere tutto insieme
 
-Now you know how to move code around and make things happen, it's time for you to create a program to make the Scratch Cat walk in a circle!
+Ora sai come spostare il codice e fare in modo che le cose accadano, è il momento per te di creare un programma per far sì che il gatto Scratch faccia il girotondo!
 
 \--- task \---
 
-Make sure you have the cat sprite selected in the sprite list, and then drag the following blocks into the sprite panel and connect them. You’ll find them in the **Events** and **Motion** lists.
+Assicurati di aver selezionato il gatto sprite nell'elenco sprite, quindi trascina i blocchi seguenti nel pannello dello sprite e collegali. Li troverai negli elenchi **Situazioni** e **Movimento**.
 
 ```blocks3
     quando si clicca sulla bandiera verde
@@ -81,19 +81,19 @@ fai [10] passi
 
 \--- task \---
 
-Now, click on the green flag above the Stage.
+Ora, clicca sulla bandiera verde sopra lo stage.
 
 ![](images/code7.png)
 
 \--- /task \---
 
-You should see the cat walking in a straight line...not exactly what you want, right?
+Dovresti vedere il gatto camminare in linea retta... non esattamente quello che vuoi, giusto?
 
-Note: If you click the flag too many times and the cat walks away, you can drag it back!
+Nota: se fai clic sulla bandiera troppe volte e il gatto si allontana, puoi trascinarlo indietro!
 
 \--- task \---
 
-Snap the turn block to the end to make the cat sprite walk in a circle. It’s in the **Motion** list too.
+Aggiungi il blocco ruota per far camminare il gatto sprite in cerchio. Anche questo è nell'elenco **Movimento**.
 
 ```blocks3
     quando si clicca sulla bandiera verde
@@ -107,7 +107,7 @@ fai [10] passi
 
 ## title: Come funziona la manovra di svolta?
 
-This block makes the sprite turn 15 degrees of the full 360 degrees that make up a circle. You can change that number, and the number of steps, by clicking on the number and typing in a new value.
+Questo blocco fa girare lo sprite di 15 gradi dei 360 gradi completi che formano un cerchio. È possibile modificare tale numero e il numero di passaggi, facendo clic sul numero e digitando un nuovo valore.
 
 ![](images/code9.png)
 
@@ -115,6 +115,6 @@ This block makes the sprite turn 15 degrees of the full 360 degrees that make up
 
 \--- task \---
 
-Now save your work!
+Ora salva il tuo lavoro!
 
 \--- /task \---
