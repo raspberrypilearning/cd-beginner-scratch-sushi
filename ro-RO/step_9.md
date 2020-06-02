@@ -37,21 +37,21 @@ From the **Variables** section, take the `set [my variable v] to [0]`{:class="bl
 ### Cod pentru rechin
 
 ```blocks3
-    când se dă click pe stegulețul verde
-+    setează [scor v] la [0]
-    setează stilul de rotație [stânga-dreapta v]
-    mergi la x (0) y: (0)
+    when green flag clicked
++    set [score v] to [0]
+    set rotation style [left-right v]
+    go to x: (0) y: (0)
 ```
 
 ### Cod pentru pește
 
 ```blocks3
-    dacă <atinge [Personaj1 v]?> atunci 
-+        schimbă [scor v] cu [1]
-        ascunde
-        așteaptă (1) secunde
-        mergi la x: (alege aleator între (-240) și (240)) y: (alege aleator între (-180) și (180))
-        arată
+    if <touching [Sprite1 v] ?> then
++        change [score v] by [1]
+        hide
+        wait (1) secs
+        go to x: (pick random (-240) to (240)) y: (pick random (-180) to (180))
+        show
     end
 ```
 
