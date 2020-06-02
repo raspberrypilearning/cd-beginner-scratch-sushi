@@ -4,9 +4,9 @@ Ok, acum este timpul să faci peștele să înoate singur. Pentru a face asta, v
 
 \--- task \---
 
-Select your fish sprite.
+Selectează-ți costumul de pește.
 
-Drag a `when green flag clicked`{:class="block3events"} **Event** block, a `forever`{:class="block3control"} **Control** block, and a `move 10 steps`{:class="block3motion"} **Motion** block into the **sprite panel**, like this:
+Trage un bloc `când se dă click pe stegulețul verde`{:class="block3events"} de la **Evenimente**, un bloc `la infinit`{:class="block3control"} de la **Control** și un bloc `mergi 10 pași`{:class="block3motion"} de la **Mișcare** în **panoul personajului**, astfel:
 
 ```blocks3
     when green flag clicked
@@ -21,21 +21,21 @@ Drag a `when green flag clicked`{:class="block3events"} **Event** block, a `fore
 
 ## title: Ce face noul bloc?
 
-**Control** blocks make your program do things a certain number of times, or under certain conditions.
+**Blocurile de control** sunt folosite pentru a face lucruri de un anumit număr de ori, sau pentru a le face doar în anumite condiții.
 
-Here, the fish does whatever is inside the `forever`{:class="block3control"} block over and over again on a loop, forever. So once it has done the last thing (block) inside the `forever`{:class="block3control"} block, it starts over at the top and does everything again, and so on.
+Aici, peștele repetă la infinit tot ce este în interiorul blocului `la infinit`{:class="block3control"}. Deci, odată ce a făcut ultimul lucru (bloc) din blocul `la infinit`{:class="block3control"}, o ia de la început și face totul din nou.
 
 \--- /collapse \---
 
 \--- task \---
 
-Now click the green flag and watch what happens!
+Acum apasă pe steagul verde și urmărește ce se întâmplă!
 
 \--- /task \---
 
-Well, that fish just crashed into the side of the Stage, and it was moving far too fast for your shark to catch.
+Ei bine, acel pește tocmai s-a izbit de marginea scenei și se mișcă prea repede pentru a îl putea prinde rechinul.
 
-First, you need to slow the fish down. That’s actually pretty easy, you just need it to wait for a little while after it moves those 10 steps. There’s a **Control** block that will help you here:
+Primul lucru pe care trebuie să îl faci este să încetinești peștele. Acest lucru este destul de ușor, trebuie doar să îl faci să aștepte puțin după ce face cei 10 pași. Există un bloc **Control** care te va ajuta cu asta:
 
 ```blocks3
     așteaptă (1) secunde
@@ -43,7 +43,7 @@ First, you need to slow the fish down. That’s actually pretty easy, you just n
 
 \--- task \---
 
-Add the `wait`{:class="block3control"} block into your code inside the `forever`{:class="block3control"} block, and change the number to `0.5`, like this:
+Adaugă blocul `așteaptă`{:class="block3control"} în codul din interiorul blocului `la infinit`{:class="block3control"} și schimbă numărul la `0.5`, astfel:
 
 ```blocks3
     when green flag clicked
@@ -59,17 +59,17 @@ Add the `wait`{:class="block3control"} block into your code inside the `forever`
 
 ## title: Ajustarea
 
-The number you set in the `wait`{:class="block3control"} block says how many **seconds** you want the fish to wait. `0.5` is half a second.
+Numărul pe care l-ai setat în blocul `așteaptă`{:class="block3control"} reprezintă câte **secunde** vrei să aștepte peștele. `0.5` este o jumătate de secundă.
 
-You can test out different values to see which is the best for the game. And remember that you can change the number of steps inside the `move`{:class="block3motion"} block too!
+Poți testa diferite valori pentru a vedea care este cea mai bună pentru joc. Și ține minte că poți schimba numărul de pași din blocul `mergi`{:class="block3motion"}!
 
 \--- /collapse \---
 
-The fish moves now, but you need it to bounce off the edge of the Stage too. Yet again, there’s a **Motion** block for this!
+Peștele se mișcă acum, dar trebuie și să ricoșeze din marginea scenei. Din nou, există un bloc **Mișcare** pentru asta!
 
 \--- task \---
 
-Find the `if on edge bounce`{:class="block3motion"} block, and add it in after the `wait`{:class="block3control"} block.
+Caută blocul `dacă atinge marginea, ricoșează`{:class="block3motion"} și adaugă-l sub blocul `așteaptă`{:class="block3control"}.
 
 \--- /task \---
 
@@ -77,15 +77,15 @@ Find the `if on edge bounce`{:class="block3motion"} block, and add it in after t
 
 ## title: Ce face noul bloc?
 
-The `if on edge bounce`{:class="block3motion"} block checks if the sprite is touching the edge of the Stage and, if it is, it turns left, right, up, or down as appropriate.
+Blocul `dacă atinge marginea, ricoșează`{:class="block3motion"} verifică dacă personajul a atins marginea Scenei și, dacă da, îl întoarce spre stânga, dreapta, sus sau jos, după caz.
 
 \--- /collapse \---
 
-Of course, this will lead to an upside-down fish, so you need a `set rotation style`{:class="block3motion"} block again.
+Bineînțeles, acest lucru va face ca peștele să ajungă cu capul în jos, deci ai nevoie de un bloc `setează stilul de rotație`{:class="block3motion"} din nou.
 
 \--- task \---
 
-Update your code to set the rotation style of the fish to `left-right`{:class="block3motion"} at the beginning of the sprite's script:
+Modifică-ți codul să seteze stilul de rotație al peștelui la `stânga-dreapta`{:class="block3motion"} la începutul scriptului personajului:
 
 ```blocks3
     when green flag clicked
@@ -99,13 +99,13 @@ Update your code to set the rotation style of the fish to `left-right`{:class="b
 
 \--- /task \---
 
-The fish moves backwards and forwards now, but only in a straight line — a bit too easy for the player to catch with the shark! You need to make the fish less predictable.
+Acum peștele se mișcă înainte și înapoi, dar se mișcă în linie dreaptă — e un pic prea ușor pentru jucător să prindă-l cu rechinul! Trebuie să faci peștele mai puțin previzibil.
 
-You already know from a previous step how to make a sprite turn, so start there.
+Deja știi dintr-un pas anterior cum să faci un personaj să se rotească, așa că poți să începi de acolo.
 
 \--- task \---
 
-Add a turn into the fish's swimming instructions, and click the green flag.
+Adaugă o rotire în instrucțiunile de înot ale peștelui și apasă pe steagul verde.
 
 ```blocks3
     when green flag clicked
@@ -120,13 +120,13 @@ Add a turn into the fish's swimming instructions, and click the green flag.
 
 \--- /task \---
 
-It’s better, but there’s still too much of a pattern. It needs to be more random. Luckily, Scratch can do random for you! You’ll just need a new kind of block, called an **operator** block.
+E mai bine, dar e încă prea previzibil. Trebuie să fie mai aleatoriu. Din fericire, Scratch poate face asta! Vei avea nevoie de un nou tip de bloc, numit bloc **operator**.
 
 ## \--- collapse\---
 
 ## title: Ce este un operator?
 
-**Operators** take in one or more values (like numbers, text, or `True/False` values) and give back a single value. You can tell the kind of value it will give back by the shape of the block: round ends give numbers or text, pointy ends give `True/False`.
+**Operatorii** iau una sau mai multe valori (cum ar fi numere, text sau valori `Adevărat/Fals`) și returnează o singură valoare. Îți poți da seama ce tip de valoare va întoarce dupa forma blocului: cele cu capete rotunjite întorc numere sau text, iar cele cu capete ascuțite returnează `Adevărat/Fals`.
 
 ```blocks3
     (() + ())
@@ -140,7 +140,7 @@ It’s better, but there’s still too much of a pattern. It needs to be more ra
 
 \--- task \---
 
-Find the `pick random`{:class="block3operators"} **operator** block, and plug it into the `turn degrees`{:class="block3motion"} **Motion** block by clicking it and dragging it into the field where you set the number of degrees.
+Caută blocul **Operator** `alege aleator`{:class="block3operators"} și inserează-l în blocul `rotește-te`{:class="block3motion"} din **Mișcare**, trăgându-l până în căsuța unde se setează numărul de grade.
 
 ```blocks3
     when green flag clicked
@@ -155,11 +155,11 @@ Find the `pick random`{:class="block3operators"} **operator** block, and plug it
 
 \--- /task \---
 
-**Note**: you can change the minimum and maximum numbers it will pick, but the default values (`1` and `10`) are pretty good for this game, so you can just leave them.
+**Notă**: poți schimba numărul minim și maxim din care va alege, dar valorile implicite (`1` și `10`) sunt destul de bune pentru acest joc, deci să le poți lăsa așa.
 
 \--- task \---
 
-Click the green flag to run the code!
+Apasă pe steagul verde pentru a executa codul!
 
 \--- /task \---
 
@@ -167,15 +167,15 @@ Click the green flag to run the code!
 
 ## title: Deci, ce face blocul la infinit acum?
 
-The forever block now makes the fish sprite do four things in order:
+Blocul la infinit face ca personajul pește să facă patru lucruri în ordine:
 
 1. Merge înainte
 2. Se rotește puțin
 3. Așteaptă puțin
 4. Verifică dacă este la marginea Scenei
 
-Once the sprite has done the check, it will start at the beginning of the loop again and move, turn, wait, check, for as long as you let your Scratch program run.
+După ce personajul a făcut verificarea, va începe din nou de la începutul buclei și se va mișca, se va întoarce, va aștepta, va verifica, cât timp cât timp programul Scratch va rula.
 
 \--- /collapse \---
 
-Cool! Next up: catching that fish!
+Super! Următorul pas: prinderea peștelui!
