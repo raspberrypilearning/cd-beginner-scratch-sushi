@@ -1,14 +1,14 @@
 ## Angeln!
 
-Der Hai bewegt sich, der Fisch schwimmt, aber er interagiert nicht: Wenn der Fisch direkt in den Mund des Hais schwimmt, passiert nichts. Zeit das zu ändern!
+Der Hai bewegt sich, der Fisch schwimmt, aber sie interagieren nicht: Wenn der Fisch direkt in den Mund des Hais schwimmt, passiert nichts. Zeit das zu ändern!
 
-Zuerst musst du wissen, ob der Fisch den Hai berührt. Dazu benötigst du einen **Steuerungs** - Block und einen **Fühlen-** Block.
+Zuerst musst du wissen, ob der Fisch den Hai berührt. Dazu benötigst du einen **Steuerungs** - Block und einen **Fühlen** - Block.
 
 \--- task \---
 
-Add the `if...then`{:class="block3control"} **Control** block inside the `forever`{:class="block3control"} loop of the fish sprite, below the `if on edge bounce`{:class="block3motion"} block.
+Füge den `wenn... dann`{:class="block3control"} **Steuerungs** Block innerhalb der `wiederhole fortlaufend`{:class="block3control"} -Schleife der Fischfigur unter dem `pralle am Rand ab`{:class="block3motion"} Block hinzu.
 
-Drag the `touching...`{:class="block3sensing"} block into the space at the top of the `if...then`{:class="block3control"} block, and click the little triangle to select the shark sprite's name. If you haven’t changed it, it'll be 'Sprite1'.
+Ziehe den `wird berührt`{:class="block3sensing"} - Block in den oberen Bereich des `wenn... dann`{:class="block3control"} - Blocks, und klicke auf das kleine Dreieck, um den Namen der Hai-Figur auszuwählen. Wenn du es nicht geändert hast, wird es "Figur1" sein.
 
 ```blocks3
     Wenn die grüne Flagge angeklickt
@@ -28,7 +28,7 @@ Drag the `touching...`{:class="block3sensing"} block into the space at the top o
 
 ## Titel: Wie funktioniert das?
 
-The `if...then`{:class="block3control"} **Control** block needs to be given a `True/False` value.
+Der `wenn...dann`{:class="block3control"} **Steuerungs-** Block muss einen `Wahr / Falsch` Wert erhalten.
 
 **Sensing** blocks collect information, like where the sprite is, what it’s touching, etc. You're using this block:
 
