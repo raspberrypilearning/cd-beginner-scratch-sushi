@@ -85,7 +85,7 @@ Natürlich wird dies zu einem umgekehrten Fisch führen, so dass du wieder einen
 
 \--- task \---
 
-Update your code to set the rotation style of the fish to `left-right`{:class="block3motion"} at the beginning of the sprite's script:
+Aktualisiere deinen Code, um den Drehtyp des Fisches auf `links-rechts`{:class="block3motion"} am Anfang des Figurskripts festzulegen:
 
 ```blocks3
     Wenn die grüne Flagge angeklickt
@@ -99,20 +99,20 @@ Update your code to set the rotation style of the fish to `left-right`{:class="b
 
 \--- /task \---
 
-The fish moves backwards and forwards now, but only in a straight line — a bit too easy for the player to catch with the shark! You need to make the fish less predictable.
+Der Fisch bewegt sich jetzt vorwärts und rückwärts, aber nur in einer geraden Linie - für den Spieler ein bisschen zu leicht mit dem Hai zu fangen! Du musst den Fisch weniger vorhersehbar machen.
 
-You already know from a previous step how to make a sprite turn, so start there.
+Du weißt bereits aus einem vorherigen Schritt, wie du eine Figur drehen kannst, also beginne dort.
 
 \--- task \---
 
-Add a turn into the fish's swimming instructions, and click the green flag.
+Füge den Schwimmanweisungen des Fisches eine Drehung hinzu und klicke auf die grüne Flagge.
 
 ```blocks3
     Wenn die grüne Flagge angeklickt
    setze Drehtyp auf [left-right v]
    wiederhole fortlaufend 
       gehe (10) er Schritt
-+        drehe dich nach rechts um (10) Grad
++        drehe dich nach rechts um (10) Grad im UZS
       warte (0.5) Sekunden
       pralle vom Rand ab
    Ende
@@ -120,13 +120,13 @@ Add a turn into the fish's swimming instructions, and click the green flag.
 
 \--- /task \---
 
-It’s better, but there’s still too much of a pattern. It needs to be more random. Luckily, Scratch can do random for you! You’ll just need a new kind of block, called an **operator** block.
+Schon besser, aber noch zu vorhersehbar. Es muss zufälliger sein. Zum Glück kann Scratch das Zufällige für dich machen! Du benötigst nur eine neue Art von Block, den sogenannten **Operator-** Block.
 
 ## \--- collapse \---
 
 ## Titel: Was ist ein Operator?
 
-**Operators** take in one or more values (like numbers, text, or `True/False` values) and give back a single value. You can tell the kind of value it will give back by the shape of the block: round ends give numbers or text, pointy ends give `True/False`.
+**Operatoren** nehmen einen oder mehrere Werte auf (wie Zahlen, Text oder `Richtig/Falsch` Werte) und geben einen einzelnen Wert zurück. Den Wert, der zurückgegeben wird, kann man an der Form des Blocks erkennen: Runde Enden geben Zahlen oder Text, spitze Enden geben `Wahr/Falsch` zurück.
 
 ```blocks3
     (() + ())
