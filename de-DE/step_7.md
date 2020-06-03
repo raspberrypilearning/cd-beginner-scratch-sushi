@@ -140,7 +140,7 @@ Schon besser, aber noch zu vorhersehbar. Es muss zufälliger sein. Zum Glück ka
 
 \--- task \---
 
-Find the `pick random`{:class="block3operators"} **operator** block, and plug it into the `turn degrees`{:class="block3motion"} **Motion** block by clicking it and dragging it into the field where you set the number of degrees.
+Suche den `Zufallszahl-`{:class="block3operators"} **Operator-** Block, und stecke ihn mit einem Klick in den `drehe um Grad`{:class="block3motion"} **Bewegungs-** Block und ziehe es in das Feld, in welchem du die Gradzahl festlegst.
 
 ```blocks3
     Wenn die grüne Flagge angeklickt
@@ -155,11 +155,11 @@ Find the `pick random`{:class="block3operators"} **operator** block, and plug it
 
 \--- /task \---
 
-**Note**: you can change the minimum and maximum numbers it will pick, but the default values (`1` and `10`) are pretty good for this game, so you can just leave them.
+**Hinweis**: Du kannst die minimalen und maximalen Werte ändern, die ausgewählt werden sollen, aber die Standardwerte (`1` und `10`) sind für dieses Spiel ziemlich gut.
 
 \--- task \---
 
-Click the green flag to run the code!
+Klicke jetzt auf die grüne Flagge, um deinen Code zu auszuführen!
 
 \--- /task \---
 
@@ -167,15 +167,15 @@ Click the green flag to run the code!
 
 ## Titel: Was macht nun der Wiederhole fortlaufend - Block?
 
-The forever block now makes the fish sprite do four things in order:
+Der 'wiederhole fortlaufend' -Block bewirkt, dass die Fischfigur vier Dinge in dieser Reihenfolge ausführt:
 
 1. Vorwärts gehen
 2. Ein bisschen drehen
 3. Kurz warten
 4. Prüfen, ob es sich am Rand der Bühne befindet
 
-Once the sprite has done the check, it will start at the beginning of the loop again and move, turn, wait, check, for as long as you let your Scratch program run.
+Sobald die Figur die Prüfung ausgeführt hat, beginnt sie wieder am Anfang der Schleife und bewegt sich, dreht sich, wartet, überprüft, solange du dein Scratch-Programm ausführst.
 
 \--- /collapse \---
 
-Cool! Next up: catching that fish!
+Cool! Als nächstes: den Fisch fangen!
