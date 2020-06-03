@@ -23,19 +23,19 @@ Ziehe eine `wenn grüne Flagge angeklickt`{:class="block3events"} **Ereignis-** 
 
 **Steuerungs** Blöcke bewirken, dass dein Programm eine bestimmte Anzahl wiederholt oder unter bestimmten Bedingungen ausgeführt wird.
 
-Hier macht der Fisch, was immer in dem `wiederhole fortlaufend`{:class="block3control"} - Block steht immer und immer wieder in einer Schleife. So once it has done the last thing (block) inside the `forever`{:class="block3control"} block, it starts over at the top and does everything again, and so on.
+Hier macht der Fisch, was immer in dem `wiederhole fortlaufend`{:class="block3control"} - Block steht immer und immer wieder in einer Schleife. Wenn es also das letzte Ding (Block), innerhalb des `wiederhole fortlaufend`{:class="block3control“} Blocks getan hat, beginnt es am Anfang von vorn und macht alles wieder, und so weiter.
 
 \--- /collapse \---
 
 \--- task \---
 
-Now click the green flag and watch what happens!
+Klicke jetzt auf die grüne Flagge und schau, was passiert!
 
 \--- /task \---
 
-Well, that fish just crashed into the side of the Stage, and it was moving far too fast for your shark to catch.
+Nun, dieser Fisch stürzte gerade auf die Bühnenseite und er bewegte sich viel zu schnell, als dass dein Hai ihn hätte fangen könnte.
 
-First, you need to slow the fish down. That’s actually pretty easy, you just need it to wait for a little while after it moves those 10 steps. There’s a **Control** block that will help you here:
+Zuerst musst du den Fisch verlangsamen. Das ist eigentlich ziemlich einfach, du musst nur eine Weile warten, nachdem du ihn 10 Schritte verschoben hast. Es gibt einen **Steuerungs** Block, der dir hier helfen wird:
 
 ```blocks3
     warte (1) sek
@@ -43,7 +43,7 @@ First, you need to slow the fish down. That’s actually pretty easy, you just n
 
 \--- task \---
 
-Add the `wait`{:class="block3control"} block into your code inside the `forever`{:class="block3control"} block, and change the number to `0.5`, like this:
+Füge den `warte`{:class="block3control"} - Block in deinen Code innerhalb des `wiederhole fortlaufend`{:class="block3control"} - Blocks ein und ändere die Anzahl auf `0,5`, genau so:
 
 ```blocks3
     Wenn die grüne Flagge angeklickt
@@ -59,17 +59,17 @@ Add the `wait`{:class="block3control"} block into your code inside the `forever`
 
 ## Titel: Anpassungen vornehmen
 
-The number you set in the `wait`{:class="block3control"} block says how many **seconds** you want the fish to wait. `0.5` is half a second.
+Die Zahl, die du im Block `warte`{:class="block3control"} festgelegt hast, gibt an, wie viele **Sekunden** der Fisch warten soll. `0,5` ist eine halbe Sekunde.
 
-You can test out different values to see which is the best for the game. And remember that you can change the number of steps inside the `move`{:class="block3motion"} block too!
+Du kannst verschiedene Werte testen, um herauszufinden, welcher für das Spiel am besten ist. Denke daran, dass du auch die Anzahl der Schritte innerhalb des Blocks `gehe zu`{:class="block3motion"} - Blocks ändern kannst!
 
 \--- /collapse \---
 
-The fish moves now, but you need it to bounce off the edge of the Stage too. Yet again, there’s a **Motion** block for this!
+Der Fisch bewegt sich jetzt, aber du musst ihn auch vom Bühnenrand abprallen lassen. Dafür gibt es wieder einen **Bewegungs** Block!
 
 \--- task \---
 
-Find the `if on edge bounce`{:class="block3motion"} block, and add it in after the `wait`{:class="block3control"} block.
+Suche den `pralle vom Rand ab`{:class="block3motion"} - Block und füge ihn nach dem `warte`{:class="block3control"} - Block hinzu.
 
 \--- /task \---
 
@@ -77,11 +77,11 @@ Find the `if on edge bounce`{:class="block3motion"} block, and add it in after t
 
 ## Titel: Was macht der neue Block?
 
-The `if on edge bounce`{:class="block3motion"} block checks if the sprite is touching the edge of the Stage and, if it is, it turns left, right, up, or down as appropriate.
+Der Block `pralle am Rand ab`{:class="block3motion"} prüft, ob die Figur die Bühnenkante berührt, und dreht sich gegebenenfalls nach links, rechts, oben oder unten.
 
 \--- /collapse \---
 
-Of course, this will lead to an upside-down fish, so you need a `set rotation style`{:class="block3motion"} block again.
+Natürlich wird dies zu einem umgekehrten Fisch führen, so dass du wieder einen `setze Drehtyp`{:class="block3motion"} - Block benötigst.
 
 \--- task \---
 
