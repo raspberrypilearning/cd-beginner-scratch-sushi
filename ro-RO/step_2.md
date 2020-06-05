@@ -80,7 +80,7 @@ E timpul să scriem cod!
 Alege categoria **Evenimente** din secțiunea cu blocuri de cod, apasă pe `când se dă click pe stegulețul verde`{:class="block3events"} și trage-l până în panoul poersonajului curent.
 
 ```blocks3
-    când se face click pe stegulețul verde
+    when green flag clicked
 ```
 
 \--- /task \---
@@ -90,7 +90,7 @@ Alege categoria **Evenimente** din secțiunea cu blocuri de cod, apasă pe `cân
 Apoi, alege **Aspect** din secțiunea cu blocuri de cod și caută acest bloc:
 
 ```blocks3
-    spune [Salut!] pentru (2) secunde
+    say [Hello!] for (2) secs
 ```
 
 Apasă pe el, ține butonul apăsat, apoi trage-l până în panoul personajului curent și dă drumul butonului.
