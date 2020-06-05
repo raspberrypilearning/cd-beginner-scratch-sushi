@@ -37,22 +37,22 @@ Dalla sezione **Variabili**, prendi i blocchi `porta [my variable v] a [0]`{:cla
 ### Codice per lo squalo
 
 ```blocks3
-    quando si clicca sulla bandiera verde
-+ porta [score v] a [0]
-usa stile rotazione [left-right v]
-vai a x: (0) y: (0)
+    when green flag clicked
++    set [score v] to [0]
+    set rotation style [left-right v]
+    go to x: (0) y: (0)
 ```
 
 ### Codice per il pesce
 
 ```blocks3
-    se <touching [Sprite1 v] ?> allora 
-  + cambia [score v] di [1]
-  nascondi
-  attendi (1) secondi
-  vai a x: (numero a caso tra (-240) e (240)) y: (numero a caso tra (-180) e (180))
-  mostra
-end
+    if <touching [Sprite1 v] ?> then
++        change [score v] by [1]
+        hide
+        wait (1) secs
+        go to x: (pick random (-240) to (240)) y: (pick random (-180) to (180))
+        show
+    end
 ```
 
 \--- /task \---
