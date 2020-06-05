@@ -14,7 +14,7 @@ Cerca ognuna delle seguenti aree e ricorda dove si trovano.
 
 --- collapse ---
 ---
-title: qual è il palcoscenico?
+title: Qual è il palcoscenico?
 ---
 
 Qui è dove vengono eseguiti i tuoi programmi Scratch. Esso ha:
@@ -51,10 +51,10 @@ Uno sprite include:
 
 --- collapse ---
 ---
-title: blocchi di codice
+title: Blocchi di codice
 ---
 
-Il codice in Scratch si presenta sotto forma di blocchi che si connettono per creare programmi. Potete scegliere i blocchi dalla tavolozza dei **blocchi di codice **, trascinarli nel **pannello sprite corrente**, e quindi collegarli tra loro.
+Il codice in Scratch si presenta sotto forma di blocchi che si connettono per creare programmi. Potete scegliere i blocchi dalla tavolozza dei **blocchi di codice**, trascinarli nel **pannello sprite corrente**, e quindi collegarli tra loro.
 
 Esistono dieci categorie di blocchi. Sono codificati dai colori e puoi scegliere tra loro cliccando sugli elementi nella lista nella parte superiore della **tabella blocchi di codice**.
 
@@ -66,7 +66,7 @@ Esistono dieci categorie di blocchi. Sono codificati dai colori e puoi scegliere
 
 --- collapse ---
 ---
-title: qual è lo sprite corrente?
+title: Qual è lo sprite corrente?
 ---
 
 Lo **sprite corrente** è quello selezionato nella **lista sprite**.

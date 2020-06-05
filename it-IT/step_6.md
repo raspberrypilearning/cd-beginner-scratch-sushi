@@ -20,7 +20,7 @@ Grande! Successivamente, aggiungerai del codice per far muovere il pesce da solo
 
 --- collapse ---
 ---
-title: che dire dello squalo in retromarcia?
+title: Che dire dello squalo in retromarcia?
 ---
 
 Sembra un po' strano avere lo squalo che nuota all'indietro. Proprio come faresti tu girandoti piuttosto che camminando all'indietro, lo squalo si dovrebbe girerebbe invece che nuotare all'indietro. Fortunatamente per te, Scratch ha un blocco per questo!
