@@ -90,7 +90,7 @@ Scegli la categoria **Eventi** nella tavolozza dei blocchi di codice, clicca il 
 Quindi scegli **Aspetto** nella tavolozza dei blocchi di codice e cerca questo blocco:
 
 ```blocks3
-    dire [Ciao!] per (2) secondi
+    say [Hello!] for (2) secs
 ```
 
 Cliccalo, tienilo premuto con il pulsante del mouse, trascinalo nel pannello Sprite corrente e rilascia il pulsante.
