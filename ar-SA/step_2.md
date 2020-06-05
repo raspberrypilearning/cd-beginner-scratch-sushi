@@ -61,7 +61,7 @@
 
 ![نافذة Scratch مع تسليط الضوء على لوحة الكائن الحالي](images/hlCurrentSpritePanel.png)
 
-## \--- /collapse \---
+## \--- collapse \---
 
 ## title: ما هو الكائن الحالي؟
 
