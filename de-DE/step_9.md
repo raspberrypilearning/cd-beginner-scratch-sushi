@@ -21,9 +21,9 @@ Gib `Punkte` als Name ein.
 --- /task ---
 
 --- collapse ---
-
-## Titel: Was sind Variablen?
-
+---
+title: Was sind Variablen?
+---
 Wenn du Informationen in einem Programm speichern möchtest, verwendest du eine sogenannte **Variable**. Stelle es dir vor wie eine Schachtel mit einem Etikett darauf: Du kannst etwas hineinlegen, prüfen, was darin ist, und ändern, was darin enthalten ist. Du findest Variablen im Abschnitt **Variablen**, aber du musst sie zuerst erstellen, damit sie dort angezeigt werden!
 
 --- /collapse ---
