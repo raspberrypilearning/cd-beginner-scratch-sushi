@@ -37,7 +37,7 @@ Prova a fare doppio clic su alcuni dei blocchi per vedere cosa fanno.
 Di solito, vuoi che il tuo codice venga eseguito automaticamente ogni volta che accade qualcosa di specifico. Questo è il motivo per cui molti dei tuoi programmi inizieranno con un blocco della categoria **Situazioni**, quasi sempre questo:
 
 ```blocks3
-    quando si clicca sulla bandiera verde
+    when green flag clicked
 ```
 
 I blocchi di codice connessi a questo blocco verranno eseguiti dopo che si è fatto clic sulla **bandiera verde**.
@@ -45,9 +45,9 @@ I blocchi di codice connessi a questo blocco verranno eseguiti dopo che si è fa
 I blocchi di codice vengono eseguiti dall'alto verso il basso, quindi l'ordine in cui si agganciano i blocchi è importante. In questo esempio, lo sprite `dirà`{:class = "block3looks"} `Ciao!` prima di `riprodurre`{:class = "block3sound"} il suono di `Miao`.
 
 ```blocks3
-    quando si clicca sulla bandiera verde
-dire [Hello]
-avvia riproduzione suono [meow v]
+    when green flag clicked
+    say [Hello]
+    play sound [meow v]
 ```
 
 \--- /collapse \---
@@ -73,8 +73,8 @@ Ora sai come spostare il codice e fare in modo che le cose accadano, è il momen
 Assicurati di aver selezionato il gatto sprite nell'elenco sprite, quindi trascina i blocchi seguenti nel pannello dello sprite e collegali. Li troverai negli elenchi **Situazioni** e **Movimento**.
 
 ```blocks3
-    quando si clicca sulla bandiera verde
-fai [10] passi
+    when green flag clicked
+    move [10] steps
 ```
 
 \--- /task \---
@@ -96,9 +96,9 @@ Nota: se fai clic sulla bandiera troppe volte e il gatto si allontana, puoi tras
 Aggiungi il blocco ruota per far camminare il gatto sprite in cerchio. Anche questo è nell'elenco **Movimento**.
 
 ```blocks3
-    quando si clicca sulla bandiera verde
-fai [10] passi
-+ ruota in senso orario di (15) gradi
+    when green flag clicked
+    move [10] steps
++    turn cw (15) degrees
 ```
 
 \--- /task \---
