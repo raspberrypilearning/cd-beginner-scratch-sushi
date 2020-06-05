@@ -15,7 +15,7 @@ Come probabilmente hai intuito, avrai di nuovo bisogno di blocchi **Situazioni**
 Questa volta, cerca questo blocco e trascinalo nel pannello dello sprite corrente:
 
 ```blocks3
-    quando si preme il tasto [space v]
+    when [space v] key pressed
 ```
 
 Fare clic sulla piccola freccia (▼) accanto alla parola `spazio`. Verrà visualizzato un elenco di tutti i tasti della tastiera tra cui è possibile scegliere.
@@ -29,21 +29,21 @@ Avrai bisogno di quattro blocchi `quando si preme il tasto`{:class="block3events
 Per far muovere il tuo squalo, collega questi altri blocchi al blocco **Movimento** come qui sotto illlustrato:
 
 ```blocks3
-    quando si preme il tasto [left arrow v]
-fai (-10) passi
+    when [left arrow v] key pressed
+    move (-10) steps
 ```
 
 ```blocks3
-    quando si preme il tasto [right arrow v]
-fai (10) passi
+    when [right arrow v] key pressed
+    move (10) steps
 ```
 
 ```blocks3
-    quando si preme il tasto [up arrow v]
+    when [up arrow v] key pressed
 ```
 
 ```blocks3
-    quando si preme il tasto [down arrow v]
+    when [down arrow v] key pressed
 ```
 
 \--- /task \---
@@ -63,13 +63,13 @@ Ora il tuo squalo si muove avanti e indietro, il che è abbastanza bello, ma non
 Prendi due blocchi `cambia y di`{:class="block3motion"} e aggiorna il tuo codice in questo modo:
 
 ```blocks3
-    quando si preme il tasto [up arrow v]
-+ cambia y di (10)
+    when [up arrow v] key pressed
++     change y by (10)
 ```
 
 ```blocks3
-    quando si preme il tasto [down arrow v]
-+ cambia y di (-10)
+    when [down arrow v] key pressed
++     change y by (-10)
 ```
 
 \--- /task \---
@@ -109,14 +109,14 @@ Quindi tutto ciò che serve è un blocco **Situazioni** per la bandiera verde, e
 Trascina un `quando si clicca sulla bandiera verde`{:class="block3events"} dall'elenco **Situazioni** sul pannello dello sprite corrente.
 
 ```blocks3
-    quando si clicca sulla bandiera verde
+    when green flag clicked
 ```
 
 Quindi trova il `vai a`{:class="block3motion"} **dall'elenco Movimento** e collegalo al tuo blocco bandiera preso da **Situazioni**.
 
 ```blocks3
-    quando si clicca sulla bandiera verde
-+ vai a x: (0) y: (0)
+    when green flag clicked
++     go to x: (0) y: (0)
 ```
 
 Imposta la coordinata `x` e `y` al valore `0` nel blocco `vai a`{:class="block3motion"} se già non valgono `0`.
