@@ -131,7 +131,7 @@ E mai bine, dar e încă prea previzibil. Trebuie să fie mai aleatoriu. Din fer
 ```blocks3
     (() + ())
 
-    (alătură [salut ] [lume])
+    (join [hello ] [world])
 
     <[] = []>
 ```
