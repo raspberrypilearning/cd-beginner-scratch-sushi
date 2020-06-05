@@ -9,10 +9,10 @@ Seleziona il tuo sprite pesce.
 Trascina un blocco `Situazioni` **quando si clicca sulla bandiera verde**{:class="block3events"}, un blocco `Controllo` **per sempre**{:class="block3control"} e un blocco `Movimento` **fai 10 passi**{:class="block3motion"} nel **pannello sprite**, in questo modo:
 
 ```blocks3
-    quando si clicca sulla bandiera verde
-per sempre 
-  fai (10) passi
-end
+    when green flag clicked
+    forever
+        move (10) steps
+    end
 ```
 
 \--- /task \---
@@ -38,7 +38,7 @@ Bene, quel pesce si è schiantato sul lato della scena e si stava muovendo tropp
 Per prima cosa, devi rallentare il pesce. In realtà è piuttosto semplice, ti basta solo aspettare un po' dopo averlo spostato di quei 10 passi. C'è un blocco **Controllo** che ti aiuterà in questo:
 
 ```blocks3
-    attendi (1) secondi
+    wait (1) secs
 ```
 
 \--- task \---
@@ -46,11 +46,11 @@ Per prima cosa, devi rallentare il pesce. In realtà è piuttosto semplice, ti b
 Aggiungi il blocco `attendi`{:class="block3control"} nel codice all'interno del blocco `per sempre`{:class="block3control"}, e modifica il numero a `0,5`, in questo modo:
 
 ```blocks3
-    quando si clicca sulla bandiera verde
-per sempre 
-  fai (10) passi
-  + attendi (0.5) secondi
-end
+    when green flag clicked
+    forever
+        move (10) steps
++      wait (0.5) secs
+    end
 ```
 
 \--- /task \---
@@ -88,13 +88,13 @@ Ovviamente, questo porterà a un pesce capovolto, quindi è necessario un blocco
 Aggiorna il tuo codice per impostare lo stile di rotazione del pesce a `sinistra`{:class="block3motion"} all'inizio dello script dello sprite:
 
 ```blocks3
-    quando si clicca sulla bandiera verde
-+ usa stile rotazione [left-right v]
-per sempre 
-  fai (10) passi
-  attendi (0.5) secondi
-  rimbalza quando tocchi il bordo
-end
+    when green flag clicked
++    set rotation style [left-right v]
+    forever
+        move (10) steps
+        wait (0.5) secs
+        if on edge, bounce
+    end
 ```
 
 \--- /task \---
@@ -108,14 +108,14 @@ Sai già, da una fase precedente, come fare in modo che lo sprite curvi, quindi 
 Aggiungi un ruota alle istruzioni di nuoto del pesce e clicca sulla bandiera verde.
 
 ```blocks3
-    quando si clicca sulla bandiera verde
-usa stile rotazione [left-right v]
-per sempre 
-  fai (10) passi
-  + ruota in senso orario di (10) gradi
-  attendi (0.5) secondi
-  rimbalza quando tocchi il bordo
-end
+    when green flag clicked
+    set rotation style [left-right v]
+    forever
+        move (10) steps
++        turn cw (10) degrees
+        wait (0.5) secs
+        if on edge, bounce
+    end
 ```
 
 \--- /task \---
@@ -131,7 +131,7 @@ Gli **operatori** accettano uno o più valori (come numeri, testo o valori `True
 ```blocks3
     (() + ())
 
-    (join [hello] [world])
+    (join [hello ] [world])
 
     <[] = []>
 ```
@@ -143,14 +143,14 @@ Gli **operatori** accettano uno o più valori (come numeri, testo o valori `True
 Trova il blocco `operatore` **numero a caso**{:class="block3operators"}, e collegalo al blocco `Movimento` **ruota**{:class="block3motion"} cliccandolo e trascinandolo nel punto in cui imposti il numero di gradi.
 
 ```blocks3
-    quando si clicca sulla bandiera verde
-usa stile rotazione [left-right v]
-per sempre 
-  fai (10) passi
-  + ruota in senso orario di (numero a caso tra (1) e (10)) gradi
-  attendi (0.5) secondi
-  rimbalza quando tocchi il bordo
-end
+    when green flag clicked
+    set rotation style [left-right v]
+    forever 
+        move (10) steps
++        turn cw (pick random (1) to (10)) degrees
+        wait (0.5) secs
+        if on edge, bounce
+    end
 ```
 
 \--- /task \---
