@@ -33,7 +33,7 @@ Blocul `dacă...atunci`{:class="block3control"} de tip **Control** trebuie să p
 Blocurile **Detectare** colectează informații, cum ar fi în unde se află un personaj, ce lucruri atinge etc. Tu folosești acest bloc:
 
 ```blocks3
-    <atinge [Personaj1 v]?>
+    <touching [Sprite1 v] ?>
 ```
 
 Dacă te uiți la capetele ascuțite ale acestui bloc, îți poți da seama că va returna valoarea `Adevărat/Fals` de care are nevoie blocul `dacă...atunci`{:class="block3control"}.
