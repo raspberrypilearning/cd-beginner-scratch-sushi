@@ -33,15 +33,15 @@ Il blocco `punta in direzione`{:class="block3motion"} ti consente di scegliere l
 Prendi un paio di copie del blocco `punta in direzione`{:class="block3motion"} dall'elenco **Movimento** e collegale al codice del tuo squalo, in questo modo:
 
 ```blocks3
-    quando si preme il tasto [left arrow v]
-+ punta in direzione (-90)
-fai (10) passi
+    when [left arrow v] key pressed
++     point in direction (-90)
+    move (10) steps
 ```
 
 ```blocks3
-    quando si preme il tasto [right arrow v]
-+ punta in direzione (90)
-fai (10) passi
+    when [right arrow v] key pressed
++     point in direction (90)
+    move (10) steps
 ```
 
 \--- /task \---
@@ -73,9 +73,9 @@ Cerca nella categoria **Movimento** il blocco `usa stile rotazione`{:class="bloc
 Aggiungi il blocco al tuo codice di ripristino dello squali, creato poco fa, e imposta lo stile di rotazione su `sinistra-destra`{:class="block3motion"}, in questo modo:
 
 ```blocks3
-    quando si clicca sulla bandiera verde
-+ usa stile rotazione [left-right v]
-vai a x: (0) y: (0)
+    when green flag clicked
++     set rotation style [left-right v]
+    go to x: (0) y: (0)
 ```
 
 \--- /task \---
