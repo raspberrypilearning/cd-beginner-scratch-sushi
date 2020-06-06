@@ -1,12 +1,12 @@
-## Remote-control fish
+## Peixe de controle remoto
 
-Ok, now it's time to make the fish swim on its own. To do this, you’re going to need a new kind of block: a **Control** block.
+Ok, agora é hora de fazer o peixe nadar sozinho. Para fazer isso, você vai precisar de um novo tipo de bloco: um bloco **Controle**.
 
 \--- task \---
 
-Select your fish sprite.
+Selecione seu ator peixe.
 
-Drag a `when green flag clicked`{:class="block3events"} **Event** block, a `forever`{:class="block3control"} **Control** block, and a `move 10 steps`{:class="block3motion"} **Motion** block into the **sprite panel**, like this:
+Arraste um bloco `quando ⚑ for clicado`{:class="block3events"} da seção **Eventos**, um bloco `sempre`{:class="block3control"} da seção **Controle**, e um bloco `mova 10 passos`{:class="block3motion"} da seção **Movimento** para dentro do **painel do ator**, assim:
 
 ```blocks3
     when green flag clicked
@@ -19,23 +19,23 @@ Drag a `when green flag clicked`{:class="block3events"} **Event** block, a `fore
 
 ## \--- collapse \---
 
-## title: What does the new block do?
+## title: O que o novo bloco faz?
 
-**Control** blocks make your program do things a certain number of times, or under certain conditions.
+Blocos de **Controle** fazem seu programa fazer as coisas um certo número de vezes ou sob certas condições.
 
-Here, the fish does whatever is inside the `forever`{:class="block3control"} block over and over again on a loop, forever. So once it has done the last thing (block) inside the `forever`{:class="block3control"} block, it starts over at the top and does everything again, and so on.
+Aqui, o peixe faz o que está dentro do bloco `sempre`{:class="block3control"} repetidamente em um loop, para sempre. Então, uma vez que tenha feito a última coisa (bloco) dentro do bloco `sempre`{:class="block3control"}, começa de novo no topo e faz tudo de novo, e assim por diante.
 
 \--- /collapse \---
 
 \--- task \---
 
-Now click the green flag and watch what happens!
+Agora clique na bandeira verde e veja o que acontece!
 
 \--- /task \---
 
-Well, that fish just crashed into the side of the Stage, and it was moving far too fast for your shark to catch.
+Bem, esse peixe simplesmente colidiu com o lado do Palco, e estava se movendo rápido demais para o seu tubarão pegar.
 
-First, you need to slow the fish down. That’s actually pretty easy, you just need it to wait for a little while after it moves those 10 steps. There’s a **Control** block that will help you here:
+Primeiro, você precisa diminuir a velocidade do peixe. Na verdade, é bem fácil, você só precisa esperar um pouco depois de mover esses 10 passos. Há um bloco **Controle ** que irá ajudá-lo aqui:
 
 ```blocks3
     wait (1) secs
@@ -43,7 +43,7 @@ First, you need to slow the fish down. That’s actually pretty easy, you just n
 
 \--- task \---
 
-Add the `wait`{:class="block3control"} block into your code inside the `forever`{:class="block3control"} block, and change the number to `0.5`, like this:
+Adicione o bloco `espere`{:class="block3control"} no seu código dentro do bloco `sempre`{:class="block3control"}, e altere o número para `0.5`, assim:
 
 ```blocks3
     when green flag clicked
@@ -57,35 +57,35 @@ Add the `wait`{:class="block3control"} block into your code inside the `forever`
 
 ## \--- collapse \---
 
-## title: Making adjustments
+## title: Fazendo ajustes
 
-The number you set in the `wait`{:class="block3control"} block says how many **seconds** you want the fish to wait. `0.5` is half a second.
+O número que você define no bloco `espere`{:class="block3control"} diz quantos **segundos** você quer que o peixe espere. `0.5` é meio segundo.
 
-You can test out different values to see which is the best for the game. And remember that you can change the number of steps inside the `move`{:class="block3motion"} block too!
+Você pode testar diferentes valores para ver qual é o melhor para o jogo. E lembre-se que você pode mudar o número de passos dentro do bloco `mova`{:class="block3motion"} também!
 
 \--- /collapse \---
 
-The fish moves now, but you need it to bounce off the edge of the Stage too. Yet again, there’s a **Motion** block for this!
+O peixe se move agora, mas você também precisa que ele volte quando chegar na borda do Palco. Mais uma vez, há um bloco **Movimento** para isso!
 
 \--- task \---
 
-Find the `if on edge bounce`{:class="block3motion"} block, and add it in after the `wait`{:class="block3control"} block.
+Encontre o bloco `se tocar na borda, volte`{:class="block3motion"} e adicione-o após o bloco `espere`{:class="block3control"}.
 
 \--- /task \---
 
 ## \--- collapse \---
 
-## title: What does the new block do?
+## title: O que o novo bloco faz?
 
-The `if on edge bounce`{:class="block3motion"} block checks if the sprite is touching the edge of the Stage and, if it is, it turns left, right, up, or down as appropriate.
+O bloco `se tocar na borda, volte`{:class="block3motion"} verifica se o ator está tocando a borda do palco e, se assim for, vira para a esquerda, para a direita, para cima ou para baixo conforme o caso.
 
 \--- /collapse \---
 
-Of course, this will lead to an upside-down fish, so you need a `set rotation style`{:class="block3motion"} block again.
+Obviamente, isso levará a um peixe de cabeça para baixo, então você precisa de um bloco `defina o estilo de rotação para`{:class="block3motion"} novamente.
 
 \--- task \---
 
-Update your code to set the rotation style of the fish to `left-right`{:class="block3motion"} at the beginning of the sprite's script:
+Atualize seu código para definir o estilo de rotação dos peixes como `esquerda-direita`{:class="block3motion"} no início do script do ator:
 
 ```blocks3
     when green flag clicked
@@ -99,13 +99,13 @@ Update your code to set the rotation style of the fish to `left-right`{:class="b
 
 \--- /task \---
 
-The fish moves backwards and forwards now, but only in a straight line — a bit too easy for the player to catch with the shark! You need to make the fish less predictable.
+O peixe se move para trás e para frente agora, mas apenas em uma linha reta — um pouco fácil demais para o jogador pegar com o tubarão! Você precisa tornar o peixe menos previsível.
 
-You already know from a previous step how to make a sprite turn, so start there.
+Você já sabe de um passo anterior como fazer um ator girar, então comece por aí.
 
 \--- task \---
 
-Add a turn into the fish's swimming instructions, and click the green flag.
+Adicione um bloco gire nas instruções do ator peixe e clique na bandeira verde.
 
 ```blocks3
     when green flag clicked
@@ -120,13 +120,13 @@ Add a turn into the fish's swimming instructions, and click the green flag.
 
 \--- /task \---
 
-It’s better, but there’s still too much of a pattern. It needs to be more random. Luckily, Scratch can do random for you! You’ll just need a new kind of block, called an **operator** block.
+É melhor, mas o peixe ainda se move dentro de um padrão. Precisa ser mais aleatório. Felizmente, o Scratch pode ser aleatório para você! Você só precisará de um novo tipo de bloco, chamado bloco **Operador**.
 
 ## \--- collapse \---
 
-## title: What's an operator?
+## title: O que é um operador?
 
-**Operators** take in one or more values (like numbers, text, or `True/False` values) and give back a single value. You can tell the kind of value it will give back by the shape of the block: round ends give numbers or text, pointy ends give `True/False`.
+**Operadores** pegam um ou mais valores (como números, texto, ou `Verdadeiro/Falso`) e retornam um único valor. Você pode dizer o tipo de valor que ele retornará pela forma do bloco: as extremidades redondas dão números ou textos, as extremidades pontudas dão `Verdadeiro/Falso`.
 
 ```blocks3
     (() + ())
@@ -140,7 +140,7 @@ It’s better, but there’s still too much of a pattern. It needs to be more ra
 
 \--- task \---
 
-Find the `pick random`{:class="block3operators"} **operator** block, and plug it into the `turn degrees`{:class="block3motion"} **Motion** block by clicking it and dragging it into the field where you set the number of degrees.
+Encontre o bloco `número aleatório entre`{:class="block3operators"} na categoria **Operadores**, e conecte-o ao bloco `gire _ graus`{:class="block3motion"} da categoria **Movimento**, clicando nele e arrastando-o para o campo onde você define o número de graus.
 
 ```blocks3
     when green flag clicked
@@ -155,27 +155,27 @@ Find the `pick random`{:class="block3operators"} **operator** block, and plug it
 
 \--- /task \---
 
-**Note**: you can change the minimum and maximum numbers it will pick, but the default values (`1` and `10`) are pretty good for this game, so you can just leave them.
+**Nota**: você pode alterar os números mínimos e máximos que ele escolherá, mas os valores padrão (`1` e `10`) são muito bons para este jogo, então você pode deixá-los.
 
 \--- task \---
 
-Click the green flag to run the code!
+Clique na bandeira verde para executar o código!
 
 \--- /task \---
 
 ## \--- collapse \---
 
-## title: So what does the forever block do now?
+## title: Então, o que faz o bloco sempre?
 
-The forever block now makes the fish sprite do four things in order:
+O bloco sempre agora faz o ator peixe fazer quatro coisas nesta ordem:
 
-1. Move forward
-2. Turn a little bit
-3. Wait briefly
-4. Check whether it's at the edge of the Stage
+1. Mover para frente
+2. Girar um pouco
+3. Esperar brevemente
+4. Verificar se está na borda do palco
 
 Depois que o ator fizer a verificação, ele começará novamente no início do loop e se moverá, girará, esperará, verificará enquanto você deixar o programa Scratch em execução.
 
 \--- /collapse \---
 
-Cool! Next up: catching that fish!
+Legal! Em seguida: pegar aquele peixe!
