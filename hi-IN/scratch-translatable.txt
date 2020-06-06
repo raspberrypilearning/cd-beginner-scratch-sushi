@@ -1,5 +1,5 @@
-नमस्कार
+Hello!
 
-अंक
+score
 
-नमस्कार दुनिया
+hello world
