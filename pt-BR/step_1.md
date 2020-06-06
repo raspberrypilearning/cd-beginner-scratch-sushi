@@ -1,51 +1,51 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/cd-beginner-scratch-sushi-scratch2).
+Esta é a versão **Scratch 3** do projeto. Há também uma [versão Scratch 2 do projeto](https://projects.raspberrypi.org/en/projects/cd-beginner-scratch-sushi-scratch2).
 
 \--- /no-print \---
 
-## Introduction
+## Introdução
 
-These Sushi Cards are going to help you learn to create computer programs in Scratch!
+Esses Cartões de Sushi ajudarão você a criar programas de computador no Scratch!
 
-### What you will make
+### O que você vai fazer
 
-You will make a game where you move a shark around to try and catch fish.
+Você fará um jogo em que você moverá um tubarão para tentar pegar peixes.
 
-Here's an example of how your finished game might look:
+Aqui está um exemplo de como seu jogo pode ficar:
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/205355052/?autostart=false" frameborder="0"></iframe>
 </div>
 
-Press the green flag to start the game. Use the arrow keys to move the shark around and catch the fish.
+Pressione a bandeira verde para iniciar o jogo. Use as setas do teclado para mover o tubarão e pegar os peixes.
 
 ## \--- collapse \---
 
-## title: What you will learn
+## title: O que você vai aprender
 
-+ Adding and deleting code blocks
-+ Basic motion: move in steps, and turn by degrees
-+ Using keyboard controls
-+ Using (x, y) coordinates to position sprites
-+ Changing the look of the Stage and of sprites with costumes and show/hide commands
-+ Having multiple sprites on screen
-+ Using `forever`{:class="block3control"} loops
-+ Detecting when sprites are touching
++ Adicionando e removendo blocos de código
++ Movimento básico: mova-se em etapas e gire em graus
++ Usando controles do teclado
++ Usando coordenadas (x, y) para posicionar atores
++ Mudando a aparência do Palco e dos atores com fantasias e exibir/ocultar comandos
++ Tendo vários atores na tela
++ Usando loops `sempre`{:class="block3control"}
++ Detectando quando os atores estão se tocando
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: O que você vai precisar
 
-You’re going to need **Scratch**, so do one of the following:
+Você vai precisar do **Scratch**, siga um destes procedimentos:
 
-+ Download Scratch and install it on your computer by going to [dojo.soy/downloadscratch](http://dojo.soy/downloadscratch)
-+ Use Scratch in your web browser by going to [dojo.soy/usescratch](http://dojo.soy/usescratch)
++ Baixe o Scratch e instale-o no seu computador, indo para [ dojo.soy/downloadscratch ](http://dojo.soy/downloadscratch)
++ Use o Scratch em seu navegador, acessando [dojo.soy/usescratch](http://dojo.soy/usescratch)
 
-Once you’re set up, you can move on to the next step!
+Depois de configurado, você pode passar para o próximo passo!
 
 \--- /collapse \---
 
-![Tracking pixel](http://code.org/api/hour/begin_coderdojo_sushi.png)
+![Pixel de rastreamento](http://code.org/api/hour/begin_coderdojo_sushi.png)
