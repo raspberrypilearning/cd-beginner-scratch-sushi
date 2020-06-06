@@ -1,5 +1,5 @@
-Hello!
+Olá!
 
-score
+pontos
 
-hello world
+olá mundo
