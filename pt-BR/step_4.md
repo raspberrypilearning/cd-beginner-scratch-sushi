@@ -1,47 +1,47 @@
-## Setting the scene
+## Preparando o cenário
 
-Scratch has a library of backgrounds and sprites for you to use to make your project look awesome.
+O Scratch possui uma biblioteca de planos de fundo e atores para você usar para tornar seu projeto incrível.
 
 \--- task \---
 
-Select the Stage.
+Selecione o Palco.
 
-![Selecting the stage](images/looksSelectStage.png)
+![Selecionando o palco](images/looksSelectStage.png)
 
-Click on **Backdrops**.
+Clique em **Cenários**.
 
-![The Backdrops tab](images/looksBackdrops.png)
+![A aba dos Cenários](images/looksBackdrops.png)
 
-Click the **Choose backdrop from library** icon.
+Clique em **Selecionar Cenário da Biblioteca**.
 
-![The Choose backdrop icon](images/looksChooseBg.png)
+![O ícone de seleção do Cenário](images/looksChooseBg.png)
 
-Then pick your favourite underwater background!
+Em seguida, escolha o seu plano de fundo subaquático favorito!
 
-![An underwater scene](images/looksUnderwater.png)
+![Uma cena subaquática](images/looksUnderwater.png)
 
 \--- /task \---
 
-Great! Of course, now you have a cat underwater, and cats aren't usually big fans of that. But you can fix that, because you can turn the cat into a shark!
+Ótimo! Claro, agora você tem um gato debaixo d'água, e os gatos geralmente não são grandes fãs disso. Mas você pode consertar isso, porque você pode transformar o gato em um tubarão!
 
 \--- task \---
 
-First, select the cat sprite and click on the **Costumes** tab.
+Primeiro, selecione o ator gato e clique na aba **Fantasias**.
 
 ![](images/cool2.png)
 
-Then, click on **Choose costume from Library**
+Em seguida, clique em **Escolher Fantasia da Biblioteca**
 
 ![](images/cool3.png)
 
-Select this shark image and click **OK**.
+Selecione esta imagem de tubarão e clique em ** OK. **.
 
-![The shark costume](images/looksShark.png)
+![A fantasia de tubarão](images/looksShark.png)
 
-Now remove the cat costumes by selecting each of them and clicking on the **x**.
+Agora remova as fantasias de gato selecionando cada uma delas e clicando no **x**.
 
 ![](images/coolDeleteCostumes.png)
 
 \--- /task \---
 
-Now you have a shark – excellent!
+Agora você tem um tubarão - excelente!
