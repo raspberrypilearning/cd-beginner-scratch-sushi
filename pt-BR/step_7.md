@@ -174,7 +174,7 @@ The forever block now makes the fish sprite do four things in order:
 3. Wait briefly
 4. Check whether it's at the edge of the Stage
 
-Once the sprite has done the check, it will start at the beginning of the loop again and move, turn, wait, check, for as long as you let your Scratch program run.
+Depois que o ator fizer a verificação, ele começará novamente no início do loop e se moverá, girará, esperará, verificará enquanto você deixar o programa Scratch em execução.
 
 \--- /collapse \---
 
