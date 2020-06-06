@@ -1,36 +1,36 @@
-## All the sprites
+## Todos os atores
 
-Now you have a shark that you can move around using the arrow keys. Nice! Time to add some fish for it to catch.
+Agora você tem um tubarão que você pode mover usando as setas do teclado. Legal! Hora de adicionar alguns peixes para ele pegar.
 
 \--- task \---
 
-Click the **New sprite** button, and on the screen that opens, choose a fish.
+Clique no botão **Selecione um Ator**, e na tela que se abre, escolha um peixe.
 
-![The New sprite button](images/spritesNewFromLibrary.png)
+![O botão Selecione um Ator](images/spritesNewFromLibrary.png)
 
-If your fish is a bit big compared to your shark, you can use the size control to make both sprites the right size!
+Se o seu peixe é um pouco grande comparado ao seu tubarão, você pode usar o controle de tamanho para tornar os dois atores do tamanho certo!
 
-![Sprite size control](images/sprites2.png)
+![Controle de tamanho do Ator](images/sprites2.png)
 
-Change the number in the size control to make the spirte bigger or smaller.
+Altere o número no controle de tamanho para aumentar ou diminuir o tamanho do ator.
 
 \--- /task \---
 
-Great! Later, you're going to add some code to make the fish move around on its own, without help from the player. Your player will move the shark and try to catch the fish.
+Ótimo! Mais tarde, você adicionará algum código para fazer o peixe se mover sozinho, sem a ajuda do jogador. Seu jogador moverá o tubarão e tentará pegar o peixe.
 
 ## \--- collapse \---
 
-## title: What about the backwards shark?
+## title: E o tubarão ao contrário?
 
-It does look a little funny to have that shark swimming backwards. Just like you’d usually turn around rather than walking backwards, the shark would turn around rather than swimming backwards. Luckily for you, Scratch has a block for this!
+Parece um pouco engraçado ter esse tubarão nadando para trás. Assim como você geralmente você se vira em vez de andar para trás, o tubarão se vira em vez de nadar para trás. Felizmente para você, Scratch tem um bloco para isso!
 
-The `point in direction`{:class="block3motion"} block lets you pick the direction your sprite is pointing in. You’ll find it in the **Motion** blocks section. You can type in any number of degrees, to point the sprite wherever you want.
+O bloco `aponte para a direção`{:class="block3motion"} permite escolher a direção que seu ator está apontando. Você o encontrará na seção de blocos **Movimento**. Você pode digitar qualquer número de graus, para apontar o ator para onde quiser.
 
 \--- /collapse \---
 
 \--- task \---
 
-Grab a couple of copies of the `point in direction`{:class="block3motion"} block from the **Motion** list and connect them to your shark's code, like this:
+Pegue algumas cópias do bloco `aponte para a direção`{:class="block3motion"} da seção **Movimento** e conecte-as ao código do seu tubarão, assim:
 
 ```blocks3
     when [left arrow v] key pressed
@@ -48,29 +48,29 @@ Grab a couple of copies of the `point in direction`{:class="block3motion"} block
 
 \--- task \---
 
-Change the number of steps in the `move`{:class="block3motion"} blocks from `-10` to `10`.
+Altere o número de passos nos blocos `mova _ passos`{:class="block3motion"} de `-10` para `10`.
 
-If you try moving the shark around now after you've added the `point in direction`{:class="block3motion"} blocks, you might notice something a little strange happening. The shark may not be turning quite right!
+Se você tentar mover o tubarão agora depois de adicionar os blocos `aponte para a direção`{:class="block3motion"}, você pode notar algo um pouco estranho acontecendo. O tubarão pode não estar virando direito!
 
-![Upside down shark](images/spritesUpsideDown.png)
+![Tubarão de cabeça para baixo](images/spritesUpsideDown.png)
 
 \--- /task \---
 
 ## \--- collapse \---
 
-## title: Why does it go upside down?
+## title: Por que fica de cabeça para baixo?
 
-The problem here is that the shark sprite started, as all sprites do, with the 'all around' **rotation style**, and what you need it to have is the 'left-right' style.
+O problema aqui é que o ator tubarão iniciou, como todos os atores, com o **estilo de rotação** 'rotação completa', e o que você precisa de ter é o estilo 'esquerda-direita'.
 
-As usual, there’s a block for that, and it’s in **Motion**!
+Como sempre, há um bloco para isso, e está em **Movimento**!
 
 \--- /collapse \---
 
 \--- task \---
 
-Look in the **Motion** category for the block `set rotation style`{:class="block3motion"}.
+Olhe na categoria **Movimento** para o bloco `defina o estilo de rotação para`{:class="block3motion"}.
 
-Add the block to your shark reset code from earlier, and set the rotation style to `left-right`{:class="block3motion"}, like this:
+Adicione o bloco ao seu código de início do tubarão já existente, e defina o estilo de rotação para `esquerda-direita`{:class="block3motion"}, assim:
 
 ```blocks3
     when green flag clicked
