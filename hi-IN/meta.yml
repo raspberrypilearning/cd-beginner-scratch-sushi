@@ -1,8 +1,8 @@
 ---
 title: गहरे समुद्र में सुशी
 hero_image: images/banner.png
-description: अपने पहले स्क्रैच कार्यक्रम में एक मजेदार गेम बनाएं!
-theme: नारंगी #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
+description: अपने पहले Scratch प्रोग्राम में एक मजेदार गेम बनाएं!
+theme: orange #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
 duration: 2
 listed: true
 ingredient: false
@@ -18,7 +18,7 @@ steps:
   - 
     title: भूमिका
   - 
-    title: स्थापित हो रही है
+    title: शुरू करने के लिए
   - 
     title: कोड ब्लॉक जोड़ना और निकालना
   - 
@@ -26,13 +26,13 @@ steps:
   - 
     title: चीजों को इधर-उधर करना
   - 
-    title: सभी स्प्राइट्स
+    title: सभी स्प्राइट्स (sprites)
   - 
     title: रिमोट-कंट्रोल मछली
   - 
-    title: मछली पकड़ने
+    title: मछली पकड़ना
   - 
-    title: हिसाब रखा
+    title: स्कोर रखना
   - 
     title: "चुनौती: खेल जीतना"
     challenge: true
