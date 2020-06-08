@@ -1,4 +1,4 @@
-## Moviendo las cosas
+## Moviendo las cosas alrededor
 
 Ahora mismo, tu tiburón se mueve en un círculo, pero sería mucho más divertido controlarlo con las teclas de flecha. Con esta tarjeta, ¡aprenderás a hacerlo!
 
@@ -60,7 +60,7 @@ Ahora tu tiburón se mueve hacia atrás y hacia adelante, lo que está bastante 
 
 \--- task \---
 
-Coge dos bloques `change y by` {:class="block3motion"}, y actualiza tu código así:
+Coge dos bloques `cambiar y en` {:class="block3motion"}, y actualiza tu código así:
 
 ```blocks3
     when [up arrow v] key pressed
