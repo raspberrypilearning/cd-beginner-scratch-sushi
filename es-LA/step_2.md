@@ -18,9 +18,9 @@ Busca cada una de las siguientes áreas y recuerda dónde están.
 
 Aquí es donde se ejecutan tus programas de Scratch. Tiene:
 
-* Uno o más **backgrounds** \(imágenes en el fondo de la pantalla\)
+* Uno o más **fondos** \(imágenes en el fondo de la pantalla\)
 
-* Cualquier **code blocks** asociado a él \(ya llegaremos a esto\)
+* Cualquier **bloque de código** asociado a él \(ya llegaremos a esto\)
 
 \--- /collapse \---
 
@@ -37,9 +37,9 @@ Cualquier elemento que puedas agregar al Escenario es un **sprite**.
 Un objeto incluye:
 
 * La **imagen** en el Escenario
-* Cualquier **costumes** \(Apariencia\) extra que tenga
-* Cualquier **sounds** asociado a él
-* Cualquier **code blocks** asociado a él ![](images/setup2.png)
+* Cualquier **disfraz** \(Apariencia\) extra que tenga
+* Cualquier **sonido** asociado a él
+* Cualquier **bloque de código** asociado a él ![](images/setup2.png)
 
 \--- /collapse \---
 
@@ -51,9 +51,9 @@ Un objeto incluye:
 
 ## titulo: Bloques de código
 
-El código en Scratch viene en forma de bloques que tú conectas para crear programas. Solo tienes que elegir los bloques de la **code blocks palette**, arrastrarlos al **current sprite**, y luego conectarlos entre sí.
+El código en Scratch viene en forma de bloques que tú conectas para crear programas. Solo tienes que elegir los bloques de la **paleta de bloques de código**, arrastrarlos al **panel del objeto actual**, y luego conectarlos entre sí.
 
-Hay diez categorías de bloques. Están codificados por colores, y puedes elegir entre ellos haciendo clic en los elementos de la lista en la parte superior de la **code blocks palette**.
+Hay diez categorías de bloques. Están codificados por colores, y puedes elegir entre ellos haciendo clic en los elementos de la lista en la parte superior de la **paleta de bloques de código**.
 
 \--- /collapse \---
 
@@ -65,7 +65,7 @@ Hay diez categorías de bloques. Están codificados por colores, y puedes elegir
 
 ## titulo: ¿Qué es el objeto actual?
 
-El **current sprite** es el que está seleccionado en la **Sprite list**.
+El **objeto actual** es el que está seleccionado en la **lista de objetos**.
 
 El **current Sprite panel** es donde puedes ver el código, disfraces y sonidos para el objeto seleccionado.
 
