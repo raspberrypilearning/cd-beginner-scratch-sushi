@@ -44,7 +44,7 @@ Geralmente, você quer que seu código seja executado automaticamente sempre que
 
 Os blocos de código conectados a este bloco serão executados após a **bandeira verde** ser clicada.
 
-Os blocos de código são executados de cima para baixo; portanto, a ordem na qual você encaixa seus blocos é importante. Neste exemplo, o ator executará `diga`{:class="block3looks"} `Olá!` antes que ele `toque o som`{:class="block3sound"} `miau`.
+Os blocos de código são executados de cima para baixo; portanto, a ordem na qual você encaixa seus blocos é importante. Neste exemplo, o ator executará `diga`{:class="block3looks"} `Olá!` antes que ele `toque o som`{:class="block3sound"} `meow`.
 
 ```blocks3
     when green flag clicked

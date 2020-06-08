@@ -96,7 +96,7 @@ Elige la categoría **Eventos** en la paleta de bloques de código, haz clic en 
 Luego ve a **Apariencia** en la paleta de bloques de códigos y encuentra este bloque:
 
 ```blocks3
-    say [¡Hola! for (2) secs
+    say [¡Hola!] for (2) secs
 ```
 
 Haz clic sobre él, mantén presionado el botón del mouse y, a continuación, simplemente arrástralo al panel del objeto actual y suelta el botón.
