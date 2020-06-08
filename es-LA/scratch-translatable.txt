@@ -1,5 +1,5 @@
-Hello!
+¡Hola!
 
-score
+puntaje
 
-hello world
+hola mundo
