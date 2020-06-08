@@ -67,7 +67,7 @@ Hay diez categorías de bloques. Están codificados por colores, y puedes elegir
 
 El **objeto actual** es el que está seleccionado en la **lista de objetos**.
 
-El **current Sprite panel** es donde puedes ver el código, disfraces y sonidos para el objeto seleccionado.
+El **panel de objeto actual** es donde puedes ver el código, disfraces y sonidos para el objeto seleccionado.
 
 \--- /collapse \---
 
@@ -77,7 +77,7 @@ El **current Sprite panel** es donde puedes ver el código, disfraces y sonidos 
 
 En la lista de objetos, haz clic en el gato de Scratch. Ahora el gato es el objeto seleccionado.
 
-Elige la categoría **Events** en la paleta de bloques de código, haz clic en el bloque `al hacer clic en bandera verde`{: class = "block3events"}, y arrástralo al panel del objeto actual.
+Elige la categoría **Eventos** en la paleta de bloques de código, haz clic en el bloque `al hacer clic en bandera verde`{:class="block3events"}, y arrástralo al panel del objeto actual.
 
 ```blocks3
     when green flag clicked
