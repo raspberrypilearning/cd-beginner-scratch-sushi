@@ -1,0 +1,28 @@
+---
+title: गहरे समुद्र में सुशी
+hero_image: images/banner.png
+description: अपने पहले Scratch प्रोग्राम में एक मजेदार गेम बनाएं!
+theme: orange #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
+duration: 2
+listed: true
+ingredient: false
+copyedit: true
+curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
+interests: animals, humour, outdoors, games
+technologies: scratch
+site_areas: coderdojo
+software: scratch
+version: 4.0.0
+last_tested: 2017-01-01
+steps:
+  - title: भूमिका
+  - title: शुरू करने के लिए
+  - title: कोड ब्लॉक जोड़ना और निकालना
+  - title: दृश्य की स्थापना
+  - title: चीजों को इधर-उधर करना
+  - title: सभी स्प्राइट्स (sprites)
+  - title: रिमोट-कंट्रोल मछली
+  - title: मछली पकड़ना
+  - title: स्कोर रखना
+  - title: "चुनौती: खेल जीतना"
+    challenge: true

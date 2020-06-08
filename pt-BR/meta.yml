@@ -1,0 +1,28 @@
+---
+title: Sushi do fundo do mar
+hero_image: imagens/banner.png
+description: Faça um jogo divertido no seu primeiro programa Scratch!
+theme: orange #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
+duration: 2
+listed: true
+ingredient: false
+copyedit: true
+curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
+interests: animals, humour, outdoors, games
+technologies: scratch
+site_areas: coderdojo
+software: scratch
+version: 3
+last_tested: 01/01/2017
+steps:
+  - title: Introdução
+  - title: Preparando
+  - title: Adicionando e removendo blocos de código
+  - title: Preparando o cenário
+  - title: Movendo as coisas
+  - title: Todos os atores
+  - title: Peixe de controle remoto
+  - title: Pescando!
+  - title: Mantendo a pontuação
+  - title: "Desafio: vencer o jogo"
+    challenge: true
