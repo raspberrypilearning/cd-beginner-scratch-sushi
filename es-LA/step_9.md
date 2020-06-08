@@ -10,7 +10,7 @@ Ve a la categoría de bloques **Variables** y haz clic en **Crear una variable**
 
 ![](images/catch5.png)
 
-Introduce `puntos` como nombre.
+Introduce `puntaje` como nombre.
 
 ![](images/catch6.png)
 
@@ -32,7 +32,7 @@ Ahora debes actualizar la variable cada vez que el tiburón se come un pez y res
 
 \--- task \---
 
-De la sección ** variables **, toma el ` conjunto [mi variable v] a [0]` {: class = "block3variables"} y ` cambia [mi variable v] por [1]` {: class = "block3variables"} bloques. Haz clic en las flechas pequeñas de los bloques, elije `puntos` de la lista, y luego añade los bloques a tu código:
+De la sección ** variables **, toma el ` conjunto [mi variable v] a [0]` {: class = "block3variables"} y ` cambia [mi variable v] por [1]` {: class = "block3variables"} bloques. Haz clic en las flechas pequeñas de los bloques, elije `puntaje` de la lista, y luego añade los bloques a tu código:
 
 ### Código para el tiburón
 
