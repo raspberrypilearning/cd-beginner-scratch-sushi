@@ -37,8 +37,9 @@ title: Lo que aprenderás
 --- /collapse ---
 
 --- collapse ---
-
-## título: Lo que necesitará
+---
+title: Lo que necesitará
+---
 
 Necesitarás **Scratch**, así que haz una de las siguientes opciones:
 
