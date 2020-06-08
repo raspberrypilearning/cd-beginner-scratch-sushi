@@ -7,11 +7,11 @@ duration: 2
 listed: true
 ingredient: false
 copyedit: true
-curriculum: 1, डिजाइन -0, प्रोग्रामिंग -1, फिजिकल-कम्प -0, निर्माण -0, समुदाय -0
-interests: जानवर, हास्य, सड़क पर, खेल
+curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
+interests: animals, humour, outdoors, games
 technologies: scratch
 site_areas: coderdojo
-software: खरोंच
+software: scratch
 version: 4.0.0
 last_tested: 2017-01-01
 steps:
