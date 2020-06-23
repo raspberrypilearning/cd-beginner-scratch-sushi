@@ -18,7 +18,7 @@ Alle Blöcke in der Kategorie, auf die du geklickt hast, werden in einer Liste a
 
 ![](images/code2b.png)
 
-Du kannst auf den gewünschten Block klicken, ihn dann in das aktuelle Figuren-Panel ziehen und loslassen. Sobald es sich im Panel befindet, kannst du es verschieben und mit anderen Blöcken verbinden.
+Du kannst auf den gewünschten Block klicken, ihn dann in das aktuelle Figuren-Panel ziehen und loslassen. Sobald er sich im Panel befindet, kannst du ihn verschieben und mit anderen Blöcken verbinden.
 
 \--- /collapse \---
 
