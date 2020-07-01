@@ -2,13 +2,13 @@
 
 Der Hai bewegt sich, der Fisch schwimmt, aber sie interagieren nicht: Wenn der Fisch direkt in den Mund des Hais schwimmt, passiert nichts. Zeit das zu ändern!
 
-Zuerst musst du wissen, ob der Fisch den Hai berührt. Dazu benötigst du einen **Steuerungs** - Block und einen **Fühlen** - Block.
+Zuerst musst du wissen, ob der Fisch den Hai berührt. Dazu benötigst du einen **Steuerungs**-Block und einen **Fühlen**-Block.
 
 \--- task \---
 
-Füge den `wenn... dann`{:class="block3control"} **Steuerungs** Block innerhalb der `wiederhole fortlaufend`{:class="block3control"} -Schleife der Fischfigur unter dem `pralle am Rand ab`{:class="block3motion"} Block hinzu.
+Füge den `wenn... dann`{:class="block3control"} **Steuerungs**-Block innerhalb der `wiederhole fortlaufend`{:class="block3control"}-Schleife der Fischfigur unter dem `pralle am Rand ab`{:class="block3motion"}-Block hinzu.
 
-Ziehe den `wird berührt`{:class="block3sensing"} - Block in den oberen Bereich des `wenn... dann`{:class="block3control"} - Blocks, und klicke auf das kleine Dreieck, um den Namen der Hai-Figur auszuwählen. Wenn du es nicht geändert hast, wird es "Figur1" sein.
+Ziehe den `wird berührt`{:class="block3sensing"}-Block in den oberen Bereich des `wenn... dann`{:class="block3control"}-Blocks, und klicke auf das kleine Dreieck, um den Namen der Hai-Figur auszuwählen. Wenn du es nicht geändert hast, wird es "Figur1" sein.
 
 ```blocks3
     Wenn die grüne Flagge angeklickt
@@ -28,19 +28,19 @@ Ziehe den `wird berührt`{:class="block3sensing"} - Block in den oberen Bereich 
 
 ## Titel: Wie funktioniert das?
 
-Der `wenn...dann`{:class="block3control"} **Steuerungs-** Block muss einen `Wahr / Falsch` Wert erhalten.
+Der `wenn...dann`{:class="block3control"} **Steuerungs**-Block muss einen `Wahr / Falsch` Wert erhalten.
 
-**Fühlen** - Blöcke sammeln Informationen, z.B. wo sich die Figur befindet, was sie berührt, usw. So verwendest du diesen Block:
+**Fühlen**-Blöcke sammeln Informationen, z.B. wo sich die Figur befindet, was sie berührt, usw. So verwendest du diesen Block:
 
 ```blocks3
     <touching [Sprite1 v] ?>
 ```
 
-An den spitzen Enden dieses Blocks erkennst du, dass du den Wert `Wahr/Falsch` erhältst, den der `wenn...dann`{:class="block3control"} - Block benötigt.
+An den spitzen Enden dieses Blocks erkennst du, dass du den Wert `Wahr/Falsch` erhältst, den der `wenn...dann`{:class="block3control"}-Block benötigt.
 
 \--- /collapse \---
 
-Natürlich hast du gerade einen `wenn...dann`{:class="block3control"} - Block hinzugefügt, ohne etwas für den 'dann' -Teil hinzuzufügen. Im Moment prüft dein Skript, ob die Fisch-Figur die Hai-Figur berührt, aber es gibt keine Reaktion darauf.
+Natürlich hast du gerade einen `wenn...dann`{:class="block3control"}-Block hinzugefügt, ohne etwas für den 'dann'-Teil hinzuzufügen. Im Moment prüft dein Skript, ob die Fisch-Figur die Hai-Figur berührt, aber es gibt keine Reaktion darauf.
 
 Du kannst den Fisch verschwinden lassen, als ob der Hai ihn gefressen hat, indem du den Block `versteck dich`{:class="block3looks"} verwendest.
 
@@ -60,7 +60,7 @@ Sobald der Hai den Fisch fängt, verschwindet der Fisch endgültig. Das ist nich
 
 \--- task \---
 
-Setze den `zeige dich`{:class="block3looks"} -Block aus der **Aussehen**-Palette ganz an den Anfang des Fischcodes, damit du das Spiel zurücksetzen kannst.
+Setze den `zeige dich`{:class="block3looks"}-Block aus der **Aussehen**-Palette ganz an den Anfang des Fischcodes, damit du das Spiel zurücksetzen kannst.
 
 ```blocks3
     Wenn die grüne Flagge angeklickt
@@ -76,7 +76,7 @@ Das ist schon besser, aber du möchtest nicht, dass der Spieler das Spiel jedes 
 
 \--- task \---
 
-Aktualisiere den Code in deinem `falls...dann`{:class="block3control"} - Block, damit er so aussieht:
+Aktualisiere den Code in deinem `falls...dann`{:class="block3control"}-Block, damit er so aussieht:
 
 ```blocks3
     pralle vom Rand ab
