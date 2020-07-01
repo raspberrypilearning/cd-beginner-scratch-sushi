@@ -4,7 +4,7 @@ Jetzt bewegt sich dein Hai im Kreis und es wäre viel mehr Spaß, ihn mit den Pf
 
 \--- task \---
 
-Beginne damit, indem du den gesamten Code löschst, den du für den Hai benutzt.
+Beginne damit, dass du den gesamten Code löschst, den du für den Hai benutzt.
 
 \--- /task \---
 
@@ -56,7 +56,7 @@ Klicke nun auf die grüne Flagge, um deinen Code zu testen.
 
 \--- /task \---
 
-Jetzt bewegt sich dein Hai vor und zurück, was ziemlich cool ist, aber nicht nach oben oder unten. Wenn du die **Bewegung**-Blöcke durchgehst, siehst du, dass es keine Blöcke für 'hoch' oder 'runter' gibt. Es gibt jedoch eine ganze Reihe von ihnen, die sich auf die Koordinaten **x** und **y** beziehen - lass uns die ausprobieren!
+Jetzt bewegt sich dein Hai vor und zurück, was ziemlich cool ist, aber nicht nach oben oder unten. Wenn du die **Bewegung**-Blöcke durchgehst, siehst du, dass es keine Blöcke für 'hoch' oder 'runter' gibt. Es gibt jedoch eine ganze Reihe von ihnen, die sich auf die Koordinaten **x** und **y** beziehen - lass uns diese ausprobieren!
 
 \--- task \---
 
@@ -80,7 +80,7 @@ Wenn du jetzt die Pfeiltasten drückst bewegt sich der Hai auf der Bühne!
 
 ## Titel: Wie funktionieren X- und Y-Koordinaten?
 
-Um über die Positionen von Objekten, wie Figuren zu sprechen, verwenden wir häufig X- und Y-Koordinaten. Die **x-Achse** des Bühnen-Koordinatensystems verläuft von **links nach rechts**und die **y-Achse** von **unten nach oben**.
+Um über die Positionen von Objekten wie Figuren zu sprechen, verwenden wir häufig X- und Y-Koordinaten. Die **x-Achse** des Bühnen-Koordinatensystems verläuft von **links nach rechts**und die **y-Achse** von **unten nach oben**.
 
 ![](images/moving3.png)
 
