@@ -6,7 +6,7 @@ Ok, jetzt ist es Zeit, die Fische selbstständig schwimmen zu lassen. Dazu benö
 
 Wähle deine Fischfigur.
 
-Ziehe eine `wenn grüne Flagge angeklickt`{:class="block3events"} **Ereignis-** - Block, ein `wiederhole fortlaufend`{:class="block3control"} **Steuerungs** - Block und einen `Gehe 10 Schritte`{:class=“block3motion"} **Bewegungs-** Block in das **Figuren-Panel** wie folgt:
+Ziehe eine `wenn grüne Flagge angeklickt`{:class="block3events"} **Ereignis**-Block, ein `wiederhole fortlaufend`{:class="block3control"} **Steuerungs**-Block und einen `Gehe 10 Schritte`{:class="block3motion"} **Bewegungs**-Block in das **Figuren-Panel** wie folgt:
 
 ```blocks3
     Wenn die grüne Flagge angeklickt
@@ -21,9 +21,9 @@ Ziehe eine `wenn grüne Flagge angeklickt`{:class="block3events"} **Ereignis-** 
 
 ## Titel: Was macht der neue Block?
 
-**Steuerungs** Blöcke bewirken, dass dein Programm eine bestimmte Anzahl wiederholt oder unter bestimmten Bedingungen ausgeführt wird.
+**Steuerungs**-Blöcke bewirken, dass dein Programm eine bestimmte Anzahl wiederholt oder unter bestimmten Bedingungen ausgeführt wird.
 
-Hier macht der Fisch, was immer in dem `wiederhole fortlaufend`{:class="block3control"} - Block steht immer und immer wieder in einer Schleife. Wenn es also das letzte Ding (Block), innerhalb des `wiederhole fortlaufend`{:class="block3control“} Blocks getan hat, beginnt es am Anfang von vorn und macht alles wieder, und so weiter.
+Hier macht der Fisch, was immer in dem `wiederhole fortlaufend`{:class="block3control"}-Block steht immer und immer wieder in einer Schleife. Wenn es also das letzte Ding (Block), innerhalb des `wiederhole fortlaufend`{:class="block3control“} Blocks getan hat, beginnt es am Anfang von vorn und macht alles wieder, und so weiter.
 
 \--- /collapse \---
 
@@ -43,7 +43,7 @@ Zuerst musst du den Fisch verlangsamen. Das ist eigentlich ziemlich einfach, du 
 
 \--- task \---
 
-Füge den `warte`{:class="block3control"} - Block in deinen Code innerhalb des `wiederhole fortlaufend`{:class="block3control"} - Blocks ein und ändere die Anzahl auf `0,5`, genau so:
+Füge den `warte`{:class="block3control"}-Block in deinen Code innerhalb des `wiederhole fortlaufend`{:class="block3control"}-Blocks ein und ändere die Anzahl auf `0,5`, genau so:
 
 ```blocks3
     Wenn die grüne Flagge angeklickt
@@ -61,15 +61,15 @@ Füge den `warte`{:class="block3control"} - Block in deinen Code innerhalb des `
 
 Die Zahl, die du im Block `warte`{:class="block3control"} festgelegt hast, gibt an, wie viele **Sekunden** der Fisch warten soll. `0,5` ist eine halbe Sekunde.
 
-Du kannst verschiedene Werte testen, um herauszufinden, welcher für das Spiel am besten ist. Denke daran, dass du auch die Anzahl der Schritte innerhalb des Blocks `gehe zu`{:class="block3motion"} - Blocks ändern kannst!
+Du kannst verschiedene Werte testen, um herauszufinden, welcher für das Spiel am besten ist. Denke daran, dass du auch die Anzahl der Schritte innerhalb des `gehe zu`{:class="block3motion"}-Blocks ändern kannst!
 
 \--- /collapse \---
 
-Der Fisch bewegt sich jetzt, aber du musst ihn auch vom Bühnenrand abprallen lassen. Dafür gibt es wieder einen **Bewegungs** Block!
+Der Fisch bewegt sich jetzt, aber du musst ihn auch vom Bühnenrand abprallen lassen. Dafür gibt es wieder einen **Bewegungs**-Block!
 
 \--- task \---
 
-Suche den `pralle vom Rand ab`{:class="block3motion"} - Block und füge ihn nach dem `warte`{:class="block3control"} - Block hinzu.
+Suche den `pralle vom Rand ab`{:class="block3motion"}-Block und füge ihn nach dem `warte`{:class="block3control"}-Block hinzu.
 
 \--- /task \---
 
@@ -81,7 +81,7 @@ Der Block `pralle am Rand ab`{:class="block3motion"} prüft, ob die Figur die B�
 
 \--- /collapse \---
 
-Natürlich wird dies zu einem umgekehrten Fisch führen, so dass du wieder einen `setze Drehtyp`{:class="block3motion"} - Block benötigst.
+Natürlich wird dies zu einem umgedrehten Fisch führen, so dass du wieder einen `setze Drehtyp`{:class="block3motion"}-Block benötigst.
 
 \--- task \---
 
@@ -120,7 +120,7 @@ Füge den Schwimmanweisungen des Fisches eine Drehung hinzu und klicke auf die g
 
 \--- /task \---
 
-Schon besser, aber noch zu vorhersehbar. Es muss zufälliger sein. Zum Glück kann Scratch das Zufällige für dich machen! Du benötigst nur eine neue Art von Block, den sogenannten **Operator-** Block.
+Schon besser, aber noch zu vorhersehbar. Es muss zufälliger sein. Zum Glück kann Scratch das Zufällige für dich machen! Du benötigst nur eine neue Art von Block, den sogenannten **Operator**-Block.
 
 ## \--- collapse \---
 
@@ -140,11 +140,11 @@ Schon besser, aber noch zu vorhersehbar. Es muss zufälliger sein. Zum Glück ka
 
 \--- task \---
 
-Suche den `Zufallszahl-`{:class="block3operators"} **Operator-** Block, und stecke ihn mit einem Klick in den `drehe um Grad`{:class="block3motion"} **Bewegungs-** Block und ziehe es in das Feld, in welchem du die Gradzahl festlegst.
+Suche den `Zufallszahl`{:class="block3operators"}-**Operator-**-Block und stecke ihn mit einem Klick in den `drehe um Grad`{:class="block3motion"} **Bewegungs**-Block und ziehe ihn in das Feld, in welchem du die Gradzahl festlegst.
 
 ```blocks3
     Wenn die grüne Flagge angeklickt
-   setze Drehtyp auf [left-right v]
+   setze Drehtyp auf [links-rechts v]
    wiederhole fortlaufend 
        gehe (10) er Schritt
 +         drehe dich nach rechts um (Zufallszahl von (1) bis (10)) Grad
@@ -167,7 +167,7 @@ Klicke jetzt auf die grüne Flagge, um deinen Code zu auszuführen!
 
 ## Titel: Was macht nun der Wiederhole fortlaufend - Block?
 
-Der 'wiederhole fortlaufend' -Block bewirkt, dass die Fischfigur vier Dinge in dieser Reihenfolge ausführt:
+Der 'wiederhole fortlaufend'-Block bewirkt, dass die Fischfigur vier Dinge in dieser Reihenfolge ausführt:
 
 1. Vorwärts gehen
 2. Ein bisschen drehen
