@@ -10,15 +10,15 @@ Diese Sushi-Karten helfen dir, in Scratch Computerprogramme zu erstellen!
 
 ### Was du machen wirst
 
-Du machst ein Spiel, in dem du einen Hai bewegen kannst, um Fische zu fangen.
+Du machst ein Spiel, in dem du einen Hai bewegst, um Fische zu fangen.
 
-Hier ein Beispiel, wie dein fertiges Spiel aussehen könnte:
+Hier ist ein Beispiel, wie dein fertiges Spiel aussehen könnte:
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/205355052/?autostart=false" frameborder="0"></iframe>
 </div>
 
-Drücken die grüne Flagge, um das Spiel zu starten. Bewege den Hai mit den Pfeiltasten und fange den Fisch.
+Drücke die grüne Flagge, um das Spiel zu starten. Bewege den Hai mit den Pfeiltasten und fange den Fisch.
 
 ## \--- collapse \---
 
@@ -30,7 +30,7 @@ Drücken die grüne Flagge, um das Spiel zu starten. Bewege den Hai mit den Pfei
 + Verwenden von (x, y) -Koordinaten zum Positionieren von Figuren
 + Ändern des Erscheinungsbildes der Bühne und der Figuren mit Kostümen und Anzeigen / Ausblenden - Befehlen
 + Mehrere Figuren auf dem Bildschirm haben
-+ Mit `wiederhole fortlaufend`{: class = "block3control"} - Schleifen
++ Mit `wiederhole fortlaufend`{: class = "block3control"} - Schleifen arbeiten
 + Erkennen, wenn Figuren sich berühren
 
 \--- /collapse \---
