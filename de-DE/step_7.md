@@ -165,7 +165,7 @@ Klicke jetzt auf die grüne Flagge, um deinen Code zu auszuführen!
 
 ## \--- collapse \---
 
-## Titel: Was macht nun der Wiederhole fortlaufend - Block?
+## Titel: Was macht nun der Wiederhole fortlaufend-Block?
 
 Der 'wiederhole fortlaufend'-Block bewirkt, dass die Fischfigur vier Dinge in dieser Reihenfolge ausführt:
 
