@@ -8,11 +8,11 @@ Wähle die Bühne aus.
 
 ![Die Bühne auswählen](images/looksSelectStage.png)
 
-Klicke auf **Hintergründe**.
+Klicke auf **Bühnenbilder**.
 
-![Die Registerkarte "Hintergründe"](images/looksBackdrops.png)
+![Die Registerkarte "Bühnenbilder"](images/looksBackdrops.png)
 
-Klicke auf das Symbol **Hintergrund aus Bibliothek auswählen**.
+Klicke auf das Symbol **Bühnenbild aus Bibliothek auswählen**.
 
 ![Das Symbol "Hintergrund wählen"](images/looksChooseBg.png)
 
