@@ -1,5 +1,5 @@
-Hello!
+Hallo!
 
-score
+Punktestand
 
-hello world
+Hallo Welt
