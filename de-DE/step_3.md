@@ -42,7 +42,7 @@ Normalerweise soll dein Code automatisch ausgeführt werden, wenn etwas bestimmt
 
 Die mit diesem Block verbundenen Codeblöcke werden ausgeführt, nachdem die grüne **Flagge** angeklickt wurde.
 
-Codeblöcke laufen von oben nach unten, daher ist die Reihenfolge wichtig, in der du deine Blöcke zusammenfügst. In diesem Beispiel `sagt` die Figur {:class="block3looks"} `Hallo!` bevor der `Miau` Ton {:class="block3sound"} `abgespielt` wird.
+Codeblöcke laufen von oben nach unten, daher ist die Reihenfolge wichtig, in der du deine Blöcke zusammenfügst. In diesem Beispiel `sagt` die Figur {:class="block3looks"} `Hallo!` bevor der `Miau` Ton `abgespielt`{:class="block3sound"} wird.
 
 ```blocks3
     Wenn die grüne Flagge angeklickt
@@ -52,7 +52,7 @@ spiele Klang [Miau v]
 
 \--- /collapse \---
 
-Das Entfernen oder Löschen von Codeblöcken, die du nicht in deinen Programm haben möchtest, ist einfach! Ziehe es einfach zurück in die Codeblock-Palette.
+Das Entfernen oder Löschen von Codeblöcken, die du nicht in deinem Programm haben möchtest, ist einfach! Ziehe es einfach zurück in die Codeblock-Palette.
 
 **Sei vorsichtig:** Wenn du sie in die Codeblock-Palette ziehst, werden alle Blöcke, die mit dem von dir gezogenen Block verbunden sind, gelöscht. Achte darauf, die Codeblöcke, die du entfernen möchtest, von denen zu trennen, welche du behalten möchtest. Wenn du einige Codeblöcke versehentlich gelöscht hast und sie zurückbekommen möchtest, klicke mit der rechten Maustaste, und klicke dann auf die Option **Rückgängig**, um alles wiederherzustellen.
 
