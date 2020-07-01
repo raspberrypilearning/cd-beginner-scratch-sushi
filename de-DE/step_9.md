@@ -6,7 +6,7 @@ Erstens: Speichern der Punktzahl!
 
 \--- task \---
 
-Wechsle zur Kategorie **Variablen** - Blöcke und klicke auf **Variable erstellen**.
+Wechsle zur Kategorie **Variablen**-Blöcke und klicke auf **Variable erstellen**.
 
 ![](images/catch5.png)
 
@@ -28,7 +28,7 @@ Wenn du Informationen in einem Programm speichern möchtest, verwendest du eine 
 
 \--- /collapse \---
 
-Jetzt musst du die Variable aktualisieren, wann immer der Hai einen Fisch frisst, und sie zurücksetzen, wenn das Spiel neu gestartet wird. Beides zu tun ist ziemlich einfach:
+Jetzt musst du die Variable aktualisieren, wann immer der Hai einen Fisch frisst, und sie zurücksetzen, wenn das Spiel neu gestartet wird. Beides ist ziemlich einfach:
 
 \--- task \---
 
