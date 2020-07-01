@@ -14,7 +14,7 @@ Klicke auf **Bühnenbilder**.
 
 Klicke auf das Symbol **Bühnenbild aus Bibliothek auswählen**.
 
-![Das Symbol "Hintergrund wählen"](images/looksChooseBg.png)
+![Das Symbol "Bühnenbild wählen"](images/looksChooseBg.png)
 
 Dann wähle den Unterwasserhintergrund aus, den du am liebsten magst!
 
