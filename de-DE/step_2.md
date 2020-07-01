@@ -18,7 +18,7 @@ Suche nach den folgenden Bereichen und merke dir, wo sie sich befinden.
 
 Hier laufen deine Scratch-Programme. Es hat:
 
-* Eine oder mehrere **Hintergründe** \(Bilder auf dem Bildschirmhintergrund\)
+* Einen oder mehrere **Hintergründe** \(Bilder auf dem Bildschirmhintergrund\)
 
 * Alle **Codeblöcke** die mit ihr verbunden sind \(wir werden später dazu kommen\)
 
@@ -37,7 +37,7 @@ Jeder Gegenstand, den du der Bühne hinzufügen kannst, ist eine **Figur**.
 Eine Figur beinhaltet:
 
 * Das **Bild** auf der Bühne
-* Jedes zusätzliche **Kostüm** \(Aussehen\), dass sie hat
+* Jedes zusätzliche **Kostüm** \(Aussehen\), das sie hat
 * Alle **Klänge**, die damit verbunden sind
 * Alle **Codeblöcke**, die damit verbunden sind ![](images/setup2.png)
 
@@ -53,7 +53,7 @@ Eine Figur beinhaltet:
 
 Die Codes in Scratch kommen in Form von Blöcken, die du verbindest, um Programme zu erstellen. Du wählst Blöcke aus der **Code-Block-Palette**, ziehst sie in das **aktuelle Figuren-Panel**und verbindest sie dann miteinander.
 
-Es gibt zehn Kategorien von Blöcken. Sie sind farblich gekennzeichnet. Du kannst zwischen ihnen wählen, indem du auf die Elemente in der Liste oben in der **Codeblock-Palette** klickst.
+Es gibt zehn Kategorien von Blöcken. Sie sind farblich gekennzeichnet. Du kannst zwischen ihnen wählen, indem du auf die Elemente in der Liste oben in der **Code-Block-Palette** klickst.
 
 \--- /collapse \---
 
@@ -67,7 +67,7 @@ Es gibt zehn Kategorien von Blöcken. Sie sind farblich gekennzeichnet. Du kanns
 
 Die **aktuelle Figur** ist diejenige, welche in der **Figuren-Liste** ausgewählt ist.
 
-Im **aktuellen Figuren - Panel** siehst du den Code, die Kostüme und Töne für die ausgewählte Figur.
+Im **aktuellen Figuren-Panel** siehst du den Code, die Kostüme und Töne für die ausgewählte Figur.
 
 \--- /collapse \---
 
