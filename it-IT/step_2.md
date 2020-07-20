@@ -37,7 +37,7 @@ Qualsiasi elemento che puoi aggiungere sullo stage è uno **sprite**.
 Uno sprite include:
 
 * L' **immagine** sullo stage
-* Ogni **costume in più** \ (sembra \) avere
+* Ogni ** ulteriore costume ** 
 * Qualsiasi **suoni** associato ad esso
 * Qualsiasi **blocchi di codice** associati ad esso ![](images/setup2.png)
 
