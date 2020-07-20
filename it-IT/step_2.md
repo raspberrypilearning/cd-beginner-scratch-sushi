@@ -14,7 +14,7 @@ Cerca ognuna delle seguenti aree e ricorda dove si trovano.
 
 ## \--- collapse \---
 
-## title: qual è il palcoscenico?
+## title: qual è lo Stage (palcoscenico)?
 
 Qui è dove vengono eseguiti i tuoi programmi Scratch. Esso ha:
 
