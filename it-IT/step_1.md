@@ -30,7 +30,7 @@ Premi la bandiera verde per iniziare il gioco. Usa i tasti freccia per spostare 
 + Usare le coordinate (x, y) per posizionare gli sprite
 + Cambiare l'aspetto dello stage e degli sprite con i costumi e mostrare/nascondere i comandi
 + Avere più sprite sullo schermo
-+ Usando i cicli `per forever`{: class = "block3control"}
++ Usando i cicli `per sempre`{:class="block3control"}
 + Rilevare quando gli sprite si toccano
 
 \--- /collapse \---
