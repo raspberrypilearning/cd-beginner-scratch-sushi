@@ -1,6 +1,6 @@
 ## A pesca!
 
-Lo squalo si muove, il pesce nuota, ma non interagiscon: se il pesce nuota direttamente nella bocca dello squalo, non succede nulla. È ora di cambiarlo!
+Lo squalo si muove, il pesce nuota, ma non interagiscono: se il pesce nuota direttamente nella bocca dello squalo, non succede nulla. È ora di cambiarlo!
 
 Per prima cosa, devi verificare se il pesce sta toccando lo squalo. Per questo, avrai bisogno di un blocco **Controllo** e un blocco **Sensori**.
 
@@ -28,7 +28,7 @@ Trascina il blocco `sto toccando...`{:class="block3sensing"} dentro lo spazio ne
 
 ## title: Come funziona?
 
-Il blocco `Controllo` **se... allora**{:class="block3control"} deve ricevere un valore `Vero/Fals0`.
+Il blocco `Controllo` **se... allora**{:class="block3control"} deve ricevere un valore `Vero/Falso`.
 
 I blocchi **Sensori** raccolgono informazioni, come per esempio dove si trova lo sprite, che cosa sta toccando, ecc. Stai usando questo blocco:
 
