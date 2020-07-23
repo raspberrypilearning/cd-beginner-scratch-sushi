@@ -32,11 +32,11 @@
 
 ## title: Sprite ಎಂದರೇನು?
 
-Any item you can add on the Stage is a **sprite**.
+ಸ್ಟೇಜ್ನಲ್ಲಿ ನೀವು ಸೇರಿಸಬಹುದಾದ ಯಾವುದೇ ಐಟಂ **Sprite**.
 
-A sprite includes:
+Sprite ಇವುಗಳನ್ನು ಒಳಗೊಂಡಿದೆ:
 
-* The **image** on the Stage
+* **Image** ಸ್ಟೇಜ್ ನ ಮೇಲೆ
 * Any extra **costumes** \(looks\) it has
 * Any **sounds** associated with it
 * Any **code blocks** associated with it ![](images/setup2.png)
