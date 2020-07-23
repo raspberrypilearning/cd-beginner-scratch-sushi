@@ -8,29 +8,29 @@
 
 \--- /task \---
 
-### ಹಂತ
+### ಸ್ಟೇಜ್
 
-![Scratchವಿಂಡೋ ಹಂತದೊಂದಿಗೆ ಹೈಲೈಟ್ಆಗಿದೆ](images/hlStage.png)
+![Scratchವಿಂಡೋ ಸ್ಟೇಜ್ ದೊಂದಿಗೆ ಹೈಲೈಟ್ಆಗಿದೆ](images/hlStage.png)
 
 ## \--- collapse \---
 
-## title: What is the Stage?
+## title: ಸ್ಟೇಜ್ ಎಂದರೇನು?
 
-This is where your Scratch programs run. It has:
+ನಿಮ್ಮ Scratch ಪ್ರೋಗ್ರಾಂಗಳು ಇಲ್ಲಿ run ಮಾಡಲಾಗುತ್ತದೆ. ಇದು ಹೊಂದಿದೆ:
 
-* One or more **backgrounds** \(images on the background of the screen\)
+* ಒಂದು ಅಥವಾ ಹೆಚ್ಚಿನ **backgrounds** \ (ಪರದೆಯ ಹಿನ್ನೆಲೆಯಲ್ಲಿ ಚಿತ್ರಗಳು \)
 
-* Any **code blocks** associated with it \(we’ll get to this\)
+* ಯಾವುದೇ **ಕೋಡ್ ಬ್ಲಾಕ್‌ಗಳು** ಇದರೊಂದಿಗೆ ಸಂಯೋಜಿಸಲಾಗಿದೆ \ (ನಾವು ಇದಕ್ಕೆ ಬರೋಣ \)
 
 \--- /collapse \---
 
-### The sprite list
+### Sprite ಪಟ್ಟಿ
 
-![Scratch window with the sprite list highlighted](images/hlSpriteList.png)
+![Sprite ಪಟ್ಟಿ ಜೊತೆ Scratchವಿಂಡೋ ಹೈಲೈಟ್ಆಗಿದೆ](images/hlSpriteList.png)
 
 ## \--- collapse \---
 
-## title: What is a sprite?
+## title: Sprite ಎಂದರೇನು?
 
 Any item you can add on the Stage is a **sprite**.
 
