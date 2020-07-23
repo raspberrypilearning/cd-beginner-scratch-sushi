@@ -1,14 +1,14 @@
-## Getting set up
+## ಹೊಂದಿಸಲಾಗುತ್ತಿದೆ
 
-Once you open Scratch, you’ll see a window like the one below.
+ನೀವು Scratch ಅನ್ನು ತೆರೆದ ನಂತರ, ಕೆಳಗಿನ ವಿಂಡೋವನ್ನು ನೀವು ನೋಡುತ್ತೀರಿ.
 
 \--- task \---
 
-Look for each of the following areas and remember where they are.
+ಕೆಳಗಿನ ಪ್ರತಿಯೊಂದು ಪ್ರದೇಶಗಳನ್ನು ನೋಡಿ ಮತ್ತು ಅವುಗಳು ಎಲ್ಲಿವೆ ಎಂಬುದನ್ನು ನೆನಪಿಡಿ.
 
 \--- /task \---
 
-### The Stage
+### ಹಂತ
 
 ![Scratch window with the stage highlighted](images/hlStage.png)
 
