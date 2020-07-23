@@ -16,23 +16,23 @@ version: 4.0.0
 last_tested: 2017-01-01
 steps:
   - 
-    title: Introduction
+    title: ಪರಿಚಯ
   - 
-    title: Getting set up
+    title: ಹೊಂದಿಸಲಾಗುತ್ತಿದೆ
   - 
-    title: Adding and removing code blocks
+    title: ಕೋಡ್ ಬ್ಲಾಕ್ಗಳನ್ನು ಸೇರಿಸುವುದು ಮತ್ತು ತೆಗೆದುಹಾಕುವುದು
   - 
-    title: Setting the scene
+    title: ದೃಶ್ಯವನ್ನು ಹೊಂದಿಸಲಾಗುತ್ತಿದೆ
   - 
-    title: Moving things around
+    title: ಸುತ್ತಲೂ ವಿಷಯಗಳನ್ನು ಚಲಿಸುವುದು
   - 
-    title: All the sprites
+    title: ಎಲ್ಲಾ sprites
   - 
-    title: Remote-control fish
+    title: ರಿಮೋಟ್-ಕಂಟ್ರೋಲ್ ಮೀನು
   - 
-    title: Fishing!
+    title: ಮೀನುಗಾರಿಕೆ!
   - 
-    title: Keeping score
+    title: ಸ್ಕೋರ್ ಇಟ್ಟುಕೊಳ್ಳುವುದು
   - 
-    title: "Challenge: winning the game"
+    title: "ಸವಾಲು: ಪಂದ್ಯವನ್ನು ಗೆಲ್ಲುವುದು"
     challenge: true
