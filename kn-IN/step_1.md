@@ -10,7 +10,7 @@
 
 ### ನೀವು ಏನು ಮಾಡುತ್ತೀರಿ
 
-You will make a game where you move a shark around to try and catch fish.
+ಮೀನುಗಳನ್ನು ಹಿಡಿಯಲು ಪ್ರಯತ್ನಿಸಲು ನೀವು ಶಾರ್ಕ್ ಅನ್ನು ಚಲಿಸುವಂತಹ ಆಟವನ್ನು ನೀವು ಮಾಡುತ್ತೀರಿ.
 
 ನಿಮ್ಮ ಮುಗಿದ ಆಟ ಹೇಗೆ ಕಾಣುತ್ತದೆ ಎಂಬುದರ ಉದಾಹರಣೆ ಇಲ್ಲಿದೆ:
 
@@ -24,12 +24,12 @@ You will make a game where you move a shark around to try and catch fish.
 
 ## title: ನೀವು ಏನು ಕಲಿಯುವಿರಿ
 
-+ Adding and deleting code blocks
++ ಕೋಡ್ ಬ್ಲಾಕ್ಗಳನ್ನು ಸೇರಿಸುವುದು ಮತ್ತು ಅಳಿಸುವುದು
 + ಮೂಲ ಚಲನೆ: ಹಂತಗಳಲ್ಲಿ ಸರಿಸಿ, ಮತ್ತು ಡಿಗ್ರಿಗಳಿಂದ ತಿರುಗಿ
 + ಕೀಬೋರ್ಡ್ ನಿಯಂತ್ರಣಗಳನ್ನು ಬಳಸುವುದು
 + Sprite ಇರಿಸಲು (x, y) ನಿರ್ದೇಶಾಂಕಗಳನ್ನು ಬಳಸುವುದು
-+ Changing the look of the Stage and of sprites with costumes and show/hide commands
-+ Having multiple sprites on screen
++ ವೇಷಭೂಷಣಗಳು ಮತ್ತು ತೋರಿಸು / ಮರೆಮಾಡಿ ಆಜ್ಞೆಗಳಿಂದ ಹಂತ ಮತ್ತು sprites ನೋಟವನ್ನು ಬದಲಾಯಿಸುವುದು
++ ಪರದೆಯ ಮೇಲೆ ಅನೇಕ sprites ಹೊಂದಿದೆ
 + Using `forever`{:class="block3control"} loops
 + Detecting when sprites are touching
 
