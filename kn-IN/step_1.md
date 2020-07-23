@@ -30,22 +30,22 @@
 + Sprite ಇರಿಸಲು (x, y) ನಿರ್ದೇಶಾಂಕಗಳನ್ನು ಬಳಸುವುದು
 + ವೇಷಭೂಷಣಗಳು ಮತ್ತು ತೋರಿಸು / ಮರೆಮಾಡಿ ಆಜ್ಞೆಗಳಿಂದ ಹಂತ ಮತ್ತು sprites ನೋಟವನ್ನು ಬದಲಾಯಿಸುವುದು
 + ಪರದೆಯ ಮೇಲೆ ಅನೇಕ sprites ಹೊಂದಿದೆ
-+ Using `forever`{:class="block3control"} loops
-+ Detecting when sprites are touching
++ `forever` {:class = "block3control"} ಲೂಪಗಳನ್ನು ಬಳಸುವುದು
++ Sprites ಸ್ಪರ್ಶಿಸಿದಾಗ ಪತ್ತೆ ಮಾಡಲಾಗುತ್ತಿದೆ
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: ನಿಮಗೆ ಬೇಕಾದುದು
 
-You’re going to need **Scratch**, so do one of the following:
+ನಿಮಗೆ **Scratch**ನ ಅಗತ್ಯವಿದೆ, ಆದ್ದರಿಂದ ಈ ಕೆಳಗಿನವುಗಳಲ್ಲಿ ಒಂದನ್ನು ಮಾಡಿ:
 
-+ Download Scratch and install it on your computer by going to [dojo.soy/downloadscratch](http://dojo.soy/downloadscratch)
-+ Use Scratch in your web browser by going to [dojo.soy/usescratch](http://dojo.soy/usescratch)
++ [ dojo.soy/downloadscratch ](http://dojo.soy/downloadscratch) ಗೆ ಹೋಗಿ Scratch ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ ಮತ್ತು ಅದನ್ನು ನಿಮ್ಮ ಕಂಪ್ಯೂಟರ್‌ನಲ್ಲಿ ಸ್ಥಾಪಿಸಿ
++ [ dojo.soy/usescratch ](http://dojo.soy/usescratch) ಗೆ ಹೋಗುವ ಮೂಲಕ ನಿಮ್ಮ ವೆಬ್ ಬ್ರೌಸರ್‌ನಲ್ಲಿ Scratch ಬಳಸಿ
 
-Once you’re set up, you can move on to the next step!
+ನೀವು ಹೊಂದಿಸಿದ ನಂತರ, ನೀವು ಮುಂದಿನ ಹಂತಕ್ಕೆ ಹೋಗಬಹುದು!
 
 \--- /collapse \---
 
-![Tracking pixel](http://code.org/api/hour/begin_coderdojo_sushi.png)
+![ಟ್ರ್ಯಾಕಿಂಗ್ ಪಿಕ್ಸೆಲ್](http://code.org/api/hour/begin_coderdojo_sushi.png)
