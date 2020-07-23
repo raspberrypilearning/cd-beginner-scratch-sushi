@@ -1,3 +1,3 @@
-## Challenge: winning the game
+## ಸವಾಲು: ಪಂದ್ಯವನ್ನು ಗೆಲ್ಲುವುದು
 
-Pick a score at which the player wins, and make something cool happen when they have that many points. Maybe the shark congratulates them, or a 'You win!' sprite appears, or music plays!
+ಆಟಗಾರನು ಗೆಲ್ಲುವ ಸ್ಕೋರ್ ಅನ್ನು ಆರಿಸಿ, ಮತ್ತು ಅವರು ಅಷ್ಟು ಅಂಕಗಳನ್ನು ಹೊಂದಿರುವಾಗ ಏನನ್ನಾದರೂ ಚೆನ್ನಾಗಿರುವುದನ್ನು ಮಾಡಿ. ಬಹುಶಃ ಶಾರ್ಕ್ ಅವರನ್ನು ಅಭಿನಂದಿಸುವುದು, ಅಥವಾ 'ನೀವು ಗೆದ್ದಿದೀರಿ!' ಸ್ಪ್ರೈಟ್ ಕಾಣಿಸಿಕೊಳ್ಳುವುದು, ಅಥವಾ ಸಂಗೀತ ನುಡಿಸುವುದು!
