@@ -10,7 +10,7 @@
 
 ### ಹಂತ
 
-![Scratch window with the stage highlighted](images/hlStage.png)
+![Scratchವಿಂಡೋ ಹಂತದೊಂದಿಗೆ ಹೈಲೈಟ್ಆಗಿದೆ](images/hlStage.png)
 
 ## \--- collapse \---
 
