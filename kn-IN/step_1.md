@@ -1,14 +1,14 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/cd-beginner-scratch-sushi-scratch2).
+ಇದು **Scratch 3** ಯೋಜನೆಯ ಆವೃತ್ತಿ. ಯೋಜನೆಯ [Scratch 2 ಆವೃತ್ತಿ ಸಹ ಇದೆ](https://projects.raspberrypi.org/en/projects/cd-beginner-scratch-sushi-scratch2).
 
 \--- /no-print \---
 
-## Introduction
+## ಪರಿಚಯ
 
-These Sushi Cards are going to help you learn to create computer programs in Scratch!
+ಈ ಸುಶಿ ಕಾರ್ಡ್‌ಗಳು Scratch‌ನಲ್ಲಿ ಕಂಪ್ಯೂಟರ್ ಪ್ರೋಗ್ರಾಂಗಳನ್ನು ರಚಿಸಲು ಕಲಿಯಲು ನಿಮಗೆ ಸಹಾಯ ಮಾಡಲಿವೆ!
 
-### What you will make
+### ನೀವು ಏನು ಮಾಡುತ್ತೀರಿ
 
 You will make a game where you move a shark around to try and catch fish.
 
