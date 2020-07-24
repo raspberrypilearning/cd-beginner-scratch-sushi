@@ -37,13 +37,13 @@
 Sprite ಇವುಗಳನ್ನು ಒಳಗೊಂಡಿದೆ:
 
 * **Image** ಸ್ಟೇಜ್ ನ ಮೇಲೆ
-* Any extra **costumes** \(looks\) it has
-* Any **sounds** associated with it
-* Any **code blocks** associated with it ![](images/setup2.png)
+* ಯಾವುದೇ ಹೆಚ್ಚುವರಿ **costumes** \ (ಕಾಣುತ್ತದೆ \) ಅದು ಹೊಂದಿದೆ
+* ಯಾವುದೇ **ಶಬ್ದಗಳು** ಅದರೊಂದಿಗೆ ಸಂಬಂಧಿಸಿದೆ
+* ಯಾವುದೇ **ಕೋಡ್ ಬ್ಲಾಕ್** ಅದರೊಂದಿಗೆ ಸಂಬಂಧಿಸಿದೆ ![](images/setup2.png)
 
 \--- /collapse \---
 
-### The code blocks palette
+### ಕೋಡ್ ಬ್ಲಾಕ್ ಪ್ಯಾಲೆಟ್
 
 ![Scratch window with the blocks pallet highlighted](images/hlBlocksPalette.png)
 
