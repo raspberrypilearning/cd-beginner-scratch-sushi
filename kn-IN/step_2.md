@@ -51,19 +51,19 @@ Sprite ಇವುಗಳನ್ನು ಒಳಗೊಂಡಿದೆ:
 
 ## title: ಕೋಡ್ ಬ್ಲಾಕ್ಗಳು
 
-Scratchನಲ್ಲಿ ಕೋಡ್ ಬ್ಲಾಕ್ಸ್ ನ ರೂಪದಲ್ಲಿ ಬರುತ್ತದೆ ನೀವು ಪ್ರೋಗ್ರಾಂಗಳನ್ನು ಮಾಡಲು ಅವುಗಳನ್ನು ಕನೆಕ್ಟ್ ಮಾಡಿ. You choose blocks from the **code blocks palette**, drag them into the **current sprite panel**, and then connect them to each other.
+Scratchನಲ್ಲಿ ಕೋಡ್ ಬ್ಲಾಕ್ಸ್ ನ ರೂಪದಲ್ಲಿ ಬರುತ್ತದೆ ನೀವು ಪ್ರೋಗ್ರಾಂಗಳನ್ನು ಮಾಡಲು ಅವುಗಳನ್ನು ಕನೆಕ್ಟ್ ಮಾಡಿ. ನೀವು **ಕೋಡ್ ಬ್ಲಾಕ್ ಪ್ಯಾಲೆಟ್**ನಿಂದ ಬ್ಲಾಕ್ಗಳನ್ನು ಆಯ್ಕೆ ಮಾಡಿ, ಅವುಗಳನ್ನು **ಪ್ರಸ್ತುತ sprite ಪ್ಯಾನೆಲ್ಗೆ**ಎಳೆಯಿರಿ, ತದನಂತರ ಅವುಗಳನ್ನು ಪರಸ್ಪರ ಕನೆಕ್ಟ್ ಮಾಡಿ.
 
-There are ten categories of blocks. They are colour-coded, and you can choose between them by clicking on the items in the list at the top of the **code blocks palette**.
+ಬ್ಲಾಕ್ಗಳಲ್ಲಿ ಹತ್ತು ವಿಭಾಗಗಳಿವೆ. ಅವು ಕಲರ್-ಕೋಡೆಡ್ ಆಗಿದ್ದು, **ಕೋಡ್ ಬ್ಲಾಕ್ಸ್ ಪ್ಯಾಲೆಟ್** ನ ಮೇಲ್ಭಾಗದಲ್ಲಿರುವ ಪಟ್ಟಿಯಲ್ಲಿರುವ ಐಟಂಗಳ ಮೇಲೆ ಕ್ಲಿಕ್ ಮಾಡುವುದರ ಮೂಲಕ ನೀವು ಅವುಗಳ ನಡುವೆ ಆಯ್ಕೆ ಮಾಡಬಹುದು.
 
 \--- /collapse \---
 
-### The current sprite panel
+### ಪ್ರಸ್ತುತ sprite ಫಲಕ
 
-![Scratch window with the current sprite panel highlighted](images/hlCurrentSpritePanel.png)
+![ಪ್ರಸ್ತುತ spriye ಫಲಕದೊಂದಿಗೆ scratch ವಿಂಡೋ ಹೈಲೈಟ್ ಆಗಿದೆ](images/hlCurrentSpritePanel.png)
 
 ## \--- collapse \---
 
-## title: What is the current sprite?
+## title: ಪ್ರಸ್ತುತ sprite ಎಂದರೇನು?
 
 The **current sprite** is the one that's selected in the **sprite list**.
 
