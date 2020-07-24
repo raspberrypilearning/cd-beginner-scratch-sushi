@@ -57,25 +57,25 @@ Scratchನಲ್ಲಿ ಕೋಡ್ ಬ್ಲಾಕ್ಸ್ ನ ರೂಪದಲ
 
 \--- /collapse \---
 
-### ಪ್ರಸ್ತುತ sprite ಫಲಕ
+### ಪ್ರಸ್ತುತ sprite ಪ್ಯಾನೆಲ್
 
-![ಪ್ರಸ್ತುತ spriye ಫಲಕದೊಂದಿಗೆ scratch ವಿಂಡೋ ಹೈಲೈಟ್ ಆಗಿದೆ](images/hlCurrentSpritePanel.png)
+![ಪ್ರಸ್ತುತ sprite ಪ್ಯಾನೆಲ್ದೊಂದಿಗೆ scratch ವಿಂಡೋ ಹೈಲೈಟ್ ಆಗಿದೆ](images/hlCurrentSpritePanel.png)
 
 ## \--- collapse \---
 
-## title: ಪ್ರಸ್ತುತ sprite ಎಂದರೇನು?
+## title: ಕರೆಂಟ್ sprite ಎಂದರೇನು?
 
-The **current sprite** is the one that's selected in the **sprite list**.
+**ಕರೆಂಟ್ sprite****sprite ಪಟ್ಟಿ**ಯಲ್ಲಿ ಆಯ್ಕೆಮಾಡಲಾಗಿದೆ.
 
-The **current sprite panel** is where you can see the code, costumes, and sounds for the selected sprite.
+**ಕರೆಂಟ್ sprite ಪ್ಯಾನೆಲ್** ಆಯ್ದ spriteಗಾಗಿ ನೀವು code, costumes ಮತ್ತು ಶಬ್ದಗಳನ್ನು ನೋಡಬಹುದು.
 
 \--- /collapse \---
 
-Time to get coding!
+ಕೋಡಿಂಗ್ ಮಾಡುವ ಸಮಯ!
 
 \--- task \---
 
-In the sprite list, click on the Scratch Cat. The cat is now the current sprite.
+Sprite ಪಟ್ಟಿಯಲ್ಲಿ, Scratch ಕ್ಯಾಟ್ ಕ್ಲಿಕ್ ಮಾಡಿ. ಕ್ಯಾಟ್ ಈಗ ಪ್ರಸ್ತುತ sprite ಆಗಿದೆ.
 
 Choose the **Events** category in the code blocks palette, click the `when flag clicked`{:class="block3events"} block, and drag it into the current sprite panel.
 
