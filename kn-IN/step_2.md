@@ -45,13 +45,13 @@ Sprite ಇವುಗಳನ್ನು ಒಳಗೊಂಡಿದೆ:
 
 ### ಕೋಡ್ ಬ್ಲಾಕ್ ಪ್ಯಾಲೆಟ್
 
-![Scratch window with the blocks pallet highlighted](images/hlBlocksPalette.png)
+![Scratch ವಿಂಡೋದೊಂದಿಗೆ ಬ್ಲಾಕ್ ಪ್ಯಾಲೆಟ್ ಹೈಲೈಟ್ ಆಗಿದೆ](images/hlBlocksPalette.png)
 
 ## \--- collapse \---
 
-## title: Code blocks
+## title: ಕೋಡ್ ಬ್ಲಾಕ್ಗಳು
 
-Code in Scratch comes in the form of blocks that you connect to make programs. You choose blocks from the **code blocks palette**, drag them into the **current sprite panel**, and then connect them to each other.
+Scratchನಲ್ಲಿ ಕೋಡ್ ಬ್ಲಾಕ್ಸ್ ನ ರೂಪದಲ್ಲಿ ಬರುತ್ತದೆ ನೀವು ಪ್ರೋಗ್ರಾಂಗಳನ್ನು ಮಾಡಲು ಅವುಗಳನ್ನು ಕನೆಕ್ಟ್ ಮಾಡಿ. You choose blocks from the **code blocks palette**, drag them into the **current sprite panel**, and then connect them to each other.
 
 There are ten categories of blocks. They are colour-coded, and you can choose between them by clicking on the items in the list at the top of the **code blocks palette**.
 
