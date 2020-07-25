@@ -42,7 +42,7 @@
 
 ಈ ಬ್ಲಾಕ್‌ಗೆ ಸಂಪರ್ಕಗೊಂಡಿರುವ ಕೋಡ್ ಬ್ಲಾಕ್‌ಗಳು **ಹಸಿರು ಧ್ವಜ**ವನ್ನು ಕ್ಲಿಕ್ ಮಾಡಿದ ನಂತರ ರನ್ ಆಗುತ್ತವೆ.
 
-ಕೋಡ್ ಬ್ಲಾಕ್‌ಗಳು ಮೇಲಿನಿಂದ ಕೆಳಕ್ಕೆ ರನ್ ಆಗುತ್ತವೆ, ಆದ್ದರಿಂದ ನಿಮ್ಮ ಬ್ಲಾಕ್‌ಗಳನ್ನು ನೀವು ಒಟ್ಟಿಗೆ ಸ್ನ್ಯಾಪ್ ಮಾಡುವ ಕ್ರಮವು ಮುಖ್ಯವಾಗಿರುತ್ತದೆ. In this example, the sprite will `say`{:class="block3looks"} `Hello!` before it will `play`{:class="block3sound"} the `meow` sound.
+ಕೋಡ್ ಬ್ಲಾಕ್‌ಗಳು ಮೇಲಿನಿಂದ ಕೆಳಕ್ಕೆ ರನ್ ಆಗುತ್ತವೆ, ಆದ್ದರಿಂದ ನಿಮ್ಮ ಬ್ಲಾಕ್‌ಗಳನ್ನು ನೀವು ಒಟ್ಟಿಗೆ ಸ್ನ್ಯಾಪ್ ಮಾಡುವ ಕ್ರಮವು ಮುಖ್ಯವಾಗಿರುತ್ತದೆ. ಈ ಉದಾಹರಣೆಯಲ್ಲಿ, sprite `ಹಲೋ!` `ಹೇಳುತ್ತದೆ` {:class="block3looks"} `ಮಿಯಾಂವ್` ಧ್ವನಿ `ಪ್ಲೇ` {:class="block3sound"}ಆಗುವ ಮೊದಲು.
 
 ```blocks3
     when green flag clicked
@@ -52,7 +52,7 @@
 
 \--- /collapse \---
 
-Removing or deleting code blocks you don’t want in your program is easy! Just drag them back into the code blocks palette.
+ನಿಮ್ಮ ಪ್ರೋಗ್ರಾಂನಲ್ಲಿ ನೀವು ಬಯಸದ ಕೋಡ್ ಬ್ಲಾಕ್ಗಳನ್ನು ತೆಗೆದುಹಾಕುವುದು ಅಥವಾ ಅಳಿಸುವುದು ಸುಲಭ! ಅವುಗಳನ್ನು ಕೋಡ್ ಬ್ಲಾಕ್ ಪ್ಯಾಲೆಟ್‌ಗೆ ಪುನಃ ಎಳೆಯಿರಿ.
 
 **Be careful:** dragging them into the code blocks pallette will delete all the blocks connected to the block you drag, so make sure to separate code blocks you want to keep from those you want to remove. If you delete some code blocks by accident and want to get them back, right-click and then click on the **undo** option to get everything back.
 
