@@ -99,7 +99,7 @@ Sprite ಪಟ್ಟಿಯಲ್ಲಿ, Scratch ಕ್ಯಾಟ್ ಕ್ಲಿ�
 
 \--- task \---
 
-Now that the second block is in the current sprite panel, connect it to the bottom of the first block by clicking and dragging it again to move it below the other block until they snap together, like this:
+ಈಗ ಎರಡನೇ ಬ್ಲಾಕ್ ಪ್ರಸ್ತುತ sprite ಪ್ಯಾನೆಲ್‌ನಲ್ಲಿದೆ, ಅದನ್ನು ಒಟ್ಟಿಗೆ ಸ್ನ್ಯಾಪ್ ಮಾಡುವವರೆಗೆ ಅದನ್ನು ಇತರ block ಕೆಳಗೆ ಸರಿಸಲು ಅದನ್ನು ಕ್ಲಿಕ್ ಮಾಡಿ ಮತ್ತು ಮತ್ತೆ ಎಳೆಯುವ ಮೂಲಕ ಅದನ್ನು ಮೊದಲ ಬ್ಲಾಕ್ ಕೆಳಭಾಗಕ್ಕೆ ಸಂಪರ್ಕಪಡಿಸಿ:
 
 ![](images/setup3.png)
 
@@ -107,6 +107,6 @@ Now that the second block is in the current sprite panel, connect it to the bott
 
 \--- task \---
 
-Now click the **Start Program** button and watch what happens!
+ಈಗ **Start Program** ಬಟನ್ ಅನ್ನು ಕ್ಲಿಕ್ ಮಾಡಿ ಮತ್ತು ಏನಾಗುತ್ತದೆ ನೋಡಿ!
 
 \--- /task \---
