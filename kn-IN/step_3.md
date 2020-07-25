@@ -26,15 +26,15 @@
 
 \--- task \---
 
-Try double-clicking on some of the blocks to see what they do.
+ಬ್ಲಾಕ್ಗ‌ಳು ಏನು ಮಾಡುತ್ತವೆ ಎಂಬುದನ್ನು ನೋಡಲು ಕೆಲವು ಬ್ಲಾಕುಗಳ ಮೇಲೆ ಡಬಲ್ ಕ್ಲಿಕ್ ಮಾಡಲು ಪ್ರಯತ್ನಿಸಿ.
 
 \--- /task \---
 
 ## \--- collapse \---
 
-## title: Running the code
+## title: ಕೋಡ್ ರನ್ ಮಾಡುವುದು
 
-Usually, you want your code to run automatically whenever something specific happens. This is why many of your programs will start with a block from the **Events** category, most often this one:
+ಸಾಮಾನ್ಯವಾಗಿ, ಏನಾದರೂ ಸಂಭವಿಸಿದಾಗ ನಿಮ್ಮ ಕೋಡ್ ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಕಾರ್ಯನಿರ್ವಹಿಸಲು ನೀವು ಬಯಸುತ್ತೀರಿ. ಇದಕ್ಕಾಗಿಯೇ ನಿಮ್ಮ ಅನೇಕ ಪ್ರೋಗ್ರಾಂಗಳು **ಈವೆಂಟ್‌ಗಳ**ಬ್ಲಾಕ್‌ನೊಂದಿಗೆ ಪ್ರಾರಂಭವಾಗುತ್ತವೆ ವರ್ಗ, ಹೆಚ್ಚಾಗಿ ಇದು:
 
 ```blocks3
     when green flag clicked
