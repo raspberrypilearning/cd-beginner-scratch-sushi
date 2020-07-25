@@ -40,9 +40,9 @@
     when green flag clicked
 ```
 
-The code blocks connected to this block will run after the **green flag** is clicked.
+ಈ ಬ್ಲಾಕ್‌ಗೆ ಸಂಪರ್ಕಗೊಂಡಿರುವ ಕೋಡ್ ಬ್ಲಾಕ್‌ಗಳು **ಹಸಿರು ಧ್ವಜ**ವನ್ನು ಕ್ಲಿಕ್ ಮಾಡಿದ ನಂತರ ರನ್ ಆಗುತ್ತವೆ.
 
-Code blocks run from top to bottom, so the order in which you snap your blocks together matters. In this example, the sprite will `say`{:class="block3looks"} `Hello!` before it will `play`{:class="block3sound"} the `meow` sound.
+ಕೋಡ್ ಬ್ಲಾಕ್‌ಗಳು ಮೇಲಿನಿಂದ ಕೆಳಕ್ಕೆ ರನ್ ಆಗುತ್ತವೆ, ಆದ್ದರಿಂದ ನಿಮ್ಮ ಬ್ಲಾಕ್‌ಗಳನ್ನು ನೀವು ಒಟ್ಟಿಗೆ ಸ್ನ್ಯಾಪ್ ಮಾಡುವ ಕ್ರಮವು ಮುಖ್ಯವಾಗಿರುತ್ತದೆ. In this example, the sprite will `say`{:class="block3looks"} `Hello!` before it will `play`{:class="block3sound"} the `meow` sound.
 
 ```blocks3
     when green flag clicked
