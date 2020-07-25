@@ -66,11 +66,11 @@
 
 ### ಎಲ್ಲವನ್ನೂ ಒಟ್ಟಿಗೆ ಇಡುವುದು
 
-Now you know how to move code around and make things happen, it's time for you to create a program to make the Scratch Cat walk in a circle!
+ಕೋಡ್ ಅನ್ನು ಹೇಗೆ ಸರಿಸುವುದು ಮತ್ತು ವಿಷಯಗಳನ್ನು ಆಗುವಂತೆ ಮಾಡುವುದು ಈಗ ನಿಮಗೆ ತಿಳಿದಿದೆ, Scratch ಕ್ಯಾಟ್ ಅನ್ನು ವೃತ್ತದಲ್ಲಿ ನಡೆಯುವಂತೆ ಮಾಡಲು ನೀವು ಪ್ರೋಗ್ರಾಂ ಅನ್ನು ರಚಿಸುವ ಸಮಯ!
 
 \--- task \---
 
-Make sure you have the cat sprite selected in the sprite list, and then drag the following blocks into the sprite panel and connect them. You’ll find them in the **Events** and **Motion** lists.
+Sprite ಪಟ್ಟಿಯಲ್ಲಿ ನೀವು ಕ್ಯಾಟ್ sprite ಅನ್ನು ಆಯ್ಕೆ ಮಾಡಿದ್ದೀರಿ ಎಂದು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ, ತದನಂತರ ಈ ಕೆಳಗಿನ ಬ್ಲಾಕ್ಗಳನ್ನು sprite ಪ್ಯಾನೆಲ್‌ಗೆ ಎಳೆಯಿರಿ ಮತ್ತು ಅವುಗಳನ್ನು ಕನೆಕ್ಟ್ ಮಾಡಿ. ನೀವು ಅವುಗಳನ್ನು **ಈವೆಂಟ್** ಮತ್ತು **ಮೋಶನ್**ಪಟ್ಟಿ ‌ಗಳಲ್ಲಿ ಕಾಣಬಹುದು.
 
 ```blocks3
     when green flag clicked
@@ -81,7 +81,7 @@ Make sure you have the cat sprite selected in the sprite list, and then drag the
 
 \--- task \---
 
-Now, click on the green flag above the Stage.
+ಈಗ, ಸ್ಟೇಜ್ ಮೇಲಿನ ಹಸಿರು ಧ್ವಜದ ಮೇಲೆ ಕ್ಲಿಕ್ ಮಾಡಿ.
 
 ![](images/code7.png)
 
