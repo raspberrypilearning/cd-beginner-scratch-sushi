@@ -1,4 +1,4 @@
-## Setting the scene
+## ದೃಶ್ಯವನ್ನು ಹೊಂದಿಸಲಾಗುತ್ತಿದೆ
 
 Scratch has a library of backgrounds and sprites for you to use to make your project look awesome.
 
