@@ -87,13 +87,13 @@ Sprite ಪಟ್ಟಿಯಲ್ಲಿ ನೀವು ಕ್ಯಾಟ್ sprite ಅ
 
 \--- /task \---
 
-You should see the cat walking in a straight line...not exactly what you want, right?
+ಬೆಕ್ಕು ನೇರ ಸಾಲಿನಲ್ಲಿ ನಡೆಯುವುದನ್ನು ನೀವು ನೋಡುವಿರಿ... ನಿಮಗೆ ಬೇಕಾದುದು ಇದು ಅಲ್ಲ ಅಲ್ಲವೇ?
 
-Note: If you click the flag too many times and the cat walks away, you can drag it back!
+ಗಮನಿಸಿ: ನೀವು ಧ್ವಜವನ್ನು ಹಲವಾರು ಬಾರಿ ಕ್ಲಿಕ್ ಮಾಡಿದರೆ ಮತ್ತು ಬೆಕ್ಕು ಹೊರನಡೆದರೆ, ನೀವು ಅದನ್ನು ಹಿಂದಕ್ಕೆ ಎಳೆಯಬಹುದು!
 
 \--- task \---
 
-Snap the turn block to the end to make the cat sprite walk in a circle. It’s in the **Motion** list too.
+ಕ್ಯಾಟ್ sprite ವೃತ್ತದಲ್ಲಿ ನಡೆಯುವಂತೆ ಮಾಡಲು ಟರ್ನ್ ಬ್ಲಾಕ್ ಅನ್ನು ಕೊನೆಯಲ್ಲಿ ಸ್ನ್ಯಾಪ್ ಮಾಡಿ. ಇದು **ಮೋಶನ್** ಪಟ್ಟಿಯಲ್ಲಿ ಕೂಡ ಇದೆ.
 
 ```blocks3
     when green flag clicked
@@ -105,7 +105,7 @@ Snap the turn block to the end to make the cat sprite walk in a circle. It’s i
 
 ## \--- collapse \---
 
-## title: How does turning work?
+## title: ತಿರುವು ಹೇಗೆ ಕೆಲಸ ಮಾಡುತ್ತದೆ?
 
 This block makes the sprite turn 15 degrees of the full 360 degrees that make up a circle. You can change that number, and the number of steps, by clicking on the number and typing in a new value.
 
@@ -115,6 +115,6 @@ This block makes the sprite turn 15 degrees of the full 360 degrees that make up
 
 \--- task \---
 
-Now save your work!
+ಈಗ ನಿಮ್ಮ ಕೆಲಸವನ್ನು ಉಳಿಸಿ!
 
 \--- /task \---
