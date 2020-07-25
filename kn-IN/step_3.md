@@ -4,25 +4,25 @@
 
 ![](images/code1.png)
 
-You will find all blocks in the **code blocks palette**, sorted into different categories according to what they do.
+** ಕೋಡ್ ಬ್ಲಾಕ್ಗಳ ಪ್ಯಾಲೆಟ್**ನಲ್ಲಿ ನೀವು ಎಲ್ಲಾ ಬ್ಲಾಕ್ಗಳನ್ನು ಕಾಣಬಹುದು, ಅವರು ಏನು ಮಾಡುತ್ತವೆ ಎಂಬುದರ ಪ್ರಕಾರ ವಿಭಿನ್ನ ವರ್ಗಗಳಾಗಿ ವಿಂಗಡಿಸಲಾಗಿದೆ.
 
 ## \--- collapse \---
 
-## title: Using blocks from the different categories
+## title: ವಿಭಿನ್ನ ವರ್ಗಗಳಿಂದ ಬ್ಲಾಕ್ಗಳನ್ನು ಬಳಸುವುದು
 
-Click on a category name to see the blocks in that category. Here, the **Motion** category is selected:
+ಆ ವರ್ಗದಲ್ಲಿನ ಬ್ಲಾಕ್ಗಳನ್ನು ನೋಡಲು ವರ್ಗದ ಹೆಸರಿನ ಮೇಲೆ ಕ್ಲಿಕ್ ಮಾಡಿ. ಇಲ್ಲಿ, ** ಚಲನೆ ** ವರ್ಗವನ್ನು ಆಯ್ಕೆ ಮಾಡಲಾಗಿದೆ:
 
 ![](images/code2a.png)
 
-All of the blocks in the category you've clicked are shown in a list:
+ನೀವು ಕ್ಲಿಕ್ ಮಾಡಿದ ವರ್ಗದಲ್ಲಿನ ಎಲ್ಲಾ ಬ್ಲಾಕ್‌ಗಳನ್ನು ಪಟ್ಟಿಯಲ್ಲಿ ತೋರಿಸಲಾಗಿದೆ:
 
 ![](images/code2b.png)
 
-You can click on the blcok you want, and then just drag it into the current sprite panel and let go. Once it's in the panel, you can move it around and connect it to other blocks.
+ನಿಮಗೆ ಬೇಕಾದ ಬ್ಲಾಕ್ ಅನ್ನು ನೀವು ಕ್ಲಿಕ್ ಮಾಡಬಹುದು, ತದನಂತರ ಅದನ್ನು ಪ್ರಸ್ತುತ sprite ಪ್ಯಾನೆಲ್‌ಗೆ ಎಳೆಯಿರಿ ಮತ್ತು ಹೋಗಲು ಬಿಡಿ. ಅದು ಪ್ಯಾನಲ್ ನಲ್ಲಿದ್ದಾಗ, ನೀವು ಅದನ್ನು ಸುತ್ತಲೂ ಚಲಿಸಬಹುದು ಮತ್ತು ಅದನ್ನು ಇತರ ಬ್ಲಾಕ್‌ಗಳಿಗೆ ಕನೆಕ್ಟ್ ಮಾಡಬಹುದು.
 
 \--- /collapse \---
 
-If you want to see what a block does, you can double-click on it to make it run!
+ಒಂದು ಬ್ಲಾಕ್ ಏನು ಮಾಡುತ್ತದೆ ಎಂಬುದನ್ನು ನೀವು ನೋಡಲು ಬಯಸಿದರೆ, ಅದನ್ನು ಚಲಾಯಿಸಲು ನೀವು ಅದರ ಮೇಲೆ ಡಬಲ್ ಕ್ಲಿಕ್ ಮಾಡಬಹುದು!
 
 \--- task \---
 
