@@ -54,7 +54,7 @@
 
 ನಿಮ್ಮ ಪ್ರೋಗ್ರಾಂನಲ್ಲಿ ನೀವು ಬಯಸದ ಕೋಡ್ ಬ್ಲಾಕ್ಗಳನ್ನು ತೆಗೆದುಹಾಕುವುದು ಅಥವಾ ಅಳಿಸುವುದು ಸುಲಭ! ಅವುಗಳನ್ನು ಕೋಡ್ ಬ್ಲಾಕ್ ಪ್ಯಾಲೆಟ್‌ಗೆ ಪುನಃ ಎಳೆಯಿರಿ.
 
-**Be careful:** dragging them into the code blocks pallette will delete all the blocks connected to the block you drag, so make sure to separate code blocks you want to keep from those you want to remove. If you delete some code blocks by accident and want to get them back, right-click and then click on the **undo** option to get everything back.
+**ಜಾಗರೂಕರಾಗಿರಿ:** ಅವುಗಳನ್ನು ಕೋಡ್ ಬ್ಲಾಕ್‌ ಪಾಲೆಟ್ ಗೆ ಎಳೆಯುವುದರಿಂದ ನೀವು ಎಳೆಯುವ ಬ್ಲಾಕ್‌ಗೆ ಸಂಪರ್ಕಗೊಂಡಿರುವ ಎಲ್ಲಾ ಬ್ಲಾಕ್‌ಗಳನ್ನು ಅಳಿಸುತ್ತದೆ, ಆದ್ದರಿಂದ ನೀವು ತೆಗೆದುಹಾಕಲು ಬಯಸುವುದರಿಂದ ನೀವು ಇರಿಸಿಕೊಳ್ಳಲು ಬಯಸುವ ಕೋಡ್ ಬ್ಲಾಕ್‌ಗಳನ್ನು ಪ್ರತ್ಯೇಕವಾಗಿ ಇರಿಸಿಕೊಳ್ಳಿ. If you delete some code blocks by accident and want to get them back, right-click and then click on the **undo** option to get everything back.
 
 ![](images/code6.png)
 
