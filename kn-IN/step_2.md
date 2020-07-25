@@ -77,7 +77,7 @@ Scratchನಲ್ಲಿ ಕೋಡ್ ಬ್ಲಾಕ್ಸ್ ನ ರೂಪದಲ
 
 Sprite ಪಟ್ಟಿಯಲ್ಲಿ, Scratch ಕ್ಯಾಟ್ ಕ್ಲಿಕ್ ಮಾಡಿ. ಕ್ಯಾಟ್ ಈಗ ಪ್ರಸ್ತುತ sprite ಆಗಿದೆ.
 
-Choose the **Events** category in the code blocks palette, click the `when flag clicked`{:class="block3events"} block, and drag it into the current sprite panel.
+**Events**ವರ್ಗವನ್ನು ಕೋಡ್ ಬ್ಲಾಕ್ಗಳ ಪ್ಯಾಲೆಟ್ನಲ್ಲಿ ಆರಿಸಿ, `when flag clicked` {:class="block3events"} ಬ್ಲಾಕ್ ಕ್ಲಿಕ್ಮಾಡಿ, ಮತ್ತು ಅದನ್ನು ಪ್ರಸ್ತುತ sprite ಪ್ಯಾನೆಲ್‌ಗೆ ಎಳೆಯಿರಿ.
 
 ```blocks3
     when green flag clicked
@@ -87,13 +87,13 @@ Choose the **Events** category in the code blocks palette, click the `when flag 
 
 \--- task \---
 
-Then go to **Looks** in the code blocks palette and find this block:
+ನಂತರ **Looks**ಗೆ ಹೋಗಿ ಕೋಡ್ ಬ್ಲಾಕ್ಗಳ ಪ್ಯಾಲೆಟ್ನಲ್ಲಿ ಈ ಬ್ಲಾಕ್ ಅನ್ನು ಹುಡುಕಿ:
 
 ```blocks3
     say [Hello!] for (2) secs
 ```
 
-Click on it, hold down the mouse button, and then just drag it into the current sprite panel and let go of the button.
+ಅದರ ಮೇಲೆ ಕ್ಲಿಕ್ ಮಾಡಿ, ಮೌಸ್ ಬಟನ್ಅನ್ನು ಒತ್ತಿಹಿಡಿಯಿರಿ, ತದನಂತರ ಅದನ್ನು ಪ್ರಸ್ತುತ sprite ಪ್ಯಾನೆಲ್‌ಗೆ ಎಳೆಯಿರಿ ಮತ್ತು ಬಟನ್ಅನ್ನು ಬಿಡಿ.
 
 \--- /task \---
 
