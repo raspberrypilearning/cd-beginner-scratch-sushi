@@ -107,7 +107,7 @@ Sprite ಪಟ್ಟಿಯಲ್ಲಿ ನೀವು ಕ್ಯಾಟ್ sprite ಅ
 
 ## title: ತಿರುವು ಹೇಗೆ ಕೆಲಸ ಮಾಡುತ್ತದೆ?
 
-This block makes the sprite turn 15 degrees of the full 360 degrees that make up a circle. You can change that number, and the number of steps, by clicking on the number and typing in a new value.
+ಈ ಬ್ಲಾಕ್ spriteಅನ್ನು ವೃತ್ತವನ್ನು ರೂಪಿಸುವ ಪೂರ್ಣ 360 ಡಿಗ್ರಿಗಳಲ್ಲಿ 15 ಡಿಗ್ರಿ ತಿರುಗುವಂತೆ ಮಾಡುತ್ತದೆ. ಸಂಖ್ಯೆಯನ್ನು ಕ್ಲಿಕ್ ಮಾಡಿ ಮತ್ತು ಹೊಸ ಮೌಲ್ಯವನ್ನು ಟೈಪ್ ಮಾಡುವ ಮೂಲಕ ನೀವು ಆ ಸಂಖ್ಯೆಯನ್ನು ಮತ್ತು ಹಂತಗಳ ಸಂಖ್ಯೆಯನ್ನು ಬದಲಾಯಿಸಬಹುದು.
 
 ![](images/code9.png)
 
