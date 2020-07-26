@@ -98,9 +98,9 @@ Sprite ಅನ್ನು ಅದರ ಸೆಂಟರ್ ಕೋ ಒರ್ಡಿನೇ
 
 ಶಾರ್ಕ್ ಈಗ ಪರದೆಯಾದ್ಯಂತ ಚಲಿಸುತ್ತದೆ, ಆದರೆ ಇದು ಒಂದು ಆಟ ಎಂದು ಇಮ್ಯಾಜಿನ್ ಮಾಡಿ: ನೀವು ಅದನ್ನು ಹೇಗೆ ಮರುಪ್ರಾರಂಭಿಸುತ್ತೀರಿ ಮತ್ತು ಪ್ರತಿ ಆಟದ ಪ್ರಾರಂಭದಲ್ಲಿ ಏನಾಗುತ್ತದೆ?
 
-You need to get the shark to its original location when the player starts the game. They'll start this game by clicking on the green flag, so you need to change the shark sprite's x- and y-coordinates when that happens.
+ಆಟಗಾರನು ಆಟವನ್ನು ಪ್ರಾರಂಭಿಸಿದಾಗ ನೀವು ಶಾರ್ಕ್ ಅನ್ನು ಅದರ ಮೂಲ ಸ್ಥಳಕ್ಕೆ ತರಬೇಕು. ಅವರು ಹಸಿರು ಧ್ವಜವನ್ನು ಕ್ಲಿಕ್ ಮಾಡುವುದರ ಮೂಲಕ ಈ ಆಟವನ್ನು ಪ್ರಾರಂಭಿಸುತ್ತಾರೆ, ಆದ್ದರಿಂದ ಅದು ಸಂಭವಿಸಿದಾಗ ನೀವು ಶಾರ್ಕ್ sprite‌ನ x- ಮತ್ತು y-ಕೋ ಒರ್ಡಿನೇಟ್ಗಳನ್ನು ಬದಲಾಯಿಸಬೇಕಾಗುತ್ತದೆ.
 
-ಅದು ನಿಜಕ್ಕೂ ಬಹಳ ಸುಲಭ! The centre of the stage is `(0, 0)` in `(x, y)` coordinates.
+ಅದು ನಿಜಕ್ಕೂ ಬಹಳ ಸುಲಭ! ಸ್ಟೇಜ್ ನ ಮಧ್ಯಭಾಗ `(0, 0)` `(x, y)` ಕೋ ಒರ್ಡಿನೇಟ್ಗಳಲ್ಲಿ ಇದೆ.
 
 So all you need is an **Event** block for that green flag, and the **go to** block from **Motion**.
 
