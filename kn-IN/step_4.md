@@ -38,7 +38,7 @@
 
 ![ಶಾರ್ಕ್ ವೇಷಭೂಷಣ](images/looksShark.png)
 
-Now remove the cat costumes by selecting each of them and clicking on the **x**.
+ಈಗ ಬೆಕ್ಕಿನ ವೇಷಭೂಷಣಗಳನ್ನು ಪ್ರತಿಯೊಂದನ್ನು ಆರಿಸಿ ಮತ್ತು **x** ಕ್ಲಿಕ್ ಮಾಡುವ ಮೂಲಕ ತೆಗೆದುಹಾಕಿ.
 
 ![](images/coolDeleteCostumes.png)
 
