@@ -1,14 +1,14 @@
-## Fishing!
+## ಮೀನುಗಾರಿಕೆ!
 
-The shark moves, the fish swims, but they don’t interact: if the fish swims right into the shark's mouth, nothing happens. Time to change that!
+The shark moves, the fish swims, but they don’t interact: if the fish swims right into the shark's mouth, nothing happens. ಅದನ್ನು ಬದಲಾಯಿಸುವ ಸಮಯ!
 
-First, you need to know if the fish is touching the shark. For this, you'll need a **Control** block and a **Sensing** block.
+ಮೊದಲಿಗೆ, ಮೀನು ಶಾರ್ಕ್ ಅನ್ನು ಸ್ಪರ್ಶಿಸುತ್ತಿದೆಯೇ ಎಂದು ನೀವು ತಿಳಿದುಕೊಳ್ಳಬೇಕು. For this, you'll need a **Control** block and a **Sensing** block.
 
 \--- task \---
 
 Add the `if...then`{:class="block3control"} **Control** block inside the `forever`{:class="block3control"} loop of the fish sprite, below the `if on edge bounce`{:class="block3motion"} block.
 
-Drag the `touching...`{:class="block3sensing"} block into the space at the top of the `if...then`{:class="block3control"} block, and click the little triangle to select the shark sprite's name. If you haven’t changed it, it'll be 'Sprite1'.
+Drag the `touching...`{:class="block3sensing"} block into the space at the top of the `if...then`{:class="block3control"} block, and click the little triangle to select the shark sprite's name. ನೀವು ಅದನ್ನು ಬದಲಾಯಿಸದಿದ್ದರೆ, ಅದು 'ಸ್ಪ್ರೈಟ್ 1' ಆಗಿರುತ್ತದೆ.
 
 ```blocks3
     when green flag clicked
@@ -26,11 +26,11 @@ Drag the `touching...`{:class="block3sensing"} block into the space at the top o
 
 ## \--- collapse \---
 
-## title: How does it work?
+## title: ಇದು ಹೇಗೆ ಕೆಲಸ ಮಾಡುತ್ತದೆ?
 
 The `if...then`{:class="block3control"} **Control** block needs to be given a `True/False` value.
 
-**Sensing** blocks collect information, like where the sprite is, what it’s touching, etc. You're using this block:
+**Sensing** blocks collect information, like where the sprite is, what it’s touching, etc. ನೀವು ಈ ಬ್ಲಾಕ್ ಅನ್ನು ಬಳಸುತ್ತಿರುವಿರಿ:
 
 ```blocks3
     <touching [Sprite1 v] ?>
@@ -56,7 +56,7 @@ Find the `hide`{:class="block3looks"} block in the **Looks** list, and put it in
 
 \--- /task \---
 
-Now once the shark catches the fish, the fish disappears for good. That’s not great.
+Now once the shark catches the fish, the fish disappears for good. ಅದು ದೊಡ್ಡದಲ್ಲ.
 
 \--- task \---
 
@@ -91,12 +91,12 @@ Update the code inside your `if...then`{:class="block3control"} block to look li
 
 ## \--- collapse \---
 
-## title: How does this work?
+## title: ಇದು ಹೇಗೆ ಕೆಲಸ ಮಾಡುತ್ತದೆ?
 
-You are being clever here: when the fish is hidden, it waits, moves, and then shows up again.
+ನೀವು ಇಲ್ಲಿ ಬುದ್ಧಿವಂತರಾಗಿದ್ದೀರಿ: ಮೀನುಗಳನ್ನು ಮರೆಮಾಡಿದಾಗ ಅದು ಕಾಯುತ್ತದೆ, ಚಲಿಸುತ್ತದೆ ಮತ್ತು ನಂತರ ಮತ್ತೆ ತೋರಿಸುತ್ತದೆ.
 
 It looks like lots of fish keep appearing, but it’s that one sprite moving around!
 
 \--- /collapse \---
 
-That’s a game! But there’s no way to keep score yet, or to win. You can fix that too — on the next card!
+ಅದು ಆಟ! But there’s no way to keep score yet, or to win. ಅದನ್ನೂ ನೀವು ಸರಿಪಡಿಸಬಹುದು - ಮುಂದಿನ ಕಾರ್ಡ್‌ನಲ್ಲಿ!
