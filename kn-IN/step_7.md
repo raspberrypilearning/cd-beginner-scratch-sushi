@@ -43,7 +43,7 @@
 
 \--- task \---
 
-Add the `wait`{:class="block3control"} block into your code inside the `forever`{:class="block3control"} block, and change the number to `0.5`, like this:
+` ನಿರೀಕ್ಷಿಸಿ ` {:class="block3control"}ಬ್ಲಾಕ್ಅನ್ನು`forever`{:class="block3control"} ಬ್ಲಾಕ್ ಒಳಗೆ ಇರುವ ನಿಮ್ಮ ಕೋಡ್‌ಗೆ ಸೇರಿಸಿ, ಮತ್ತು ಸಂಖ್ಯೆಯನ್ನು `0.5` ಗೆ ಬದಲಾಯಿಸಿ, ಹೀಗೆ:
 
 ```blocks3
     when green flag clicked
@@ -57,7 +57,7 @@ Add the `wait`{:class="block3control"} block into your code inside the `forever`
 
 ## \--- collapse \---
 
-## title: Making adjustments
+## title: ಹೊಂದಾಣಿಕೆಗಳನ್ನು ಮಾಡುವುದು
 
 The number you set in the `wait`{:class="block3control"} block says how many **seconds** you want the fish to wait. `0.5` ಅರ್ಧ ಸೆಕೆಂಡ್.
 
