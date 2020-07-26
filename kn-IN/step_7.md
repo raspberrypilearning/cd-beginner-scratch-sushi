@@ -6,7 +6,7 @@
 
 ನಿಮ್ಮ ಮೀನು sprite ಆಯ್ಕೆಮಾಡಿ.
 
-`ಹಸಿರು ಧ್ವಜ ಕ್ಲಿಕ್ ಮಾಡಿದಾಗ` {:class="block3events"} **ಈವೆಂಟ್**ಬ್ಲಾಕ್ಅನ್ನು,`ಶಾಶ್ವತವಾಗಿ` {: class = "block3control"} **ನಿಯಂತ್ರಣ** ಬ್ಲಾಕ್ಅನ್ನು, ಮತ್ತು ` 10 ಹಂತಗಳನ್ನು ಸರಿಸಿ` {: class = "block3motion"} **ಮೋಶನ್** ಬ್ಲಾಕ್ಅನ್ನು**sprite ಪ್ಯಾನೆಲ್** ‌ ಗೆ ಎಳೆಯಿರಿ, ಹೀಗೆ:
+`ಹಸಿರು ಧ್ವಜ ಕ್ಲಿಕ್ ಮಾಡಿದಾಗ` {:class="block3events"} **ಈವೆಂಟ್**ಬ್ಲಾಕ್ಅನ್ನು,`forever` {: class = "block3control"} **ನಿಯಂತ್ರಣ** ಬ್ಲಾಕ್ಅನ್ನು, ಮತ್ತು ` 10 ಹಂತಗಳನ್ನು ಸರಿಸಿ` {: class = "block3motion"} **ಮೋಶನ್** ಬ್ಲಾಕ್ಅನ್ನು**sprite ಪ್ಯಾನೆಲ್** ‌ ಗೆ ಎಳೆಯಿರಿ, ಹೀಗೆ:
 
 ```blocks3
     when green flag clicked
@@ -21,9 +21,9 @@
 
 ## title: ಈ ಹೊಸ ಕೋಡ್ ಏನು ಮಾಡುತ್ತದೆ?
 
-**Control** blocks make your program do things a certain number of times, or under certain conditions.
+**ನಿಯಂತ್ರಣ** ಬ್ಲಾಕ್‌ಗಳು ನಿಮ್ಮ ಪ್ರೋಗ್ರಾಂ ಅನ್ನು ನಿರ್ದಿಷ್ಟ ಸಂಖ್ಯೆಯ ಬಾರಿ ಅಥವಾ ಕೆಲವು ಷರತ್ತುಗಳ ಅಡಿಯಲ್ಲಿ ಮಾಡುವಂತೆ ಮಾಡುತ್ತದೆ.
 
-Here, the fish does whatever is inside the `forever`{:class="block3control"} block over and over again on a loop, forever. So once it has done the last thing (block) inside the `forever`{:class="block3control"} block, it starts over at the top and does everything again, and so on.
+ಇಲ್ಲಿ, ಮೀನು `forever`{: class = "block3control"}ಬ್ಲಾಕ್ ಒಳಗೆ ಇರುವದನ್ನು ಲೂಪ್‌ನಲ್ಲಿ ಮತ್ತೆ ಮತ್ತೆ ಮಾಡುತ್ತದೆ, ಶಾಶ್ವತವಾಗಿ. ಆದ್ದರಿಂದ ಒಮ್ಮೆ ಅದು `forever`{: class = "block3control"} ಬ್ಲಾಕ್ ಒಳಗೆ ಕೊನೆಯ ಕೆಲಸವನ್ನು (ಬ್ಲಾಕ್) ಮಾಡಿದ ನಂತರ, ಅದು ಮೇಲ್ಭಾಗದಲ್ಲಿ ಪ್ರಾರಂಭವಾಗುತ್ತದೆ ಮತ್ತು ಎಲ್ಲವನ್ನೂ ಮತ್ತೆ ಮಾಡುತ್ತದೆ, ಮತ್ತು ಹೀಗೆ.
 
 \--- /collapse \---
 
