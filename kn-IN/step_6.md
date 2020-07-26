@@ -1,6 +1,6 @@
-## All the sprites
+## ಎಲ್ಲಾ sprites
 
-Now you have a shark that you can move around using the arrow keys. Nice! Time to add some fish for it to catch.
+ಈಗ ನೀವು ಬಾಣದ ಕೀಲಿಗಳನ್ನು ಬಳಸಿ ಚಲಿಸಬಹುದಾದ ಶಾರ್ಕ್ ಅನ್ನು ಹೊಂದಿದ್ದೀರಿ. ಸೊಗಸಾಗಿದೆ! ಅದು ಹಿಡಿಯಲು ಕೆಲವು ಮೀನುಗಳನ್ನು ಸೇರಿಸುವ ಸಮಯ.
 
 \--- task \---
 
@@ -12,17 +12,17 @@ If your fish is a bit big compared to your shark, you can use the size control t
 
 ![Sprite size control](images/sprites2.png)
 
-Change the number in the size control to make the spirte bigger or smaller.
+ಸ್ಪಿರಿಟ್ ಅನ್ನು ದೊಡ್ಡದಾಗಿ ಅಥವಾ ಚಿಕ್ಕದಾಗಿ ಮಾಡಲು ಗಾತ್ರ ನಿಯಂತ್ರಣದಲ್ಲಿ ಸಂಖ್ಯೆಯನ್ನು ಬದಲಾಯಿಸಿ.
 
 \--- /task \---
 
-Great! Later, you're going to add some code to make the fish move around on its own, without help from the player. Your player will move the shark and try to catch the fish.
+ಅದ್ಭುತವಾಗಿದೆ! Later, you're going to add some code to make the fish move around on its own, without help from the player. ನಿಮ್ಮ ಆಟಗಾರನು ಶಾರ್ಕ್ ಅನ್ನು ಸರಿಸುತ್ತಾನೆ ಮತ್ತು ಮೀನು ಹಿಡಿಯಲು ಪ್ರಯತ್ನಿಸುತ್ತಾನೆ.
 
 ## \--- collapse \---
 
 ## title: What about the backwards shark?
 
-It does look a little funny to have that shark swimming backwards. Just like you’d usually turn around rather than walking backwards, the shark would turn around rather than swimming backwards. Luckily for you, Scratch has a block for this!
+ಆ ಶಾರ್ಕ್ ಹಿಂದಕ್ಕೆ ಈಜುವುದು ಸ್ವಲ್ಪ ತಮಾಷೆಯಾಗಿ ಕಾಣುತ್ತದೆ. ನೀವು ಸಾಮಾನ್ಯವಾಗಿ ಹಿಂದಕ್ಕೆ ನಡೆಯುವುದಕ್ಕಿಂತ ಹೆಚ್ಚಾಗಿ ತಿರುಗುವಂತೆಯೇ, ಶಾರ್ಕ್ ಹಿಂದಕ್ಕೆ ಈಜುವ ಬದಲು ತಿರುಗುತ್ತದೆ. Luckily for you, Scratch has a block for this!
 
 The `point in direction`{:class="block3motion"} block lets you pick the direction your sprite is pointing in. You’ll find it in the **Motion** blocks section. You can type in any number of degrees, to point the sprite wherever you want.
 
@@ -52,7 +52,7 @@ Change the number of steps in the `move`{:class="block3motion"} blocks from `-10
 
 If you try moving the shark around now after you've added the `point in direction`{:class="block3motion"} blocks, you might notice something a little strange happening. The shark may not be turning quite right!
 
-![Upside down shark](images/spritesUpsideDown.png)
+![ತಲೆಕೆಳಗಾಗಿ ಶಾರ್ಕ್](images/spritesUpsideDown.png)
 
 \--- /task \---
 
