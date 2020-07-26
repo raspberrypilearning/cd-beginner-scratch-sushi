@@ -69,13 +69,13 @@
 
 \--- task \---
 
-Find the `if on edge bounce`{:class="block3motion"} block, and add it in after the `wait`{:class="block3control"} block.
+`if on edge bounce`{: class = "block3motion"}ಬ್ಲಾಕ್ ಅನ್ನು ಹುಡುಕಿ, ಮತ್ತು `wait` {:class="block3control"}ಬ್ಲಾಕ್ನ ನಂತರ ಅದನ್ನು ಸೇರಿಸಿ.
 
 \--- /task \---
 
 ## \--- collapse \---
 
-## title: What does the new block do?
+## title: ಈ ಹೊಸ ಬ್ಲಾಕ್ ಏನು ಮಾಡುತ್ತದೆ?
 
 The `if on edge bounce`{:class="block3motion"} block checks if the sprite is touching the edge of the Stage and, if it is, it turns left, right, up, or down as appropriate.
 
