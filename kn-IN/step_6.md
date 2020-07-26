@@ -30,7 +30,7 @@
 
 \--- task \---
 
-Grab a couple of copies of the `point in direction`{:class="block3motion"} block from the **Motion** list and connect them to your shark's code, like this:
+`point in direction`{: class = "block3motion"}ಬ್ಲಾಕ್ ಗಳ ಒಂದೆರಡು ಪ್ರತಿಗಳನ್ನು ** ಮೋಶನ್** ಪಟ್ಟಿಇಂದ ಪಡೆದುಕೊಳ್ಳಿ ಮತ್ತು ಅವುಗಳನ್ನು ನಿಮ್ಮ ಶಾರ್ಕ್ ಕೋಡ್‌ಗೆ ಕನೆಕ್ಟ್ ಮಾಡಿ,ಈ ರೀತಿಯಾಗಿ:
 
 ```blocks3
     when [left arrow v] key pressed
@@ -48,7 +48,7 @@ Grab a couple of copies of the `point in direction`{:class="block3motion"} block
 
 \--- task \---
 
-Change the number of steps in the `move`{:class="block3motion"} blocks from `-10` to `10`.
+`ಚಲನೆಯ`{:class="block3motion"}ಬ್ಲಾಕ್ನಲ್ಲಿ ಹಂತಗಳ ಸಂಖ್ಯೆಯನ್ನು ಬದಲಾಯಿಸಿ `-10` ರಿಂದ `10`ರ ವರೆಗೆ.
 
 If you try moving the shark around now after you've added the `point in direction`{:class="block3motion"} blocks, you might notice something a little strange happening. The shark may not be turning quite right!
 
