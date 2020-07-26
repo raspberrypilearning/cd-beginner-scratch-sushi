@@ -78,9 +78,9 @@
 
 ## \--- collapse \---
 
-## title: How do x- and y-coordinates work?
+## title: x- ಮತ್ತು y- ಕೋ ಒರ್ಡಿನೇಟ್ ಗಳು ಹೇಗೆ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತವೆ?
 
-To talk about the positions of objects, such as sprites, we often use x- and y-coordinates. The **x-axis** of the Stage coordinate system runs from **left to right**, and the **y-axis** runs from **bottom to top**.
+Sprites‌ಗಳಂತಹ ವಸ್ತುಗಳ ಸ್ಥಾನಗಳ ಬಗ್ಗೆ ಮಾತನಾಡಲು, ನಾವು ಹೆಚ್ಚಾಗಿ x- ಮತ್ತು y- ಕೋ ಒರ್ಡಿನೇಟ್ ಗಳನ್ನು ಬಳಸುತ್ತೇವೆ. The **x-axis** of the Stage coordinate system runs from **left to right**, and the **y-axis** runs from **bottom to top**.
 
 ![](images/moving3.png)
 
