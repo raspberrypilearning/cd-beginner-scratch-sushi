@@ -33,9 +33,9 @@
 
 \--- /task \---
 
-Well, that fish just crashed into the side of the Stage, and it was moving far too fast for your shark to catch.
+ಆದರೆ, ಆ ಮೀನು ಇವಾಗ ಸ್ಟೇಜ್ ನ ಬದಿಗೆ ಅಪ್ಪಳಿಸಿತು, ಮತ್ತು ಅದು ನಿಮ್ಮ ಶಾರ್ಕ್ ಹಿಡಿಯಲಾಗದಷ್ಟು ತುಂಬಾ ವೇಗವಾಗಿ ಚಲಿಸುತ್ತಿದೆ.
 
-ಮೊದಲಿಗೆ, ನೀವು ಮೀನುಗಳನ್ನು ನಿಧಾನಗೊಳಿಸಬೇಕು. That’s actually pretty easy, you just need it to wait for a little while after it moves those 10 steps. There’s a **Control** block that will help you here:
+ಮೊದಲಿಗೆ, ನೀವು ಮೀನುಗಳನ್ನು ನಿಧಾನಗೊಳಿಸಬೇಕು. ಅದು ನಿಜಕ್ಕೂ ತುಂಬಾ ಸುಲಭ, ಅದು ಆ 10 ಹಂತಗಳನ್ನು ಚಲಿಸಿದ ನಂತರ ಸ್ವಲ್ಪ ಸಮಯ ಕಾಯುಬೇಕು. There’s a **Control** block that will help you here:
 
 ```blocks3
     wait (1) secs
