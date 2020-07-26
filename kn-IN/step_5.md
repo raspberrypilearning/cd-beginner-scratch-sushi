@@ -56,11 +56,11 @@
 
 \--- /task \---
 
-ಈಗ ನಿಮ್ಮ ಶಾರ್ಕ್ ಹಿಂದಕ್ಕೆ ಮತ್ತು ಮುಂದಕ್ಕೆ ಚಲಿಸುತ್ತದೆ, ಅದು ತುಂಬಾ ಒಳ್ಳೆಯದು, ಆದರೆ ಅದು ಮೇಲಕ್ಕೆ ಅಥವಾ ಕೆಳಕ್ಕೆ ಚಲಿಸುವುದಿಲ್ಲ. ಅಲ್ಲದೆ, ನೀವು **ಮೋಶನ್**ಬ್ಲಾಕ್ಗಳನ್ನು ನೋಡಿದರೆ, 'ಅಪ್' ಅಥವಾ 'ಡೌನ್' ಗೆ ಯಾವುದೇ ಬ್ಲಾಕ್ಗಳಿಲ್ಲ ಎಂದು ನೀವು ನೋಡುತ್ತೀರಿ. There are a whole bunch of them related to **x** and **y** coordinates though — let's try those!
+ಈಗ ನಿಮ್ಮ ಶಾರ್ಕ್ ಹಿಂದಕ್ಕೆ ಮತ್ತು ಮುಂದಕ್ಕೆ ಚಲಿಸುತ್ತದೆ, ಅದು ತುಂಬಾ ಒಳ್ಳೆಯದು, ಆದರೆ ಅದು ಮೇಲಕ್ಕೆ ಅಥವಾ ಕೆಳಕ್ಕೆ ಚಲಿಸುವುದಿಲ್ಲ. ಅಲ್ಲದೆ, ನೀವು **ಮೋಶನ್**ಬ್ಲಾಕ್ಗಳನ್ನು ನೋಡಿದರೆ, 'ಅಪ್' ಅಥವಾ 'ಡೌನ್' ಗೆ ಯಾವುದೇ ಬ್ಲಾಕ್ಗಳಿಲ್ಲ ಎಂದು ನೀವು ನೋಡುತ್ತೀರಿ. ಆದರೂ ಅವುಗಳಲ್ಲಿ ಸಂಪೂರ್ಣ ಗುಂಪೇ **x** ಮತ್ತು **y**ಕೋ ಒರ್ದಿನಟ್ಸ್ ಗೆ ಸಂಬಂಧಿಸಿದೆ - ಅವುಗಳನ್ನು ಪ್ರಯತ್ನಿಸೋಣ!
 
 \--- task \---
 
-Grab two `change y by`{:class="block3motion"} blocks, and update your code like this:
+ಎರಡು`y ನಿಂದ ಬದಲಾಯಿಸಿ` {:class="block3motion"} ಬ್ಲಾಕ್‌ಗಳನ್ನು ಹಿಡಿಯಿರಿ, ಮತ್ತು ನಿಮ್ಮ ಕೋಡ್ ಅನ್ನು ಈ ರೀತಿ ಅಪ್ಡೇಟ್ ಮಾಡಿ:
 
 ```blocks3
     when [up arrow v] key pressed
@@ -74,7 +74,7 @@ Grab two `change y by`{:class="block3motion"} blocks, and update your code like 
 
 \--- /task \---
 
-Now when you press the arrows keys, the shark moves all around the stage!
+ಈಗ ನೀವು ಆರೋ ಕೀಗಳನ್ನು ಒತ್ತಿದಾಗ, ಶಾರ್ಕ್ ಸ್ಟೇಜ್ ನ ಸುತ್ತಲೂ ಚಲಿಸುತ್ತದೆ!
 
 ## \--- collapse \---
 
