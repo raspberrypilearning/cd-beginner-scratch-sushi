@@ -60,7 +60,7 @@
 
 \--- task \---
 
-Put the `show`{:class="block3looks"} block from **Looks** in at the very start of the fish code, so you can reset the game.
+`show`{: class = "block3looks"} ಬ್ಲಾಕ್ಅನ್ನು**Looks**ನಿಂದ ಮೀನು ಕೋಡ್ ನ ಪ್ರಾರಂಭದಲ್ಲಿಯೇ ಇರಿಸಿ, ಆದ್ದರಿಂದ ನೀವು ಆಟವನ್ನು ಮರುಹೊಂದಿಸಬಹುದು.
 
 ```blocks3
     when green flag clicked
@@ -71,11 +71,11 @@ Put the `show`{:class="block3looks"} block from **Looks** in at the very start o
 
 \--- /task \---
 
-That's already better, but you don’t want the player to have to restart the game every time they catch a single fish!
+ಅದು ಈಗಾಗಲೇ ಉತ್ತಮವಾಗಿದೆ, ಆದರೆ ಆಟಗಾರನು ಒಂದೇ ಮೀನು ಹಿಡಿದಾಗಲೆಲ್ಲ ಆಟವನ್ನು ಮರುಪ್ರಾರಂಭಿಸಬೇಕೆಂದು ನೀವು ಬಯಸುವುದಿಲ್ಲ!
 
 \--- task \---
 
-Update the code inside your `if...then`{:class="block3control"} block to look like this:
+ನಿಮ್ಮ `if...then` {:class="block3control"}ಬ್ಲಾಕ್ನ ಒಳಗಿನ ಕೋಡ್ ಅನ್ನು ಈ ರೀತಿ ಕಾಣಲು ನವೀಕರಿಸಿ:
 
 ```blocks3
     if on edge, bounce
