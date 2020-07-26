@@ -119,12 +119,12 @@ Sprite ಅನ್ನು ಅದರ ಸೆಂಟರ್ ಕೋ ಒರ್ಡಿನೇ
 +     go to x: (0) y: (0)
 ```
 
-Set the both the `x` and the `y` coordinate to `0` in the `go to`{:class="block3motion"} block if they are not already `0`.
+`x` ಮತ್ತು `y` ಎರಡೂ ಕೋ ಒರ್ಡಿನೇಟ್ ಗಳನ್ನು `0 ` ಗೆ `ಗೋ ಟು` {:class="block3motion"}ಬ್ಲಾಕ್ ನಲ್ಲಿ ಸೆಟ್ ಮಾಡಿ ಅವುಗಳು ಈಗಾಗಲೇ `0`ಇಲ್ಲದಿದ್ದರೆ.
 
 \--- /task \---
 
 \--- task \---
 
-Now click the green flag: you should see the shark return to the centre of the stage!
+ಈಗ ಹಸಿರು ಧ್ವಜವನ್ನು ಕ್ಲಿಕ್ ಮಾಡಿ: ನೀವು ಶಾರ್ಕ್ ಸ್ಟೇಜ್ ನ ಮಧ್ಯಭಾಗಕ್ಕೆ ಹಿಂತಿರುಗುವುದನ್ನು ನೋಡಬೇಕು!
 
 \--- /task \---
