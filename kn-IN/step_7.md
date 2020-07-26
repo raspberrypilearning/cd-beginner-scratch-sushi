@@ -1,12 +1,12 @@
-## Remote-control fish
+## ರಿಮೋಟ್-ಕಂಟ್ರೋಲ್ ಮೀನು
 
-Ok, now it's time to make the fish swim on its own. To do this, you’re going to need a new kind of block: a **Control** block.
+ಸರಿ, ಈಗ ಮೀನುಗಳನ್ನು ಸ್ವಂತವಾಗಿ ಈಜುವಂತೆ ಮಾಡುವ ಸಮಯ ಬಂದಿದೆ. ಇದನ್ನು ಮಾಡಲು, ನಿಮಗೆ ಹೊಸ ರೀತಿಯ ಬ್ಲಾಕ್ ಅಗತ್ಯವಿರುತ್ತದೆ: **ನಿಯಂತ್ರಣ** ಬ್ಲಾಕ್.
 
 \--- task \---
 
-Select your fish sprite.
+ನಿಮ್ಮ ಮೀನು sprite ಆಯ್ಕೆಮಾಡಿ.
 
-Drag a `when green flag clicked`{:class="block3events"} **Event** block, a `forever`{:class="block3control"} **Control** block, and a `move 10 steps`{:class="block3motion"} **Motion** block into the **sprite panel**, like this:
+`ಹಸಿರು ಧ್ವಜ ಕ್ಲಿಕ್ ಮಾಡಿದಾಗ` {:class="block3events"} **ಈವೆಂಟ್**ಬ್ಲಾಕ್ಅನ್ನು,`ಶಾಶ್ವತವಾಗಿ` {: class = "block3control"} **ನಿಯಂತ್ರಣ** ಬ್ಲಾಕ್ಅನ್ನು, ಮತ್ತು ` 10 ಹಂತಗಳನ್ನು ಸರಿಸಿ` {: class = "block3motion"} **ಮೋಶನ್** ಬ್ಲಾಕ್ಅನ್ನು**sprite ಪ್ಯಾನೆಲ್** ‌ ಗೆ ಎಳೆಯಿರಿ, ಹೀಗೆ:
 
 ```blocks3
     when green flag clicked
@@ -19,7 +19,7 @@ Drag a `when green flag clicked`{:class="block3events"} **Event** block, a `fore
 
 ## \--- collapse \---
 
-## title: What does the new block do?
+## title: ಈ ಹೊಸ ಕೋಡ್ ಏನು ಮಾಡುತ್ತದೆ?
 
 **Control** blocks make your program do things a certain number of times, or under certain conditions.
 
@@ -29,13 +29,13 @@ Here, the fish does whatever is inside the `forever`{:class="block3control"} blo
 
 \--- task \---
 
-Now click the green flag and watch what happens!
+ಈಗ ಹಸಿರು ಧ್ವಜವನ್ನು ಕೆಲವು ಬಾರಿ ಕ್ಲಿಕ್ ಮಾಡಿ ಮತ್ತು ಏನಾಗುತ್ತದೆ ಎಂಬುದನ್ನು ನೋಡಿ!
 
 \--- /task \---
 
 Well, that fish just crashed into the side of the Stage, and it was moving far too fast for your shark to catch.
 
-First, you need to slow the fish down. That’s actually pretty easy, you just need it to wait for a little while after it moves those 10 steps. There’s a **Control** block that will help you here:
+ಮೊದಲಿಗೆ, ನೀವು ಮೀನುಗಳನ್ನು ನಿಧಾನಗೊಳಿಸಬೇಕು. That’s actually pretty easy, you just need it to wait for a little while after it moves those 10 steps. There’s a **Control** block that will help you here:
 
 ```blocks3
     wait (1) secs
@@ -59,9 +59,9 @@ Add the `wait`{:class="block3control"} block into your code inside the `forever`
 
 ## title: Making adjustments
 
-The number you set in the `wait`{:class="block3control"} block says how many **seconds** you want the fish to wait. `0.5` is half a second.
+The number you set in the `wait`{:class="block3control"} block says how many **seconds** you want the fish to wait. `0.5` ಅರ್ಧ ಸೆಕೆಂಡ್.
 
-You can test out different values to see which is the best for the game. And remember that you can change the number of steps inside the `move`{:class="block3motion"} block too!
+ಆಟಕ್ಕೆ ಯಾವುದು ಉತ್ತಮ ಎಂದು ನೋಡಲು ನೀವು ವಿಭಿನ್ನ ಮೌಲ್ಯಗಳನ್ನು ಪರೀಕ್ಷಿಸಬಹುದು. And remember that you can change the number of steps inside the `move`{:class="block3motion"} block too!
 
 \--- /collapse \---
 
@@ -105,7 +105,7 @@ You already know from a previous step how to make a sprite turn, so start there.
 
 \--- task \---
 
-Add a turn into the fish's swimming instructions, and click the green flag.
+ಮೀನಿನ ಈಜು ಸೂಚನೆಗಳಿಗೆ ತಿರುವು ಸೇರಿಸಿ, ಮತ್ತು ಹಸಿರು ಧ್ವಜವನ್ನು ಕ್ಲಿಕ್ ಮಾಡಿ.
 
 ```blocks3
     when green flag clicked
@@ -159,7 +159,7 @@ Find the `pick random`{:class="block3operators"} **operator** block, and plug it
 
 \--- task \---
 
-Click the green flag to run the code!
+ಕೋಡ್ ಅನ್ನು ಚಲಾಯಿಸಲು ಹಸಿರು ಧ್ವಜವನ್ನು ಕ್ಲಿಕ್ ಮಾಡಿ!
 
 \--- /task \---
 
@@ -169,13 +169,13 @@ Click the green flag to run the code!
 
 The forever block now makes the fish sprite do four things in order:
 
-1. Move forward
-2. Turn a little bit
-3. Wait briefly
+1. ಮುಂದೆ ಸರಿಸಿ
+2. ಸ್ವಲ್ಪ ತಿರುಗಿ
+3. ಸಂಕ್ಷಿಪ್ತವಾಗಿ ಕಾಯಿರಿ
 4. Check whether it's at the edge of the Stage
 
 Once the sprite has done the check, it will start at the beginning of the loop again and move, turn, wait, check, for as long as you let your Scratch program run.
 
 \--- /collapse \---
 
-Cool! Next up: catching that fish!
+Cool! ಮುಂದಿನದು: ಆ ಮೀನು ಹಿಡಿಯುವುದು!
