@@ -8,11 +8,11 @@
 
 \--- /task \---
 
-As you’ve probably guessed, you’re going to need **Event** and **Motion** blocks again!
+ನೀವು ಬಹುಶಃ ಊಹಿಸಿದಂತೆ, ನಿಮಗೆ ಮತ್ತೆ**ಈವೆಂಟ್** ಮತ್ತು **ಮೋಶನ್**ಬ್ಲಾಕ್ ಗಳ ಅಗತ್ಯವಿರುತ್!
 
 \--- task \---
 
-This time, look for this block and drag it into the current sprite panel:
+ಈ ಸಮಯದಲ್ಲಿ, ಈ ಬ್ಲಾಕ್ ಅನ್ನು ಹುಡುಕಿ ಮತ್ತು ಅದನ್ನು ಪ್ರಸ್ತುತ sprite ಪ್ಯಾನೆಲ್‌ಗೆ ಎಳೆಯಿರಿ:
 
 ```blocks3
     when [space v] key pressed
