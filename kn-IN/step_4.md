@@ -1,28 +1,28 @@
 ## ದೃಶ್ಯವನ್ನು ಹೊಂದಿಸಲಾಗುತ್ತಿದೆ
 
-Scratch has a library of backgrounds and sprites for you to use to make your project look awesome.
+ನಿಮ್ಮ ಪ್ರಾಜೆಕ್ಟ್ ಅದ್ಭುತವಾಗಿ ಕಾಣುವಂತೆ ಮಾಡಲು Scratch ನೀವು ಬಳಸಲು ಹಿನ್ನೆಲೆ ಲೈಬ್ರರಿ ಮತ್ತು sprites ‌ಗಳಯನ್ನು ಹೊಂದಿದೆ.
 
 \--- task \---
 
-Select the Stage.
+ಸ್ಟೇಜ್ ಆಯ್ಕೆಮಾಡಿ.
 
-![Selecting the stage](images/looksSelectStage.png)
+![ಸ್ಟೇಜ್ ಆಯ್ಕೆಮಾಡುವುದು](images/looksSelectStage.png)
 
-Click on **Backdrops**.
+**ಬ್ಯಾಕ್‌ಡ್ರಾಪ್ಸ್** ಕ್ಲಿಕ್ ಮಾಡಿ.
 
-![The Backdrops tab](images/looksBackdrops.png)
+![ಬ್ಯಾಕ್‌ಡ್ರಾಪ್ಸ್ ಟ್ಯಾಬ್](images/looksBackdrops.png)
 
-Click the **Choose backdrop from library** icon.
+**ಲೈಬ್ರರಿಯಿಂದ ಬ್ಯಾಕ್‌ಡ್ರಾಪ್ ಆಯ್ಕೆಮಾಡಿ** ಐಕಾನ್ ಮೇಲೆ ಕ್ಲಿಕ್ ಮಾಡಿ.
 
-![The Choose backdrop icon](images/looksChooseBg.png)
+![ಬ್ಯಾಕ್‌ಡ್ರಾಪ್ ಐಕಾನ್ ಆಯ್ಕೆಮಾಡಿ](images/looksChooseBg.png)
 
-Then pick your favourite underwater background!
+ನಂತರ ನಿಮ್ಮ ನೆಚ್ಚಿನ ನೀರೊಳಗಿನ ಹಿನ್ನೆಲೆಯನ್ನು ಆರಿಸಿ!
 
-![An underwater scene](images/looksUnderwater.png)
+![ನೀರೊಳಗಿನ ದೃಶ್ಯ](images/looksUnderwater.png)
 
 \--- /task \---
 
-Great! Of course, now you have a cat underwater, and cats aren't usually big fans of that. But you can fix that, because you can turn the cat into a shark!
+ಅದ್ಭುತವಾಗಿದೆ! Of course, now you have a cat underwater, and cats aren't usually big fans of that. But you can fix that, because you can turn the cat into a shark!
 
 \--- task \---
 
