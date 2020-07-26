@@ -70,7 +70,7 @@
 
 **ಮೋಶನ್**ವರ್ಗದಲ್ಲಿ `ಸೆಟ್ ರೊಟೇಷನ್ ಸ್ಟೈಲ್ `{:class = "block3motion"} ಬ್ಲಾಕ್ಗಾಗಿ ಹುಡುಕಿ.
 
-Add the block to your shark reset code from earlier, and set the rotation style to `left-right`{:class="block3motion"}, like this:
+ಮೊದಲಿನಿಂದ ನಿಮ್ಮ ಶಾರ್ಕ್ ರಿಸೆಟ್ ಕೋಡ್‌ಗೆ ಬ್ಲಾಕ್ ಅನ್ನು ಸೇರಿಸಿ, ಮತ್ತು ತಿರುಗುವಿಕೆಯ ಶೈಲಿಯನ್ನು ` ಎಡ-ಬಲಕ್ಕೆ` {: class = "block3motion"}ಹೊಂದಿಸಿ, ಈ ರೀತಿ:
 
 ```blocks3
     when green flag clicked
