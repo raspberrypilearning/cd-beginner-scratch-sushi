@@ -18,7 +18,7 @@
     when [space v] key pressed
 ```
 
-Click the little arrow (▼) beside `space`. You will see a list of all your keyboard keys that you can pick from.
+`ಸ್ಪೇಸ್` ಪಕ್ಕದಲ್ಲಿರುವ ಚಿಕ್ಕ ಆರೋ (▼) ಕ್ಲಿಕ್ ಮಾಡಿ. ನೀವು ಆರಿಸಬಹುದಾದ ನಿಮ್ಮ ಎಲ್ಲಾ ಕೀಬೋರ್ಡ್ ಕೀಗಳ ಪಟ್ಟಿಯನ್ನು ನೀವು ನೋಡುತ್ತೀರಿ.
 
 \--- /task \---
 
