@@ -22,11 +22,11 @@
 
 \--- /task \---
 
-You’re going to need four of the `when key pressed`{:class="block3events"} blocks — one for each of your arrow keys.
+ನಿಮಗೆ ನಾಲ್ಕು`ಕೀಯನ್ನು ಒತ್ತಿದಾಗ`{:class="block3events"} ಬ್ಲಾಕ್‌ಗಳ ಅಗತ್ಯವಿರುತ್ತದೆ - ನಿಮ್ಮ ಪ್ರತಿಯೊಂದು ಆರೋ ಕೀಗಳಿಗೆ ಒಂದು.
 
 \--- task \---
 
-To make your shark move, connect these blocks to **Motion** blocks like this:
+ನಿಮ್ಮ ಶಾರ್ಕ್ ಚಲಿಸುವಂತೆ ಮಾಡಲು, ಈ ಬ್ಲಾಕ್‌ಗಳನ್ನು **ಮೋಶನ್** ಬ್ಲಾಕ್ ಗೆ ಸಂಪರ್ಕಪಡಿಸಿ ಈ ರೀತಿಯಾಗಿ:
 
 ```blocks3
     when [left arrow v] key pressed
@@ -56,7 +56,7 @@ To make your shark move, connect these blocks to **Motion** blocks like this:
 
 \--- /task \---
 
-Now your shark moves back and forwards, which is pretty cool, but it doesn’t move up or down. Also, if you look through the **Motion** blocks, you’ll see there are no blocks for 'up' or 'down'. There are a whole bunch of them related to **x** and **y** coordinates though — let's try those!
+ಈಗ ನಿಮ್ಮ ಶಾರ್ಕ್ ಹಿಂದಕ್ಕೆ ಮತ್ತು ಮುಂದಕ್ಕೆ ಚಲಿಸುತ್ತದೆ, ಅದು ತುಂಬಾ ಒಳ್ಳೆಯದು, ಆದರೆ ಅದು ಮೇಲಕ್ಕೆ ಅಥವಾ ಕೆಳಕ್ಕೆ ಚಲಿಸುವುದಿಲ್ಲ. ಅಲ್ಲದೆ, ನೀವು **ಮೋಶನ್**ಬ್ಲಾಕ್ಗಳನ್ನು ನೋಡಿದರೆ, 'ಅಪ್' ಅಥವಾ 'ಡೌನ್' ಗೆ ಯಾವುದೇ ಬ್ಲಾಕ್ಗಳಿಲ್ಲ ಎಂದು ನೀವು ನೋಡುತ್ತೀರಿ. There are a whole bunch of them related to **x** and **y** coordinates though — let's try those!
 
 \--- task \---
 
