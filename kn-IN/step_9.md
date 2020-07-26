@@ -6,33 +6,34 @@
 
 \--- task \---
 
-Go to the **Variables** blocks category and click on **Make a Variable**.
+**Variables (ವೇರಿಯೇಬಲ್ಸ್)**ಬ್ಲಾಕ್ಗಳಿಗೆ ಹೋಗಿ, ನಂತರ **Make a Variable (ಮೇಕ್ ಎ ವೇರಿಯಬಲ್)**ಕ್ಲಿಕ್ ಮಾಡಿ.
 
 ![](images/catch5.png)
 
-Enter `score` as the name.
+`ಸ್ಕೋರ್` ಅನ್ನು ಹೆಸರಿನಂತೆ ನಮೂದಿಸಿ.
 
 ![](images/catch6.png)
 
 ನಿಮ್ಮ ಹೊಸ ವೇರಿಯಬಲ್ ಪರಿಶೀಲಿಸಿ!
 
-![The Score variable is displayed on the stage](images/scoreVariableStage.png)
+![ಸ್ಕೋರ್ ವೇರಿಯಬಲ್ ಅನ್ನು ಸ್ಟೇಜ್ ಅಲ್ಲಿ ಪ್ರದರ್ಶಿಸಲಾಗುತ್ತದೆ](images/scoreVariableStage.png)
 
 \--- /task \---
 
 ## \--- collapse \---
 
-## title: What are variables?
+## title: ವೇರಿಯಬಲ್ ಯಾವುವು?
 
-When you want to store information in a program, you use something called a **variable**. ಅದರ ಮೇಲೆ ಲೇಬಲ್ ಇರುವ ಪೆಟ್ಟಿಗೆಯಂತೆ ಯೋಚಿಸಿ: ನೀವು ಅದರಲ್ಲಿ ಏನನ್ನಾದರೂ ಹಾಕಬಹುದು, ಅದರಲ್ಲಿ ಏನಿದೆ ಎಂಬುದನ್ನು ಪರಿಶೀಲಿಸಬಹುದು ಮತ್ತು ಅದರಲ್ಲಿರುವುದನ್ನು ಬದಲಾಯಿಸಬಹುದು. You’ll find variables in the **Variables** section, but you need to create them first for them to show up there!
+ನೀವು ಪ್ರೋಗ್ರಾಂನಲ್ಲಿ ಮಾಹಿತಿಯನ್ನು ಸಂಗ್ರಹಿಸಲು ಬಯಸಿದಾಗ, ನೀವು **ವೇರಿಯಬಲ್** ಅನ್ನು ಬಳಸಬಹುದು. ಅದರ ಮೇಲೆ ಲೇಬಲ್ ಇರುವ ಪೆಟ್ಟಿಗೆಯಂತೆ ಯೋಚಿಸಿ: ನೀವು ಅದರಲ್ಲಿ ಏನನ್ನಾದರೂ ಹಾಕಬಹುದು, ಅದರಲ್ಲಿ ಏನಿದೆ ಎಂಬುದನ್ನು ಪರಿಶೀಲಿಸಬಹುದು ಮತ್ತು ಅದರಲ್ಲಿರುವುದನ್ನು ಬದಲಾಯಿಸಬಹುದು. **ವೇರಿಯೇಬಲ್**ವಿಭಾಗ ದಲ್ಲಿ ನೀವು ವೇರಿಯೇಬಲ್ಗಳನ್ನು ಕಾಣುತ್ತೀರಿ, ಆದರೆ ಅಲ್ಲಿ ಅವುಗಳನ್ನು ತೋರಿಸಲು ನೀವು ಮೊದಲು ಅವುಗಳನ್ನು ರಚಿಸಬೇಕಾಗಿದೆ!
 
 \--- /collapse \---
 
-Now you need to update the variable whenever the shark eats a fish, and to reset it when the game is restarted. ಎರಡನ್ನೂ ಮಾಡುವುದು ಬಹಳ ಸುಲಭ:
+ಈಗ ನೀವು ಶಾರ್ಕ್ ಮೀನುಗಳನ್ನು ತಿನ್ನುವಾಗಲೆಲ್ಲಾ ವೇರಿಯೇಬಲ್ ಅನ್ನು ನವೀಕರಿಸಬೇಕು ಮತ್ತು ಆಟವನ್ನು ಮರುಪ್ರಾರಂಭಿಸಿದಾಗ ಅದನ್ನು ಮರುಹೊಂದಿಸಬೇಕು. ಎರಡನ್ನೂ ಮಾಡುವುದು ಬಹಳ ಸುಲಭ:
 
 \--- task \---
 
-From the **Variables** section, take the `set [my variable v] to [0]`{:class="block3variables"} and `change [my variable v] by [1]`{:class="block3variables"} blocks. Click on the little arrows in the blocks, choose `score` from the list, and then put the blocks into your program:
+** ವೇರಿಯೇಬಲ್** ವಿಭಾಗದಿಂದ, `set [my variable v] to
+ [0]` {: class = "block3variables"} ಮತ್ತು `change [my variable v] by [1]` {: class = "block3variables"} ಬ್ಲಾಕ್‌ಗಳು. Click on the little arrows in the blocks, choose `score` from the list, and then put the blocks into your program:
 
 ### ಶಾರ್ಕ್ಗಾಗಿ ಕೋಡ್
 
