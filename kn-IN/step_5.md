@@ -1,10 +1,10 @@
-## Moving things around
+## ಸುತ್ತಲೂ ವಿಷಯಗಳನ್ನು ಚಲಿಸುವುದು
 
-Right now your shark moves in a circle, and it would be much more fun to control it with the arrow keys. On this card, you’re going learn how to do that!
+ಇದೀಗ ನಿಮ್ಮ ಶಾರ್ಕ್ ವೃತ್ತದಲ್ಲಿ ಚಲಿಸುತ್ತದೆ, ಮತ್ತು ಅದನ್ನು ಆರೋ ಕೀಗಳಿಂದ ನಿಯಂತ್ರಿಸಲು ಹೆಚ್ಚು ಖುಷಿಯಾಗುತ್ತದೆ. ಈ ಕಾರ್ಡ್‌ನಲ್ಲಿ, ಅದನ್ನು ಹೇಗೆ ಮಾಡಬೇಕೆಂದು ನೀವು ಕಲಿಯಲಿದ್ದೀರಿ!
 
 \--- task \---
 
-Start by deleting all code that you have for the shark.
+ಶಾರ್ಕ್ಗಾಗಿ ನೀವು ಹೊಂದಿರುವ ಎಲ್ಲಾ ಕೋಡ್ ಅನ್ನು ಅಳಿಸುವ ಮೂಲಕ ಪ್ರಾರಂಭಿಸಿ.
 
 \--- /task \---
 
