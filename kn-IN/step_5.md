@@ -80,11 +80,11 @@
 
 ## title: x- ಮತ್ತು y- ಕೋ ಒರ್ಡಿನೇಟ್ ಗಳು ಹೇಗೆ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತವೆ?
 
-Sprites‌ಗಳಂತಹ ವಸ್ತುಗಳ ಸ್ಥಾನಗಳ ಬಗ್ಗೆ ಮಾತನಾಡಲು, ನಾವು ಹೆಚ್ಚಾಗಿ x- ಮತ್ತು y- ಕೋ ಒರ್ಡಿನೇಟ್ ಗಳನ್ನು ಬಳಸುತ್ತೇವೆ. The **x-axis** of the Stage coordinate system runs from **left to right**, and the **y-axis** runs from **bottom to top**.
+Sprites‌ಗಳಂತಹ ವಸ್ತುಗಳ ಸ್ಥಾನಗಳ ಬಗ್ಗೆ ಮಾತನಾಡಲು, ನಾವು ಹೆಚ್ಚಾಗಿ x- ಮತ್ತು y- ಕೋ ಒರ್ಡಿನೇಟ್ ಗಳನ್ನು ಬಳಸುತ್ತೇವೆ. ** x- ಆಕ್ಸಿಸ್** ಸ್ಟೇಜ್ ಕೋ ಒರ್ಡಿನೇಟ್ ವ್ಯವಸ್ಥೆಯು **ಎಡದಿಂದ ಬಲಕ್ಕೆ** ಚಲಿಸುತ್ತದೆ, ಮತ್ತು **y-ಆಕ್ಸಿಸ್** **ಕೆಳಗಿನಿಂದ ಮೇಲಕ್ಕೆ** ಚಲಿಸುತ್ತದೆ.
 
 ![](images/moving3.png)
 
-A sprite can be located by the coordinates of its centre, for example `(15, -27)`, where `15` is its position along the x-axis , and `-27` its position along the y-axis.
+Sprite ಅನ್ನು ಅದರ ಸೆಂಟರ್ ಕೋ ಒರ್ಡಿನೇಟ್ಗಳಿಂದ ಕಂಡುಹಿಡಿಯಬಹುದು, ಉದಾಹರಣೆಗೆ `(15, -27)` , ಅಲ್ಲಿ `15` ಇದು x- ಆಕ್ಸಿಸ್ ಉದ್ದಕ್ಕೂ ಮತ್ತು `-27 ` y- ಆಕ್ಸಿಸ್ ಉದ್ದಕ್ಕೂ ಅದರ ಸ್ಥಾನ ಆಗಿದೆ.
 
 + To get a feel for how this actually works, select a sprite and use the **x** and **y** controls to move it around the stage by setting different values for the coordinates.
 
