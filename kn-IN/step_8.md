@@ -30,13 +30,13 @@
 
 `if...then` {: class = "block3control"} **ನಿಯಂತ್ರಣ** ಬ್ಲಾಕ್ಗೆ `ನಿಜ / ತಪ್ಪು` ಮೌಲ್ಯ ನೀಡಬೇಕಾಗಿದೆ.
 
-**Sensing** blocks collect information, like where the sprite is, what it’s touching, etc. ನೀವು ಈ ಬ್ಲಾಕ್ ಅನ್ನು ಬಳಸುತ್ತಿರುವಿರಿ:
+**ಸೆನ್ಸಿಂಗ್**ಬ್ಲಾಕ್sprite ಎಲ್ಲಿದೆ, ಅದು ಏನು ಸ್ಪರ್ಶಿಸುತ್ತಿದೆ ಇತ್ಯಾದಿಗಳಂತಹ ಮಾಹಿತಿಯನ್ನು ಸಂಗ್ರಹಿಸುತ್ತದೆ. ನೀವು ಈ ಬ್ಲಾಕ್ ಅನ್ನು ಬಳಸುತ್ತಿರುವಿರಿ:
 
 ```blocks3
     <touching [Sprite1 v] ?>
 ```
 
-From this block's pointy ends, you can tell it’s going to give you the `True/False` value that the `if...then`{:class="block3control"} block needs.
+ಈ ಬ್ಲಾಕ್ನ ಪಾಯಿಂಟಿ ತುದಿಗಳಿಂದ, ಅದು ನಿಮಗೆ `ನಿಜ / ತಪ್ಪು` ಮೌಲ್ಯ ನೀಡಲಿದೆ ಎಂದು ನೀವು ಹೇಳಬಹುದು ಇದು `if...then` {: class = "block3control"} ಬ್ಲಾಕ್ನ ಅಗತ್ಯಗಳು.
 
 \--- /collapse \---
 
