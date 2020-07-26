@@ -8,7 +8,7 @@
 
 ` if...then ` {: class = "block3control"} **ನಿಯಂತ್ರಣ**ಬ್ಲಾಕ್ಅನ್ನು`forever`{: class = "block3control"} ಫಿಶ್ sprite‌ನ ಲೂಪ್ ಒಳಗೆ ಸೇರಿಸಿ, `if on edge bounce` {: class = "block3motion"} ಬ್ಲಾಕ್ನ ಕೆಳಗೆ.
 
-Drag the `touching...`{:class="block3sensing"} block into the space at the top of the `if...then`{:class="block3control"} block, and click the little triangle to select the shark sprite's name. ನೀವು ಅದನ್ನು ಬದಲಾಯಿಸದಿದ್ದರೆ, ಅದು 'ಸ್ಪ್ರೈಟ್ 1' ಆಗಿರುತ್ತದೆ.
+`ಟಚಿಂಗ್...`{: class = "block3sensing"}ಬ್ಲಾಕ್ ಅನ್ನು `if...then`{:class="block3control"} ಬ್ಲಾಕ್ ನ ಮೇಲ್ಭಾಗದಲ್ಲಿರುವ ಜಾಗಕ್ಕೆ ಎಳೆಯಿರಿ, ಮತ್ತು ಶಾರ್ಕ್ spriteನ ಹೆಸರನ್ನು ಆಯ್ಕೆ ಮಾಡಲು ಚಿಕ್ಕ ತ್ರಿಕೋನವನ್ನು ಕ್ಲಿಕ್ ಮಾಡಿ. ನೀವು ಅದನ್ನು ಬದಲಾಯಿಸದಿದ್ದರೆ, ಅದು 'ಸ್ಪ್ರೈಟ್ 1' ಆಗಿರುತ್ತದೆ.
 
 ```blocks3
     when green flag clicked
@@ -28,7 +28,7 @@ Drag the `touching...`{:class="block3sensing"} block into the space at the top o
 
 ## title: ಇದು ಹೇಗೆ ಕೆಲಸ ಮಾಡುತ್ತದೆ?
 
-The `if...then`{:class="block3control"} **Control** block needs to be given a `True/False` value.
+`if...then` {: class = "block3control"} **ನಿಯಂತ್ರಣ** ಬ್ಲಾಕ್ಗೆ `ನಿಜ / ತಪ್ಪು` ಮೌಲ್ಯ ನೀಡಬೇಕಾಗಿದೆ.
 
 **Sensing** blocks collect information, like where the sprite is, what it’s touching, etc. ನೀವು ಈ ಬ್ಲಾಕ್ ಅನ್ನು ಬಳಸುತ್ತಿರುವಿರಿ:
 
