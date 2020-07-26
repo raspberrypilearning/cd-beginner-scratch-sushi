@@ -102,11 +102,11 @@ Sprite ಅನ್ನು ಅದರ ಸೆಂಟರ್ ಕೋ ಒರ್ಡಿನೇ
 
 ಅದು ನಿಜಕ್ಕೂ ಬಹಳ ಸುಲಭ! ಸ್ಟೇಜ್ ನ ಮಧ್ಯಭಾಗ `(0, 0)` `(x, y)` ಕೋ ಒರ್ಡಿನೇಟ್ಗಳಲ್ಲಿ ಇದೆ.
 
-So all you need is an **Event** block for that green flag, and the **go to** block from **Motion**.
+ಆದ್ದರಿಂದ ನಿಮಗೆ **ಈವೆಂಟ್** ಬ್ಲಾಕ್ ಆ ಹಸಿರು ಧ್ವಜಕ್ಕಾಗಿ ಬೇಕು, ಮತ್ತು **ಗೋ ಟು** ಬ್ಲಾಕ್**ಮೋಶನ್ ಯಿಂದ** ಬೇಕು.
 
 \--- task \---
 
-Drag a `when green flag clicked`{:class="block3events"} **Event** block onto the current sprite panel.
+`ಹಸಿರು ಧ್ವಜ ಕ್ಲಿಕ್ ಮಾಡಿದಾಗ`{:class="block3events"} ** ಈವೆಂಟ್**ಬ್ಲಾಕ್ಅನ್ನು ಪ್ರಸ್ತುತ sprite ಪ್ಯಾನೆಲ್ ಗೆ ಎಳೆಯಿರಿ.
 
 ```blocks3
     when green flag clicked
