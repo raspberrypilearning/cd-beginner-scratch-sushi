@@ -85,7 +85,7 @@
 
 \--- task \---
 
-Update your code to set the rotation style of the fish to `left-right`{:class="block3motion"} at the beginning of the sprite's script:
+ಮೀನಿನ ತಿರುಗುವಿಕೆಯ ಶೈಲಿಯನ್ನು ` ಎಡ-ಬಲಕ್ಕೆ`{:class="block3motion"} ಹೊಂದಿಸಲು ನಿಮ್ಮ ಕೋಡ್ ಅನ್ನು sprite‌ನ ಆರಂಭದಲ್ಲಿ ನವೀಕರಿಸಿ:
 
 ```blocks3
     when green flag clicked
@@ -99,9 +99,9 @@ Update your code to set the rotation style of the fish to `left-right`{:class="b
 
 \--- /task \---
 
-The fish moves backwards and forwards now, but only in a straight line — a bit too easy for the player to catch with the shark! You need to make the fish less predictable.
+ಮೀನು ಈಗ ಹಿಂದಕ್ಕೆ ಮತ್ತು ಮುಂದಕ್ಕೆ ಚಲಿಸುತ್ತದೆ, ಆದರೆ ಸರಳ ರೇಖೆಯಲ್ಲಿ ಮಾತ್ರ - ಆಟಗಾರನಿಗೆ ಶಾರ್ಕ್ ಹಿಡಿಯಲು ಸ್ವಲ್ಪ ಸುಲಭ! ನೀವು ಮೀನುಗಳನ್ನು ಕಡಿಮೆ ಪ್ರೆಡಿಕ್ಟಾಬಲ್ ಆಗಿಸಬೇಕು.
 
-You already know from a previous step how to make a sprite turn, so start there.
+Sprite ತಿರುವು ಹೇಗೆ ಮಾಡಬೇಕೆಂದು ಹಿಂದಿನ ಹಂತದಿಂದ ನಿಮಗೆ ಈಗಾಗಲೇ ತಿಳಿದಿದೆ, ಆದ್ದರಿಂದ ಅಲ್ಲಿಂದ ಪ್ರಾರಂಭಿಸಿ.
 
 \--- task \---
 
@@ -120,7 +120,7 @@ You already know from a previous step how to make a sprite turn, so start there.
 
 \--- /task \---
 
-It’s better, but there’s still too much of a pattern. It needs to be more random. Luckily, Scratch can do random for you! You’ll just need a new kind of block, called an **operator** block.
+ಇದು ಉತ್ತಮವಾಗಿದೆ, ಆದರೆ ಇನ್ನೂ ಹೆಚ್ಚಿನ ಪ್ಯಾಟರ್ನ್ ಇದೆ. ಇದು ಹೆಚ್ಚು ರಿಯಾಂಡಮ್ ಆಗಿರಬೇಕು. ಅದೃಷ್ಟವಶಾತ್, ಸ್ಕ್ರ್ಯಾಚ್ ನಿಮಗಾಗಿ ರಿಯಾಂಡಮ್ ಮಾಡಬಹುದು! You’ll just need a new kind of block, called an **operator** block.
 
 ## \--- collapse \---
 
