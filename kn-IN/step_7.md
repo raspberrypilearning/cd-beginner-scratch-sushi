@@ -59,13 +59,13 @@
 
 ## title: ಹೊಂದಾಣಿಕೆಗಳನ್ನು ಮಾಡುವುದು
 
-The number you set in the `wait`{:class="block3control"} block says how many **seconds** you want the fish to wait. `0.5` ಅರ್ಧ ಸೆಕೆಂಡ್.
+`wait` {: class = "block3control"} ಬ್ಲಾಕ್ನಲ್ಲಿ ನೀವು ಹೊಂದಿಸಿದ ಸಂಖ್ಯೆ ನೀವು ಎಷ್ಟು **ಸೆಕೆಂಡುಗಳು** ಮೀನು ಕಾಯಬೇಕೆಂದು ಬಯಸುತ್ತೀರಿ ಎಂದು ಹೇಳುತ್ತದ. `0.5` ಅರ್ಧ ಸೆಕೆಂಡ್.
 
-ಆಟಕ್ಕೆ ಯಾವುದು ಉತ್ತಮ ಎಂದು ನೋಡಲು ನೀವು ವಿಭಿನ್ನ ಮೌಲ್ಯಗಳನ್ನು ಪರೀಕ್ಷಿಸಬಹುದು. And remember that you can change the number of steps inside the `move`{:class="block3motion"} block too!
+ಆಟಕ್ಕೆ ಯಾವುದು ಉತ್ತಮ ಎಂದು ನೋಡಲು ನೀವು ವಿಭಿನ್ನ ಮೌಲ್ಯಗಳನ್ನು ಪರೀಕ್ಷಿಸಬಹುದು. ಮತ್ತು `move`{: class = "block3motion"} ಬ್ಲಾಕ್ ಒಳಗೆ ಕೂಡ ನೀವು ಹಂತಗಳ ಸಂಖ್ಯೆಯನ್ನು ಬದಲಾಯಿಸಬಹುದು ಎಂಬುದನ್ನು ನೆನಪಿಡಿ!
 
 \--- /collapse \---
 
-The fish moves now, but you need it to bounce off the edge of the Stage too. Yet again, there’s a **Motion** block for this!
+ಮೀನು ಈಗ ಚಲಿಸುತ್ತದೆ, ಆದರೆ ಸ್ಟೇಜ್ ನ ಅಂಚಿನಿಂದ ಬೌನ್ಸ್ ಆಗಬೇಕಿದೆ. ಮತ್ತೊಮ್ಮೆ, ** Motion**ಬ್ಲಾಕ್ ಇದಕ್ಕಾಗಿ ಇದೆ!
 
 \--- task \---
 
