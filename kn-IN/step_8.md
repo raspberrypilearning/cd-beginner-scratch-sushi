@@ -40,13 +40,13 @@
 
 \--- /collapse \---
 
-Of course, you’ve just added an `if...then`{:class="block3control"} block without adding anything for the 'then' part. So at the moment your script is checking whether the fish sprite is touching the shark sprite, but it's not making anything happen in response.
+ಖಂಡಿತ, ನೀವು ಈಗ ` if...then`{:class="block3control"}ಬ್ಲಾಕ್ ಅನ್ನು ಸೇರಿಸಿದ್ದೀರಿ ಅದೂ 'then' ಭಾಗಕ್ಕೆ ಏನನ್ನೂ ಸೇರಿಸದೆಯೇ. ಆದ್ದರಿಂದ ಈ ಸಮಯದಲ್ಲಿ ನಿಮ್ಮ ಸ್ಕ್ರಿಪ್ಟ್ ಮೀನು sprite ಶಾರ್ಕ್ sprite ಅನ್ನು ಸ್ಪರ್ಶಿಸುತ್ತಿದೆಯೇ ಎಂದು ಪರಿಶೀಲಿಸುತ್ತಿದೆ, ಆದರೆ ಇದು ಪ್ರತಿಕ್ರಿಯೆಯಾಗಿ ಏನನ್ನೂ ಆಗುತ್ತಿಲ್ಲ.
 
-You can make the fish disappear, as if the shark ate it, by using the `hide`{:class="block3looks"} block.
+`ಮರೆಮಾಡು` {: class = "block3looks"} ಬ್ಲಾಕ್ಬಳಸಿ, ಶಾರ್ಕ್ ಅದನ್ನು ತಿನ್ನುತ್ತಿದ್ದಂತೆ ನೀವು ಮೀನು ಕಣ್ಮರೆಯಾಗಬಹುದು.
 
 \--- task \---
 
-Find the `hide`{:class="block3looks"} block in the **Looks** list, and put it inside the `if...then`{:class="block3control"} block, like so:
+`ಮರೆಮಾಡಿ` {:class="block3looks"}ಬ್ಲಾಕ್ಅನ್ನು ** Looks** ಪಟ್ಟಿಯಲ್ಲಿ ಹುಡುಕಿ, ಮತ್ತು ಅದನ್ನು `if...then`{: class "block3control"}ಬ್ಲಾಕ್ ಒಳಗೆ ಇರಿಸಿ, ಹಾಗೆ:
 
 ```blocks3
     if <touching [Sprite1 v] ?> then
@@ -56,7 +56,7 @@ Find the `hide`{:class="block3looks"} block in the **Looks** list, and put it in
 
 \--- /task \---
 
-Now once the shark catches the fish, the fish disappears for good. ಅದು ದೊಡ್ಡದಲ್ಲ.
+ಈಗ ಒಮ್ಮೆ ಶಾರ್ಕ್ ಮೀನುಅನ್ನು ಹಿಡಿದರೆ, ಮೀನು ಶಾಶ್ವತವಾಗಿ ಕಣ್ಮರೆಯಾಗುತ್ತದೆ. ಅದು ದೊಡ್ಡದಲ್ಲ.
 
 \--- task \---
 
