@@ -112,7 +112,7 @@ Sprite ಅನ್ನು ಅದರ ಸೆಂಟರ್ ಕೋ ಒರ್ಡಿನೇ
     when green flag clicked
 ```
 
-Then find the `go to`{:class="block3motion"} **Motion** block, and attach it to your flag **Event** block.
+ನಂತರ `ಗೋ ಟು` {: class = "block3motion"} ** ಮೋಶನ್** ಬ್ಲಾಕ್ಗಳನ್ನು ಹುಡುಕಿ ಮತ್ತು ಅದನ್ನು ನಿಮ್ಮ ಫ್ಲ್ಯಾಗ್ ** ಈವೆಂಟ್‌** ಬ್ಲಾಕ್ ಗೆ ಅಟ್ಟ್ಯಚ್ ಮಾಡಿ.
 
 ```blocks3
     when green flag clicked
