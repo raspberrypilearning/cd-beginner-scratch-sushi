@@ -6,7 +6,7 @@
 
 \--- task \---
 
-Add the `if...then`{:class="block3control"} **Control** block inside the `forever`{:class="block3control"} loop of the fish sprite, below the `if on edge bounce`{:class="block3motion"} block.
+` if...then ` {: class = "block3control"} **ನಿಯಂತ್ರಣ**ಬ್ಲಾಕ್ಅನ್ನು`forever`{: class = "block3control"} ಫಿಶ್ sprite‌ನ ಲೂಪ್ ಒಳಗೆ ಸೇರಿಸಿ, `if on edge bounce` {: class = "block3motion"} ಬ್ಲಾಕ್ನ ಕೆಳಗೆ.
 
 Drag the `touching...`{:class="block3sensing"} block into the space at the top of the `if...then`{:class="block3control"} block, and click the little triangle to select the shark sprite's name. ನೀವು ಅದನ್ನು ಬದಲಾಯಿಸದಿದ್ದರೆ, ಅದು 'ಸ್ಪ್ರೈಟ್ 1' ಆಗಿರುತ್ತದೆ.
 
