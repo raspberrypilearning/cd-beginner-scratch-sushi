@@ -77,11 +77,11 @@
 
 ## title: ಈ ಹೊಸ ಬ್ಲಾಕ್ ಏನು ಮಾಡುತ್ತದೆ?
 
-The `if on edge bounce`{:class="block3motion"} block checks if the sprite is touching the edge of the Stage and, if it is, it turns left, right, up, or down as appropriate.
+`if on edge bounce` {:class="block3motion"}ಬ್ಲಾಕ್ sprite ಸ್ಟೇಜ್ನ ಅಂಚನ್ನು ಮುಟ್ಟುತ್ತಿದೆಯೇ ಎಂದು ಪರಿಶೀಲಿಸುತ್ತದೆ ಮತ್ತು ಅದು ಇದ್ದರೆ, ಅದು ಎಡಕ್ಕೆ, ಬಲಕ್ಕೆ, ಮೇಲಕ್ಕೆ ಅಥವಾ ಕೆಳಕ್ಕೆ ಸೂಕ್ತವಾಗಿ ತಿರುಗುತ್ತದೆ.
 
 \--- /collapse \---
 
-Of course, this will lead to an upside-down fish, so you need a `set rotation style`{:class="block3motion"} block again.
+ಸಹಜವಾಗಿ, ಇದು ತಲೆಕೆಳಗಾಗಿರುವ ಮೀನುಗಳಿಗೆ ಕಾರಣವಾಗುತ್ತದೆ, ಆದ್ದರಿಂದ ನಿಮಗೆ `set rotation style` {: class = "block3motion"}ಬ್ಲಾಕ್ ಮತ್ತೆ ಬೇಕಾಗುತ್ತದೆ.
 
 \--- task \---
 
