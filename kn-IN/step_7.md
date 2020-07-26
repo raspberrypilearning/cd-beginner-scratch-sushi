@@ -140,7 +140,7 @@ Sprite ತಿರುವು ಹೇಗೆ ಮಾಡಬೇಕೆಂದು ಹಿಂ�
 
 \--- task \---
 
-Find the `pick random`{:class="block3operators"} **operator** block, and plug it into the `turn degrees`{:class="block3motion"} **Motion** block by clicking it and dragging it into the field where you set the number of degrees.
+` pick ರಿಯಾಂಡಮ್` {: class = "block3operators"} ** ಆಪರೇಟರ್** ಬ್ಲಾಕ್ ಅನ್ನು ಹುಡುಕಿರಿ, ಮತ್ತು ಅದನ್ನು ` ಟರ್ನ್ ಡಿಗ್ರಿ` {: class = "block3motion"}** motion** ಬ್ಲಾಕ್ಗೆ ಅದನ್ನು ಕ್ಲಿಕ್ ಮಾಡಿ ಮತ್ತು ನೀವು ಡಿಗ್ರಿಗಳ ಸಂಖ್ಯೆಯನ್ನು ಹೊಂದಿಸಿದ ಕ್ಷೇತ್ರಕ್ಕೆ ಎಳೆಯಿವ ಮೂಲಕ ಪ್ಲಗ್ ಮಾಡ.
 
 ```blocks3
     when green flag clicked
@@ -155,7 +155,7 @@ Find the `pick random`{:class="block3operators"} **operator** block, and plug it
 
 \--- /task \---
 
-**Note**: you can change the minimum and maximum numbers it will pick, but the default values (`1` and `10`) are pretty good for this game, so you can just leave them.
+** ಗಮನಿಸಿ **: ನೀವು ಆರಿಸುವ ಕನಿಷ್ಠ ಮತ್ತು ಗರಿಷ್ಠ ಸಂಖ್ಯೆಗಳನ್ನು ನೀವು ಬದಲಾಯಿಸಬಹುದು, ಆದರೆ ಪೂರ್ವನಿಯೋಜಿತ ಮೌಲ್ಯಗಳು (`1` ಮತ್ತು `10`) ಈ ಆಟಕ್ಕೆ ಬಹಳ ಒಳ್ಳೆಯದು, ಆದ್ದರಿಂದ ನೀವು ಅವುಗಳನ್ನು ಹಾಗೆ ಬಿಡಬಹುದು.
 
 \--- task \---
 
@@ -165,14 +165,14 @@ Find the `pick random`{:class="block3operators"} **operator** block, and plug it
 
 ## \--- collapse \---
 
-## title: So what does the forever block do now?
+## title: ಹಾಗಾದರೆ ಫೋರೆವೆರ್ ಬ್ಲಾಕ್ ಈಗ ಏನು ಮಾಡುತ್ತದೆ?
 
-The forever block now makes the fish sprite do four things in order:
+ಫೋರೆವೆರ್ ಬ್ಲಾಕ್ ಈಗ ಮೀನು sprite ನಾಲ್ಕು ಕೆಲಸಗಳನ್ನು ಕ್ರಮವಾಗಿ ಮಾಡುತ್ತದೆ:
 
 1. ಮುಂದೆ ಸರಿಸಿ
 2. ಸ್ವಲ್ಪ ತಿರುಗಿ
 3. ಸಂಕ್ಷಿಪ್ತವಾಗಿ ಕಾಯಿರಿ
-4. Check whether it's at the edge of the Stage
+4. ಇದು ಸ್ಟೇಜ್ ನ ತುದಿಯಲ್ಲಿದೆಯೇ ಎಂದು ಪರಿಶೀಲಿಸಿ
 
 Once the sprite has done the check, it will start at the beginning of the loop again and move, turn, wait, check, for as long as you let your Scratch program run.
 
