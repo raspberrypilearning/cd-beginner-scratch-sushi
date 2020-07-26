@@ -4,27 +4,27 @@
 
 \--- task \---
 
-Click the **New sprite** button, and on the screen that opens, choose a fish.
+**ಹೊಸ sprite**ಬಟನ್ ಕ್ಲಿಕ್ ಮಾಡಿ, ಮತ್ತು ಅದು ತೆರೆಯುವ ಪರದೆಯಲ್ಲಿ, ಮೀನನ್ನು ಆಯ್ಕೆಮಾಡಿ.
 
-![The New sprite button](images/spritesNewFromLibrary.png)
+![ಹೊಸ sprite ಬಟನ್](images/spritesNewFromLibrary.png)
 
-If your fish is a bit big compared to your shark, you can use the size control to make both sprites the right size!
+ನಿಮ್ಮ ಶಾರ್ಕ್ಗೆ ಹೋಲಿಸಿದರೆ ನಿಮ್ಮ ಮೀನು ಸ್ವಲ್ಪ ದೊಡ್ಡದಾಗಿದ್ದರೆ, ಎರಡೂ sprite‌ಗಳನ್ನು ಸರಿಯಾದ ಗಾತ್ರಕ್ಕೆ ಮಾಡಲು ನೀವು ಗಾತ್ರ ನಿಯಂತ್ರಣವನ್ನು ಬಳಸಬಹುದು!
 
-![Sprite size control](images/sprites2.png)
+![Sprite ಗಾತ್ರ ನಿಯಂತ್ರಣ](images/sprites2.png)
 
 ಸ್ಪಿರಿಟ್ ಅನ್ನು ದೊಡ್ಡದಾಗಿ ಅಥವಾ ಚಿಕ್ಕದಾಗಿ ಮಾಡಲು ಗಾತ್ರ ನಿಯಂತ್ರಣದಲ್ಲಿ ಸಂಖ್ಯೆಯನ್ನು ಬದಲಾಯಿಸಿ.
 
 \--- /task \---
 
-ಅದ್ಭುತವಾಗಿದೆ! Later, you're going to add some code to make the fish move around on its own, without help from the player. ನಿಮ್ಮ ಆಟಗಾರನು ಶಾರ್ಕ್ ಅನ್ನು ಸರಿಸುತ್ತಾನೆ ಮತ್ತು ಮೀನು ಹಿಡಿಯಲು ಪ್ರಯತ್ನಿಸುತ್ತಾನೆ.
+ಅದ್ಭುತವಾಗಿದೆ! ನಂತರ, ನೀವು ಆಟಗಾರನ ಸಹಾಯವಿಲ್ಲದೆ ಮೀನುಗಳನ್ನು ತಾನಾಗಿಯೇ ಚಲಿಸಲು ಕೆಲವು ಕೋಡ್ ಅನ್ನು ಸೇರಿಸಲಿದ್ದೀರಿ. ನಿಮ್ಮ ಆಟಗಾರನು ಶಾರ್ಕ್ ಅನ್ನು ಸರಿಸುತ್ತಾನೆ ಮತ್ತು ಮೀನು ಹಿಡಿಯಲು ಪ್ರಯತ್ನಿಸುತ್ತಾನೆ.
 
 ## \--- collapse \---
 
-## title: What about the backwards shark?
+## title: ಹಿಂದೆ ಚಲಿಸುವ ಶಾರ್ಕ್ ಬಗ್ಗೆ ಏನು?
 
-ಆ ಶಾರ್ಕ್ ಹಿಂದಕ್ಕೆ ಈಜುವುದು ಸ್ವಲ್ಪ ತಮಾಷೆಯಾಗಿ ಕಾಣುತ್ತದೆ. ನೀವು ಸಾಮಾನ್ಯವಾಗಿ ಹಿಂದಕ್ಕೆ ನಡೆಯುವುದಕ್ಕಿಂತ ಹೆಚ್ಚಾಗಿ ತಿರುಗುವಂತೆಯೇ, ಶಾರ್ಕ್ ಹಿಂದಕ್ಕೆ ಈಜುವ ಬದಲು ತಿರುಗುತ್ತದೆ. Luckily for you, Scratch has a block for this!
+ಆ ಶಾರ್ಕ್ ಹಿಂದಕ್ಕೆ ಈಜುವುದು ಸ್ವಲ್ಪ ತಮಾಷೆಯಾಗಿ ಕಾಣುತ್ತದೆ. ನೀವು ಸಾಮಾನ್ಯವಾಗಿ ಹಿಂದಕ್ಕೆ ನಡೆಯುವುದಕ್ಕಿಂತ ಹೆಚ್ಚಾಗಿ ತಿರುಗುವಂತೆಯೇ, ಶಾರ್ಕ್ ಹಿಂದಕ್ಕೆ ಈಜುವ ಬದಲು ತಿರುಗುತ್ತದೆ. ಅದೃಷ್ಟವಶಾತ್ ನಿಮಗಾಗಿ, Scratch ಇದಕ್ಕಾಗಿ ಒಂದು ಬ್ಲಾಕ್ ಅನ್ನು ಹೊಂದಿದೆ!
 
-The `point in direction`{:class="block3motion"} block lets you pick the direction your sprite is pointing in. You’ll find it in the **Motion** blocks section. You can type in any number of degrees, to point the sprite wherever you want.
+`ದಿಕ್ಕಿನಲ್ಲಿರುವ ಬಿಂದು` {: class = "block3motion"} ಬ್ಲಾಕ್ ನಿಮ್ಮ sprite ಸೂಚಿಸುವ ದಿಕ್ಕನ್ನು ಆರಿಸಲು ನಿಮಗೆ ಅನುಮತಿಸುತ್ತದೆ. You’ll find it in the **Motion** blocks section. You can type in any number of degrees, to point the sprite wherever you want.
 
 \--- /collapse \---
 
