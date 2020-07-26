@@ -33,7 +33,7 @@
 \--- task \---
 
 ** ವೇರಿಯೇಬಲ್** ವಿಭಾಗದಿಂದ, `set [my variable v] to
- [0]` {: class = "block3variables"} ಮತ್ತು `change [my variable v] by [1]` {: class = "block3variables"} ಬ್ಲಾಕ್‌ಗಳು. Click on the little arrows in the blocks, choose `score` from the list, and then put the blocks into your program:
+ [0]` {: class = "block3variables"} ಮತ್ತು `change [my variable v] by [1]` {: class = "block3variables"} ಬ್ಲಾಕ್‌ಗಳು. ಬ್ಲಾಕ್‌ಗಳಲ್ಲಿನ ಸಣ್ಣ ಆರೋಗಳ ಮೇಲೆ ಕ್ಲಿಕ್ ಮಾಡಿ, `ಸ್ಕೋರ್`ಅನ್ನು ಪಟ್ಟಿಯಿಂದ ಆಯ್ಕೆಮಾಡಿ, ತದನಂತರ ಬ್ಲಾಕ್ಗಳನ್ನು ನಿಮ್ಮ ಪ್ರೋಗ್ರಾಂಗೆ ಇರಿಸಿ:
 
 ### ಶಾರ್ಕ್ಗಾಗಿ ಕೋಡ್
 
@@ -44,7 +44,7 @@
     go to x: (0) y: (0)
 ```
 
-### Code for the fish
+### ಮೀನಿಗಾಗಿ ಕೋಡ್
 
 ```blocks3
     if <touching [Sprite1 v] ?> then
@@ -58,4 +58,4 @@
 
 \--- /task \---
 
-Cool! ಈಗ ನೀವು ಸ್ಕೋರ್ ಮತ್ತು ಎಲ್ಲವನ್ನೂ ಪಡೆದುಕೊಂಡಿದ್ದೀರಿ.
+ಚೆನ್ನಾಗಿದೆ! ಈಗ ನೀವು ಸ್ಕೋರ್ ಮತ್ತು ಎಲ್ಲವನ್ನೂ ಪಡೆದುಕೊಂಡಿದ್ದೀರಿ.
