@@ -48,11 +48,11 @@ To make your shark move, connect these blocks to **Motion** blocks like this:
 
 \--- /task \---
 
-**Note**: `-10` means 'go back 10 steps'.
+**ಗಮನಿಸಿ**:` -10` ಅಂದರೆ '10 ಹಂತಗಳನ್ನು ಹಿಂತಿರುಗಿ'.
 
 \--- task \---
 
-Now click the green flag to test out your code.
+ನಿಮ್ಮ ಕೋಡ್ ಅನ್ನು ಪರೀಕ್ಷಿಸಲು ಈಗ ಹಸಿರು ಧ್ವಜವನ್ನು ಕ್ಲಿಕ್ ಮಾಡಿ.
 
 \--- /task \---
 
@@ -94,13 +94,13 @@ A sprite can be located by the coordinates of its centre, for example `(15, -27)
 
 \--- /collapse \---
 
-### Restarting the game
+### ಆಟವನ್ನು ಮರುಪ್ರಾರಂಭಿಸಲಾಗುತ್ತಿದೆ
 
 The shark moves all over the screen now, but imagine this is a game: how do you restart it, and what happens at the start of each game?
 
 You need to get the shark to its original location when the player starts the game. They'll start this game by clicking on the green flag, so you need to change the shark sprite's x- and y-coordinates when that happens.
 
-That’s actually pretty easy! The centre of the stage is `(0, 0)` in `(x, y)` coordinates.
+ಅದು ನಿಜಕ್ಕೂ ಬಹಳ ಸುಲಭ! The centre of the stage is `(0, 0)` in `(x, y)` coordinates.
 
 So all you need is an **Event** block for that green flag, and the **go to** block from **Motion**.
 
