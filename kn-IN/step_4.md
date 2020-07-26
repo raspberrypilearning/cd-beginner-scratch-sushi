@@ -22,21 +22,21 @@
 
 \--- /task \---
 
-ಅದ್ಭುತವಾಗಿದೆ! Of course, now you have a cat underwater, and cats aren't usually big fans of that. But you can fix that, because you can turn the cat into a shark!
+ಅದ್ಭುತವಾಗಿದೆ! ಸಹಜವಾಗಿ, ಈಗ ನೀವು ನೀರೊಳಗೆ ಬೆಕ್ಕನ್ನು ಹೊಂದಿದ್ದೀರಿ, ಮತ್ತು ಬೆಕ್ಕುಗಳು ಸಾಮಾನ್ಯವಾಗಿ ಅದರ ದೊಡ್ಡ ಅಭಿಮಾನಿಗಳಲ್ಲ. ಆದರೆ ನೀವು ಅದನ್ನು ಸರಿಪಡಿಸಬಹುದು, ಏಕೆಂದರೆ ನೀವು ಬೆಕ್ಕನ್ನು ಶಾರ್ಕ್ ಆಗಿ ಪರಿವರ್ತಿಸಬಹುದು!
 
 \--- task \---
 
-First, select the cat sprite and click on the **Costumes** tab.
+ಮೊದಲು, ಕ್ಯಾಟ್ sprite ಆಯ್ಕೆಮಾಡಿ ಮತ್ತು ** ವೇಷಭೂಷಣಗಳ**ಟ್ಯಾಬ್ ಮೇಲೆ ಕ್ಲಿಕ್ ಮಾಡಿ.
 
 ![](images/cool2.png)
 
-Then, click on **Choose costume from Library**
+ನಂತರ, **ಲೈಬ್ರರಿಯಿಂದ ವೇಷಭೂಷಣವನ್ನು ಆರಿಸಿ**ಮೇಲೆ ಕ್ಲಿಕ್ ಮಾಡಿ
 
 ![](images/cool3.png)
 
-Select this shark image and click **OK**.
+ಈ ಶಾರ್ಕ್ ಚಿತ್ರವನ್ನು ಆಯ್ಕೆ ಮಾಡಿ ಮತ್ತು **ಸರಿ** ಕ್ಲಿಕ್ ಮಾಡಿ.
 
-![The shark costume](images/looksShark.png)
+![ಶಾರ್ಕ್ ವೇಷಭೂಷಣ](images/looksShark.png)
 
 Now remove the cat costumes by selecting each of them and clicking on the **x**.
 
@@ -44,4 +44,4 @@ Now remove the cat costumes by selecting each of them and clicking on the **x**.
 
 \--- /task \---
 
-Now you have a shark – excellent!
+ಈಗ ನೀವು ಶಾರ್ಕ್ ಹೊಂದಿದ್ದೀರಿ - ಅತ್ಯುತ್ತಮ!
