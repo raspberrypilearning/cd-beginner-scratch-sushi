@@ -50,7 +50,7 @@
 
 `ಚಲನೆಯ`{:class="block3motion"}ಬ್ಲಾಕ್ನಲ್ಲಿ ಹಂತಗಳ ಸಂಖ್ಯೆಯನ್ನು ಬದಲಾಯಿಸಿ `-10` ರಿಂದ `10`ರ ವರೆಗೆ.
 
-If you try moving the shark around now after you've added the `point in direction`{:class="block3motion"} blocks, you might notice something a little strange happening. The shark may not be turning quite right!
+ನೀವು `point in direction`{:class="block3motion"}ಬ್ಲಾಕ್‌ಗಳನ್ನು ಸೇರಿಸಿದ ನಂತರ ನೀವು ಈಗ ಶಾರ್ಕ್ ಅನ್ನು ಸರಿಸಲು ಪ್ರಯತ್ನಿಸಿದರೆ, ಸ್ವಲ್ಪ ವಿಚಿತ್ರವಾದ ಸಂಗತಿಯನ್ನು ನೀವು ಗಮನಿಸಬಹುದು. ಶಾರ್ಕ್ ಸರಿಯಾಗಿ ತಿರುಗುತ್ತಿಲ್ಲ!
 
 ![ತಲೆಕೆಳಗಾಗಿ ಶಾರ್ಕ್](images/spritesUpsideDown.png)
 
@@ -58,17 +58,17 @@ If you try moving the shark around now after you've added the `point in directio
 
 ## \--- collapse \---
 
-## title: Why does it go upside down?
+## title: ಅದು ಏಕೆ ತಲೆಕೆಳಗಾಗಿ ಹೋಗುತ್ತದೆ?
 
-The problem here is that the shark sprite started, as all sprites do, with the 'all around' **rotation style**, and what you need it to have is the 'left-right' style.
+ಇಲ್ಲಿರುವ ಸಮಸ್ಯೆ ಏನೆಂದರೆ, ಎಲ್ಲಾ sprite‌ಗಳು ಮಾಡುವಂತೆ ಶಾರ್ಕ್ sprite ಪ್ರಾರಂಭವಾಯಿತು, 'ಸುತ್ತಲೂ' **ತಿರುಗುವಿಕೆಯ ಶೈಲಿಯೊಂದಿಗೆ**, ಮತ್ತು ನಿಮಗೆ ಅದು ಬೇಕಾಗಿರುವುದು 'ಎಡ-ಬಲ' ಶೈಲಿ.
 
-As usual, there’s a block for that, and it’s in **Motion**!
+ಎಂದಿನಂತೆ, ಅದಕ್ಕಾಗಿ ಒಂದು ಬ್ಲಾಕ್ ಇದೆ, ಮತ್ತು ಅದು **ಮೋಶನ್** ನಲ್ಲಿದೆ!
 
 \--- /collapse \---
 
 \--- task \---
 
-Look in the **Motion** category for the block `set rotation style`{:class="block3motion"}.
+**ಮೋಶನ್**ವರ್ಗದಲ್ಲಿ `ಸೆಟ್ ರೊಟೇಷನ್ ಸ್ಟೈಲ್ `{:class = "block3motion"} ಬ್ಲಾಕ್ಗಾಗಿ ಹುಡುಕಿ.
 
 Add the block to your shark reset code from earlier, and set the rotation style to `left-right`{:class="block3motion"}, like this:
 
