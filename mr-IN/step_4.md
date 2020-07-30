@@ -6,11 +6,11 @@
 
 स्टेज निवडा.
 
-![Selecting the stage](images/looksSelectStage.png)
+![स्टेज निवडा](images/looksSelectStage.png)
 
 **Backdrops** क्लिक करा.
 
-![The Backdrops tab](images/looksBackdrops.png)
+![बॅकड्रॉप टॅब](images/looksBackdrops.png)
 
 **Choose backdrop from library** चिन्हावर क्लिक करा.
 
