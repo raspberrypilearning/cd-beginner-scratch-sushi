@@ -1,3 +1,3 @@
-## Challenge: winning the game
+## Challenge: गेम जिंकणे
 
-Pick a score at which the player wins, and make something cool happen when they have that many points. Maybe the shark congratulates them, or a 'You win!' sprite appears, or music plays!
+खेळाडू जिथे जिंकतो अशा गुणांची नोंद घ्या आणि जेव्हा त्याकडे बरेच गुण असतील तेव्हा काहीतरी मजेशीर करा. कदाचित शार्क त्यांचे अभिनंदन करेल किंवा 'तुम्ही जिंकलात!' स्प्राइट दिसेल, किंवा संगीत प्लेहोईल!
