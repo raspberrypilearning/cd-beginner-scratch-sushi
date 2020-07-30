@@ -1,19 +1,18 @@
 ## Remote-control fish
 
-Ok, now it's time to make the fish swim on its own. To do this, you’re going to need a new kind of block: a **Control** block.
+Ok, now it's time to make the fish swim on its own. हे करण्यासाठी, आपल्याला नवीन प्रकारच्या ब्लॉकची आवश्यकता आहेः एक **Control** ब्लॉक.
 
 \--- task \---
 
 Select your fish sprite.
 
-Drag a `when green flag clicked`{:class="block3events"} **Event** block, a `forever`{:class="block3control"} **Control** block, and a `move 10 steps`{:class="block3motion"} **Motion** block into the **sprite panel**, like this:
+</code></code>`when green flag clicked<code>Control` ब्लॉक ड्रॅग करा, `forever</0>{:class="block3control"} <strong>Control</strong> ब्लॉक आणि <0>move 10 steps</0>{:class="block3motion"} <strong>Motion</strong> ब्लॉकला <strong>sprite panel</strong>, मध्ये हलवा, जसेः:</p>
 
-```blocks3
-    when green flag clicked
+<pre><code class="blocks3">    when green flag clicked
     forever
         move (10) steps
     end
-```
+`</pre> 
 
 \--- /task \---
 
