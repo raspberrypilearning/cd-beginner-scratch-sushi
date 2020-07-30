@@ -1,36 +1,36 @@
-## All the sprites
+## सर्व स्प्राईट्स
 
-Now you have a shark that you can move around using the arrow keys. Nice! Time to add some fish for it to catch.
+आता आपल्याकडे एक शार्क आहे जो आपण एरो की वापरुन फिरू शकता. छान! त्याने आता थोडी मासे पकडण्याची वेळ.
 
 \--- task \---
 
-Click the **New sprite** button, and on the screen that opens, choose a fish.
+**New sprite** बटण क्लिक करा आणि उघडणार्‍या स्क्रीनवर एक मासा निवडा.
 
 ![The New sprite button](images/spritesNewFromLibrary.png)
 
-If your fish is a bit big compared to your shark, you can use the size control to make both sprites the right size!
+जर आपली मासा आपल्या शार्कच्या तुलनेत थोडी मोठी असेल तर आपण दोन्ही स्प्राईट्सला योग्य आकार देण्यासाठी आकार नियंत्रण वापरू शकता!
 
 ![Sprite size control](images/sprites2.png)
 
-Change the number in the size control to make the spirte bigger or smaller.
+स्प्राईट्स मोठा किंवा लहान करण्यासाठी आकार नियंत्रणामध्ये संख्या बदला.
 
 \--- /task \---
 
-Great! Later, you're going to add some code to make the fish move around on its own, without help from the player. Your player will move the shark and try to catch the fish.
+मस्त! नंतर, आपण प्लेअरच्या मदतीशिवाय, मासे स्वत: भोवती फिरण्यासाठी काही कोड जोडाल. आपला खेळाडू शार्क हलवेल आणि मासे पकडण्याचा प्रयत्न करेल.
 
 ## \--- collapse \---
 
-## title: What about the backwards shark?
+## title: उलट दिशेने जाणाऱ्या शार्कचे काय?
 
-It does look a little funny to have that shark swimming backwards. Just like you’d usually turn around rather than walking backwards, the shark would turn around rather than swimming backwards. Luckily for you, Scratch has a block for this!
+ती शार्क पाठीमागे पोहणे थोडेसे मजेशीर वाटेल. जसे आपण सामान्यत: मागे चालण्याऐवजी फिरत असता, शार्क मागील बाजूस पोहण्याऐवजी मागे फिरत असे. सुदैवाने आपल्यासाठी, स्क्रॅचचा यासाठी एक ब्लॉक आहे!
 
-The `point in direction`{:class="block3motion"} block lets you pick the direction your sprite is pointing in. You’ll find it in the **Motion** blocks section. You can type in any number of degrees, to point the sprite wherever you want.
+दिशेने `point in direction`{:class="block3motion"} ब्लॉक आपल्याला आपला स्प्राइट ज्या दिशेने दर्शवित आहे त्या दिशेने निवड करू देतो. आपणास हे **Motion** ब्लॉकमध्ये सापडेल. आपण इच्छिता तेथे स्प्राइट दर्शविण्यासाठी आपण कितीही अंश टाइप करू शकता.
 
 \--- /collapse \---
 
 \--- task \---
 
-Grab a couple of copies of the `point in direction`{:class="block3motion"} block from the **Motion** list and connect them to your shark's code, like this:
+**Motion** सूचीमधून `point in direction`{:class="block3motion"} ब्लॉकच्या दोन प्रती घ्या आणि त्यांना याप्रमाणे आपल्या शार्कच्या कोडशी जोडा:
 
 ```blocks3
     when [left arrow v] key pressed
@@ -48,9 +48,9 @@ Grab a couple of copies of the `point in direction`{:class="block3motion"} block
 
 \--- task \---
 
-Change the number of steps in the `move`{:class="block3motion"} blocks from `-10` to `10`.
+`move`{:class="block3motion"} ब्लॉकमधील चरणांची संख्या ` -10 ` ते ` 10 ` बदला.
 
-If you try moving the shark around now after you've added the `point in direction`{:class="block3motion"} blocks, you might notice something a little strange happening. The shark may not be turning quite right!
+आता आपण शार्कला हलविण्यासाठी `point in direction`{:class="block3motion"} ब्लॉक निवडल्यावर, आपणास थोडेसे विचित्र होत असल्याचे लक्षात येईल. शार्क कदाचित बर्यापैकी वळत नसेल!
 
 ![Upside down shark](images/spritesUpsideDown.png)
 
@@ -58,19 +58,19 @@ If you try moving the shark around now after you've added the `point in directio
 
 ## \--- collapse \---
 
-## title: Why does it go upside down?
+## title: हे उलट्या बाजूस का जाते?
 
-The problem here is that the shark sprite started, as all sprites do, with the 'all around' **rotation style**, and what you need it to have is the 'left-right' style.
+येथे अडचण अशी आहे की शार्क स्प्राइट सुरु झाले, जसे सर्व स्प्राइट्स, 'ऑल-अराउंड' **rotation style**, करतात आणि आपल्याकडे जे असणे आवश्यक आहे ती म्हणजे 'डावी-उजवी' शैली.
 
-As usual, there’s a block for that, and it’s in **Motion**!
+नेहमी प्रमाणे, त्यासाठी एक ब्लॉक आहे आणि तो**Motion**मध्ये आहे!
 
 \--- /collapse \---
 
 \--- task \---
 
-Look in the **Motion** category for the block `set rotation style`{:class="block3motion"}.
+`set rotation style`{:class="block3motion"} ब्लॉकसाठी **Motion** श्रेणीमध्ये पहा.
 
-Add the block to your shark reset code from earlier, and set the rotation style to `left-right`{:class="block3motion"}, like this:
+आधीच्या आपल्या शार्क रीसेट कोडमध्ये ब्लॉक जोडा आणि रोटेशन शैलीला `left-right`{:class="block3motion"} वर सेट करा, जसे की:
 
 ```blocks3
     when green flag clicked
