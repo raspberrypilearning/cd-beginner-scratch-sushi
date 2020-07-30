@@ -1,10 +1,10 @@
-## Moving things around
+## गोष्टी इकडे तिकडे हलविणे
 
-Right now your shark moves in a circle, and it would be much more fun to control it with the arrow keys. On this card, you’re going learn how to do that!
+आत्ता आपली शार्क एका वर्तुळात फिरते आणि ती बाणांच्या सहाय्याने नियंत्रित करण्यास अधिक मजा येईल. या कार्डवर आपण ते कसे करावे हे शिकत आहात!
 
 \--- task \---
 
-Start by deleting all code that you have for the shark.
+आपल्याकडे शार्कसाठी असलेला सर्व कोड हटवून प्रारंभ करा.
 
 \--- /task \---
 
@@ -12,13 +12,13 @@ Start by deleting all code that you have for the shark.
 
 \--- task \---
 
-This time, look for this block and drag it into the current sprite panel:
+यावेळी, हा ब्लॉक पहा आणि त्यास सध्याच्या स्प्राइट पॅनेलमध्ये ड्रॅग करा:
 
 ```blocks3
     when [space v] key pressed
 ```
 
-`space`बाजूचे छोटे बाण (▼) क्लिक करा. You will see a list of all your keyboard keys that you can pick from.
+`space`बाजूचे छोटे बाण (▼) क्लिक करा. आपण निवडू शकता अशा आपल्या कीबोर्ड की सर्व यादी पहा.
 
 \--- /task \---
 
@@ -52,15 +52,15 @@ This time, look for this block and drag it into the current sprite panel:
 
 \--- task \---
 
-Now click the green flag to test out your code.
+आपला कोड तपासण्यासाठी आता हिरवा झेंडा क्लिक करा.
 
 \--- /task \---
 
-Now your shark moves back and forwards, which is pretty cool, but it doesn’t move up or down. तसेच, आपण **Motion** ब्लॉक्स पाहिल्यास, 'अप' किंवा 'डाऊन' साठी कोणतेही ब्लॉक नसलेले दिसेल. There are a whole bunch of them related to **x** and **y** coordinates though — let's try those!
+आता आपली शार्क मागे व पुढे सरकते, जे मस्त आहे, परंतु ती वर किंवा खाली सरकत नाही. तसेच, आपण **Motion** ब्लॉक्स पाहिल्यास, 'अप' किंवा 'डाऊन' साठी कोणतेही ब्लॉक नसलेले दिसेल. त्यापैकी ** x** आणि ** y ** समन्वय संबंधित संपूर्ण समूह आहे तरी - चला त्यांचा प्रयत्न करूया!
 
 \--- task \---
 
-Grab two `change y by`{:class="block3motion"} blocks, and update your code like this:
+दोन `चेंज y बाय `{:class="block3motion"} ब्लॉक घ्या आणि आपला कोड याप्रमाणे अद्यतनित करा:
 
 ```blocks3
     when [up arrow v] key pressed
@@ -74,57 +74,57 @@ Grab two `change y by`{:class="block3motion"} blocks, and update your code like 
 
 \--- /task \---
 
-Now when you press the arrows keys, the shark moves all around the stage!
+आता जेव्हा आपण एरो की दाबता, तेव्हा शार्क स्टेजच्या सभोवताली फिरतो!
 
 ## \--- collapse \---
 
-## title: How do x- and y-coordinates work?
+## title: x- आणि y- समन्वय कसे कार्य करतात?
 
-To talk about the positions of objects, such as sprites, we often use x- and y-coordinates. **x-axis** स्टेज समन्वय प्रणाली**left to right**, आणि **y-axis** तळापासून </strong> runs from **bottom to top</0>पर्यंत चालते.</p> 
+स्प्राइट्स सारख्या ऑब्जेक्ट्सच्या स्थानांबद्दल बोलण्यासाठी आम्ही बहुतेकदा x- आणि y-निर्देशांक वापरतो. **x-axis** स्टेज समन्वय प्रणाली**left to right**, आणि **y-axis** तळापासून </strong> runs from **bottom to top</0>पर्यंत चालते.</p> 
 
 ![](images/moving3.png)
 
-A sprite can be located by the coordinates of its centre, for example `(15, -27)`, where `15` is its position along the x-axis , and `-27` its position along the y-axis.
+एक स्प्राइट त्याच्या केंद्रातील समन्वयकांद्वारे स्थित असू शकते, उदाहरणार्थ ` (15, -27) ` , जेथे ` 15 ` x-अक्ष आणि ` -27 ` वाय-अक्ष च्या बाजूने तिची स्थिती आहे.
 
-+ To get a feel for how this actually works, select a sprite and use the **x** and **y** controls to move it around the stage by setting different values for the coordinates.
++ हे खरोखर कसे कार्य करते याबद्दल अनुभवण्यासाठी, एक स्प्राइट निवडा आणि ** x ** आणि ** y ** निर्देशांकांसाठी भिन्न मूल्ये सेट करुन स्टेजच्या भोवती हलविण्यास नियंत्रित करा.
 
 ![](images/xycoords.png)
 
-+ Try different pairs of values to see where the sprite goes! In Scratch, the x-axis goes from `-240` to `240`, and the y-axis goes from `-180` to `180`.
++ स्प्राईट कोठे जाते हे पाहण्यासाठी भिन्न भिन्न जोड्या वापरून पहा! स्क्रॅचमध्ये, x-अक्ष ` -240 `ते ` 240 `पर्यंत जाते, आणि y-axis ` -180 `ते ` 180 ` पर्यंत जाते.
 
 \--- /collapse \---
 
-### Restarting the game
+### खेळ पुन्हा सुरू करत आहे
 
-The shark moves all over the screen now, but imagine this is a game: how do you restart it, and what happens at the start of each game?
+शार्क आता सर्व स्क्रीनवर फिरतो, परंतु कल्पना करा की हा एक खेळ आहे: आपण तो पुन्हा कसे सुरू कराल आणि प्रत्येक गेम सुरू झाल्यावर काय होते?
 
-You need to get the shark to its original location when the player starts the game. They'll start this game by clicking on the green flag, so you need to change the shark sprite's x- and y-coordinates when that happens.
+जेव्हा खेळाडू खेळ सुरू करतो तेव्हा आपल्याला शार्क त्याच्या मूळ स्थानावर आणण्याची आवश्यकता असते. ते हा खेळ हिरव्या झेंडीवर क्लिक करुन प्रारंभ करतील, जेणेकरून आपल्याला शार्क स्प्राइटचे x- आणि y-निर्देशांक बदलण्याची आवश्यकता आहे.
 
-That’s actually pretty easy! The centre of the stage is `(0, 0)` in `(x, y)` coordinates.
+हे खरोखर खूप सोपे आहे! स्टेजचे ` (0, 0) ` केंद्रबिंदू ` (x, y) ` समन्वय मध्ये आहेत.
 
-So all you need is an **Event** block for that green flag, and the **go to** block from **Motion**.
+तर आपल्याला त्या हिरव्या ध्वजासाठी फक्त** इव्हेंट ** ब्लॉक एक आवश्यक आहे आणि एक **गो टू **ब्लॉक ** मोशन ** मधून.
 
 \--- task \---
 
-Drag a `when green flag clicked`{:class="block3events"} **Event** block onto the current sprite panel.
+`when green flag clicked`{:class="block3events"} **Event** ब्लॉक सद्य स्प्राइट पॅनेलवर ड्रॅग करा.
 
 ```blocks3
     when green flag clicked
 ```
 
-Then find the `go to`{:class="block3motion"} **Motion** block, and attach it to your flag **Event** block.
+नंतर `go to`{:class="block3motion"} **Motion** ब्लॉक शोधा आणि त्यास आपल्या ध्वज **Event** ब्लॉकशी जोडा.
 
 ```blocks3
     when green flag clicked
 +     go to x: (0) y: (0)
 ```
 
-Set the both the `x` and the `y` coordinate to `0` in the `go to`{:class="block3motion"} block if they are not already `0`.
+`गो टू `{:class="block3motion"}ब्लॉकमध्ये जर आधीपासून` x ` आणि ` y ` ` 0 ` सेट नसल्यास दोन्ही ` 0` सेट करा.
 
 \--- /task \---
 
 \--- task \---
 
-Now click the green flag: you should see the shark return to the centre of the stage!
+आता हिरवा झेंडा क्लिक करा: आपण स्टेजच्या मध्यभागी शार्क परत येणे पहावे!
 
 \--- /task \---
