@@ -8,7 +8,7 @@ Start by deleting all code that you have for the shark.
 
 \--- /task \---
 
-As you’ve probably guessed, you’re going to need **Event** and **Motion** blocks again!
+जसे आपण अंदाज केला असेल, आपल्याला**Event** आणि **Motion** ब्लॉक्सची आवश्यकता असेल!
 
 \--- task \---
 
@@ -18,15 +18,15 @@ This time, look for this block and drag it into the current sprite panel:
     when [space v] key pressed
 ```
 
-Click the little arrow (▼) beside `space`. You will see a list of all your keyboard keys that you can pick from.
+`space`बाजूचे छोटे बाण (▼) क्लिक करा. You will see a list of all your keyboard keys that you can pick from.
 
 \--- /task \---
 
-You’re going to need four of the `when key pressed`{:class="block3events"} blocks — one for each of your arrow keys.
+आपणास `when key pressed`{:class="block3events"}च्या चार ब्लॉक्सची आवश्यकता आहे - आपल्या प्रत्येक बाण कीसाठी एक.
 
 \--- task \---
 
-To make your shark move, connect these blocks to **Motion** blocks like this:
+आपले शार्क हलविण्यासाठी, हे ब्लॉक्स**Motion** ब्लॉक्सला या सारखे कनेक्ट करा:
 
 ```blocks3
     when [left arrow v] key pressed
@@ -48,7 +48,7 @@ To make your shark move, connect these blocks to **Motion** blocks like this:
 
 \--- /task \---
 
-**Note**: `-10` means 'go back 10 steps'.
+**Note**: `-10` म्हणजे '10 स्टेप्स परत जा'.
 
 \--- task \---
 
@@ -56,7 +56,7 @@ Now click the green flag to test out your code.
 
 \--- /task \---
 
-Now your shark moves back and forwards, which is pretty cool, but it doesn’t move up or down. Also, if you look through the **Motion** blocks, you’ll see there are no blocks for 'up' or 'down'. There are a whole bunch of them related to **x** and **y** coordinates though — let's try those!
+Now your shark moves back and forwards, which is pretty cool, but it doesn’t move up or down. तसेच, आपण **Motion** ब्लॉक्स पाहिल्यास, 'अप' किंवा 'डाऊन' साठी कोणतेही ब्लॉक नसलेले दिसेल. There are a whole bunch of them related to **x** and **y** coordinates though — let's try those!
 
 \--- task \---
 
@@ -80,7 +80,7 @@ Now when you press the arrows keys, the shark moves all around the stage!
 
 ## title: How do x- and y-coordinates work?
 
-To talk about the positions of objects, such as sprites, we often use x- and y-coordinates. The **x-axis** of the Stage coordinate system runs from **left to right**, and the **y-axis** runs from **bottom to top**.
+To talk about the positions of objects, such as sprites, we often use x- and y-coordinates. **x-axis** स्टेज समन्वय प्रणाली**left to right**, आणि **y-axis** तळापासून </strong> runs from **bottom to top</0>पर्यंत चालते.</p> 
 
 ![](images/moving3.png)
 
