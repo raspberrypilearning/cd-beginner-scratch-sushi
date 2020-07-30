@@ -1,40 +1,41 @@
-## Remote-control fish
+## रिमोट-कंट्रोल मासे
 
-Ok, now it's time to make the fish swim on its own. हे करण्यासाठी, आपल्याला नवीन प्रकारच्या ब्लॉकची आवश्यकता आहेः एक **Control** ब्लॉक.
+ठीक आहे, आता मासे स्वतःहून पोहण्याची वेळ आली आहे. हे करण्यासाठी, आपल्याला नवीन प्रकारच्या ब्लॉकची आवश्यकता आहेः एक **Control** ब्लॉक.
 
 \--- task \---
 
-Select your fish sprite.
+आपला फिश स्प्राइट निवडा.
 
-</code></code>`when green flag clicked<code>Control` ब्लॉक ड्रॅग करा, `forever</0>{:class="block3control"} <strong>Control</strong> ब्लॉक आणि <0>move 10 steps</0>{:class="block3motion"} <strong>Motion</strong> ब्लॉकला <strong>sprite panel</strong>, मध्ये हलवा, जसेः:</p>
+`when green flag clicked`{:class="block3events"} **इव्हेंट** ब्लॉक ड्रॅग करा, `forever`{:class="block3control"} **Control** ब्लॉक आणि `move 10 steps`{:class="block3motion"} **Motion** ब्लॉकला **स्प्राइट पॅनेल** मध्ये हलवा, जसेः:
 
-<pre><code class="blocks3">    when green flag clicked
+```blocks3
+    when green flag clicked
     forever
         move (10) steps
     end
-`</pre> 
+```
 
 \--- /task \---
 
 ## \--- collapse \---
 
-## title: What does the new block do?
+## title: नवीन कोड काय करतो?
 
-**Control** blocks make your program do things a certain number of times, or under certain conditions.
+**Control** ब्लॉक आपला प्रोग्राम गोष्टी विशिष्ट वेळेस किंवा काही विशिष्ट परिस्थितींमध्ये करतात.
 
-Here, the fish does whatever is inside the `forever`{:class="block3control"} block over and over again on a loop, forever. So once it has done the last thing (block) inside the `forever`{:class="block3control"} block, it starts over at the top and does everything again, and so on.
+येथे, मासा `forever`{:class="block3control"} ब्लॉक मधील क्रिया वर पुन्हा पुन्हा करतो. एकदा एकदा त्याने `forever`{:class="block3control"} ब्लॉकमध्ये शेवटची गोष्ट (ब्लॉक) केली की ती सुरवातीपासून सुरू होते आणि सर्वकाही पुन्हा करते, इत्यादी.
 
 \--- /collapse \---
 
 \--- task \---
 
-Now click the green flag and watch what happens!
+आता काही वेळा हिरव्या झेंड्यावर क्लिक करा आणि काय होते ते पहा!
 
 \--- /task \---
 
-Well, that fish just crashed into the side of the Stage, and it was moving far too fast for your shark to catch.
+बरं, ती मासे नुकतीच स्टेजच्या बाजूने कोसळली आणि आपल्या शार्क पकडण्यासाठी तो खूप वेगवान होता.
 
-First, you need to slow the fish down. That’s actually pretty easy, you just need it to wait for a little while after it moves those 10 steps. There’s a **Control** block that will help you here:
+प्रथम, आपल्याला मासे हळू करण्याची आवश्यकता आहे. हे खरोखर खूप सोपे आहे, त्या 10 चरणांनंतर आपल्याला थोडा वेळ थांबावे लागेल. येथे एक **Control** ब्लॉकआपल्याला मदत करेल:
 
 ```blocks3
     wait (1) secs
@@ -42,7 +43,7 @@ First, you need to slow the fish down. That’s actually pretty easy, you just n
 
 \--- task \---
 
-Add the `wait`{:class="block3control"} block into your code inside the `forever`{:class="block3control"} block, and change the number to `0.5`, like this:
+`forever`{:class="block3control"} कोड ब्लॉकच्या आत आपल्या कोडमध्ये `wait`{:class="block3control"} ब्लॉक जोडा आणि याप्रमाणे संख्या `0.5` मध्ये बदला:
 
 ```blocks3
     when green flag clicked
@@ -56,35 +57,35 @@ Add the `wait`{:class="block3control"} block into your code inside the `forever`
 
 ## \--- collapse \---
 
-## title: Making adjustments
+## title: समायोजन करणे
 
-The number you set in the `wait`{:class="block3control"} block says how many **seconds** you want the fish to wait. `0.5` is half a second.
+आपण `wait`{:class="block3control"} ब्लॉकमध्ये सेट केलेली संख्या आपल्याला मासेने किती **seconds** प्रतीक्षा करावीशी वाटते हे सांगते. ` 0.5 ` अर्धा सेकंद आहे.
 
-You can test out different values to see which is the best for the game. And remember that you can change the number of steps inside the `move`{:class="block3motion"} block too!
+खेळासाठी कोणते सर्वोत्कृष्ट आहे हे पाहण्यासाठी आपण भिन्न मूल्यांची चाचणी घेऊ शकता. आणि लक्षात ठेवा आपण `move`{:class="block3motion"} ब्लॉकमधील चरणांची संख्या देखील बदलू शकता!
 
 \--- /collapse \---
 
-The fish moves now, but you need it to bounce off the edge of the Stage too. Yet again, there’s a **Motion** block for this!
+मासे आता हलतात, परंतु आपल्याला त्यास स्टेजच्या काठावरुन बाउन्स करण्याची देखील आवश्यकता आहे. तरीही पुन्हा, यासाठी **Motion** ब्लॉक आहे!
 
 \--- task \---
 
-Find the `if on edge bounce`{:class="block3motion"} block, and add it in after the `wait`{:class="block3control"} block.
+`if on edge bounce`{:class="block3motion"} ब्लॉक शोधा आणि `wait`{:class="block3control"} ब्लॉक नंतर त्यात जोडा.
 
 \--- /task \---
 
 ## \--- collapse \---
 
-## title: What does the new block do?
+## title: नवीन ब्लॉक काय करते?
 
-The `if on edge bounce`{:class="block3motion"} block checks if the sprite is touching the edge of the Stage and, if it is, it turns left, right, up, or down as appropriate.
+`if on edge bounce`{:class="block3motion"} ब्लॉक स्टेजच्या काठावर स्प्राईट आहे की नाही हे तपासते आणि जर ते असेल तर डावीकडे, उजवीकडे, वर किंवा खाली वळते.
 
 \--- /collapse \---
 
-Of course, this will lead to an upside-down fish, so you need a `set rotation style`{:class="block3motion"} block again.
+नक्कीच, यामुळे वरची बाजू खाल्लेल्या माशास मदत होईल, म्हणून आपल्याला पुन्हा `set rotation style`{:class="block3motion"} ब्लॉक आवश्यक आहे.
 
 \--- task \---
 
-Update your code to set the rotation style of the fish to `left-right`{:class="block3motion"} at the beginning of the sprite's script:
+स्प्राईटच्या स्क्रिप्टच्या सुरूवातीला माशाची फिरण्याची शैली `left-right`{:class="block3motion"} वर सेट करण्यासाठी आपला कोड अद्यतनित करा:
 
 ```blocks3
     when green flag clicked
@@ -98,13 +99,13 @@ Update your code to set the rotation style of the fish to `left-right`{:class="b
 
 \--- /task \---
 
-The fish moves backwards and forwards now, but only in a straight line — a bit too easy for the player to catch with the shark! You need to make the fish less predictable.
+मासे आता मागे व पुढे सरकते, परंतु फक्त सरळ रेषेत - शार्कच्या सहाय्याने प्लेअरला पकडणे थोडे सोपे आहे! आपण मासे कमी पूर्वपरंपरागत करणे आवश्यक आहे.
 
-You already know from a previous step how to make a sprite turn, so start there.
+तुम्हाला आधीपासूनच माहित आहे की स्प्राइट कसे वळवावे, म्हणून येथून प्रारंभ करा.
 
 \--- task \---
 
-Add a turn into the fish's swimming instructions, and click the green flag.
+माशाच्या पोहण्याच्या सूचनांमध्ये एक बदल जोडा आणि हिरवा झेंडा क्लिक करा.
 
 ```blocks3
     when green flag clicked
@@ -119,13 +120,13 @@ Add a turn into the fish's swimming instructions, and click the green flag.
 
 \--- /task \---
 
-It’s better, but there’s still too much of a pattern. It needs to be more random. Luckily, Scratch can do random for you! You’ll just need a new kind of block, called an **operator** block.
+ते अधिक चांगले आहे, परंतु तरीही हे एकसारखे आहे. हे अधिक यादृच्छिक असणे आवश्यक आहे. सुदैवाने, स्क्रॅच आपल्यासाठी यादृच्छिक करू शकते! आपल्याला फक्त नवीन प्रकारच्या ब्लॉकची आवश्यकता असेल, ज्यास **operator** ब्लॉक म्हणतात.
 
 ## \--- collapse \---
 
-## title: What's an operator?
+## title: ऑपरेटर म्हणजे काय?
 
-**Operators** take in one or more values (like numbers, text, or `True/False` values) and give back a single value. You can tell the kind of value it will give back by the shape of the block: round ends give numbers or text, pointy ends give `True/False`.
+**Operators** एक किंवा अधिक मूल्ये घेतात (जसे की संख्या, मजकूर किंवा `True/False` मूल्ये) आणि एक मूल्य परत देतात. हे ब्लॉकच्या आकारामुळे ते कोणत्या प्रकारचे मूल्य परत देईल ते सांगू शकता: गोल टोक क्रमांक किंवा मजकूर देते, बिंदू टोक `सत्य / खोटे` देते.
 
 ```blocks3
     (() + ())
@@ -139,7 +140,7 @@ It’s better, but there’s still too much of a pattern. It needs to be more ra
 
 \--- task \---
 
-Find the `pick random`{:class="block3operators"} **operator** block, and plug it into the `turn degrees`{:class="block3motion"} **Motion** block by clicking it and dragging it into the field where you set the number of degrees.
+`pick random`{:class="block3operators"} **operator** ब्लॉक शोधा आणि त्यास क्लिक करून आणि आपण ज्या डिग्रीची संख्या सेट केली त्या फिल्डमध्ये ड्रॅग करून `turn degrees`{:class="block3motion"} **Motion** ब्लॉकमध्ये प्लग करा.
 
 ```blocks3
     when green flag clicked
@@ -154,27 +155,27 @@ Find the `pick random`{:class="block3operators"} **operator** block, and plug it
 
 \--- /task \---
 
-**Note**: you can change the minimum and maximum numbers it will pick, but the default values (`1` and `10`) are pretty good for this game, so you can just leave them.
+**Note** आपण निवडलेल्या किमान आणि कमाल संख्या आपण बदलू शकता परंतु डीफॉल्ट मूल्ये (`1` आणि `10`) या गेमसाठी खूपच चांगली आहेत, ज्यामुळे आपण त्यांना फक्त सोडू शकता.
 
 \--- task \---
 
-Click the green flag to run the code!
+कोड चालविण्यासाठी हिरवा ध्वज क्लिक करा!
 
 \--- /task \---
 
 ## \--- collapse \---
 
-## title: So what does the forever block do now?
+## title: तर आता फॉरेव्हर ब्लॉक काय करते?
 
-The forever block now makes the fish sprite do four things in order:
+फॉरेव्हर ब्लॉक आता फिश स्प्राइटला चार गोष्टी क्रमाने बनविते:
 
-1. Move forward
-2. Turn a little bit
-3. Wait briefly
-4. Check whether it's at the edge of the Stage
+1. पुढे सरका
+2. जरासे वळा
+3. थोडक्यात थांबा
+4. ते स्टेजच्या काठावर आहे की नाही ते तपासा
 
 Once the sprite has done the check, it will start at the beginning of the loop again and move, turn, wait, check, for as long as you let your Scratch program run.
 
 \--- /collapse \---
 
-Cool! Next up: catching that fish!
+मस्त! पुढील: ते मासे पकडत आहे!
