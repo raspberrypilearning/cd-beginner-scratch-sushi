@@ -24,7 +24,7 @@ Check out your new variable!
 
 ## title: What are variables?
 
-When you want to store information in a program, you use something called a **variable**. Think of it like a box with a label on it: you can put something in it, check what’s in it, and change what’s in it. You’ll find variables in the **Variables** section, but you need to create them first for them to show up there!
+जेव्हा आपल्याला प्रोग्राममध्ये माहिती संचयित करायची असेल तर आपण ** variables ** वापरता. Think of it like a box with a label on it: you can put something in it, check what’s in it, and change what’s in it. आपणास व्हेरिएबल्समध्ये **variables** विभागामध्ये आढळतील, परंतु त्यांना तेथे दर्शविण्यासाठी प्रथम आपण त्यांना तयार करणे आवश्यक आहे!
 
 \--- /collapse \---
 
@@ -32,7 +32,7 @@ Now you need to update the variable whenever the shark eats a fish, and to reset
 
 \--- task \---
 
-From the **Variables** section, take the `set [my variable v] to [0]`{:class="block3variables"} and `change [my variable v] by [1]`{:class="block3variables"} blocks. Click on the little arrows in the blocks, choose `score` from the list, and then put the blocks into your program:
+** veriables ** विभाग मधून, `set [my variable v] to [0]`{:class="block3variables"} आणि `change [my variable v] by [1]`{:class="block3variables"} ब्लॉक्स घ्या. ब्लॉक्समधील छोट्या बाणावर क्लिक करा, सूचीमधून ` score ` निवडा आणि नंतर आपल्या प्रोग्राममध्ये ते ब्लॉक्स ठेवा:
 
 ### Code for the shark
 
