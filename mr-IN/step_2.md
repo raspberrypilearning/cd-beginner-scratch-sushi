@@ -1,22 +1,22 @@
 ## Getting set up
 
-Once you open Scratch, you’ll see a window like the one below.
+एकदा आपण स्क्रॅच उघडल्यानंतर आपल्याला खालील प्रमाणे विंडो दिसेल.
 
 \--- task \---
 
-Look for each of the following areas and remember where they are.
+पुढीलपैकी प्रत्येक क्षेत्र शोधा आणि ते कोठे आहेत ते लक्षात ठेवा.
 
 \--- /task \---
 
-### The Stage
+### स्टेज
 
-![Scratch window with the stage highlighted](images/hlStage.png)
+![स्टेज हायलाइट सह स्क्रॅच विंडो](images/hlStage.png)
 
 ## \--- collapse \---
 
-## title: What is the Stage?
+## title: स्टेज म्हणजे काय?
 
-This is where your Scratch programs run. It has:
+येथेच आपले स्क्रॅच प्रोग्राम चालतात. इथे असते:
 
 * एक किंवा अधिक **backgrounds** \(images on the background of the screen\)
 
@@ -24,17 +24,17 @@ This is where your Scratch programs run. It has:
 
 \--- /collapse \---
 
-### The sprite list
+### स्प्राईट यादी
 
-![Scratch window with the sprite list highlighted](images/hlSpriteList.png)
+![स्टेज हायलाइट सह स्क्रॅच विंडो](images/hlSpriteList.png)
 
 ## \--- collapse \---
 
-## title: What is a sprite?
+## title: एक स्प्राइट म्हणजे काय?
 
 आपण स्टेजवर जोडू शकता अशी कोणतीही वस्तू **sprite** असते.
 
-A sprite includes:
+एका स्प्राइटमध्ये समाविष्ट आहे:
 
 * स्टेज वरील **image**
 * कोणतीही अतिरिक्त **costumes** \(looks\) दिसतो
@@ -45,25 +45,25 @@ A sprite includes:
 
 ### The code blocks palette
 
-![Scratch window with the blocks pallet highlighted](images/hlBlocksPalette.png)
+![स्टेज हायलाइट सह स्क्रॅच विंडो](images/hlBlocksPalette.png)
 
 ## \--- collapse \---
 
-## title: Code blocks
+## title: कोड ब्लॉक्स
 
-Code in Scratch comes in the form of blocks that you connect to make programs. आपण **code blocks palette** मधून ब्लॉक्स निवडा, त्यांना ** current sprite panel** मध्येड्रॅ ग करा, आणि नंतर त्यांना एकमेकांशी कनेक्ट करा.
+स्क्रॅचमधील कोड आपण प्रोग्राम बनविण्यासाठी कनेक्ट केलेल्या ब्लॉकच्या रूपात असतो. आपण **code blocks palette** मधून ब्लॉक्स निवडा, त्यांना ** current sprite panel** मध्येड्रॅ ग करा, आणि नंतर त्यांना एकमेकांशी कनेक्ट करा.
 
-There are ten categories of blocks. ते रंगानुसार विभक्त आहेत आणि ** code blocks palette** च्या शीर्षस्थानी असलेल्या सूचीतील आयटमवर क्लिक करून आपण त्या दरम्यान निवडू शकता.
+ब्लॉक्सचे दहा प्रकार असतात. ते रंगानुसार विभक्त आहेत आणि ** code blocks palette** च्या शीर्षस्थानी असलेल्या सूचीतील आयटमवर क्लिक करून आपण त्या दरम्यान निवडू शकता.
 
 \--- /collapse \---
 
-### The current sprite panel
+### सद्य स्प्राइट पॅनेल
 
-![Scratch window with the current sprite panel highlighted](images/hlCurrentSpritePanel.png)
+![स्टेज हायलाइट सह स्क्रॅच विंडो](images/hlCurrentSpritePanel.png)
 
 ## \--- collapse \---
 
-## title: What is the current sprite?
+## title: सध्याचे स्प्राइट म्हणजे काय?
 
 **sprite list** मधून**current site** निवडलेले असतात.
 
@@ -71,11 +71,11 @@ There are ten categories of blocks. ते रंगानुसार विभ
 
 \--- /collapse \---
 
-Time to get coding!
+आता कोडिंग करण्याची वेळ!
 
 \--- task \---
 
-In the sprite list, click on the Scratch Cat. The cat is now the current sprite.
+स्प्राईट यादीमध्ये स्क्रॅच कॅटवर क्लिक करा. मांजर आता सद्य स्प्राईट आहे.
 
 कोड ब्लॉक पॅलेटमधील **Events** श्रेणी निवडा, `when flage clicked `{:class= "block3events"} ब्लॉक क्लिक करा आणि त्यास सध्याच्या स्प्राइट पॅनेलमध्ये ड्रॅग करा.
 
@@ -93,13 +93,13 @@ In the sprite list, click on the Scratch Cat. The cat is now the current sprite.
     say [Hello!] for (2) secs
 ```
 
-Click on it, hold down the mouse button, and then just drag it into the current sprite panel and let go of the button.
+त्यावर क्लिक करा, माऊस बटण दाबून ठेवा आणि नंतर त्यास सध्याच्या स्प्राइट पॅनेलमध्ये ड्रॅग करा आणि बटणास सोडून द्या.
 
 \--- /task \---
 
 \--- task \---
 
-Now that the second block is in the current sprite panel, connect it to the bottom of the first block by clicking and dragging it again to move it below the other block until they snap together, like this:
+आता दुसरा ब्लॉक सध्याच्या स्प्राइट पॅनेलमध्ये आहे, त्यास क्लिक आणि ड्रॅग करून पहिल्या ब्लॉकच्या तळाशी एकत्र आल्यावर कनेक्ट करा, या प्रमाणे:
 
 ![](images/setup3.png)
 
