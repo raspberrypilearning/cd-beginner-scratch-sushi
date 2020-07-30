@@ -18,9 +18,9 @@ Look for each of the following areas and remember where they are.
 
 This is where your Scratch programs run. It has:
 
-* One or more **backgrounds** \(images on the background of the screen\)
+* एक किंवा अधिक **backgrounds** \(images on the background of the screen\)
 
-* Any **code blocks** associated with it \(we’ll get to this\)
+* एक किंवा अधिक **backgrounds** \(images on the background of the screen\)
 
 \--- /collapse \---
 
@@ -32,14 +32,14 @@ This is where your Scratch programs run. It has:
 
 ## title: What is a sprite?
 
-Any item you can add on the Stage is a **sprite**.
+आपण स्टेजवर जोडू शकता अशी कोणतीही वस्तू **sprite** असते.
 
 A sprite includes:
 
-* The **image** on the Stage
-* Any extra **costumes** \(looks\) it has
-* Any **sounds** associated with it
-* Any **code blocks** associated with it ![](images/setup2.png)
+* स्टेज वरील **image**
+* कोणतीही अतिरिक्त **costumes** \(looks\) दिसतो
+* कोणताही **sounds** त्याच्याशी संबंधित
+* कोणतेही **code blocks** त्याच्याशी संबंधित ![](images/setup2.png)
 
 \--- /collapse \---
 
@@ -51,9 +51,9 @@ A sprite includes:
 
 ## title: Code blocks
 
-Code in Scratch comes in the form of blocks that you connect to make programs. You choose blocks from the **code blocks palette**, drag them into the **current sprite panel**, and then connect them to each other.
+Code in Scratch comes in the form of blocks that you connect to make programs. आपण **code blocks palette** मधून ब्लॉक्स निवडा, त्यांना ** current sprite panel** मध्येड्रॅ ग करा, आणि नंतर त्यांना एकमेकांशी कनेक्ट करा.
 
-There are ten categories of blocks. They are colour-coded, and you can choose between them by clicking on the items in the list at the top of the **code blocks palette**.
+There are ten categories of blocks. ते रंगानुसार विभक्त आहेत आणि ** code blocks palette** च्या शीर्षस्थानी असलेल्या सूचीतील आयटमवर क्लिक करून आपण त्या दरम्यान निवडू शकता.
 
 \--- /collapse \---
 
@@ -65,9 +65,9 @@ There are ten categories of blocks. They are colour-coded, and you can choose be
 
 ## title: What is the current sprite?
 
-The **current sprite** is the one that's selected in the **sprite list**.
+**sprite list** मधून**current site** निवडलेले असतात.
 
-The **current sprite panel** is where you can see the code, costumes, and sounds for the selected sprite.
+** current sprite panel ** येथे आपण निवडलेल्या स्प्राइटसाठी कोड, कॉस्ट्युम आणि आवाज पाहू शकता.
 
 \--- /collapse \---
 
@@ -77,7 +77,7 @@ Time to get coding!
 
 In the sprite list, click on the Scratch Cat. The cat is now the current sprite.
 
-Choose the **Events** category in the code blocks palette, click the `when flag clicked`{:class="block3events"} block, and drag it into the current sprite panel.
+कोड ब्लॉक पॅलेटमधील **Events** श्रेणी निवडा, `when flage clicked `{:class= "block3events"} ब्लॉक क्लिक करा आणि त्यास सध्याच्या स्प्राइट पॅनेलमध्ये ड्रॅग करा.
 
 ```blocks3
     when green flag clicked
@@ -87,7 +87,7 @@ Choose the **Events** category in the code blocks palette, click the `when flag 
 
 \--- task \---
 
-Then go to **Looks** in the code blocks palette and find this block:
+नंतर कोड ब्लॉक पॅलेटमध्ये **Looks ** मधे जा आणि हा ब्लॉक शोधा:
 
 ```blocks3
     say [Hello!] for (2) secs
@@ -107,6 +107,6 @@ Now that the second block is in the current sprite panel, connect it to the bott
 
 \--- task \---
 
-Now click the **Start Program** button and watch what happens!
+आता ** Start Program ** बटण क्लिक करा आणि काय घडते ते पहा!
 
 \--- /task \---
