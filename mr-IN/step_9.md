@@ -1,20 +1,20 @@
-## Keeping score
+## गुणांची नोंद
 
-To keep score of how many fish the player catches, you’ll need somewhere to store the score, a way of adding to it, and a way of resetting it when the game is restarted.
+खेळाडूने किती मासे पकडले याची नोंद ठेवण्यासाठी आपणास स्कोअर, त्यात भर घालण्याचा एक मार्ग आणि खेळ पुन्हा सुरू झाल्यावर तो रीसेट करण्याचा एक मार्ग आवश्यक आहे.
 
-First: storing the score!
+प्रथम: स्कोअर संचयित करीत आहे!
 
 \--- task \---
 
-Go to the **Variables** blocks category and click on **Make a Variable**.
+कोड टॅबमध्ये **Variables** वर क्लिक करा, नंतर **Make a Variable** वर क्लिक करा.
 
 ![](images/catch5.png)
 
-Enter `score` as the name.
+` score ` नाव म्हणून प्रविष्ट करा.
 
 ![](images/catch6.png)
 
-Check out your new variable!
+आपले नवीन Variables पहा!
 
 ![The Score variable is displayed on the stage](images/scoreVariableStage.png)
 
@@ -22,19 +22,19 @@ Check out your new variable!
 
 ## \--- collapse \---
 
-## title: What are variables?
+## title: वेरिएबल्स काय आहेत?
 
-जेव्हा आपल्याला प्रोग्राममध्ये माहिती संचयित करायची असेल तर आपण ** variables ** वापरता. Think of it like a box with a label on it: you can put something in it, check what’s in it, and change what’s in it. आपणास व्हेरिएबल्समध्ये **variables** विभागामध्ये आढळतील, परंतु त्यांना तेथे दर्शविण्यासाठी प्रथम आपण त्यांना तयार करणे आवश्यक आहे!
+जेव्हा आपल्याला प्रोग्राममध्ये माहिती संचयित करायची असेल तर आपण ** variables ** वापरता. त्यावर एका लेबल असलेल्या बॉक्ससारखे विचार करा: आपण त्यात काहीतरी ठेवू शकता, त्यामध्ये काय आहे ते तपासा आणि त्यामध्ये काय बदलू शकता. आपणास व्हेरिएबल्समध्ये **variables** विभागामध्ये आढळतील, परंतु त्यांना तेथे दर्शविण्यासाठी प्रथम आपण त्यांना तयार करणे आवश्यक आहे!
 
 \--- /collapse \---
 
-Now you need to update the variable whenever the shark eats a fish, and to reset it when the game is restarted. Doing both is pretty easy:
+जेव्हा आपल्याला शार्क जेव्हा एखादा मासा खाईल तेव्हा आपण व्हेरिएबल अद्यतनित करणे आणि गेम पुन्हा सुरू केल्यावर ते रीसेट करणे आवश्यक आहे. दोन्ही करणे खूपच सोपे आहे:
 
 \--- task \---
 
 ** veriables ** विभाग मधून, `set [my variable v] to [0]`{:class="block3variables"} आणि `change [my variable v] by [1]`{:class="block3variables"} ब्लॉक्स घ्या. ब्लॉक्समधील छोट्या बाणावर क्लिक करा, सूचीमधून ` score ` निवडा आणि नंतर आपल्या प्रोग्राममध्ये ते ब्लॉक्स ठेवा:
 
-### Code for the shark
+### शार्क साठी कोड
 
 ```blocks3
     when green flag clicked
@@ -43,7 +43,7 @@ Now you need to update the variable whenever the shark eats a fish, and to reset
     go to x: (0) y: (0)
 ```
 
-### Code for the fish
+### माशासाठी कोड
 
 ```blocks3
     if <touching [Sprite1 v] ?> then
@@ -57,4 +57,4 @@ Now you need to update the variable whenever the shark eats a fish, and to reset
 
 \--- /task \---
 
-Cool! Now you’ve got a score and everything.
+मस्त! आता आपल्याकडे स्कोअर आणि सर्वकाही आहे.
