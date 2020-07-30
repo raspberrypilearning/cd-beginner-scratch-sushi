@@ -1,50 +1,50 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/cd-beginner-scratch-sushi-scratch2).
+ही प्रोजेक्टची **स्क्रॅच 3** आवृत्ती आहे. प्रोजेक्टची[Scratch 2](https://projects.raspberrypi.org/en/projects/cd-beginner-scratch-sushi-scratch2) आवृत्ति देखील आहे.
 
 \--- /no-print \---
 
-## Introduction
+## प्रस्तावना
 
-These Sushi Cards are going to help you learn to create computer programs in Scratch!
+ही सुशी कार्ड्स स्क्रॅचमध्ये संगणक प्रोग्राम तयार करण्यास शिकवण्यासाठी आपली मदत करणार आहेत!
 
-### What you will make
+### आपण काय तयार करणार आहोत
 
-You will make a game where you move a shark around to try and catch fish.
+आपण एखादा गेम तयार कराल जेथे आपण शार्क अवतीभोवती हलवून मासे पकडणार.
 
-Here's an example of how your finished game might look:
+आपला समाप्त केलेला गेम कसा दिसेल याचे एक उदाहरण येथे आहे:
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/205355052/?autostart=false" frameborder="0"></iframe>
 </div>
 
-Press the green flag to start the game. Use the arrow keys to move the shark around and catch the fish.
+खेळ सुरू करण्यासाठी हिरवा झेंडा दाबा. शार्क अवतीभोवती फिरण्यासाठी आणि मासे पकडण्यासाठी एरो की चा वापर करा.
 
 ## \--- collapse \---
 
-## title: What you will learn
+## title: आपण काय शिकणार
 
-+ Adding and deleting code blocks
-+ Basic motion: move in steps, and turn by degrees
-+ Using keyboard controls
-+ Using (x, y) coordinates to position sprites
-+ Changing the look of the Stage and of sprites with costumes and show/hide commands
-+ Having multiple sprites on screen
-+ Using `forever`{:class="block3control"} loops
-+ Detecting when sprites are touching
++ कोड ब्लॉक्स समाविष्ट करणे आणि काढून टाकणे
++ मूलभूत गती: चरणांमध्ये हालचाल आणि अंशांद्वारे वळवणे
++ कीबोर्ड कंट्रोल्स वापरणे
++ (x, y) समन्वय वापरून स्प्राईट्स स्थितीत करणे
++ स्टेज व स्प्राईट्सचे कॉस्ट्यूम्स वापरून स्वरूप बदलणे आणि कमांड्स दर्शविणे/लपविणे
++ स्क्रीनवर अनेक स्प्राइट्स आणणे
++ `forever`{:class="block3control"} लूप्स वापरणे
++ स्प्राइट्स केव्हा स्पर्श करीत आहेत याचा शोध घेणे
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: आपल्याला काय लागणार
 
-You’re going to need **Scratch**, so do one of the following:
+आपल्याला **Scratch** आवश्यकता आहे, म्हणून पुढील पैकी एक करा:
 
-+ Download Scratch and install it on your computer by going to [dojo.soy/downloadscratch](http://dojo.soy/downloadscratch)
-+ Use Scratch in your web browser by going to [dojo.soy/usescratch](http://dojo.soy/usescratch)
++ [dojo.soy/downloadscratch](http://dojo.soy/downloadscratch) वर जाऊन स्क्रॅच डाउनलोड करा आणि आपल्या संगणकावर इन्स्टॉल करा
++ [dojo.soy/usescratch](http://dojo.soy/usescratch) वर जाऊन आपल्या वेब ब्राउझरमध्ये स्क्रॅच वापरा
 
-Once you’re set up, you can move on to the next step!
+एकदा आपण सेट अप केल्यानंतर आपण पुढील चरणात जाऊ शकता!
 
 \--- /collapse \---
 
