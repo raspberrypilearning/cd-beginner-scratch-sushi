@@ -1,16 +1,16 @@
 ## Adding and removing code blocks
 
-Great! You’ve written your very first Scratch program. Time to learn a little more about getting code in and out of Scratch! Scratch code is made up of **blocks** such as these:
+Great! You’ve written your very first Scratch program. Time to learn a little more about getting code in and out of Scratch! स्क्रॅच कोड **blocks** बनलेला आहे जसे की:
 
 ![](images/code1.png)
 
-You will find all blocks in the **code blocks palette**, sorted into different categories according to what they do.
+आपल्याला**code blocks palette**, आढळतील, ते त्यांच्या भूमिकेनुसार भिन्न श्रेण्यांमध्ये वर्गीकृत केलेले असतात.
 
 ## \--- collapse \---
 
 ## title: Using blocks from the different categories
 
-Click on a category name to see the blocks in that category. Here, the **Motion** category is selected:
+Click on a category name to see the blocks in that category. येथे, **Motion** श्रेणी निवडली आहे:
 
 ![](images/code2a.png)
 
@@ -34,7 +34,7 @@ Try double-clicking on some of the blocks to see what they do.
 
 ## title: Running the code
 
-Usually, you want your code to run automatically whenever something specific happens. This is why many of your programs will start with a block from the **Events** category, most often this one:
+Usually, you want your code to run automatically whenever something specific happens. म्हणूनच आपले अनेक प्रोग्राम्स**Events** श्रेणीमधील ब्लॉकसह प्रारंभ होतील, बहुतेकदा हे एक:
 
 ```blocks3
     when green flag clicked
