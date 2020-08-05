@@ -6,7 +6,7 @@
 
 **New sprite** ಬಟನ್ ಕ್ಲಿಕ್ ಮಾಡಿ, ಮತ್ತು ಅದು ತೆರೆಯುವ ಪರದೆಯಲ್ಲಿ, ಮೀನನ್ನು ಆಯ್ಕೆಮಾಡಿ.
 
-![ಹೊಸ sprite ಬಟನ್](images/spritesNewFromLibrary.png)
+![The New sprite button](images/spritesNewFromLibrary.png)
 
 ನಿಮ್ಮ ಶಾರ್ಕ್ಗೆ ಹೋಲಿಸಿದರೆ ನಿಮ್ಮ ಮೀನು ಸ್ವಲ್ಪ ದೊಡ್ಡದಾಗಿದ್ದರೆ, ಎರಡೂ sprite‌ಗಳನ್ನು ಸರಿಯಾದ ಗಾತ್ರಕ್ಕೆ ಮಾಡಲು ನೀವು ಗಾತ್ರ ನಿಯಂತ್ರಣವನ್ನು ಬಳಸಬಹುದು!
 
@@ -68,9 +68,9 @@
 
 \--- task \---
 
-**Motion** ವರ್ಗದಲ್ಲಿ `set rotation style`{:class = "block3motion"} ಬ್ಲಾಕ್ಗಾಗಿ ಹುಡುಕಿ.
+**Motion** ವರ್ಗದಲ್ಲಿ `set rotation style`{:class="block3motion"} ಬ್ಲಾಕ್ಗಾಗಿ ಹುಡುಕಿ.
 
-ಮೊದಲಿನಿಂದ ನಿಮ್ಮ ಶಾರ್ಕ್ ರಿಸೆಟ್ ಕೋಡ್‌ಗೆ ಬ್ಲಾಕ್ ಅನ್ನು ಸೇರಿಸಿ, ಮತ್ತು ತಿರುಗುವಿಕೆಯ ಶೈಲಿಯನ್ನು `left-right` ಗೆ {: class = "block3motion"}ಹೊಂದಿಸಿ, ಈ ರೀತಿ:
+ಮೊದಲಿನಿಂದ ನಿಮ್ಮ ಶಾರ್ಕ್ ರಿಸೆಟ್ ಕೋಡ್‌ಗೆ ಬ್ಲಾಕ್ ಅನ್ನು ಸೇರಿಸಿ, ಮತ್ತು ತಿರುಗುವಿಕೆಯ ಶೈಲಿಯನ್ನು `left-right`{:class="block3motion"} ಹೊಂದಿಸಿ, ಈ ರೀತಿ:
 
 ```blocks3
     when green flag clicked
