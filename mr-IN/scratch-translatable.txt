@@ -1,5 +1,5 @@
 Hello!
 
-गुण
+score
 
-हॅलो वर्ल्ड
+hello world
