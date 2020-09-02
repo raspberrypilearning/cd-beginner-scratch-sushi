@@ -20,7 +20,7 @@
 
 * एक किंवा अधिक **backgrounds** \(स्क्रीनच्या पार्श्वभूमीवरील प्रतिमा \)
 
-* एक किंवा अधिक **backgrounds** \(images on the background of the screen\)
+* त्याच्याशी संबंधित कोणतेही **code blocks** \(आम्ही यावर पोहोचू\)
 
 \--- /collapse \---
 
