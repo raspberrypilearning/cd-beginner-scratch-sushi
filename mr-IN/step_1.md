@@ -1,10 +1,10 @@
 \--- no-print \---
 
-ही प्रोजेक्टची **स्क्रॅच 3** आवृत्ती आहे. प्रोजेक्टची[Scratch 2](https://projects.raspberrypi.org/en/projects/cd-beginner-scratch-sushi-scratch2) आवृत्ति देखील आहे.
+ही प्रोजेक्टची **Scratch 3** आवृत्ती आहे. प्रोजेक्टची [Scratch 2](https://projects.raspberrypi.org/en/projects/cd-beginner-scratch-sushi-scratch2) आवृत्ति देखील आहे.
 
 \--- /no-print \---
 
-## प्रस्तावना
+## परिचय
 
 ही सुशी कार्ड्स स्क्रॅचमध्ये संगणक प्रोग्राम तयार करण्यास शिकवण्यासाठी आपली मदत करणार आहेत!
 
