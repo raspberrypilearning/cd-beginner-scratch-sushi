@@ -32,7 +32,7 @@
 
 \--- task \---
 
-** veriables ** विभाग मधून, `set [my variable v] to [0]`{:class="block3variables"} आणि `change [my variable v] by [1]`{:class="block3variables"} ब्लॉक्स घ्या. ब्लॉक्समधील छोट्या बाणावर क्लिक करा, सूचीमधून ` score ` निवडा आणि नंतर आपल्या प्रोग्राममध्ये ते ब्लॉक्स ठेवा:
+**Variables** विभाग मधून, `set [my variable v] to [0]`{:class="block3variables"} आणि `change [my variable v] by [1]`{:class="block3variables"} ब्लॉक्स घ्या. ब्लॉक्समधील छोट्या बाणावर क्लिक करा, सूचीमधून `score` निवडा आणि नंतर आपल्या प्रोग्राममध्ये ते ब्लॉक्स ठेवा:
 
 ### शार्क साठी कोड
 
