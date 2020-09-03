@@ -6,7 +6,7 @@
 
 आपला फिश स्प्राइट निवडा.
 
-`when green flag clicked`{:class="block3events"} **इव्हेंट** ब्लॉक ड्रॅग करा, `forever`{:class="block3control"} **Control** ब्लॉक आणि `move 10 steps`{:class="block3motion"} **Motion** ब्लॉकला **स्प्राइट पॅनेल** मध्ये हलवा, जसेः:
+`when green flag clicked`{:class="block3events"} **Event** ब्लॉक ड्रॅग करा, `forever`{:class="block3control"} **Control** ब्लॉक आणि `move 10 steps`{:class="block3motion"} **Motion** ब्लॉकला **sprite panel** मध्ये हलवा, जसेः:
 
 ```blocks3
     when green flag clicked
@@ -174,7 +174,7 @@
 3. थोडक्यात थांबा
 4. ते स्टेजच्या काठावर आहे की नाही ते तपासा
 
-Once the sprite has done the check, it will start at the beginning of the loop again and move, turn, wait, check, for as long as you let your Scratch program run.
+एकदा स्प्राईटने तपासणी पूर्ण केल्यावर ते पुन्हा लूपच्या सुरूवातीस सुरू होईल आणि आपण आपला स्क्रॅच प्रोग्राम चालू ठेवू शकता.
 
 \--- /collapse \---
 
