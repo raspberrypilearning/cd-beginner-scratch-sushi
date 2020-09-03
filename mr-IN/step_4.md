@@ -34,7 +34,7 @@
 
 ![](images/cool3.png)
 
-ही शार्क प्रतिमा निवडा आणि**OK**क्लिक करा.
+ही शार्क प्रतिमा निवडा आणि **OK** क्लिक करा.
 
 ![The shark costume](images/looksShark.png)
 
