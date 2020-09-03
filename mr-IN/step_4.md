@@ -30,7 +30,7 @@
 
 ![](images/cool2.png)
 
-नंतर **Choose costume from Library**निवडा
+नंतर **Choose costume from Library** निवडा
 
 ![](images/cool3.png)
 
