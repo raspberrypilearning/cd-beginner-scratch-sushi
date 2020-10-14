@@ -107,6 +107,6 @@ Scratch में कोड उन ब्लॉकों के रूप मे
 
 \--- task \---
 
-अब **Start Program** बटन पर क्लिक करें और देखो क्या होता है!
+Now click the **Green Flag** to start your program and watch what happens!
 
 \--- /task \---
