@@ -107,6 +107,6 @@ Maintenant que le deuxième bloc est dans le panneau du sprite actuel, relie-le 
 
 \--- task \---
 
-Maintenant, clique sur le bouton **Commencer** et regarde ce qu'il se passe !
+Now click the **Green Flag** to start your program and watch what happens!
 
 \--- /task \---
