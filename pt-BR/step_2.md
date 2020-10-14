@@ -107,6 +107,6 @@ Agora que o segundo bloco está no painel do ator atual, conecte-o à parte infe
 
 \--- task \---
 
-Agora clique na **Bandeira Verde** e veja o que acontece!
+Now click the **Green Flag** to start your program and watch what happens!
 
 \--- /task \---
