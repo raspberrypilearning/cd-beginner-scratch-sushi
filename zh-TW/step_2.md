@@ -107,6 +107,6 @@ Scratch中的代碼是以積木的樣子，連結起來形成程序。 您可以
 
 \--- task \---
 
-現在點擊**啟動程序**按鈕，看看會發生什麼！
+Now click the **Green Flag** to start your program and watch what happens!
 
 \--- /task \---
