@@ -107,6 +107,6 @@ Nu het tweede blok ook in het huidige sprite paneel staat, verbind je het aan de
 
 \--- task \---
 
-Klik nu op de **Ga** knop en kijk wat er gebeurt!
+Now click the **Green Flag** to start your program and watch what happens!
 
 \--- /task \---
