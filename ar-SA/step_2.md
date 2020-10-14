@@ -107,6 +107,6 @@
 
 \--- task \---
 
-الآن انقر فوق زر **انطلق** وشاهد ما سيحدث!
+Now click the **Green Flag** to start your program and watch what happens!
 
 \--- /task \---
