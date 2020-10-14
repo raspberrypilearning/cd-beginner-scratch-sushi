@@ -107,6 +107,6 @@ Ahora que el segundo bloque está en el panel del objeto actual, conéctalo a la
 
 \--- task \---
 
-Ahora haz clic en el botón **Iniciar Programa** y ¡observa lo que sucede!
+Now click the **Green Flag** to start your program and watch what happens!
 
 \--- /task \---
