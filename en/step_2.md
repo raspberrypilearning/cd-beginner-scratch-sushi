@@ -108,6 +108,6 @@ Now that the second block is in the current sprite panel, connect it to the bott
 
 --- task ---
 
-Now click the **Start Program** button and watch what happens!
+Now click the **Green Flag** to start your program and watch what happens!
 
 --- /task ---
