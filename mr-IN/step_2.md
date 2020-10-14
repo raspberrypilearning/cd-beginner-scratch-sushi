@@ -107,6 +107,6 @@
 
 \--- task \---
 
-आता ** Start Program ** बटण क्लिक करा आणि काय घडते ते पहा!
+Now click the **Green Flag** to start your program and watch what happens!
 
 \--- /task \---
