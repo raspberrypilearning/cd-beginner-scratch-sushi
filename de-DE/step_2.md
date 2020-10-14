@@ -107,6 +107,6 @@ Nun, da sich der zweite Block im aktuellen Figuren-Panel befindet, verbinde ihn 
 
 \--- task \---
 
-Klicke nun auf die Schaltfläche **Starte Programm** und beobachte, was passiert!
+Now click the **Green Flag** to start your program and watch what happens!
 
 \--- /task \---
