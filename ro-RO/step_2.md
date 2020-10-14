@@ -107,6 +107,6 @@ Acum că cel de-al doilea bloc se află în panoul personajului curent, conectea
 
 \--- task \---
 
-Acum, dă click pe butonul **Mergi** și urmărește ce se întâmplă!
+Now click the **Green Flag** to start your program and watch what happens!
 
 \--- /task \---
