@@ -107,6 +107,6 @@
 
 \--- task \---
 
-Τώρα κάνε κλικ στο κουμπί **Ξεκίνα** και δες τι συμβαίνει!
+Now click the **Green Flag** to start your program and watch what happens!
 
 \--- /task \---
