@@ -107,6 +107,6 @@ Ora che il secondo blocco si trova nel pannello sprite corrente, collegalo alla 
 
 \--- task \---
 
-Ora fai clic sul pulsante **Avvia programma** e guarda cosa succede!
+Now click the **Green Flag** to start your program and watch what happens!
 
 \--- /task \---
