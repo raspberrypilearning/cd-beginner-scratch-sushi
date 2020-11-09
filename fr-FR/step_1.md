@@ -15,7 +15,7 @@ Tu feras un jeu dans lequel tu déplaceras un requin pour attraper des poissons.
 Voici un exemple de l'apparence de ton jeu fini :
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/401298565/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/447277689/?autostart=false" frameborder="0"></iframe>
 </div>
 
 Appuie sur le drapeau vert pour commencer le jeu. Utilise les touches fléchées pour déplacer le requin et attraper les poissons.
