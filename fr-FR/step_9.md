@@ -33,7 +33,7 @@ Maintenant, tu dois mettre à jour la variable chaque fois que le requin mange u
 
 --- task ---
 
-Dans la section **Variables** , prend le `définir [ma variable v] à [0]`{:class="block3variables"} et `changez les bloc [ma variable v] par [1]`{:class ="block3variables"}. Clique sur les petites flèches dans les blocs, choisis `score` dans la liste, puis insère les blocs dans ton programme :
+Dans la section **Variables** , prend le `définir [ma variable v] à [0]`{:class="block3variables"} et `changez les bloc [ma variable v] par [1]`{:class="block3variables"}. Clique sur les petites flèches dans les blocs, choisis `score` dans la liste, puis insère les blocs dans ton programme :
 
 ### Code pour le requin
 
