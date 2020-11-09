@@ -47,7 +47,7 @@ Tu peux faire disparaître le poisson, comme si le requin le mangeait, en utilis
 
 --- task ---
 
-Recherche le bloc `cacher`{: class = "block3looks"} dans la liste **Apparence** et place-le dans le bloc `si ... alors`{:class="block3control"} , ainsi :
+Recherche le bloc `cacher`{:class="block3looks"} dans la liste **Apparence** et place-le dans le bloc `si ... alors`{:class="block3control"} , ainsi :
 
 ```blocks3
     if <touching [Sprite1 v] ?> then
