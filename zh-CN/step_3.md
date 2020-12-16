@@ -8,41 +8,41 @@
 
 ## \--- collapse \---
 
-## title: Using blocks from the different categories
+## title: 使用不同类别的代码块
 
-Click on a category name to see the blocks in that category. Here, the **Motion** category is selected:
+点击类别名称查看该类别中的代码块。 像这里我们选择了**运动**类：
 
 ![](images/code2a.png)
 
-All of the blocks in the category you've clicked are shown in a list:
+在该类别下的所有代码块都显示在了右侧的列表里：
 
 ![](images/code2b.png)
 
-You can click on the blcok you want, and then just drag it into the current sprite panel and let go. Once it's in the panel, you can move it around and connect it to other blocks.
+点击你需要的代码块，将它们拖到右侧的当前角色面板上再松开鼠标即可。 在面板中还可以移动代码块并将它们连接到一起。
 
 \--- /collapse \---
 
-If you want to see what a block does, you can double-click on it to make it run!
+如果要查看代码块的作用，可以双击它让它运行！
 
 \--- task \---
 
-Try double-clicking on some of the blocks to see what they do.
+尝试双击一些代码块来查看它们做什么。
 
 \--- /task \---
 
 ## \--- collapse \---
 
-## title: Running the code
+## title: 运行代码
 
-Usually, you want your code to run automatically whenever something specific happens. This is why many of your programs will start with a block from the **Events** category, most often this one:
+通常您想让代码在特定事件发生时自动运行。 这就是为什么许多程序都是从**事件**类的一个块开始的原因，最常见的是：
 
 ```blocks3
     when green flag clicked
 ```
 
-The code blocks connected to this block will run after the **green flag** is clicked.
+与此方块连接的代码块将在点击**绿色旗帜**后运行。
 
-Code blocks run from top to bottom, so the order in which you snap your blocks together matters. In this example, the sprite will `say`{:class="block3looks"} `Hello!` before it will `play`{:class="block3sound"} the `meow` sound.
+代码块由上向下依次运行，所以这些代码块连接的顺序十分重要。 在这个例子中，角色将`说`{:class="block3looks"} `你好!`之后`播放`{:class="block3sound"}`meow`的声音。
 
 ```blocks3
     when green flag clicked
@@ -52,15 +52,15 @@ Code blocks run from top to bottom, so the order in which you snap your blocks t
 
 \--- /collapse \---
 
-Removing or deleting code blocks you don’t want in your program is easy! Just drag them back into the code blocks palette.
+删除程序中不需要的代码块很容易！ 只需将它们拖回左侧的代码块面板即可。
 
-**Be careful:** dragging them into the code blocks pallette will delete all the blocks connected to the block you drag, so make sure to separate code blocks you want to keep from those you want to remove. If you delete some code blocks by accident and want to get them back, right-click and then click on the **undo** option to get everything back.
+**注意： **将代码块拖回动到面板会删除与拖动块相连的所有块，所以记得将要保留的代码块与要删除的代码块分开后再进行拖动。 如果您不小心误删了一些代码块，想再将它们放回来的话，用右键单击空白处，然后点击**撤消**来恢复。
 
 ![](images/code6.png)
 
 \--- task \---
 
-Try adding, deleting, and undeleting some code blocks!
+尝试添加，删除和取消删除一些代码块！
 
 \--- /task \---
 
