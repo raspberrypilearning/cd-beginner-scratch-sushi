@@ -57,7 +57,7 @@ Select your fish sprite.
 
 ## \--- collapse \---
 
-## title: Making adjustments
+## title: 调整
 
 在 `等待`{:class="block3control"} 块中设置的数字表示您想要鱼等多少**秒**。 `0.5`是半秒。
 
@@ -167,15 +167,15 @@ Select your fish sprite.
 
 ## title: 那么重复执行块组现在会做什么呢？
 
-The forever block now makes the fish sprite do four things in order:
+现在重复执行代码块让鱼依次执行四项操作：
 
-1. Move forward
-2. Turn a little bit
-3. Wait briefly
-4. Check whether it's at the edge of the Stage
+1. 向前移动
+2. 稍微转个角度
+3. 短暂等待
+4. 检查它自己是否处在舞台的边缘
 
-Once the sprite has done the check, it will start at the beginning of the loop again and move, turn, wait, check, for as long as you let your Scratch program run.
+只要让Scratch程序在运行中，这个角色就会依次执行移动，转动，等待，检查的操作，角色完成检查后会从循环的开头再次开始。
 
 \--- /collapse \---
 
-Cool! Next up: catching that fish!
+酷！ 下一步：捉到那条鱼！
