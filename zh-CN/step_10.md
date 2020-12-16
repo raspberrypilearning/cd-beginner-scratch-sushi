@@ -1,3 +1,3 @@
-## Challenge: winning the game
+## 挑战：赢得比赛
 
-Pick a score at which the player wins, and make something cool happen when they have that many points. Maybe the shark congratulates them, or a 'You win!' sprite appears, or music plays!
+设定一个分数，当玩家到达这个分数时即获胜，为获胜的玩家准备点小惊喜。 可以是鲨鱼恭喜玩家，或者一个角色出现说“你赢了！”，或播放音乐！
