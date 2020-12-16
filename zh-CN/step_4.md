@@ -1,47 +1,47 @@
-## Setting the scene
+## 场景设置
 
-Scratch has a library of backgrounds and sprites for you to use to make your project look awesome.
+Scratch有一个背景和角色库，可以让您的项目看起来更漂亮。
 
 \--- task \---
 
-Select the Stage.
+选择舞台.
 
-![Selecting the stage](images/looksSelectStage.png)
+![选择舞台](images/looksSelectStage.png)
 
-Click on **Backdrops**.
+点击**背景** 。
 
-![The Backdrops tab](images/looksBackdrops.png)
+![背景标签](images/looksBackdrops.png)
 
-Click the **Choose backdrop from library** icon.
+点击**从库中选择背景**图标。
 
-![The Choose backdrop icon](images/looksChooseBg.png)
+![选择背景图标](images/looksChooseBg.png)
 
-Then pick your favourite underwater background!
+然后选择你最喜欢的水下背景！
 
-![An underwater scene](images/looksUnderwater.png)
+![水下场景](images/looksUnderwater.png)
 
 \--- /task \---
 
-Great! Of course, now you have a cat underwater, and cats aren't usually big fans of that. But you can fix that, because you can turn the cat into a shark!
+好赞！ 现在您的猫在水里，然而，猫儿通常不怎么喜欢水。 但是您可以解决这个问题，因为您可以将猫变成鲨鱼！
 
 \--- task \---
 
-First, select the cat sprite and click on the **Costumes** tab.
+首先点击猫这个角色，然后点击**造型**选项卡。
 
 ![](images/cool2.png)
 
-Then, click on **Choose costume from Library**
+之后，点击**从库中选择造型**
 
 ![](images/cool3.png)
 
-Select this shark image and click **OK**.
+选择鲨鱼图像并点击 **OK**。
 
-![The shark costume](images/looksShark.png)
+![鲨鱼造型](images/looksShark.png)
 
-Now remove the cat costumes by selecting each of them and clicking on the **x**.
+最后选择所有猫的造型并依次点击** x**来删除它们 。
 
 ![](images/coolDeleteCostumes.png)
 
 \--- /task \---
 
-Now you have a shark – excellent!
+现在你有一只鲨鱼了——优秀！
