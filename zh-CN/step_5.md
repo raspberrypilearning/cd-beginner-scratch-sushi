@@ -125,6 +125,6 @@
 
 \--- task \---
 
-Now click the green flag: you should see the shark return to the centre of the stage!
+现在再点击绿色旗帜：鲨鱼就会返回到舞台的中心！
 
 \--- /task \---
