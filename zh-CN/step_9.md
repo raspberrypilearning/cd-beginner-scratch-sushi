@@ -14,21 +14,21 @@
 
 ![](images/catch6.png)
 
-Check out your new variable!
+查看你的新变量！
 
-![The Score variable is displayed on the stage](images/scoreVariableStage.png)
+![舞台上显示出“分数”变量](images/scoreVariableStage.png)
 
 \--- /task \---
 
 ## \--- collapse \---
 
-## title: What are variables?
+## title: 什么是变量？
 
-When you want to store information in a program, you use something called a **variable**. Think of it like a box with a label on it: you can put something in it, check what’s in it, and change what’s in it. You’ll find variables in the **Variables** section, but you need to create them first for them to show up there!
+如果想要将信息存储在一个程序中，我们需要使用到一个叫做**变量**的东西。 可以把它想像为一个带标签的箱子：您可以放东西进去，检查里边是什么，或者更改里边的东西。 您可以在**变量**部分找到变量，但使用之前您需要先创建一个变量才能显示出来！
 
 \--- /collapse \---
 
-Now you need to update the variable whenever the shark eats a fish, and to reset it when the game is restarted. Doing both is pretty easy:
+现在您需要在鲨鱼吃小鱼时更新变量，并在游戏重启时重置变量。 这两件事都很容易：
 
 \--- task \---
 
