@@ -1,38 +1,38 @@
-## Getting set up
+## 调整设置
 
-Once you open Scratch, you’ll see a window like the one below.
+打开Scratch后，您会看到一个类似于下面的窗口。
 
 \--- task \---
 
-Look for each of the following areas and remember where they are.
+查看以下每个区域，并记住它们的位置。
 
 \--- /task \---
 
-### The Stage
+### 舞台
 
-![Scratch window with the stage highlighted](images/hlStage.png)
+![突出显示舞台的Scratch界面](images/hlStage.png)
 
 ## \--- collapse \---
 
-## title: What is the Stage?
+## title: 舞台是什么？
 
-This is where your Scratch programs run. It has:
+舞台是您的Scratch程序运行的地方。 包括：
 
-* One or more **backgrounds** \(images on the background of the screen\)
+* 一个或多个**背景** \(屏幕背景上的图像\)
 
-* Any **code blocks** associated with it \(we’ll get to this\)
+* 任何与之关联的**代码块**\（后文会涉及\）
 
 \--- /collapse \---
 
-### The sprite list
+### 角色列表
 
-![Scratch window with the sprite list highlighted](images/hlSpriteList.png)
+![突出显示角色列表的Scratch界面](images/hlSpriteList.png)
 
 ## \--- collapse \---
 
-## title: What is a sprite?
+## title: 什么是角色？
 
-Any item you can add on the Stage is a **sprite**.
+您可以在舞台上添加的任何事物都是**角色** 。
 
 A sprite includes:
 
