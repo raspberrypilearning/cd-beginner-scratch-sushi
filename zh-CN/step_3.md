@@ -70,7 +70,7 @@ Try adding, deleting, and undeleting some code blocks!
 
 \--- task \---
 
-Make sure you have the cat sprite selected in the sprite list, and then drag the following blocks into the sprite panel and connect them. You’ll find them in the **Events** and **Motion** lists.
+首先选择猫作为要编辑的角色，然后将下面这些代码块拖动到角色编辑面板中，并将它们连接到一起。 代码块在**事件**和**运动**类列表中。
 
 ```blocks3
     when green flag clicked
@@ -81,19 +81,19 @@ Make sure you have the cat sprite selected in the sprite list, and then drag the
 
 \--- task \---
 
-Now, click on the green flag above the Stage.
+现在，单击舞台上方的绿色小旗。
 
 ![](images/code7.png)
 
 \--- /task \---
 
-You should see the cat walking in a straight line...not exactly what you want, right?
+这只猫会沿着直线行走……嗯......这和我们的想法不太一样对吧？
 
-Note: If you click the flag too many times and the cat walks away, you can drag it back!
+注意：如果您单击小绿旗太多次猫走远了，可以用鼠标将它拖动回去！
 
 \--- task \---
 
-Snap the turn block to the end to make the cat sprite walk in a circle. It’s in the **Motion** list too.
+把右转或左转代码块加到之前的代码下边，小猫就可以绕圈行走了。 这也在**动作**类列表中。
 
 ```blocks3
     when green flag clicked
@@ -105,9 +105,9 @@ Snap the turn block to the end to make the cat sprite walk in a circle. It’s i
 
 ## \--- collapse \---
 
-## title: How does turning work?
+## title: 右转或左转是怎么回事？
 
-This block makes the sprite turn 15 degrees of the full 360 degrees that make up a circle. You can change that number, and the number of steps, by clicking on the number and typing in a new value.
+每个圆有360度，这个代码块让角色转动15度。 您可以通过单击数字并输入新值来更改猫转动的度数和行走的步数。
 
 ![](images/code9.png)
 
@@ -115,6 +115,6 @@ This block makes the sprite turn 15 degrees of the full 360 degrees that make up
 
 \--- task \---
 
-Now save your work!
+记得保存！
 
 \--- /task \---
