@@ -32,9 +32,9 @@
 
 \--- task \---
 
-From the **Variables** section, take the `set [my variable v] to [0]`{:class="block3variables"} and `change [my variable v] by [1]`{:class="block3variables"} blocks. Click on the little arrows in the blocks, choose `score` from the list, and then put the blocks into your program:
+从**变量**类列表中选择`将[我的变量]设为[0]`{:class="block3variables"}和`将[我的变量]增加[1]`{:class="block3variables"}代码块。 点击代码块中的小箭头，从列表中选择 `得分` 然后将代码块放入您的程序：
 
-### Code for the shark
+### 鲨鱼的代码
 
 ```blocks3
     when green flag clicked
@@ -43,7 +43,7 @@ From the **Variables** section, take the `set [my variable v] to [0]`{:class="bl
     go to x: (0) y: (0)
 ```
 
-### Code for the fish
+### 鱼的代码
 
 ```blocks3
     if <touching [Sprite1 v] ?> then
@@ -57,4 +57,4 @@ From the **Variables** section, take the `set [my variable v] to [0]`{:class="bl
 
 \--- /task \---
 
-Cool! Now you’ve got a score and everything.
+酷！ 现在，您已经有分数和其他所有内容。
