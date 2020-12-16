@@ -51,33 +51,33 @@
 
 ## title: 代码块
 
-Code in Scratch comes in the form of blocks that you connect to make programs. You choose blocks from the **code blocks palette**, drag them into the **current sprite panel**, and then connect them to each other.
+Scratch中代码的形式是连接为程序的积木块。 您可以从**代码块面板** 选择积木，将它们拖到**当前角色面板**中 ，然后将它们彼此连接起来。
 
-There are ten categories of blocks. They are colour-coded, and you can choose between them by clicking on the items in the list at the top of the **code blocks palette**.
+共有十种类别的代码块。 它们采用了颜色编码，您可以通过单击**代码块面板**顶部列表中的单项在它们之间进行选择。
 
 \--- /collapse \---
 
-### The current sprite panel
+### 当前角色面板
 
-![Scratch window with the current sprite panel highlighted](images/hlCurrentSpritePanel.png)
+![突出显示当前角色面板的Scratch界面](images/hlCurrentSpritePanel.png)
 
 ## \--- collapse \---
 
-## title: What is the current sprite?
+## title: 当前角色是什么？
 
-The **current sprite** is the one that's selected in the **sprite list**.
+**当前角色**即是从**角色列表**中选择的那个 。
 
-The **current sprite panel** is where you can see the code, costumes, and sounds for the selected sprite.
+在**当前角色面板**您可以看到所选角色的代码、造型和声音的地方。
 
 \--- /collapse \---
 
-Time to get coding!
+该编码了！
 
 \--- task \---
 
-In the sprite list, click on the Scratch Cat. The cat is now the current sprite.
+在角色列表中，点击Scratch Cat。 猫即是当前角色。
 
-Choose the **Events** category in the code blocks palette, click the `when flag clicked`{:class="block3events"} block, and drag it into the current sprite panel.
+在代码块面板中选择**事件**类别，点击`当旗帜被点击`{:class="block3events"}模块并将其拖动到当前角色面板中。
 
 ```blocks3
     when green flag clicked
@@ -87,19 +87,19 @@ Choose the **Events** category in the code blocks palette, click the `when flag 
 
 \--- task \---
 
-Then go to **Looks** in the code blocks palette and find this block:
+然后转到**外观**代码块面板中找到以下块：
 
 ```blocks3
     say [Hello!] for (2) secs
 ```
 
-Click on it, hold down the mouse button, and then just drag it into the current sprite panel and let go of the button.
+点击它，按住鼠标按钮，然后将其拖动到当前角色面板后松开鼠标。
 
 \--- /task \---
 
 \--- task \---
 
-Now that the second block is in the current sprite panel, connect it to the bottom of the first block by clicking and dragging it again to move it below the other block until they snap together, like this:
+第二个代码块现在也被添加到当前角色面板上了，我们再点击并拖动它，将其移动到第一个代码块底部，让他们连接到一起。 像这样：
 
 ![](images/setup3.png)
 
@@ -107,6 +107,6 @@ Now that the second block is in the current sprite panel, connect it to the bott
 
 \--- task \---
 
-Now click the **Green Flag** to start your program and watch what happens!
+现在点击 **绿色小旗** 开始你的程序并观看发生了什么！
 
 \--- /task \---
