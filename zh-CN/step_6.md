@@ -1,36 +1,36 @@
-## All the sprites
+## 全部角色
 
-Now you have a shark that you can move around using the arrow keys. Nice! Time to add some fish for it to catch.
+现在，您有一条可以使用方向键控制其移动的鲨鱼了。 太棒了！ 该添加一些鱼让鲨鱼来捕食了。
 
 \--- task \---
 
-Click the **New sprite** button, and on the screen that opens, choose a fish.
+点击**新角色**按钮，然后在打开的屏幕上选择一条鱼。
 
-![The New sprite button](images/spritesNewFromLibrary.png)
+![新角色按钮](images/spritesNewFromLibrary.png)
 
-If your fish is a bit big compared to your shark, you can use the size control to make both sprites the right size!
+如果鱼和鲨鱼相比有点大，您可以使用大小控制来使这两个角色都变成合适的大小！
 
-![Sprite size control](images/sprites2.png)
+![角色大小控制](images/sprites2.png)
 
-Change the number in the size control to make the spirte bigger or smaller.
+通过更改大小控件中的数字调整角色的大小。
 
 \--- /task \---
 
-Great! Later, you're going to add some code to make the fish move around on its own, without help from the player. Your player will move the shark and try to catch the fish.
+好赞！ 稍后我们将添加一些代码，让鱼在没有玩家控制的情况下自行移动。 玩家将移动鲨鱼来捕食小鱼。
 
 ## \--- collapse \---
 
-## title: What about the backwards shark?
+## title: 鲨鱼向后游动怎么办？
 
-It does look a little funny to have that shark swimming backwards. Just like you’d usually turn around rather than walking backwards, the shark would turn around rather than swimming backwards. Luckily for you, Scratch has a block for this!
+鲨鱼向后游动确实有些奇怪。 就像人通常会转身而不是倒着走一样，鲨鱼也会转身而不是倒着向后游。 幸运的是，Scratch为此准备了一个代码块！
 
-The `point in direction`{:class="block3motion"} block lets you pick the direction your sprite is pointing in. You’ll find it in the **Motion** blocks section. You can type in any number of degrees, to point the sprite wherever you want.
+`面向 方向` {:class =“block3motion”}代码块可以帮助您选择角色面向的方向。 这个代码块在**运动**类别里。 您可以输入任意数值的角度，让角色面向任何你想要的方向。
 
 \--- /collapse \---
 
 \--- task \---
 
-Grab a couple of copies of the `point in direction`{:class="block3motion"} block from the **Motion** list and connect them to your shark's code, like this:
+从**动作**{:class =“block3motion”}分类下拖动两组`面向  方向` 代码块，并将它们连接到鲨鱼的代码，如下所示：
 
 ```blocks3
     when [left arrow v] key pressed
@@ -48,29 +48,29 @@ Grab a couple of copies of the `point in direction`{:class="block3motion"} block
 
 \--- task \---
 
-Change the number of steps in the `move`{:class="block3motion"} blocks from `-10` to `10`.
+将`移动`{:class="block3motion"} 块中的数字从`-10`更改为`10`。
 
-If you try moving the shark around now after you've added the `point in direction`{:class="block3motion"} blocks, you might notice something a little strange happening. The shark may not be turning quite right!
+在添加了`面向  方向`{:class="block3motion"}代码块后，如果你尝试移动鲨鱼，可能会发现有点奇怪。 鲨鱼转的方式好像有点不太对劲！
 
-![Upside down shark](images/spritesUpsideDown.png)
+![颠倒鲨鱼](images/spritesUpsideDown.png)
 
 \--- /task \---
 
 ## \--- collapse \---
 
-## title: Why does it go upside down?
+## title: 为什么鲨鱼会上下颠倒？
 
-The problem here is that the shark sprite started, as all sprites do, with the 'all around' **rotation style**, and what you need it to have is the 'left-right' style.
+出现这个问题的原因是，和所有角色一样，鲨鱼一开始使用的是“任意方向”的**旋转样式** ，而您需要的是“左右”样式。
 
-As usual, there’s a block for that, and it’s in **Motion**!
+别着急，在**运动**中有一个代码块可以解决！
 
 \--- /collapse \---
 
 \--- task \---
 
-Look in the **Motion** category for the block `set rotation style`{:class="block3motion"}.
+在**运动**类别中找到`将旋转方式设为`{:class="block3motion"}代码块。
 
-Add the block to your shark reset code from earlier, and set the rotation style to `left-right`{:class="block3motion"}, like this:
+将代码块添加到之前添加的鲨鱼重置代码组中，并将旋转风格设置为 `左右翻转`{:class="block3motion"}，就像这样：
 
 ```blocks3
     when green flag clicked
