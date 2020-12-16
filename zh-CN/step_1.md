@@ -29,23 +29,23 @@
 + 使用键盘控制
 + 使用（x，y）坐标来给角色定位
 + 使用造型和显示/隐藏命令来改变舞台和角色的样子
-+ Having multiple sprites on screen
-+ Using `forever`{:class="block3control"} loops
-+ Detecting when sprites are touching
++ 显示多个角色
++ 使用 `重复执行`{:class="block3control"} 循环
++ 检测角色何时接触
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: 你需要准备什么
 
-You’re going to need **Scratch**, so do one of the following:
+您将需要**Scratch** ，因此请执行以下任一操作：
 
-+ Download Scratch and install it on your computer by going to [dojo.soy/downloadscratch](http://dojo.soy/downloadscratch)
-+ Use Scratch in your web browser by going to [dojo.soy/usescratch](http://dojo.soy/usescratch)
++ 前往[dojo.soy/downloadscratch](http://dojo.soy/downloadscratch)下载 Scratch 并安装在您的电脑上
++ 通过转到[ dojo.soy/usescratch](http://dojo.soy/usescratch)在浏览器中使用Scratch
 
-Once you’re set up, you can move on to the next step!
+设置完成后，就可以继续下一步了！
 
 \--- /collapse \---
 
-![Tracking pixel](http://code.org/api/hour/begin_coderdojo_sushi.png)
+![跟踪像素](http://code.org/api/hour/begin_coderdojo_sushi.png)
