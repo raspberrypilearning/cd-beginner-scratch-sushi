@@ -1,16 +1,16 @@
-## Keeping score
+## 计分
 
-To keep score of how many fish the player catches, you’ll need somewhere to store the score, a way of adding to it, and a way of resetting it when the game is restarted.
+要计算玩家捉到了多少条鱼，您首先需要某个地方来显示分数，一个加分的方法，以及当游戏重启时重置分数的方式。
 
-First: storing the score!
+首先：保存分数！
 
 \--- task \---
 
-Go to the **Variables** blocks category and click on **Make a Variable**.
+点击 **变量**类列表中的 **建立一个变量**。
 
 ![](images/catch5.png)
 
-Enter `score` as the name.
+在名称处输入`分数`。
 
 ![](images/catch6.png)
 
