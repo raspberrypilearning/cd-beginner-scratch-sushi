@@ -6,7 +6,7 @@ Ok, now it's time to make the fish swim on its own. To do this, you’re going t
 
 Select your fish sprite.
 
-Drag a `when green flag clicked`{:class="block3events"} **Event** block, a `forever`{:class="block3control"} **Control** block, and a `move 10 steps`{:class="block3motion"} **Motion** block into the **sprite panel**, like this:
+把 `当绿旗被点击` {:class =“block3events”}块（**事件**类），`重复执行` {:class =“block3control”} 块（**控制**类），以及`移动10步` {:class =“block3motion”}块（**运动**类），拖到**角色面板** 中， 像这样：
 
 ```blocks3
     when green flag clicked
@@ -19,23 +19,23 @@ Drag a `when green flag clicked`{:class="block3events"} **Event** block, a `fore
 
 ## \--- collapse \---
 
-## title: What does the new block do?
+## title: 新的代码块有什么作用？
 
-**Control** blocks make your program do things a certain number of times, or under certain conditions.
+**控制** 块使您的程序执行一定次数或在特定条件下运行。
 
-Here, the fish does whatever is inside the `forever`{:class="block3control"} block over and over again on a loop, forever. So once it has done the last thing (block) inside the `forever`{:class="block3control"} block, it starts over at the top and does everything again, and so on.
+在这种情况下，鱼在`重复执行`{:class="block3control"} 代码块组中一遍又一遍的执行相同的指令。 做完`重复执行`{:class="block3control"} 组块内的最后一件事(代码块)后，它会回到这个组块的开始把所有组块内的代码再执行一遍，循环往复。
 
 \--- /collapse \---
 
 \--- task \---
 
-Now click the green flag and watch what happens!
+现在点击绿旗，看看会发生什么！
 
 \--- /task \---
 
-Well, that fish just crashed into the side of the Stage, and it was moving far too fast for your shark to catch.
+哦，小鱼径直坠落到舞台外边去了，而且它移动的速度也太快，鲨鱼根本追不上。
 
-First, you need to slow the fish down. That’s actually pretty easy, you just need it to wait for a little while after it moves those 10 steps. There’s a **Control** block that will help you here:
+所以我们要先让小鱼的速度慢下来。 这其实很简单，只需要让它在移动10步以后稍微停顿一下。 用**控制**块可以实现这一操作：
 
 ```blocks3
     wait (1) secs
@@ -43,7 +43,7 @@ First, you need to slow the fish down. That’s actually pretty easy, you just n
 
 \--- task \---
 
-Add the `wait`{:class="block3control"} block into your code inside the `forever`{:class="block3control"} block, and change the number to `0.5`, like this:
+将 `等待`{:class="block3control"} 代码块添加到`重复执行`{:class="block3control"} 块组中，将数字更改为`0.5`, 如：
 
 ```blocks3
     when green flag clicked
@@ -59,9 +59,9 @@ Add the `wait`{:class="block3control"} block into your code inside the `forever`
 
 ## title: Making adjustments
 
-The number you set in the `wait`{:class="block3control"} block says how many **seconds** you want the fish to wait. `0.5` is half a second.
+在 `等待`{:class="block3control"} 块中设置的数字表示您想要鱼等多少**秒**。 `0.5`是半秒。
 
-You can test out different values to see which is the best for the game. And remember that you can change the number of steps inside the `move`{:class="block3motion"} block too!
+您可以通过测试不同的数值来判断停顿多久最合适。 And remember that you can change the number of steps inside the `move`{:class="block3motion"} block too!
 
 \--- /collapse \---
 
