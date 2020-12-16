@@ -80,46 +80,46 @@
 
 ## title: x和y坐标的工作原理是什么？
 
-To talk about the positions of objects, such as sprites, we often use x- and y-coordinates. The **x-axis** of the Stage coordinate system runs from **left to right**, and the **y-axis** runs from **bottom to top**.
+当谈及事物（比如角色）的位置时，我们通常用x和y坐标。 在舞台坐标系统中** x轴**表示从**左到右**的位置，** y轴**表示从**底部到顶部**的位置。
 
 ![](images/moving3.png)
 
-A sprite can be located by the coordinates of its centre, for example `(15, -27)`, where `15` is its position along the x-axis , and `-27` its position along the y-axis.
+一个角色可以通过其中心坐标来定位，例如`(15, -27)`，其中`15`是X轴沿线的位置，`-27`是其在y轴沿线的位置。
 
-+ To get a feel for how this actually works, select a sprite and use the **x** and **y** controls to move it around the stage by setting different values for the coordinates.
++ 要了解其实际的工作原理，可以选择一个角色然后通过设定不同** x **和** y **坐标的值使它在舞台上移动。
 
 ![](images/xycoords.png)
 
-+ Try different pairs of values to see where the sprite goes! In Scratch, the x-axis goes from `-240` to `240`, and the y-axis goes from `-180` to `180`.
++ 尝试不同的值，看看角色的去向！ 在Scratch中，x轴的范围从`-240`到`240`，y轴从`-180`到`180`。
 
 \--- /collapse \---
 
-### Restarting the game
+### 重新启动游戏
 
-The shark moves all over the screen now, but imagine this is a game: how do you restart it, and what happens at the start of each game?
+鲨鱼现在可以在屏幕上移动了，但想象这是一个游戏的话：你该如何重启它？每次游戏开始时会发生什么情况？
 
-You need to get the shark to its original location when the player starts the game. They'll start this game by clicking on the green flag, so you need to change the shark sprite's x- and y-coordinates when that happens.
+当玩家开始游戏时，您需要把鲨鱼放回到最开始的位置。 玩家通过点击绿旗开始游戏，所以当这种情况发生时，您需要改变鲨鱼的x和y坐标使它归位。
 
-That’s actually pretty easy! The centre of the stage is `(0, 0)` in `(x, y)` coordinates.
+这其实很简单！ 舞台的中心在`（x，y）`坐标中是`（0，0） `。
 
-So all you need is an **Event** block for that green flag, and the **go to** block from **Motion**.
+所以您只需那个绿色旗帜的 **事件** 块，和**运动**代码块中的**移动到**。
 
 \--- task \---
 
-Drag a `when green flag clicked`{:class="block3events"} **Event** block onto the current sprite panel.
+拖拽一个`当绿旗被点击`{:class =“block3events”} 的**事件**块到当前角色面板。
 
 ```blocks3
     when green flag clicked
 ```
 
-Then find the `go to`{:class="block3motion"} **Motion** block, and attach it to your flag **Event** block.
+然后找到`移动到 `{:class =“block3motion”} **动作**块，并将其连接到绿旗**事件**块下方。
 
 ```blocks3
     when green flag clicked
 +     go to x: (0) y: (0)
 ```
 
-Set the both the `x` and the `y` coordinate to `0` in the `go to`{:class="block3motion"} block if they are not already `0`.
+如果`移动到 `{:class="block3motion"}块中的 `x`和`y`坐标尚未归零，则将它们都设定为`0`。
 
 \--- /task \---
 
