@@ -1,32 +1,32 @@
-## Moving things around
+## 让角色四处移动
 
-Right now your shark moves in a circle, and it would be much more fun to control it with the arrow keys. On this card, you’re going learn how to do that!
+您的鲨鱼现在可以围成一圈移动，如果能用箭头键控制它的话会更加有趣。 这一步就教您如何做到！
 
 \--- task \---
 
-Start by deleting all code that you have for the shark.
+首先删除所有有关鲨鱼的代码。
 
 \--- /task \---
 
-As you’ve probably guessed, you’re going to need **Event** and **Motion** blocks again!
+您可能已经猜到了，您又需要用到**事件**和**运动**代码块了！
 
 \--- task \---
 
-This time, look for this block and drag it into the current sprite panel:
+这次，查找此块并将其拖动到当前角色的面板中：
 
 ```blocks3
     when [space v] key pressed
 ```
 
-Click the little arrow (▼) beside `space`. You will see a list of all your keyboard keys that you can pick from.
+点击`空格`旁边的小箭头(▼)。 会出现一个包含所有按键的下拉菜单可供选择。
 
 \--- /task \---
 
-You’re going to need four of the `when key pressed`{:class="block3events"} blocks — one for each of your arrow keys.
+您一共需要4个`当按下   键`{:class="block3events"} 代码块——给每个方向箭头使用一个。
 
 \--- task \---
 
-To make your shark move, connect these blocks to **Motion** blocks like this:
+想要让鲨鱼移动，需要将这些代码块像这样连接到**运动**代码块上：
 
 ```blocks3
     when [left arrow v] key pressed
@@ -48,19 +48,19 @@ To make your shark move, connect these blocks to **Motion** blocks like this:
 
 \--- /task \---
 
-**Note**: `-10` means 'go back 10 steps'.
+**注意**：`-10`表示“后退10步”。
 
 \--- task \---
 
-Now click the green flag to test out your code.
+单击绿色小旗标志来测试您的代码。
 
 \--- /task \---
 
-Now your shark moves back and forwards, which is pretty cool, but it doesn’t move up or down. Also, if you look through the **Motion** blocks, you’ll see there are no blocks for 'up' or 'down'. There are a whole bunch of them related to **x** and **y** coordinates though — let's try those!
+现在鲨鱼可以前后移动了，但还不能上下移动。 而且，**运动**代码块中也并没有用于“上”或“下”的块。 但我们有一整套关于**x**和**y**坐标的操作——让我们试试吧！
 
 \--- task \---
 
-Grab two `change y by`{:class="block3motion"} blocks, and update your code like this:
+拖两个`将y坐标设为 `{:class="block3motion"} 的代码块，并按如下所示更新您的代码：
 
 ```blocks3
     when [up arrow v] key pressed
@@ -74,11 +74,11 @@ Grab two `change y by`{:class="block3motion"} blocks, and update your code like 
 
 \--- /task \---
 
-Now when you press the arrows keys, the shark moves all around the stage!
+现在当您再按方向键时，鲨鱼就可以在这个舞台上四处移动了！
 
 ## \--- collapse \---
 
-## title: How do x- and y-coordinates work?
+## title: x和y坐标的工作原理是什么？
 
 To talk about the positions of objects, such as sprites, we often use x- and y-coordinates. The **x-axis** of the Stage coordinate system runs from **left to right**, and the **y-axis** runs from **bottom to top**.
 
