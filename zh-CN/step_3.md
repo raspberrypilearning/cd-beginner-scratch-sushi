@@ -64,9 +64,9 @@ Try adding, deleting, and undeleting some code blocks!
 
 \--- /task \---
 
-### Putting it all together
+### 放在一起
 
-Now you know how to move code around and make things happen, it's time for you to create a program to make the Scratch Cat walk in a circle!
+我们学会了如何移动代码块，并且通过运行代码实现一些操作。接下来我们来试试如何让Scratch猫绕圈行走吧！
 
 \--- task \---
 
