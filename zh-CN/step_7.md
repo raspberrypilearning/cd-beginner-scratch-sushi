@@ -1,10 +1,10 @@
-## Remote-control fish
+## 遥控鱼
 
-Ok, now it's time to make the fish swim on its own. To do this, you’re going to need a new kind of block: a **Control** block.
+好的，现在该让鱼自己游泳了。 这里您需要一种新型的块：**控制**代码块。
 
 \--- task \---
 
-Select your fish sprite.
+从角色中选择一条你喜欢的鱼。
 
 把 `当绿旗被点击` {:class =“block3events”}块（**事件**类），`重复执行` {:class =“block3control”} 块（**控制**类），以及`移动10步` {:class =“block3motion”}块（**运动**类），拖到**角色面板** 中， 像这样：
 
