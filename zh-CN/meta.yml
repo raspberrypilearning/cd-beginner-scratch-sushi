@@ -1,7 +1,7 @@
 ---
-title: Deep sea sushi
+title: 深海寿司
 hero_image: images/banner.png
-description: Make a fun game in your first Scratch program!
+description: 在您的第一个Scratch程序中创建一个有趣的游戏！
 theme: orange #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
 duration: 2
 listed: true
@@ -16,23 +16,23 @@ version: 4.0.0
 last_tested: 2017-01-01
 steps:
   - 
-    title: Introduction
+    title: 介绍
   - 
-    title: Getting set up
+    title: 设置
   - 
-    title: Adding and removing code blocks
+    title: 添加和删除代码块
   - 
-    title: Setting the scene
+    title: 设置场景
   - 
-    title: Moving things around
+    title: 让角色四处移动
   - 
-    title: All the sprites
+    title: 全部角色
   - 
-    title: Remote-control fish
+    title: 遥控鱼
   - 
-    title: Fishing!
+    title: 捕鱼！
   - 
-    title: Keeping score
+    title: 计分
   - 
-    title: "Challenge: winning the game"
+    title: "挑战：赢得游戏"
     challenge: true
