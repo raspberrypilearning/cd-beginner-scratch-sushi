@@ -34,22 +34,22 @@
 
 您可以在舞台上添加的任何事物都是**角色** 。
 
-A sprite includes:
+一个角色包括：
 
-* The **image** on the Stage
-* Any extra **costumes** \(looks\) it has
-* Any **sounds** associated with it
-* Any **code blocks** associated with it ![](images/setup2.png)
+* 在舞台上的**图像**
+* 任何角色额外的 **造型** \(外观\)
+* 任何与它相关联的 **声音**
+* 任何与它相关联的 **代码块** ![](images/setup2.png)
 
 \--- /collapse \---
 
-### The code blocks palette
+### 代码块面板
 
-![Scratch window with the blocks pallet highlighted](images/hlBlocksPalette.png)
+![突出显示代码块面板的Scratch界面](images/hlBlocksPalette.png)
 
 ## \--- collapse \---
 
-## title: Code blocks
+## title: 代码块
 
 Code in Scratch comes in the form of blocks that you connect to make programs. You choose blocks from the **code blocks palette**, drag them into the **current sprite panel**, and then connect them to each other.
 
