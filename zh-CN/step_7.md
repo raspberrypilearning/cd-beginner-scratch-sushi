@@ -61,31 +61,31 @@ Select your fish sprite.
 
 在 `等待`{:class="block3control"} 块中设置的数字表示您想要鱼等多少**秒**。 `0.5`是半秒。
 
-您可以通过测试不同的数值来判断停顿多久最合适。 And remember that you can change the number of steps inside the `move`{:class="block3motion"} block too!
+您可以通过测试不同的数值来判断停顿多久最合适。 同样，您也可以更改`移动`{:class="block3motion"} 块内的数字改变小鱼每一次游动的距离！
 
 \--- /collapse \---
 
-The fish moves now, but you need it to bounce off the edge of the Stage too. Yet again, there’s a **Motion** block for this!
+小鱼现在可以游了，但我们还需要让它在碰到舞台边缘的时候可以游回来。 这次我们还要用到**运动**代码块！
 
 \--- task \---
 
-Find the `if on edge bounce`{:class="block3motion"} block, and add it in after the `wait`{:class="block3control"} block.
+找到 `碰到边缘就反弹`{:class="block3motion"} 代码块，把它连接到`等待`{:class="block3control"} 块后。
 
 \--- /task \---
 
 ## \--- collapse \---
 
-## title: What does the new block do?
+## title: 新的代码块有什么作用？
 
-The `if on edge bounce`{:class="block3motion"} block checks if the sprite is touching the edge of the Stage and, if it is, it turns left, right, up, or down as appropriate.
+`碰到边缘就反弹`{:class="block3motion"} 代码块用来检查角色是否接触到了舞台的边缘， 如果是的话则酌情转向上、下、左或右移动。
 
 \--- /collapse \---
 
-Of course, this will lead to an upside-down fish, so you need a `set rotation style`{:class="block3motion"} block again.
+像之前一样，这又会使鱼倒着游，所以您需要再次设置一个`将旋转方式设为`{:class="block3motion"} 块。
 
 \--- task \---
 
-Update your code to set the rotation style of the fish to `left-right`{:class="block3motion"} at the beginning of the sprite's script:
+在脚本开始处设置鱼的旋转风格为 `左右翻转`{:class="block3motion"} ：
 
 ```blocks3
     when green flag clicked
@@ -99,13 +99,13 @@ Update your code to set the rotation style of the fish to `left-right`{:class="b
 
 \--- /task \---
 
-The fish moves backwards and forwards now, but only in a straight line — a bit too easy for the player to catch with the shark! You need to make the fish less predictable.
+现鱼可以左右游动了。但只在一条线上游，对玩家来说太容易捉到了！ 您需要让鱼的游动方向变得不那么容易预测到。
 
-You already know from a previous step how to make a sprite turn, so start there.
+您已经从之前的步骤中学会如何让角色转变方向，所以就从这里入手。
 
 \--- task \---
 
-Add a turn into the fish's swimming instructions, and click the green flag.
+在小鱼的游泳指令中添加转向说明，然后点击小绿旗。
 
 ```blocks3
     when green flag clicked
@@ -120,13 +120,13 @@ Add a turn into the fish's swimming instructions, and click the green flag.
 
 \--- /task \---
 
-It’s better, but there’s still too much of a pattern. It needs to be more random. Luckily, Scratch can do random for you! You’ll just need a new kind of block, called an **operator** block.
+好多了，但仍然显得有些生硬。 应该看上去随意一些。 幸运的是，Scratch 可以帮助您实现随意运动！ 只需一种新类型的代码块，称为**运算**块。
 
 ## \--- collapse \---
 
-## title: What's an operator?
+## title: 什么是运算符？
 
-**Operators** take in one or more values (like numbers, text, or `True/False` values) and give back a single value. You can tell the kind of value it will give back by the shape of the block: round ends give numbers or text, pointy ends give `True/False`.
+**运算符** 接受一个或多个值（如数字，文本或 `True / False` 值），并返回一个值。 代码块的形状代表了它会返回什么类型的值：椭圆形块给出数字或文本，六边形块给出`是/否`。
 
 ```blocks3
     (() + ())
@@ -140,7 +140,7 @@ It’s better, but there’s still too much of a pattern. It needs to be more ra
 
 \--- task \---
 
-Find the `pick random`{:class="block3operators"} **operator** block, and plug it into the `turn degrees`{:class="block3motion"} **Motion** block by clicking it and dragging it into the field where you set the number of degrees.
+查找`在  和  之间取随机数`{:class="block3motion"} （**运算** 类），然后点击它并将它拖到设置度数的字段，将其插入`右转  度`{:class="block3motion"} **运动**块内。
 
 ```blocks3
     when green flag clicked
@@ -155,17 +155,17 @@ Find the `pick random`{:class="block3operators"} **operator** block, and plug it
 
 \--- /task \---
 
-**Note**: you can change the minimum and maximum numbers it will pick, but the default values (`1` and `10`) are pretty good for this game, so you can just leave them.
+**注意**：您可以更改代码块中的最小值和最大值范围，但默认值 (`1` 和 `10`)对这个游戏来说就已经很合适了，所以也可以不用更改。
 
 \--- task \---
 
-Click the green flag to run the code!
+点击绿旗来运行代码！
 
 \--- /task \---
 
 ## \--- collapse \---
 
-## title: So what does the forever block do now?
+## title: 那么重复执行块组现在会做什么呢？
 
 The forever block now makes the fish sprite do four things in order:
 
