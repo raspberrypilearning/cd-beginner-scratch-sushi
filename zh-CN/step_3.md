@@ -1,10 +1,10 @@
-## Adding and removing code blocks
+## 添加和删除代码块
 
-Great! You’ve written your very first Scratch program. Time to learn a little more about getting code in and out of Scratch! Scratch code is made up of **blocks** such as these:
+好赞！ 您已经编写了您的第一个Scratch程序。 是时候试试用Scratch编更多代码了! Scratch 代码由像这样的**积木块**组成：
 
 ![](images/code1.png)
 
-You will find all blocks in the **code blocks palette**, sorted into different categories according to what they do.
+所有的积木块都按其功用分类别存放在 **代码块面板中**。
 
 ## \--- collapse \---
 
