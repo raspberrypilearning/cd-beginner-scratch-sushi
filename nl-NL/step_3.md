@@ -18,7 +18,7 @@ Alle blokken in de categorie waarop je hebt geklikt, worden weergegeven in de li
 
 ![](images/code2b.png)
 
-Je kunt op het gewenste blok klikken en deze vervolgens naar het huidige sprite paneel slepen en loslaten. Zodra het in het paneel zit, kun je het verplaatsen en verbinden met andere blokken.
+You can click on the block you want, and then just drag it into the current sprite panel and let go. Zodra het in het paneel zit, kun je het verplaatsen en verbinden met andere blokken.
 
 \--- /collapse \---
 
