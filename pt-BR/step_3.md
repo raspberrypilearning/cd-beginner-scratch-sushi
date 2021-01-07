@@ -18,7 +18,7 @@ Todos os blocos na categoria que você clicou são mostrados em uma lista:
 
 ![](images/code2b.png)
 
-Você pode clicar no bloco que deseja e, em seguida, basta arrastá-lo para o painel do ator atual e soltar. Uma vez no painel, você pode movê-lo e conectá-lo a outros blocos.
+You can click on the block you want, and then just drag it into the current sprite panel and let go. Uma vez no painel, você pode movê-lo e conectá-lo a outros blocos.
 
 \--- /collapse \---
 
