@@ -18,7 +18,7 @@
 
 ![](images/code2b.png)
 
-يمكنك النقر فوق المقطع الذي تريده ، ثم قم بسحبه إلى لوحة الكائن الحالي واتركه. بمجرد وجوده في اللوحة ، يمكنك تحريكه وتوصيله بالمقاطع الأخرى.
+You can click on the block you want, and then just drag it into the current sprite panel and let go. بمجرد وجوده في اللوحة ، يمكنك تحريكه وتوصيله بالمقاطع الأخرى.
 
 \--- /collapse \---
 
