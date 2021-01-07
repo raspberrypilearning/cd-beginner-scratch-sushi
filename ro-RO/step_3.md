@@ -18,7 +18,7 @@ Toate blocurile din categoria selectată sunt afișate într-o listă:
 
 ![](images/code2b.png)
 
-Poți apăsa pe blocul dorit, apoi îl poți trage până în panoul personajului curent și să îi dai drumul. Odată ce se află în panou, îl poți mișca și conecta la alte blocuri.
+You can click on the block you want, and then just drag it into the current sprite panel and let go. Odată ce se află în panou, îl poți mișca și conecta la alte blocuri.
 
 \--- /collapse \---
 
