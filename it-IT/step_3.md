@@ -18,7 +18,7 @@ Tutti i blocchi nella categoria che hai cliccato sono elencati:
 
 ![](images/code2b.png)
 
-Puoi cliccare sul blocco che vuoi, trascinarlo nel pannello dello sprite corrente e rilasciarlo. Quando è nel pannello, puoi spostarlo e collegarlo ad altri blocchi.
+You can click on the block you want, and then just drag it into the current sprite panel and let go. Quando è nel pannello, puoi spostarlo e collegarlo ad altri blocchi.
 
 \--- /collapse \---
 
