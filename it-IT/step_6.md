@@ -12,7 +12,7 @@ Se il tuo pesce è un po' grande rispetto al tuo squalo, puoi usare il controllo
 
 ![Controllo delle dimensioni dello sprite](images/sprites2.png)
 
-Modificare il numero nel controllo della dimensione per rendere lo sprite più grande o più piccolo.
+Change the number in the size control to make the sprite bigger or smaller.
 
 \--- /task \---
 
