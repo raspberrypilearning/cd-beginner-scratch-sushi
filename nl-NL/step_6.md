@@ -12,7 +12,7 @@ Als je vis een beetje groot is vergeleken met je haai, dan kun je Grootte gebrui
 
 ![Sprite grootte](images/sprites2.png)
 
-Verander het getal achter Grootte om de sprite groter of kleiner te maken.
+Change the number in the size control to make the sprite bigger or smaller.
 
 \--- /task \---
 
