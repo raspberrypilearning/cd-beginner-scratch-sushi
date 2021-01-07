@@ -12,7 +12,7 @@ Si tu pez es un poco grande en comparación con tu tiburón, ¡puedes usar el co
 
 ![Control de tamaño del sprite](images/sprites2.png)
 
-Cambia el número en el control de tamaño para hacer que el sprite sea mayor o menor.
+Change the number in the size control to make the sprite bigger or smaller.
 
 \--- /task \---
 
