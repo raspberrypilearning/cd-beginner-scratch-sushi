@@ -18,7 +18,7 @@
 
 ![](images/code2b.png)
 
-目的のblcokをクリックし、現在のスプライトパネルにドラッグして放します。 パネルに配置したら、移動して他のブロックに接続できます。
+You can click on the block you want, and then just drag it into the current sprite panel and let go. パネルに配置したら、移動して他のブロックに接続できます。
 
 \--- /collapse \---
 
