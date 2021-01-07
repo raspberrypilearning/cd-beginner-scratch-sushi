@@ -18,7 +18,7 @@
 
 ![](images/code2b.png)
 
-点击你需要的代码块，将它们拖到右侧的当前角色面板上再松开鼠标即可。 在面板中还可以移动代码块并将它们连接到一起。
+You can click on the block you want, and then just drag it into the current sprite panel and let go. 在面板中还可以移动代码块并将它们连接到一起。
 
 \--- /collapse \---
 
