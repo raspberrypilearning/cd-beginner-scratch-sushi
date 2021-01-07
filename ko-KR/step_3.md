@@ -18,7 +18,7 @@
 
 ![](images/code2b.png)
 
-원하는 블록을 클릭 한 다음 현재 스크립트 영역으로 드래그하여 놓으십시오. 일단 블록이 스크립트 영역에 있으면, 당신은 블록을 옮기고 그것을 다른 블록에 연결할 수 있습니다.
+You can click on the block you want, and then just drag it into the current sprite panel and let go. 일단 블록이 스크립트 영역에 있으면, 당신은 블록을 옮기고 그것을 다른 블록에 연결할 수 있습니다.
 
 -- /collapse \---
 
