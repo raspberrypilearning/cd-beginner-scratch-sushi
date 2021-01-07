@@ -18,7 +18,7 @@
 
 ![](images/code2b.png)
 
-您可以點擊您想要的積木並將其拖曳到當前角色面板中並放開。 一旦積木在面板中，就可以移動它並與其他積木相連接。
+You can click on the block you want, and then just drag it into the current sprite panel and let go. 一旦積木在面板中，就可以移動它並與其他積木相連接。
 
 \--- /collapse \---
 
