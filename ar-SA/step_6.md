@@ -12,7 +12,7 @@
 
 ![التحكم في حجم الكائن](images/sprites2.png)
 
-غير الرقم في خانة الحجم لجعل الكائن أكبر أو أصغر.
+Change the number in the size control to make the sprite bigger or smaller.
 
 \--- /task \---
 
