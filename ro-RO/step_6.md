@@ -12,7 +12,7 @@ Dacă peștele e prea mare față de rechin poți să folosești căsuța pentru
 
 ![Căsuța pentru dimensiune](images/sprites2.png)
 
-Modifică numărul din căsuța pentru dimensiune pentru a face personajul mai mare sau mai mic.
+Change the number in the size control to make the sprite bigger or smaller.
 
 \--- /task \---
 
