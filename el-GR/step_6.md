@@ -12,7 +12,7 @@
 
 ![Έλεγχος μεγέθους αντικειμένου](images/sprites2.png)
 
-Άλλαξε τον αριθμό στον έλεγχο μεγέθους για να κάνεις το αντικείμενο μεγαλύτερο ή μικρότερο.
+Change the number in the size control to make the sprite bigger or smaller.
 
 \--- /task \---
 
