@@ -12,7 +12,7 @@ Jeśli twoja ryba jest trochę duża w porównaniu z twoim rekinem, możesz uży
 
 ![Kontrola rozmiaru duszka](images/sprites2.png)
 
-Zmień liczbę w kontrolce rozmiaru, aby zwiększyć lub zmniejszyć duszka.
+Change the number in the size control to make the sprite bigger or smaller.
 
 \--- /task \---
 
