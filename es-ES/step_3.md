@@ -18,7 +18,7 @@ Todos los bloques de la categoría en la que has hecho clic se muestran en una l
 
 ![](images/code2b.png)
 
-Puedes hacer clic en el bloque que desees, y luego arrastrarlo al panel del objeto actual y soltarlo. Una vez que esté en el panel, puedes moverlo y conectarlo a otros bloques.
+You can click on the block you want, and then just drag it into the current sprite panel and let go. Una vez que esté en el panel, puedes moverlo y conectarlo a otros bloques.
 
 \--- /collapse \---
 
