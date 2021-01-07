@@ -12,7 +12,7 @@
 
 ![角色大小控制](images/sprites2.png)
 
-在大小控件中更改數字，以使角色尺寸變大或變小。
+Change the number in the size control to make the sprite bigger or smaller.
 
 \--- /task \---
 
