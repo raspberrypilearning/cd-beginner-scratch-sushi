@@ -18,7 +18,7 @@ Wszystkie bloki w klikniętej kategorii są wyświetlane na liście:
 
 ![](images/code2b.png)
 
-Możesz kliknąć dowolny blok, a następnie przeciągnąć go do panelu bieżącego duszka i upuścić go. Po umieszczeniu go w panelu możesz go przenosić i łączyć z innymi blokami.
+You can click on the block you want, and then just drag it into the current sprite panel and let go. Po umieszczeniu go w panelu możesz go przenosić i łączyć z innymi blokami.
 
 \--- /collapse \---
 
