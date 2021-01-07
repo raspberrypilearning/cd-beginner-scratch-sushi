@@ -12,7 +12,7 @@
 
 ![स्प्राइट आकार का नियंत्रण](images/sprites2.png)
 
-स्प्राइट को बड़ा या छोटा करने के लिए आकार नियंत्रण में संख्या बदलें।
+Change the number in the size control to make the sprite bigger or smaller.
 
 \--- /task \---
 
