@@ -12,7 +12,7 @@ Si ton poisson est un peu gros par rapport à ton requin, tu peux utiliser le co
 
 ![Contrôle de la taille des sprites](images/sprites2.png)
 
-Modifie le nombre dans le contrôle de taille pour que le sprite soit plus grand ou plus petit.
+Change the number in the size control to make the sprite bigger or smaller.
 
 \--- /task \---
 
