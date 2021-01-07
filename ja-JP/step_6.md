@@ -12,7 +12,7 @@
 
 ![スプライトのサイズを調整](images/sprites2.png)
 
-サイズコントロールの数値を変更して、追加した魚のスプライトを大きくまたは小さくします。
+Change the number in the size control to make the sprite bigger or smaller.
 
 \--- /タスク \---
 
