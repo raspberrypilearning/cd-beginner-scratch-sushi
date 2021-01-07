@@ -12,7 +12,7 @@
 
 ![스프라이트 크기 제어](images/sprites2.png)
 
-스프라이트를 더 크게 또는 작게 만들려면 크기 숫자를 변경하십시오.
+Change the number in the size control to make the sprite bigger or smaller.
 
 \--- /task \---
 
