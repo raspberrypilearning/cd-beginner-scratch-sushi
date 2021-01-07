@@ -19,7 +19,7 @@ All of the blocks in the category you've clicked are shown in a list:
 
 ![](images/code2b.png)
 
-You can click on the blcok you want, and then just drag it into the current sprite panel and let go. Once it's in the panel, you can move it around and connect it to other blocks.
+You can click on the block you want, and then just drag it into the current sprite panel and let go. Once it's in the panel, you can move it around and connect it to other blocks.
 
 --- /collapse --- 
 

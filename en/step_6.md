@@ -12,7 +12,7 @@ If your fish is a bit big compared to your shark, you can use the size control t
 
 ![Sprite size control](images/sprites2.png)
 
-Change the number in the size control to make the spirte bigger or smaller.
+Change the number in the size control to make the sprite bigger or smaller.
 
 --- /task ---
 
