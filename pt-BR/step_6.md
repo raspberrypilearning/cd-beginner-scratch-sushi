@@ -12,7 +12,7 @@ Se o seu peixe é um pouco grande comparado ao seu tubarão, você pode usar o c
 
 ![Controle de tamanho do Ator](images/sprites2.png)
 
-Altere o número no controle de tamanho para aumentar ou diminuir o tamanho do ator.
+Change the number in the size control to make the sprite bigger or smaller.
 
 \--- /task \---
 
