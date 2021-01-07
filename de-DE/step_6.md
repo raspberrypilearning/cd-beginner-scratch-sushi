@@ -12,7 +12,7 @@ Wenn dein Fisch im Vergleich zu deinem Hai ein bisschen groß ist, kannst du mit
 
 ![Einstellung der Figuren-Größe](images/sprites2.png)
 
-Ändere die Zahl in der Größensteuerung, um die Figur größer oder kleiner zu machen.
+Change the number in the size control to make the sprite bigger or smaller.
 
 \--- /task \---
 
