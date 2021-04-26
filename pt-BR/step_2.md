@@ -1,22 +1,30 @@
 ## Preparando
 
-Depois de abrir o Scratch, você verá uma janela como a abaixo.
+\--- task \---
+
+Open a [new Scratch project](https://rpf.io/scratch-new){:target="_blank"}. Scratch will open in another browser tab.
+
+[[[working-offline]]]
+
+\--- /task \---
+
+Once you open Scratch, you’ll see a window like the one below.
 
 \--- task \---
 
-Procure cada uma das seguintes áreas e lembre-se de onde elas estão.
+Look for each of the following areas and remember where they are.
 
 \--- /task \---
 
 ### O Palco
 
-![Janela do Scratch com o palco destacado](images/hlStage.png)
+![Scratch window with the stage highlighted](images/hlStage.png)
 
 ## \--- collapse \---
 
 ## title: O que é o Palco?
 
-É aqui que seus programas do Scratch são executados. Tem:
+This is where your Scratch programs run. It has:
 
 * Um ou mais **planos de fundo**\(imagens no fundo da tela\)
 
@@ -26,15 +34,15 @@ Procure cada uma das seguintes áreas e lembre-se de onde elas estão.
 
 ### A lista de atores
 
-![Janela do Scratch com o a lista de atores destacada](images/hlSpriteList.png)
+![Scratch window with the sprite list highlighted](images/hlSpriteList.png)
 
 ## \--- collapse \---
 
 ## title: O que é um ator?
 
-Qualquer item que você possa adicionar no palco é um **ator**.
+Any item you can add on the Stage is a **sprite**.
 
-Um ator inclui:
+A sprite includes:
 
 * A **imagem** no Palco
 * Quaisquer **fantasias** extras \(aparência\) que tem
@@ -45,39 +53,39 @@ Um ator inclui:
 
 ### A paleta de blocos de código
 
-![Janela do Scratch com a paleta de blocos destacada](images/hlBlocksPalette.png)
+![Scratch window with the blocks pallet highlighted](images/hlBlocksPalette.png)
 
 ## \--- collapse \---
 
 ## title: Blocos de código
 
-O código no Scratch vem na forma de blocos que você conecta para criar programas. Você escolhe blocos da **paleta de blocos de código**, arrasta eles até o **painel do ator atual**, e então conecta-os um ao outro.
+Code in Scratch comes in the form of blocks that you connect to make programs. You choose blocks from the **code blocks palette**, drag them into the **current sprite panel**, and then connect them to each other.
 
-Existem dez categorias de blocos. Eles são codificados em cores e você pode escolher entre eles clicando nos itens na lista no topo da **paleta de blocos de código**.
+There are ten categories of blocks. They are colour-coded, and you can choose between them by clicking on the items in the list at the top of the **code blocks palette**.
 
 \--- /collapse \---
 
 ### O painel do ator atual
 
-![Janela do Scratch com o painel do ator atual destacado](images/hlCurrentSpritePanel.png)
+![Scratch window with the current sprite panel highlighted](images/hlCurrentSpritePanel.png)
 
 ## \--- collapse \---
 
 ## title: Qual é o ator atual?
 
-O **ator atual** é o que está selecionado na **lista de atores**.
+The **current sprite** is the one that's selected in the **sprite list**.
 
-O **painel do ator atual** é onde você pode ver o código, as fantasias e os sons do ator selecionado.
+The **current sprite panel** is where you can see the code, costumes, and sounds for the selected sprite.
 
 \--- /collapse \---
 
-Hora de começar a programar!
+Time to get coding!
 
 \--- task \---
 
-Na lista de atores, clique no gato Scratch. O gato agora é o ator atual.
+In the sprite list, click on the Scratch Cat. The cat is now the current sprite.
 
-Escolha a categoria **Eventos** na paleta de blocos de código, clique no bloco `quando ⚑ for clicado`{:class="block3events"} e arraste-o para o painel do ator atual.
+Choose the **Events** category in the code blocks palette, click the `when flag clicked`{:class="block3events"} block, and drag it into the current sprite panel.
 
 ```blocks3
     quando a bandeira verde for clicada
@@ -87,19 +95,19 @@ Escolha a categoria **Eventos** na paleta de blocos de código, clique no bloco 
 
 \--- task \---
 
-Em seguida, vá para **Aparência** na paleta de blocos de código e encontre este bloco:
+Then go to **Looks** in the code blocks palette and find this block:
 
 ```blocks3
     diga [Olá!] por (2) s
 ```
 
-Clique nele, mantenha pressionado o botão do mouse e arraste-o para o painel do ator atual e solte o botão.
+Click on it, hold down the mouse button, and then just drag it into the current sprite panel and let go of the button.
 
 \--- /task \---
 
 \--- task \---
 
-Agora que o segundo bloco está no painel do ator atual, conecte-o à parte inferior do primeiro bloco clicando e arrastando-o novamente para movê-lo abaixo do outro bloco até que eles se encaixem, assim:
+Now that the second block is in the current sprite panel, connect it to the bottom of the first block by clicking and dragging it again to move it below the other block until they snap together, like this:
 
 ![](images/setup3.png)
 
