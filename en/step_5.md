@@ -52,7 +52,7 @@ To make your shark move, connect these blocks to **Motion** blocks like this:
 
 --- task ---
 
-Now click the green flag to test out your code.
+**Test:** Press the left arrow key and right arrow key multiple times to test your code.
 
 --- /task ---
 
