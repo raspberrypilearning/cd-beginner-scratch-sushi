@@ -52,7 +52,7 @@ neem (10) stappen
 
 \--- task \---
 
-Klik nu op de groene vlag om je code te testen.
+**Test:** Press the left arrow key and right arrow key multiple times to test your code.
 
 \--- /task \---
 
