@@ -1,22 +1,30 @@
 ## هيا بنا لنبدأ
 
-بمجرد فتح Scratch ، سترى نافذة مثل النافذة أدناه.
-
 \--- task \---
 
-انظر إلى كل من المساحات التالية وتذكر أين هم.
+Open a [new Scratch project](https://rpf.io/scratch-new){:target="_blank"}. Scratch will open in another browser tab.
+
+[[[working-offline]]]
 
 \---/task--
 
+Once you open Scratch, you’ll see a window like the one below.
+
+\--- task \---
+
+Look for each of the following areas and remember where they are.
+
+\--- /task \---
+
 ### المنصة
 
-![نافذة Scratch مع تسليط الضوء على المنصة](images/hlStage.png)
+![Scratch window with the stage highlighted](images/hlStage.png)
 
 ## \--- collapse \---
 
 ## title: ما هي المنصة؟
 
-هذا هو المكان الذي يتم فيه تشغيل برامج Scratch. فيها:
+This is where your Scratch programs run. It has:
 
 * **خلفيات** واحد أو أكثر \ (صور على خلفية الشاشة \)
 
@@ -26,15 +34,15 @@
 
 ### قائمة الكائنات
 
-![نافذة Scratch مع تسليط الضوء على قائمة الكائنات](images/hlSpriteList.png)
+![Scratch window with the sprite list highlighted](images/hlSpriteList.png)
 
 ## \--- collapse \---
 
 ## العنوان: ما هو الكائن؟
 
-أي عنصر يمكنك إضافته على المنصة هو **كائن**.
+Any item you can add on the Stage is a **sprite**.
 
-الكائن يشمل:
+A sprite includes:
 
 * ** الصورة ** على المنصة
 * أي **مظاهر** إضافية \ (اشكال \) لديه
@@ -45,39 +53,39 @@
 
 ### لوحة المقاطع البرمجية
 
-![نافذة Scratch مع تسليط الضوء على لوحة المقاطع](images/hlBlocksPalette.png)
+![Scratch window with the blocks pallet highlighted](images/hlBlocksPalette.png)
 
 ## \--- collapse \---
 
 ## title: المقاطع البرمجية
 
-تأتي التعليمات البرمجية في Scratch في شكل مقاطع تصلها ببعض لإنشاء البرامج. تختار مقاطع من **لوحة المقاطع البرمجية**، تسحبهم إلى ** لوحة الكائن الحالي**، ومن ثم تربطهم مع بعضهم البعض.
+Code in Scratch comes in the form of blocks that you connect to make programs. You choose blocks from the **code blocks palette**, drag them into the **current sprite panel**, and then connect them to each other.
 
-هناك عشر فئات من المقاطع. يتم ترميزها بالألوان ، ويمكنك الاختيار بينها من خلال النقر فوق العناصر الموجودة في القائمة أعلى **لوحة المقاطع البرمجية**.
+There are ten categories of blocks. They are colour-coded, and you can choose between them by clicking on the items in the list at the top of the **code blocks palette**.
 
 \--- /collapse \---
 
 ### لوحة الكائن الحالي
 
-![نافذة Scratch مع تسليط الضوء على لوحة الكائن الحالي](images/hlCurrentSpritePanel.png)
+![Scratch window with the current sprite panel highlighted](images/hlCurrentSpritePanel.png)
 
 ## \--- collapse \---
 
 ## title: ما هو الكائن الحالي؟
 
-**الكائن الحالي** هو الذي تم إختياره من **قائمة الكائنات**.
+The **current sprite** is the one that's selected in the **sprite list**.
 
-لوحة **الكائن الحالي** هي المكان الذي يمكنك من خلاله رؤية البرمجة والمظاهر والأصوات الخاصة بالكائن الذي تم إختياره.
+The **current sprite panel** is where you can see the code, costumes, and sounds for the selected sprite.
 
 \--- /collapse \---
 
-حان وقت البرمجة!
+Time to get coding!
 
 \--- task \---
 
-في قائمة الكائنات، انقر فوق قطة Scratch. القطة هي الآن الكائن الحالي.
+In the sprite list, click on the Scratch Cat. The cat is now the current sprite.
 
-اختر فئة **الأحداث** في لوحة المقاطع البرمجية ، وانقر فوق `عند نقر العلم`{: class = "block3events"} ، واسحبه إلى لوحة الكائن الحالي.
+Choose the **Events** category in the code blocks palette, click the `when flag clicked`{:class="block3events"} block, and drag it into the current sprite panel.
 
 ```blocks3
     عند النقر فوق العلم الأخضر
@@ -87,19 +95,19 @@
 
 \--- task \---
 
-ثم انتقل إلى **المظاهر** في لوحة المقاطع البرمجية وابحث عن هذا المقطع:
+Then go to **Looks** in the code blocks palette and find this block:
 
 ```blocks3
     قل [السلام عليكم!] لمدة (2) ثوانٍ
 ```
 
-انقر فوقه ، استمر في الضغط على زر الماوس ، ثم اسحبه إلى لوحة الكائن الحالي واترك الزر.
+Click on it, hold down the mouse button, and then just drag it into the current sprite panel and let go of the button.
 
 \--- /task \---
 
 \--- task \---
 
-الآن بعد أن أصبح المقطع الثانية في لوحة الكائن الحالي، قم بتوصيله أسفل المقطع الأول بالنقر عليها وسحبه مرة أخرى لتحريكه إلى أسفل المقطع الأخر حتى يتم ربطهم معًا ، كهذا:
+Now that the second block is in the current sprite panel, connect it to the bottom of the first block by clicking and dragging it again to move it below the other block until they snap together, like this:
 
 ![](images/setup3.png)
 
