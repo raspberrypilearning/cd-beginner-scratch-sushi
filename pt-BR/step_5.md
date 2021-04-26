@@ -52,7 +52,7 @@ Para fazer seu tubarão se mover, conecte esses blocos a blocos de **Movimento**
 
 \--- task \---
 
-Agora clique na bandeira verde para testar seu código.
+**Test:** Press the left arrow key and right arrow key multiple times to test your code.
 
 \--- /task \---
 
