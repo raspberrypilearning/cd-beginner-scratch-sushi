@@ -1,22 +1,30 @@
 ## Ξεκινώντας
 
-Μόλις ανοίξεις το Scratch, θα δεις ένα παράθυρο όπως το παρακάτω.
+\--- task \---
+
+Open a [new Scratch project](https://rpf.io/scratch-new){:target="_blank"}. Scratch will open in another browser tab.
+
+[[[working-offline]]]
+
+\--- /task \---
+
+Once you open Scratch, you’ll see a window like the one below.
 
 \--- task \---
 
-Δες καθεμία από τις παρακάτω περιοχές και να θυμάσαι πού βρίσκονται.
+Look for each of the following areas and remember where they are.
 
 \--- /task \---
 
 ### Η σκηνή
 
-![Παράθυρο Scratch με τη σκηνή τονισμένη](images/hlStage.png)
+![Scratch window with the stage highlighted](images/hlStage.png)
 
 ## \--- collapse \---
 
 ## title: Τι είναι η σκηνή;
 
-Εκεί εκτελούνται τα προγράμματα στο Scratch. Περιλαμβάνει:
+This is where your Scratch programs run. It has:
 
 * Ένα ή περισσότερα **υπόβαθρα** \(εικόνες φόντου στο πίσω μέρος της οθόνης\)
 
@@ -26,15 +34,15 @@
 
 ### Τη λίστα των αντικειμένων
 
-![Παράθυρο Scratch με τη λίστα αντικειμένων τονισμένη](images/hlSpriteList.png)
+![Scratch window with the sprite list highlighted](images/hlSpriteList.png)
 
 ## \--- collapse \---
 
 ## title: Τι είναι ένα αντικείμενο;
 
-Οποιοδήποτε στοιχείο που μπορείς να προσθέσεις στη σκηνή είναι ένα **αντικείμενο**.
+Any item you can add on the Stage is a **sprite**.
 
-Ένα αντικείμενο περιλαμβάνει:
+A sprite includes:
 
 * Την **εικόνα** στη σκηνή 
 * Τις επιπλέον **ενδυμασίες** \(εικόνες\) που μπορεί να έχει
@@ -45,39 +53,39 @@
 
 ### Την παλέτα εντολών
 
-![Παράθυρο Scratch με την παλέτα εντολών τονισμένη](images/hlBlocksPalette.png)
+![Scratch window with the blocks pallet highlighted](images/hlBlocksPalette.png)
 
 ## \--- collapse \---
 
 ## title: Μπλοκ κώδικα
 
-Ο κώδικας στο Scratch έχει τη μορφή μπλοκ που συνδέονται μεταξύ τους και σχηματίζουν προγράμματα. Επιλέγεις μπλοκ από την **παλέτα εντολών**, τα σέρνεις στην **περιοχή του επιλεγμένου αντικειμένου** και, στη συνέχεια, τα ενώνεις μεταξύ τους.
+Code in Scratch comes in the form of blocks that you connect to make programs. You choose blocks from the **code blocks palette**, drag them into the **current sprite panel**, and then connect them to each other.
 
-Υπάρχουν δέκα κατηγορίες μπλοκ. Είναι χρωματικά κωδικοποιημένα και μπορείς να επιλέξεις ανάμεσά τους κάνοντας κλικ στα στοιχεία της λίστας στο επάνω μέρος της **παλέτας εντολών**.
+There are ten categories of blocks. They are colour-coded, and you can choose between them by clicking on the items in the list at the top of the **code blocks palette**.
 
 \--- /collapse \---
 
 ### Η περιοχή του επιλεγμένου αντικειμένου
 
-![Παράθυρο Scratch με την περιοχή του επιλεγμένου αντικειμένου τονισμένη](images/hlCurrentSpritePanel.png)
+![Scratch window with the current sprite panel highlighted](images/hlCurrentSpritePanel.png)
 
 ## \--- collapse \---
 
 ## title: Τι είναι το επιλεγμένο αντικείμενο;
 
-Το **επιλεγμένο αντικείμενο** είναι αυτό που έχει επιλεχθεί στη **λίστα αντικειμένων**.
+The **current sprite** is the one that's selected in the **sprite list**.
 
-Η **περιοχή του επιλεγμένου αντικειμένου** είναι εκεί που μπορείς να δεις τον κώδικα, τις ενδυμασίες και τους ήχους του επιλεγμένου αντικειμένου.
+The **current sprite panel** is where you can see the code, costumes, and sounds for the selected sprite.
 
 \--- /collapse \---
 
-Ώρα για κώδικα!
+Time to get coding!
 
 \--- task \---
 
-Στη λίστα αντικειμένων, κάνε κλικ στη γάτα του Scratch. Η γάτα είναι τώρα το επιλεγμένο αντικείμενο.
+In the sprite list, click on the Scratch Cat. The cat is now the current sprite.
 
-Επίλεξε την κατηγορία **Συμβάντα/0> στην παλέτα εντολών, κάνε κλικ στο μπλοκ `όταν γίνει κλικ σε σημαία`{:class="block3events"}, και σύρε το στην περιοχή του επιλεγμένου αντικειμένου.</p> 
+Choose the **Events** category in the code blocks palette, click the `when flag clicked`{:class="block3events"} block, and drag it into the current sprite panel.
 
 ```blocks3
     when green flag clicked
@@ -87,19 +95,19 @@
 
 \--- task \---
 
-Μετά πήγαινε στις **Όψεις** στην παλέτα εντολών και βρες αυτό το μπλοκ:
+Then go to **Looks** in the code blocks palette and find this block:
 
 ```blocks3
     say [Hello!] for (2) secs
 ```
 
-Κάνε κλικ σε αυτό, και κρατώντας πατημένο το κουμπί του ποντικιού σύρε το μπλοκ στην περιοχή του επιλεγμένου αντικειμένου και άφησε το κουμπί.
+Click on it, hold down the mouse button, and then just drag it into the current sprite panel and let go of the button.
 
 \--- /task \---
 
 \--- task \---
 
-Τώρα που και το δεύτερο μπλοκ βρίσκεται στην περιοχή του επιλεγμένου αντικειμένου, κόλλησε το στο κάτω μέρος του πρώτου μπλοκ κάνοντας κλικ και σέρνοντάς το ξανά για να το μετακινήσεις κάτω από το άλλο μπλοκ μέχρι να κουμπώσουν μαζί, όπως παρακάτω:
+Now that the second block is in the current sprite panel, connect it to the bottom of the first block by clicking and dragging it again to move it below the other block until they snap together, like this:
 
 ![](images/setup3.png)
 
