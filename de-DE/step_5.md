@@ -52,7 +52,7 @@ gehe (10) Schritte
 
 \--- task \---
 
-Klicke nun auf die grüne Flagge, um deinen Code zu testen.
+**Test:** Press the left arrow key and right arrow key multiple times to test your code.
 
 \--- /task \---
 
