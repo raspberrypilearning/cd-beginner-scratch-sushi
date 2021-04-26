@@ -52,7 +52,7 @@
 
 \--- task \---
 
-現在，點擊綠色旗標來測試您的代碼。
+**Test:** Press the left arrow key and right arrow key multiple times to test your code.
 
 \--- /task \---
 
