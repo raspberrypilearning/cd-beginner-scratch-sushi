@@ -52,7 +52,7 @@ Pentru a face rechinului să se miște, conectează aceste blocuri la blocuri **
 
 \--- task \---
 
-Acum apasă pe steagul verde pentru a testa codul.
+**Test:** Press the left arrow key and right arrow key multiple times to test your code.
 
 \--- /task \---
 
