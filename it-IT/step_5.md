@@ -52,7 +52,7 @@ Per far muovere il tuo squalo, collega questi altri blocchi al blocco **Moviment
 
 \--- task \---
 
-Ora fai clic sulla bandiera verde per testare il tuo codice.
+**Test:** Press the left arrow key and right arrow key multiple times to test your code.
 
 \--- /task \---
 
