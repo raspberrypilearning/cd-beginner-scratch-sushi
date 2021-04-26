@@ -1,12 +1,20 @@
 ## はじめに
 
-Scratchを開くと、下のようなウィンドウが表示されます。
+\--- task \---
 
-\--- タスク \---
+Open a [new Scratch project](https://rpf.io/scratch-new){:target="_blank"}. Scratch will open in another browser tab.
 
-次の各領域を探し、それらがどこにあるかを覚えておいてください。
+[[[working-offline]]]
 
 \--- /タスク \---
+
+Once you open Scratch, you’ll see a window like the one below.
+
+\--- task \---
+
+Look for each of the following areas and remember where they are.
+
+\--- /task \---
 
 ### ステージ
 
@@ -16,7 +24,7 @@ Scratchを開くと、下のようなウィンドウが表示されます。
 
 ## タイトル：ステージとは
 
-スクラッチプログラムが実行される場所です。 次のものがあります。
+This is where your Scratch programs run. It has:
 
 * 1つ以上の背景 （画面の背景の画像）
 
@@ -32,9 +40,9 @@ Scratchを開くと、下のようなウィンドウが表示されます。
 
 ## タイトル：スプライトとは
 
-ステージに追加できるアイテムはすべてスプライトです 。
+Any item you can add on the Stage is a **sprite**.
 
-スプライトには以下が含まれます。
+A sprite includes:
 
 * ステージ上の 画像
 * いくつかの特別なコスチューム
@@ -51,9 +59,9 @@ Scratchを開くと、下のようなウィンドウが表示されます。
 
 ## タイトル：コードブロック
 
-Scratchのコードは、プログラムを作成するために接続するブロックの形で提供されます。 コードブロックパレットからブロックを選択し、それらを現在のスプライトパネルにドラッグし、それらを接続します。
+Code in Scratch comes in the form of blocks that you connect to make programs. You choose blocks from the **code blocks palette**, drag them into the **current sprite panel**, and then connect them to each other.
 
-ブロックには10のカテゴリがあります。 これらは色分けされており、コードブロックパレットの上部にあるリスト内のアイテムをクリックして選択できます。 。
+There are ten categories of blocks. They are colour-coded, and you can choose between them by clicking on the items in the list at the top of the **code blocks palette**.
 
 \--- /折りたたむ \---
 
@@ -65,17 +73,17 @@ Scratchのコードは、プログラムを作成するために接続するブ�
 
 ## タイトル：現在のスプライトとは何ですか？
 
-現在のスプライトは、スプライトリストで選択されているものです。
+The **current sprite** is the one that's selected in the **sprite list**.
 
-現在のスプライトパネルには、あなたが選択したスプライトのコード、コスチューム、そして音を見ることができる場所です。
+The **current sprite panel** is where you can see the code, costumes, and sounds for the selected sprite.
 
-\--- /折りたたむ \---
+\--- /collapse \---
 
-コーディングを始めましょう！
+Time to get coding!
 
-\--- タスク \---
+\--- task \---
 
-スプライトリストで、Scratch Catをクリックします。 猫は現在のスプライトです。
+In the sprite list, click on the Scratch Cat. The cat is now the current sprite.
 
 Choose the **Events** category in the code blocks palette, click the `when flag clicked`{:class="block3events"} block, and drag it into the current sprite panel.
 
