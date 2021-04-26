@@ -52,7 +52,7 @@
 
 \--- task \---
 
-आपला कोड तपासण्यासाठी आता हिरवा झेंडा क्लिक करा.
+**Test:** Press the left arrow key and right arrow key multiple times to test your code.
 
 \--- /task \---
 
