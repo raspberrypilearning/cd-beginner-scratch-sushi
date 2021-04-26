@@ -52,7 +52,7 @@
 
 \--- task \---
 
-单击绿色小旗标志来测试您的代码。
+**Test:** Press the left arrow key and right arrow key multiple times to test your code.
 
 \--- /task \---
 
