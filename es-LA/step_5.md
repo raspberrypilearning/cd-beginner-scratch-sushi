@@ -52,7 +52,7 @@ Para hacer que tu tiburón se mueva, conecta estos bloques a bloques de **Movimi
 
 \--- task \---
 
-Ahora haz clic en la bandera verde para probar tu código.
+**Test:** Press the left arrow key and right arrow key multiple times to test your code.
 
 \--- /task \---
 
