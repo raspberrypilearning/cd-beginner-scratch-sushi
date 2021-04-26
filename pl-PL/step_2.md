@@ -1,6 +1,14 @@
 ## Przygotowanie do pracy
 
-Po uruchomieniu Scratch zobaczysz okno takie jak to poniżej.
+\--- task \---
+
+Open a [new Scratch project](https://rpf.io/scratch-new){:target="_blank"}. Scratch will open in another browser tab.
+
+[[[working-offline]]]
+
+\--- /task \---
+
+Once you open Scratch, you’ll see a window like the one below.
 
 \--- task \---
 
