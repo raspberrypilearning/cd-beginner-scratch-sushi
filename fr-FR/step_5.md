@@ -52,7 +52,7 @@ Pour que ton requin bouge, connecte ces blocs au blocs **Mouvement** comme ceci 
 
 \--- task \---
 
-Maintenant, clique sur les flèches haut et bas pour tester ton code.
+**Test:** Press the left arrow key and right arrow key multiple times to test your code.
 
 \--- /task \---
 
