@@ -52,7 +52,7 @@
 
 \--- task \---
 
-الآن انقر على العلم الأخضر لاختبار التعليمات البرمجية الخاصة بك.
+**Test:** Press the left arrow key and right arrow key multiple times to test your code.
 
 \--- /task \---
 
