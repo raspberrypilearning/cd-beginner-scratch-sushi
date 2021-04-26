@@ -1,22 +1,30 @@
 ## 调整设置
 
-打开Scratch后，您会看到一个类似于下面的窗口。
+\--- task \---
+
+Open a [new Scratch project](https://rpf.io/scratch-new){:target="_blank"}. Scratch will open in another browser tab.
+
+[[[working-offline]]]
+
+\--- /task \---
+
+Once you open Scratch, you’ll see a window like the one below.
 
 \--- task \---
 
-查看以下每个区域，并记住它们的位置。
+Look for each of the following areas and remember where they are.
 
 \--- /task \---
 
 ### 舞台
 
-![突出显示舞台的Scratch界面](images/hlStage.png)
+![Scratch window with the stage highlighted](images/hlStage.png)
 
 ## \--- collapse \---
 
 ## title: 舞台是什么？
 
-舞台是您的Scratch程序运行的地方。 包括：
+This is where your Scratch programs run. It has:
 
 * 一个或多个**背景** \(屏幕背景上的图像\)
 
@@ -26,15 +34,15 @@
 
 ### 角色列表
 
-![突出显示角色列表的Scratch界面](images/hlSpriteList.png)
+![Scratch window with the sprite list highlighted](images/hlSpriteList.png)
 
 ## \--- collapse \---
 
 ## title: 什么是角色？
 
-您可以在舞台上添加的任何事物都是**角色** 。
+Any item you can add on the Stage is a **sprite**.
 
-一个角色包括：
+A sprite includes:
 
 * 在舞台上的**图像**
 * 任何角色额外的 **造型** \(外观\)
@@ -45,39 +53,39 @@
 
 ### 代码块面板
 
-![突出显示代码块面板的Scratch界面](images/hlBlocksPalette.png)
+![Scratch window with the blocks pallet highlighted](images/hlBlocksPalette.png)
 
 ## \--- collapse \---
 
 ## title: 代码块
 
-Scratch中代码的形式是连接为程序的积木块。 您可以从**代码块面板** 选择积木，将它们拖到**当前角色面板**中 ，然后将它们彼此连接起来。
+Code in Scratch comes in the form of blocks that you connect to make programs. You choose blocks from the **code blocks palette**, drag them into the **current sprite panel**, and then connect them to each other.
 
-共有十种类别的代码块。 它们采用了颜色编码，您可以通过单击**代码块面板**顶部列表中的单项在它们之间进行选择。
+There are ten categories of blocks. They are colour-coded, and you can choose between them by clicking on the items in the list at the top of the **code blocks palette**.
 
 \--- /collapse \---
 
 ### 当前角色面板
 
-![突出显示当前角色面板的Scratch界面](images/hlCurrentSpritePanel.png)
+![Scratch window with the current sprite panel highlighted](images/hlCurrentSpritePanel.png)
 
 ## \--- collapse \---
 
 ## title: 当前角色是什么？
 
-**当前角色**即是从**角色列表**中选择的那个 。
+The **current sprite** is the one that's selected in the **sprite list**.
 
-在**当前角色面板**您可以看到所选角色的代码、造型和声音的地方。
+The **current sprite panel** is where you can see the code, costumes, and sounds for the selected sprite.
 
 \--- /collapse \---
 
-该编码了！
+Time to get coding!
 
 \--- task \---
 
-在角色列表中，点击Scratch Cat。 猫即是当前角色。
+In the sprite list, click on the Scratch Cat. The cat is now the current sprite.
 
-在代码块面板中选择**事件**类别，点击`当旗帜被点击`{:class="block3events"}模块并将其拖动到当前角色面板中。
+Choose the **Events** category in the code blocks palette, click the `when flag clicked`{:class="block3events"} block, and drag it into the current sprite panel.
 
 ```blocks3
     when green flag clicked
@@ -87,19 +95,19 @@ Scratch中代码的形式是连接为程序的积木块。 您可以从**代码�
 
 \--- task \---
 
-然后转到**外观**代码块面板中找到以下块：
+Then go to **Looks** in the code blocks palette and find this block:
 
 ```blocks3
     say [Hello!] for (2) secs
 ```
 
-点击它，按住鼠标按钮，然后将其拖动到当前角色面板后松开鼠标。
+Click on it, hold down the mouse button, and then just drag it into the current sprite panel and let go of the button.
 
 \--- /task \---
 
 \--- task \---
 
-第二个代码块现在也被添加到当前角色面板上了，我们再点击并拖动它，将其移动到第一个代码块底部，让他们连接到一起。 像这样：
+Now that the second block is in the current sprite panel, connect it to the bottom of the first block by clicking and dragging it again to move it below the other block until they snap together, like this:
 
 ![](images/setup3.png)
 
@@ -107,6 +115,6 @@ Scratch中代码的形式是连接为程序的积木块。 您可以从**代码�
 
 \--- task \---
 
-现在点击 **绿色小旗** 开始你的程序并观看发生了什么！
+Now click the **Green Flag** to start your program and watch what happens!
 
 \--- /task \---
