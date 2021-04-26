@@ -52,7 +52,7 @@
 
 \--- task \---
 
-Τώρα κάνε κλικ στην πράσινη σημαία για να ελέγξεις τον κώδικά σου.
+**Test:** Press the left arrow key and right arrow key multiple times to test your code.
 
 \--- /task \---
 
