@@ -12,7 +12,7 @@
 
 ![スプライトのサイズを調整](images/sprites2.png)
 
-Change the number in the size control to make the sprite bigger or smaller.
+サイズコントロールの数値を変更して、スプライトを大きくしたり小さくしたりします。
 
 \--- /タスク \---
 
@@ -30,7 +30,7 @@ Change the number in the size control to make the sprite bigger or smaller.
 
 \--- task \---
 
-Grab a couple of copies of the `point in direction`{:class="block3motion"} block from the **Motion** list and connect them to your shark's code, like this:
+`○度に向ける`{:class="block3motion"}ブロックのコピーを**動き**リストからいくつか取って、次のようにサメのコードに接続します。
 
 ```blocks3
     [左矢印]キーを押したとき
@@ -48,7 +48,7 @@ Grab a couple of copies of the `point in direction`{:class="block3motion"} block
 
 \--- task \---
 
-Change the number of steps in the `move`{:class="block3motion"} blocks from `-10` to `10`.
+`うごき`{:class="block3motion"}ブロックのステップ数を`-10`から`10`に変更します。
 
 方向ブロックにポイントを追加した後、サメを今すぐ動かしてみると、少し奇妙なことが起こっていることに気付くかもしれません。 サメは完全に右に曲がっていないかもしれません！
 
@@ -68,7 +68,7 @@ Change the number of steps in the `move`{:class="block3motion"} blocks from `-10
 
 \--- task \---
 
-Look in the **Motion** category for the block `set rotation style`{:class="block3motion"}.
+**うごき**カテゴリから`回転方法を○にする`ブロック見てください。
 
 ブロックを以前のサメのコードに追加し、次のように回転方法を`左右のみ`に限定します。
 
