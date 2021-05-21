@@ -1,35 +1,35 @@
 \--- no-print \---
 
-これはプロジェクトの **Scratch 3** バージョンです。 [Scratch 2バージョンのプロジェクト](https://projects.raspberrypi.org/en/projects/cd-beginner-scratch-sushi-scratch2)もあります。
+これはプロジェクトの **Scratch 3** バージョンです。 There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/cd-beginner-scratch-sushi-scratch2).
 
 \--- /no-print \---
 
-## はじめに
+## Introduction
 
-これらの寿司カードは、Scratchでコンピュータープログラムを作成する方法を学習するのに役立ちます。
+These Sushi Cards are going to help you learn to create computer programs in Scratch!
 
-### 作るもの
+### What you will make
 
-サメを動かして魚を捕まえるゲームを作ります。
+You will make a game where you move a shark around to try and catch fish.
 
-完成したゲームの外観は次のようになります。
+Here's an example of how your finished game might look:
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/205355052/?autostart=false" frameborder="0"></iframe>
 </div>
 
-緑色の旗を押すとゲームが始まります。 矢印キーを使用してサメを動かし、魚を捕まえます。
+Press the green flag to start the game. Use the arrow keys to move the shark around and catch the fish.
 
 ## \--- collapse \---
 
-## title: あなたが学ぶこと
+## title: What you will learn
 
-+ コードブロックの追加と削除
-+ 基本動作：一歩づつステップで動き、少しづつ角度を変える
-+ キーボードコントロールを使う
-+ スプライトを配置するために (x、y) 座標を使う
-+ 衣装と表示/非表示コマンドを使用して、ステージとスプライトの外観を変更する
-+ 画面に複数のスプライトを配置する
++ Adding and deleting code blocks
++ Basic motion: move in steps, and turn by degrees
++ Using keyboard controls
++ Using (x, y) coordinates to position sprites
++ Changing the look of the Stage and of sprites with costumes and show/hide commands
++ Having multiple sprites on screen
 + `永遠に`{：class = "block3control"}の繰り返しを使う
 + スプライトが触れているときを検出する
 
