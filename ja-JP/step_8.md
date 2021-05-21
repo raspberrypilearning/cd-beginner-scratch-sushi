@@ -6,7 +6,7 @@
 
 \--- task \---
 
-Add the `if...then`{:class="block3control"} **Control** block inside the `forever`{:class="block3control"} loop of the fish sprite, below the `if on edge bounce`{:class="block3motion"} block.
+`もし...なら`{:class="block3control"}**制御**ブロックを、魚のスプライトの`ずっと`{:class="block3control"}ループ内の、`もし端に着いたら、跳ね返る`{:class="block3motion"}ブロックの下に追加します。
 
 「調べる」カテゴリーの「○○に触れた」ブロックを「もし　なら」ブロックの上部のスペースにドラッグし、小さな三角形をクリックしてサメのスプライトの名前を選択します。 変更していない場合は、「Sprite1」になります。
 
@@ -46,7 +46,7 @@ Add the `if...then`{:class="block3control"} **Control** block inside the `foreve
 
 \--- task \---
 
-Find the `hide`{:class="block3looks"} block in the **Looks** list, and put it inside the `if...then`{:class="block3control"} block, like so:
+`隠す`{:class="block3looks"}ブロックを**見た目**リストから見つけ、次のように`もし...なら`{:class="block3control"}ブロック内に配置します。
 
 ```blocks3
     もし　Sprite1に触れた　なら
@@ -60,7 +60,7 @@ Find the `hide`{:class="block3looks"} block in the **Looks** list, and put it in
 
 \--- task \---
 
-Put the `show`{:class="block3looks"} block from **Looks** in at the very start of the fish code, so you can reset the game.
+魚コードの最初の部分に**見た目**の`表示する`{:class="block3looks"}ブロックを配置すれば、ゲームをリセットをすることができます。
 
 ```blocks3
     緑の旗が押されたとき
