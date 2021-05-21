@@ -4,7 +4,7 @@
 
 \--- task \---
 
-Start by deleting all code that you have for the shark.
+サメ用のすべてのコードを削除することから始めます。
 
 \--- /task \---
 
@@ -12,7 +12,7 @@ Start by deleting all code that you have for the shark.
 
 \--- task \---
 
-This time, look for this block and drag it into the current sprite panel:
+今回は、このブロックを探して、現在のスプライトパネルにドラッグします。
 
 ```blocks3
     スペースキーが押されたとき
@@ -26,7 +26,7 @@ This time, look for this block and drag it into the current sprite panel:
 
 \--- task \---
 
-To make your shark move, connect these blocks to **Motion** blocks like this:
+サメを動かすには、次のようにこれらのブロックを**うごき**ブロックに接続します。
 
 ```blocks3
     [左矢印]キーを押したとき
@@ -52,7 +52,7 @@ To make your shark move, connect these blocks to **Motion** blocks like this:
 
 \--- task \---
 
-**Test:** Press the left arrow key and right arrow key multiple times to test your code.
+**テスト：** 左矢印キーと右矢印キーを複数回押して、コードをテストします。
 
 \--- /task \---
 
@@ -60,7 +60,7 @@ To make your shark move, connect these blocks to **Motion** blocks like this:
 
 \--- task \---
 
-Grab two `change y by`{:class="block3motion"} blocks, and update your code like this:
+`y座標を○○ずつ変える`{:class="block3motion"}ブロックを2つ取って、次のようにコードを更新します：
 
 ```blocks3
     [上矢印]キーを押したとき
@@ -106,7 +106,7 @@ Grab two `change y by`{:class="block3motion"} blocks, and update your code like 
 
 \--- task \---
 
-Drag a `when green flag clicked`{:class="block3events"} **Event** block onto the current sprite panel.
+`緑の旗が押されたとき`{:class="block3events"}という**イベント**ブロックを一つ現在のスプライトパネルにドラッグします。
 
 ```blocks3
     緑の旗が押されたとき
@@ -125,6 +125,6 @@ Drag a `when green flag clicked`{:class="block3events"} **Event** block onto the
 
 \--- task \---
 
-Now click the green flag: you should see the shark return to the centre of the stage!
+緑色の旗をクリックします。サメがステージの中央に戻るのが見えるはずです！
 
 \--- /task \---
