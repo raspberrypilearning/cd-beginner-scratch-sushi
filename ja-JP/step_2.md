@@ -95,19 +95,19 @@ Scratchのコード（プログラム）は、ブロックを組み合わせる�
 
 \--- task \---
 
-Then go to **Looks** in the code blocks palette and find this block:
+次に、コードブロックパレットの中にある **みため**に移動し、次のブロックを見つけます。
 
 ```blocks3
     （2）秒間[こんにちは！]と言ってください。
 ```
 
-Click on it, hold down the mouse button, and then just drag it into the current sprite panel and let go of the button.
+それをクリックし、マウスボタンを押したまま、現在のスプライトパネルにドラッグし、ボタンをはなします。
 
 \--- /task \---
 
 \--- task \---
 
-Now that the second block is in the current sprite panel, connect it to the bottom of the first block by clicking and dragging it again to move it below the other block until they snap together, like this:
+2つ目のブロックが現在のスプライトパネルにあるので、 最初のブロックの下部に接続するには、もう一度それをクリックして、最初ブロックの下にドラッグして移動します。 こんな感じです。
 
 ![](images/setup3.png)
 
@@ -115,6 +115,6 @@ Now that the second block is in the current sprite panel, connect it to the bott
 
 \--- task \---
 
-Now click the **Green Flag** to start your program and watch what happens!
+次に、 **Green Flag** をクリックしてプログラムを開始し、何が起こるか見てみましょう！
 
 \--- /task \---
