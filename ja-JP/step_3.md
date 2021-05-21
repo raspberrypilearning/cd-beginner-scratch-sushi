@@ -87,13 +87,13 @@
 
 \--- /task \---
 
-You should see the cat walking in a straight line...not exactly what you want, right?
+猫が直線を歩いているのが見えるはずです...これは違いますよね?
 
-Note: If you click the flag too many times and the cat walks away, you can drag it back!
+注意：フラグを何度もクリックしすぎて猫が離れた場合は、ドラッグして戻せますよ！
 
 \--- task \---
 
-Snap the turn block to the end to make the cat sprite walk in a circle. It’s in the **Motion** list too.
+曲がるブロックを端っこにくっつけて、猫のスプライトが円を歩くようにします。 ブロックは**動き**のリストから見つかりますよ。
 
 ```blocks3
     緑色の旗がクリックされたとき
@@ -107,7 +107,7 @@ Snap the turn block to the end to make the cat sprite walk in a circle. It’s i
 
 ## title：回転はどのように働くのか？
 
-This block makes the sprite turn 15 degrees of the full 360 degrees that make up a circle. You can change that number, and the number of steps, by clicking on the number and typing in a new value.
+このブロックは、スプライトを円を構成する全360度の15度分だけ回転させます。 度数とステップ数を変更するには、その数字をクリックして新しい値を入力します。
 
 ![](images/code9.png)
 
@@ -115,6 +115,6 @@ This block makes the sprite turn 15 degrees of the full 360 degrees that make up
 
 \--- task \---
 
-Now save your work!
+さあ、今までの作業を保存しましょう！
 
 \--- /task \---
