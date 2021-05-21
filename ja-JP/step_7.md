@@ -4,7 +4,7 @@
 
 \--- task \---
 
-Select your fish sprite.
+魚のスプライトを選択します。
 
 次のように、**イベント**の`緑の旗が押されたとき`{:class="block3events"}ブロック、**制御**の`ずっと`{:class="block3events"}ブロック、および**動き**の`10歩動かす`{:class="block3events"}ブロックをスプライトパネルにドラッグします。
 
@@ -29,7 +29,7 @@ Select your fish sprite.
 
 \--- task \---
 
-Now click the green flag and watch what happens!
+緑の旗をクリックして、何が起こるか見てみましょう！
 
 \--- /task \---
 
@@ -43,7 +43,7 @@ Now click the green flag and watch what happens!
 
 \--- task \---
 
-Add the `wait`{:class="block3control"} block into your code inside the `forever`{:class="block3control"} block, and change the number to `0.5`, like this:
+`○秒待つ`{:class="block3control"}ブロックを`ずっと`ブロック内のコードに追加し、次のように数値を`0.5`に変更します。
 
 ```blocks3
     緑の旗が押されたとき
@@ -69,7 +69,7 @@ Add the `wait`{:class="block3control"} block into your code inside the `forever`
 
 \--- task \---
 
-Find the `if on edge bounce`{:class="block3motion"} block, and add it in after the `wait`{:class="block3control"} block.
+`もし端に着いたら、跳ね返る`{:class="block3motion"}ブロックを見つけて、`○秒待つ`{:class="block3control"}ブロックの後に追加します。
 
 \--- /task \---
 
@@ -85,7 +85,7 @@ Find the `if on edge bounce`{:class="block3motion"} block, and add it in after t
 
 \--- task \---
 
-Update your code to set the rotation style of the fish to `left-right`{:class="block3motion"} at the beginning of the sprite's script:
+スプライトのスクリプトの先頭にある魚の回転方法を`左右`{:class="block3motion"}に設定するようにコードを更新します。
 
 ```blocks3
     緑のフラグが押されたとき
@@ -105,7 +105,7 @@ Update your code to set the rotation style of the fish to `left-right`{:class="b
 
 \--- task \---
 
-Add a turn into the fish's swimming instructions, and click the green flag.
+魚の泳ぎ方に「○度回す」を追加し、緑色の旗をクリックします。
 
 ```blocks3
     緑の旗が押されたとき
@@ -139,7 +139,7 @@ Add a turn into the fish's swimming instructions, and click the green flag.
 
 \--- task \---
 
-Find the `pick random`{:class="block3operators"} **operator** block, and plug it into the `turn degrees`{:class="block3motion"} **Motion** block by clicking it and dragging it into the field where you set the number of degrees.
+`○から○までの乱数`{:class="block3operators"}**えんざん**ブロックを見つけて、それをクリックし 度数を設定するフィールドまでドラッグするように、`○度回す`{:class="block3motion"}**動き**ブロックに差し込みます。
 
 ```blocks3
     緑の旗が押されたとき
@@ -158,7 +158,7 @@ Find the `pick random`{:class="block3operators"} **operator** block, and plug it
 
 \--- task \---
 
-Click the green flag to run the code!
+緑色の旗をクリックしてコードを実行しましょう！
 
 \--- /task \---
 
