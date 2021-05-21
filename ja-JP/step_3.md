@@ -18,7 +18,7 @@
 
 ![](images/code2b.png)
 
-You can click on the block you want, and then just drag it into the current sprite panel and let go. パネルに配置したら、移動して他のブロックに接続できます。
+目的のブロックをクリックして、現在のスプライトパネルにドラッグして放します。 パネルに配置したら、移動して他のブロックに接続できます。
 
 \--- /collapse \---
 
@@ -26,7 +26,7 @@ You can click on the block you want, and then just drag it into the current spri
 
 \--- task \---
 
-Try double-clicking on some of the blocks to see what they do.
+一部のブロックをダブルクリックしてみて、それらの機能を確認してください。
 
 \--- /task \---
 
@@ -34,15 +34,15 @@ Try double-clicking on some of the blocks to see what they do.
 
 ## title：コードの実行
 
-Usually, you want your code to run automatically whenever something specific happens. This is why many of your programs will start with a block from the **Events** category, most often this one:
+通常、何か特定の事象が発生したときにコードが自動的に実行されるようにしたいです。 これが、多くのプログラムが**イベント**カテゴリーのブロックから始まる理由です。最も多いのはこれです。
 
 ```blocks3
     緑色の旗がクリックされたとき
 ```
 
-The code blocks connected to this block will run after the **green flag** is clicked.
+このブロックに接続されたコードブロックは、**緑色のフラグ**がクリックされた後に実行されます。
 
-Code blocks run from top to bottom, so the order in which you snap your blocks together matters. In this example, the sprite will `say`{:class="block3looks"} `Hello!` before it will `play`{:class="block3sound"} the `meow` sound.
+コードブロックは上から下へと動くので、ブロックをくっつける順番が重要です。 この例では、スプライトは`ニャー`の音を`再生`{:class="block3sound"}する前に、`こんにちは！`を`言います`{:class="block3looks"}。
 
 ```blocks3
     緑の旗がクリックされたとき
@@ -52,25 +52,25 @@ Code blocks run from top to bottom, so the order in which you snap your blocks t
 
 \--- /collapse \---
 
-Removing or deleting code blocks you don’t want in your program is easy! Just drag them back into the code blocks palette.
+プログラムの不要なコードブロックを外すまたは削除するのは簡単です！ それらをコードブロックパレットに戻すだけです。
 
-**Be careful:** dragging them into the code blocks pallette will delete all the blocks connected to the block you drag, so make sure to separate code blocks you want to keep from those you want to remove. If you delete some code blocks by accident and want to get them back, right-click and then click on the **undo** option to get everything back.
+**注意:**それらをコードブロックパレットにドラッグすると、ドラッグしたブロックに接続されているすべてのブロックは削除されます。そのため、保持したいコードブロックと削除したいブロックを必ず別々にしてください。 誤って削除したコードブロックを取り戻したい場合は、 右クリックし**元に戻す**というオプションをクリックしてすべてを元に戻します。
 
 ![](images/code6.png)
 
 \--- task \---
 
-Try adding, deleting, and undeleting some code blocks!
+いくつかのコードブロックを追加、削除、削除解除をしてみてください！
 
 \--- /task \---
 
 ### すべてを一緒に入れて
 
-Now you know how to move code around and make things happen, it's time for you to create a program to make the Scratch Cat walk in a circle!
+これでコードを移動して物事を実現する方法がわかったので、そろそろスクラッチキャットを丸く歩かせるプログラムを作成しましょう！
 
 \--- task \---
 
-Make sure you have the cat sprite selected in the sprite list, and then drag the following blocks into the sprite panel and connect them. You’ll find them in the **Events** and **Motion** lists.
+スプライトリストにある猫のスプライトが選択されていることを確認し、次のブロックをスプライトパネルにドラッグして接続します。 ブロックは**イベント**と**動き**のリストから見つかりますよ。
 
 ```blocks3
     緑色の旗がクリックされたとき
@@ -81,7 +81,7 @@ Make sure you have the cat sprite selected in the sprite list, and then drag the
 
 \--- task \---
 
-Now, click on the green flag above the Stage.
+次に、ステージの上にある緑の旗をクリックします。
 
 ![](images/code7.png)
 
