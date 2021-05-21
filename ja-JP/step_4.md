@@ -4,7 +4,7 @@ Scratchには、プロジェクトの見栄えを良くするために使用で�
 
 \--- task \---
 
-Select the Stage.
+ステージを選択します。
 
 ![ステージの選択](images/looksSelectStage.png)
 
@@ -26,7 +26,7 @@ Select the Stage.
 
 \--- task \---
 
-First, select the cat sprite and click on the **Costumes** tab.
+まず、猫のスプライトを選択し、**コスチューム**タブをクリックします。
 
 ![](images/cool2.png)
 
