@@ -2,29 +2,29 @@
 
 \--- task \---
 
-Open a [new Scratch project](https://rpf.io/scratch-new){:target="_blank"}. Scratch will open in another browser tab.
+[新しいScratchプロジェクト](https://rpf.io/scratch-new){：target = "_blank"}を開きます。 スクラッチはブラウザの別のタブで開きます。
 
 [[[working-offline]]]
 
 \--- /タスク \---
 
-Once you open Scratch, you’ll see a window like the one below.
+Scratchを開くと、次のようなウィンドウが表示されます。
 
 \--- task \---
 
-Look for each of the following areas and remember where they are.
+次の各領域を確認し、それらがどこにあるかを覚えておいてください。
 
 \--- /task \---
 
 ### ステージ
 
-![Scratch window with the stage highlighted](images/hlStage.png)
+![ステージが強調表示されたスクラッチウィンドウ](images/hlStage.png)
 
 ## \--- collapse \---
 
 ## タイトル：ステージとは
 
-This is where your Scratch programs run. It has:
+ここは、Scratchプログラムが実行される場所です。 次のものが含まれます。
 
 * 1つ以上の背景 （画面の背景の画像）
 
@@ -34,15 +34,15 @@ This is where your Scratch programs run. It has:
 
 ### スプライトリスト
 
-![Scratch window with the sprite list highlighted](images/hlSpriteList.png)
+![スプライトリストが強調表示されたスクラッチウィンドウ](images/hlSpriteList.png)
 
 ## \--- 折りたたむ \---
 
 ## タイトル：スプライトとは
 
-Any item you can add on the Stage is a **sprite**.
+ステージ上に追加できるアイテムは、 **スプライト**のみです。
 
-A sprite includes:
+スプライトには次のものが含まれます。
 
 * ステージ上の 画像
 * いくつかの特別なコスチューム
@@ -53,39 +53,39 @@ A sprite includes:
 
 ### コードブロックパレット
 
-![Scratch window with the blocks pallet highlighted](images/hlBlocksPalette.png)
+![ブロックパレットが強調表示されたスクラッチウィンドウ](images/hlBlocksPalette.png)
 
 ## \--- 折りたたむ \---
 
 ## タイトル：コードブロック
 
-Code in Scratch comes in the form of blocks that you connect to make programs. You choose blocks from the **code blocks palette**, drag them into the **current sprite panel**, and then connect them to each other.
+Scratchのコード（プログラム）は、ブロックを組み合わせることで作られます。 **コードブロックパレット**からブロックを選択し、 **スプライトパネル**にドラッグし、ブロック同士を接続します。
 
-There are ten categories of blocks. They are colour-coded, and you can choose between them by clicking on the items in the list at the top of the **code blocks palette**.
+ブロックには10のカテゴリがあります。 これらは色分けされており、**コードブロックパレット**の上部にあるリスト内のアイテムをクリックして選択できます。
 
 \--- /折りたたむ \---
 
 ### 現在のスプライトパネル
 
-![Scratch window with the current sprite panel highlighted](images/hlCurrentSpritePanel.png)
+![現在のスプライトパネルが強調表示されたスクラッチウィンドウ](images/hlCurrentSpritePanel.png)
 
 ## \--- 折りたたむ \---
 
 ## タイトル：現在のスプライトとは何ですか？
 
-The **current sprite** is the one that's selected in the **sprite list**.
+**現在のスプライト**とは、**スプライトリスト**から選択されているものです。
 
-The **current sprite panel** is where you can see the code, costumes, and sounds for the selected sprite.
+**現在のスプライトパネル** とは、あなたが選択したスプライトのコード、衣装、そして音を確認できる場所です。
 
 \--- /collapse \---
 
-Time to get coding!
+さあ、コーディングの時間です！
 
 \--- task \---
 
-In the sprite list, click on the Scratch Cat. The cat is now the current sprite.
+スプライトリストで、ScratchCatをクリックします。 猫が現在のスプライトです。
 
-Choose the **Events** category in the code blocks palette, click the `when flag clicked`{:class="block3events"} block, and drag it into the current sprite panel.
+コードブロックパレットの中にある**イベント**カテゴリを選択し、`フラグがクリックされたとき`{:class="block3events"}ブロックをクリックし、現在のスプライトパネルにドラッグします。
 
 ```blocks3
     緑色の旗がクリックされたとき
