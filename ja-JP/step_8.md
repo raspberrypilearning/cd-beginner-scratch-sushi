@@ -75,7 +75,7 @@
 
 \--- task \---
 
-Update the code inside your `if...then`{:class="block3control"} block to look like this:
+`もし...なら` {:class="block3control"}ブロック内のコードを次のように更新します。
 
 ```blocks3
     もし端に着いたら、跳ね返る
