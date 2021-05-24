@@ -2,38 +2,46 @@
 
 Scratch has a library of backgrounds and sprites for you to use to make your project look awesome.
 
-+ Select the Stage.
+--- task ---
+
+Select the Stage.
 
 ![Selecting the stage](images/looksSelectStage.png)
 
-+ Click on **Backdrops**.
+Click on **Backdrops**.
 
 ![The Backdrops tab](images/looksBackdrops.png)
 
-+ Click the **Choose backdrop from library** icon.
+Click the **Choose backdrop from library** icon.
 
 ![The Choose backdrop icon](images/looksChooseBg.png)
  
-+ Then pick your favourite underwater background! 
+Then pick your favourite underwater background! 
 
 ![An underwater scene](images/looksUnderwater.png)
 
+--- /task ---
+
 Great! Of course, now you have a cat underwater, and cats aren't usually big fans of that. But you can fix that, because you can turn the cat into a shark!
 
-+ First, select the cat sprite and click on the **Costumes** tab.
+--- task ---
+
+First, select the cat sprite and click on the **Costumes** tab.
 
 ![](images/cool2.png)
 
-+ Then, click on **Choose costume from Library** 
+Then, click on **Choose costume from Library**
 
 ![](images/cool3.png)
 
-+ Select this shark image and click **OK**. 
+Select this shark image and click **OK**. 
 
 ![The shark costume](images/looksShark.png)
 
-+ Now remove the cat costumes by selecting each of them and clicking on the **x**.
+Now remove the cat costumes by selecting each of them and clicking on the **x**.
 
 ![](images/coolDeleteCostumes.png)
+
+--- /task ---
 
 Now you have a shark – excellent!
