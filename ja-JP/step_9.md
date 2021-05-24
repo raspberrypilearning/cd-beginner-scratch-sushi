@@ -6,7 +6,7 @@
 
 \--- task \---
 
-Go to the **Variables** blocks category and click on **Make a Variable**.
+**変数**ブロックカテゴリに移動し、**変数を作る**をクリックします。
 
 ![](images/catch5.png)
 
@@ -32,7 +32,7 @@ Go to the **Variables** blocks category and click on **Make a Variable**.
 
 \--- task \---
 
-From the **Variables** section, take the `set [my variable v] to [0]`{:class="block3variables"} and `change [my variable v] by [1]`{:class="block3variables"} blocks. ブロック内の小さな矢印をクリックし、リストからスコアを選択して、ブロックをプログラムに追加します。
+**変数**カテゴリから`[my variable]を[0]にする`{:class="block3variables"}と、`[my variable]を[1]ずつ変える`{:class="block3variables"}を取ります。 ブロック内の小さな矢印をクリックし、リストからスコアを選択して、ブロックをプログラムに追加します。
 
 ### サメのコード
 
