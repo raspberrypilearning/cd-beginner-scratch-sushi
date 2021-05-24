@@ -1,3 +1,9 @@
+--- no-print ---
+
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/cd-beginner-scratch-sushi-scratch2).
+
+--- /no-print ---
+
 ## Introduction
 
 These Sushi Cards are going to help you learn to create computer programs in Scratch!
@@ -25,7 +31,7 @@ title: What you will learn
 * Using (x, y) coordinates to position sprites
 * Changing the look of the Stage and of sprites with costumes and show/hide commands
 * Having multiple sprites on screen
-* Using `forever`{:class="blockcontrol"} loops
+* Using `forever`{:class="block3control"} loops
 * Detecting when sprites are touching
 
 --- /collapse ---
@@ -43,3 +49,5 @@ You’re going to need **Scratch**, so do one of the following:
 Once you’re set up, you can move on to the next step!
 
 --- /collapse ---
+
+![Tracking pixel](http://code.org/api/hour/begin_coderdojo_sushi.png)
