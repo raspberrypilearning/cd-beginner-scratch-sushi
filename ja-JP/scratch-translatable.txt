@@ -1,5 +1,5 @@
-Hello!
+こんにちは！
 
-score
+得点
 
-hello world
+世界の皆さんこんにちは！
