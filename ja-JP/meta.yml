@@ -15,7 +15,7 @@ software: scratch
 version: 4.0.0
 last_tested: 2017-01-01
 steps:
-  - title: 前書き
+  - title: はじめに
   - title: セットアップ
   - title: コードブロックの追加と削除
   - title: シーンを設定する
@@ -23,6 +23,6 @@ steps:
   - title: すべてのスプライト
   - title: リモコン魚
   - title: 釣り！
-  - title: スコアを維持する
-  - title: "挑戦：ゲームに勝つ"
+  - title: スコアを保つ
+  - title: "チャレンジ：ゲームに勝つ"
     challenge: true

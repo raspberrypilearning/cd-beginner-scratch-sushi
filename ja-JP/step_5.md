@@ -15,7 +15,7 @@
 今回は、このブロックを探して、現在のスプライトパネルにドラッグします。
 
 ```blocks3
-    スペースキーが押されたとき
+    when [space v] key pressed
 ```
 
 スペースの横にある小さな下矢印（▼）をクリックします 。 選択できるすべてのキーボードキーのリストが表示されます。
@@ -29,21 +29,21 @@
 サメを動かすには、次のようにこれらのブロックを**うごき**ブロックに接続します。
 
 ```blocks3
-    [左矢印]キーを押したとき
-    （-10）歩動かす
+    when [left arrow v] key pressed
+    move (-10) steps
 ```
 
 ```blocks3
-    [右矢印]キーを押したとき
-    （10）歩動かす
+    when [right arrow v] key pressed
+    move (10) steps
 ```
 
 ```blocks3
-    [上矢印]キーが押されたとき
+    when [up arrow v] key pressed
 ```
 
 ```blocks3
-    [下矢印]キーが押されたとき
+    when [down arrow v] key pressed
 ```
 
 --- /task ---
@@ -63,13 +63,13 @@
 `y座標を○○ずつ変える`{:class="block3motion"}ブロックを2つ取って、次のようにコードを更新します：
 
 ```blocks3
-    [上矢印]キーを押したとき
-+  y座標を（10）ずつ変える
+    when [up arrow v] key pressed
++     change y by (10)
 ```
 
 ```blocks3
-    [下矢印]キーを押したとき
-+ y座標を（-10）ずつ変える
+    when [down arrow v] key pressed
++     change y by (-10)
 ```
 
 --- /task ---
@@ -110,14 +110,14 @@ title: x座標とy座標はどのように機能しますか？
 `緑の旗が押されたとき`{:class="block3events"}という**イベント**ブロックを一つ現在のスプライトパネルにドラッグします。
 
 ```blocks3
-    緑の旗が押されたとき
+    when green flag clicked
 ```
 
 次に、「動き」にある「x座標を○、y座標を○にする」ブロックを見つけて、緑の旗イベントブロックに添付します。
 
 ```blocks3
-    緑の旗が押されたとき
-+ x座標：（0）y座標：（0）にする
+    when green flag clicked
++     go to x: (0) y: (0)
 ```
 
 「x座標を○、y座標を○にする」ブロックでx座標とy座標の両方を0に設定します（まだ0でない場合）。

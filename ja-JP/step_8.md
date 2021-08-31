@@ -11,15 +11,15 @@
 「調べる」カテゴリーの「○○に触れた」ブロックを「もし　なら」ブロックの上部のスペースにドラッグし、小さな三角形をクリックしてサメのスプライトの名前を選択します。 変更していない場合は、「Sprite1」になります。
 
 ```blocks3
-    緑の旗が押されたとき
-+回転方法を左右のみにする
-    ずっと
-        （10）歩動かす
-+　　　1から10までの乱数　度回す　
-        （0.5）秒待つ
-        もし端に着いたら、跳ね返る
-+　　　もし　なら
-    終了
+    when green flag clicked
+    set rotation style [left-right v]
+    forever 
+        move (10) steps
+        turn cw (pick random (1) to (10)) degrees
+        wait (0.5) secs
+        if on edge, bounce
++        if <touching [Sprite1 v] ?> then
+    end
 ```
 
 --- /task ---
@@ -34,7 +34,7 @@ title: どのように機能しますか？
 「調べる」カテゴリーのブロックは、スプライトがどこにあるのか、何に触れているのかなどの情報を収集します。 このブロックを使用しています：
 
 ```blocks3
-    Sprite1に触れた
+    <touching [Sprite1 v] ?>
 ```
 
 以前に演算子のところで説明したように、このブロックの先のとがった端から、「もし　なら」ブロックが必要とするTrue / False値を提供することがわかります。
@@ -50,9 +50,9 @@ title: どのように機能しますか？
 `隠す`{:class="block3looks"}ブロックを**見た目**リストから見つけ、次のように`もし...なら`{:class="block3control"}ブロック内に配置します。
 
 ```blocks3
-    もし　Sprite1に触れた　なら
-+　隠す
-終了
+    if <touching [Sprite1 v] ?> then
++        hide
+    end
 ```
 
 --- /task ---
@@ -64,10 +64,10 @@ title: どのように機能しますか？
 魚コードの最初の部分に**見た目**の`表示する`{:class="block3looks"}ブロックを配置すれば、ゲームをリセットをすることができます。
 
 ```blocks3
-    緑の旗が押されたとき
-+　表示する
-　回転方法を[左右のみ]にする
-    ずっと
+    when green flag clicked
++    show
+    set rotation style [left-right v]
+    forever
 ```
 
 --- /task ---
@@ -76,23 +76,23 @@ title: どのように機能しますか？
 
 --- task ---
 
-`もし...なら` {:class="block3control"}ブロック内のコードを次のように更新します。
+`もし...なら`{:class="block3control"}ブロック内のコードを次のように更新します。
 
 ```blocks3
-    もし端に着いたら、跳ね返る
-　もし　なら
-        隠す
-+　　（1）秒待つ
-+ 1秒でx座標を：（（-240）から（240）までの乱数に）y座標を：（（-180）から（180までの乱数に） ））に変える
-+　  表示する
-    終了
+    if on edge, bounce
+    if <touching [Sprite1 v] ?> then
+        hide
++        wait (1) secs
++        go to x: (pick random (-240) to (240)) y: (pick random (-180) to (180))
++        show
+    end
 ```
 
 --- /task ---
 
 --- collapse ---
 ---
-title：ここれはどのように作動しますか？
+title: ここれはどのように作動しますか？
 ---
 
 ここでは賢く振る舞いましょう：魚が隠されているとき、それは止まり、動き、そして再び現れます。
