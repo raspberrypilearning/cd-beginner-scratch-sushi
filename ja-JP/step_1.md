@@ -15,7 +15,7 @@
 完成したゲームの外観は次のようになります。
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/205355052/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/565260235/?autostart=false" frameborder="0"></iframe>
 </div>
 
 緑色の旗を押すとゲームが始まります。 矢印キーを使用してサメを動かし、魚を捕まえます。
