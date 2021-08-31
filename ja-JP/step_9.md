@@ -32,7 +32,7 @@
 
 \--- task \---
 
-**変数**カテゴリから`[my variable]を[0]にする`{:class="block3variables"}と、`[my variable]を[1]ずつ変える`{:class="block3variables"}を取ります。 ブロック内の小さな矢印をクリックし、リストからスコアを選択して、ブロックをプログラムに追加します。
+**変数**カテゴリから`[my variable]を[0]にする`{:class="block3variables"}と、`[my variable]を[1]ずつ変える`{:class="block3variables"}を取ります。 ブロック内の小さな矢印をクリックし、リストから`スコア`を選択して、ブロックをプログラムに追加します。
 
 ### サメのコード
 
