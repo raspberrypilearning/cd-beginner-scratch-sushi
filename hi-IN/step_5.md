@@ -52,7 +52,7 @@
 
 \--- task \---
 
-**Test:** Press the left arrow key and right arrow key multiple times to test your code.
+**परीक्षण:** अपने कोड का परीक्षण करने के लिए बायां तीर कुंजी और दायां तीर कुंजी कई बार दबाएं।
 
 \--- /task \---
 
