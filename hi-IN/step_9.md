@@ -16,7 +16,7 @@
 
 अपना नया वेरिएबल देखें!
 
-![स्कोर वेरिएबल को स्टेज पर प्रदर्शित किया जाता है](images/scoreVariableStage.png)
+![The Score variable is displayed on the stage](images/scoreVariableStage.png)
 
 \--- /task \---
 
