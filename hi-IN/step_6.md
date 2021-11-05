@@ -6,13 +6,13 @@
 
 **New sprite** बटन पर क्लिक करें, और फिर स्क्रीन पर से एक मछली को चुनें।
 
-![नया स्प्राइट बटन](images/spritesNewFromLibrary.png)
+![The New sprite button](images/spritesNewFromLibrary.png)
 
 यदि आपकी मछली आपके शार्क की तुलना में थोड़ी बड़ी है, तो आप दोनों को सही आकार में बनाने के लिए आकार नियंत्रण का उपयोग कर सकते हैं!
 
-![स्प्राइट आकार का नियंत्रण](images/sprites2.png)
+![Sprite size control](images/sprites2.png)
 
-Change the number in the size control to make the sprite bigger or smaller.
+स्प्राइट को बड़ा या छोटा करने के लिए आकार नियंत्रण में संख्या बदलें।
 
 \--- /task \---
 
@@ -52,7 +52,7 @@ Change the number in the size control to make the sprite bigger or smaller.
 
 यदि आपने `point in direction`{:class="block3motion"} ब्लॉक को जोड़ने के बाद शार्क को अब चारों ओर ले जाने का प्रयास किया है, तोह आपको कुछ अजीब सा होते हुए दिखाई देगा। शार्क काफी सही से मुड नहीं रही है!
 
-![उल्टा शार्क](images/spritesUpsideDown.png)
+![Upside down shark](images/spritesUpsideDown.png)
 
 \--- /task \---
 
