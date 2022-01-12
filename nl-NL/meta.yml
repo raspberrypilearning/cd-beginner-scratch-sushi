@@ -15,14 +15,16 @@ software: scratch
 version: 3
 last_tested: 2017-01-01
 steps:
-  - title: Inleiding
-  - title: Beginnen
-  - title: Toevoegen en verwijderen van codeblokken
-  - title: Het instellen van de scène
-  - title: Dingen verplaatsen
-  - title: Alle sprites
-  - title: Vis op afstand bestuurbaar
-  - title: Vissen!
-  - title: Score bijhouden
-  - title: "Uitdaging: het spel winnen"
-    challenge: true
+- title: Inleiding
+  completion: engaged
+- title: Beginnen
+- title: Toevoegen en verwijderen van codeblokken
+- title: Het instellen van de scène
+- title: Dingen verplaatsen
+- title: Alle sprites
+- title: Vis op afstand bestuurbaar
+- title: Vissen!
+  completion: internal
+- title: Score bijhouden
+- title: 'Uitdaging: het spel winnen'
+  challenge: true

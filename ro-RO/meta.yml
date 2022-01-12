@@ -2,7 +2,7 @@
 title: Sushi în ape adânci
 hero_image: images/banner.png
 description: Creează un joc distractiv cu primul tău program Scratch!
-theme: orange #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
+theme: orange
 duration: 2
 listed: true
 ingredient: false
@@ -15,14 +15,16 @@ software: scratch
 version: 4.0.0
 last_tested: 2017-01-01
 steps:
-  - title: Introducere
-  - title: Pregătire
-  - title: Adăugarea și ștergerea blocurilor de cod
-  - title: Pregătirea scenei
-  - title: Mișcarea elementelor
-  - title: Toate personajele
-  - title: Peștele care se mișcă singur
-  - title: La pescuit!
-  - title: Memorarea scorului
-  - title: "Provocare: câștigarea jocului"
-    challenge: true
+- title: Introducere
+  completion: engaged
+- title: Pregătire
+- title: Adăugarea și ștergerea blocurilor de cod
+- title: Pregătirea scenei
+- title: Mișcarea elementelor
+- title: Toate personajele
+- title: Peștele care se mișcă singur
+- title: La pescuit!
+  completion: internal
+- title: Memorarea scorului
+- title: 'Provocare: câștigarea jocului'
+  challenge: true

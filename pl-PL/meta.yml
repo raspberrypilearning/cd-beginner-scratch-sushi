@@ -2,7 +2,7 @@
 title: Sushi z głębin morskich
 hero_image: images/banner.png
 description: Zrób fajną grę w swoim pierwszym programie Scratch!
-theme: orange #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
+theme: orange
 duration: 2
 listed: true
 ingredient: false
@@ -15,14 +15,16 @@ software: scratch
 version: 4.0.0
 last_tested: 2017-01-01
 steps:
-  - title: Wprowadzenie
-  - title: Przygotowanie do pracy
-  - title: Dodawanie i usuwanie bloków kodu
-  - title: Ustawianie sceny
-  - title: Poruszanie rzeczami
-  - title: Wszystkie duszki
-  - title: Ryby zdalnie sterowane
-  - title: Złap rybę!
-  - title: Zapamiętywanie wyniku
-  - title: "Wyzwanie: wygranie gry"
-    challenge: true
+- title: Wprowadzenie
+  completion: engaged
+- title: Przygotowanie do pracy
+- title: Dodawanie i usuwanie bloków kodu
+- title: Ustawianie sceny
+- title: Poruszanie rzeczami
+- title: Wszystkie duszki
+- title: Ryby zdalnie sterowane
+- title: Złap rybę!
+  completion: internal
+- title: Zapamiętywanie wyniku
+- title: 'Wyzwanie: wygranie gry'
+  challenge: true
