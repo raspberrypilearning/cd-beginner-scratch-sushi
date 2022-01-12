@@ -2,7 +2,7 @@
 title: 깊은 바다 물고기
 hero_image: images/banner.png
 description: 첫 스크래치 프로그램에서 재미있는 게임을 만드십시오!
-theme: orange #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
+theme: orange
 duration: 2
 listed: true
 ingredient: false
@@ -17,6 +17,7 @@ last_tested: 2017-01-01
 steps:
   - 
     title: 소개
+    completion: engaged
   - 
     title: 설정하기
   - 
@@ -31,8 +32,9 @@ steps:
     title: 스스로 움직이는 물고기
   - 
     title: 물고기잡기
+    completion: internal
   - 
     title: 점수 사용하기
   - 
-    title: "과제: 게임에서 승리하기"
+    title: '과제: 게임에서 승리하기'
     challenge: true
