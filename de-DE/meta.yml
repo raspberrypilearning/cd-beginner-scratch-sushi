@@ -2,7 +2,7 @@
 title: Tiefsee-Sushi
 hero_image: images/banner.png
 description: Mach ein lustiges Spiel in deinem ersten Scratch-Programm!
-theme: orange #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
+theme: orange
 duration: 2
 listed: true
 ingredient: false
@@ -17,6 +17,7 @@ last_tested: 2017-01-01
 steps:
   - 
     title: Einleitung
+    completion: engaged
   - 
     title: Erste Schritte
   - 
@@ -31,8 +32,9 @@ steps:
     title: Ferngesteuerte Fische
   - 
     title: Angeln!
+    completion: internal
   - 
     title: Mitzählen
   - 
-    title: "Herausforderung: das Spiel gewinnen"
+    title: 'Herausforderung: das Spiel gewinnen'
     challenge: true
