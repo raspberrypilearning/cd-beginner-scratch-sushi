@@ -2,7 +2,7 @@
 title: سوشي أعماق البحار
 hero_image: images/banner.png
 description: اصنع لعبة ممتعة في اول برنامج Scratch خاص بك!
-theme: orange #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
+theme: orange
 duration: 2
 listed: true
 ingredient: false
@@ -17,6 +17,7 @@ last_tested: 2017-01-01
 steps:
   - 
     title: المقدمة
+    completion: engaged
   - 
     title: هيا بنا لنبدأ
   - 
@@ -31,8 +32,9 @@ steps:
     title: الأسماك المتحكم بها عن بعد
   - 
     title: صيد السمك!
+    completion: internal
   - 
     title: حفظ النتيجة
   - 
-    title: "التحدي: الفوز في اللعبة"
+    title: 'التحدي: الفوز في اللعبة'
     challenge: true
