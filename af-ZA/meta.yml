@@ -2,7 +2,7 @@
 title: Deep sea sushi
 hero_image: images/banner.png
 description: Make a fun game in your first Scratch program!
-theme: orange #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
+theme: orange
 duration: 2
 listed: true
 ingredient: false
@@ -17,6 +17,7 @@ last_tested: 2017-01-01
 steps:
   - 
     title: Introduction
+    completion: engaged
   - 
     title: Getting set up
   - 
@@ -31,8 +32,9 @@ steps:
     title: Remote-control fish
   - 
     title: Fishing!
+    completion: internal
   - 
     title: Keeping score
   - 
-    title: "Challenge: winning the game"
+    title: 'Challenge: winning the game'
     challenge: true
