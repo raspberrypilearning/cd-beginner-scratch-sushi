@@ -2,7 +2,7 @@
 title: 深海寿司
 hero_image: images/banner.png
 description: 在您的第一个Scratch程序中创建一个有趣的游戏！
-theme: orange #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
+theme: orange
 duration: 2
 listed: true
 ingredient: false
@@ -17,6 +17,7 @@ last_tested: 2017-01-01
 steps:
   - 
     title: 介绍
+    completion: engaged
   - 
     title: 设置
   - 
@@ -31,8 +32,9 @@ steps:
     title: 遥控鱼
   - 
     title: 捕鱼！
+    completion: internal
   - 
     title: 计分
   - 
-    title: "挑战：赢得游戏"
+    title: '挑战：赢得游戏'
     challenge: true
