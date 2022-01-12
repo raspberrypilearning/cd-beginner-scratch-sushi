@@ -2,7 +2,7 @@
 title: 深海寿司
 hero_image: images/banner.png
 description: あなたの最初のスクラッチプログラムで楽しいゲームを作ろう！
-theme: オレンジ #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
+theme: オレンジ
 duration: 2
 listed: true
 ingredient: false
@@ -17,6 +17,7 @@ last_tested: 2017-01-01
 steps:
   - 
     title: 前書き
+    completion: engaged
   - 
     title: セットアップ
   - 
@@ -31,8 +32,9 @@ steps:
     title: リモコン魚
   - 
     title: 釣り！
+    completion: internal
   - 
     title: スコアを維持する
   - 
-    title: "チャレンジ：ゲームに勝つ"
+    title: 'チャレンジ：ゲームに勝つ'
     challenge: true
