@@ -2,7 +2,7 @@
 title: 深海壽司
 hero_image: images/banner.png
 description: 在您的第一個Scratch程序中創建一個有趣的遊戲！
-theme: 橘色 #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
+theme: 橘色
 duration: 2
 listed: true
 ingredient: false
@@ -17,6 +17,7 @@ last_tested: 2017-01-01
 steps:
   - 
     title: 介紹
+    completion: engaged
   - 
     title: 開始設置
   - 
@@ -31,8 +32,9 @@ steps:
     title: 遙控的魚
   - 
     title: 釣魚
+    completion: internal
   - 
     title: 紀錄得分
   - 
-    title: "挑戰：贏得比賽"
+    title: '挑戰：贏得比賽'
     challenge: true
