@@ -2,7 +2,7 @@
 title: Diepzee-sushi
 hero_image: images/banner.png
 description: Maak een leuk spel in je eerste Scratch-programma!
-theme: orange #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
+theme: orange
 duration: 2
 listed: true
 ingredient: false
@@ -17,6 +17,7 @@ last_tested: 2017-01-01
 steps:
   - 
     title: Inleiding
+    completion: engaged
   - 
     title: Opstarten
   - 
@@ -31,8 +32,9 @@ steps:
     title: Vis op afstand bestuurbaar
   - 
     title: Vissen!
+    completion: internal
   - 
     title: Score bijhouden
   - 
-    title: "Uitdaging: het spel winnen"
+    title: 'Uitdaging: het spel winnen'
     challenge: true
