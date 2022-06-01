@@ -2,7 +2,7 @@
 title: Σούσι στη θάλασσα
 hero_image: images/banner.png
 description: Φτιάξε ένα διασκεδαστικό παιχνίδι στο πρώτο σου πρόγραμμα με το Scratch!
-theme: orange #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
+theme: orange
 duration: 2
 listed: true
 ingredient: false
@@ -15,14 +15,18 @@ software: scratch
 version: 4.0.0
 last_tested: 2017-01-01
 steps:
-  - title: Εισαγωγή
-  - title: Ξεκινώντας
-  - title: Προσθήκη και αφαίρεση κώδικα
-  - title: Στήνοντας τη σκηνή
-  - title: Κίνηση αντικειμένων
-  - title: Όλα τα αντικείμενα
-  - title: Αυτοκινούμενο ψάρι
-  - title: Ψάρεμα!
-  - title: Μέτρηση της βαθμολογίας
-  - title: "Πρόκληση: κερδίζοντας το παιχνίδι"
-    challenge: true
+- title: Εισαγωγή
+- title: Ξεκινώντας
+- title: Προσθήκη και αφαίρεση κώδικα
+  completion:
+  - engaged
+- title: Στήνοντας τη σκηνή
+- title: Κίνηση αντικειμένων
+- title: Όλα τα αντικείμενα
+- title: Αυτοκινούμενο ψάρι
+- title: Ψάρεμα!
+- title: Μέτρηση της βαθμολογίας
+  completion:
+  - internal
+- title: 'Πρόκληση: κερδίζοντας το παιχνίδι'
+  challenge: true

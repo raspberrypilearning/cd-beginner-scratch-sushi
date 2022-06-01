@@ -1,7 +1,8 @@
+---
 title: Deep sea sushi
 hero_image: images/banner.png
 description: Make a fun game in your first Scratch program!
-theme: orange # possible values: blue, green, navy, orange, red, turquoise, violet, yellow
+theme: orange
 duration: 2
 listed: true
 ingredient: false
@@ -13,15 +14,19 @@ site_areas: coderdojo
 software: scratch
 version: 4.0.0
 last_tested: 2017-01-01
-steps: 
+steps:
 - title: Introduction
 - title: Getting set up
 - title: Adding and removing code blocks
+  completion:
+  - engaged
 - title: Setting the scene
 - title: Moving things around
 - title: All the sprites
 - title: Remote-control fish
 - title: Fishing!
 - title: Keeping score
-- title: "Challenge: winning the game"
+  completion:
+  - internal
+- title: 'Challenge: winning the game'
   challenge: true

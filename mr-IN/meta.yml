@@ -2,7 +2,7 @@
 title: खोल समुद्रातील सुशी
 hero_image: images/banner.png
 description: आपल्या पहिल्या स्क्रॅच प्रोग्राममध्ये एक मजेदार गेम बनवा!
-theme: orange #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
+theme: orange
 duration: 2
 listed: true
 ingredient: false
@@ -15,14 +15,18 @@ software: scratch
 version: 4.0.0
 last_tested: 2017-01-01
 steps:
-  - title: परिचय
-  - title: सुरुवात अशी करा
-  - title: कोड ब्लॉक्स समाविष्ट करणे आणि काढून टाकणे
-  - title: दृष्य सेट करणे
-  - title: गोष्टी इकडे तिकडे हलविणे
-  - title: सर्व स्प्राईट्स
-  - title: रिमोट-कंट्रोल मासे
-  - title: मासेमारी!
-  - title: गुणांची नोंद
-  - title: "आव्हान: गेम जिंकणे"
-    challenge: true
+- title: परिचय
+- title: सुरुवात अशी करा
+- title: कोड ब्लॉक्स समाविष्ट करणे आणि काढून टाकणे
+  completion:
+  - engaged
+- title: दृष्य सेट करणे
+- title: गोष्टी इकडे तिकडे हलविणे
+- title: सर्व स्प्राईट्स
+- title: रिमोट-कंट्रोल मासे
+- title: मासेमारी!
+- title: गुणांची नोंद
+  completion:
+  - internal
+- title: 'आव्हान: गेम जिंकणे'
+  challenge: true

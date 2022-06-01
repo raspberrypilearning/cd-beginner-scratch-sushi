@@ -2,7 +2,7 @@
 title: ಆಳವಾದ ಸಮುದ್ರದ ಸುಶಿ
 hero_image: images/banner.png
 description: ನಿಮ್ಮ ಮೊದಲ Scratch ಪ್ರೋಗ್ರಾಂನಲ್ಲಿ ಮೋಜಿನ ಆಟವನ್ನು ಮಾಡಿ!
-theme: orange #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
+theme: orange
 duration: 2
 listed: true
 ingredient: false
@@ -15,14 +15,18 @@ software: scratch
 version: 4.0.0
 last_tested: 2017-01-01
 steps:
-  - title: ಪರಿಚಯ
-  - title: ಹೊಂದಿಸಲಾಗುತ್ತಿದೆ
-  - title: ಕೋಡ್ ಬ್ಲಾಕ್ಗಳನ್ನು ಸೇರಿಸುವುದು ಮತ್ತು ತೆಗೆದುಹಾಕುವುದು
-  - title: ದೃಶ್ಯವನ್ನು ಹೊಂದಿಸಲಾಗುತ್ತಿದೆ
-  - title: ಸುತ್ತಲೂ ವಸ್ತುಗಳನ್ನು ಚಲಿಸುವುದು
-  - title: ಎಲ್ಲಾ sprites
-  - title: ರಿಮೋಟ್-ಕಂಟ್ರೋಲ್ ಮೀನು
-  - title: ಮೀನುಗಾರಿಕೆ!
-  - title: ಸ್ಕೋರ್ ಇಟ್ಟುಕೊಳ್ಳುವುದು
-  - title: "ಸವಾಲು: ಪಂದ್ಯವನ್ನು ಗೆಲ್ಲುವುದು"
-    challenge: true
+- title: ಪರಿಚಯ
+- title: ಹೊಂದಿಸಲಾಗುತ್ತಿದೆ
+- title: ಕೋಡ್ ಬ್ಲಾಕ್ಗಳನ್ನು ಸೇರಿಸುವುದು ಮತ್ತು ತೆಗೆದುಹಾಕುವುದು
+  completion:
+  - engaged
+- title: ದೃಶ್ಯವನ್ನು ಹೊಂದಿಸಲಾಗುತ್ತಿದೆ
+- title: ಸುತ್ತಲೂ ವಸ್ತುಗಳನ್ನು ಚಲಿಸುವುದು
+- title: ಎಲ್ಲಾ sprites
+- title: ರಿಮೋಟ್-ಕಂಟ್ರೋಲ್ ಮೀನು
+- title: ಮೀನುಗಾರಿಕೆ!
+- title: ಸ್ಕೋರ್ ಇಟ್ಟುಕೊಳ್ಳುವುದು
+  completion:
+  - internal
+- title: 'ಸವಾಲು: ಪಂದ್ಯವನ್ನು ಗೆಲ್ಲುವುದು'
+  challenge: true
