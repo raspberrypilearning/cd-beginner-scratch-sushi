@@ -16,15 +16,17 @@ version: 4.0.0
 last_tested: 2017-01-01
 steps:
 - title: المقدمة
-  completion: engaged
 - title: هيا بنا لنبدأ
 - title: إضافة وإزالة قوائم التعليمات البرمجية
+  completion:
+  - engaged
 - title: إعداد المشهد
 - title: تحريك الأشياء في جميع الأنحاء
 - title: كل الشخصيات
 - title: الأسماك المتحكم بها عن بعد
 - title: صيد السمك!
-  completion: internal
 - title: حفظ النتيجة
+  completion:
+  - internal
 - title: 'التحدي: الفوز في اللعبة'
   challenge: true

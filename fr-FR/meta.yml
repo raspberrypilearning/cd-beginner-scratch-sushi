@@ -16,15 +16,17 @@ version: 4.0.0
 last_tested: 01/01/2017
 steps:
 - title: Introduction
-  completion: engaged
 - title: Mise en place
 - title: Ajout et suppression de blocs de code
+  completion:
+  - engaged
 - title: Mise en scène
 - title: Déplacer des objets
 - title: Tous les sprites
 - title: Poisson télécommandé
 - title: Pêche!
-  completion: internal
 - title: Garder le score
+  completion:
+  - internal
 - title: 'Défi: gagner le jeu'
   challenge: true

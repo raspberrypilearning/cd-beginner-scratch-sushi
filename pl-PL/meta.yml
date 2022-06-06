@@ -16,15 +16,17 @@ version: 4.0.0
 last_tested: 2017-01-01
 steps:
 - title: Wprowadzenie
-  completion: engaged
 - title: Przygotowanie do pracy
 - title: Dodawanie i usuwanie bloków kodu
+  completion:
+  - engaged
 - title: Ustawianie sceny
 - title: Poruszanie rzeczami
 - title: Wszystkie duszki
 - title: Ryby zdalnie sterowane
 - title: Złap rybę!
-  completion: internal
 - title: Zapamiętywanie wyniku
+  completion:
+  - internal
 - title: 'Wyzwanie: wygranie gry'
   challenge: true

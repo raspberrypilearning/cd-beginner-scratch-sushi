@@ -16,15 +16,17 @@ version: 4.0.0
 last_tested: 2017-01-01
 steps:
 - title: परिचय
-  completion: engaged
 - title: शुरू करने के लिए
 - title: कोड ब्लॉक जोड़ना और निकालना
+  completion:
+  - engaged
 - title: दृश्य की स्थापना
 - title: चीजों को इधर-उधर करना
 - title: सभी स्प्राइट्स (sprites)
 - title: रिमोट-कंट्रोल मछली
 - title: मछली पकड़ना
-  completion: internal
 - title: स्कोर रखना
+  completion:
+  - internal
 - title: 'चुनौती: खेल जीतना'
   challenge: true

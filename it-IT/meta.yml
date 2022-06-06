@@ -16,15 +16,17 @@ version: 4.0.0
 last_tested: 2017-01-01
 steps:
 - title: Introduzione
-  completion: engaged
 - title: Prepararsi
 - title: Aggiunta e rimozione di blocchi di codice
+  completion:
+  - engaged
 - title: Organizzare la scena
 - title: Spostare le cose
 - title: Tutti gli sprite
 - title: Pesce telecomandato
 - title: A pesca!
-  completion: internal
 - title: Tenere il punteggio
+  completion:
+  - internal
 - title: 'Sfida: vincere la partita'
   challenge: true

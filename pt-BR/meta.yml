@@ -16,15 +16,17 @@ version: 3
 last_tested: 01/01/2017
 steps:
 - title: Introdução
-  completion: engaged
 - title: Preparando
 - title: Adicionando e removendo blocos de código
+  completion:
+  - engaged
 - title: Preparando o cenário
 - title: Movendo as coisas
 - title: Todos os atores
 - title: Peixe de controle remoto
 - title: Pescando!
-  completion: internal
 - title: Mantendo a pontuação
+  completion:
+  - internal
 - title: 'Desafio: vencer o jogo'
   challenge: true
