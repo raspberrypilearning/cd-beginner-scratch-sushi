@@ -1,5 +1,5 @@
-Hello!
+Bonjour !
 
 score
 
-hello world
+bonjour le monde
