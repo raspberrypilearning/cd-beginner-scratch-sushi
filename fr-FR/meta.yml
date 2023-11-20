@@ -17,7 +17,7 @@ last_tested: 01/01/2017
 steps:
   - 
     title: Introduction
-    completion: engaged
+    completion: engagé
   - 
     title: Mise en place
   - 
@@ -32,7 +32,7 @@ steps:
     title: Poisson télécommandé
   - 
     title: Pêche!
-    completion: internal
+    completion: interne
   - 
     title: Garder le score
   - 
