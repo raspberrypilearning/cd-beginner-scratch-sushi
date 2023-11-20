@@ -18,7 +18,7 @@ Tous les blocs de la catégorie sur laquelle tu as cliqué sont affichés dans u
 
 ![](images/code2b.png)
 
-You can click on the block you want, and then just drag it into the current sprite panel and let go. Une fois que le bloc est dans le panneau, tu peux le déplacer et le relier à d'autres blocs.
+Tu peux cliquer sur le bloc que tu cherches, puis le faire glisser dans le panneau du sprite actuel, puis lâcher le bouton de la souris. Une fois que le bloc est dans le panneau, tu peux le déplacer et le relier à d'autres blocs.
 
 \--- /collapse \---
 
