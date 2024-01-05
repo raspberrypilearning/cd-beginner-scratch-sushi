@@ -17,11 +17,12 @@ last_tested: 2017-01-01
 steps:
   - 
     title: Wprowadzenie
-    completion: engaged
   - 
     title: Przygotowanie do pracy
   - 
     title: Dodawanie i usuwanie bloków kodu
+    completion:
+      - engaged
   - 
     title: Ustawianie sceny
   - 
@@ -32,9 +33,10 @@ steps:
     title: Ryby zdalnie sterowane
   - 
     title: Wędkarstwo!
-    completion: internal
   - 
     title: Zachowując wynik
+    completion:
+      - internal
   - 
     title: 'Wyzwanie: wygranie gry'
     challenge: true
