@@ -1,113 +1,113 @@
-## Adding and removing code blocks
+## Додавання і видалення блоків коду
 
-Great! You’ve written your very first Scratch program. Time to learn a little more about getting code in and out of Scratch! Scratch code is made up of **blocks** such as these:
+Чудово! Ти створив(-ла) свою першу програму на Скретч. Настав час дізнатися трохи більше про кодування на Скретч! Код Скретч складається з **блоків**, схожих на ці:
 
 ![](images/code1.png)
 
-You will find all blocks in the **code blocks palette**, sorted into different categories according to what they do.
+Ти зможеш знайти всі блоки на **палітрі блоків коду**, де вони відсортовані за різними категоріями, залежно від їхнього призначення.
 
 ## \--- collapse \---
 
-## title: Using blocks from the different categories
+## title: Використання блоків з різних категорій
 
-Click on a category name to see the blocks in that category. Here, the **Motion** category is selected:
+Клікни назву категорії, щоб переглянути всі її блоки. Тут вибрано категорію **Рух**:
 
 ![](images/code2a.png)
 
-All of the blocks in the category you've clicked are shown in a list:
+Усі блоки із вибраної категорії відображаються в списку:
 
 ![](images/code2b.png)
 
-You can click on the block you want, and then just drag it into the current sprite panel and let go. Once it's in the panel, you can move it around and connect it to other blocks.
+Ти можеш клікнути на потрібний блок, а потім просто перетягти його на панель поточного спрайта й відпустити. Коли він знаходиться на цій панелі, ти можеш рухати його і з’єднувати з іншими блоками.
 
-\--- /collapse \---
+\---collapse\---
 
-If you want to see what a block does, you can double-click on it to make it run!
+Якщо ти хочеш побачити, що робить блок, клікни його двічі, щоб запустити!
 
 \--- task \---
 
-Try double-clicking on some of the blocks to see what they do.
+Спробуй зробити подвійний клік по деяким блокам коду, щоб побачити, що вони роблять.
 
 \--- /task \---
 
 ## \--- collapse \---
 
-## title: Running the code
+## title: Запуск коду
 
-Usually, you want your code to run automatically whenever something specific happens. This is why many of your programs will start with a block from the **Events** category, most often this one:
+Зазвичай твій код має запускатися автоматично, коли відбувається якась конкретна подія. Саме тому багато з твоїх програм починатимуться з блоків категорії **Події**, найчастіше з цього:
 
 ```blocks3
-    when green flag clicked
+    коли ⚑ натиснуто
 ```
 
-The code blocks connected to this block will run after the **green flag** is clicked.
+Блоки коду, що з ним з’єднані, запускатимуться після того, як буде натиснуто на **зелений прапор**.
 
-Code blocks run from top to bottom, so the order in which you snap your blocks together matters. In this example, the sprite will `say`{:class="block3looks"} `Hello!` before it will `play`{:class="block3sound"} the `meow` sound.
+Блоки коду запускаються згори вниз, тобто порядок, у якому ти приєднуєш блоки одне до одного, має значення. У цьому прикладі спрайт буде `говорити`{:class="block3looks"} `Привіт!` перед тим, як `відтворить`{:class="block3sound"} звук `Няв`.
 
 ```blocks3
-    when green flag clicked
-    say [Hello]
-    play sound [meow v]
+    коли ⚑ натиснуто
+  говорити [Привіт]
+  відтворити звук [Няв v]
 ```
 
 \--- /collapse \---
 
-Removing or deleting code blocks you don’t want in your program is easy! Just drag them back into the code blocks palette.
+Видаляти непотрібні у програмі блоки коду легко! Просто перетягни їх назад у палітру блоків коду.
 
-**Be careful:** dragging them into the code blocks pallette will delete all the blocks connected to the block you drag, so make sure to separate code blocks you want to keep from those you want to remove. If you delete some code blocks by accident and want to get them back, right-click and then click on the **undo** option to get everything back.
+**Пильнуй:** перетягування на палітру блоків коду видалить усі блоки, приєднані до того, який ти тягнеш, тому від’єднай блоки коду, які ти хочеш залишити, від тих, які ти хочеш видалити. Якщо ти випадково видалиш якісь блоки коду і захочеш їх повернути, клікни правою кнопкою, потім вибери пункт **скасувати**, — і все повернеться назад.
 
 ![](images/code6.png)
 
 \--- task \---
 
-Try adding, deleting, and undeleting some code blocks!
+Спробуй додавати, видаляти та повертати видалені блоки!
 
 \--- /task \---
 
-### Putting it all together
+### Підсумок
 
-Now you know how to move code around and make things happen, it's time for you to create a program to make the Scratch Cat walk in a circle!
+Тепер ти знаєш, як оперувати кодом та досягати необхідного результату. Ти можеш створити програму, у якій Скретч-кіт ходитиме по колу!
 
 \--- task \---
 
-Make sure you have the cat sprite selected in the sprite list, and then drag the following blocks into the sprite panel and connect them. You’ll find them in the **Events** and **Motion** lists.
+Переконайся в тому, що спрайт кота виділено в списку спрайтів, а потім перетягни ці блоки на панель спрайта і з’єднай їх. Ти знайдеш їх в списках **Події** та **Рух**.
 
 ```blocks3
-    when green flag clicked
-    move [10] steps
+    коли ⚑ натиснуто
+  перемістити на [10] кроків
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Now, click on the green flag above the Stage.
+Тепер натисни на зелений прапор над Сценою.
 
 ![](images/code7.png)
 
 \--- /task \---
 
-You should see the cat walking in a straight line...not exactly what you want, right?
+Ти маєш побачити, що кіт ходить прямо... не зовсім те, що треба, правда ж?
 
-Note: If you click the flag too many times and the cat walks away, you can drag it back!
+Примітка: якщо ти натиснеш на прапор дуже багато разів і кіт піде задалеко, ти можеш перетягти його назад!
 
 \--- task \---
 
-Snap the turn block to the end to make the cat sprite walk in a circle. It’s in the **Motion** list too.
+Приєднай блок повороту в кінець, щоб змусити спрайт кота ходити по колу. Він також знаходиться в списку **Рух**.
 
 ```blocks3
-    when green flag clicked
-    move [10] steps
-+    turn cw (15) degrees
+    коли ⚑ натиснуто
+  перемістити на [10] кроків
++ поворот ↻ на (15) градусів
 ```
 
 \--- /task \---
 
 ## \--- collapse \---
 
-## title: How does turning work?
+## title: Як працює поворот?
 
-This block makes the sprite turn 15 degrees of the full 360 degrees that make up a circle. You can change that number, and the number of steps, by clicking on the number and typing in a new value.
+Цей блок змушує спрайт повернути на 15 із 360 градусів, що складають повне коло. Ти можеш змінити це число, як і кількість кроків. Для цього клікни на число і введи нове значення.
 
 ![](images/code9.png)
 
@@ -115,6 +115,6 @@ This block makes the sprite turn 15 degrees of the full 360 degrees that make up
 
 \--- task \---
 
-Now save your work!
+А зараз збережи результат своєї роботи!
 
 \--- /task \---
