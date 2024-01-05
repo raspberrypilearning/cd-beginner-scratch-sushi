@@ -17,11 +17,12 @@ last_tested: 2017-01-01
 steps:
   - 
     title: 소개
-    completion: engaged
   - 
     title: 설정하기
   - 
     title: 코드 블록 추가 및 제거
+    completion:
+      - engaged
   - 
     title: 장면 설정하기
   - 
@@ -32,9 +33,10 @@ steps:
     title: 스스로 움직이는 물고기
   - 
     title: 물고기잡기
-    completion: internal
   - 
     title: 점수 사용하기
+    completion:
+      - internal
   - 
     title: '과제: 게임에서 승리하기'
     challenge: true
