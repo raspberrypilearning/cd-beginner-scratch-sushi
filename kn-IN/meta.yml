@@ -17,11 +17,12 @@ last_tested: 2017-01-01
 steps:
   - 
     title: ಪರಿಚಯ
-    completion: engaged
   - 
     title: ಹೊಂದಿಸಲಾಗುತ್ತಿದೆ
   - 
     title: ಕೋಡ್ ಬ್ಲಾಕ್ಗಳನ್ನು ಸೇರಿಸುವುದು ಮತ್ತು ತೆಗೆದುಹಾಕುವುದು
+    completion:
+      - engaged
   - 
     title: ದೃಶ್ಯವನ್ನು ಹೊಂದಿಸಲಾಗುತ್ತಿದೆ
   - 
@@ -32,9 +33,10 @@ steps:
     title: ರಿಮೋಟ್-ಕಂಟ್ರೋಲ್ ಮೀನು
   - 
     title: ಮೀನುಗಾರಿಕೆ!
-    completion: internal
   - 
     title: ಸ್ಕೋರ್ ಇಟ್ಟುಕೊಳ್ಳುವುದು
+    completion:
+      - internal
   - 
     title: 'ಸವಾಲು: ಪಂದ್ಯವನ್ನು ಗೆಲ್ಲುವುದು'
     challenge: true
