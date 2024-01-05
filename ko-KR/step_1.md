@@ -1,6 +1,8 @@
 \--- no-print \---
 
-이것은 **스크래치 3** 버전의 프로젝트입니다. [프로젝트의 스크래치 2 버전](https://projects.raspberrypi.org/en/projects/cd-beginner-scratch-sushi-scratch2)도 있습니다.
+<p style="border: 4px solid #41a6c4; padding: 10px; border-radius: 10px;">
+Try our new [Introduction to Scratch path](https://projects.raspberrypi.org/en/pathways/scratch-intro){:target="_blank"} to gain badges, design your own projects and create something unique.
+</p>
 
 \--- /no-print \---
 
