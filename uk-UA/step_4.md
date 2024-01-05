@@ -1,47 +1,47 @@
-## Setting the scene
+## Вибір сцени
 
-Scratch has a library of backgrounds and sprites for you to use to make your project look awesome.
+У Скретч є бібліотека фонових зображень та спрайтів для того, щоб твій проєкт виглядав чудово.
 
 \--- task \---
 
-Select the Stage.
+Вибір Сцени.
 
-![Selecting the stage](images/looksSelectStage.png)
+![Вибір сцени](images/looksSelectStage.png)
 
-Click on **Backdrops**.
+Клікни на **Тло**.
 
-![The Backdrops tab](images/looksBackdrops.png)
+![Вкладка Тло](images/looksBackdrops.png)
 
-Click the **Choose backdrop from library** icon.
+Клікни по іконці **Обрати тло з бібліотеки**.
 
-![The Choose backdrop icon](images/looksChooseBg.png)
+![Іконка Обрати тло](images/looksChooseBg.png)
 
-Then pick your favourite underwater background!
+Далі вибери свій улюблений підводний фон!
 
-![An underwater scene](images/looksUnderwater.png)
+![Підводна сцена](images/looksUnderwater.png)
 
 \--- /task \---
 
-Great! Of course, now you have a cat underwater, and cats aren't usually big fans of that. But you can fix that, because you can turn the cat into a shark!
+Чудово! Звичайно, тепер твій кіт під водою, а коти зазвичай таке не дуже люблять. Але ти можеш це виправити, тому що можеш перетворити кота на акулу!
 
 \--- task \---
 
-First, select the cat sprite and click on the **Costumes** tab.
+Спочатку вибери спрайт кота та перейди у вкладку **Образи**.
 
 ![](images/cool2.png)
 
-Then, click on **Choose costume from Library**
+Далі клікни **Обрати образ з бібліотеки**
 
 ![](images/cool3.png)
 
-Select this shark image and click **OK**.
+Вибери зображення акули та клікни **OK**.
 
-![The shark costume](images/looksShark.png)
+![Образ акули](images/looksShark.png)
 
-Now remove the cat costumes by selecting each of them and clicking on the **x**.
+Тепер видали образи кота, вибираючи кожен з них і клікаючи по **x**.
 
 ![](images/coolDeleteCostumes.png)
 
 \--- /task \---
 
-Now you have a shark – excellent!
+Тепер у тебе є акула — чудово!
