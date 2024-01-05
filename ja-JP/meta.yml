@@ -17,11 +17,12 @@ last_tested: 2017-01-01
 steps:
   - 
     title: 前書き
-    completion: engaged
   - 
     title: セットアップ
   - 
     title: コードブロックの追加と削除
+    completion:
+      - engaged
   - 
     title: シーンを設定する
   - 
@@ -32,9 +33,10 @@ steps:
     title: リモコン魚
   - 
     title: 釣り！
-    completion: internal
   - 
     title: スコアを維持する
+    completion:
+      - internal
   - 
     title: 'チャレンジ：ゲームに勝つ'
     challenge: true
