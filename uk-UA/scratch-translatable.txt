@@ -1,5 +1,5 @@
-Hello!
+Привіт!
 
-score
+Рахунок
 
-hello world
+привіт світ
