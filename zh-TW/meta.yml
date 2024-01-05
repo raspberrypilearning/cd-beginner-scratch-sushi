@@ -17,11 +17,12 @@ last_tested: 2017-01-01
 steps:
   - 
     title: 介紹
-    completion: engaged
   - 
     title: 開始設置
   - 
     title: 添加和刪除代碼積木
+    completion:
+      - engaged
   - 
     title: 設定場景
   - 
@@ -32,9 +33,10 @@ steps:
     title: 遙控的魚
   - 
     title: 釣魚
-    completion: internal
   - 
     title: 紀錄得分
+    completion:
+      - internal
   - 
     title: '挑戰：贏得比賽'
     challenge: true
