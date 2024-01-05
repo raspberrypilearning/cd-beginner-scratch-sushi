@@ -17,11 +17,12 @@ last_tested: 2017-01-01
 steps:
   - 
     title: Einleitung
-    completion: engaged
   - 
     title: Erste Schritte
   - 
     title: Codeblöcke hinzufügen und entfernen
+    completion:
+      - engaged
   - 
     title: Szene einstellen
   - 
@@ -32,9 +33,10 @@ steps:
     title: Ferngesteuerte Fische
   - 
     title: Angeln!
-    completion: internal
   - 
     title: Mitzählen
+    completion:
+      - internal
   - 
     title: 'Herausforderung: das Spiel gewinnen'
     challenge: true
