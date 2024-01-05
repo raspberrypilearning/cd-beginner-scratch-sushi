@@ -17,11 +17,12 @@ last_tested: 2017-01-01
 steps:
   - 
     title: Introducción
-    completion: engaged
   - 
     title: Preparación
   - 
     title: Agregar y eliminar bloques de código
+    completion:
+      - engaged
   - 
     title: Preparando la escena
   - 
@@ -32,9 +33,10 @@ steps:
     title: Control remoto del pez
   - 
     title: '¡Pescando!'
-    completion: internal
   - 
     title: Guardando la puntuación
+    completion:
+      - internal
   - 
     title: 'Desafío: ganando el juego'
     challenge: true
