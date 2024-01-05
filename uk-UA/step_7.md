@@ -1,181 +1,181 @@
-## Remote-control fish
+## Риба на дистанційному керуванні
 
-Ok, now it's time to make the fish swim on its own. To do this, you’re going to need a new kind of block: a **Control** block.
+Гаразд, пора зробити так, щоб риба плавала самостійно. Для цього тобі потрібен буде новий тип блоку: блок **Керування**.
 
 \--- task \---
 
-Select your fish sprite.
+Вибери спрайт рибини.
 
-Drag a `when green flag clicked`{:class="block3events"} **Event** block, a `forever`{:class="block3control"} **Control** block, and a `move 10 steps`{:class="block3motion"} **Motion** block into the **sprite panel**, like this:
+Перетягни блоки `коли натиснуто зелений прапор`{:class="block3events"} (**Події**), `завжди`{:class="block3control"} (**Керування**) та `перемістити на 10 кроків`{:class="block3motion"} (**Рух**) на **панель спрайту** ось так:
 
 ```blocks3
-    when green flag clicked
-    forever
-        move (10) steps
-    end
+    коли ⚑ натиснуто
+завжди 
+  перемістити на (10) кроків
+end
 ```
 
 \--- /task \---
 
 ## \--- collapse \---
 
-## title: What does the new block do?
+## title: Що робить новий блок?
 
-**Control** blocks make your program do things a certain number of times, or under certain conditions.
+Блоки **Керування** змушують твою програму виконувати операції певну кількість разів або за певних умов.
 
-Here, the fish does whatever is inside the `forever`{:class="block3control"} block over and over again on a loop, forever. So once it has done the last thing (block) inside the `forever`{:class="block3control"} block, it starts over at the top and does everything again, and so on.
+В даному випадку рибина виконує все, що знаходиться всередині блоку `завжди`{:class="block3control"}, знову і знову в циклі без кінця. Отже, як тільки вона виконає останню операцію (блок) всередині блоку `завжди`{:class="block3control"}, вона переходить знову вгору і повторює все спочатку, і так далі.
 
 \--- /collapse \---
 
 \--- task \---
 
-Now click the green flag and watch what happens!
+А зараз натисни на зелений прапор і подивися, що відбуватиметься!
 
 \--- /task \---
 
-Well, that fish just crashed into the side of the Stage, and it was moving far too fast for your shark to catch.
+Що ж, ця риба щойно врізалася в край Сцени і рухалася занадто швидко, щоб акула змогла її упіймати.
 
-First, you need to slow the fish down. That’s actually pretty easy, you just need it to wait for a little while after it moves those 10 steps. There’s a **Control** block that will help you here:
+Спочатку рибу треба сповільнити. Це досить просто. Тобі всього лиш треба трохи почекати після того, як вона переміститься на 10 кроків. Існує блок **Керування**, який тобі тут допоможе:
 
 ```blocks3
-    wait (1) secs
+    чекати (1) секунд
 ```
 
 \--- task \---
 
-Add the `wait`{:class="block3control"} block into your code inside the `forever`{:class="block3control"} block, and change the number to `0.5`, like this:
+Додай блок `чекати`{:class="block3control"} до свого коду всередині блоку `завжди`{:class="block3control"} і зміни значення на `0.5` ось так:
 
 ```blocks3
-    when green flag clicked
-    forever
-        move (10) steps
-+      wait (0.5) secs
-    end
+    коли ⚑ натиснуто
+завжди 
+  перемістити на (10) кроків
+  + чекати (0.5) секунд
+end
 ```
 
 \--- /task \---
 
 ## \--- collapse \---
 
-## title: Making adjustments
+## title: Внесення змін
 
-The number you set in the `wait`{:class="block3control"} block says how many **seconds** you want the fish to wait. `0.5` is half a second.
+Число, яке ти встановлюєш в блоці `чекати`{:class="block3control"}, задає бажану кількість **секунд**, яку чекатиме твоя риба. `0.5` — це пів секунди.
 
-You can test out different values to see which is the best for the game. And remember that you can change the number of steps inside the `move`{:class="block3motion"} block too!
+Ти можеш спробувати різні значення, щоб визначити те, яке підходить найкраще для гри. Пам’ятай, що ти також можеш змінювати кількість кроків всередині блоку `перемістити на`{:class="block3motion"}!
 
 \--- /collapse \---
 
-The fish moves now, but you need it to bounce off the edge of the Stage too. Yet again, there’s a **Motion** block for this!
+Зараз риба рухається, але вона також повинна відбиватися від країв Сцени. І знову в розділі **Рух** є для цього блок!
 
 \--- task \---
 
-Find the `if on edge bounce`{:class="block3motion"} block, and add it in after the `wait`{:class="block3control"} block.
+Знайди блок `якщо на межі, відбити`{:class="block3motion"}, і додай його до блоку `чекати`{:class="block3control"}.
 
 \--- /task \---
 
 ## \--- collapse \---
 
-## title: What does the new block do?
+## title: Що робить новий блок?
 
-The `if on edge bounce`{:class="block3motion"} block checks if the sprite is touching the edge of the Stage and, if it is, it turns left, right, up, or down as appropriate.
+Блок `якщо на межі, відбити`{:class="block3motion"} перевіряє, чи спрайт торкається краю Сцени, і якщо це так, то він відповідно повертає його вліво, вправо, вгору або вниз.
 
 \--- /collapse \---
 
-Of course, this will lead to an upside-down fish, so you need a `set rotation style`{:class="block3motion"} block again.
+Звичайно ж, це призведе до появи риби, що плаває догори черевцем, тому тобі знову знадобиться блок `стиль обертання`{:class="block3motion"}.
 
 \--- task \---
 
-Update your code to set the rotation style of the fish to `left-right`{:class="block3motion"} at the beginning of the sprite's script:
+Онови свій код так, щоб встановити стиль обертання риби `зліва-направо`{:class="block3motion"} на початку скрипта спрайта:
 
 ```blocks3
-    when green flag clicked
-+    set rotation style [left-right v]
-    forever
-        move (10) steps
-        wait (0.5) secs
-        if on edge, bounce
-    end
+    коли ⚑ натиснуто
++ стиль обертання [зліва-направо v]
+завжди 
+  перемістити на (10) кроків
+  чекати (0.5) секунд
+  якщо на межі, відбити
+end
 ```
 
 \--- /task \---
 
-The fish moves backwards and forwards now, but only in a straight line — a bit too easy for the player to catch with the shark! You need to make the fish less predictable.
+Тепер риба рухається вперед і назад, але лише по прямій лінії, тому гравцю досить просто її спіймати акулою! Ти маєш зробити рибу менш передбачуваною.
 
-You already know from a previous step how to make a sprite turn, so start there.
+Із попереднього кроку ти вже знаєш, як повернути спрайт, з цього і можна почати.
 
 \--- task \---
 
-Add a turn into the fish's swimming instructions, and click the green flag.
+Додай поворот до інструкцій для риби і натисни на зелений прапор.
 
 ```blocks3
-    when green flag clicked
-    set rotation style [left-right v]
-    forever
-        move (10) steps
-+        turn cw (10) degrees
-        wait (0.5) secs
-        if on edge, bounce
-    end
+    коли ⚑ натиснуто
+стиль обертання [зліва-направо v]
+завжди 
+  перемістити на (10) кроків
+  + поворот ↻ на (10) градусів
+  чекати (0.5) секунд
+  якщо на межі, відбити
+end
 ```
 
 \--- /task \---
 
-It’s better, but there’s still too much of a pattern. It needs to be more random. Luckily, Scratch can do random for you! You’ll just need a new kind of block, called an **operator** block.
+Вже краще, але все одно це виглядає досить шаблонно. Рух має бути більш випадковим. На щастя Скретч може допомогти тобі із випадковістю! Тоби потрібен буде новий тип блоку, що називається **оператор**.
 
-## \--- collapse \---
+## \---collapse\---
 
-## title: What's an operator?
+## title: Що таке оператор?
 
-**Operators** take in one or more values (like numbers, text, or `True/False` values) and give back a single value. You can tell the kind of value it will give back by the shape of the block: round ends give numbers or text, pointy ends give `True/False`.
+**Оператори** приймають одне або декілька значень (таких як числа, текст, логічні значення `Так/Ні`) і повертають єдине значення. Ти можеш визначити тип значення, яке вони повертають, по формі блока: круглі краї повертають числа або текст, а кутові — `Так/Ні`.
 
 ```blocks3
     (() + ())
 
-    (join [hello ] [world])
+(з'єднати [привіт ] [всім])
 
-    <[] = []>
+<[] = []>
 ```
 
 \--- /collapse \---
 
 \--- task \---
 
-Find the `pick random`{:class="block3operators"} **operator** block, and plug it into the `turn degrees`{:class="block3motion"} **Motion** block by clicking it and dragging it into the field where you set the number of degrees.
+Знайди блок **оператора** `випадкове`{:class="block3operators"} і встав його в блок **Руху** `повернути`{:class="block3motion"} клікнувши на нього і перетягнувши в поле, де встановлюється кількість градусів.
 
 ```blocks3
-    when green flag clicked
-    set rotation style [left-right v]
-    forever 
-        move (10) steps
-+        turn cw (pick random (1) to (10)) degrees
-        wait (0.5) secs
-        if on edge, bounce
-    end
+    коли ⚑ натиснуто
+стиль обертання [зліва-направо v]
+завжди 
+  перемістити на (10) кроків
+  + поворот ↻ на (випадкове від (1) до (10)) градусів
+  чекати (0.5) секунд
+  якщо на межі, відбити
+end
 ```
 
 \--- /task \---
 
-**Note**: you can change the minimum and maximum numbers it will pick, but the default values (`1` and `10`) are pretty good for this game, so you can just leave them.
+**Примітка**: ти можеш змінити мініміальне та максимальне значення чисел, з яких він вибиратиме, але стандартні значення (`1` та `10`) є досить підходящими для цієї гри, тому ти можеш їх залишити.
 
 \--- task \---
 
-Click the green flag to run the code!
+Натисни зелений прапор та запусти код!
 
 \--- /task \---
 
 ## \--- collapse \---
 
-## title: So what does the forever block do now?
+## title: Отже, що тепер робить блок «завжди»?
 
-The forever block now makes the fish sprite do four things in order:
+Блок «завжди» змушує спрайт риби робити наступні чотири речі по порядку:
 
-1. Move forward
-2. Turn a little bit
-3. Wait briefly
-4. Check whether it's at the edge of the Stage
+1. Переміщуватися вперед
+2. Трохи повертатися
+3. Трохи чекати
+4. Перевіряти чи риба на краю Сцени
 
-Once the sprite has done the check, it will start at the beginning of the loop again and move, turn, wait, check, for as long as you let your Scratch program run.
+Після того, як спрайт виконав перевірку, він розпочне цикл знову і переміщуватиметься, повертатиме, чекатиме і перевірятиме, допоки виконуватиметься програма на Скретч.
 
 \--- /collapse \---
 
-Cool! Next up: catching that fish!
+Чудово! Далі: ловля риби!
