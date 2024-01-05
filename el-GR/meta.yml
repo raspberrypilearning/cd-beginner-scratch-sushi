@@ -17,11 +17,12 @@ last_tested: 2017-01-01
 steps:
   - 
     title: Εισαγωγή
-    completion: engaged
   - 
     title: Ξεκινώντας
   - 
     title: Προσθήκη και αφαίρεση κώδικα
+    completion:
+      - engaged
   - 
     title: Στήνοντας τη σκηνή
   - 
@@ -32,9 +33,10 @@ steps:
     title: Αυτοκινούμενο ψάρι
   - 
     title: Ψάρεμα!
-    completion: internal
   - 
     title: Μέτρηση της βαθμολογίας
+    completion:
+      - internal
   - 
     title: 'Πρόκληση: κερδίζοντας το παιχνίδι'
     challenge: true
