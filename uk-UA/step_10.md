@@ -1,3 +1,3 @@
-## Challenge: winning the game
+## Завдання: перемога у грі
 
-Pick a score at which the player wins, and make something cool happen when they have that many points. Maybe the shark congratulates them, or a 'You win!' sprite appears, or music plays!
+Вибери значення рахунку, при якому гравець перемагає, і зроби так, щоб відбувалося щось класне, коли він досягне цієї кількості очок. Можливо акула його поздоровлятиме, або з’явиться спрайт «Перемога!», або зазвучить музика!
