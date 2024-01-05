@@ -1,80 +1,80 @@
-## All the sprites
+## Усі спрайти
 
-Now you have a shark that you can move around using the arrow keys. Nice! Time to add some fish for it to catch.
+Зараз у тебе є акула, яку ти можеш переміщувати за допомогою клавіш зі стрілками. Клас! Час додати трохи риби, яку вона б могла ловити.
 
 \--- task \---
 
-Click the **New sprite** button, and on the screen that opens, choose a fish.
+Натисни на кнопку **Новий спрайт** і вибери рибину на екрані, що відкриється.
 
-![The New sprite button](images/spritesNewFromLibrary.png)
+![Кнопка Новий спрайт](images/spritesNewFromLibrary.png)
 
-If your fish is a bit big compared to your shark, you can use the size control to make both sprites the right size!
+Якщо твоя рибина є трохи завеликою в порівнянні із акулою, ти можеш змінити її розмір і зробити обидва спрайти правильної величини!
 
-![Sprite size control](images/sprites2.png)
+![Налаштування розміру спрайта](images/sprites2.png)
 
-Change the number in the size control to make the sprite bigger or smaller.
+Зміни число в параметрі «розмір», щоб зробити спрайт більшим або меншим.
 
 \--- /task \---
 
-Great! Later, you're going to add some code to make the fish move around on its own, without help from the player. Your player will move the shark and try to catch the fish.
+Чудово! Пізніше ти додаси код для того, щоб рибина самостійно плавала без допомоги гравця. Твій гравець керуватиме акулою і намагатиметься зловити її.
 
 ## \--- collapse \---
 
-## title: What about the backwards shark?
+## title: Що робити з акулою, яка плаває хвостом вперед?
 
-It does look a little funny to have that shark swimming backwards. Just like you’d usually turn around rather than walking backwards, the shark would turn around rather than swimming backwards. Luckily for you, Scratch has a block for this!
+Коли акула плаває хвостом вперед, це справді виглядає трохи смішно. Ти ж зазвичай розвертаєшся, а не ходиш задом наперед, так само і акула б розверталася, а не пливла хвостом вперед. На щастя, у Скретч є для цього блок!
 
-The `point in direction`{:class="block3motion"} block lets you pick the direction your sprite is pointing in. You’ll find it in the **Motion** blocks section. You can type in any number of degrees, to point the sprite wherever you want.
+Блок `повернути в напрямку`{:class="block3motion"} дозволяє тобі вибрати, куди повернутий твій спрайт. Ти знайдеш його в розділі **Рух**. Ти можеш ввести довільну кількість градусів для того, щоб направити спрайт саме туди, куди треба.
 
 \--- /collapse \---
 
 \--- task \---
 
-Grab a couple of copies of the `point in direction`{:class="block3motion"} block from the **Motion** list and connect them to your shark's code, like this:
+Візьми пару блоків `повернути в напрямку`{:class="block3motion"} зі списку **Рух** і приєднай їх до коду акули таким чином:
 
 ```blocks3
-    when [left arrow v] key pressed
-+     point in direction (-90)
-    move (10) steps
+    коли клавішу [стрілка ліворуч v] натиснуто
++ повернути в напрямку (-90)
+  перемістити на (10) кроків
 ```
 
 ```blocks3
-    when [right arrow v] key pressed
-+     point in direction (90)
-    move (10) steps
+    коли клавішу [стрілка праворуч v] натиснуто
++ повернути в напрямку (90)
+  перемістити на (10) кроків
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Change the number of steps in the `move`{:class="block3motion"} blocks from `-10` to `10`.
+Зміни кількість кроків у блоках `перемістити на`{:class="block3motion"} з `-10` на `10`.
 
-If you try moving the shark around now after you've added the `point in direction`{:class="block3motion"} blocks, you might notice something a little strange happening. The shark may not be turning quite right!
+Якщо ти спробуєш перемістити акулу зараз, після того як ти додав(-ла) блоки `повернути в напрямку`{:class="block3motion"}, то ти можеш помітити щось трохи дивне. Акула може повертатися не зовсім правильно!
 
-![Upside down shark](images/spritesUpsideDown.png)
+![Акула догори черевцем](images/spritesUpsideDown.png)
 
 \--- /task \---
 
 ## \--- collapse \---
 
-## title: Why does it go upside down?
+## title: Чому вона плаває черевцем догори?
 
-The problem here is that the shark sprite started, as all sprites do, with the 'all around' **rotation style**, and what you need it to have is the 'left-right' style.
+Проблема тут полягає в тому, що спочатку в спрайті акули, як і в інших спрайтах, встановлено **стиль обертання** "навколо", а тобі треба буде використовувати стиль "зліва-направо".
 
-As usual, there’s a block for that, and it’s in **Motion**!
+Як завжди, для цього існує свій блок, і він знаходиться в розділі **Рух**!
 
 \--- /collapse \---
 
 \--- task \---
 
-Look in the **Motion** category for the block `set rotation style`{:class="block3motion"}.
+Пошукай в категорії **Рух** блок `стиль обертання`{:class="block3motion"}.
 
-Add the block to your shark reset code from earlier, and set the rotation style to `left-right`{:class="block3motion"}, like this:
+Додай цей блок до коду відновлення акули, який було створено раніше, і задай стиль обертання `зліва-направо`{:class="block3motion"} ось так:
 
 ```blocks3
     when green flag clicked
-+     set rotation style [left-right v]
++    set rotation style [зліва-направо v]
     go to x: (0) y: (0)
 ```
 
