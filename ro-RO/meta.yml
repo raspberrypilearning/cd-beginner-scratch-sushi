@@ -17,11 +17,12 @@ last_tested: 2017-01-01
 steps:
   - 
     title: Introducere
-    completion: engaged
   - 
     title: Pregătire
   - 
     title: Adăugarea și ștergerea blocurilor de cod
+    completion:
+      - engaged
   - 
     title: Pregătirea scenei
   - 
@@ -32,9 +33,10 @@ steps:
     title: Peștele care se mișcă singur
   - 
     title: La pescuit!
-    completion: internal
   - 
     title: Memorarea scorului
+    completion:
+      - internal
   - 
     title: 'Provocare: câștigarea jocului'
     challenge: true
