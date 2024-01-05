@@ -1,91 +1,91 @@
-## Getting set up
+## Знайомство із середовищем
 
 \--- task \---
 
-Open a [new Scratch project](https://rpf.io/scratch-new){:target="_blank"}. Scratch will open in another browser tab.
+Відкрий [стартовий проєкт у Скретчі](https://rpf.io/scratch-new){:target="_blank"}. Скретч відкриється у новій вкладці браузера.
 
 [[[working-offline]]]
 
 \--- /task \---
 
-Once you open Scratch, you’ll see a window like the one below.
+Як тільки ти відкриєш Скретч, то побачиш вікно, схоже на те, що показане нижче.
 
 \--- task \---
 
-Look for each of the following areas and remember where they are.
+Знайди кожну із наступних областей і запам’ятай, де вони знаходяться.
 
 \--- /task \---
 
-### The Stage
+### Сцена
 
-![Scratch window with the stage highlighted](images/hlStage.png)
-
-## \--- collapse \---
-
-## title: What is the Stage?
-
-This is where your Scratch programs run. It has:
-
-* One or more **backgrounds** \(images on the background of the screen\)
-
-* Any **code blocks** associated with it \(we’ll get to this\)
-
-\--- /collapse \---
-
-### The sprite list
-
-![Scratch window with the sprite list highlighted](images/hlSpriteList.png)
+![Вікно Скретч із підсвіченою сценою](images/hlStage.png)
 
 ## \--- collapse \---
 
-## title: What is a sprite?
+## title: Що таке Сцена?
 
-Any item you can add on the Stage is a **sprite**.
+Тут запускаються твої програми на Скретчі. Вона має:
 
-A sprite includes:
+* Одне або декілька зображень, які будуть служити **тлом** \(зображення на задньому плані екрана\)
 
-* The **image** on the Stage
-* Any extra **costumes** \(looks\) it has
-* Any **sounds** associated with it
-* Any **code blocks** associated with it ![](images/setup2.png)
+* Будь-які **блоки коду** пов'язані з ним \(до цього ми ще дійдемо\)
 
 \--- /collapse \---
 
-### The code blocks palette
+### Список спрайтів
 
-![Scratch window with the blocks pallet highlighted](images/hlBlocksPalette.png)
+![Вікно Скретч із підсвіченим списком спрайтів](images/hlSpriteList.png)
 
 ## \--- collapse \---
 
-## title: Code blocks
+## title: Що таке спрайт?
 
-Code in Scratch comes in the form of blocks that you connect to make programs. You choose blocks from the **code blocks palette**, drag them into the **current sprite panel**, and then connect them to each other.
+Будь-який об’єкт, який ти можеш додати до Сцени, є **спрайтом**.
 
-There are ten categories of blocks. They are colour-coded, and you can choose between them by clicking on the items in the list at the top of the **code blocks palette**.
+Спрайт у себе включає:
+
+* **Зображення** на Сцені
+* Будь-які додаткові **образи** \(зовнішній вигляд\), які в нього є
+* Будь-які **звуки**, пов’язані з ним
+* Будь-які **блоки коду**, пов'язані з ним ![](images/setup2.png)
 
 \--- /collapse \---
 
-### The current sprite panel
+### Палітра блоків коду
 
-![Scratch window with the current sprite panel highlighted](images/hlCurrentSpritePanel.png)
+![Вікно Скретч із підсвіченою палітрою блоків](images/hlBlocksPalette.png)
 
 ## \--- collapse \---
 
-## title: What is the current sprite?
+## title: Блоки коду
 
-The **current sprite** is the one that's selected in the **sprite list**.
+Код у Скретчі являє собою блоки, які між собою з’єднуються для створення програм. Ти можеш вибирати блоки із **палітри блоків коду**, перетягувати їх на **панель поточного спрайта**, а далі з’єднувати їх одне з одним.
 
-The **current sprite panel** is where you can see the code, costumes, and sounds for the selected sprite.
+Існує десять категорій блоків. Вони позначаються різними кольорами, і ти можеш вибирати між ними, натискаючи на елементи списку вгорі **палітри блоків коду**.
 
 \--- /collapse \---
 
-Time to get coding!
+### Панель поточного спрайта
+
+![Вікно Скретч із підсвіченою панеллю поточного спрайта](images/hlCurrentSpritePanel.png)
+
+## \--- collapse \---
+
+## title: Що таке поточний спрайт?
+
+**Поточним спрайтом** є спрайт, який було вибрано в **списку спрайтів**.
+
+На **панелі поточного спрайта** ти можеш бачити код, образи та звуки для вибраного спрайта.
+
+\--- /collapse \---
+
+Час розпочати кодування!
 
 \--- task \---
 
-In the sprite list, click on the Scratch Cat. The cat is now the current sprite.
+У списку спрайтів вибери Скретч-кота. Цей кіт зараз є поточним спрайтом.
 
-Choose the **Events** category in the code blocks palette, click the `when flag clicked`{:class="block3events"} block, and drag it into the current sprite panel.
+Вибери категорію **Події** на палітрі блоків коду, натисти на блок `коли прапор натиснуто`{:class="block3events"} і перетягни його на панель поточного спрайта.
 
 ```blocks3
     when green flag clicked
@@ -95,19 +95,19 @@ Choose the **Events** category in the code blocks palette, click the `when flag 
 
 \--- task \---
 
-Then go to **Looks** in the code blocks palette and find this block:
+Далі перейди у **Вигляд** у палітрі блоків коду і знайди цей блок:
 
 ```blocks3
     say [Hello!] for (2) secs
 ```
 
-Click on it, hold down the mouse button, and then just drag it into the current sprite panel and let go of the button.
+Клікни по ньому, затримай кнопку мишки, а потім просто перетягни його на панель поточного спрайта і відпусти кнопку.
 
 \--- /task \---
 
 \--- task \---
 
-Now that the second block is in the current sprite panel, connect it to the bottom of the first block by clicking and dragging it again to move it below the other block until they snap together, like this:
+Тепер, коли другий блок знаходиться на панелі поточного спрайта, приєднай його до нижнього краю першого блоку, перетягнувши його під інший блок так, щоб вони з’єдналися:
 
 ![](images/setup3.png)
 
@@ -115,6 +115,6 @@ Now that the second block is in the current sprite panel, connect it to the bott
 
 \--- task \---
 
-Now click the **Green Flag** to start your program and watch what happens!
+Тепер натисни на **зелений прапор**, щоб запустити програму, і спостерігай!
 
 \--- /task \---
