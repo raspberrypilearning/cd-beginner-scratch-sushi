@@ -17,11 +17,12 @@ last_tested: 2017-01-01
 steps:
   - 
     title: प्रस्तावना
-    completion: engaged
   - 
     title: सुरुवात अशी करा
   - 
     title: कोड ब्लॉक्स समाविष्ट करणे आणि काढून टाकणे
+    completion:
+      - engaged
   - 
     title: दृष्य सेट करणे
   - 
@@ -32,9 +33,10 @@ steps:
     title: रिमोट-कंट्रोल मासे
   - 
     title: मासेमारी!
-    completion: internal
   - 
     title: गुणांची नोंद
+    completion:
+      - internal
   - 
     title: 'आव्हान: गेम जिंकणे'
     challenge: true
