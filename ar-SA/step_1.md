@@ -1,6 +1,8 @@
 \--- no-print \---
 
-هذا هو إصدار **Scratch 3** من المشروع. يوجد أيضًا إصدار [Scratch 2 من المشروع](https://projects.raspberrypi.org/en/projects/cd-beginner-scratch-sushi-scratch2)
+<p style="border: 4px solid #41a6c4; padding: 10px; border-radius: 10px;">
+Try our new [Introduction to Scratch path](https://projects.raspberrypi.org/en/pathways/scratch-intro){:target="_blank"} to gain badges, design your own projects and create something unique.
+</p>
 
 \--- /no-print \---
 
