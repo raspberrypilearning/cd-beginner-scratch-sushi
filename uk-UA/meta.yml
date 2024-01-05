@@ -1,0 +1,32 @@
+---
+title: Глибоководне суші
+hero_image: images/banner.png
+description: Зроби веселу гру у своїй першій програмі на Скретч!
+theme: orange
+duration: 2
+listed: true
+ingredient: false
+copyedit: true
+curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
+interests: animals, humour, outdoors, games
+technologies: scratch
+site_areas: coderdojo
+software: scratch
+version: 4.0.0
+last_tested: 2017-01-01
+steps:
+  - title: Вступ
+  - title: Знайомство із середовищем
+  - title: Додавання і видалення блоків коду
+    completion:
+      - engaged
+  - title: Вибір сцени
+  - title: Переміщення
+  - title: Усі спрайти
+  - title: Риба на дистанційному керуванні
+  - title: Риболовля!
+  - title: Ведення рахунку
+    completion:
+      - internal
+  - title: 'Завдання: перемога у грі'
+    challenge: true
