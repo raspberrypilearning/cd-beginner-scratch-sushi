@@ -1,130 +1,130 @@
-## Moving things around
+## Переміщення
 
-Right now your shark moves in a circle, and it would be much more fun to control it with the arrow keys. On this card, you’re going learn how to do that!
+Зараз твоя акула рухається по колу, але було б значно веселіше керувати нею за допомогою клавіш зі стрілками. У цій секції ти навчишся це робити!
 
 \--- task \---
 
-Start by deleting all code that you have for the shark.
+Спочатку видали весь код, що в тебе є для акули.
 
 \--- /task \---
 
-As you’ve probably guessed, you’re going to need **Event** and **Motion** blocks again!
+Як і до цього, тобі знадобляться блоки **Події** та **Рух**!
 
 \--- task \---
 
-This time, look for this block and drag it into the current sprite panel:
+Цього разу знайди цей блок та перетягний його на панель поточного спрайта:
 
 ```blocks3
-    when [space v] key pressed
+    коли клавішу [пропуск v] натиснуто
 ```
 
-Click the little arrow (▼) beside `space`. You will see a list of all your keyboard keys that you can pick from.
+Натисни на маленьку стрілочку (▼) поруч із `пропуск`. Ти побачиш список усіх клавіш, з яких можна вибирати.
 
 \--- /task \---
 
-You’re going to need four of the `when key pressed`{:class="block3events"} blocks — one for each of your arrow keys.
+Тобі знадобляться чотири блоки `коли клавішу натиснуто`{:class="block3events"} — по одному на кожну із клавіш стрілок.
 
 \--- task \---
 
-To make your shark move, connect these blocks to **Motion** blocks like this:
+Для того, щоб змусити акулу рухатися, приєднай ці блоки до блоків **Рух** ось так:
 
 ```blocks3
-    when [left arrow v] key pressed
-    move (-10) steps
+    коли клавішу [стрілка ліворуч v] натиснуто
+  перемістити на (-10) кроків
 ```
 
 ```blocks3
-    when [right arrow v] key pressed
-    move (10) steps
+    коли клавішу [стрілка праворуч v] натиснуто
+  перемістити на (10) кроків
 ```
 
 ```blocks3
-    when [up arrow v] key pressed
+    коли клавішу [стрілка вгору v] натиснуто
 ```
 
 ```blocks3
-    when [down arrow v] key pressed
-```
-
-\--- /task \---
-
-**Note**: `-10` means 'go back 10 steps'.
-
-\--- task \---
-
-**Test:** Press the left arrow key and right arrow key multiple times to test your code.
-
-\--- /task \---
-
-Now your shark moves back and forwards, which is pretty cool, but it doesn’t move up or down. Also, if you look through the **Motion** blocks, you’ll see there are no blocks for 'up' or 'down'. There are a whole bunch of them related to **x** and **y** coordinates though — let's try those!
-
-\--- task \---
-
-Grab two `change y by`{:class="block3motion"} blocks, and update your code like this:
-
-```blocks3
-    when [up arrow v] key pressed
-+     change y by (10)
-```
-
-```blocks3
-    when [down arrow v] key pressed
-+     change y by (-10)
+    коли клавішу [стрілка вниз v] натиснуто
 ```
 
 \--- /task \---
 
-Now when you press the arrows keys, the shark moves all around the stage!
+**Примітка**: `-10` означає «повернутися назад на 10 кроків».
+
+\--- task \---
+
+**Тест:** натисни клавіші зі стрілками вліво та вправо кілька разів, щоб перевірити свій код.
+
+\--- /task \---
+
+Тепер твоя акула рухається назад та вперед, що дуже класно, але вона не переміщується вгору або вниз. Але якщо ти переглянеш блоки в списку **Рух**, то не побачиш нічого для переміщення вгору та вниз. Зате є купа блоків що відносяться до координат **x** та **y** – давай спробуємо їх!
+
+\--- task \---
+
+Візьми два блоки `змінити y на`{:class="block3motion"} і онови свій код таким чином:
+
+```blocks3
+    коли клавішу [стрілка вгору v] натиснуто
++ змінити y на (10)
+```
+
+```blocks3
+    коли клавішу [стрілка вниз v] натиснуто
++ змінити y на (-10)
+```
+
+\--- /task \---
+
+Зараз, коли ти натискатимеш на клавіші зі стрілками, акула буде рухатися по всій сцені!
 
 ## \--- collapse \---
 
-## title: How do x- and y-coordinates work?
+## title: Що таке координати x та y?
 
-To talk about the positions of objects, such as sprites, we often use x- and y-coordinates. The **x-axis** of the Stage coordinate system runs from **left to right**, and the **y-axis** runs from **bottom to top**.
+Коли ми говоримо про розташування спрайтів, ми часто використовуємо координати x та y. **Вісь x** координатної системи Сцени проходить **зліва направо**, а **вісь y** — **знизу вгору**.
 
 ![](images/moving3.png)
 
-A sprite can be located by the coordinates of its centre, for example `(15, -27)`, where `15` is its position along the x-axis , and `-27` its position along the y-axis.
+Положення спрайта можна визначити за координатами його центру, наприклад `(15, -27)`, де `15` є положенням по осі x, а `-27` — положення по осі y.
 
-+ To get a feel for how this actually works, select a sprite and use the **x** and **y** controls to move it around the stage by setting different values for the coordinates.
++ Щоб розібратися в цьому на практиці, вибери спрайт та використовуй параметри **x** та **y**, щоб переміщувати його по сцені, надаючи координатам різних значень.
 
 ![](images/xycoords.png)
 
-+ Try different pairs of values to see where the sprite goes! In Scratch, the x-axis goes from `-240` to `240`, and the y-axis goes from `-180` to `180`.
++ Спробуй різні пари значень, щоб побачити, куди переміщуватиметься спрайт! У Скретч вісь x проходить від `-240` до `240`, а вісь y – від `-180` до `180`.
 
 \--- /collapse \---
 
-### Restarting the game
+### Перезапуск гри
 
-The shark moves all over the screen now, but imagine this is a game: how do you restart it, and what happens at the start of each game?
+Зараз акула рухається по всьому екрану, але уяви, що це гра: як ти її перезапускатимеш і що відбуватиметься на початку кожної гри?
 
-You need to get the shark to its original location when the player starts the game. They'll start this game by clicking on the green flag, so you need to change the shark sprite's x- and y-coordinates when that happens.
+Коли гравець розпочинає гру, акула має повертатися у початкове положення. Гру запускатимуть, натискаючи на залений прапор, тому тобі треба буде змінювати координати акули x та y, коли це відбувається.
 
-That’s actually pretty easy! The centre of the stage is `(0, 0)` in `(x, y)` coordinates.
+Насправді це дуже легко! Координати `(x, y)` центру Сцени дорівнюють `(0, 0)`.
 
-So all you need is an **Event** block for that green flag, and the **go to** block from **Motion**.
+Тобто все, що тобі треба, — блок із категорії **Події** для зеленого прапора та блок **перейти в** із категорії **Рух**.
 
 \--- task \---
 
-Drag a `when green flag clicked`{:class="block3events"} **Event** block onto the current sprite panel.
+Перетягни блок `коли зелений прапор натиснуто`{:class="block3events"} (**Події**) на панель поточного спрайта.
 
 ```blocks3
-    when green flag clicked
+    коли ⚑ натиснуто
 ```
 
-Then find the `go to`{:class="block3motion"} **Motion** block, and attach it to your flag **Event** block.
+Далі знайди блок `перейти в`{:class="block3motion"} (**Рух**) і приєднай його до твого блоку з прапором (**Події**).
 
 ```blocks3
-    when green flag clicked
-+     go to x: (0) y: (0)
+    коли ⚑ натиснуто
++  перемістити в x: (0) y: (0)
 ```
 
-Set the both the `x` and the `y` coordinate to `0` in the `go to`{:class="block3motion"} block if they are not already `0`.
+Встанови обидві координати `x` та `y` в `0` за допомогою блоку `перемістити в`{:class="block3motion"}, якщо вони ще не дорівнюють `0`.
 
 \--- /task \---
 
 \--- task \---
 
-Now click the green flag: you should see the shark return to the centre of the stage!
+Тепер натисни на зелений прапор: ти маєш побачити, як акула повернулася до центру сцени!
 
 \--- /task \---
