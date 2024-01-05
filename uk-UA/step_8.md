@@ -1,102 +1,104 @@
-## Fishing!
+## Риболовля!
 
-The shark moves, the fish swims, but they don’t interact: if the fish swims right into the shark's mouth, nothing happens. Time to change that!
+Акула рухається, риба плаває, але вони не взаємодіють: коли риба запливає прямо в рот акули, нічого не відбувається. Час це змінити!
 
-First, you need to know if the fish is touching the shark. For this, you'll need a **Control** block and a **Sensing** block.
+Спочатку тобі треба знати, коли рибина торкається акули. Для цього тобі знадобиться один блок **Керування** та один блок **Датчик**.
 
 \--- task \---
 
-Add the `if...then`{:class="block3control"} **Control** block inside the `forever`{:class="block3control"} loop of the fish sprite, below the `if on edge bounce`{:class="block3motion"} block.
+Додай блок **Керування** `якщо… то`{:class="block3control"} всередину циклу `завжди`{:class="block3control"} за блоком `якщо на межі, відбити`{:class="block3motion"} в спрайті риби.
 
-Drag the `touching...`{:class="block3sensing"} block into the space at the top of the `if...then`{:class="block3control"} block, and click the little triangle to select the shark sprite's name. If you haven’t changed it, it'll be 'Sprite1'.
+Перетягни блок `торкається…`{:class="block3sensing"} у верхній проміжок блока `якщо… то`{:class="block3control"} і натисни на маленький трикутник, щоб вибрати назву спрайта акули. Якщо ти її не змінював(-ла), то вона буде "Sprite1".
 
 ```blocks3
-    when green flag clicked
-    set rotation style [left-right v]
-    forever 
-        move (10) steps
-        turn cw (pick random (1) to (10)) degrees
-        wait (0.5) secs
-        if on edge, bounce
-+        if <touching [Sprite1 v] ?> then
-    end
+    коли ⚑ натиснуто
+стиль обертання [зліва-направо v]
+завжди 
+  перемістити на (10) кроків
+  поворот ↻ на (випадкове від (1) до (10)) градусів
+  чекати (0.5) секунд
+  якщо на межі, відбити
+  + якщо <торкається [Sprite1 v] ?> то
+  + end
+end
 ```
 
 \--- /task \---
 
 ## \--- collapse \---
 
-## title: How does it work?
+## title: Як це працює?
 
-The `if...then`{:class="block3control"} **Control** block needs to be given a `True/False` value.
+Блоку **Керування** `якщо…то`{:class="block3control"} треба надати значення `Так/Ні`.
 
-**Sensing** blocks collect information, like where the sprite is, what it’s touching, etc. You're using this block:
+Блоки **Датчики** збирають інформацію, наприклад, про знаходження спрайта, до чого він торкається і т. д. Ти використовуєш цей блок:
 
 ```blocks3
-    <touching [Sprite1 v] ?>
+    <торкається [Sprite1 v] ?>
 ```
 
-From this block's pointy ends, you can tell it’s going to give you the `True/False` value that the `if...then`{:class="block3control"} block needs.
+По гострим краям цього блоку ти можеш бачити, що він повертає значення `Так/Ні`, яке й потрібне блоку `якщо… то`{:class="block3control"}.
 
 \--- /collapse \---
 
-Of course, you’ve just added an `if...then`{:class="block3control"} block without adding anything for the 'then' part. So at the moment your script is checking whether the fish sprite is touching the shark sprite, but it's not making anything happen in response.
+Звичайно, щойно ти просто додав(-ла) блок `якщо… то`{:class="block3control"} без вказування чого-небудь в частині "то". Тобто наразі твій скрипт перевіряє, чи спрайт риби торкається спрайта акули, але нічого не робить, коли це відбувається.
 
-You can make the fish disappear, as if the shark ate it, by using the `hide`{:class="block3looks"} block.
+Ти можеш змусити рибу зникнути так, ніби акула її з’їла, за допомогою блоку `сховати`{:class="block3looks"}.
 
 \--- task \---
 
-Find the `hide`{:class="block3looks"} block in the **Looks** list, and put it inside the `if...then`{:class="block3control"} block, like so:
+Знайди блок `сховати`{:class="block3looks"} у списку **Вигляд** і помісти його всередину блоку `якщо… то`{:class="block3control"} таким чином:
 
 ```blocks3
-    if <touching [Sprite1 v] ?> then
-+        hide
-    end
+    якщо <торкається [Sprite1 v] ?> то 
+  + сховати
+end
 ```
 
 \--- /task \---
 
-Now once the shark catches the fish, the fish disappears for good. That’s not great.
+Тепер коли акула впіймала рибу, та зникає назавжди. Це не добре.
 
 \--- task \---
 
-Put the `show`{:class="block3looks"} block from **Looks** in at the very start of the fish code, so you can reset the game.
+Розмісти блок **Вигляд** `показати`{:class="block3looks"} на самому початку коду для риби, щоб ти зміг перезапустити гру.
 
 ```blocks3
-    when green flag clicked
-+    show
-    set rotation style [left-right v]
-    forever
+    коли ⚑ натиснуто
+показати
+стиль обертання [зліва-направо v]
+завжди
+end
 ```
 
 \--- /task \---
 
-That's already better, but you don’t want the player to have to restart the game every time they catch a single fish!
+Це вже краще, але ти ж не хочеш, щоб гравець перезапускав гру кожного разу, коли піймає одну рибину!
 
 \--- task \---
 
-Update the code inside your `if...then`{:class="block3control"} block to look like this:
+Онови код всередині блоку `якщо…то`{:class="block3control"} таким чином:
 
 ```blocks3
-    if on edge, bounce
-    if <touching [Sprite1 v] ?> then
-        hide
-+        wait (1) secs
-+        go to x: (pick random (-240) to (240)) y: (pick random (-180) to (180))
-+        show
-    end
+    якщо на межі, відбити
+якщо <торкається [Sprite1 v] ?> то 
+  сховати
+  + чекати (1) секунд
+  + перемістити в x: (випадкове від (-240) до (240)) y: (випадкове від (-180) до (180))
+  + показати
+end
 ```
 
 \--- /task \---
 
 ## \--- collapse \---
 
-## title: How does this work?
+## title: Як це працює?
 
-You are being clever here: when the fish is hidden, it waits, moves, and then shows up again.
+Ти поступаєш тут хитро: риба ховається, чекає, переміщується і знову показується.
 
-It looks like lots of fish keep appearing, but it’s that one sprite moving around!
+Здається, що з’являється багато рибин, але насправді — це переміщується той єдиний спрайт!
 
 \--- /collapse \---
 
-That’s a game! But there’s no way to keep score yet, or to win. You can fix that too — on the next card!
+Це — гра! Але поки що немає ведення рахунку або способу перемоги. Ти також зможеш це реалізувати в наступному розділі!
