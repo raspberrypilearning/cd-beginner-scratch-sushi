@@ -17,11 +17,12 @@ last_tested: 2017-01-01
 steps:
   - 
     title: परिचय
-    completion: engaged
   - 
     title: शुरू करने के लिए
   - 
     title: कोड ब्लॉक जोड़ना और हटाना
+    completion:
+      - engaged
   - 
     title: दृश्य की स्थापना
   - 
@@ -32,9 +33,10 @@ steps:
     title: रिमोट-कंट्रोल मछली
   - 
     title: मछली पकड़ना!
-    completion: internal
   - 
     title: स्कोर रखना
+    completion:
+      - internal
   - 
     title: 'चुनौती: खेल जीतना'
     challenge: true
