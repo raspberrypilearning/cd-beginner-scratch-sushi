@@ -17,11 +17,12 @@ last_tested: 2017-01-01
 steps:
   - 
     title: Introduction
-    completion: engaged
   - 
     title: Getting set up
   - 
     title: Adding and removing code blocks
+    completion:
+      - engaged
   - 
     title: Setting the scene
   - 
@@ -32,9 +33,10 @@ steps:
     title: Remote-control fish
   - 
     title: Fishing!
-    completion: internal
   - 
     title: Keeping score
+    completion:
+      - internal
   - 
     title: 'Challenge: winning the game'
     challenge: true
