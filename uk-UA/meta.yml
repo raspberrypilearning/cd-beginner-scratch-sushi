@@ -1,7 +1,7 @@
 ---
-title: Deep sea sushi
+title: Глибоководне суші
 hero_image: images/banner.png
-description: Make a fun game in your first Scratch program!
+description: Зроби веселу гру у своїй першій програмі на Скретч!
 theme: orange
 duration: 2
 listed: true
@@ -16,25 +16,27 @@ version: 4.0.0
 last_tested: 2017-01-01
 steps:
   - 
-    title: Introduction
-    completion: engaged
+    title: Вступ
   - 
-    title: Getting set up
+    title: Знайомство із середовищем
   - 
-    title: Adding and removing code blocks
+    title: Додавання і видалення блоків коду
+    completion:
+      - engaged
   - 
-    title: Setting the scene
+    title: Вибір сцени
   - 
-    title: Moving things around
+    title: Переміщення
   - 
-    title: All the sprites
+    title: Усі спрайти
   - 
-    title: Remote-control fish
+    title: Риба на дистанційному керуванні
   - 
-    title: Fishing!
-    completion: internal
+    title: Риболовля!
   - 
-    title: Keeping score
+    title: Ведення рахунку
+    completion:
+      - internal
   - 
-    title: 'Challenge: winning the game'
+    title: 'Завдання: перемога у грі'
     challenge: true
