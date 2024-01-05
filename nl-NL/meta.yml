@@ -17,11 +17,12 @@ last_tested: 2017-01-01
 steps:
   - 
     title: Inleiding
-    completion: engaged
   - 
     title: Opstarten
   - 
     title: Toevoegen en verwijderen van codeblokken
+    completion:
+      - engaged
   - 
     title: Het opzetten van de scene
   - 
@@ -32,9 +33,10 @@ steps:
     title: Vis op afstand bestuurbaar
   - 
     title: Vissen!
-    completion: internal
   - 
     title: Score bijhouden
+    completion:
+      - internal
   - 
     title: 'Uitdaging: het spel winnen'
     challenge: true
