@@ -17,11 +17,12 @@ last_tested: 2017-01-01
 steps:
   - 
     title: 介绍
-    completion: engaged
   - 
     title: 设置
   - 
     title: 添加和删除代码块
+    completion:
+      - engaged
   - 
     title: 设置场景
   - 
@@ -32,9 +33,10 @@ steps:
     title: 遥控鱼
   - 
     title: 捕鱼！
-    completion: internal
   - 
     title: 计分
+    completion:
+      - internal
   - 
     title: '挑战：赢得游戏'
     challenge: true
