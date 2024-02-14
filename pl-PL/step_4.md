@@ -1,47 +1,47 @@
 ## Ustawianie sceny
 
-Scratch ma bibliotekę tła i duszków, których możesz użyć, aby Twój projekt wyglądał niesamowicie.
+Scratch ma bibliotekę teł i duszków, których możesz użyć, aby Twój projekt wyglądał niesamowicie.
 
 \--- task \---
 
-Select the Stage.
+Wybierz scenę.
 
-![Selecting the stage](images/looksSelectStage.png)
+![Wybór sceny](images/looksSelectStage.png)
 
-Click on **Backdrops**.
+Kliknij na **Tła**.
 
-![The Backdrops tab](images/looksBackdrops.png)
+![Karta Tła](images/looksBackdrops.png)
 
-Click the **Choose backdrop from library** icon.
+Kliknij ikonę **Wybierz tło z biblioteki**.
 
-![The Choose backdrop icon](images/looksChooseBg.png)
+![Ikona Wybierz tło](images/looksChooseBg.png)
 
-Then pick your favourite underwater background!
+Następnie wybierz swoje ulubione podwodne tło!
 
-![An underwater scene](images/looksUnderwater.png)
+![Scena pod wodą](images/looksUnderwater.png)
 
 \--- /task \---
 
-Great! Of course, now you have a cat underwater, and cats aren't usually big fans of that. But you can fix that, because you can turn the cat into a shark!
+Świetnie! Oczywiście teraz masz kota pod wodą, a koty zwykle nie są wielkimi fanami wody. Ale możesz to naprawić, ponieważ możesz zmienić kota w rekina!
 
 \--- task \---
 
-First, select the cat sprite and click on the **Costumes** tab.
+\--- task \--- Najpierw wybierz duszka kota i kliknij zakładkę **Kostiumy**.
 
 ![](images/cool2.png)
 
-Then, click on **Choose costume from Library**
+Następnie kliknij **Wybierz kostium z biblioteki**
 
 ![](images/cool3.png)
 
-Select this shark image and click **OK**.
+Wybierz ten obraz rekina i kliknij **OK**.
 
-![The shark costume](images/looksShark.png)
+![Kostium rekina](images/looksShark.png)
 
-Now remove the cat costumes by selecting each of them and clicking on the **x**.
+Teraz usuń kostiumy kota, wybierając każdy z nich i klikając **x**.
 
 ![](images/coolDeleteCostumes.png)
 
 \--- /task \---
 
-Now you have a shark – excellent!
+Teraz masz rekina - doskonale!
