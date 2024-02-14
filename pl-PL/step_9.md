@@ -1,22 +1,22 @@
 ## Zapamiętywanie wyniku
 
-Aby zapamiętać ile ryb złapie gracz, musisz gdzieś przechowywać wynik oraz musisz mieć sposób na zwiększenie go i zresetowanie wyniku po ponownym uruchomieniu gry.
+Aby zapisywać liczbę złowionych przez gracza ryb, będziesz potrzebować miejsca do przechowywania wyników, sposobu ich dodawania i resetowania po ponownym uruchomieniu gry.
 
 Po pierwsze: zapisywanie wyniku!
 
 \--- task \---
 
-Go to the **Variables** blocks category and click on **Make a Variable**.
+\--- task \--- Przejdź do sekcji **Zmienne** i kliknij **Utwórz zmienną**.
 
 ![](images/catch5.png)
 
-Enter `score` as the name.
+Wpisz `wynik` jako nazwę.
 
 ![](images/catch6.png)
 
-Check out your new variable!
+Sprawdź nową zmienną!
 
-![The Score variable is displayed on the stage](images/scoreVariableStage.png)
+![Zmienna wynik jest wyświetlana na scenie](images/scoreVariableStage.png)
 
 \--- /task \---
 
@@ -24,15 +24,15 @@ Check out your new variable!
 
 ## title: Czym są zmienne?
 
-When you want to store information in a program, you use something called a **variable**. Think of it like a box with a label on it: you can put something in it, check what’s in it, and change what’s in it. You’ll find variables in the **Variables** section, but you need to create them first for them to show up there!
+Gdy chcesz zapisać lub przechować informacje w programie, używasz czegoś, co nazywa się **zmienną**. Pomyśl o tym jak o pudełku z etykietą: możesz w nim coś umieścić, sprawdzić, co w nim jest i zmienić to, co w nim jest. Zmienne znajdziesz w sekcji **Zmienne**, ale musisz je najpierw utworzyć, aby się tam pojawiły!
 
 \--- /collapse \---
 
-Now you need to update the variable whenever the shark eats a fish, and to reset it when the game is restarted. Doing both is pretty easy:
+Teraz musisz zaktualizować zmienną za każdym razem, gdy rekin zjada rybę, i resetować ją po ponownym uruchomieniu gry. Wykonanie obu jest całkiem proste:
 
 \--- task \---
 
-From the **Variables** section, take the `set [my variable v] to [0]`{:class="block3variables"} and `change [my variable v] by [1]`{:class="block3variables"} blocks. Click on the little arrows in the blocks, choose `score` from the list, and then put the blocks into your program:
+\--- task \--- Z sekcji **Zmienne**, weź bloki `ustaw [moja zmienna v] na [0]`{:class="block3variables"} i `zmień [moja zmienna v] o [1]`{:class="block3variables"}. Kliknij małe strzałki w blokach, wybierz `wynik` z listy, a następnie umieść bloki w programie:
 
 ### Kod rekina
 
@@ -57,4 +57,4 @@ From the **Variables** section, take the `set [my variable v] to [0]`{:class="bl
 
 \--- /task \---
 
-Cool! Now you’ve got a score and everything.
+Fajnie! Teraz masz wynik i wszystko.
