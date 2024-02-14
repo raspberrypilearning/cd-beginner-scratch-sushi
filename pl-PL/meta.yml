@@ -22,7 +22,7 @@ steps:
   - 
     title: Dodawanie i usuwanie bloków kodu
     completion:
-      - engaged
+      - zaangażowany
   - 
     title: Ustawianie sceny
   - 
@@ -36,7 +36,7 @@ steps:
   - 
     title: Zachowując wynik
     completion:
-      - internal
+      - wewnętrzny
   - 
     title: 'Wyzwanie: wygranie gry'
     challenge: true
