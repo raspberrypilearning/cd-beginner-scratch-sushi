@@ -2,29 +2,29 @@
 
 \--- task \---
 
-Open a [new Scratch project](https://rpf.io/scratch-new){:target="_blank"}. Scratch will open in another browser tab.
+Otwórz [nowy projekt w Scratchu](https://rpf.io/scratch-new){:target="_blank"}. Scratch otworzy się w nowej karcie przeglądarki.
 
 [[[working-offline]]]
 
 \--- /task \---
 
-Once you open Scratch, you’ll see a window like the one below.
+Po uruchomieniu Scratch zobaczysz okno takie jak to poniżej.
 
 \--- task \---
 
-Look for each of the following areas and remember where they are.
+\--- task \--- Poszukaj każdego z poniższych obszarów na ekranie i zapamiętaj, gdzie są.
 
 \--- /task \---
 
 ### Scena
 
-![Scratch window with the stage highlighted](images/hlStage.png)
+![Okno Scratch z zaznaczoną sceną](images/hlStage.png)
 
 ## \--- collapse \---
 
 ## title: Co to jest scena?
 
-This is where your Scratch programs run. It has:
+W tym miejscu działają programy Scratch. Scena zawiera:
 
 * Jedno lub więcej **tła** (obrazy na tle ekranu)
 
@@ -34,15 +34,15 @@ This is where your Scratch programs run. It has:
 
 ### Lista duszków
 
-![Scratch window with the sprite list highlighted](images/hlSpriteList.png)
+![Okno Scratch z zaznaczoną listą duszków](images/hlSpriteList.png)
 
 ## \--- collapse \---
 
 ## title: Co to jest duszek?
 
-Any item you can add on the Stage is a **sprite**.
+Każdy element, który możesz dodać na scenie, jest **duszkiem**.
 
-A sprite includes:
+Duszek zawiera:
 
 * **Obraz** na scenie
 * Wszelkie dodatkowe **kostiumy** (wyglądy), które posiada
@@ -53,39 +53,39 @@ A sprite includes:
 
 ### Paleta bloków kodu
 
-![Scratch window with the blocks pallet highlighted](images/hlBlocksPalette.png)
+![Okno Scratch z zaznaczoną paletą bloków](images/hlBlocksPalette.png)
 
 ## \--- collapse \---
 
 ## title: bloki kodu
 
-Code in Scratch comes in the form of blocks that you connect to make programs. You choose blocks from the **code blocks palette**, drag them into the **current sprite panel**, and then connect them to each other.
+Kod w Scratchu ma postać bloków, które łączysz w celu tworzenia programów. Wybierasz bloki z **palety bloków kodu**, przeciągasz je do **panelu bieżącego duszka**, a następnie łączysz je ze sobą.
 
-There are ten categories of blocks. They are colour-coded, and you can choose between them by clicking on the items in the list at the top of the **code blocks palette**.
+Istnieje dziesięć kategorii bloków. Są one oznaczone kolorami i można wybierać między nimi, klikając elementy na liście u góry **palety bloków kodu**.
 
 \--- /collapse \---
 
 ### Panel bieżącego duszka
 
-![Scratch window with the current sprite panel highlighted](images/hlCurrentSpritePanel.png)
+![Okno Scratch z zaznaczonym panelem bieżącego duszka](images/hlCurrentSpritePanel.png)
 
 ## \--- collapse \---
 
 ## title: Co to jest bieżący duszek?
 
-The **current sprite** is the one that's selected in the **sprite list**.
+**Bieżący duszek** jest to ten, który został zaznaczony na **liście duszków**.
 
-The **current sprite panel** is where you can see the code, costumes, and sounds for the selected sprite.
+**Panel bieżącego duszka** to miejsce, w którym możesz zobaczyć kod, kostiumy i dźwięk dla wybranego duszka.
 
 \--- /collapse \---
 
-Time to get coding!
+Czas na programowanie!
 
 \--- task \---
 
-In the sprite list, click on the Scratch Cat. The cat is now the current sprite.
+\--- task \--- Na liście duszków kliknij na Kota Scratcha. Kot jest teraz bieżącym duszkiem.
 
-Choose the **Events** category in the code blocks palette, click the `when flag clicked`{:class="block3events"} block, and drag it into the current sprite panel.
+Wybierz kategorię **Zdarzenia** w palecie bloków kodu, kliknij blok `kiedy flaga kliknięta`{:class="block3events"} i przeciągnij go do panelu bieżącego duszka.
 
 ```blocks3
     kiedy flaga kliknięta
@@ -95,26 +95,24 @@ Choose the **Events** category in the code blocks palette, click the `when flag 
 
 \--- task \---
 
-Then go to **Looks** in the code blocks palette and find this block:
+\--- task \--- Następnie przejdź do **Wygląd** w palecie bloków kodu i znajdź ten blok:
 
 ```blocks3
     powiedz [Witaj!] przez (2) sek
 ```
 
-Click on it, hold down the mouse button, and then just drag it into the current sprite panel and let go of the button.
+Kliknij go, przytrzymaj przycisk myszy, a następnie przeciągnij go do panelu bieżącego duszka i puść przycisk.
 
 \--- /task \---
 
 \--- task \---
 
-Now that the second block is in the current sprite panel, connect it to the bottom of the first block by clicking and dragging it again to move it below the other block until they snap together, like this:
+\--- task \--- Teraz, gdy drugi blok znajduje się w panelu bieżącego duszka, podłącz go do dolnej części pierwszego bloku, klikając i przeciągając go ponownie, aby przesunąć go poniżej drugiego bloku, aż oba bloki połączą się razem, tak jak poniżej:
 
 ![](images/setup3.png)
 
 \--- /task \---
 
-\--- task \---
-
-Now click the **Green Flag** to start your program and watch what happens!
-
 \--- /task \---
+
+\--- task \--- Teraz kliknij przycisk **Uruchom Program** i zobacz, co się stanie!
