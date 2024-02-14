@@ -1,5 +1,5 @@
-Hello!
+Witaj!
 
-score
+wynik
 
-hello world
+witaj świecie
