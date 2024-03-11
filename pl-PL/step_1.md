@@ -1,6 +1,8 @@
 --- no-print ---
 
-To jest wersja projektu korzystająca z **Scratch 3**. Istnieje również [wersja tego projektu dla Scratch 2](https://projects.raspberrypi.org/pl-PL/projects/cd-beginner-scratch-sushi-scratch2).
+<p style="border: 4px solid #41a6c4; padding: 10px; border-radius: 10px;">
+Wypróbuj naszą nową [ścieżkę wprowadzającą do Scratch](https://projects.raspberrypi.org/pl-PL/pathways/scratch-intro){:target="_blank"}, aby zdobyć odznaki, zaprojektować własne projekty i stworzyć coś wyjątkowego.
+</p>
 
 --- /no-print ---
 
@@ -10,15 +12,15 @@ Te karty Sushi pomogą Ci nauczyć się tworzyć programy komputerowe w Scratch!
 
 ### Co będziesz robił
 
-Stworzysz grę, w której poruszasz rekinem, aby złapał rybę.
+Stworzysz grę, w której będziesz poruszać rekinem, próbując złapać rybę.
 
-Oto przykład, jak może wyglądać Twoja gotowa gra:
+Oto przykład tego, jak może wyglądać ukończona gra:
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/349203098/?autostart=false" frameborder="0"></iframe>
 </div>
 
-Naciśnij zieloną flagę, aby rozpocząć grę. Użyj klawiszy strzałek, aby przesunąć rekina i złapać rybę.
+Naciśnij zieloną flagę, aby rozpocząć grę. Użyj klawiszy strzałek, aby poruszać rekinem i łapać ryby.
 
 --- collapse ---
 ---
@@ -27,7 +29,7 @@ title: Czego się nauczysz
 
 + Dodawania i usuwania bloków kodu
 + Podstawowego ruchu: poruszania się krokami i obracania o stopnie
-+ Korzystania z klawiatury
++ Korzystanie z elementów sterujących na klawiaturze
 + Używania współrzędnych (x, y) do przestawiania duszków
 + Zmieniać wygląd sceny oraz duszków z kostiumami i wyświetlania/ukrywania poleceń
 + Używania wielu duszków na ekranie

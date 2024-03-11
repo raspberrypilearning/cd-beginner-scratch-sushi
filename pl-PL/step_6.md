@@ -1,6 +1,6 @@
 ## Wszystkie duszki
 
-Teraz masz rekina, którym możesz poruszać za pomocą klawiszy strzałek. Nieźle! Czas dodać rybę, którą by mógł złapać.
+Teraz masz rekina, którym możesz poruszać za pomocą klawiszy strzałek. Nieźle! Czas dodać rybę, którą mógłby złapać.
 
 --- task ---
 
@@ -12,7 +12,7 @@ Jeśli twoja ryba jest trochę duża w porównaniu z twoim rekinem, możesz uży
 
 ![Kontrola rozmiaru duszka](images/sprites2.png)
 
-Zmień liczbę w kontrolce rozmiaru, aby zwiększyć lub zmniejszyć duszka.
+Zmień liczbę w polu Rozmiar, aby zwiększyć lub zmniejszyć duszka.
 
 --- /task ---
 
@@ -23,9 +23,11 @@ Zmień liczbę w kontrolce rozmiaru, aby zwiększyć lub zmniejszyć duszka.
 title: A co z rekinem poruszającym się wstecz?
 ---
 
-Wygląda trochę śmiesznie, gdy rekin płynie do tyłu. Tak jak zwykle odwracasz się zamiast chodzić do tyłu, tak rekin również odwróciłby się, zamiast pływać do tyłu. Na szczęście dla Ciebie Scratch ma do tego blok!
+Wygląda trochę śmiesznie, gdy rekin płynie do tyłu. Tak jak ty zwykle odwracasz się, zamiast chodzić do tyłu, tak rekin powinien się odwrócić, zamiast płynąć do tyłu. Na szczęście dla Ciebie Scratch ma do tego odpowiednie bloki!
 
-Blok `ustaw kierunek na`{:class="block3motion"} pozwala wybrać kierunek, w który odwraca się twój duszek. Znajdziesz go w sekcji bloków **Ruch**. Możesz wpisać dowolną liczbę stopni, aby skierować duszka w dowolnym kierunku. --- /collapse ---
+Blok `ustaw kierunek na`{:class="block3motion"} pozwala wybrać kierunek, w który odwraca się twój duszek. Znajdziesz go w sekcji bloków **Ruch**. Możesz wpisać dowolną liczbę stopni, aby skierować duszka w dowolnym kierunku.
+
+--- /collapse ---
 
 --- task --- Chwyć kilka kopii bloku `ustaw kierunek na`{:class="block3motion"} z listy **Ruch** i połącz je z kodem Twojego rekina, tak jak poniżej:
 
@@ -45,7 +47,7 @@ Blok `ustaw kierunek na`{:class="block3motion"} pozwala wybrać kierunek, w któ
 
 --- task --- Zmień liczbę kroków w bloku `przesuń`{:class="block3motion"} z `-10` na `10`.
 
-Jeśli spróbujesz przesunąć rekina teraz po dodaniu bloków `ustaw kierunek na`{:class="block3motion"}, możesz zauważyć coś dziwnego. Rekin może nie odwracać się tak jak powinien!
+Jeśli spróbujesz teraz przesunąć rekina po dodaniu bloków `point in direction`{:class="block3motion"}, możesz zauważyć, że dzieje się coś dziwnego. Rekin może nie obracać się prawidłowo!
 
 ![Rekin do góry nogami](images/spritesUpsideDown.png)
 

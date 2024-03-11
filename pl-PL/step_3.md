@@ -19,26 +19,30 @@ Wszystkie bloki w klikniętej kategorii są wyświetlane na liście:
 
 ![](images/code2b.png)
 
-Możesz kliknąć dowolny blok, a następnie przeciągnąć go do panelu bieżącego duszka i upuścić go. Po umieszczeniu go w panelu możesz go przenosić i łączyć z innymi blokami.
+Po umieszczeniu go w panelu możesz go przenosić i łączyć z innymi blokami. Po umieszczeniu go w panelu możesz go przenosić i łączyć z innymi blokami.
 
 --- /collapse ---
 
 Jeśli chcesz zobaczyć, co robi blok, kliknij go dwukrotnie, aby go uruchomić!
 
---- task --- Spróbuj dwukrotnie kliknąć na niektóre bloki, aby zobaczyć, co robią. --- /task ---
+--- task ---
+
+Spróbuj dwukrotnie kliknąć na niektóre bloki, aby zobaczyć, co robią.
+
+--- /task ---
 
 --- collapse ---
 ---
 title: Uruchamianie kodu
 ---
 
-Zwykle chcesz, aby Twój kod uruchamiał się automatycznie, gdy wydarzy się coś konkretnego. Dlatego wiele z twoich programów rozpocznie się od bloku z kategorii **Zdarzenia**, najczęściej od tego:
+Zazwyczaj kod ma być uruchamiany automatycznie za każdym razem, gdy wydarzy się coś konkretnego. Dlatego wiele programów będzie rozpoczynać się od bloku z kategorii **Events**, najczęściej tego:
 
 ```blocks3
     kiedy kliknięto zieloną flagę
 ```
 
-Bloki kodu podłączone do tego bloku będą uruchamiane po kliknięciu **zielonej flagi**.
+Bloki kodu połączone z tym blokiem zostaną uruchomione po kliknięciu **zielonej flagi**.
 
 Bloki kodu uruchamiane są od góry do dołu, więc kolejność, w jakiej łączysz bloki, ma znaczenie. W tym przykładzie duszek `powie`{:class="block3looks"} `Witaj!` zanim `odtworzy`{:class="block3sound"} dźwięk `miau` (ang. meow).
 
@@ -50,17 +54,21 @@ Bloki kodu uruchamiane są od góry do dołu, więc kolejność, w jakiej łącz
 
 --- /collapse ---
 
-Usuwanie bloków kodu, których nie chcesz w swoim programie, jest proste! Po prostu przeciągnij je z powrotem do palety bloków kodu.
+Usuwanie lub kasowanie bloków kodu, których nie chcesz w swoim programie, jest łatwe! Po prostu przeciągnij je z powrotem do palety bloków kodu.
 
-**Bądź ostrożna:** przeciągając je do palety bloków kodu, usuniesz wszystkie bloki połączone z blokiem, który przeciągasz, więc upewnij się, że oddzielasz bloki kodu, które chcesz zachować, od bloków, które chcesz usunąć. Jeśli przez przypadek usuniesz niektóre bloki kodu i chcesz je odzyskać, kliknij prawym przyciskiem myszy, a następnie kliknij opcję **cofnij**, aby wszystko odzyskać.
+**Uważaj:** przeciągnięcie ich do palety bloków kodu spowoduje usunięcie wszystkich bloków połączonych z przeciągniętym blokiem, więc upewnij się, że oddzielasz bloki kodu, które chcesz zachować, od tych, które chcesz usunąć. Jeśli przez przypadek usuniesz niektóre bloki kodu i chcesz je odzyskać, kliknij prawym przyciskiem myszy, a następnie kliknij opcję **cofnij**, aby wszystko odzyskać.
 
 ![](images/code6.png)
 
---- task --- Spróbuj dodać, usunąć i przywrócić niektóre bloki kodu! --- /task ---
+--- task ---
+
+Spróbuj dodać, usunąć i przywrócić niektóre bloki kodu!
+
+--- /task ---
 
 ### Składanie wszystkiego w całość
 
-Teraz, gdy wiesz, jak przesuwać kod i sprawiać, że coś się dzieje, nadszedł czas, aby stworzyć program, który spowoduje, że kot Scratch będzie chodził w kółko!
+Teraz, gdy już wiesz, jak poruszać kodem i sprawiać, by coś się działo, nadszedł czas na stworzenie programu, który sprawi, że kot Scratch będzie chodził w kółko!
 
 --- task --- Upewnij się, że na liście duszków został wybrany duszek kota, a następnie przeciągnij następujące bloki do panelu duszka i połącz je. Znajdziesz je na listach **Zdarzenia** i **Ruch**.
 
@@ -71,15 +79,21 @@ Teraz, gdy wiesz, jak przesuwać kod i sprawiać, że coś się dzieje, nadszed�
 
 --- /task ---
 
---- task --- Kliknij zieloną flagę nad sceną.
+--- task ---
 
-![](images/code7.png) --- /task ---
+Teraz kliknij zieloną flagę nad sceną.
 
-Powinnaś zobaczyć kota idącego w linii prostej... niezupełnie tego chciałaś, prawda?
+![](images/code7.png)
+
+--- /task ---
+
+Powinieneś zobaczyć kota idącego w linii prostej... nie dokładnie to, czego chcesz, prawda?
 
 Uwaga: Jeśli klikniesz flagę zbyt wiele razy, a kot odejdzie, możesz przeciągnąć go z powrotem!
 
---- task --- Przyczep na końcu blok skręcania, aby duszek kota chodził w kółko. Jest on także na liście **Ruch**.
+--- task ---
+
+Doczep blok obrotu na końcu, aby duszek kota chodził po okręgu. Znajduje się również na liście **Ruch**.
 
 ```blocks3
     kiedy kliknięto zieloną flagę

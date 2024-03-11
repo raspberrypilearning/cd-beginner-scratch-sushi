@@ -39,7 +39,7 @@ Na podstawie spiczastych końców tego bloku możesz stwierdzić, że zwróci ci
 
 --- /collapse ---
 
-Oczywiście właśnie dodałeś blok `jeżeli...to `{:class="block3control"} bez dodawania czegokolwiek do części „to”. W tej chwili Twój skrypt sprawdza, czy duszek ryby dotyka duszka rekina, ale w rezultacie nic nie dzieje się.
+Oczywiście właśnie dodałeś blok `jeżeli...to`{:class="block3control"} bez dodawania czegokolwiek do części „to”. W tej chwili Twój skrypt sprawdza, czy duszek ryby dotyka duszka rekina, ale w rezultacie nic nie dzieje się.
 
 Możesz sprawić, że ryba zniknie, jakby zjadł ją rekin, używając bloku `ukryj`{:class="block3looks"}.
 
@@ -53,7 +53,7 @@ Możesz sprawić, że ryba zniknie, jakby zjadł ją rekin, używając bloku `uk
 
 --- /task ---
 
-Teraz, gdy rekin złapie rybę, ryba znika na dobre. To nie do końca jest super.
+Teraz gdy rekin złapie rybę, ryba znika na dobre. To nie do końca jest super.
 
 --- task --- Umieść blok `pokaż`{:class="block3looks"} z sekcji **Wygląd** na samym początku kodu ryby, aby można było zresetować grę.
 
@@ -87,10 +87,10 @@ To już lepiej, ale nie chcesz, aby gracz musiał restartować grę za każdym r
 title: Jak to działa?
 ---
 
-Jesteś tutaj sprytna: gdy ryba jest ukryta, to czeka, porusza się, a następnie pojawia się ponownie.
+Jesteś tutaj sprytny: gdy ryba jest ukryta, to czeka, porusza się, a następnie pojawia się ponownie.
 
 Wygląda na to, że pojawia się wiele ryb, ale to ten jeden duszek się porusza!
 
 --- /collapse ---
 
-To jest gra! Ale nie ma jeszcze sposobu na zapisanie wyniku lub wygranej. Możesz to również naprawić - na następnej karcie!
+To jest gra! Ale nie ma jeszcze sposobu na zapisanie wyniku lub wygranej. Możesz to również naprawić - na następnej stronie!

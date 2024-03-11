@@ -1,8 +1,18 @@
 ## Przygotowanie do pracy
 
+--- task ---
+
+Otwórz [nowy projekt w Scratchu](https://rpf.io/scratch-new){:target="_blank"}. Scratch otworzy się w nowej karcie przeglądarki.
+
+[[[working-offline]]]
+
+--- /task ---
+
 Po uruchomieniu Scratch zobaczysz okno takie jak to poniżej.
 
---- task --- Poszukaj każdego z poniższych obszarów na ekranie i zapamiętaj, gdzie są. --- /task ---
+--- task --- 
+Poszukaj każdego z poniższych obszarów na ekranie i zapamiętaj, gdzie są.
+--- /task ---
 
 ### Scena
 
@@ -50,7 +60,7 @@ Duszek zawiera:
 title: bloki kodu
 ---
 
-Kod w programie Scratch ma postać bloków, które łączysz w celu tworzenia programów. Wybierasz bloki z **palety bloków kodu**, przeciągasz je do **panelu bieżącego duszka**, a następnie łączysz je ze sobą.
+Kod w Scratchu ma postać bloków, które łączysz w celu tworzenia programów. Wybierasz bloki z **palety bloków kodu**, przeciągasz je do **panelu bieżącego duszka**, a następnie łączysz je ze sobą.
 
 Istnieje dziesięć kategorii bloków. Są one oznaczone kolorami i można wybierać między nimi, klikając elementy na liście u góry **palety bloków kodu**.
 
@@ -86,7 +96,7 @@ Wybierz kategorię **Zdarzenia** w palecie bloków kodu, kliknij blok `kiedy fla
 --- task --- Następnie przejdź do **Wygląd** w palecie bloków kodu i znajdź ten blok:
 
 ```blocks3
-    powiedz [Hello!] przez (2) sekund
+    powiedz [Witaj!] przez (2) sekund
 ```
 
 Kliknij go, przytrzymaj przycisk myszy, a następnie przeciągnij go do panelu bieżącego duszka i puść przycisk.
