@@ -4,7 +4,7 @@ W tej chwili twój rekin porusza się w kółko, ale kontrolowanie go za pomocą
 
 --- task --- Zacznij od usunięcia całego kodu, który masz dla rekina. --- /task ---
 
-Jak pewnie się domyśliłaś, będziesz potrzebowała ponownie bloków **Zdarzenia** i **Ruch**!
+Jak pewnie się domyśliłeś, będziesz potrzebować ponownie bloków **Zdarzenia** i **Ruch**!
 
 --- task --- Tym razem poszukaj tego bloku i przeciągnij go do panelu bieżącego duszka:
 
@@ -14,7 +14,7 @@ Jak pewnie się domyśliłaś, będziesz potrzebowała ponownie bloków **Zdarze
 
 Kliknij małą strzałkę (▼) obok `spacji`. Zobaczysz listę wszystkich klawiszy, które możesz wybrać. --- /task ---
 
-Będziesz potrzebowała czterech bloków `kiedy klawisz jest naciśnięty`{:class="block3events"} - po jednym dla każdego ze strzałek.
+Będziesz potrzebować czterech bloków `kiedy klawisz jest naciśnięty`{:class="block3events"} - po jednym dla każdej ze strzałek.
 
 --- task --- Aby twój rekin się poruszył, połącz te bloki z blokami **Ruch** ten sposób:
 
@@ -40,7 +40,11 @@ Będziesz potrzebowała czterech bloków `kiedy klawisz jest naciśnięty`{:clas
 
 **Uwaga**: `-10` oznacza „cofnij o 10 kroków”.
 
---- task --- Kliknij zieloną flagę, aby przetestować swój kod. --- /task ---
+--- task ---
+
+**Test:** Naciśnij kilkukrotnie przycisk strzałki w lewo i strzałki w prawo, aby przetestować kod.
+
+--- /task ---
 
 Teraz twój rekin porusza się do tyłu i do przodu, co jest całkiem fajne, ale nie porusza się w górę ani w dół. Ponadto, jeśli spojrzysz na bloki **Ruch**, zobaczysz, że nie ma żadnych bloków dla ruchu „w górę” lub „w dół”. Istnieje jednak wiele związanych ze współrzędnymi **x** i **y** - spróbujmy je wykorzystać!
 
@@ -58,7 +62,7 @@ Teraz twój rekin porusza się do tyłu i do przodu, co jest całkiem fajne, ale
 
 --- /task ---
 
-Teraz, gdy naciśniesz klawisze strzałek, rekin porusza się po scenie!
+Teraz gdy naciśniesz klawisze strzałek, rekin porusza się po scenie!
 
 --- collapse ---
 ---
@@ -81,9 +85,9 @@ Duszek może być umieszczony za pomocą współrzędnych jego środka, na przyk
 
 ### Ponowne uruchomienie gry
 
-Rekin porusza się teraz po całym ekranie, ale wyobraź sobie, że to gra: jak ją uruchomić od nowa i co się dzieje na początku każdej gry?
+Rekin porusza się teraz po całym ekranie, ale wyobraź sobie, że jest to gra: jak ją ponownie uruchomić i co dzieje się na początku każdej gry?
 
-Musisz zabrać rekina do jego pierwotnej lokalizacji, w momencie kiedy gracz rozpoczyna grę. Rozpoczną tę grę, klikając zieloną flagę, więc kiedy to się stanie, musisz zmienić współrzędne x i y duszka rekina.
+Musisz zabrać rekina do jego pierwotnej lokalizacji, w chwili kiedy gracz rozpoczyna grę. Rozpoczną tę grę, klikając zieloną flagę, więc musisz zmienić współrzędne x i y duszka rekina, gdy to nastąpi.
 
 To naprawdę proste! Środek sceny to `(0, 0)` jako współrzędne `(x, y)`.
 

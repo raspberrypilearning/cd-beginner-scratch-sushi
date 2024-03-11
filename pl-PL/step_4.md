@@ -1,14 +1,16 @@
 ## Ustawianie sceny
 
-Scratch ma bibliotekę tła i duszków, których możesz użyć, aby Twój projekt wyglądał niesamowicie.
+Scratch ma bibliotekę teł i duszków, których możesz użyć, aby Twój projekt wyglądał niesamowicie.
 
---- task --- Wybierz scenę.
+--- task ---
+
+Wybierz scenę.
 
 ![Wybór sceny](images/looksSelectStage.png)
 
 Kliknij na **Tła**.
 
-![Karta Tło](images/looksBackdrops.png)
+![Karta Tła](images/looksBackdrops.png)
 
 Kliknij ikonę **Wybierz tło z biblioteki**.
 
@@ -16,7 +18,9 @@ Kliknij ikonę **Wybierz tło z biblioteki**.
 
 Następnie wybierz swoje ulubione podwodne tło!
 
-![Scena podwodna](images/looksUnderwater.png) --- /task ---
+![Scena Scena pod wodą](images/looksUnderwater.png)
+
+--- /task ---
 
 Świetnie! Oczywiście teraz masz kota pod wodą, a koty zwykle nie są wielkimi fanami wody. Ale możesz to naprawić, ponieważ możesz zmienić kota w rekina!
 

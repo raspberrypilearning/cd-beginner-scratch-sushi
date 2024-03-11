@@ -55,11 +55,11 @@ title: Dokonywanie zmian
 
 Liczba ustawiona w bloku `czekaj`{:class="block3control"} mówi, ile **sekund** chcesz, żeby ryba czekała. `0.5` to pół sekundy.
 
-Możesz przetestować różne wartości, aby zobaczyć, która jest najlepsza dla gry. I pamiętaj, że możesz także zmienić liczbę kroków w bloku `przesuń o`{:class="block3motion"}!
+Możesz przetestować różne wartości, aby zobaczyć, które są najlepsze dla gry. I pamiętaj, że możesz także zmienić liczbę kroków w bloku `przesuń o`{:class="block3motion"}!
 
 --- /collapse ---
 
-Teraz ryba porusza się, ale musisz spowodować, żeby również odbijała się od krawędzi sceny. Po raz kolejny jest na to blok w sekcji **Ruch**!
+Teraz ryba porusza się, ale musisz spowodować, żeby również odbijała się od krawędzi sceny. Po raz kolejny jest do tego blok w sekcji **Ruch**!
 
 --- task --- Znajdź blok `jeżeli na brzegu, odbij się`{:class="block3motion"} i dodaj go zaraz po bloku `czekaj`{:class="block3control"}. --- /task ---
 
@@ -68,11 +68,11 @@ Teraz ryba porusza się, ale musisz spowodować, żeby również odbijała się 
 title: Co robi nowy blok?
 ---
 
-Blok `jeżeli na brzegu, odbij się`{:class="block3motion"} sprawdza, czy duszek dotyka krawędzi sceny i, jeśli tak jest, obraca się odpowiednio w lewo, w prawo, w górę lub w dół.
+Blok `jeżeli na brzegu, odbij się`{:class="block3motion"} sprawdza, czy duszek dotyka krawędzi sceny, a jeśli to, obraca się odpowiednio w lewo, w prawo, w górę lub w dół.
 
 --- /collapse ---
 
-Oczywiście, będzie to prowadzić do ryby w pozycji do góry nogami, więc trzeba ponownie wykorzystać blok `ustaw styl obrotu`{:class="block3motion"}.
+Oczywiście doprowadzi to do odwrócenia ryby do góry nogami, więc ponownie potrzebny jest blok `ustaw styl obrotu`{:class="block3motion"}.
 
 --- task --- Zaktualizuj swój kod, aby ustawić styl obrotu ryby na `lewo-prawo`{:class="block3motion"} na początku kodu duszka:
 
@@ -88,7 +88,7 @@ Oczywiście, będzie to prowadzić do ryby w pozycji do góry nogami, więc trze
 
 --- /task ---
 
-Ryba porusza się teraz do tyłu i do przodu, ale tylko w linii prostej - trochę zbyt łatwo jest graczowi złapać tą rybę rekinem! Musisz sprawić, aby ryba była mniej przewidywalna.
+Ryba porusza się teraz do tyłu i do przodu, ale tylko w linii prostej - trochę zbyt łatwo graczowi złapać ją rekinem! Musisz sprawić, aby ryba była mniej przewidywalna.
 
 Już wiesz z poprzedniego kroku, jak zrobić, żeby duszek się obracał, więc zacznij od tego.
 
@@ -107,7 +107,7 @@ Już wiesz z poprzedniego kroku, jak zrobić, żeby duszek się obracał, więc 
 
 --- /task ---
 
-Jest lepiej, ale ryba wciąż porusza się według wzoru. Poruszanie się ryby musi być bardziej przypadkowe. Na szczęście Scratch może ustawić dla Ciebie losowość w programie! Potrzebujesz tylko nowego rodzaju bloku, zwanego blokiem **Wyrażenia**.
+Jest lepiej, ale ryba wciąż porusza się według wzoru. Poruszanie się ryby musi być bardziej przypadkowe. Na szczęście Scratch może zrobić to za ciebie! Potrzebujesz tylko nowego rodzaju bloku, zwanego blokiem **Wyrażenia**.
 
 --- collapse ---
 ---
@@ -141,16 +141,16 @@ title: Co to jest wyrażenie (ang. operator)?
 
 --- /task ---
 
-**Uwaga**: możesz zmienić minimalną i maksymalną liczbę, z zakresu którego program wybierze losowo wartość, ale wartości domyślne (`1` i `10`) są całkiem dobre dla tej gry, więc możesz je po prostu zostawić.
+**Uwaga**: możesz zmienić minimalną i maksymalną liczbę zakresu, z którego program wybierze losowo wartość, ale wartości domyślne (`1` i `10`) są całkiem dobre dla tej gry, więc możesz je po prostu zostawić.
 
 --- task --- Kliknij zieloną flagę, aby uruchomić kod! --- /task ---
 
 --- collapse ---
 ---
-title: Co teraz robi blok pętli zawsze?
+title: Co teraz robi blok pętli "zawsze"?
 ---
 
-Blok pętli zawsze sprawia, że duszek ryby robi cztery rzeczy w kolejności:
+Blok pętli "zawsze" sprawia, że duszek ryby robi cztery rzeczy w kolejności:
 
 1. Ruch do przodu
 2. Obróć się trochę

@@ -21,11 +21,11 @@ steps:
   completion:
   - engaged
 - title: Ustawianie sceny
-- title: Poruszanie rzeczami
+- title: Poruszanie rzeczy
 - title: Wszystkie duszki
 - title: Ryby zdalnie sterowane
-- title: Złap rybę!
-- title: Zapamiętywanie wyniku
+- title: Wędkarstwo!
+- title: Zachowując wynik
   completion:
   - internal
 - title: 'Wyzwanie: wygranie gry'

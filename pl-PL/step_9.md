@@ -1,6 +1,6 @@
 ## Zapamiętywanie wyniku
 
-Aby zapamiętać ile ryb złapie gracz, musisz gdzieś przechowywać wynik oraz musisz mieć sposób na zwiększenie go i zresetowanie wyniku po ponownym uruchomieniu gry.
+Aby zapisywać liczbę złowionych przez gracza ryb, będziesz potrzebować miejsca do przechowywania wyników, sposobu ich dodawania i resetowania po ponownym uruchomieniu gry.
 
 Po pierwsze: zapisywanie wyniku!
 
@@ -21,7 +21,7 @@ Sprawdź nową zmienną!
 title: Czym są zmienne?
 ---
 
-Gdy chcesz zapisać lub przechować informacje w programie, używasz czegoś, co nazywa się **zmienną**. Pomyśl o tym jak o pudełku z etykietą: możesz w nim coś umieścić, sprawdzić, co w nim jest i zmienić to, co w nim jest. Znajdziesz zmienne w sekcji **Zmienne**, ale musisz je najpierw utworzyć, aby się tam pojawiły!
+Gdy chcesz zapisać lub przechować informacje w programie, używasz czegoś, co nazywa się **zmienną**. Pomyśl o tym jak o pudełku z etykietą: możesz w nim coś umieścić, sprawdzić, co w nim jest i zmienić to, co w nim jest. Zmienne znajdziesz w sekcji **Zmienne**, ale musisz je najpierw utworzyć, aby się tam pojawiły!
 
 --- /collapse ---
 
